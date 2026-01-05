@@ -1,0 +1,111 @@
+# Class RedHoodWeapon
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class RedHoodWeapon : EquipmentScriptBase
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/EquipmentScriptBase) → RedHoodWeapon
+
+## Inherited Members
+[MAX_REINFORCEMENT_LEVEL](/api/EquipmentScriptBase#max-reinforcement-level), [SetModel(EquipmentModel)](/api/EquipmentScriptBase#setmodel-equipmentmodel), [OnEquip(UnitModel)](/api/EquipmentScriptBase#onequip-unitmodel), [OnRelease()](/api/EquipmentScriptBase#onrelease), [OnStageRelease()](/api/EquipmentScriptBase#onstagerelease), [OnPrepareWeapon(UnitModel)](/api/EquipmentScriptBase#onprepareweapon-unitmodel), [OnCancelWeapon(UnitModel)](/api/EquipmentScriptBase#oncancelweapon-unitmodel), [OnKillMainTarget(UnitModel, UnitModel)](/api/EquipmentScriptBase#onkillmaintarget-unitmodel-unitmodel), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/EquipmentScriptBase#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/EquipmentScriptBase#ongivedamageafter-unitmodel-unitmodel-damageinfo), [OnTakeDamage(UnitModel, ref DamageInfo)](/api/EquipmentScriptBase#ontakedamage-unitmodel-ref-damageinfo), [GetReinforcementDmg()](/api/EquipmentScriptBase#getreinforcementdmg), [AddReinforcementLevel(int)](/api/EquipmentScriptBase#addreinforcementlevel-int), [GetDefense(UnitModel)](/api/EquipmentScriptBase#getdefense-unitmodel), [GetDamageFactor()](/api/EquipmentScriptBase#getdamagefactor), [GetBonus(UnitModel)](/api/EquipmentScriptBase#getbonus-unitmodel), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/EquipmentScriptBase#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OwnerHeal(bool, ref float)](/api/EquipmentScriptBase#ownerheal-bool-ref-float), [model](/api/EquipmentScriptBase#model), [reinforcementLevel](/api/EquipmentScriptBase#reinforcementlevel), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Constructors
+
+### RedHoodWeapon()
+
+```csharp
+public RedHoodWeapon()
+```
+
+## Methods
+
+### GetDamage(UnitModel)
+
+```csharp
+public override DamageInfo GetDamage(UnitModel actor)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+
+#### Returns
+
+**Type:** Global.DamageInfo
+
+### OnAnimCalled(int)
+
+```csharp
+public void OnAnimCalled(int i)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `i` | `System.Int32` |  |
+
+### OnAttackEnd(UnitModel, UnitModel)
+
+```csharp
+public override void OnAttackEnd(UnitModel actor, UnitModel target)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+| `target` | `Global.UnitModel` |  |
+
+### OnAttackStart(UnitModel, UnitModel)
+
+```csharp
+public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel actor, UnitModel target)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+| `target` | `Global.UnitModel` |  |
+
+#### Returns
+
+**Type:** Global.EquipmentScriptBase.WeaponDamageInfo
+
+### OnFixedUpdate()
+
+```csharp
+public override void OnFixedUpdate()
+```
+
+### OnStageStart()
+
+```csharp
+public override void OnStageStart()
+```
+
+### OnTakeDamage_After(float, RwbpType)
+
+```csharp
+public override bool OnTakeDamage_After(float value, RwbpType type)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `value` | `System.Single` |  |
+| `type` | `Global.RwbpType` |  |
+
+#### Returns
+
+**Type:** System.Boolean

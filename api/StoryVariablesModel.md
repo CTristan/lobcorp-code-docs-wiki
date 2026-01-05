@@ -1,0 +1,110 @@
+# Class StoryVariablesModel
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class StoryVariablesModel
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → StoryVariablesModel
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Fields
+
+### AGENT_DIE_COUNT
+
+```csharp
+public const string AGENT_DIE_COUNT = "AgentDieCount"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+## Properties
+
+### instance
+
+```csharp
+public static StoryVariablesModel instance { get; }
+```
+
+#### Property Value
+
+**Type:** Global.StoryVariablesModel
+
+## Methods
+
+### AddVariable(string, int)
+
+```csharp
+public void AddVariable(string id, int operand)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `id` | `System.String` |  |
+| `operand` | `System.Int32` |  |
+
+### ClearLocalVariables()
+
+```csharp
+public void ClearLocalVariables()
+```
+
+### GetVariable(string)
+
+```csharp
+public int GetVariable(string id)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `id` | `System.String` |  |
+
+#### Returns
+
+**Type:** System.Int32
+
+### Init()
+
+```csharp
+public void Init()
+```
+
+### LoadData()
+
+```csharp
+public void LoadData()
+```
+
+### SaveData()
+
+```csharp
+public Dictionary<string, object> SaveData()
+```
+
+#### Returns
+
+**Type:** System.Collections.Generic.Dictionary{System.String,System.Object}
+
+### SetLocalVariable(string, int)
+
+```csharp
+public void SetLocalVariable(string id, int val)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `id` | `System.String` |  |
+| `val` | `System.Int32` |  |

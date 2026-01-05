@@ -1,0 +1,145 @@
+# Class LabelData
+
+**Namespace:** [Manual](/api/Manual)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class LabelData
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → LabelData
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Constructors
+
+### LabelData()
+
+```csharp
+public LabelData()
+```
+
+## Fields
+
+### globalFontSize
+
+```csharp
+public int globalFontSize
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### globalHeight
+
+```csharp
+public float globalHeight
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### list
+
+```csharp
+public List<LabelData.LabelUnit> list
+```
+
+#### Field Value
+
+**Type:** System.Collections.Generic.List{Manual.LabelData.LabelUnit}
+
+### prefix
+
+```csharp
+public LabelData.PrefixType prefix
+```
+
+#### Field Value
+
+**Type:** Manual.LabelData.PrefixType
+
+### rect
+
+```csharp
+public Rect rect
+```
+
+#### Field Value
+
+**Type:** UnityEngine.Rect
+
+### space
+
+```csharp
+public float space
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+## Properties
+
+### h
+
+```csharp
+public float h { get; set; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### w
+
+```csharp
+public float w { get; set; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### x
+
+```csharp
+public float x { get; set; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### y
+
+```csharp
+public float y { get; set; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+## Methods
+
+### Parse(string, XmlNode)
+
+```csharp
+public static LabelData Parse(string idPrefix, XmlNode node)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `idPrefix` | `System.String` |  |
+| `node` | `System.Xml.XmlNode` |  |
+
+#### Returns
+
+**Type:** Manual.LabelData

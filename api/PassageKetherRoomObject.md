@@ -1,0 +1,71 @@
+# Class PassageKetherRoomObject
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class PassageKetherRoomObject : PassageWayObject, IMouseCommandTarget, IMouseOnPointListener, IObserver
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PassageObject](/api/PassageObject) → [PassageWayObject](/api/PassageWayObject) → PassageKetherRoomObject
+
+## Inherited Members
+[EscapeFrame](/api/PassageWayObject#escapeframe), [Update()](/api/PassageWayObject#update), [model](/api/PassageObject#model), [shaderObject](/api/PassageObject#shaderobject), [shader](/api/PassageObject#shader), [overlayShader](/api/PassageObject#overlayshader), [sefiraFrame](/api/PassageObject#sefiraframe), [type](/api/PassageObject#type), [LightObjects](/api/PassageObject#lightobjects), [mouseFocus](/api/PassageObject#mousefocus), [Height](/api/PassageObject#height), [_black](/api/PassageObject#black), [_sefiraDisabled](/api/PassageObject#sefiradisabled), [Init(PassageObjectModel)](/api/PassageObject#init-passageobjectmodel), [OnStageStart()](/api/PassageObject#onstagestart), [GetCommandTargetModel()](/api/PassageObject#getcommandtargetmodel), [HasPointListener()](/api/PassageObject#haspointlistener), [OnPointEnter()](/api/PassageObject#onpointenter), [IsRabbitExecuting()](/api/PassageObject#israbbitexecuting), [OnPointExit()](/api/PassageObject#onpointexit), [OnPointerClick()](/api/PassageObject#onpointerclick), [GetElevatorPassage(string)](/api/PassageObject#getelevatorpassage-string), [GetDoorPassage(string)](/api/PassageObject#getdoorpassage-string), [UpdateViewPosition()](/api/PassageObject#updateviewposition), [AddBloodMapObject(BloodMapObjectModel)](/api/PassageObject#addbloodmapobject-bloodmapobjectmodel), [SetAplphaRecursive(float)](/api/PassageObject#setaplpharecursive-float), [SetBlackOut()](/api/PassageObject#setblackout), [SetWhite()](/api/PassageObject#setwhite), [SetShader(float)](/api/PassageObject#setshader-float), [SetOverlayShader(Sprite)](/api/PassageObject#setoverlayshader-sprite), [SetOverlayShaderAlpha(float)](/api/PassageObject#setoverlayshaderalpha-float), [OverlayShaderActivate(bool)](/api/PassageObject#overlayshaderactivate-bool), [SetPassageFilter(Texture2D, string, string, int)](/api/PassageObject#setpassagefilter-texture2d-string-string-int), [GenRabbitFilter()](/api/PassageObject#genrabbitfilter), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Constructors
+
+### PassageKetherRoomObject()
+
+```csharp
+public PassageKetherRoomObject()
+```
+
+## Fields
+
+### ketherBackground
+
+```csharp
+public SpriteRenderer ketherBackground
+```
+
+#### Field Value
+
+**Type:** UnityEngine.SpriteRenderer
+
+### ketherFrame
+
+```csharp
+public SpriteRenderer ketherFrame
+```
+
+#### Field Value
+
+**Type:** UnityEngine.SpriteRenderer
+
+## Methods
+
+### InitKetherImage(int)
+
+```csharp
+public void InitKetherImage(int level)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `level` | `System.Int32` |  |
+
+### OnNotice(string, params object[])
+
+```csharp
+public override void OnNotice(string notice, params object[] param)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `notice` | `System.String` |  |
+| `param` | `System.Object[]` |  |

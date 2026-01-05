@@ -1,0 +1,67 @@
+# Class ThrowItem
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class ThrowItem
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → ThrowItem
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Constructors
+
+### ThrowItem()
+
+```csharp
+public ThrowItem()
+```
+
+## Fields
+
+### gameObject
+
+```csharp
+public GameObject gameObject
+```
+
+#### Field Value
+
+**Type:** UnityEngine.GameObject
+
+### setActive
+
+```csharp
+public bool setActive
+```
+
+#### Field Value
+
+**Type:** System.Boolean
+
+### sprite
+
+```csharp
+public Sprite sprite
+```
+
+#### Field Value
+
+**Type:** UnityEngine.Sprite
+
+## Properties
+
+### renderer
+
+```csharp
+[HideInInspector]
+public SpriteRenderer renderer { get; }
+```
+
+#### Property Value
+
+**Type:** UnityEngine.SpriteRenderer

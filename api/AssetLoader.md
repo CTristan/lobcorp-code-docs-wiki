@@ -1,0 +1,59 @@
+# Class AssetLoader
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class AssetLoader
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → AssetLoader
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
+## Constructors
+
+### AssetLoader()
+
+```csharp
+public AssetLoader()
+```
+
+## Methods
+
+### LoadExternalXML(string)
+
+```csharp
+public static XmlDocument LoadExternalXML(string src)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `src` | `System.String` |  |
+
+#### Returns
+
+**Type:** System.Xml.XmlDocument
+
+### LoadExternalXmlSafe(string, string, bool, string)
+
+```csharp
+public static XmlDocument LoadExternalXmlSafe(string fileName, string language, bool languageFolderExist, string prefix = "Language/")
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `fileName` | `System.String` |  |
+| `language` | `System.String` |  |
+| `languageFolderExist` | `System.Boolean` |  |
+| `prefix` | `System.String` |  |
+
+#### Returns
+
+**Type:** System.Xml.XmlDocument

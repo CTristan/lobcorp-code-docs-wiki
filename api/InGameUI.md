@@ -2,13 +2,13 @@
 
 ## Classes
 
-### [AgentGiftSlot](/api/InGameUI-AgentGiftSlot)
+### [AgentGiftSlot](/api/InGameUI/AgentGiftSlot)
 
-### [AgentGiftWindow](/api/InGameUI-AgentGiftWindow)
+### [AgentGiftWindow](/api/InGameUI/AgentGiftWindow)
 
-### [AgentUI](/api/InGameUI-AgentUI)
+### [AgentUI](/api/InGameUI/AgentUI)
 
 
 ## Enums
 
-### [AgentUI.UIAgentState](/api/InGameUI-AgentUI-UIAgentState)
+### [AgentUI.UIAgentState](/api/InGameUI/AgentUI/UIAgentState)

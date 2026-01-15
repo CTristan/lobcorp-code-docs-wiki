@@ -2,23 +2,23 @@
 
 ## Classes
 
-### [ArmPartRenderer](/api/DeadEffect-ArmPartRenderer)
+### [ArmPartRenderer](/api/DeadEffect/ArmPartRenderer)
 
-### [BloodyTreeDeadScript](/api/DeadEffect-BloodyTreeDeadScript)
+### [BloodyTreeDeadScript](/api/DeadEffect/BloodyTreeDeadScript)
 
-### [BodyPartRenderer](/api/DeadEffect-BodyPartRenderer)
+### [BodyPartRenderer](/api/DeadEffect/BodyPartRenderer)
 
-### [HeadPartRenderer](/api/DeadEffect-HeadPartRenderer)
+### [HeadPartRenderer](/api/DeadEffect/HeadPartRenderer)
 
-### [LegPartRenderer](/api/DeadEffect-LegPartRenderer)
+### [LegPartRenderer](/api/DeadEffect/LegPartRenderer)
 
-### [WorkerExecutionEffect](/api/DeadEffect-WorkerExecutionEffect)
+### [WorkerExecutionEffect](/api/DeadEffect/WorkerExecutionEffect)
 
-### [WorkerPartRenderer](/api/DeadEffect-WorkerPartRenderer)
+### [WorkerPartRenderer](/api/DeadEffect/WorkerPartRenderer)
 
-### [WraithWorkerDeadScript](/api/DeadEffect-WraithWorkerDeadScript)
+### [WraithWorkerDeadScript](/api/DeadEffect/WraithWorkerDeadScript)
 
 
 ## Enums
 
-### [BloodyTreeDeadScript.GeneratbleRegion](/api/DeadEffect-BloodyTreeDeadScript-GeneratbleRegion)
+### [BloodyTreeDeadScript.GeneratbleRegion](/api/DeadEffect/BloodyTreeDeadScript/GeneratbleRegion)

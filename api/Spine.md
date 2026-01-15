@@ -2,174 +2,194 @@
 
 ## Namespaces
 
-- [Spine.Unity](/api/Spine-Unity)
+- [Spine.Unity](/api/Spine/Unity)
 
 ## Classes
 
-### [Animation](/api/Spine-Animation)
+### [Animation](/api/Spine/Animation)
 
-### [AnimationState](/api/Spine-AnimationState)
+### [AnimationState](/api/Spine/AnimationState)
 
-### [AnimationStateData](/api/Spine-AnimationStateData)
+### [AnimationStateData](/api/Spine/AnimationStateData)
 
-### [Atlas](/api/Spine-Atlas)
+### [AnimationStateData.AnimationPairComparer](/api/Spine/AnimationStateData/AnimationPairComparer)
 
-### [AtlasAttachmentLoader](/api/Spine-AtlasAttachmentLoader)
+### [Atlas](/api/Spine/Atlas)
 
-### [AtlasPage](/api/Spine-AtlasPage)
+### [AtlasAttachmentLoader](/api/Spine/AtlasAttachmentLoader)
 
-### [AtlasRegion](/api/Spine-AtlasRegion)
+### [AtlasPage](/api/Spine/AtlasPage)
 
-### [Attachment](/api/Spine-Attachment)
+### [AtlasRegion](/api/Spine/AtlasRegion)
 
-### [AttachmentTimeline](/api/Spine-AttachmentTimeline)
+### [Attachment](/api/Spine/Attachment)
 
-### [Bone](/api/Spine-Bone)
+### [AttachmentTimeline](/api/Spine/AttachmentTimeline)
 
-### [BoneData](/api/Spine-BoneData)
+### [Bone](/api/Spine/Bone)
 
-### [BoundingBoxAttachment](/api/Spine-BoundingBoxAttachment)
+### [BoneData](/api/Spine/BoneData)
 
-### [ClippingAttachment](/api/Spine-ClippingAttachment)
+### [BoundingBoxAttachment](/api/Spine/BoundingBoxAttachment)
 
-### [ColorTimeline](/api/Spine-ColorTimeline)
+### [ClippingAttachment](/api/Spine/ClippingAttachment)
 
-### [CurveTimeline](/api/Spine-CurveTimeline)
+### [ColorTimeline](/api/Spine/ColorTimeline)
 
-### [DeformTimeline](/api/Spine-DeformTimeline)
+### [CurveTimeline](/api/Spine/CurveTimeline)
 
-### [DrawOrderTimeline](/api/Spine-DrawOrderTimeline)
+### [DeformTimeline](/api/Spine/DeformTimeline)
 
-### [Event](/api/Spine-Event)
+### [DrawOrderTimeline](/api/Spine/DrawOrderTimeline)
 
-### [EventData](/api/Spine-EventData)
+### [Event](/api/Spine/Event)
 
-### [EventTimeline](/api/Spine-EventTimeline)
+### [EventData](/api/Spine/EventData)
 
-### [ExposedList<T>](/api/Spine-ExposedList-T)
+### [EventQueue](/api/Spine/EventQueue)
 
-### [IkConstraint](/api/Spine-IkConstraint)
+### [EventTimeline](/api/Spine/EventTimeline)
 
-### [IkConstraintData](/api/Spine-IkConstraintData)
+### [ExposedList<T>](/api/Spine/ExposedList-T)
 
-### [IkConstraintTimeline](/api/Spine-IkConstraintTimeline)
+### [IkConstraint](/api/Spine/IkConstraint)
 
-### [Json](/api/Spine-Json)
+### [IkConstraintData](/api/Spine/IkConstraintData)
 
-### [MathUtils](/api/Spine-MathUtils)
+### [IkConstraintTimeline](/api/Spine/IkConstraintTimeline)
 
-### [MeshAttachment](/api/Spine-MeshAttachment)
+### [Json](/api/Spine/Json)
 
-### [PathAttachment](/api/Spine-PathAttachment)
+### [MathUtils](/api/Spine/MathUtils)
 
-### [PathConstraint](/api/Spine-PathConstraint)
+### [MeshAttachment](/api/Spine/MeshAttachment)
 
-### [PathConstraintData](/api/Spine-PathConstraintData)
+### [PathAttachment](/api/Spine/PathAttachment)
 
-### [PathConstraintMixTimeline](/api/Spine-PathConstraintMixTimeline)
+### [PathConstraint](/api/Spine/PathConstraint)
 
-### [PathConstraintPositionTimeline](/api/Spine-PathConstraintPositionTimeline)
+### [PathConstraintData](/api/Spine/PathConstraintData)
 
-### [PathConstraintSpacingTimeline](/api/Spine-PathConstraintSpacingTimeline)
+### [PathConstraintMixTimeline](/api/Spine/PathConstraintMixTimeline)
 
-### [PointAttachment](/api/Spine-PointAttachment)
+### [PathConstraintPositionTimeline](/api/Spine/PathConstraintPositionTimeline)
 
-### [Polygon](/api/Spine-Polygon)
+### [PathConstraintSpacingTimeline](/api/Spine/PathConstraintSpacingTimeline)
 
-### [Pool<T>](/api/Spine-Pool-T)
+### [PointAttachment](/api/Spine/PointAttachment)
 
-### [RegionAttachment](/api/Spine-RegionAttachment)
+### [Polygon](/api/Spine/Polygon)
 
-### [RotateTimeline](/api/Spine-RotateTimeline)
+### [Pool<T>](/api/Spine/Pool-T)
 
-### [ScaleTimeline](/api/Spine-ScaleTimeline)
+### [RegionAttachment](/api/Spine/RegionAttachment)
 
-### [ShearTimeline](/api/Spine-ShearTimeline)
+### [RotateTimeline](/api/Spine/RotateTimeline)
 
-### [Skeleton](/api/Spine-Skeleton)
+### [ScaleTimeline](/api/Spine/ScaleTimeline)
 
-### [SkeletonBinary](/api/Spine-SkeletonBinary)
+### [ShearTimeline](/api/Spine/ShearTimeline)
 
-### [SkeletonBounds](/api/Spine-SkeletonBounds)
+### [Skeleton](/api/Spine/Skeleton)
 
-### [SkeletonClipping](/api/Spine-SkeletonClipping)
+### [SkeletonBinary](/api/Spine/SkeletonBinary)
 
-### [SkeletonData](/api/Spine-SkeletonData)
+### [SkeletonBinary.Vertices](/api/Spine/SkeletonBinary/Vertices)
 
-### [SkeletonExtensions](/api/Spine-SkeletonExtensions)
+### [SkeletonBounds](/api/Spine/SkeletonBounds)
 
-### [SkeletonJson](/api/Spine-SkeletonJson)
+### [SkeletonClipping](/api/Spine/SkeletonClipping)
 
-### [Skin](/api/Spine-Skin)
+### [SkeletonData](/api/Spine/SkeletonData)
 
-### [Slot](/api/Spine-Slot)
+### [SkeletonExtensions](/api/Spine/SkeletonExtensions)
 
-### [SlotData](/api/Spine-SlotData)
+### [SkeletonJson](/api/Spine/SkeletonJson)
 
-### [TrackEntry](/api/Spine-TrackEntry)
+### [SkeletonJson.LinkedMesh](/api/Spine/SkeletonJson/LinkedMesh)
 
-### [TransformConstraint](/api/Spine-TransformConstraint)
+### [Skin](/api/Spine/Skin)
 
-### [TransformConstraintData](/api/Spine-TransformConstraintData)
+### [Skin.AttachmentKeyTupleComparer](/api/Spine/Skin/AttachmentKeyTupleComparer)
 
-### [TransformConstraintTimeline](/api/Spine-TransformConstraintTimeline)
+### [Slot](/api/Spine/Slot)
 
-### [TranslateTimeline](/api/Spine-TranslateTimeline)
+### [SlotData](/api/Spine/SlotData)
 
-### [TwoColorTimeline](/api/Spine-TwoColorTimeline)
+### [TrackEntry](/api/Spine/TrackEntry)
 
-### [VertexAttachment](/api/Spine-VertexAttachment)
+### [TransformConstraint](/api/Spine/TransformConstraint)
+
+### [TransformConstraintData](/api/Spine/TransformConstraintData)
+
+### [TransformConstraintTimeline](/api/Spine/TransformConstraintTimeline)
+
+### [TranslateTimeline](/api/Spine/TranslateTimeline)
+
+### [Triangulator](/api/Spine/Triangulator)
+
+### [TwoColorTimeline](/api/Spine/TwoColorTimeline)
+
+### [VertexAttachment](/api/Spine/VertexAttachment)
 
 
 ## Structs
 
-### [ExposedList<T>.Enumerator](/api/Spine-ExposedList-T--Enumerator)
+### [AnimationStateData.AnimationPair](/api/Spine/AnimationStateData/AnimationPair)
 
-### [Skin.AttachmentKeyTuple](/api/Spine-Skin-AttachmentKeyTuple)
+### [EventQueue.EventQueueEntry](/api/Spine/EventQueue/EventQueueEntry)
+
+### [ExposedList<T>.Enumerator](/api/Spine/ExposedList-T/Enumerator)
+
+### [Skin.AttachmentKeyTuple](/api/Spine/Skin/AttachmentKeyTuple)
 
 
 ## Interfaces
 
-### [AttachmentLoader](/api/Spine-AttachmentLoader)
+### [AttachmentLoader](/api/Spine/AttachmentLoader)
 
-### [IConstraint](/api/Spine-IConstraint)
+### [IConstraint](/api/Spine/IConstraint)
 
-### [IUpdatable](/api/Spine-IUpdatable)
+### [IUpdatable](/api/Spine/IUpdatable)
 
-### [Pool<T>.IPoolable](/api/Spine-Pool-T--IPoolable)
+### [Pool<T>.IPoolable](/api/Spine/Pool-T/IPoolable)
 
-### [TextureLoader](/api/Spine-TextureLoader)
+### [TextureLoader](/api/Spine/TextureLoader)
 
-### [Timeline](/api/Spine-Timeline)
+### [Timeline](/api/Spine/Timeline)
 
 
 ## Enums
 
-### [AttachmentType](/api/Spine-AttachmentType)
+### [AttachmentType](/api/Spine/AttachmentType)
 
-### [BlendMode](/api/Spine-BlendMode)
+### [BlendMode](/api/Spine/BlendMode)
 
-### [Format](/api/Spine-Format)
+### [EventQueue.EventType](/api/Spine/EventQueue/EventType)
 
-### [MixDirection](/api/Spine-MixDirection)
+### [Format](/api/Spine/Format)
 
-### [MixPose](/api/Spine-MixPose)
+### [MixDirection](/api/Spine/MixDirection)
 
-### [PositionMode](/api/Spine-PositionMode)
+### [MixPose](/api/Spine/MixPose)
 
-### [RotateMode](/api/Spine-RotateMode)
+### [PositionMode](/api/Spine/PositionMode)
 
-### [SpacingMode](/api/Spine-SpacingMode)
+### [RotateMode](/api/Spine/RotateMode)
 
-### [TextureFilter](/api/Spine-TextureFilter)
+### [SpacingMode](/api/Spine/SpacingMode)
 
-### [TextureWrap](/api/Spine-TextureWrap)
+### [TextureFilter](/api/Spine/TextureFilter)
 
-### [TransformMode](/api/Spine-TransformMode)
+### [TextureWrap](/api/Spine/TextureWrap)
+
+### [TimelineType](/api/Spine/TimelineType)
+
+### [TransformMode](/api/Spine/TransformMode)
 
 
 ## Delegates
 
-### [AnimationState.TrackEntryDelegate](/api/Spine-AnimationState-TrackEntryDelegate)
+### [AnimationState.TrackEntryDelegate](/api/Spine/AnimationState/TrackEntryDelegate)
 
-### [AnimationState.TrackEntryEventDelegate](/api/Spine-AnimationState-TrackEntryEventDelegate)
+### [AnimationState.TrackEntryEventDelegate](/api/Spine/AnimationState/TrackEntryEventDelegate)

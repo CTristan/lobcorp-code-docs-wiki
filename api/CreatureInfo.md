@@ -2,52 +2,52 @@
 
 ## Classes
 
-### [ArmorSlot](/api/CreatureInfo-ArmorSlot)
+### [ArmorSlot](/api/CreatureInfo/ArmorSlot)
 
-### [CreatureInfoCaretakingRoot](/api/CreatureInfo-CreatureInfoCaretakingRoot)
+### [CreatureInfoCaretakingRoot](/api/CreatureInfo/CreatureInfoCaretakingRoot)
 
-### [CreatureInfoCaretakingSlot](/api/CreatureInfo-CreatureInfoCaretakingSlot)
+### [CreatureInfoCaretakingSlot](/api/CreatureInfo/CreatureInfoCaretakingSlot)
 
-### [CreatureInfoCodex](/api/CreatureInfo-CreatureInfoCodex)
+### [CreatureInfoCodex](/api/CreatureInfo/CreatureInfoCodex)
 
-### [CreatureInfoCodex.SortData](/api/CreatureInfo-CreatureInfoCodex-SortData)
+### [CreatureInfoCodex.SortData](/api/CreatureInfo/CreatureInfoCodex/SortData)
 
-### [CreatureInfoCodexSlot](/api/CreatureInfo-CreatureInfoCodexSlot)
+### [CreatureInfoCodexSlot](/api/CreatureInfo/CreatureInfoCodexSlot)
 
-### [CreatureInfoEquipmentRoot](/api/CreatureInfo-CreatureInfoEquipmentRoot)
+### [CreatureInfoEquipmentRoot](/api/CreatureInfo/CreatureInfoEquipmentRoot)
 
-### [CreatureInfoEscapePatternSlot](/api/CreatureInfo-CreatureInfoEscapePatternSlot)
+### [CreatureInfoEscapePatternSlot](/api/CreatureInfo/CreatureInfoEscapePatternSlot)
 
-### [CreatureInfoEscapeRoot](/api/CreatureInfo-CreatureInfoEscapeRoot)
+### [CreatureInfoEscapeRoot](/api/CreatureInfo/CreatureInfoEscapeRoot)
 
-### [CreatureInfoKitDataSlot](/api/CreatureInfo-CreatureInfoKitDataSlot)
+### [CreatureInfoKitDataSlot](/api/CreatureInfo/CreatureInfoKitDataSlot)
 
-### [CreatureInfoKitLayoutController](/api/CreatureInfo-CreatureInfoKitLayoutController)
+### [CreatureInfoKitLayoutController](/api/CreatureInfo/CreatureInfoKitLayoutController)
 
-### [CreatureInfoKitObserveLevelEffectSlot](/api/CreatureInfo-CreatureInfoKitObserveLevelEffectSlot)
+### [CreatureInfoKitObserveLevelEffectSlot](/api/CreatureInfo/CreatureInfoKitObserveLevelEffectSlot)
 
-### [CreatureInfoKitOpenArea](/api/CreatureInfo-CreatureInfoKitOpenArea)
+### [CreatureInfoKitOpenArea](/api/CreatureInfo/CreatureInfoKitOpenArea)
 
-### [CreatureInfoKitStatRoot](/api/CreatureInfo-CreatureInfoKitStatRoot)
+### [CreatureInfoKitStatRoot](/api/CreatureInfo/CreatureInfoKitStatRoot)
 
-### [CreatureInfoObserveLevelEffectSlot](/api/CreatureInfo-CreatureInfoObserveLevelEffectSlot)
+### [CreatureInfoObserveLevelEffectSlot](/api/CreatureInfo/CreatureInfoObserveLevelEffectSlot)
 
-### [CreatureInfoOpenArea](/api/CreatureInfo-CreatureInfoOpenArea)
+### [CreatureInfoOpenArea](/api/CreatureInfo/CreatureInfoOpenArea)
 
-### [CreatureInfoStatFeelingStateSlot](/api/CreatureInfo-CreatureInfoStatFeelingStateSlot)
+### [CreatureInfoStatFeelingStateSlot](/api/CreatureInfo/CreatureInfoStatFeelingStateSlot)
 
-### [CreatureInfoStatRoot](/api/CreatureInfo-CreatureInfoStatRoot)
+### [CreatureInfoStatRoot](/api/CreatureInfo/CreatureInfoStatRoot)
 
-### [CreatureInfoWorkDamageSlot](/api/CreatureInfo-CreatureInfoWorkDamageSlot)
+### [CreatureInfoWorkDamageSlot](/api/CreatureInfo/CreatureInfoWorkDamageSlot)
 
-### [CreatureInfoWorkRoot](/api/CreatureInfo-CreatureInfoWorkRoot)
+### [CreatureInfoWorkRoot](/api/CreatureInfo/CreatureInfoWorkRoot)
 
-### [CreatureInfoWorkSlot](/api/CreatureInfo-CreatureInfoWorkSlot)
+### [CreatureInfoWorkSlot](/api/CreatureInfo/CreatureInfoWorkSlot)
 
-### [CreatureInfoWorkSuccessRateRoot](/api/CreatureInfo-CreatureInfoWorkSuccessRateRoot)
+### [CreatureInfoWorkSuccessRateRoot](/api/CreatureInfo/CreatureInfoWorkSuccessRateRoot)
 
-### [EquipSlot](/api/CreatureInfo-EquipSlot)
+### [EquipSlot](/api/CreatureInfo/EquipSlot)
 
-### [GiftSlot](/api/CreatureInfo-GiftSlot)
+### [GiftSlot](/api/CreatureInfo/GiftSlot)
 
-### [WeaponSlot](/api/CreatureInfo-WeaponSlot)
+### [WeaponSlot](/api/CreatureInfo/WeaponSlot)

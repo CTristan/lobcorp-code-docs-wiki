@@ -1,0 +1,151 @@
+---
+uid: KetherBoss.EnergyConcentrateEffect
+canonical_path: /api/KetherBoss/EnergyConcentrateEffect
+---
+
+# Class EnergyConcentrateEffect
+
+**Namespace:** [KetherBoss](/api/KetherBoss)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class EnergyConcentrateEffect : KetherLastEffectBase
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → EnergyConcentrateEffect
+
+## Inherited Members
+[bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [FixedUpdate()](/api/KetherBoss/KetherLastEffectBase#fixedupdate), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+## Constructors
+
+### EnergyConcentrateEffect(KetherLastBossBase)
+
+```csharp
+public EnergyConcentrateEffect(KetherLastBossBase bossBase)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `bossBase` | `KetherBoss.KetherLastBossBase` |  |
+
+## Fields
+
+### _emit
+
+```csharp
+private MinMax _emit
+```
+
+#### Field Value
+
+**Type:** Global.MinMax
+
+### _rate
+
+```csharp
+private float _rate
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _rateDelta
+
+```csharp
+private static float _rateDelta
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _shape
+
+```csharp
+private MinMax _shape
+```
+
+#### Field Value
+
+**Type:** Global.MinMax
+
+### _speedMax
+
+```csharp
+private MinMax _speedMax
+```
+
+#### Field Value
+
+**Type:** Global.MinMax
+
+### _speedMin
+
+```csharp
+private MinMax _speedMin
+```
+
+#### Field Value
+
+**Type:** Global.MinMax
+
+### parent
+
+```csharp
+private Transform parent
+```
+
+#### Field Value
+
+**Type:** UnityEngine.Transform
+
+### particle
+
+```csharp
+private ParticleSystem particle
+```
+
+#### Field Value
+
+**Type:** UnityEngine.ParticleSystem
+
+### particleSrc
+
+```csharp
+private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+## Methods
+
+### LoadParticle()
+
+```csharp
+public void LoadParticle()
+```
+
+### SetRate(float)
+
+```csharp
+public void SetRate(float value)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `value` | `System.Single` |  |
+
+### TurnOn()
+
+```csharp
+public void TurnOn()
+```

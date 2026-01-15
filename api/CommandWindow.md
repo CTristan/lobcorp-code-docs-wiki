@@ -2,31 +2,31 @@
 
 ## Classes
 
-### [AgentEquipmentSlot](/api/CommandWindow-AgentEquipmentSlot)
+### [AgentEquipmentSlot](/api/CommandWindow/AgentEquipmentSlot)
 
-### [AgentSlot](/api/CommandWindow-AgentSlot)
+### [AgentSlot](/api/CommandWindow/AgentSlot)
 
-### [CommandWindow](/api/CommandWindow-CommandWindow)
+### [CommandWindow](/api/CommandWindow/CommandWindow)
 
-### [CommandWindowRegion](/api/CommandWindow-CommandWindowRegion)
+### [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion)
 
-### [CreatureSuppressRegion](/api/CommandWindow-CreatureSuppressRegion)
+### [CreatureSuppressRegion](/api/CommandWindow/CreatureSuppressRegion)
 
-### [KitCreatureRegion](/api/CommandWindow-KitCreatureRegion)
+### [KitCreatureRegion](/api/CommandWindow/KitCreatureRegion)
 
-### [ManagementSlot](/api/CommandWindow-ManagementSlot)
+### [ManagementSlot](/api/CommandWindow/ManagementSlot)
 
-### [SefiraMovement](/api/CommandWindow-SefiraMovement)
+### [SefiraMovement](/api/CommandWindow/SefiraMovement)
 
-### [SuppressSlot](/api/CommandWindow-SuppressSlot)
+### [SuppressSlot](/api/CommandWindow/SuppressSlot)
 
-### [WorkAllocateRegion](/api/CommandWindow-WorkAllocateRegion)
+### [WorkAllocateRegion](/api/CommandWindow/WorkAllocateRegion)
 
-### [WorkData](/api/CommandWindow-WorkData)
+### [WorkData](/api/CommandWindow/WorkData)
 
-### [WorkerSuppressRegion](/api/CommandWindow-WorkerSuppressRegion)
+### [WorkerSuppressRegion](/api/CommandWindow/WorkerSuppressRegion)
 
 
 ## Enums
 
-### [AgentState](/api/CommandWindow-AgentState)
+### [AgentState](/api/CommandWindow/AgentState)

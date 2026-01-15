@@ -1,0 +1,857 @@
+---
+uid: Global.Baku
+canonical_path: /api/Global/Misc/Baku
+---
+
+# Class Baku
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class Baku : CreatureBase
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Baku
+
+## Inherited Members
+[isolateSpriteSrc](/api/Global/Creature/CreatureBase#isolatespritesrc), [model](/api/Global/Creature/CreatureBase#model), [skill](/api/Global/Creature/CreatureBase#skill), [kitEvent](/api/Global/Creature/CreatureBase#kitevent), [hasUniqueEscapeLogic](/api/Global/Creature/CreatureBase#hasuniqueescapelogic), [isWorkAllocated](/api/Global/Creature/CreatureBase#isworkallocated), [_allocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [damage](/api/Global/Creature/CreatureBase#damage), [OnReleaseSpecialTip](/api/Global/Creature/CreatureBase#onreleasespecialtip), [specialSkillTipParamList](/api/Global/Creature/CreatureBase#specialskilltipparamlist), [_check](/api/Global/Creature/CreatureBase#check), [SetModel(CreatureModel)](/api/Global/Creature/CreatureBase#setmodel-creaturemodel), [OnInit()](/api/Global/Creature/CreatureBase#oninit), [OnViewInitPrev(CreatureUnit)](/api/Global/Creature/CreatureBase#onviewinitprev-creatureunit), [OnFixedUpdate(CreatureModel)](/api/Global/Creature/CreatureBase#onfixedupdate-creaturemodel), [OnFixedUpdateInSkill(UseSkill)](/api/Global/Creature/CreatureBase#onfixedupdateinskill-useskill), [OnSkillFailWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillfailworktick-useskill), [OnSkillSuccessWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillsuccessworktick-useskill), [OnSkillTickUpdate(UseSkill)](/api/Global/Creature/CreatureBase#onskilltickupdate-useskill), [OnSkillGoalComplete(UseSkill)](/api/Global/Creature/CreatureBase#onskillgoalcomplete-useskill), [PermitCancelCurrentWork()](/api/Global/Creature/CreatureBase#permitcancelcurrentwork), [GetKitCreatureProcessTime()](/api/Global/Creature/CreatureBase#getkitcreatureprocesstime), [OnBonusWorkProb()](/api/Global/Creature/CreatureBase#onbonusworkprob), [GetDamageMultiplierInWork(UseSkill)](/api/Global/Creature/CreatureBase#getdamagemultiplierinwork-useskill), [TranformWorkProb(float)](/api/Global/Creature/CreatureBase#tranformworkprob-float), [OnEnterRoom(UseSkill)](/api/Global/Creature/CreatureBase#onenterroom-useskill), [OnFinishWork(UseSkill)](/api/Global/Creature/CreatureBase#onfinishwork-useskill), [OnWorkCoolTimeEnd(CreatureFeelingState)](/api/Global/Creature/CreatureBase#onworkcooltimeend-creaturefeelingstate), [GetSpecialSkill()](/api/Global/Creature/CreatureBase#getspecialskill), [GetDebugText()](/api/Global/Creature/CreatureBase#getdebugtext), [OnTimerEnd()](/api/Global/Creature/CreatureBase#ontimerend), [MakeEffect(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffect-isolateroom-int), [MakeEffectAlter(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffectalter-isolateroom-int), [Prob(int)](/api/Global/Creature/CreatureBase#prob-int), [isAttackInWorkProcess()](/api/Global/Creature/CreatureBase#isattackinworkprocess), [OnAttackInWorkProcess(UseSkill)](/api/Global/Creature/CreatureBase#onattackinworkprocess-useskill), [AttackProcess(UnitModel)](/api/Global/Creature/CreatureBase#attackprocess-unitmodel), [AutoFeelingDown()](/api/Global/Creature/CreatureBase#autofeelingdown), [AgentAnimCalled(int, WorkerModel)](/api/Global/Creature/CreatureBase#agentanimcalled-int-workermodel), [MakingEffect(string, float, string, Transform, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-transform-int), [MakingEffect(string, float)](/api/Global/Creature/CreatureBase#makingeffect-string-float), [MakeEffectAttachedToHead(string)](/api/Global/Creature/CreatureBase#makeeffectattachedtohead-string), [MakingEffect(string, float, string, Vector3, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-vector3-int), [OnAgentWorkEndAnimationPlayed(UseSkill)](/api/Global/Creature/CreatureBase#onagentworkendanimationplayed-useskill), [OnAgentAllocateWork(AgentModel)](/api/Global/Creature/CreatureBase#onagentallocatework-agentmodel), [OnSuppressed()](/api/Global/Creature/CreatureBase#onsuppressed), [OnAllocatedWork(AgentModel)](/api/Global/Creature/CreatureBase#onallocatedwork-agentmodel), [OnReleaseWorkAllocated()](/api/Global/Creature/CreatureBase#onreleaseworkallocated), [ObserveLevelChangeForSpecialSkillTip()](/api/Global/Creature/CreatureBase#observelevelchangeforspecialskilltip), [OnObserveLevelChanged()](/api/Global/Creature/CreatureBase#onobservelevelchanged), [HasUniqueProcessWorkNarration()](/api/Global/Creature/CreatureBase#hasuniqueprocessworknarration), [UniqueProcessWorkNarration(UseSkill)](/api/Global/Creature/CreatureBase#uniqueprocessworknarration-useskill), [RoomSpriteInit()](/api/Global/Creature/CreatureBase#roomspriteinit), [RoomEscapeSpriteOn()](/api/Global/Creature/CreatureBase#roomescapespriteon), [RoomEscapeSpriteOff()](/api/Global/Creature/CreatureBase#roomescapespriteoff), [RoomSkillSpriteOn()](/api/Global/Creature/CreatureBase#roomskillspriteon), [RoomSkillSpriteOff()](/api/Global/Creature/CreatureBase#roomskillspriteoff), [RoomStateSpriteOn()](/api/Global/Creature/CreatureBase#roomstatespriteon), [RoomStateSpriteOff()](/api/Global/Creature/CreatureBase#roomstatespriteoff), [OnForceSpecialSkillTipReveal(string, params object[])](/api/Global/Creature/CreatureBase#onforcespecialskilltipreveal-string-params-object), [OnWorkReleaseSpeicalSkillTipReveal(string)](/api/Global/Creature/CreatureBase#onworkreleasespeicalskilltipreveal-string), [OnWorkReleaseTipUpdate(params object[])](/api/Global/Creature/CreatureBase#onworkreleasetipupdate-params-object), [OnAgentAnimatorReseted()](/api/Global/Creature/CreatureBase#onagentanimatorreseted), [SpecialEnergyTick()](/api/Global/Creature/CreatureBase#specialenergytick), [OnFeverTimeOver()](/api/Global/Creature/CreatureBase#onfevertimeover), [OnOverlayIsolateWork()](/api/Global/Creature/CreatureBase#onoverlayisolatework), [OnOverlayIsolateObserve()](/api/Global/Creature/CreatureBase#onoverlayisolateobserve), [OnOpenObserveWindow()](/api/Global/Creature/CreatureBase#onopenobservewindow), [OnOpenWorkWindow()](/api/Global/Creature/CreatureBase#onopenworkwindow), [OnOpenCollectionWindow()](/api/Global/Creature/CreatureBase#onopencollectionwindow), [DelayAttackMotion(float)](/api/Global/Creature/CreatureBase#delayattackmotion-float), [IsAttackTargetable()](/api/Global/Creature/CreatureBase#isattacktargetable), [GetRealTargets()](/api/Global/Creature/CreatureBase#getrealtargets), [HasScriptSaveData()](/api/Global/Creature/CreatureBase#hasscriptsavedata), [GetSaveData()](/api/Global/Creature/CreatureBase#getsavedata), [LoadData(Dictionary<string, object>)](/api/Global/Creature/CreatureBase#loaddata-dictionary-string-object), [LoadScriptData()](/api/Global/Creature/CreatureBase#loadscriptdata), [SaveScriptData()](/api/Global/Creature/CreatureBase#savescriptdata), [ExistSaveData()](/api/Global/Creature/CreatureBase#existsavedata), [RemoveSaveData()](/api/Global/Creature/CreatureBase#removesavedata), [ReplaceCommand(CreatureModel)](/api/Global/Creature/CreatureBase#replacecommand-creaturemodel), [OnGamemanagerInit()](/api/Global/Creature/CreatureBase#ongamemanagerinit), [MakeEffectGlobalPos(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalpos-string-vector3), [MakeEffectGlobalPosNonTrans(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalposnontrans-string-vector3), [CanObservedByAgent(AgentModel)](/api/Global/Creature/CreatureBase#canobservedbyagent-agentmodel), [MakeSound(string)](/api/Global/Creature/CreatureBase#makesound-string), [MakeSound(string, float)](/api/Global/Creature/CreatureBase#makesound-string-float), [MakeSound(string, AudioRolloffMode)](/api/Global/Creature/CreatureBase#makesound-string-audiorolloffmode), [MakeSoundQueue(params string[])](/api/Global/Creature/CreatureBase#makesoundqueue-params-string), [MakeSoundLoop(string)](/api/Global/Creature/CreatureBase#makesoundloop-string), [OnViewDestroy()](/api/Global/Creature/CreatureBase#onviewdestroy), [IsWorkable()](/api/Global/Creature/CreatureBase#isworkable), [HasUniqueMaxObservationFinish()](/api/Global/Creature/CreatureBase#hasuniquemaxobservationfinish), [UniqueMaxObservationFinish(Desc)](/api/Global/Creature/CreatureBase#uniquemaxobservationfinish-desc), [OnChildSuppressed(ChildCreatureModel)](/api/Global/Creature/CreatureBase#onchildsuppressed-childcreaturemodel), [MakeChildCreature(UnitModel)](/api/Global/Creature/CreatureBase#makechildcreature-unitmodel), [OnKillWorker(WorkerModel)](/api/Global/Creature/CreatureBase#onkillworker-workermodel), [GenPursueCommandAlter(WorkerModel)](/api/Global/Creature/CreatureBase#genpursuecommandalter-workermodel), [hasUniqueDeadScene()](/api/Global/Creature/CreatureBase#hasuniquedeadscene), [SetHpSlider(Slider)](/api/Global/Creature/CreatureBase#sethpslider-slider), [SetCastingSlider(Slider)](/api/Global/Creature/CreatureBase#setcastingslider-slider), [HasUniqueAttackDealy()](/api/Global/Creature/CreatureBase#hasuniqueattackdealy), [CanTakeDamage(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#cantakedamage-unitmodel-damageinfo), [OnTakePhysicalDamage(UnitModel, float)](/api/Global/Creature/CreatureBase#ontakephysicaldamage-unitmodel-float), [HasUniqueFaction()](/api/Global/Creature/CreatureBase#hasuniquefaction), [OnWorkerPanic(WorkerModel)](/api/Global/Creature/CreatureBase#onworkerpanic-workermodel), [OnSelectMaxObservation(int)](/api/Global/Creature/CreatureBase#onselectmaxobservation-int), [OnLoadCreatureName(ref string)](/api/Global/Creature/CreatureBase#onloadcreaturename-ref-string), [IsSuppressable()](/api/Global/Creature/CreatureBase#issuppressable), [IsSuppressableByRoom()](/api/Global/Creature/CreatureBase#issuppressablebyroom), [OnWorkWindowSkillClicked(long)](/api/Global/Creature/CreatureBase#onworkwindowskillclicked-long), [UseDefaultDamageIgnoreMessage(DamageTextEffect)](/api/Global/Creature/CreatureBase#usedefaultdamageignoremessage-damagetexteffect), [OnWorkAllocated(SkillTypeInfo, AgentModel)](/api/Global/Creature/CreatureBase#onworkallocated-skilltypeinfo-agentmodel), [GetPhysicalDamage(out float)](/api/Global/Creature/CreatureBase#getphysicaldamage-out-float), [GetMentalDamage(out float)](/api/Global/Creature/CreatureBase#getmentaldamage-out-float), [OnSuperArmorBreak()](/api/Global/Creature/CreatureBase#onsuperarmorbreak), [UniqueStunEffect()](/api/Global/Creature/CreatureBase#uniquestuneffect), [HasEscapeUI()](/api/Global/Creature/CreatureBase#hasescapeui), [HasRoomCounter()](/api/Global/Creature/CreatureBase#hasroomcounter), [RoomCounterInit()](/api/Global/Creature/CreatureBase#roomcounterinit), [ResetQliphothCounter()](/api/Global/Creature/CreatureBase#resetqliphothcounter), [GetMaxWorkCountView()](/api/Global/Creature/CreatureBase#getmaxworkcountview), [GetQliphothCounterMax()](/api/Global/Creature/CreatureBase#getqliphothcountermax), [ReducedQliphothCounter()](/api/Global/Creature/CreatureBase#reducedqliphothcounter), [AddedQliphothCounter()](/api/Global/Creature/CreatureBase#addedqliphothcounter), [GetRadius()](/api/Global/Creature/CreatureBase#getradius), [OnElevatorStuck()](/api/Global/Creature/CreatureBase#onelevatorstuck), [OnWorkClosed(UseSkill, int)](/api/Global/Creature/CreatureBase#onworkclosed-useskill-int), [IsActivatedWorkDesc()](/api/Global/Creature/CreatureBase#isactivatedworkdesc), [IsSensoredInPassage()](/api/Global/Creature/CreatureBase#issensoredinpassage), [IsIndirectSuppressable()](/api/Global/Creature/CreatureBase#isindirectsuppressable), [GetRiskLevel()](/api/Global/Creature/CreatureBase#getrisklevel), [GetName()](/api/Global/Creature/CreatureBase#getname), [UniqueMoveControl()](/api/Global/Creature/CreatureBase#uniquemovecontrol), [HasUniqueName()](/api/Global/Creature/CreatureBase#hasuniquename), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#getdamagefactor-unitmodel-damageinfo), [OnInitialBuild()](/api/Global/Creature/CreatureBase#oninitialbuild), [HasUniqueCollectionCost(string, out string)](/api/Global/Creature/CreatureBase#hasuniquecollectioncost-string-out-string), [OnOpenCommandWindow(Button[])](/api/Global/Creature/CreatureBase#onopencommandwindow-button), [HasUniqueCommandAction(int)](/api/Global/Creature/CreatureBase#hasuniquecommandaction-int), [HasUniqueWorkSelect(int)](/api/Global/Creature/CreatureBase#hasuniqueworkselect-int), [ForcelySuccess(UseSkill)](/api/Global/Creature/CreatureBase#forcelysuccess-useskill), [ForcelyFail(UseSkill)](/api/Global/Creature/CreatureBase#forcelyfail-useskill), [TryRabbitTeleport(MapNode)](/api/Global/Creature/CreatureBase#tryrabbitteleport-mapnode), [CanEnterRoom()](/api/Global/Creature/CreatureBase#canenterroom), [AllocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [skillTriggerCheck](/api/Global/Creature/CreatureBase#skilltriggercheck), [Unit](/api/Global/Creature/CreatureBase#unit), [GetSaveSrc](/api/Global/Creature/CreatureBase#getsavesrc), [movable](/api/Global/Creature/CreatureBase#movable), [currentPassage](/api/Global/Creature/CreatureBase#currentpassage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+## Constructors
+
+### Baku()
+
+```csharp
+public Baku()
+```
+
+## Fields
+
+### _agentSleepConditionInWork
+
+```csharp
+private const int _agentSleepConditionInWork = 2
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### _animScript
+
+```csharp
+private BakuAnim _animScript
+```
+
+#### Field Value
+
+**Type:** Global.BakuAnim
+
+### _chickenMovement
+
+```csharp
+private const float _chickenMovement = 3
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryCoolTimeMax
+
+```csharp
+private const float _cryCoolTimeMax = 8
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryCoolTimeMin
+
+```csharp
+private const float _cryCoolTimeMin = 6
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryDmgMax
+
+```csharp
+private const int _cryDmgMax = 5
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### _cryDmgMin
+
+```csharp
+private const int _cryDmgMin = 3
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### _cryDmgType
+
+```csharp
+private const RwbpType _cryDmgType = W
+```
+
+#### Field Value
+
+**Type:** Global.RwbpType
+
+### _cryInitCoolTimeMax
+
+```csharp
+private const float _cryInitCoolTimeMax = 7
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryInitCoolTimeMin
+
+```csharp
+private const float _cryInitCoolTimeMin = 4
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryTimeMax
+
+```csharp
+private const float _cryTimeMax = 4
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _cryTimeMin
+
+```csharp
+private const float _cryTimeMin = 4
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _effect_chicken_cry
+
+```csharp
+private const string _effect_chicken_cry = "BakuChickenCryEffect"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### _effect_sheep_skill
+
+```csharp
+private const string _effect_sheep_skill = "BakuSheepSkillObject"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### _effect_sheep_skill_bg
+
+```csharp
+private const string _effect_sheep_skill_bg = "BakuSheepSkillBg"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### _effectSrc
+
+```csharp
+private const string _effectSrc = "Effect/Creature/Baku/"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### _motionDelayMax
+
+```csharp
+private const float _motionDelayMax = 1
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _motionDelayMin
+
+```csharp
+private const float _motionDelayMin = 0.5
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _qliphothMax
+
+```csharp
+private const int _qliphothMax = 2
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### _sheepMovement
+
+```csharp
+private const float _sheepMovement = 1
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sheepReturnTimeMax
+
+```csharp
+private const float _sheepReturnTimeMax = 70
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sheepReturnTimeMin
+
+```csharp
+private const float _sheepReturnTimeMin = 50
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sheepSkillAmmo
+
+```csharp
+private const int _sheepSkillAmmo = 5
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### _sleepCoolTimeMax
+
+```csharp
+private const float _sleepCoolTimeMax = 15
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sleepCoolTimeMin
+
+```csharp
+private const float _sleepCoolTimeMin = 10
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sleepInitCoolTimeMax
+
+```csharp
+private const float _sleepInitCoolTimeMax = 15
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _sleepInitCoolTimeMin
+
+```csharp
+private const float _sleepInitCoolTimeMin = 10
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _soundTimeMax
+
+```csharp
+private const float _soundTimeMax = 10
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _soundTimeMin
+
+```csharp
+private const float _soundTimeMin = 6
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _state
+
+```csharp
+private Baku.BakuState _state
+```
+
+#### Field Value
+
+**Type:** Global.Baku.BakuState
+
+### annoyed
+
+```csharp
+private Queue<WorkerModel> annoyed
+```
+
+#### Field Value
+
+**Type:** System.Collections.Generic.Queue{WorkerModel}
+
+### cryCoolTimer
+
+```csharp
+private Timer cryCoolTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### cryTimer
+
+```csharp
+private Timer cryTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### motionDelayTimer
+
+```csharp
+private Timer motionDelayTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### sheepReturnTimer
+
+```csharp
+private Timer sheepReturnTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### sleepCoolTimer
+
+```csharp
+private Timer sleepCoolTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### soundTimer
+
+```csharp
+private Timer soundTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### wakeup
+
+```csharp
+private Queue<WorkerModel> wakeup
+```
+
+#### Field Value
+
+**Type:** System.Collections.Generic.Queue{WorkerModel}
+
+## Properties
+
+### animScript
+
+```csharp
+public BakuAnim animScript { get; }
+```
+
+#### Property Value
+
+**Type:** Global.BakuAnim
+
+### cryCoolTime
+
+```csharp
+private static float cryCoolTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### cryDmg
+
+```csharp
+private static DamageInfo cryDmg { get; }
+```
+
+#### Property Value
+
+**Type:** Global.DamageInfo
+
+### cryInitCoolTime
+
+```csharp
+private static float cryInitCoolTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### cryTime
+
+```csharp
+private static float cryTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### motionDelay
+
+```csharp
+private static float motionDelay { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### sheepReturnTime
+
+```csharp
+private static float sheepReturnTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### sleepCoolTime
+
+```csharp
+private static float sleepCoolTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### sleepInitCoolTime
+
+```csharp
+private static float sleepInitCoolTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### soundTime
+
+```csharp
+private static float soundTime { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+## Methods
+
+### ActivateQliphothCounter()
+
+```csharp
+public override void ActivateQliphothCounter()
+```
+
+### ActivateSkill_Chicken()
+
+```csharp
+private void ActivateSkill_Chicken()
+```
+
+### ActivateSkill_Sheep()
+
+```csharp
+private void ActivateSkill_Sheep()
+```
+
+### AnnoyedWorkerWakeUp(WorkerModel)
+
+```csharp
+private void AnnoyedWorkerWakeUp(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### AnnoyWorker(WorkerModel)
+
+```csharp
+public void AnnoyWorker(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### BecomeChicken()
+
+```csharp
+public void BecomeChicken()
+```
+
+### BecomeSheep()
+
+```csharp
+public void BecomeSheep()
+```
+
+### CheckReturn()
+
+```csharp
+private void CheckReturn()
+```
+
+### CheckSleep(WorkerModel)
+
+```csharp
+public bool CheckSleep(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+#### Returns
+
+**Type:** System.Boolean
+
+### ChickenDefaultSound()
+
+```csharp
+private void ChickenDefaultSound()
+```
+
+### EndCrying()
+
+```csharp
+private void EndCrying()
+```
+
+### Escape()
+
+```csharp
+public override void Escape()
+```
+
+### FixedUpdate_Chicken()
+
+```csharp
+private void FixedUpdate_Chicken()
+```
+
+### FixedUpdate_Sheep()
+
+```csharp
+private void FixedUpdate_Sheep()
+```
+
+### IsAutoSuppressable()
+
+```csharp
+public override bool IsAutoSuppressable()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### IsCrying()
+
+```csharp
+private bool IsCrying()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### IsInSkill()
+
+```csharp
+private bool IsInSkill()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### IsMovable()
+
+```csharp
+private bool IsMovable()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### MakeEffect(string, GameObject, bool)
+
+```csharp
+private GameObject MakeEffect(string src, GameObject pivot, bool isGlobal = true)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `src` | `System.String` |  |
+| `pivot` | `UnityEngine.GameObject` |  |
+| `isGlobal` | `System.Boolean` |  |
+
+#### Returns
+
+**Type:** UnityEngine.GameObject
+
+### MakeMovement()
+
+```csharp
+private void MakeMovement()
+```
+
+### Movement_Chicken()
+
+```csharp
+private void Movement_Chicken()
+```
+
+### Movement_Sheep()
+
+```csharp
+private void Movement_Sheep()
+```
+
+### OnAfterSuppressed()
+
+```csharp
+public override bool OnAfterSuppressed()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### OnCryDamage()
+
+```csharp
+public void OnCryDamage()
+```
+
+### OnReleaseWork(UseSkill)
+
+```csharp
+public override void OnReleaseWork(UseSkill skill)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `skill` | `Global.UseSkill` |  |
+
+### OnReturn()
+
+```csharp
+public override void OnReturn()
+```
+
+### OnSkillEnd()
+
+```csharp
+public void OnSkillEnd()
+```
+
+### OnStageEnd()
+
+```csharp
+public override void OnStageEnd()
+```
+
+### OnStageRelease()
+
+```csharp
+public override void OnStageRelease()
+```
+
+### OnStageStart()
+
+```csharp
+public override void OnStageStart()
+```
+
+### OnStartCrying()
+
+```csharp
+public void OnStartCrying()
+```
+
+### OnTakeDamage(UnitModel, DamageInfo, float)
+
+```csharp
+public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+| `dmg` | `Global.DamageInfo` |  |
+| `value` | `System.Single` |  |
+
+### OnViewInit(CreatureUnit)
+
+```csharp
+public override void OnViewInit(CreatureUnit unit)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `unit` | `Global.CreatureUnit` |  |
+
+### OnWorkerAnimCalled(int)
+
+```csharp
+public void OnWorkerAnimCalled(int i)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `i` | `System.Int32` |  |
+
+### ParamInit()
+
+```csharp
+public override void ParamInit()
+```
+
+### SkillShoot_Sheep()
+
+```csharp
+private void SkillShoot_Sheep()
+```
+
+### SleepWorker(WorkerModel)
+
+```csharp
+public void SleepWorker(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### StopMovement()
+
+```csharp
+private void StopMovement()
+```
+
+### UniqueEscape()
+
+```csharp
+public override void UniqueEscape()
+```
+
+### WakedWorkerWakeUp(WorkerModel)
+
+```csharp
+private void WakedWorkerWakeUp(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### WakeWorker(WorkerModel)
+
+```csharp
+public void WakeWorker(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |

@@ -1,0 +1,1065 @@
+---
+uid: Global.Nothing
+canonical_path: /api/Global/Misc/Nothing
+---
+
+# Class Nothing
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class Nothing : CreatureBase
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Nothing
+
+## Inherited Members
+[isolateSpriteSrc](/api/Global/Creature/CreatureBase#isolatespritesrc), [model](/api/Global/Creature/CreatureBase#model), [skill](/api/Global/Creature/CreatureBase#skill), [kitEvent](/api/Global/Creature/CreatureBase#kitevent), [hasUniqueEscapeLogic](/api/Global/Creature/CreatureBase#hasuniqueescapelogic), [isWorkAllocated](/api/Global/Creature/CreatureBase#isworkallocated), [_allocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [damage](/api/Global/Creature/CreatureBase#damage), [OnReleaseSpecialTip](/api/Global/Creature/CreatureBase#onreleasespecialtip), [specialSkillTipParamList](/api/Global/Creature/CreatureBase#specialskilltipparamlist), [_check](/api/Global/Creature/CreatureBase#check), [SetModel(CreatureModel)](/api/Global/Creature/CreatureBase#setmodel-creaturemodel), [OnViewInitPrev(CreatureUnit)](/api/Global/Creature/CreatureBase#onviewinitprev-creatureunit), [OnFixedUpdateInSkill(UseSkill)](/api/Global/Creature/CreatureBase#onfixedupdateinskill-useskill), [OnSkillFailWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillfailworktick-useskill), [OnSkillSuccessWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillsuccessworktick-useskill), [OnSkillTickUpdate(UseSkill)](/api/Global/Creature/CreatureBase#onskilltickupdate-useskill), [OnSkillGoalComplete(UseSkill)](/api/Global/Creature/CreatureBase#onskillgoalcomplete-useskill), [PermitCancelCurrentWork()](/api/Global/Creature/CreatureBase#permitcancelcurrentwork), [GetKitCreatureProcessTime()](/api/Global/Creature/CreatureBase#getkitcreatureprocesstime), [OnBonusWorkProb()](/api/Global/Creature/CreatureBase#onbonusworkprob), [GetDamageMultiplierInWork(UseSkill)](/api/Global/Creature/CreatureBase#getdamagemultiplierinwork-useskill), [OnFinishWork(UseSkill)](/api/Global/Creature/CreatureBase#onfinishwork-useskill), [OnWorkCoolTimeEnd(CreatureFeelingState)](/api/Global/Creature/CreatureBase#onworkcooltimeend-creaturefeelingstate), [GetSpecialSkill()](/api/Global/Creature/CreatureBase#getspecialskill), [GetDebugText()](/api/Global/Creature/CreatureBase#getdebugtext), [OnTimerEnd()](/api/Global/Creature/CreatureBase#ontimerend), [MakeEffect(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffect-isolateroom-int), [MakeEffectAlter(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffectalter-isolateroom-int), [Prob(int)](/api/Global/Creature/CreatureBase#prob-int), [isAttackInWorkProcess()](/api/Global/Creature/CreatureBase#isattackinworkprocess), [OnAttackInWorkProcess(UseSkill)](/api/Global/Creature/CreatureBase#onattackinworkprocess-useskill), [AttackProcess(UnitModel)](/api/Global/Creature/CreatureBase#attackprocess-unitmodel), [AutoFeelingDown()](/api/Global/Creature/CreatureBase#autofeelingdown), [AgentAnimCalled(int, WorkerModel)](/api/Global/Creature/CreatureBase#agentanimcalled-int-workermodel), [MakingEffect(string, float, string, Transform, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-transform-int), [MakingEffect(string, float)](/api/Global/Creature/CreatureBase#makingeffect-string-float), [MakeEffectAttachedToHead(string)](/api/Global/Creature/CreatureBase#makeeffectattachedtohead-string), [MakingEffect(string, float, string, Vector3, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-vector3-int), [OnAgentWorkEndAnimationPlayed(UseSkill)](/api/Global/Creature/CreatureBase#onagentworkendanimationplayed-useskill), [OnAgentAllocateWork(AgentModel)](/api/Global/Creature/CreatureBase#onagentallocatework-agentmodel), [OnAllocatedWork(AgentModel)](/api/Global/Creature/CreatureBase#onallocatedwork-agentmodel), [OnReleaseWorkAllocated()](/api/Global/Creature/CreatureBase#onreleaseworkallocated), [ObserveLevelChangeForSpecialSkillTip()](/api/Global/Creature/CreatureBase#observelevelchangeforspecialskilltip), [OnObserveLevelChanged()](/api/Global/Creature/CreatureBase#onobservelevelchanged), [HasUniqueProcessWorkNarration()](/api/Global/Creature/CreatureBase#hasuniqueprocessworknarration), [UniqueProcessWorkNarration(UseSkill)](/api/Global/Creature/CreatureBase#uniqueprocessworknarration-useskill), [RoomSpriteInit()](/api/Global/Creature/CreatureBase#roomspriteinit), [RoomEscapeSpriteOn()](/api/Global/Creature/CreatureBase#roomescapespriteon), [RoomEscapeSpriteOff()](/api/Global/Creature/CreatureBase#roomescapespriteoff), [RoomSkillSpriteOn()](/api/Global/Creature/CreatureBase#roomskillspriteon), [RoomSkillSpriteOff()](/api/Global/Creature/CreatureBase#roomskillspriteoff), [RoomStateSpriteOn()](/api/Global/Creature/CreatureBase#roomstatespriteon), [RoomStateSpriteOff()](/api/Global/Creature/CreatureBase#roomstatespriteoff), [OnForceSpecialSkillTipReveal(string, params object[])](/api/Global/Creature/CreatureBase#onforcespecialskilltipreveal-string-params-object), [OnWorkReleaseSpeicalSkillTipReveal(string)](/api/Global/Creature/CreatureBase#onworkreleasespeicalskilltipreveal-string), [OnWorkReleaseTipUpdate(params object[])](/api/Global/Creature/CreatureBase#onworkreleasetipupdate-params-object), [OnAgentAnimatorReseted()](/api/Global/Creature/CreatureBase#onagentanimatorreseted), [SpecialEnergyTick()](/api/Global/Creature/CreatureBase#specialenergytick), [OnStageEnd()](/api/Global/Creature/CreatureBase#onstageend), [OnFeverTimeOver()](/api/Global/Creature/CreatureBase#onfevertimeover), [OnOverlayIsolateWork()](/api/Global/Creature/CreatureBase#onoverlayisolatework), [OnOverlayIsolateObserve()](/api/Global/Creature/CreatureBase#onoverlayisolateobserve), [OnOpenObserveWindow()](/api/Global/Creature/CreatureBase#onopenobservewindow), [OnOpenWorkWindow()](/api/Global/Creature/CreatureBase#onopenworkwindow), [OnOpenCollectionWindow()](/api/Global/Creature/CreatureBase#onopencollectionwindow), [DelayAttackMotion(float)](/api/Global/Creature/CreatureBase#delayattackmotion-float), [IsAttackTargetable()](/api/Global/Creature/CreatureBase#isattacktargetable), [GetRealTargets()](/api/Global/Creature/CreatureBase#getrealtargets), [HasScriptSaveData()](/api/Global/Creature/CreatureBase#hasscriptsavedata), [GetSaveData()](/api/Global/Creature/CreatureBase#getsavedata), [LoadData(Dictionary<string, object>)](/api/Global/Creature/CreatureBase#loaddata-dictionary-string-object), [LoadScriptData()](/api/Global/Creature/CreatureBase#loadscriptdata), [SaveScriptData()](/api/Global/Creature/CreatureBase#savescriptdata), [ExistSaveData()](/api/Global/Creature/CreatureBase#existsavedata), [RemoveSaveData()](/api/Global/Creature/CreatureBase#removesavedata), [ReplaceCommand(CreatureModel)](/api/Global/Creature/CreatureBase#replacecommand-creaturemodel), [OnGamemanagerInit()](/api/Global/Creature/CreatureBase#ongamemanagerinit), [MakeEffectGlobalPos(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalpos-string-vector3), [MakeEffectGlobalPosNonTrans(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalposnontrans-string-vector3), [CanObservedByAgent(AgentModel)](/api/Global/Creature/CreatureBase#canobservedbyagent-agentmodel), [MakeSound(string)](/api/Global/Creature/CreatureBase#makesound-string), [MakeSound(string, float)](/api/Global/Creature/CreatureBase#makesound-string-float), [MakeSound(string, AudioRolloffMode)](/api/Global/Creature/CreatureBase#makesound-string-audiorolloffmode), [MakeSoundQueue(params string[])](/api/Global/Creature/CreatureBase#makesoundqueue-params-string), [MakeSoundLoop(string)](/api/Global/Creature/CreatureBase#makesoundloop-string), [OnViewDestroy()](/api/Global/Creature/CreatureBase#onviewdestroy), [IsWorkable()](/api/Global/Creature/CreatureBase#isworkable), [HasUniqueMaxObservationFinish()](/api/Global/Creature/CreatureBase#hasuniquemaxobservationfinish), [UniqueMaxObservationFinish(Desc)](/api/Global/Creature/CreatureBase#uniquemaxobservationfinish-desc), [OnChildSuppressed(ChildCreatureModel)](/api/Global/Creature/CreatureBase#onchildsuppressed-childcreaturemodel), [MakeChildCreature(UnitModel)](/api/Global/Creature/CreatureBase#makechildcreature-unitmodel), [OnKillWorker(WorkerModel)](/api/Global/Creature/CreatureBase#onkillworker-workermodel), [GenPursueCommandAlter(WorkerModel)](/api/Global/Creature/CreatureBase#genpursuecommandalter-workermodel), [OnAfterSuppressed()](/api/Global/Creature/CreatureBase#onaftersuppressed), [hasUniqueDeadScene()](/api/Global/Creature/CreatureBase#hasuniquedeadscene), [SetHpSlider(Slider)](/api/Global/Creature/CreatureBase#sethpslider-slider), [SetCastingSlider(Slider)](/api/Global/Creature/CreatureBase#setcastingslider-slider), [HasUniqueAttackDealy()](/api/Global/Creature/CreatureBase#hasuniqueattackdealy), [CanTakeDamage(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#cantakedamage-unitmodel-damageinfo), [OnTakePhysicalDamage(UnitModel, float)](/api/Global/Creature/CreatureBase#ontakephysicaldamage-unitmodel-float), [HasUniqueFaction()](/api/Global/Creature/CreatureBase#hasuniquefaction), [OnWorkerPanic(WorkerModel)](/api/Global/Creature/CreatureBase#onworkerpanic-workermodel), [OnSelectMaxObservation(int)](/api/Global/Creature/CreatureBase#onselectmaxobservation-int), [OnLoadCreatureName(ref string)](/api/Global/Creature/CreatureBase#onloadcreaturename-ref-string), [IsSuppressable()](/api/Global/Creature/CreatureBase#issuppressable), [IsSuppressableByRoom()](/api/Global/Creature/CreatureBase#issuppressablebyroom), [IsAutoSuppressable()](/api/Global/Creature/CreatureBase#isautosuppressable), [OnWorkWindowSkillClicked(long)](/api/Global/Creature/CreatureBase#onworkwindowskillclicked-long), [UseDefaultDamageIgnoreMessage(DamageTextEffect)](/api/Global/Creature/CreatureBase#usedefaultdamageignoremessage-damagetexteffect), [OnWorkAllocated(SkillTypeInfo, AgentModel)](/api/Global/Creature/CreatureBase#onworkallocated-skilltypeinfo-agentmodel), [GetPhysicalDamage(out float)](/api/Global/Creature/CreatureBase#getphysicaldamage-out-float), [GetMentalDamage(out float)](/api/Global/Creature/CreatureBase#getmentaldamage-out-float), [OnSuperArmorBreak()](/api/Global/Creature/CreatureBase#onsuperarmorbreak), [UniqueStunEffect()](/api/Global/Creature/CreatureBase#uniquestuneffect), [HasEscapeUI()](/api/Global/Creature/CreatureBase#hasescapeui), [HasRoomCounter()](/api/Global/Creature/CreatureBase#hasroomcounter), [RoomCounterInit()](/api/Global/Creature/CreatureBase#roomcounterinit), [ResetQliphothCounter()](/api/Global/Creature/CreatureBase#resetqliphothcounter), [GetMaxWorkCountView()](/api/Global/Creature/CreatureBase#getmaxworkcountview), [GetQliphothCounterMax()](/api/Global/Creature/CreatureBase#getqliphothcountermax), [ReducedQliphothCounter()](/api/Global/Creature/CreatureBase#reducedqliphothcounter), [AddedQliphothCounter()](/api/Global/Creature/CreatureBase#addedqliphothcounter), [GetRadius()](/api/Global/Creature/CreatureBase#getradius), [OnElevatorStuck()](/api/Global/Creature/CreatureBase#onelevatorstuck), [OnWorkClosed(UseSkill, int)](/api/Global/Creature/CreatureBase#onworkclosed-useskill-int), [IsActivatedWorkDesc()](/api/Global/Creature/CreatureBase#isactivatedworkdesc), [IsSensoredInPassage()](/api/Global/Creature/CreatureBase#issensoredinpassage), [IsIndirectSuppressable()](/api/Global/Creature/CreatureBase#isindirectsuppressable), [GetRiskLevel()](/api/Global/Creature/CreatureBase#getrisklevel), [GetName()](/api/Global/Creature/CreatureBase#getname), [UniqueMoveControl()](/api/Global/Creature/CreatureBase#uniquemovecontrol), [HasUniqueName()](/api/Global/Creature/CreatureBase#hasuniquename), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#getdamagefactor-unitmodel-damageinfo), [OnInitialBuild()](/api/Global/Creature/CreatureBase#oninitialbuild), [HasUniqueCollectionCost(string, out string)](/api/Global/Creature/CreatureBase#hasuniquecollectioncost-string-out-string), [OnOpenCommandWindow(Button[])](/api/Global/Creature/CreatureBase#onopencommandwindow-button), [HasUniqueCommandAction(int)](/api/Global/Creature/CreatureBase#hasuniquecommandaction-int), [HasUniqueWorkSelect(int)](/api/Global/Creature/CreatureBase#hasuniqueworkselect-int), [ForcelySuccess(UseSkill)](/api/Global/Creature/CreatureBase#forcelysuccess-useskill), [ForcelyFail(UseSkill)](/api/Global/Creature/CreatureBase#forcelyfail-useskill), [TryRabbitTeleport(MapNode)](/api/Global/Creature/CreatureBase#tryrabbitteleport-mapnode), [CanEnterRoom()](/api/Global/Creature/CreatureBase#canenterroom), [AllocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [skillTriggerCheck](/api/Global/Creature/CreatureBase#skilltriggercheck), [Unit](/api/Global/Creature/CreatureBase#unit), [GetSaveSrc](/api/Global/Creature/CreatureBase#getsavesrc), [movable](/api/Global/Creature/CreatureBase#movable), [currentPassage](/api/Global/Creature/CreatureBase#currentpassage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+## Constructors
+
+### Nothing()
+
+```csharp
+public Nothing()
+```
+
+## Fields
+
+### _animScript
+
+```csharp
+private NothingAnim _animScript
+```
+
+#### Field Value
+
+**Type:** Global.NothingAnim
+
+### _currentMovementTargetAgent
+
+```csharp
+private AgentModel _currentMovementTargetAgent
+```
+
+#### Field Value
+
+**Type:** Global.AgentModel
+
+### _healEffectSrc
+
+```csharp
+private const string _healEffectSrc = "Effect/RecoverHP"
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### _healValueMax_1st
+
+```csharp
+private const float _healValueMax_1st = 17
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _healValueMax_2nd
+
+```csharp
+private const float _healValueMax_2nd = 33
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _healValueMin_1st
+
+```csharp
+private const float _healValueMin_1st = 17
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### _healValueMin_2nd
+
+```csharp
+private const float _healValueMin_2nd = 33
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### attackDelay
+
+```csharp
+private const float attackDelay = 2.5
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### attackRange_lv1
+
+```csharp
+public const float attackRange_lv1 = 2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### attackRange_lv2
+
+```csharp
+public const float attackRange_lv2 = 2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### attackTarget
+
+```csharp
+private UnitModel attackTarget
+```
+
+#### Field Value
+
+**Type:** Global.UnitModel
+
+### changeWorkerEscapeTime
+
+```csharp
+private const float changeWorkerEscapeTime = 3
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### changeWorkerEscapeTimer
+
+```csharp
+private Timer changeWorkerEscapeTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### changeWorkerRoomTime
+
+```csharp
+private const float changeWorkerRoomTime = 2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### changeWorkerRoomTimer
+
+```csharp
+private Timer changeWorkerRoomTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### copiedWorker
+
+```csharp
+public WorkerModel copiedWorker
+```
+
+#### Field Value
+
+**Type:** Global.WorkerModel
+
+### currentAgent
+
+```csharp
+private AgentModel currentAgent
+```
+
+#### Field Value
+
+**Type:** Global.AgentModel
+
+### currentDefSoundFrq
+
+```csharp
+private float currentDefSoundFrq
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### currentDefSoundKey
+
+```csharp
+private string currentDefSoundKey
+```
+
+#### Field Value
+
+**Type:** System.String
+
+### currentForm
+
+```csharp
+public Nothing.NothingForm currentForm
+```
+
+#### Field Value
+
+**Type:** Global.Nothing.NothingForm
+
+### defaultSkillProb
+
+```csharp
+private const float defaultSkillProb = 0.4
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### defSound
+
+```csharp
+public Timer defSound
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### evolveTime
+
+```csharp
+private const float evolveTime = 30
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### evolveTimer
+
+```csharp
+private Timer evolveTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### gonnaEscape
+
+```csharp
+private bool gonnaEscape
+```
+
+#### Field Value
+
+**Type:** System.Boolean
+
+### hatchTime
+
+```csharp
+private const float hatchTime = 30
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### hatchTimer
+
+```csharp
+private Timer hatchTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### heartBeatElap
+
+```csharp
+private float heartBeatElap
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### heartBeatFreq
+
+```csharp
+private float heartBeatFreq
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### heartBeatMax
+
+```csharp
+private const float heartBeatMax = 2.5
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### humanDefFrq
+
+```csharp
+private const float humanDefFrq = 5
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### level1DefFrq
+
+```csharp
+private const float level1DefFrq = 12
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### level2DefFrq
+
+```csharp
+private const float level2DefFrq = 25
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### maxHp_egg
+
+```csharp
+private const int maxHp_egg = 2000
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### maxHp_lv1
+
+```csharp
+private const int maxHp_lv1 = 2000
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### maxHp_lv2
+
+```csharp
+private const int maxHp_lv2 = 2000
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### movement_lv1
+
+```csharp
+private const float movement_lv1 = 2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### movement_lv2
+
+```csharp
+private const float movement_lv2 = 1.2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### moveWaitTimer
+
+```csharp
+public Timer moveWaitTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### normalAttackStack
+
+```csharp
+private int normalAttackStack
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### normalDamageMax_Lv2
+
+```csharp
+private const int normalDamageMax_Lv2 = 35
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### normalDamageMin_Lv2
+
+```csharp
+private const int normalDamageMin_Lv2 = 25
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### nothingWorker
+
+```csharp
+private NothingWorker nothingWorker
+```
+
+#### Field Value
+
+**Type:** Global.NothingWorker
+
+### passiveCancelDmg
+
+```csharp
+private const float passiveCancelDmg = 1
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### passiveCoolTime
+
+```csharp
+private const float passiveCoolTime = 10
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### passiveCoolTimer
+
+```csharp
+private Timer passiveCoolTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### passivePhaseOver
+
+```csharp
+private const float passivePhaseOver = 0.3
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### remainAttackDelay
+
+```csharp
+private float remainAttackDelay
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### skillProbPerNormalAttackStack
+
+```csharp
+private const float skillProbPerNormalAttackStack = 0.15
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### snipe
+
+```csharp
+private NothingSnipingUI snipe
+```
+
+#### Field Value
+
+**Type:** Global.NothingSnipingUI
+
+### snipingTime
+
+```csharp
+private const float snipingTime = 1
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### snipingTimer
+
+```csharp
+private Timer snipingTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### spearAttack
+
+```csharp
+private bool spearAttack
+```
+
+#### Field Value
+
+**Type:** System.Boolean
+
+### spearBindTargets
+
+```csharp
+private List<UnitModel> spearBindTargets
+```
+
+#### Field Value
+
+**Type:** System.Collections.Generic.List{UnitModel}
+
+### spearCastingTime
+
+```csharp
+private const float spearCastingTime = 2
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### spearCastingTimer
+
+```csharp
+private Timer spearCastingTimer
+```
+
+#### Field Value
+
+**Type:** Global.Timer
+
+### spearDamageMax
+
+```csharp
+private const int spearDamageMax = 60
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### spearDamageMin
+
+```csharp
+private const int spearDamageMin = 50
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### strikeDamageMax
+
+```csharp
+private const int strikeDamageMax = 300
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### strikeDamageMin
+
+```csharp
+private const int strikeDamageMin = 300
+```
+
+#### Field Value
+
+**Type:** System.Int32
+
+### strikeProb
+
+```csharp
+private const float strikeProb = 0.3
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+### targetChangeWorker
+
+```csharp
+private WorkerModel targetChangeWorker
+```
+
+#### Field Value
+
+**Type:** Global.WorkerModel
+
+### waitTime
+
+```csharp
+private float waitTime
+```
+
+#### Field Value
+
+**Type:** System.Single
+
+## Properties
+
+### animScript
+
+```csharp
+public NothingAnim animScript { get; }
+```
+
+#### Property Value
+
+**Type:** Global.NothingAnim
+
+### HealValue_1st
+
+```csharp
+private static float HealValue_1st { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### HealValue_2nd
+
+```csharp
+private static float HealValue_2nd { get; }
+```
+
+#### Property Value
+
+**Type:** System.Single
+
+### normalDamage_Lv2
+
+```csharp
+private static int normalDamage_Lv2 { get; }
+```
+
+#### Property Value
+
+**Type:** System.Int32
+
+### spearDamage
+
+```csharp
+private static int spearDamage { get; }
+```
+
+#### Property Value
+
+**Type:** System.Int32
+
+### strikeDamage
+
+```csharp
+private static int strikeDamage { get; }
+```
+
+#### Property Value
+
+**Type:** System.Int32
+
+## Methods
+
+### ActivateQliphothCounter()
+
+```csharp
+public override void ActivateQliphothCounter()
+```
+
+### CancelPassive()
+
+```csharp
+private void CancelPassive()
+```
+
+### CastSpearAttack()
+
+```csharp
+private void CastSpearAttack()
+```
+
+### EndSpearAttack()
+
+```csharp
+public void EndSpearAttack()
+```
+
+### Escape()
+
+```csharp
+public override void Escape()
+```
+
+### EscapeLv1()
+
+```csharp
+private void EscapeLv1()
+```
+
+### EscapeWorkerForm()
+
+```csharp
+private void EscapeWorkerForm()
+```
+
+### FinishSniping()
+
+```csharp
+public void FinishSniping()
+```
+
+### GetAttackTargets(List<UnitModel>, List<UnitModel>, List<UnitModel>)
+
+```csharp
+private void GetAttackTargets(List<UnitModel> outTargetsInPassage, List<UnitModel> outAttackTargets, List<UnitModel> outSpearTargets)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `outTargetsInPassage` | `System.Collections.Generic.List{UnitModel}` |  |
+| `outAttackTargets` | `System.Collections.Generic.List{UnitModel}` |  |
+| `outSpearTargets` | `System.Collections.Generic.List{UnitModel}` |  |
+
+### GetPassive()
+
+```csharp
+private void GetPassive()
+```
+
+### GiveDamageLv2NormalAttack()
+
+```csharp
+public void GiveDamageLv2NormalAttack()
+```
+
+### GiveDamageLv2SpearAttack()
+
+```csharp
+public void GiveDamageLv2SpearAttack()
+```
+
+### GiveDamageLv2StrikeAttack()
+
+```csharp
+public void GiveDamageLv2StrikeAttack()
+```
+
+### Heal()
+
+```csharp
+public void Heal()
+```
+
+### IsAttacking()
+
+```csharp
+public bool IsAttacking()
+```
+
+#### Returns
+
+**Type:** System.Boolean
+
+### MakeEffect(string)
+
+```csharp
+private GameObject MakeEffect(string src)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `src` | `System.String` |  |
+
+#### Returns
+
+**Type:** UnityEngine.GameObject
+
+### MakeExplodeEffect(UnitDirection, WorkerModel, float)
+
+```csharp
+public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `dir` | `Global.UnitDirection` |  |
+| `target` | `Global.WorkerModel` |  |
+| `size` | `System.Single` |  |
+
+### OnEnterRoom(UseSkill)
+
+```csharp
+public override void OnEnterRoom(UseSkill skill)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `skill` | `Global.UseSkill` |  |
+
+### OnFixedUpdate(CreatureModel)
+
+```csharp
+public override void OnFixedUpdate(CreatureModel creature)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `creature` | `Global.CreatureModel` |  |
+
+### OnInit()
+
+```csharp
+public override void OnInit()
+```
+
+### OnReleaseWork(UseSkill)
+
+```csharp
+public override void OnReleaseWork(UseSkill skill)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `skill` | `Global.UseSkill` |  |
+
+### OnReturn()
+
+```csharp
+public override void OnReturn()
+```
+
+### OnStageRelease()
+
+```csharp
+public override void OnStageRelease()
+```
+
+### OnStageStart()
+
+```csharp
+public override void OnStageStart()
+```
+
+### OnSuppressed()
+
+```csharp
+public override void OnSuppressed()
+```
+
+### OnTakeDamage(UnitModel, DamageInfo, float)
+
+```csharp
+public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+| `dmg` | `Global.DamageInfo` |  |
+| `value` | `System.Single` |  |
+
+### OnViewInit(CreatureUnit)
+
+```csharp
+public override void OnViewInit(CreatureUnit unit)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `unit` | `Global.CreatureUnit` |  |
+
+### ParamInit()
+
+```csharp
+public override void ParamInit()
+```
+
+### ProcessLv1()
+
+```csharp
+private void ProcessLv1()
+```
+
+### ProcessLv2()
+
+```csharp
+private void ProcessLv2()
+```
+
+### SetDefenseType()
+
+```csharp
+private void SetDefenseType()
+```
+
+### SetLv2SpearBindTargets()
+
+```csharp
+public void SetLv2SpearBindTargets()
+```
+
+### StartEvolve()
+
+```csharp
+private void StartEvolve()
+```
+
+### StartSpearAttack()
+
+```csharp
+private void StartSpearAttack()
+```
+
+### TranformWorkProb(float)
+
+```csharp
+public override float TranformWorkProb(float originWorkProb)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `originWorkProb` | `System.Single` |  |
+
+#### Returns
+
+**Type:** System.Single
+
+### Transform(NothingForm)
+
+```csharp
+private void Transform(Nothing.NothingForm form)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `form` | `Global.Nothing.NothingForm` |  |
+
+### TransformToLv1Escape()
+
+```csharp
+private void TransformToLv1Escape()
+```
+
+### TransformToWorker(WorkerModel)
+
+```csharp
+private void TransformToWorker(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### TransformToWorkerEscape(WorkerModel)
+
+```csharp
+private void TransformToWorkerEscape(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### TransformToWorkerRoom(WorkerModel)
+
+```csharp
+private void TransformToWorkerRoom(WorkerModel worker)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `worker` | `Global.WorkerModel` |  |
+
+### UniqueEscape()
+
+```csharp
+public override void UniqueEscape()
+```

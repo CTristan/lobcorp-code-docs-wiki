@@ -2,33 +2,33 @@
 
 ## Classes
 
-### [AgentSpriteChanger](/api/WorkerSpine-AgentSpriteChanger)
+### [AgentSpriteChanger](/api/WorkerSpine/AgentSpriteChanger)
 
-### [AnimatorName](/api/WorkerSpine-AnimatorName)
+### [AnimatorName](/api/WorkerSpine/AnimatorName)
 
-### [MaterialsTextureLoader2](/api/WorkerSpine-MaterialsTextureLoader2)
+### [MaterialsTextureLoader2](/api/WorkerSpine/MaterialsTextureLoader2)
 
-### [SpriteChangeData](/api/WorkerSpine-SpriteChangeData)
+### [SpriteChangeData](/api/WorkerSpine/SpriteChangeData)
 
-### [WeaponChangeData](/api/WorkerSpine-WeaponChangeData)
+### [WeaponChangeData](/api/WorkerSpine/WeaponChangeData)
 
-### [WorkerAnimatorChanger](/api/WorkerSpine-WorkerAnimatorChanger)
+### [WorkerAnimatorChanger](/api/WorkerSpine/WorkerAnimatorChanger)
 
-### [WorkerColorPreset](/api/WorkerSpine-WorkerColorPreset)
+### [WorkerColorPreset](/api/WorkerSpine/WorkerColorPreset)
 
-### [WorkerColorTest](/api/WorkerSpine-WorkerColorTest)
+### [WorkerColorTest](/api/WorkerSpine/WorkerColorTest)
 
-### [WorkerSpineAnimatorData](/api/WorkerSpine-WorkerSpineAnimatorData)
+### [WorkerSpineAnimatorData](/api/WorkerSpine/WorkerSpineAnimatorData)
 
-### [WorkerSpineAnimatorManager](/api/WorkerSpine-WorkerSpineAnimatorManager)
+### [WorkerSpineAnimatorManager](/api/WorkerSpine/WorkerSpineAnimatorManager)
 
-### [WorkerWeaponChanger](/api/WorkerSpine-WorkerWeaponChanger)
+### [WorkerWeaponChanger](/api/WorkerSpine/WorkerWeaponChanger)
 
 
 ## Enums
 
-### [DefaultOneHandedType](/api/WorkerSpine-DefaultOneHandedType)
+### [DefaultOneHandedType](/api/WorkerSpine/DefaultOneHandedType)
 
-### [DefaultTwoHandedType](/api/WorkerSpine-DefaultTwoHandedType)
+### [DefaultTwoHandedType](/api/WorkerSpine/DefaultTwoHandedType)
 
-### [WeaponType](/api/WorkerSpine-WeaponType)
+### [WeaponType](/api/WorkerSpine/WeaponType)

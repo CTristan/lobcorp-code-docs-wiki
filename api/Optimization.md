@@ -2,6 +2,6 @@
 
 ## Classes
 
-### [AutoMeshHider](/api/Optimization-AutoMeshHider)
+### [AutoMeshHider](/api/Optimization/AutoMeshHider)
 
-### [AutoUIHider](/api/Optimization-AutoUIHider)
+### [AutoUIHider](/api/Optimization/AutoUIHider)

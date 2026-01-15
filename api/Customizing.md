@@ -2,38 +2,38 @@
 
 ## Classes
 
-### [AgentData](/api/Customizing-AgentData)
+### [AgentData](/api/Customizing/AgentData)
 
-### [Appearance](/api/Customizing-Appearance)
+### [Appearance](/api/Customizing/Appearance)
 
-### [Appearance.ResourceLib](/api/Customizing-Appearance-ResourceLib)
+### [Appearance.ResourceLib](/api/Customizing/Appearance/ResourceLib)
 
-### [AppearanceUI](/api/Customizing-AppearanceUI)
+### [AppearanceUI](/api/Customizing/AppearanceUI)
 
-### [ColorPalette](/api/Customizing-ColorPalette)
+### [ColorPalette](/api/Customizing/ColorPalette)
 
-### [ColorSelector](/api/Customizing-ColorSelector)
+### [ColorSelector](/api/Customizing/ColorSelector)
 
-### [CustomizingWindow](/api/Customizing-CustomizingWindow)
+### [CustomizingWindow](/api/Customizing/CustomizingWindow)
 
-### [SpriteSelector](/api/Customizing-SpriteSelector)
+### [SpriteSelector](/api/Customizing/SpriteSelector)
 
-### [StatBonus](/api/Customizing-StatBonus)
+### [StatBonus](/api/Customizing/StatBonus)
 
-### [StatUI](/api/Customizing-StatUI)
+### [StatUI](/api/Customizing/StatUI)
 
-### [StatUI.StatController](/api/Customizing-StatUI-StatController)
+### [StatUI.StatController](/api/Customizing/StatUI/StatController)
 
 
 ## Enums
 
-### [AppearanceUI.HairRegion](/api/Customizing-AppearanceUI-HairRegion)
+### [AppearanceUI.HairRegion](/api/Customizing/AppearanceUI/HairRegion)
 
-### [SpriteSelectRegion](/api/Customizing-SpriteSelectRegion)
+### [SpriteSelectRegion](/api/Customizing/SpriteSelectRegion)
 
 
 ## Delegates
 
-### [AppearanceUI.OnCloseAction](/api/Customizing-AppearanceUI-OnCloseAction)
+### [AppearanceUI.OnCloseAction](/api/Customizing/AppearanceUI/OnCloseAction)
 
-### [SpriteSelector.OnSetSpriteAction](/api/Customizing-SpriteSelector-OnSetSpriteAction)
+### [SpriteSelector.OnSetSpriteAction](/api/Customizing/SpriteSelector/OnSetSpriteAction)

@@ -2,27 +2,27 @@
 
 ## Classes
 
-### [RabbitCaptaionConversation](/api/Rabbit-RabbitCaptaionConversation)
+### [RabbitCaptaionConversation](/api/Rabbit/RabbitCaptaionConversation)
 
-### [RabbitConversationText](/api/Rabbit-RabbitConversationText)
+### [RabbitConversationText](/api/Rabbit/RabbitConversationText)
 
-### [RabbitProtocolSefiraSlot](/api/Rabbit-RabbitProtocolSefiraSlot)
+### [RabbitProtocolSefiraSlot](/api/Rabbit/RabbitProtocolSefiraSlot)
 
-### [RabbitProtocolWindow](/api/Rabbit-RabbitProtocolWindow)
+### [RabbitProtocolWindow](/api/Rabbit/RabbitProtocolWindow)
 
-### [RabbitProtocolWindow.SefiraInfo](/api/Rabbit-RabbitProtocolWindow-SefiraInfo)
+### [RabbitProtocolWindow.SefiraInfo](/api/Rabbit/RabbitProtocolWindow/SefiraInfo)
 
-### [RabbitSpeech](/api/Rabbit-RabbitSpeech)
+### [RabbitSpeech](/api/Rabbit/RabbitSpeech)
 
-### [RabbitSpriteSetter](/api/Rabbit-RabbitSpriteSetter)
+### [RabbitSpriteSetter](/api/Rabbit/RabbitSpriteSetter)
 
-### [SpineChangeData](/api/Rabbit-SpineChangeData)
+### [SpineChangeData](/api/Rabbit/SpineChangeData)
 
 
 ## Enums
 
-### [RabbitCaptainConversationType](/api/Rabbit-RabbitCaptainConversationType)
+### [RabbitCaptainConversationType](/api/Rabbit/RabbitCaptainConversationType)
 
-### [RabbitConversationType](/api/Rabbit-RabbitConversationType)
+### [RabbitConversationType](/api/Rabbit/RabbitConversationType)
 
-### [SlotState](/api/Rabbit-SlotState)
+### [SlotState](/api/Rabbit/SlotState)

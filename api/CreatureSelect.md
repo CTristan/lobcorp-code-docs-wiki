@@ -2,4 +2,4 @@
 
 ## Classes
 
-### [CreatureSelectUnit](/api/CreatureSelect-CreatureSelectUnit)
+### [CreatureSelectUnit](/api/CreatureSelect/CreatureSelectUnit)

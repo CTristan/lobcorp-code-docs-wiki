@@ -2,13 +2,13 @@
 
 ## Classes
 
-### [CameraRatio](/api/LetterboxCamera-CameraRatio)
+### [CameraRatio](/api/LetterboxCamera/CameraRatio)
 
-### [ForceCameraRatio](/api/LetterboxCamera-ForceCameraRatio)
+### [ForceCameraRatio](/api/LetterboxCamera/ForceCameraRatio)
 
-### [Util](/api/LetterboxCamera-Util)
+### [Util](/api/LetterboxCamera/Util)
 
 
 ## Enums
 
-### [CameraRatio.CameraAnchor](/api/LetterboxCamera-CameraRatio-CameraAnchor)
+### [CameraRatio.CameraAnchor](/api/LetterboxCamera/CameraRatio/CameraAnchor)

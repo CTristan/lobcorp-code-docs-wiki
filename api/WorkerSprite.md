@@ -2,87 +2,87 @@
 
 ## Classes
 
-### [AtlasLoadData](/api/WorkerSprite-AtlasLoadData)
+### [AtlasLoadData](/api/WorkerSprite/AtlasLoadData)
 
-### [EGOGiftRenderData](/api/WorkerSprite-EGOGiftRenderData)
+### [EGOGiftRenderData](/api/WorkerSprite/EGOGiftRenderData)
 
-### [EquipmentSpriteManager](/api/WorkerSprite-EquipmentSpriteManager)
+### [EquipmentSpriteManager](/api/WorkerSprite/EquipmentSpriteManager)
 
-### [SpineChangeData](/api/WorkerSprite-SpineChangeData)
+### [SpineChangeData](/api/WorkerSprite/SpineChangeData)
 
-### [SpriteLoadData](/api/WorkerSprite-SpriteLoadData)
+### [SpriteLoadData](/api/WorkerSprite/SpriteLoadData)
 
-### [SpriteResourceLoadData](/api/WorkerSprite-SpriteResourceLoadData)
+### [SpriteResourceLoadData](/api/WorkerSprite/SpriteResourceLoadData)
 
-### [UniqueWeaponSprite](/api/WorkerSprite-UniqueWeaponSprite)
+### [UniqueWeaponSprite](/api/WorkerSprite/UniqueWeaponSprite)
 
-### [UniqueWeaponSpritePortraitTransformInfo](/api/WorkerSprite-UniqueWeaponSpritePortraitTransformInfo)
+### [UniqueWeaponSpritePortraitTransformInfo](/api/WorkerSprite/UniqueWeaponSpritePortraitTransformInfo)
 
-### [UniqueWeaponSpriteUnit](/api/WorkerSprite-UniqueWeaponSpriteUnit)
+### [UniqueWeaponSpriteUnit](/api/WorkerSprite/UniqueWeaponSpriteUnit)
 
-### [WeaponRegionKey](/api/WorkerSprite-WeaponRegionKey)
+### [WeaponRegionKey](/api/WorkerSprite/WeaponRegionKey)
 
-### [WorkerAmrorSet](/api/WorkerSprite-WorkerAmrorSet)
+### [WorkerAmrorSet](/api/WorkerSprite/WorkerAmrorSet)
 
-### [WorkerAttachmentSprite](/api/WorkerSprite-WorkerAttachmentSprite)
+### [WorkerAttachmentSprite](/api/WorkerSprite/WorkerAttachmentSprite)
 
-### [WorkerAttachmentSprite.AttachDatabase](/api/WorkerSprite-WorkerAttachmentSprite-AttachDatabase)
+### [WorkerAttachmentSprite.AttachDatabase](/api/WorkerSprite/WorkerAttachmentSprite/AttachDatabase)
 
-### [WorkerBasicRegionKey](/api/WorkerSprite-WorkerBasicRegionKey)
+### [WorkerBasicRegionKey](/api/WorkerSprite/WorkerBasicRegionKey)
 
-### [WorkerBasicSprite](/api/WorkerSprite-WorkerBasicSprite)
+### [WorkerBasicSprite](/api/WorkerSprite/WorkerBasicSprite)
 
-### [WorkerBasicSprite.ResourceData](/api/WorkerSprite-WorkerBasicSprite-ResourceData)
+### [WorkerBasicSprite.ResourceData](/api/WorkerSprite/WorkerBasicSprite/ResourceData)
 
-### [WorkerBasicSpriteController](/api/WorkerSprite-WorkerBasicSpriteController)
+### [WorkerBasicSpriteController](/api/WorkerSprite/WorkerBasicSpriteController)
 
-### [WorkerBodyRegionKey](/api/WorkerSprite-WorkerBodyRegionKey)
+### [WorkerBodyRegionKey](/api/WorkerSprite/WorkerBodyRegionKey)
 
-### [WorkerClothesSprite](/api/WorkerSprite-WorkerClothesSprite)
+### [WorkerClothesSprite](/api/WorkerSprite/WorkerClothesSprite)
 
-### [WorkerCurrentSpriteSet](/api/WorkerSprite-WorkerCurrentSpriteSet)
+### [WorkerCurrentSpriteSet](/api/WorkerSprite/WorkerCurrentSpriteSet)
 
-### [WorkerEquipmentSprite](/api/WorkerSprite-WorkerEquipmentSprite)
+### [WorkerEquipmentSprite](/api/WorkerSprite/WorkerEquipmentSprite)
 
-### [WorkerEquipmentSpriteController](/api/WorkerSprite-WorkerEquipmentSpriteController)
+### [WorkerEquipmentSpriteController](/api/WorkerSprite/WorkerEquipmentSpriteController)
 
-### [WorkerSprite](/api/WorkerSprite-WorkerSprite)
+### [WorkerSprite](/api/WorkerSprite/WorkerSprite)
 
-### [WorkerSprite.ReplacedAttachment](/api/WorkerSprite-WorkerSprite-ReplacedAttachment)
+### [WorkerSprite.ReplacedAttachment](/api/WorkerSprite/WorkerSprite/ReplacedAttachment)
 
-### [WorkerSprite_WorkerSpriteManager](/api/WorkerSprite-WorkerSprite_WorkerSpriteManager)
+### [WorkerSprite_WorkerSpriteManager](/api/WorkerSprite/WorkerSprite_WorkerSpriteManager)
 
-### [WorkerSpriteData](/api/WorkerSprite-WorkerSpriteData)
+### [WorkerSpriteData](/api/WorkerSprite/WorkerSpriteData)
 
-### [WorkerSpriteSaveData](/api/WorkerSprite-WorkerSpriteSaveData)
+### [WorkerSpriteSaveData](/api/WorkerSprite/WorkerSpriteSaveData)
 
-### [WorkerSpriteSaveData.ColorData](/api/WorkerSprite-WorkerSpriteSaveData-ColorData)
+### [WorkerSpriteSaveData.ColorData](/api/WorkerSprite/WorkerSpriteSaveData/ColorData)
 
-### [WorkerSpriteSaveData.Pair](/api/WorkerSprite-WorkerSpriteSaveData-Pair)
+### [WorkerSpriteSaveData.Pair](/api/WorkerSprite/WorkerSpriteSaveData/Pair)
 
-### [WorkerSpriteSetter](/api/WorkerSprite-WorkerSpriteSetter)
+### [WorkerSpriteSetter](/api/WorkerSprite/WorkerSpriteSetter)
 
-### [WorkerWeaponSprite](/api/WorkerSprite-WorkerWeaponSprite)
+### [WorkerWeaponSprite](/api/WorkerSprite/WorkerWeaponSprite)
 
-### [WorkerWeaponSprite.WeaponDatabase](/api/WorkerSprite-WorkerWeaponSprite-WeaponDatabase)
+### [WorkerWeaponSprite.WeaponDatabase](/api/WorkerSprite/WorkerWeaponSprite/WeaponDatabase)
 
 
 ## Enums
 
-### [BasicSpriteRegion](/api/WorkerSprite-BasicSpriteRegion)
+### [BasicSpriteRegion](/api/WorkerSprite/BasicSpriteRegion)
 
-### [BodySpriteRegion](/api/WorkerSprite-BodySpriteRegion)
+### [BodySpriteRegion](/api/WorkerSprite/BodySpriteRegion)
 
-### [EquipmentSpriteRegion](/api/WorkerSprite-EquipmentSpriteRegion)
+### [EquipmentSpriteRegion](/api/WorkerSprite/EquipmentSpriteRegion)
 
-### [SpriteRegion](/api/WorkerSprite-SpriteRegion)
+### [SpriteRegion](/api/WorkerSprite/SpriteRegion)
 
-### [SpriteRegionType](/api/WorkerSprite-SpriteRegionType)
+### [SpriteRegionType](/api/WorkerSprite/SpriteRegionType)
 
-### [SpriteResourceType](/api/WorkerSprite-SpriteResourceType)
+### [SpriteResourceType](/api/WorkerSprite/SpriteResourceType)
 
-### [UniqueWeaponPos](/api/WorkerSprite-UniqueWeaponPos)
+### [UniqueWeaponPos](/api/WorkerSprite/UniqueWeaponPos)
 
-### [WeaponSpriteType](/api/WorkerSprite-WeaponSpriteType)
+### [WeaponSpriteType](/api/WorkerSprite/WeaponSpriteType)
 
-### [WorkerFaceType](/api/WorkerSprite-WorkerFaceType)
+### [WorkerFaceType](/api/WorkerSprite/WorkerFaceType)

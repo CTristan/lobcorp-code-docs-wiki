@@ -2,82 +2,82 @@
 
 ## Classes
 
-### [BinahAction](/api/BinahBoss-BinahAction)
+### [BinahAction](/api/BinahBoss/BinahAction)
 
-### [BinahBlackFogBuf](/api/BinahBoss-BinahBlackFogBuf)
+### [BinahBlackFogBuf](/api/BinahBoss/BinahBlackFogBuf)
 
-### [BinahCollision](/api/BinahBoss-BinahCollision)
+### [BinahCollision](/api/BinahBoss/BinahCollision)
 
-### [BinahIdle](/api/BinahBoss-BinahIdle)
+### [BinahIdle](/api/BinahBoss/BinahIdle)
 
-### [BinahJusticeDebuf](/api/BinahBoss-BinahJusticeDebuf)
+### [BinahJusticeDebuf](/api/BinahBoss/BinahJusticeDebuf)
 
-### [BinahMovement](/api/BinahBoss-BinahMovement)
+### [BinahMovement](/api/BinahBoss/BinahMovement)
 
-### [BinahMovementModule](/api/BinahBoss-BinahMovementModule)
+### [BinahMovementModule](/api/BinahBoss/BinahMovementModule)
 
-### [BinahNearSlowBuf](/api/BinahBoss-BinahNearSlowBuf)
+### [BinahNearSlowBuf](/api/BinahBoss/BinahNearSlowBuf)
 
-### [BinahOverload](/api/BinahBoss-BinahOverload)
+### [BinahOverload](/api/BinahBoss/BinahOverload)
 
-### [BinahOverloadActivation](/api/BinahBoss-BinahOverloadActivation)
+### [BinahOverloadActivation](/api/BinahBoss/BinahOverloadActivation)
 
-### [BinahOverloadClearParticle](/api/BinahBoss-BinahOverloadClearParticle)
+### [BinahOverloadClearParticle](/api/BinahBoss/BinahOverloadClearParticle)
 
-### [BinahOverloadUI](/api/BinahBoss-BinahOverloadUI)
+### [BinahOverloadUI](/api/BinahBoss/BinahOverloadUI)
 
-### [BinahPhaseExecution](/api/BinahBoss-BinahPhaseExecution)
+### [BinahPhaseExecution](/api/BinahBoss/BinahPhaseExecution)
 
-### [BinahProjectile](/api/BinahBoss-BinahProjectile)
+### [BinahProjectile](/api/BinahBoss/BinahProjectile)
 
-### [BinahRecoverBuf](/api/BinahBoss-BinahRecoverBuf)
+### [BinahRecoverBuf](/api/BinahBoss/BinahRecoverBuf)
 
-### [BinahSoundInfo](/api/BinahBoss-BinahSoundInfo)
+### [BinahSoundInfo](/api/BinahBoss/BinahSoundInfo)
 
-### [BinahStaticData](/api/BinahBoss-BinahStaticData)
+### [BinahStaticData](/api/BinahBoss/BinahStaticData)
 
-### [BinahWaveDebuf](/api/BinahBoss-BinahWaveDebuf)
+### [BinahWaveDebuf](/api/BinahBoss/BinahWaveDebuf)
 
-### [BlackFogOverload](/api/BinahBoss-BlackFogOverload)
+### [BlackFogOverload](/api/BinahBoss/BlackFogOverload)
 
-### [BlackThron](/api/BinahBoss-BlackThron)
+### [BlackThron](/api/BinahBoss/BlackThron)
 
-### [BladeWaveThrow](/api/BinahBoss-BladeWaveThrow)
+### [BladeWaveThrow](/api/BinahBoss/BladeWaveThrow)
 
-### [ColumnOverload](/api/BinahBoss-ColumnOverload)
+### [ColumnOverload](/api/BinahBoss/ColumnOverload)
 
-### [ColumnThrow](/api/BinahBoss-ColumnThrow)
+### [ColumnThrow](/api/BinahBoss/ColumnThrow)
 
-### [EightColumn](/api/BinahBoss-EightColumn)
+### [EightColumn](/api/BinahBoss/EightColumn)
 
-### [FirstPhase](/api/BinahBoss-FirstPhase)
+### [FirstPhase](/api/BinahBoss/FirstPhase)
 
-### [GoldenOverload](/api/BinahBoss-GoldenOverload)
+### [GoldenOverload](/api/BinahBoss/GoldenOverload)
 
-### [SecondPhase](/api/BinahBoss-SecondPhase)
+### [SecondPhase](/api/BinahBoss/SecondPhase)
 
-### [ThirdPhase](/api/BinahBoss-ThirdPhase)
+### [ThirdPhase](/api/BinahBoss/ThirdPhase)
 
-### [WaveOverload](/api/BinahBoss-WaveOverload)
+### [WaveOverload](/api/BinahBoss/WaveOverload)
 
 
 ## Enums
 
-### [BinahActionState](/api/BinahBoss-BinahActionState)
+### [BinahActionState](/api/BinahBoss/BinahActionState)
 
-### [BinahAttackType](/api/BinahBoss-BinahAttackType)
+### [BinahAttackType](/api/BinahBoss/BinahAttackType)
 
-### [BinahDefenseType](/api/BinahBoss-BinahDefenseType)
+### [BinahDefenseType](/api/BinahBoss/BinahDefenseType)
 
-### [BinahMoveState](/api/BinahBoss-BinahMoveState)
+### [BinahMoveState](/api/BinahBoss/BinahMoveState)
 
-### [BinahPhase](/api/BinahBoss-BinahPhase)
+### [BinahPhase](/api/BinahBoss/BinahPhase)
 
-### [BinahProjectileType](/api/BinahBoss-BinahProjectileType)
+### [BinahProjectileType](/api/BinahBoss/BinahProjectileType)
 
 
 ## Delegates
 
-### [BinahIntegerAction](/api/BinahBoss-BinahIntegerAction)
+### [BinahIntegerAction](/api/BinahBoss/BinahIntegerAction)
 
-### [BinahVoidAction](/api/BinahBoss-BinahVoidAction)
+### [BinahVoidAction](/api/BinahBoss/BinahVoidAction)

@@ -1,0 +1,65 @@
+---
+uid: Global.BossBirdAnim.NarrationUI.FadeOutEvent
+canonical_path: /api/Global/Event/BossBirdAnimNarrationUIFadeOutEvent
+---
+
+# Delegate BossBirdAnim.NarrationUI.FadeOutEvent
+
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public delegate void BossBirdAnim.NarrationUI.FadeOutEvent()
+```
+
+## Constructors
+
+### FadeOutEvent(object, IntPtr)
+
+```csharp
+public FadeOutEvent(object @object, IntPtr method)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `object` | `System.Object` |  |
+| `method` | `System.IntPtr` |  |
+
+## Methods
+
+### BeginInvoke(AsyncCallback, object)
+
+```csharp
+public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `callback` | `System.AsyncCallback` |  |
+| `object` | `System.Object` |  |
+
+#### Returns
+
+**Type:** System.IAsyncResult
+
+### EndInvoke(IAsyncResult)
+
+```csharp
+public virtual void EndInvoke(IAsyncResult result)
+```
+
+#### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `result` | `System.IAsyncResult` |  |
+
+### Invoke()
+
+```csharp
+public virtual void Invoke()
+```

@@ -2,15 +2,20 @@
 
 ## Classes
 
-### [GlobalBulletEffect](/api/GlobalBullet-GlobalBulletEffect)
+### [GlobalBulletEffect](/api/GlobalBullet/GlobalBulletEffect)
 
-### [GlobalBulletManager](/api/GlobalBullet-GlobalBulletManager)
+### [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)
 
-### [GlobalBulletUISlot](/api/GlobalBullet-GlobalBulletUISlot)
+### [GlobalBulletUISlot](/api/GlobalBullet/GlobalBulletUISlot)
 
-### [GlobalBulletWindow](/api/GlobalBullet-GlobalBulletWindow)
+### [GlobalBulletWindow](/api/GlobalBullet/GlobalBulletWindow)
 
 
 ## Enums
 
-### [GlobalBulletType](/api/GlobalBullet-GlobalBulletType)
+### [GlobalBulletType](/api/GlobalBullet/GlobalBulletType)
+
+
+## Delegates
+
+### [GlobalBulletManager.BulletFunc](/api/GlobalBullet/GlobalBulletManager/BulletFunc)

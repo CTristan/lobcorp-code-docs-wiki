@@ -2,72 +2,72 @@
 
 ## Classes
 
-### [ActivateParts](/api/WhiteNightSpace-ActivateParts)
+### [ActivateParts](/api/WhiteNightSpace/ActivateParts)
 
-### [AdventClockUI](/api/WhiteNightSpace-AdventClockUI)
+### [AdventClockUI](/api/WhiteNightSpace/AdventClockUI)
 
-### [ApostleData](/api/WhiteNightSpace-ApostleData)
+### [ApostleData](/api/WhiteNightSpace/ApostleData)
 
-### [ApostleGenData](/api/WhiteNightSpace-ApostleGenData)
+### [ApostleGenData](/api/WhiteNightSpace/ApostleGenData)
 
-### [ApostleLaser](/api/WhiteNightSpace-ApostleLaser)
+### [ApostleLaser](/api/WhiteNightSpace/ApostleLaser)
 
-### [ApostleLaser.LaserSprite](/api/WhiteNightSpace-ApostleLaser-LaserSprite)
+### [ApostleLaser.LaserSprite](/api/WhiteNightSpace/ApostleLaser/LaserSprite)
 
-### [ApostleStaticInfo](/api/WhiteNightSpace-ApostleStaticInfo)
+### [ApostleStaticInfo](/api/WhiteNightSpace/ApostleStaticInfo)
 
-### [DeathAngel](/api/WhiteNightSpace-DeathAngel)
+### [DeathAngel](/api/WhiteNightSpace/DeathAngel)
 
-### [DeathAngelAnim](/api/WhiteNightSpace-DeathAngelAnim)
+### [DeathAngelAnim](/api/WhiteNightSpace/DeathAngelAnim)
 
-### [DeathAngelApostle](/api/WhiteNightSpace-DeathAngelApostle)
+### [DeathAngelApostle](/api/WhiteNightSpace/DeathAngelApostle)
 
-### [DeathAngelApostleAnim](/api/WhiteNightSpace-DeathAngelApostleAnim)
+### [DeathAngelApostleAnim](/api/WhiteNightSpace/DeathAngelApostleAnim)
 
-### [DeathAngelAttackCollider](/api/WhiteNightSpace-DeathAngelAttackCollider)
+### [DeathAngelAttackCollider](/api/WhiteNightSpace/DeathAngelAttackCollider)
 
-### [DeathAngelPlaySpeedBlockUI](/api/WhiteNightSpace-DeathAngelPlaySpeedBlockUI)
+### [DeathAngelPlaySpeedBlockUI](/api/WhiteNightSpace/DeathAngelPlaySpeedBlockUI)
 
-### [PlagueDoctor](/api/WhiteNightSpace-PlagueDoctor)
+### [PlagueDoctor](/api/WhiteNightSpace/PlagueDoctor)
 
-### [PlagueDoctorAnim](/api/WhiteNightSpace-PlagueDoctorAnim)
+### [PlagueDoctorAnim](/api/WhiteNightSpace/PlagueDoctorAnim)
 
-### [PlagueDoctorRegionName](/api/WhiteNightSpace-PlagueDoctorRegionName)
+### [PlagueDoctorRegionName](/api/WhiteNightSpace/PlagueDoctorRegionName)
 
-### [PlagueDoctorSkeletonAnim](/api/WhiteNightSpace-PlagueDoctorSkeletonAnim)
+### [PlagueDoctorSkeletonAnim](/api/WhiteNightSpace/PlagueDoctorSkeletonAnim)
 
-### [ScytheApostle](/api/WhiteNightSpace-ScytheApostle)
+### [ScytheApostle](/api/WhiteNightSpace/ScytheApostle)
 
-### [ScytheApostleAnim](/api/WhiteNightSpace-ScytheApostleAnim)
+### [ScytheApostleAnim](/api/WhiteNightSpace/ScytheApostleAnim)
 
-### [SlotChangeData](/api/WhiteNightSpace-SlotChangeData)
+### [SlotChangeData](/api/WhiteNightSpace/SlotChangeData)
 
-### [SpearAposlteAnim](/api/WhiteNightSpace-SpearAposlteAnim)
+### [SpearAposlteAnim](/api/WhiteNightSpace/SpearAposlteAnim)
 
-### [SpearApostle](/api/WhiteNightSpace-SpearApostle)
+### [SpearApostle](/api/WhiteNightSpace/SpearApostle)
 
-### [Uncontorllable_PlagueDoctor](/api/WhiteNightSpace-Uncontorllable_PlagueDoctor)
+### [Uncontorllable_PlagueDoctor](/api/WhiteNightSpace/Uncontorllable_PlagueDoctor)
 
-### [WandApostle](/api/WhiteNightSpace-WandApostle)
+### [WandApostle](/api/WhiteNightSpace/WandApostle)
 
-### [WandApostleAnim](/api/WhiteNightSpace-WandApostleAnim)
+### [WandApostleAnim](/api/WhiteNightSpace/WandApostleAnim)
 
 
 ## Enums
 
-### [ApostleState](/api/WhiteNightSpace-ApostleState)
+### [ApostleState](/api/WhiteNightSpace/ApostleState)
 
-### [ApostleStatType](/api/WhiteNightSpace-ApostleStatType)
+### [ApostleStatType](/api/WhiteNightSpace/ApostleStatType)
 
-### [ApostleType](/api/WhiteNightSpace-ApostleType)
+### [ApostleType](/api/WhiteNightSpace/ApostleType)
 
-### [PlagueDocAnimPart](/api/WhiteNightSpace-PlagueDocAnimPart)
+### [PlagueDocAnimPart](/api/WhiteNightSpace/PlagueDocAnimPart)
 
-### [PlagueDocAnimRegion](/api/WhiteNightSpace-PlagueDocAnimRegion)
+### [PlagueDocAnimRegion](/api/WhiteNightSpace/PlagueDocAnimRegion)
 
 
 ## Delegates
 
-### [AdventClockUI.EndEvent](/api/WhiteNightSpace-AdventClockUI-EndEvent)
+### [AdventClockUI.EndEvent](/api/WhiteNightSpace/AdventClockUI/EndEvent)
 
-### [DeathAngelVoidAction](/api/WhiteNightSpace-DeathAngelVoidAction)
+### [DeathAngelVoidAction](/api/WhiteNightSpace/DeathAngelVoidAction)

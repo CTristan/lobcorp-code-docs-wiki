@@ -2,35 +2,35 @@
 
 ## Classes
 
-### [Category](/api/Manual-Category)
+### [Category](/api/Manual/Category)
 
-### [CategorySlot](/api/Manual-CategorySlot)
+### [CategorySlot](/api/Manual/CategorySlot)
 
-### [CategoryTypeInfo](/api/Manual-CategoryTypeInfo)
+### [CategoryTypeInfo](/api/Manual/CategoryTypeInfo)
 
-### [LabelData](/api/Manual-LabelData)
+### [LabelData](/api/Manual/LabelData)
 
-### [LabelData.LabelUnit](/api/Manual-LabelData-LabelUnit)
+### [LabelData.LabelUnit](/api/Manual/LabelData/LabelUnit)
 
-### [MainCategory](/api/Manual-MainCategory)
+### [MainCategory](/api/Manual/MainCategory)
 
-### [ManualLabel](/api/Manual-ManualLabel)
+### [ManualLabel](/api/Manual/ManualLabel)
 
-### [ManualTextSlot](/api/Manual-ManualTextSlot)
+### [ManualTextSlot](/api/Manual/ManualTextSlot)
 
-### [NodeCategory](/api/Manual-NodeCategory)
+### [NodeCategory](/api/Manual/NodeCategory)
 
-### [NodeCategorySlot](/api/Manual-NodeCategorySlot)
+### [NodeCategorySlot](/api/Manual/NodeCategorySlot)
 
-### [NodeTextInfo](/api/Manual-NodeTextInfo)
+### [NodeTextInfo](/api/Manual/NodeTextInfo)
 
-### [SubCategory](/api/Manual-SubCategory)
+### [SubCategory](/api/Manual/SubCategory)
 
-### [TextData](/api/Manual-TextData)
+### [TextData](/api/Manual/TextData)
 
 
 ## Enums
 
-### [LabelData.PrefixType](/api/Manual-LabelData-PrefixType)
+### [LabelData.PrefixType](/api/Manual/LabelData/PrefixType)
 
-### [TextType](/api/Manual-TextType)
+### [TextType](/api/Manual/TextType)

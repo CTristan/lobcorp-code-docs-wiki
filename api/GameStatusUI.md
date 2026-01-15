@@ -2,28 +2,28 @@
 
 ## Classes
 
-### [BinahPlaySpeedBlockUI](/api/GameStatusUI-BinahPlaySpeedBlockUI)
+### [BinahPlaySpeedBlockUI](/api/GameStatusUI/BinahPlaySpeedBlockUI)
 
-### [ChokhmahPlaySpeedBlockUI](/api/GameStatusUI-ChokhmahPlaySpeedBlockUI)
+### [ChokhmahPlaySpeedBlockUI](/api/GameStatusUI/ChokhmahPlaySpeedBlockUI)
 
-### [EmergencyUI](/api/GameStatusUI-EmergencyUI)
+### [EmergencyUI](/api/GameStatusUI/EmergencyUI)
 
-### [EnergyController](/api/GameStatusUI-EnergyController)
+### [EnergyController](/api/GameStatusUI/EnergyController)
 
-### [EnergyController.OrdealSlot](/api/GameStatusUI-EnergyController-OrdealSlot)
+### [EnergyController.OrdealSlot](/api/GameStatusUI/EnergyController/OrdealSlot)
 
-### [EnergyController.RankSlot](/api/GameStatusUI-EnergyController-RankSlot)
+### [EnergyController.RankSlot](/api/GameStatusUI/EnergyController/RankSlot)
 
-### [GameStatusUI](/api/GameStatusUI-GameStatusUI)
+### [GameStatusUI](/api/GameStatusUI/GameStatusUI)
 
-### [PlaySpeedSettingBlockedUI](/api/GameStatusUI-PlaySpeedSettingBlockedUI)
+### [PlaySpeedSettingBlockedUI](/api/GameStatusUI/PlaySpeedSettingBlockedUI)
 
 
 ## Enums
 
-### [EnergyController.RankSlot.RankState](/api/GameStatusUI-EnergyController-RankSlot-RankState)
+### [EnergyController.RankSlot.RankState](/api/GameStatusUI/EnergyController/RankSlot/RankState)
 
 
 ## Delegates
 
-### [PlaySpeedSettingBlockedUI.voidAction](/api/GameStatusUI-PlaySpeedSettingBlockedUI-voidAction)
+### [PlaySpeedSettingBlockedUI.voidAction](/api/GameStatusUI/PlaySpeedSettingBlockedUI/voidAction)

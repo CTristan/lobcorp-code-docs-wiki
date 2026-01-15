@@ -2,40 +2,42 @@
 
 ## Classes
 
-### [InventoryAgentController](/api/Inventory-InventoryAgentController)
+### [InventoryAgentController](/api/Inventory/InventoryAgentController)
 
-### [InventoryAgentSlot](/api/Inventory-InventoryAgentSlot)
+### [InventoryAgentSlot](/api/Inventory/InventoryAgentSlot)
 
-### [InventoryArmorSlot](/api/Inventory-InventoryArmorSlot)
+### [InventoryArmorSlot](/api/Inventory/InventoryArmorSlot)
 
-### [InventoryItemController](/api/Inventory-InventoryItemController)
+### [InventoryItemController](/api/Inventory/InventoryItemController)
 
-### [InventoryItemDescGetter](/api/Inventory-InventoryItemDescGetter)
+### [InventoryItemDescGetter](/api/Inventory/InventoryItemDescGetter)
 
-### [InventoryRankButton](/api/Inventory-InventoryRankButton)
+### [InventoryRankButton](/api/Inventory/InventoryRankButton)
 
-### [InventoryRequireLayout](/api/Inventory-InventoryRequireLayout)
+### [InventoryRequireLayout](/api/Inventory/InventoryRequireLayout)
 
-### [InventorySefiraController](/api/Inventory-InventorySefiraController)
+### [InventorySefiraController](/api/Inventory/InventorySefiraController)
 
-### [InventorySefiraPanel](/api/Inventory-InventorySefiraPanel)
+### [InventorySefiraPanel](/api/Inventory/InventorySefiraPanel)
 
-### [InventorySlot](/api/Inventory-InventorySlot)
+### [InventorySlot](/api/Inventory/InventorySlot)
 
-### [InventoryUI](/api/Inventory-InventoryUI)
+### [InventoryUI](/api/Inventory/InventoryUI)
 
-### [InventoryWeaponSlot](/api/Inventory-InventoryWeaponSlot)
+### [InventoryWeaponSlot](/api/Inventory/InventoryWeaponSlot)
 
 
 ## Enums
 
-### [InventoryAgentSlot.EquipState](/api/Inventory-InventoryAgentSlot-EquipState)
+### [InventoryAgentSlot.EquipState](/api/Inventory/InventoryAgentSlot/EquipState)
 
-### [InventoryItemType](/api/Inventory-InventoryItemType)
+### [InventoryItemController.SlotState](/api/Inventory/InventoryItemController/SlotState)
+
+### [InventoryItemType](/api/Inventory/InventoryItemType)
 
 
 ## Delegates
 
-### [InventoryAgentSlot.OnClickEvent](/api/Inventory-InventoryAgentSlot-OnClickEvent)
+### [InventoryAgentSlot.OnClickEvent](/api/Inventory/InventoryAgentSlot/OnClickEvent)
 
-### [InventoryAgentSlot.OnClickEventByAgent](/api/Inventory-InventoryAgentSlot-OnClickEventByAgent)
+### [InventoryAgentSlot.OnClickEventByAgent](/api/Inventory/InventoryAgentSlot/OnClickEventByAgent)

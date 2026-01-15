@@ -2,29 +2,29 @@
 
 ## Classes
 
-### [CreditController](/api/Credit-CreditController)
+### [CreditController](/api/Credit/CreditController)
 
-### [CreditConversationController](/api/Credit-CreditConversationController)
+### [CreditConversationController](/api/Credit/CreditConversationController)
 
-### [CreditElement](/api/Credit-CreditElement)
+### [CreditElement](/api/Credit/CreditElement)
 
-### [CreditItem](/api/Credit-CreditItem)
+### [CreditItem](/api/Credit/CreditItem)
 
-### [CreditManager](/api/Credit-CreditManager)
+### [CreditManager](/api/Credit/CreditManager)
 
-### [CreditSceneController](/api/Credit-CreditSceneController)
+### [CreditSceneController](/api/Credit/CreditSceneController)
 
-### [CreditScript](/api/Credit-CreditScript)
+### [CreditScript](/api/Credit/CreditScript)
 
-### [CreditSection](/api/Credit-CreditSection)
+### [CreditSection](/api/Credit/CreditSection)
 
-### [CreditTextUnit](/api/Credit-CreditTextUnit)
+### [CreditTextUnit](/api/Credit/CreditTextUnit)
 
 
 ## Enums
 
-### [CreditConversationController.FadeTarget](/api/Credit-CreditConversationController-FadeTarget)
+### [CreditConversationController.FadeTarget](/api/Credit/CreditConversationController/FadeTarget)
 
-### [CreditConversationController.FadeType](/api/Credit-CreditConversationController-FadeType)
+### [CreditConversationController.FadeType](/api/Credit/CreditConversationController/FadeType)
 
-### [CreditSectionType](/api/Credit-CreditSectionType)
+### [CreditSectionType](/api/Credit/CreditSectionType)

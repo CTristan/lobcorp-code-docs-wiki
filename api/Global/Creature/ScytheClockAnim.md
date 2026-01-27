@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/ScytheClockAnim
 public class ScytheClockAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Price of Silence](/api/Global/Misc/ScytheClock).
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → ScytheClockAnim
 
@@ -36,6 +40,8 @@ public ScytheClockAnim()
 ```csharp
 public List<Transform> needles
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public List<Transform> needles
 ```csharp
 private ScytheClock script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,18 +66,24 @@ private ScytheClock script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -82,12 +96,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,12 +125,16 @@ private void FixedUpdate()
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +147,9 @@ public void OnCalled(int i)
 ```csharp
 public void SetScript(ScytheClock sc)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -137,12 +162,16 @@ public void SetScript(ScytheClock sc)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/YouMustHappyAnimEventHandler
 public class YouMustHappyAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper for [You Must Be Happy's animation handler](/api/Global/Creature/YouMustHappyAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → YouMustHappyAnimEventHandler
 
@@ -55,12 +60,16 @@ private AnimatorEventHandler.EventDelegate _deadEffectEvent
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### Effect()
 
 ```csharp
 public void Effect()
 ```
+#INC
+
 
 ### SetBloodEffectEvent(EventDelegate)
 

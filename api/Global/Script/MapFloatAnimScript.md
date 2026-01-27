@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/MapFloatAnimScript
 public class MapFloatAnimScript : MonoBehaviour
 ```
 
+Probably unused #unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MapFloatAnimScript
 
@@ -33,6 +36,8 @@ public MapFloatAnimScript()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float elapsedTime
 ```csharp
 private float startY
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +62,14 @@ private float startY
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

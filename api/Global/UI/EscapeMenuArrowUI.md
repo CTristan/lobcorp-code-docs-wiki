@@ -11,6 +11,10 @@ canonical_path: /api/Global/UI/EscapeMenuArrowUI
 ```csharp
 public class EscapeMenuArrowUI : MonoBehaviour
 ```
+UI element for displaying an arrow next to the selection in the [escape menu](/api/Global/UI/EscapeUI).
+
+Changes to be special for retrying the day and going back to memory repository.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EscapeMenuArrowUI
@@ -33,6 +37,8 @@ public EscapeMenuArrowUI()
 ```csharp
 public GameObject dayArrowNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public GameObject dayArrowNode
 ```csharp
 public Text dayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Text dayText
 ```csharp
 public GameObject normalArrowNode
 ```
+#INC
+
 
 #### Field Value
 

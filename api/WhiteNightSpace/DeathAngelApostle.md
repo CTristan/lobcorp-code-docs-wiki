@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/DeathAngelApostle
 public class DeathAngelApostle : CreatureBase
 ```
 
+Parent class for apostles for [WhiteNight](/api/Legacy/DeathAngel)'s advent.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DeathAngelApostle
 
@@ -36,6 +39,8 @@ public DeathAngelApostle()
 ```csharp
 private DeathAngel _angel
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private DeathAngel _angel
 ```csharp
 private DeathAngelApostleAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private DeathAngelApostleAnim _animScript
 ```csharp
 private bool _isInvincible
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _isInvincible
 ```csharp
 private bool _isSuprressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private bool _isSuprressed
 ```csharp
 private AgentName _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private AgentName _name
 ```csharp
 private bool _nameLoadFailed
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private bool _nameLoadFailed
 ```csharp
 public UnscaledTimer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public UnscaledTimer _recoverTimer
 ```csharp
 private ApostleState _state
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private ApostleState _state
 ```csharp
 private MinMax _whispFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private MinMax _whispFreq
 ```csharp
 private Timer _whispTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private Timer _whispTimer
 ```csharp
 public const string Advent_Choir = "creature/deathangel/Choir1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public const string Advent_Choir = "creature/deathangel/Choir1"
 ```csharp
 public const string Advent_Whisper = "creature/deathangel/Lucifer_Apostle_Whisper"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public const string Advent_Whisper = "creature/deathangel/Lucifer_Apostle_Whispe
 ```csharp
 public ApostleType apostleType
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ public ApostleType apostleType
 ```csharp
 public Timer AttackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ public Timer AttackDelayTimer
 ```csharp
 public bool CanExecute
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ public bool CanExecute
 ```csharp
 public float CurrentAttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ public float CurrentAttackDelay
 ```csharp
 public ApostleData data
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ public ApostleData data
 ```csharp
 public const float GuardianSpeedFactor = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ public const float GuardianSpeedFactor = 1.2
 ```csharp
 public const float GuardianSpeedFactorInv = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ public const float GuardianSpeedFactorInv = 0.8
 ```csharp
 public int Index
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ public int Index
 ```csharp
 public bool MoveOnAttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ public bool MoveOnAttackDelay
 ```csharp
 public ApostleStatType statType
 ```
+#INC
+
 
 #### Field Value
 
@@ -320,6 +367,8 @@ public ApostleState State { get; set; }
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,6 +386,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public virtual bool ChangeWorkerAnimatorAsDead(ApostleType type, WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,6 +405,8 @@ public virtual bool ChangeWorkerAnimatorAsDead(ApostleType type, WorkerModel tar
 ```csharp
 public virtual void ClearParams()
 ```
+#INC
+
 
 ### Escape()
 
@@ -366,12 +419,16 @@ public virtual void Escape()
 ```csharp
 public virtual void Execution()
 ```
+#INC
+
 
 ### GetDirectoin(UnitModel)
 
 ```csharp
 public UnitDirection GetDirectoin(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -388,6 +445,8 @@ public UnitDirection GetDirectoin(UnitModel target)
 ```csharp
 public float GetDist(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -404,6 +463,8 @@ public float GetDist(UnitModel target)
 ```csharp
 public override string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -414,6 +475,8 @@ public override string GetName()
 ```csharp
 public virtual List<UnitModel> GetNearTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -424,6 +487,8 @@ public virtual List<UnitModel> GetNearTargets()
 ```csharp
 public virtual MapNode GetRandomNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -434,6 +499,8 @@ public virtual MapNode GetRandomNode()
 ```csharp
 public virtual List<UnitModel> GetRangedTarget(List<UnitModel> list, float range, out UnitModel nearest, bool careDirectoin = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -453,12 +520,16 @@ public virtual List<UnitModel> GetRangedTarget(List<UnitModel> list, float range
 ```csharp
 public virtual void GiveDamage()
 ```
+#INC
+
 
 ### IsAttackTargetable()
 
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -469,6 +540,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -479,6 +552,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public virtual bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -495,6 +570,8 @@ public virtual bool IsHostile(UnitModel target)
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -505,6 +582,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -515,6 +594,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -525,6 +606,8 @@ public override bool IsSuppressable()
 ```csharp
 public void LookAt(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -537,24 +620,32 @@ public void LookAt(UnitModel target)
 ```csharp
 public void MakeAdventSound()
 ```
+#INC
+
 
 ### MakeDefaultSound()
 
 ```csharp
 public void MakeDefaultSound()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 public virtual void MakeMovement()
 ```
+#INC
+
 
 ### MakeSoundLoop(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -571,24 +662,32 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public void OnAdventEnd()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public virtual void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDeathAngelSuppressed()
 
 ```csharp
 public virtual void OnDeathAngelSuppressed()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -601,12 +700,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public virtual void OnPrevSupressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -621,6 +724,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -633,18 +739,24 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void ReEscaped()
 ```
+#INC
+
 
 ### Resurrect()
 
 ```csharp
 public virtual void Resurrect()
 ```
+#INC
+
 
 ### SetAngel(DeathAngel)
 
 ```csharp
 public void SetAngel(DeathAngel angel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -657,9 +769,13 @@ public void SetAngel(DeathAngel angel)
 ```csharp
 public virtual void StartAttack()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

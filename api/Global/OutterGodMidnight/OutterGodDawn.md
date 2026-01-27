@@ -12,6 +12,11 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodDawn
 public class OutterGodDawn : OutterGodOrdealCreature
 ```
 
+Creature for [Violet Dawn](/api/Global/OutterGodMidnight/OutterGodDawnOrdeal).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [OutterGodOrdealCreature](/api/Global/Creature/OutterGodOrdealCreature) → OutterGodDawn
 
@@ -33,6 +38,8 @@ public OutterGodDawn()
 ```csharp
 private const float _aggroTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _aggroTimeMax = 15
 ```csharp
 private const float _aggroTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _aggroTimeMin = 10
 ```csharp
 private OutterGodDawnAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private OutterGodDawnAnim _animScript
 ```csharp
 private const int _attackDmgMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _attackDmgMax = 3
 ```csharp
 private const int _attackDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _attackDmgMin = 1
 ```csharp
 private const float _attackDmgRange = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _attackDmgRange = 2
 ```csharp
 private const int _boomDmgMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int _boomDmgMax = 15
 ```csharp
 private const int _boomDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _boomDmgMin = 10
 ```csharp
 private const float _boomTimeMax = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _boomTimeMax = 70
 ```csharp
 private const float _boomTimeMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _boomTimeMin = 60
 ```csharp
 private WorkerModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private WorkerModel _currentTarget
 ```csharp
 private const string _effect_dead = "OutterGodDawnDeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string _effect_dead = "OutterGodDawnDeadEffect"
 ```csharp
 private const string _effect_skill = "OutterGodDawnSkillEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const string _effect_skill = "OutterGodDawnSkillEffect"
 ```csharp
 private const string _effect_src = "Effect/Creature/OutterGodDawn/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const string _effect_src = "Effect/Creature/OutterGodDawn/"
 ```csharp
 private const float _recognizeRange = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _recognizeRange = 10
 ```csharp
 private Timer aggroTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private Timer aggroTimer
 ```csharp
 private RwbpType attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private RwbpType attackType
 ```csharp
 private Timer boomTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private Timer boomTimer
 ```csharp
 private RwbpType boomType
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,12 +320,16 @@ private static float boomTime { get; }
 ```csharp
 private void BoomStart()
 ```
+#INC
+
 
 ### GetDistance(WorkerModel)
 
 ```csharp
 private float GetDistance(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,6 +346,8 @@ private float GetDistance(WorkerModel target)
 ```csharp
 private WorkerModel GetNearest(float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,6 +364,8 @@ private WorkerModel GetNearest(float range)
 ```csharp
 private List<WorkerModel> GetTargets(float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +382,8 @@ private List<WorkerModel> GetTargets(float range)
 ```csharp
 private bool GonnaBoom()
 ```
+#INC
+
 
 #### Returns
 
@@ -341,12 +394,16 @@ private bool GonnaBoom()
 ```csharp
 private void InitAggro()
 ```
+#INC
+
 
 ### IsHostile(WorkerModel)
 
 ```csharp
 private bool IsHostile(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,6 +420,8 @@ private bool IsHostile(WorkerModel worker)
 ```csharp
 private bool IsInPassage(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,6 +438,8 @@ private bool IsInPassage(WorkerModel target)
 ```csharp
 private bool IsInRange(WorkerModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +457,8 @@ private bool IsInRange(WorkerModel target, float range)
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -412,12 +475,16 @@ private GameObject MakeEffect(string src)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MoveToTarget(WorkerModel)
 
 ```csharp
 private void MoveToTarget(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -430,6 +497,8 @@ private void MoveToTarget(WorkerModel target)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -440,24 +509,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnBoom()
 
 ```csharp
 public void OnBoom()
 ```
+#INC
+
 
 ### OnBoomEnd()
 
 ```csharp
 public void OnBoomEnd()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -470,6 +547,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -484,6 +563,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -496,15 +578,21 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### Suppressed()
 
 ```csharp
 private void Suppressed()
 ```
+#INC
+
 
 ### Wander()
 
 ```csharp
 private void Wander()
 ```
+#INC
+

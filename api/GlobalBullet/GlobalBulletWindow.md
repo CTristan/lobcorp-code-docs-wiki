@@ -11,6 +11,8 @@ canonical_path: /api/GlobalBullet/GlobalBulletWindow
 ```csharp
 public class GlobalBulletWindow : MonoBehaviour
 ```
+The bullet UI
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalBulletWindow
@@ -33,6 +35,8 @@ public GlobalBulletWindow()
 ```csharp
 private int _bulletCountMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private int _bulletCountMax
 ```csharp
 private int _currentBulletCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private int _currentBulletCount
 ```csharp
 private GlobalBulletType _currentSelectedBullet
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private GlobalBulletType _currentSelectedBullet
 ```csharp
 private static GlobalBulletWindow _currentWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private static GlobalBulletWindow _currentWindow
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private bool _isEnabled
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public GameObject ActiveControl
 ```csharp
 public Text BulletCountMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +130,8 @@ public Image CurrentBulletFillGauge
 ```csharp
 public Text CurrentUsableBulletCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +142,8 @@ public Text CurrentUsableBulletCount
 ```csharp
 public Color CyanColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +154,8 @@ public Color CyanColor
 ```csharp
 public bool isolateEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +177,8 @@ public Color OrangeColor
 ```csharp
 public Color RedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -230,24 +254,33 @@ public bool IsEnabled { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnShoot()
 
 ```csharp
 public void OnShoot()
 ```
+#INC
+
 
 ### OnSlotSelected(GlobalBulletType)
 
 ```csharp
 public void OnSlotSelected(GlobalBulletType index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,6 +293,8 @@ public void OnSlotSelected(GlobalBulletType index)
 ```csharp
 public void SetActive(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -272,6 +307,8 @@ public void SetActive(bool b)
 ```csharp
 public void SetBulletCount(int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +321,8 @@ public void SetBulletCount(int count)
 ```csharp
 public void SetBulletCountMax(int maxCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +335,8 @@ public void SetBulletCountMax(int maxCount)
 ```csharp
 public void SetBulletFillGauge(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,6 +349,8 @@ public void SetBulletFillGauge(float value)
 ```csharp
 public void SetSlotActive(GlobalBulletType bulletType, bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,21 +364,29 @@ public void SetSlotActive(GlobalBulletType bulletType, bool b)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdatePointer()
 
 ```csharp
 private void UpdatePointer()
 ```
+#INC
+
 
 ### UpdateSniping()
 
 ```csharp
 private void UpdateSniping()
 ```
+#INC
+

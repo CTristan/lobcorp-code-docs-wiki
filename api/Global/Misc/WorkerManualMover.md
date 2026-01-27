@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/WorkerManualMover
 ```csharp
 public class WorkerManualMover
 ```
+Presumably something for taking control of a particular employee, but unused.
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerManualMover
@@ -28,12 +32,17 @@ public class WorkerManualMover
 ```csharp
 public WorkerManualMover()
 ```
+#INC
+#code-generated
+
 
 ### WorkerManualMover(WorkerModel, Vector3, MapNode, float, float)
 
 ```csharp
 public WorkerManualMover(WorkerModel target, Vector3 pos, MapNode initial, float scale, float unitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,6 +61,8 @@ public WorkerManualMover(WorkerModel target, Vector3 pos, MapNode initial, float
 ```csharp
 public int currentCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +73,8 @@ public int currentCnt
 ```csharp
 public bool halt
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +85,8 @@ public bool halt
 ```csharp
 public bool isMoved
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +97,8 @@ public bool isMoved
 ```csharp
 public bool isMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -92,6 +109,8 @@ public bool isMoving
 ```csharp
 public Vector3 movedPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +121,8 @@ public Vector3 movedPos
 ```csharp
 public MapNode originNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,6 +133,8 @@ public MapNode originNode
 ```csharp
 public float scale
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,6 +145,8 @@ public float scale
 ```csharp
 public WorkerModel targetModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -132,6 +157,8 @@ public WorkerModel targetModel
 ```csharp
 public object unitObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -142,6 +169,8 @@ public object unitObject
 ```csharp
 public float unitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,27 +183,37 @@ public float unitTime
 ```csharp
 public virtual void Halt()
 ```
+#INC
+
 
 ### MoveToNode()
 
 ```csharp
 public virtual void MoveToNode()
 ```
+#INC
+
 
 ### MoveToVector()
 
 ```csharp
 public virtual void MoveToVector()
 ```
+#INC
+
 
 ### MovingEnd()
 
 ```csharp
 public virtual void MovingEnd()
 ```
+#INC
+
 
 ### MovingProcess()
 
 ```csharp
 public virtual void MovingProcess()
 ```
+#INC
+

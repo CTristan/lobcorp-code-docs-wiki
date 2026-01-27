@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/RedShoesAnim
 public class RedShoesAnim : CreatureAnimScript
 ```
 
+Animation handler for [Red Shoes](/api/Global/Misc/RedShoes).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → RedShoesAnim
 
@@ -33,21 +36,30 @@ public RedShoesAnim()
 ```csharp
 public void GetRedShoesAnim()
 ```
+#INC
+
 
 ### ReturnRedShoesAnim()
 
 ```csharp
 public void ReturnRedShoesAnim()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

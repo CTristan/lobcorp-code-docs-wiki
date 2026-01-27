@@ -12,6 +12,11 @@ canonical_path: /api/WorkerSprite/WorkerAttachmentSprite
 public class WorkerAttachmentSprite : WorkerEquipmentSprite
 ```
 
+For loading I guess... all the resources for EGO gifts and their positioning?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerEquipmentSprite](/api/WorkerSprite/WorkerEquipmentSprite) → WorkerAttachmentSprite
 
@@ -43,6 +48,8 @@ public Dictionary<int, WorkerAttachmentSprite.AttachDatabase> database
 ```csharp
 public Dictionary<int, List<SpriteResourceLoadData>> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public Dictionary<int, List<SpriteResourceLoadData>> lib
 ```csharp
 public List<SpriteResourceLoadData> GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,3 +96,6 @@ public WorkerAttachmentSprite.AttachDatabase GetDb(int id)
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+

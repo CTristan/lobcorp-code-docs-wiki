@@ -11,6 +11,8 @@ canonical_path: /api/Global/UI/AuthorNoteFinaleUI
 ```csharp
 public class AuthorNoteFinaleUI : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AuthorNoteFinaleUI
@@ -33,6 +35,8 @@ public AuthorNoteFinaleUI()
 ```csharp
 private AuthorNote authorNote
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private AuthorNote authorNote
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Canvas canvas
 ```csharp
 private float countDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private float countDown
 ```csharp
 private int countDown_integer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private int countDown_integer
 ```csharp
 public Text countDownText
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Text countDownText
 ```csharp
 public Image snipingFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,18 +109,24 @@ public Image snipingFilter
 ```csharp
 public void FinishSniping()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### Shot(List<UnitModel>)
 
 ```csharp
 public void Shot(List<UnitModel> _list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +139,9 @@ public void Shot(List<UnitModel> _list)
 ```csharp
 public void StartSnipe(AuthorNote authorNote)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,9 +154,13 @@ public void StartSnipe(AuthorNote authorNote)
 ```csharp
 public void Timeout()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

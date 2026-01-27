@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RabbitRwbpSet
 ```csharp
 public class RabbitRwbpSet
 ```
+Changes the sprite depending on the type of damage this [rabbit](/api/Global/Unit/RabbitUnit) does. #verify
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitRwbpSet
@@ -33,6 +35,9 @@ public RabbitRwbpSet()
 ```csharp
 public Sprite gauge
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Sprite gauge
 ```csharp
 public Sprite sword
 ```
+#INC
+
 
 #### Field Value
 

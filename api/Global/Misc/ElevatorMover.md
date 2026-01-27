@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ElevatorMover
 ```csharp
 public class ElevatorMover : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ElevatorMover
@@ -43,6 +45,8 @@ public static ElevatorMover.STATE currentState
 ```csharp
 public Transform endPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +57,8 @@ public Transform endPoint
 ```csharp
 public Vector2 endPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +69,8 @@ public Vector2 endPosition
 ```csharp
 public bool isStop
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +81,8 @@ public bool isStop
 ```csharp
 public float moveDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +93,8 @@ public float moveDelay
 ```csharp
 public Rigidbody2D playerBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +105,8 @@ public Rigidbody2D playerBody
 ```csharp
 public bool playerOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +117,8 @@ public bool playerOn
 ```csharp
 public Transform startPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ public Transform startPoint
 ```csharp
 public Vector2 startPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +141,8 @@ public Vector2 startPosition
 ```csharp
 public float timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +153,8 @@ public float timer
 ```csharp
 public float totalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,18 +167,25 @@ public float totalTime
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Interpolation(float, float, float)
 
 ```csharp
 private float Interpolation(float start, float end, float t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,12 +204,16 @@ private float Interpolation(float start, float end, float t)
 ```csharp
 private void NextState()
 ```
+#INC
+
 
 ### OnCollisionEnter2D(Collision2D)
 
 ```csharp
 private void OnCollisionEnter2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +226,8 @@ private void OnCollisionEnter2D(Collision2D col)
 ```csharp
 private void OnCollisionExit2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,9 +240,13 @@ private void OnCollisionExit2D(Collision2D col)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Creature/GeburahCoreAnim
 public class GeburahCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+extends [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled)
+
+Animation handler for [The Red Mist](/api/Global/Script/GeburahCoreScript).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → GeburahCoreAnim
 
@@ -36,6 +43,8 @@ public GeburahCoreAnim()
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +55,8 @@ private UnitModel _currentTarget
 ```csharp
 public SpriteRenderer _currentTargetMark
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +67,8 @@ public SpriteRenderer _currentTargetMark
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +79,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 public GameObject _lastEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +91,8 @@ public GameObject _lastEffect
 ```csharp
 private GeburahCoreScript _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +114,8 @@ public Color _textInner
 ```csharp
 public Color _textOutter
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +126,8 @@ public Color _textOutter
 ```csharp
 public AnimationCurve bloodyTreeCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +138,8 @@ public AnimationCurve bloodyTreeCurve
 ```csharp
 public Transform DangoFollower
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +150,8 @@ public Transform DangoFollower
 ```csharp
 public Transform DangoNear
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +162,8 @@ public Transform DangoNear
 ```csharp
 public GameObject[] EyeRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +174,8 @@ public GameObject[] EyeRenderer
 ```csharp
 public GameObject EyeTrail
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +208,8 @@ public SpriteRenderer[] headRenderer
 ```csharp
 private Vector3 initLossyScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +220,8 @@ private Vector3 initLossyScale
 ```csharp
 public GameObject[] ketherAttached
 ```
+#INC
+
 
 #### Field Value
 
@@ -221,6 +254,8 @@ public List<WorkerPartRenderer> partRenderers
 ```csharp
 public Transform RightHandFollower
 ```
+#INC
+
 
 #### Field Value
 
@@ -231,6 +266,8 @@ public Transform RightHandFollower
 ```csharp
 public GameObject TextObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,12 +292,16 @@ public GeburahCoreScript Script { get; }
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### GetPartRenderer(GeneratbleRegion)
 
 ```csharp
 public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,6 +318,9 @@ public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -287,18 +331,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void KetherAttach()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 protected override void LateUpdate()
 ```
+#INC
+
 
 ### MakeGeburahText(string)
 
 ```csharp
 public void MakeGeburahText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,18 +361,24 @@ public void MakeGeburahText(string text)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamage()
 
 ```csharp
 public void OnDamage()
 ```
+#INC
+
 
 ### OnEventCalled(int)
 
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,12 +391,16 @@ public void OnEventCalled(int i)
 ```csharp
 public void OnRunningEnd()
 ```
+#INC
+
 
 ### OnStartAttack(int)
 
 ```csharp
 public void OnStartAttack(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,30 +413,40 @@ public void OnStartAttack(int attackType)
 ```csharp
 public void OnTeleportEnd()
 ```
+#INC
+
 
 ### OnTeleportStart()
 
 ```csharp
 public void OnTeleportStart()
 ```
+#INC
+
 
 ### OnThrowBloodyTree()
 
 ```csharp
 public void OnThrowBloodyTree()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetEye(int)
 
 ```csharp
 private void SetEye(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,6 +459,8 @@ private void SetEye(int index)
 ```csharp
 private void SetHead(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,6 +473,8 @@ private void SetHead(int index)
 ```csharp
 public void SetPhase(GeburahPhase phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -413,6 +487,8 @@ public void SetPhase(GeburahPhase phase)
 ```csharp
 public void SetScript(GeburahCoreScript coreScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -425,6 +501,8 @@ public void SetScript(GeburahCoreScript coreScript)
 ```csharp
 public void SetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -437,6 +515,8 @@ public void SetTarget(UnitModel target)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Baku
 public class Baku : CreatureBase
 ```
 
+Void Dream.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Baku
 
@@ -33,6 +36,8 @@ public Baku()
 ```csharp
 private const int _agentSleepConditionInWork = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const int _agentSleepConditionInWork = 2
 ```csharp
 private BakuAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private BakuAnim _animScript
 ```csharp
 private const float _chickenMovement = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float _chickenMovement = 3
 ```csharp
 private const float _cryCoolTimeMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _cryCoolTimeMax = 8
 ```csharp
 private const float _cryCoolTimeMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float _cryCoolTimeMin = 6
 ```csharp
 private const int _cryDmgMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const int _cryDmgMax = 5
 ```csharp
 private const int _cryDmgMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const int _cryDmgMin = 3
 ```csharp
 private const RwbpType _cryDmgType = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const RwbpType _cryDmgType = W
 ```csharp
 private const float _cryInitCoolTimeMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private const float _cryInitCoolTimeMax = 7
 ```csharp
 private const float _cryInitCoolTimeMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float _cryInitCoolTimeMin = 4
 ```csharp
 private const float _cryTimeMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _cryTimeMax = 4
 ```csharp
 private const float _cryTimeMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float _cryTimeMin = 4
 ```csharp
 private const string _effect_chicken_cry = "BakuChickenCryEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const string _effect_chicken_cry = "BakuChickenCryEffect"
 ```csharp
 private const string _effect_sheep_skill = "BakuSheepSkillObject"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const string _effect_sheep_skill = "BakuSheepSkillObject"
 ```csharp
 private const string _effect_sheep_skill_bg = "BakuSheepSkillBg"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const string _effect_sheep_skill_bg = "BakuSheepSkillBg"
 ```csharp
 private const string _effectSrc = "Effect/Creature/Baku/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const string _effectSrc = "Effect/Creature/Baku/"
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private const float _motionDelayMin = 0.5
 ```csharp
 private const int _qliphothMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const int _qliphothMax = 2
 ```csharp
 private const float _sheepMovement = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const float _sheepMovement = 1
 ```csharp
 private const float _sheepReturnTimeMax = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private const float _sheepReturnTimeMax = 70
 ```csharp
 private const float _sheepReturnTimeMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const float _sheepReturnTimeMin = 50
 ```csharp
 private const int _sheepSkillAmmo = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private const int _sheepSkillAmmo = 5
 ```csharp
 private const float _sleepCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const float _sleepCoolTimeMax = 15
 ```csharp
 private const float _sleepCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private const float _sleepCoolTimeMin = 10
 ```csharp
 private const float _sleepInitCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private const float _sleepInitCoolTimeMax = 15
 ```csharp
 private const float _sleepInitCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private const float _sleepInitCoolTimeMin = 10
 ```csharp
 private const float _soundTimeMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +372,8 @@ private const float _soundTimeMax = 10
 ```csharp
 private const float _soundTimeMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private Baku.BakuState _state
 ```csharp
 private Queue<WorkerModel> annoyed
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private Queue<WorkerModel> annoyed
 ```csharp
 private Timer cryCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private Timer cryCoolTimer
 ```csharp
 private Timer cryTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private Timer cryTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private Timer motionDelayTimer
 ```csharp
 private Timer sheepReturnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private Timer sheepReturnTimer
 ```csharp
 private Timer sleepCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private Timer sleepCoolTimer
 ```csharp
 private Timer soundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private Timer soundTimer
 ```csharp
 private Queue<WorkerModel> wakeup
 ```
+#INC
+
 
 #### Field Value
 
@@ -517,24 +594,32 @@ private static float soundTime { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateSkill_Chicken()
 
 ```csharp
 private void ActivateSkill_Chicken()
 ```
+#INC
+
 
 ### ActivateSkill_Sheep()
 
 ```csharp
 private void ActivateSkill_Sheep()
 ```
+#INC
+
 
 ### AnnoyedWorkerWakeUp(WorkerModel)
 
 ```csharp
 private void AnnoyedWorkerWakeUp(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -547,6 +632,8 @@ private void AnnoyedWorkerWakeUp(WorkerModel worker)
 ```csharp
 public void AnnoyWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -559,24 +646,32 @@ public void AnnoyWorker(WorkerModel worker)
 ```csharp
 public void BecomeChicken()
 ```
+#INC
+
 
 ### BecomeSheep()
 
 ```csharp
 public void BecomeSheep()
 ```
+#INC
+
 
 ### CheckReturn()
 
 ```csharp
 private void CheckReturn()
 ```
+#INC
+
 
 ### CheckSleep(WorkerModel)
 
 ```csharp
 public bool CheckSleep(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -593,36 +688,48 @@ public bool CheckSleep(WorkerModel worker)
 ```csharp
 private void ChickenDefaultSound()
 ```
+#INC
+
 
 ### EndCrying()
 
 ```csharp
 private void EndCrying()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FixedUpdate_Chicken()
 
 ```csharp
 private void FixedUpdate_Chicken()
 ```
+#INC
+
 
 ### FixedUpdate_Sheep()
 
 ```csharp
 private void FixedUpdate_Sheep()
 ```
+#INC
+
 
 ### IsAutoSuppressable()
 
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -633,6 +740,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 private bool IsCrying()
 ```
+#INC
+
 
 #### Returns
 
@@ -643,6 +752,8 @@ private bool IsCrying()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -653,6 +764,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -663,6 +776,8 @@ private bool IsMovable()
 ```csharp
 private GameObject MakeEffect(string src, GameObject pivot, bool isGlobal = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -681,24 +796,32 @@ private GameObject MakeEffect(string src, GameObject pivot, bool isGlobal = true
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### Movement_Chicken()
 
 ```csharp
 private void Movement_Chicken()
 ```
+#INC
+
 
 ### Movement_Sheep()
 
 ```csharp
 private void Movement_Sheep()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -709,12 +832,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnCryDamage()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -727,42 +854,56 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillEnd()
 
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnStartCrying()
 
 ```csharp
 public void OnStartCrying()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -777,6 +918,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -789,6 +933,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnWorkerAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -801,18 +947,24 @@ public void OnWorkerAnimCalled(int i)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SkillShoot_Sheep()
 
 ```csharp
 private void SkillShoot_Sheep()
 ```
+#INC
+
 
 ### SleepWorker(WorkerModel)
 
 ```csharp
 public void SleepWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -825,18 +977,24 @@ public void SleepWorker(WorkerModel worker)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+
 
 ### WakedWorkerWakeUp(WorkerModel)
 
 ```csharp
 private void WakedWorkerWakeUp(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -849,6 +1007,8 @@ private void WakedWorkerWakeUp(WorkerModel worker)
 ```csharp
 public void WakeWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/EquipAllTutorial
 public class EquipAllTutorial : Tutorial
 ```
 
+Tutorial that ends when an [agent](/api/Global/Worker/AgentModel) is equipped with an EGO Weapon and Suit.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EquipAllTutorial
 
@@ -33,3 +36,6 @@ public EquipAllTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/StateMachineBehaviour/OneBadBehaviour
 public class OneBadBehaviour : StateMachineBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → OneBadBehaviour
 
@@ -33,6 +36,9 @@ public OneBadBehaviour()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

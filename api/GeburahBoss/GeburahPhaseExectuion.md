@@ -11,6 +11,8 @@ canonical_path: /api/GeburahBoss/GeburahPhaseExectuion
 ```csharp
 public abstract class GeburahPhaseExectuion
 ```
+Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s phases.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahPhaseExectuion
@@ -28,6 +30,9 @@ public abstract class GeburahPhaseExectuion
 ```csharp
 public GeburahPhaseExectuion(GeburahCoreScript geburah)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public GeburahPhaseExectuion(GeburahCoreScript geburah)
 ```csharp
 public GeburahCoreScript geburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ public GeburahCoreScript geburah
 ```csharp
 public bool isPrevAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,12 +73,16 @@ public bool isPrevAttack
 ```csharp
 public abstract void FixedUpdate()
 ```
+#INC
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public abstract GeburahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -86,6 +99,8 @@ public abstract GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public virtual MapNode GetRandomMoveNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -96,6 +111,8 @@ public virtual MapNode GetRandomMoveNode()
 ```csharp
 public virtual MapNode GetRandomNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -106,9 +123,13 @@ public virtual MapNode GetRandomNode()
 ```csharp
 public virtual void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public abstract void Update()
 ```
+#INC
+

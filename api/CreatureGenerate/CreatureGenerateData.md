@@ -11,6 +11,10 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateData
 ```csharp
 public class CreatureGenerateData
 ```
+Parent class with some helper functions for reading in day info (from CreatureGenInfo, in resources).
+
+See [CreatureGenerateModel](/api/CreatureGenerate/CreatureGenerateModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureGenerateData
@@ -46,6 +50,8 @@ public CreatureGenerateData.ActionData commonAction
 ```csharp
 public static char[] split
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public static char[] split
 ```csharp
 public static string uniqueText
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +76,8 @@ public static string uniqueText
 ```csharp
 public static bool IsCommonAction(string parsed, out GenerateCommonAction action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,6 +95,8 @@ public static bool IsCommonAction(string parsed, out GenerateCommonAction action
 ```csharp
 public static bool IsUniqueAction(string parsed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +113,8 @@ public static bool IsUniqueAction(string parsed)
 ```csharp
 public virtual void OnlyAction(params object[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +144,9 @@ public bool ParseAction(ref string origin, out CreatureGenerateData.ActionData o
 ```csharp
 public virtual void RemoveAction(params object[] ids)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

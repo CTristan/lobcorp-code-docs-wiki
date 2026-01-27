@@ -12,6 +12,11 @@ canonical_path: /api/Global/Model/MapObjectModel
 public class MapObjectModel : ObjectModelBase
 ```
 
+Represents an object which is part of a room now. Seems to only be used by [BloodMapObjectModel](/api/Global/Model/BloodMapObjectModel).
+
+#INC
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [ObjectModelBase](/api/Global/Object/ObjectModelBase) → MapObjectModel
 
@@ -36,6 +41,8 @@ public MapObjectModel()
 ```csharp
 public int horrorPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,9 @@ public int horrorPoint
 ```csharp
 public MapObjectTypeInfo metaInfo
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -56,6 +66,8 @@ public MapObjectTypeInfo metaInfo
 ```csharp
 public PassageObjectModel passage
 ```
+#INC
+
 
 #### Field Value
 

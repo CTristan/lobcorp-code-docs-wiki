@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/WorkerAttackCommand
 ```csharp
 internal interface WorkerAttackCommand
 ```
+Interface with one method: void GiveDamage().
+
+Only used by UnconPursueWorkerCommand (and the unused UnconAuthorNoteAttackCommand).
+
+
 
 ## Methods
 
@@ -19,3 +24,5 @@ internal interface WorkerAttackCommand
 ```csharp
 void GiveDamage()
 ```
+#INC
+

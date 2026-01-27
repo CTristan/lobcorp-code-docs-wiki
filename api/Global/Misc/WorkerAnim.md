@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/WorkerAnim
 public class WorkerAnim : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerAnim
 
@@ -33,6 +36,8 @@ public WorkerAnim()
 ```csharp
 public string[] motions
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ public string[] motions
 ```csharp
 public bool ContainsMotion(string motionName)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -61,6 +69,8 @@ public bool ContainsMotion(string motionName)
 ```csharp
 public void SetMotion(string motionName)
 ```
+#INC
+
 
 #### Parameters
 

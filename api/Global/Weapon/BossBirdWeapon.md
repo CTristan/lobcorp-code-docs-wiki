@@ -11,6 +11,10 @@ canonical_path: /api/Global/Weapon/BossBirdWeapon
 ```csharp
 public class BossBirdWeapon : EquipmentScriptBase
 ```
+Script for [Apocalypse Bird](/api/Global/Misc/BossBird)'s EGO Weapon: Twilight. Does all types of damage.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BossBirdWeapon
@@ -33,6 +37,8 @@ public BossBirdWeapon()
 ```csharp
 private AutoTimer _closeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private AutoTimer _closeTimer
 ```csharp
 private bool _isBattle
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _isBattle
 ```csharp
 private bool _isSpecialAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _isSpecialAttack
 ```csharp
 private const float _skillCoolTime = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const float _skillCoolTime = 60
 ```csharp
 private Timer _skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private Timer _skillCoolTimer
 ```csharp
 private GameObject _skillEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private GameObject _skillEffect
 ```csharp
 private SplashInfo defaultInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private SplashInfo defaultInfo
 ```csharp
 private const string effectSrc = "Effect/Creature/BigBird/BossBirdWeaponEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private const string effectSrc = "Effect/Creature/BigBird/BossBirdWeaponEffect"
 ```csharp
 private static int[] normalDamageAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private static int[] normalDamageAry
 ```csharp
 private SplashInfo skillInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ private SplashInfo skillInfo
 ```csharp
 private static int[] specialDamageAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private static int[] specialDamageAry
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,18 +183,24 @@ private WorkerModel worker
 ```csharp
 private void ClearEffect()
 ```
+#INC
+
 
 ### CloseSkill()
 
 ```csharp
 public void CloseSkill()
 ```
+#INC
+
 
 ### GetDamage(int)
 
 ```csharp
 private DamageInfo GetDamage(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,18 +217,24 @@ private DamageInfo GetDamage(int index)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### LoadEffect()
 
 ```csharp
 private void LoadEffect()
 ```
+#INC
+
 
 ### OnAttackEnd(UnitModel, UnitModel)
 
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,6 +265,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,12 +279,16 @@ public override void OnCancelWeapon(UnitModel actor)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnPrepareWeapon(UnitModel)
 
 ```csharp
 public override void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -255,18 +301,25 @@ public override void OnPrepareWeapon(UnitModel actor)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetEffectActive(bool)
 
 ```csharp
 private void SetEffectActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 

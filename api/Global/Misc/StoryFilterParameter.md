@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/StoryFilterParameter
 ```csharp
 public class StoryFilterParameter
 ```
+Parent class for changing parameters for the filter over the story. #INC 
+
+All of these store a bool called fade, except Blur_Blurry which stores a bool called amount (??), and TVOldMovie2 which stores a float called burn. #INC 
+#code-generated
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryFilterParameter

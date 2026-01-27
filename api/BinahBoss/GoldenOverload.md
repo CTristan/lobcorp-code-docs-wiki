@@ -11,6 +11,10 @@ canonical_path: /api/BinahBoss/GoldenOverload
 ```csharp
 public class GoldenOverload : BinahOverload, IObserver
 ```
+Class for the Meltdown of Gold Qliphoth meltdowns (gold). On success, interrupts [An Arbiter](/api/Global/Script/BinahCoreScript) and makes her tired. On failure, she gets a recovery buff.
+
+Starts in [Phase 1](/api/BinahBoss/FirstPhase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahOverload](/api/BinahBoss/BinahOverload) → GoldenOverload
@@ -28,6 +32,8 @@ public class GoldenOverload : BinahOverload, IObserver
 ```csharp
 public GoldenOverload(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,9 +48,14 @@ public GoldenOverload(BinahCoreScript binah)
 ```csharp
 public override void OnFail()
 ```
+#INC
+
 
 ### OnSuccess()
 
 ```csharp
 public override void OnSuccess()
 ```
+#INC
+#code-generated
+

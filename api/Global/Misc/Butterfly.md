@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Butterfly
 public class Butterfly : CreatureBase
 ```
 
+The Funeral of the Dead Butterflies.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Butterfly
 
@@ -33,6 +36,8 @@ public Butterfly()
 ```csharp
 private ButterflyAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private ButterflyAnim _animScript
 ```csharp
 private const float attackAfterDelay = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float attackAfterDelay = 1
 ```csharp
 private Timer attackAfterDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer attackAfterDelayTimer
 ```csharp
 private const float attackCoolTime = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float attackCoolTime = 4
 ```csharp
 private Timer attackCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private List<Butterfly.AttackDelay> attackDelays
 ```csharp
 private const int attackDmgMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private const int attackDmgMax = 15
 ```csharp
 private const int attackDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ private const int attackDmgMin = 10
 ```csharp
 private const float attackRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ private const float attackRange = 15
 ```csharp
 private UnitModel attackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ private UnitModel attackTarget
 ```csharp
 private const int badResultProb = 80
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private const int badResultProb = 80
 ```csharp
 private const float dmgDelay = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +188,8 @@ public List<Butterfly.ButterflyEffect> effects
 ```csharp
 private const int fortitudeCondition = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +200,8 @@ private const int fortitudeCondition = 3
 ```csharp
 private const int justiceCondition = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +212,8 @@ private const int justiceCondition = 3
 ```csharp
 public long nextEffectId
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +224,8 @@ public long nextEffectId
 ```csharp
 private const float skillCoolTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +236,8 @@ private const float skillCoolTime = 20
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +248,8 @@ private Timer skillCoolTimer
 ```csharp
 private const int skillDmgMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +260,8 @@ private const int skillDmgMax = 4
 ```csharp
 private const int skillDmgMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +272,8 @@ private const int skillDmgMin = 3
 ```csharp
 private const float skillEffectDamageDistance = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +284,8 @@ private const float skillEffectDamageDistance = 0.2
 ```csharp
 private const float skillEffectGenDistacne = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +296,8 @@ private const float skillEffectGenDistacne = 2
 ```csharp
 private const float skillEffectMovement = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +308,8 @@ private const float skillEffectMovement = 12
 ```csharp
 private const float skillEffectTime = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +320,8 @@ private const float skillEffectTime = 0.3
 ```csharp
 private Timer skillEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +332,8 @@ private Timer skillEffectTimer
 ```csharp
 private const float skillRemainTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +344,8 @@ private const float skillRemainTime = 10
 ```csharp
 private Timer skillRemainTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,42 +390,56 @@ private static int skillDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AttackDamage()
 
 ```csharp
 public void AttackDamage()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### EndShooting()
 
 ```csharp
 private void EndShooting()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string, UnitModel)
 
 ```csharp
 private SoundEffectPlayer MakeSound(string src, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,6 +457,8 @@ private SoundEffectPlayer MakeSound(string src, UnitModel target)
 ```csharp
 private SoundEffectPlayer MakeSound(string src, UnitModel target, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,6 +477,8 @@ private SoundEffectPlayer MakeSound(string src, UnitModel target, float volume)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -420,6 +491,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -432,30 +505,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -468,30 +551,41 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ShootButterfly()
 
 ```csharp
 public void ShootButterfly()
 ```
+#INC
+
 
 ### StartShooting()
 
 ```csharp
 public void StartShooting()
 ```
+#INC
+
 
 ### StartSkill()
 
 ```csharp
 private void StartSkill()
 ```
+#INC
+
 
 ### TrySkillAttack(UnitModel)
 
 ```csharp
 public void TrySkillAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -504,3 +598,5 @@ public void TrySkillAttack(UnitModel target)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

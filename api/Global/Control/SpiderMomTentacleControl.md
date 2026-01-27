@@ -12,6 +12,9 @@ canonical_path: /api/Global/Control/SpiderMomTentacleControl
 public class SpiderMomTentacleControl : MonoBehaviour
 ```
 
+Animation handler for [Spider Bud](/api/Global/Misc/SpiderMom)'s tentacles (only used in Spider Bud's prefab, SpiderMom).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpiderMomTentacleControl
 
@@ -33,6 +36,8 @@ public SpiderMomTentacleControl()
 ```csharp
 public Animator[] tentacles
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public Animator[] tentacles
 ```csharp
 public void Update()
 ```
+#INC
+#code-generated
+

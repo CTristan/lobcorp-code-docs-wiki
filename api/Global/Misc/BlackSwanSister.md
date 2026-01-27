@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BlackSwanSister
 public class BlackSwanSister : CreatureBase
 ```
 
+[Dream of a Black Swan](/api/Global/IOBserver/BlackSwan)'s breaching form, the sister.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BlackSwanSister
 
@@ -33,6 +36,8 @@ public BlackSwanSister()
 ```csharp
 private BlackSwanSisterAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BlackSwanSisterAnim _animScript
 ```csharp
 private ChildCreatureUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private ChildCreatureUnit _unit
 ```csharp
 private const float annoyEffectFixedX = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float annoyEffectFixedX = 1.5
 ```csharp
 private const float annoyEffectFixedY = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float annoyEffectFixedY = 0.5
 ```csharp
 private const float attackCoolTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float attackCoolTime = 1
 ```csharp
 private Timer attackCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Timer attackCoolTimer
 ```csharp
 private const float attackDelayTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float attackDelayTime = 1
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private Timer attackDelayTimer
 ```csharp
 private const int attackDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private const int attackDmgMax = 8
 ```csharp
 private const int attackDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const int attackDmgMin = 5
 ```csharp
 private const float attackEffectFixedX = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float attackEffectFixedX = 0
 ```csharp
 private const float attackEffectFixedY = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float attackEffectFixedY = 0.5
 ```csharp
 private const float attackRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const float attackRange = 4
 ```csharp
 private BlackSwan brother
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private BlackSwan brother
 ```csharp
 private SoundEffectPlayer cryingSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private SoundEffectPlayer cryingSound
 ```csharp
 private const float damageRange = 4.6
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const float damageRange = 4.6
 ```csharp
 private const string effect_annoy = "BlackSwanAnnoyEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private const string effect_annoy = "BlackSwanAnnoyEffect"
 ```csharp
 private const string effect_attack = "BlackSwanAttackEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private const string effect_attack = "BlackSwanAttackEffect"
 ```csharp
 private const string effect_reflect = "BlackSwanReflectEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const string effect_reflect = "BlackSwanReflectEffect"
 ```csharp
 private const string effect_skill = "BlackSwanSkillEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const string effect_skill = "BlackSwanSkillEffect"
 ```csharp
 private const string effect_summon = "BlackSwanSummonEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private const string effect_summon = "BlackSwanSummonEffect"
 ```csharp
 private const string effectSrc = "Effect/Creature/BlackSwan/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const string effectSrc = "Effect/Creature/BlackSwan/"
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private bool init
 ```csharp
 private const float initTime = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const float initTime = 4
 ```csharp
 private Timer initTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private Timer initTimer
 ```csharp
 private List<MapNode> neighborDoors
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +358,8 @@ private List<BlackSwanSister.AnnoyedNeighbor> neighbors
 ```csharp
 private PassageObjectModel oldPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +370,8 @@ private PassageObjectModel oldPassage
 ```csharp
 private const float reflectCoolTime = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ private const float reflectCoolTime = 15
 ```csharp
 private Timer reflectCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private Timer reflectCoolTimer
 ```csharp
 private const float reflectEffectFixedX = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private const float reflectEffectFixedX = 5
 ```csharp
 private const float reflectEffectFixedY = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private const float reflectEffectFixedY = 2
 ```csharp
 private const float reflectRemainTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private const float reflectRemainTime = 10
 ```csharp
 private Timer reflectRemainTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private Timer reflectRemainTimer
 ```csharp
 private const float skillCoolTime = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private const float skillCoolTime = 25
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private Timer skillCoolTimer
 ```csharp
 private const int skillDmgMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private const int skillDmgMax = 45
 ```csharp
 private const int skillDmgMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ private const int skillDmgMin = 30
 ```csharp
 private const float skillEffectFixedX = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ private const float skillEffectFixedX = 0.8
 ```csharp
 private const float skillEffectFixedY = 4.6
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +514,8 @@ private const float skillEffectFixedY = 4.6
 ```csharp
 public const string sound_atk_dmg = "atk_dmg"
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +526,8 @@ public const string sound_atk_dmg = "atk_dmg"
 ```csharp
 public const string sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +538,8 @@ public const string sound_dead = "dead"
 ```csharp
 public const string sound_pre_atk = "pre_atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +550,8 @@ public const string sound_pre_atk = "pre_atk"
 ```csharp
 public const string sound_reflect = "reflect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +562,8 @@ public const string sound_reflect = "reflect"
 ```csharp
 public const string sound_skill = "skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +574,8 @@ public const string sound_skill = "skill"
 ```csharp
 public const string sound_trans = "trans"
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +586,8 @@ public const string sound_trans = "trans"
 ```csharp
 private const float SubQliphothCounterCoolTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +598,8 @@ private const float SubQliphothCounterCoolTime = 30
 ```csharp
 private const float summonEffectFixedX = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +610,8 @@ private const float summonEffectFixedX = 0
 ```csharp
 private const float summonEffectFixedY = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +622,8 @@ private const float summonEffectFixedY = 0.5
 ```csharp
 private const float transformHpCondition = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +634,8 @@ private const float transformHpCondition = 0.4
 ```csharp
 private const float transformInitTime = 1.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -587,18 +690,24 @@ private static int skillDmg { get; }
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,6 +725,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -632,12 +743,16 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveAttackDamage()
 ```
+#INC
+
 
 ### HasEscapeUI()
 
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -648,6 +763,8 @@ public override bool HasEscapeUI()
 ```csharp
 private bool IsInRange(UnitModel unit, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -665,6 +782,8 @@ private bool IsInRange(UnitModel unit, float range)
 ```csharp
 private GameObject MakeEffect(string src, float fixedX, float fixedY, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -684,12 +803,16 @@ private GameObject MakeEffect(string src, float fixedX, float fixedY, UnitModel 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -706,6 +829,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -722,6 +847,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -732,6 +859,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -744,6 +873,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -758,6 +889,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -770,6 +904,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SetBrother(BlackSwan brother)
 ```
+#INC
+
 
 #### Parameters
 
@@ -782,6 +918,8 @@ private void SetBrother(BlackSwan brother)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -794,15 +932,21 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SkillDamage()
 ```
+#INC
+
 
 ### SkillEnd()
 
 ```csharp
 public void SkillEnd()
 ```
+#INC
+
 
 ### SkillStart()
 
 ```csharp
 private void SkillStart()
 ```
+#INC
+

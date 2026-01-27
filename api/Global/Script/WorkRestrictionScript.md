@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/WorkRestrictionScript
 public class WorkRestrictionScript : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkRestrictionScript
 
@@ -33,6 +36,8 @@ public WorkRestrictionScript()
 ```csharp
 private CreatureModel _target
 ```
+
+
 
 #### Field Value
 
@@ -84,11 +89,15 @@ public void Init(CreatureModel target)
 public void Matching()
 ```
 
+
+
 ### OnClick(int)
 
 ```csharp
 public void OnClick(int i)
 ```
+
+
 
 #### Parameters
 
@@ -101,6 +110,8 @@ public void OnClick(int i)
 ```csharp
 public void OnClick(Toggle target)
 ```
+
+
 
 #### Parameters
 

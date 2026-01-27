@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/DangoCreatureWeapon
 public class DangoCreatureWeapon : EquipmentScriptBase
 ```
 
+Script for [Mountain of Smiling Bodies](/api/Global/IOBserver/DangoCreature)'s EGO Weapon: Smile.
+
+Applies a slow effect, has a special attack, special animations.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → DangoCreatureWeapon
 
@@ -33,6 +38,8 @@ public DangoCreatureWeapon()
 ```csharp
 private int _bufCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private int _bufCount
 ```csharp
 private const int _bufMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _bufMax = 10
 ```csharp
 private const int _fortitudeBuf = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _fortitudeBuf = 3
 ```csharp
 private bool _isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool _isSpecial
 ```csharp
 private const int _justiceBuf = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _justiceBuf = 3
 ```csharp
 private const float _patternProb = 0.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _patternProb = 0.7
 ```csharp
 private bool skillAvailable
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ private bool skillAvailable
 ```csharp
 private bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +142,8 @@ private bool IsHostile(UnitModel target)
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +174,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +194,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,12 +210,17 @@ public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, Damage
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SlowAll(PassageObjectModel)
 
 ```csharp
 private void SlowAll(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,6 +233,8 @@ private void SlowAll(PassageObjectModel passage)
 ```csharp
 private void SlowTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SnowWhite
 public class SnowWhite : CreatureBase
 ```
 
+Snow White's Apple.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SnowWhite
 
@@ -33,6 +38,8 @@ public SnowWhite()
 ```csharp
 private SnowWhiteAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SnowWhiteAnim _animScript
 ```csharp
 private const string animSrc = "Agent/Dead/SnowWhiteAgent"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private SnowWhite.PassageInfectInfo currentInfectInfo
 ```csharp
 private const int dmgMax = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ private const int dmgMax = 25
 ```csharp
 private const int dmgMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private const int dmgMin = 20
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private RwbpType dmgType
 ```csharp
 public List<PassageObjectModel> infectedPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +140,8 @@ public Dictionary<PassageObjectModel, SnowWhite.PassageInfectInfo> infectInfos
 ```csharp
 public long nextVineId
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +152,8 @@ public long nextVineId
 ```csharp
 private float remainSpreadDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +164,8 @@ private float remainSpreadDelay
 ```csharp
 private float remainTeleportCasting
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +176,8 @@ private float remainTeleportCasting
 ```csharp
 private const float spreadDelay = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +188,8 @@ private const float spreadDelay = 2
 ```csharp
 private bool teleportCasting
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +200,8 @@ private bool teleportCasting
 ```csharp
 private const float teleportDelay = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +212,8 @@ private const float teleportDelay = 20
 ```csharp
 private bool teleportDone
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +224,8 @@ private bool teleportDone
 ```csharp
 private PassageObjectModel teleportTargetPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +236,8 @@ private PassageObjectModel teleportTargetPassage
 ```csharp
 private Timer teleportTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,18 +282,24 @@ private static int GetDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CastTeleport()
 
 ```csharp
 private void CastTeleport()
 ```
+#INC
+
 
 ### GetPassages(Sefira)
 
 ```csharp
 private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +316,8 @@ private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```csharp
 private List<PassageObjectModel> GetTeleportTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -285,6 +328,8 @@ private List<PassageObjectModel> GetTeleportTargets()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,30 +342,40 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -333,12 +388,17 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ProcessTryToAttack(WorkerModel)
 
 ```csharp
 private void ProcessTryToAttack(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,18 +411,24 @@ private void ProcessTryToAttack(WorkerModel target)
 ```csharp
 private void ProcessVineAttack()
 ```
+#INC
+
 
 ### ProcessVineBuf()
 
 ```csharp
 private void ProcessVineBuf()
 ```
+#INC
+
 
 ### TeleportTo(PassageObjectModel)
 
 ```csharp
 private void TeleportTo(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -375,3 +441,5 @@ private void TeleportTo(PassageObjectModel passage)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

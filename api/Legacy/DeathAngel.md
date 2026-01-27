@@ -12,6 +12,9 @@ canonical_path: /api/Legacy/DeathAngel
 public class DeathAngel : CreatureBase
 ```
 
+WhiteNight <3
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DeathAngel
 
@@ -93,6 +96,8 @@ public const string agentEffect = "Effect/Creature/DeathAngel/AgentExplode"
 ```csharp
 private const int apostleCount = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +138,8 @@ private DeathAngel.Apostle[] apostles
 ```csharp
 private Sprite badState
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +290,8 @@ public const string factionId = "11"
 ```csharp
 private Sprite goodState
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +342,8 @@ private const float iudasDelay = 5
 ```csharp
 private Sprite normalState
 ```
+#INC
+
 
 #### Field Value
 
@@ -580,6 +591,8 @@ public void DoctorAdvent()
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### Extinction(AgentModel)
 
@@ -792,6 +805,8 @@ public void OnConfess()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -804,6 +819,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -846,30 +863,41 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -906,6 +934,8 @@ public void ResurrectApostles()
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetApostleList(List<DeathAngelApostle>)
 
@@ -979,6 +1009,8 @@ private void Teleport()
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+
 
 ### UniqueMaxObservationFinish(Desc)
 

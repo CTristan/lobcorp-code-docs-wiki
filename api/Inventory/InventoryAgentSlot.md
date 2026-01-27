@@ -12,6 +12,11 @@ canonical_path: /api/Inventory/InventoryAgentSlot
 public class InventoryAgentSlot : MonoBehaviour, IObserver
 ```
 
+UI element which displays an agent to be equipped on the [E.G.O List screen](/api/Inventory/InventoryUI).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryAgentSlot
 
@@ -36,6 +41,8 @@ public InventoryAgentSlot()
 ```csharp
 private AgentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private AgentModel _model
 ```csharp
 private const float _overScaleFactor = 1.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const float _overScaleFactor = 1.1
 ```csharp
 public Text AgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Text AgentName
 ```csharp
 public Text AgentTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Text AgentTitle
 ```csharp
 public GameObject defDataRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public GameObject defDataRoot
 ```csharp
 public Image Grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public Image Grade
 ```csharp
 public Text GradeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public Text GradeText
 ```csharp
 public bool HasRequireComponents
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public bool HasRequireComponents
 ```csharp
 private bool noticeObserving
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private bool noticeObserving
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public WorkerPortraitSetter portrait
 ```csharp
 public InventoryRequireLayout require
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public InventoryRequireLayout require
 ```csharp
 private InventorySlot slot
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private InventorySlot slot
 ```csharp
 public Image Texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +234,8 @@ private void AttachInteraction(EventTrigger.Entry entry, InventoryAgentSlot.OnCl
 ```csharp
 private void AttachInteractionEvent(EventTrigger eventTrigger)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +248,8 @@ private void AttachInteractionEvent(EventTrigger eventTrigger)
 ```csharp
 public void AttachNotice()
 ```
+#INC
+
 
 ### AttachOnClickEvent(OnClickEvent)
 
@@ -245,42 +280,57 @@ public void AttachOnClickEvent(InventoryAgentSlot.OnClickEventByAgent c)
 ```csharp
 public void DetachNotice()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnClickSefiraController()
 
 ```csharp
 public void OnClickSefiraController()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,6 +344,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -306,6 +358,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,18 +372,24 @@ public void SetAgent(AgentModel agent)
 ```csharp
 public void SetDisabled()
 ```
+#INC
+
 
 ### SetEmpty()
 
 ```csharp
 public void SetEmpty()
 ```
+#INC
+
 
 ### SetInfo(InventorySlot)
 
 ```csharp
 public void SetInfo(InventorySlot i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -342,6 +402,8 @@ public void SetInfo(InventorySlot i)
 ```csharp
 public void SetRequireInfo(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,6 +428,8 @@ public void SetState(InventoryAgentSlot.EquipState state)
 ```csharp
 public void SetTextureColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -378,9 +442,13 @@ public void SetTextureColor(Color c)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateTexture()
 
 ```csharp
 public void UpdateTexture()
 ```
+#INC
+

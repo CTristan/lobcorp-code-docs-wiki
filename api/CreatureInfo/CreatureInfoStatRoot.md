@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoStatRoot
 ```csharp
 public class CreatureInfoStatRoot : CreatureInfoController
 ```
+Basic info section (i.e., risk level, portrait, work damage...)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoStatRoot
@@ -33,6 +35,8 @@ public CreatureInfoStatRoot()
 ```csharp
 public Text CodeNo
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Text CodeNo
 ```csharp
 public List<CreatureInfoWorkDamageSlot> damageList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public List<CreatureInfoWorkDamageSlot> damageList
 ```csharp
 private const string damageSlotSrc = "UIComponent/CreatureInfo/WorkDamageSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private const string damageSlotSrc = "UIComponent/CreatureInfo/WorkDamageSlot"
 ```csharp
 private const string feelingStateSlotSrc = "UIComponent/CreatureInfo/WorkPreferSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +105,8 @@ public Text MaximumCubeGenerate
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +117,8 @@ public Text Name
 ```csharp
 public CreatureInfoOpenArea Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +129,8 @@ public CreatureInfoOpenArea Open
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +141,8 @@ public Image Portrait
 ```csharp
 public Text RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +153,8 @@ public Text RiskLevel
 ```csharp
 public List<CreatureInfoStatFeelingStateSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +165,8 @@ public List<CreatureInfoStatFeelingStateSlot> slots
 ```csharp
 public Image WorkDamageFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +188,8 @@ public RectTransform workDamageListParent
 ```csharp
 public Text WorkDamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +200,8 @@ public Text WorkDamageRange
 ```csharp
 public Text WorkDamageType
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,18 +214,25 @@ public Text WorkDamageType
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Initialize()
 
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -212,6 +245,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool IsOpened()
 ```
+#INC
+
 
 #### Returns
 
@@ -222,6 +257,8 @@ public override bool IsOpened()
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -232,30 +269,40 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 private void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 private void SetEnabled()
 ```
+#INC
+
 
 ### SlotListInit()
 
 ```csharp
 private void SlotListInit()
 ```
+#INC
+
 
 ### SlotListInit(CreatureModel)
 
 ```csharp
 private void SlotListInit(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,12 +315,16 @@ private void SlotListInit(CreatureModel creature)
 ```csharp
 private void WorkDamageListInit()
 ```
+#INC
+
 
 ### WorkDamageListInit(CreatureModel)
 
 ```csharp
 private void WorkDamageListInit(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/MapGraphDebugView
 public class MapGraphDebugView : MonoBehaviour, IObserver
 ```
 
+A debug view for the [map](/api/Global/IOBserver/MapGraph).
+
+#unused #maybe_unused #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MapGraphDebugView
 
@@ -36,6 +41,8 @@ public MapGraphDebugView()
 ```csharp
 private static MapGraphDebugView _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private static MapGraphDebugView _instance
 ```csharp
 private bool debugOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool debugOn
 ```csharp
 private float defaultZ
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private float defaultZ
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,24 +103,33 @@ public static MapGraphDebugView instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,9 +143,13 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateView()
 
 ```csharp
 public void UpdateView()
 ```
+#INC
+

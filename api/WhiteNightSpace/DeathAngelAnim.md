@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/DeathAngelAnim
 public class DeathAngelAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [WhiteNight](/api/Legacy/DeathAngel).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → DeathAngelAnim
 
@@ -36,6 +39,8 @@ public DeathAngelAnim()
 ```csharp
 private AdventClockUI _adventUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private AdventClockUI _adventUI
 ```csharp
 public DeathAngelAttackCollider _attackCollider
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public DeathAngelAttackCollider _attackCollider
 ```csharp
 public GameObject _attackEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public GameObject _attackEffect
 ```csharp
 public CreatureCameraUtil_Inspector _escapeSenseInspector
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public CreatureCameraUtil_Inspector _escapeSenseInspector
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private SpineOptimizerModule _module
 ```csharp
 public Vector2 _mouseEventSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public Vector2 _mouseEventSize
 ```csharp
 private DeathAngel _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private DeathAngel _script
 ```csharp
 private DeathAngelVoidAction _workEndSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private DeathAngelVoidAction _workEndSkill
 ```csharp
 private const string explodeEffect = "Effect/Creature/DeathAngel/WhiteNightExplode"
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +170,8 @@ public GameObject[] Masks
 ```csharp
 public Animator SuppressAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -181,12 +206,16 @@ public DeathAngel Script { get; }
 ```csharp
 public void ActivateSkill()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -197,6 +226,8 @@ public override bool HasDeadMotion()
 ```csharp
 public void InitApostleNames(List<string> names)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,12 +240,17 @@ public void InitApostleNames(List<string> names)
 ```csharp
 public void InitParam()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -227,12 +263,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnSetSuppressEffect(bool)
 
 ```csharp
 public void OnSetSuppressEffect(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,12 +285,16 @@ public void OnSetSuppressEffect(bool state)
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAdventDesc(string)
 
 ```csharp
 public void SetAdventDesc(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,6 +307,8 @@ public void SetAdventDesc(string desc)
 ```csharp
 public void SetLessMovement(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +321,8 @@ public void SetLessMovement(bool state)
 ```csharp
 public void SetScript(DeathAngel deathAngel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -287,6 +335,8 @@ public void SetScript(DeathAngel deathAngel)
 ```csharp
 public void SetTransform(Vector3 pos, Vector3 scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -300,12 +350,16 @@ public void SetTransform(Vector3 pos, Vector3 scale)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartWorkSkill(DeathAngelVoidAction)
 
 ```csharp
 public void StartWorkSkill(DeathAngelVoidAction deathAngelVoidAction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,3 +372,5 @@ public void StartWorkSkill(DeathAngelVoidAction deathAngelVoidAction)
 ```csharp
 private void Update()
 ```
+#INC
+

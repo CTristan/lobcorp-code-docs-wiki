@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/MeatIdol
 public class MeatIdol : CreatureBase
 ```
 
+Flesh Idol. Tool abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → MeatIdol
 
@@ -33,6 +38,8 @@ public MeatIdol()
 ```csharp
 private float _cycleTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _cycleTime
 ```csharp
 private float _damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float _damage
 ```csharp
 private Timer _damageTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer _damageTimer
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _recoverTimer
 ```csharp
 private float _recovery
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,9 @@ private float _recovery
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -97,6 +115,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +129,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 

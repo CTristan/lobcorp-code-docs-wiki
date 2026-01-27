@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SteamTester
 public class SteamTester : MonoBehaviour
 ```
 
+Testing thing for Steam. Probably unused.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SteamTester
 
@@ -33,12 +38,17 @@ public SteamTester()
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### SteamAPI_Init()
 
 ```csharp
 private static extern bool SteamAPI_Init()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -49,6 +59,8 @@ private static extern bool SteamAPI_Init()
 ```csharp
 private static extern bool SteamAPI_RestartAppIfNecessary(uint unOwnAppID)
 ```
+#INC
+
 
 #### Parameters
 
@@ -65,3 +77,5 @@ private static extern bool SteamAPI_RestartAppIfNecessary(uint unOwnAppID)
 ```csharp
 private void Update()
 ```
+#INC
+

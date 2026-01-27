@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CircusDuskAnim
 public class CircusDuskAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Struggle at the Climax](/api/Global/Misc/CircusDusk).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CircusDuskAnim
 
@@ -36,6 +39,8 @@ public CircusDuskAnim()
 ```csharp
 private const string _effcet_attack = "CircusDuskAttackEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const string _effcet_attack = "CircusDuskAttackEffect"
 ```csharp
 private const string _effcet_back = "CircusDuskBackEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _effcet_back = "CircusDuskBackEffect"
 ```csharp
 private const string _effcet_front = "CircusDuskFrontEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string _effcet_front = "CircusDuskFrontEffect"
 ```csharp
 private const string _effect_dead = "CircusDuskDeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const string _effect_dead = "CircusDuskDeadEffect"
 ```csharp
 private const string _effectSrc = "Effect/Creature/CircusDusk/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const string _effectSrc = "Effect/Creature/CircusDusk/"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private SpineOptimizerModule _module
 ```csharp
 private CircusDusk script
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,30 +125,40 @@ private CircusDusk script
 ```csharp
 private void AttackDamage()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### BreakDown()
 
 ```csharp
 private void BreakDown()
 ```
+#INC
+
 
 ### DeadEffect()
 
 ```csharp
 private void DeadEffect()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,6 +169,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -152,6 +181,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsMoving()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,6 +193,8 @@ public bool IsMoving()
 ```csharp
 private void MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,6 +207,8 @@ private void MakeEffect(string src)
 ```csharp
 public void OnAttackStart(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,6 +221,9 @@ public void OnAttackStart(int attackType)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -198,24 +236,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetInElevator(bool)
 
 ```csharp
 public void SetInElevator(bool inElevator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -228,6 +274,8 @@ public void SetInElevator(bool inElevator)
 ```csharp
 public void SetScript(CircusDusk script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -240,6 +288,8 @@ public void SetScript(CircusDusk script)
 ```csharp
 private void SpecialDamage(bool isFront)
 ```
+#INC
+
 
 #### Parameters
 
@@ -252,3 +302,5 @@ private void SpecialDamage(bool isFront)
 ```csharp
 private void Update()
 ```
+#INC
+

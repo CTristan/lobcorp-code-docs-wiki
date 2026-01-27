@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/RedShoesWeapon
 public class RedShoesWeapon : EquipmentScriptBase
 ```
 
+Script for [Red Shoes](/api/Global/Misc/RedShoes)' EGO Weapon: Sanguine Desire.
+
+Inflicts 4% SP damage (minimum 1) to self on hit if the user's temperance is lower than 3. Also, increases damage by 5 at a temperance of 1, or by 3 with a temperance of 2.
+
+(Also has a debug log...)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RedShoesWeapon
 
@@ -33,6 +40,8 @@ public RedShoesWeapon()
 ```csharp
 private readonly float _AMOUNT_INCREASE_DMG_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private readonly float _AMOUNT_INCREASE_DMG_1
 ```csharp
 private readonly float _AMOUNT_INCREASE_DMG_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private readonly float _AMOUNT_INCREASE_DMG_2
 ```csharp
 private readonly float _AMOUNT_RATIO_MENTAL_DMG
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private readonly float _AMOUNT_RATIO_MENTAL_DMG
 ```csharp
 private readonly int _CONDITION_TEMPERANCE_LEVEL_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private readonly int _CONDITION_TEMPERANCE_LEVEL_1
 ```csharp
 private readonly int _CONDITION_TEMPERANCE_LEVEL_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private readonly int _CONDITION_TEMPERANCE_LEVEL_2
 ```csharp
 private readonly int _CONDITION_TEMPERANCE_LEVEL_3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private readonly int _CONDITION_TEMPERANCE_LEVEL_3
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +126,9 @@ private readonly bool _LOG_STATE
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -123,6 +147,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void PrintLog(object s)
 ```
+#INC
+
 
 #### Parameters
 

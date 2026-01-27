@@ -12,6 +12,11 @@ canonical_path: /api/CommandWindow/WorkAllocateRegion
 public class WorkAllocateRegion : CommandWindowRegion
 ```
 
+UI element (actually, more like data for one...) for work assignment region and abnormality information (i.e., name, portrait, number, grade, max boxes, outcome ranges, work damage).
+
+See also [CommandWindow](/api/CommandWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → WorkAllocateRegion
 
@@ -33,6 +38,8 @@ public WorkAllocateRegion()
 ```csharp
 private CreatureModel _currentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel _currentModel
 ```csharp
 public Text CodeNo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Text CodeNo
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public RectTransform listParent
 ```csharp
 public Text MaximumCubeGenerate
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Text MaximumCubeGenerate
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text Name
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Image Portrait
 ```csharp
 public Text RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Text RiskLevel
 ```csharp
 public List<CreatureInfoStatFeelingStateSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public List<CreatureInfoStatFeelingStateSlot> slots
 ```csharp
 private static string unknown
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private static string unknown
 ```csharp
 private static string unknown_Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private static string unknown_Text
 ```csharp
 public Image WorkDamageFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public Image WorkDamageFill
 ```csharp
 public Text WorkDamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public Text WorkDamageRange
 ```csharp
 public Text WorkDamageType
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +208,8 @@ public CreatureModel CurrentModel { get; }
 ```csharp
 private void NonObserved(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +222,8 @@ private void NonObserved(CreatureModel creature)
 ```csharp
 private void OnObserved(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,6 +236,9 @@ private void OnObserved(CreatureModel creature)
 ```csharp
 public override void SetData(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/SefiraRecoverGaugeUI
 public class SefiraRecoverGaugeUI : MonoBehaviour, IObserver
 ```
 
+The recovery gauge above main rooms in [departments](/api/Global/Misc/Sefira).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraRecoverGaugeUI
 
@@ -36,6 +41,8 @@ public SefiraRecoverGaugeUI()
 ```csharp
 private int _oldOfficerAliveLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private int _oldOfficerAliveLevel
 ```csharp
 private bool _recoverActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool _recoverActivated
 ```csharp
 private Sefira _sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private Sefira _sefira
 ```csharp
 private Color activateColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private Color activateColor
 ```csharp
 public Canvas buttonCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Canvas buttonCanvas
 ```csharp
 private Color deactivateColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private Color deactivateColor
 ```csharp
 private static string f1
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private static string f1
 ```csharp
 private static string f2
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private static string f2
 ```csharp
 private static string f3
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private static string f3
 ```csharp
 public Image frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public Image frame
 ```csharp
 public Image frameTop
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public Image frameTop
 ```csharp
 public Image gauge
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public Image gauge
 ```csharp
 public Image[] officerAliveLevels
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public Image[] officerAliveLevels
 ```csharp
 public GameObject recoverX
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public GameObject recoverX
 ```csharp
 public GameObject recoverXDisable
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ public GameObject recoverXDisable
 ```csharp
 public SefiraEnum sefiraEnum
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ public SefiraEnum sefiraEnum
 ```csharp
 public GameObject sefiraReturnBtnRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ public GameObject sefiraReturnBtnRoot
 ```csharp
 private Color slowActivateColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -230,42 +271,56 @@ private Sefira Sefira { get; }
 ```csharp
 private void AttachEvent()
 ```
+#INC
+
 
 ### OnClearEffectInfo()
 
 ```csharp
 public void OnClearEffectInfo()
 ```
+#INC
+
 
 ### OnClickSefiraReturn()
 
 ```csharp
 public void OnClickSefiraReturn()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnDisplayEffectInfo()
 
 ```csharp
 public void OnDisplayEffectInfo()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,12 +334,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void OnStageStart()
 ```
+#INC
+
 
 ### SetActivate(bool)
 
 ```csharp
 private void SetActivate(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,3 +356,6 @@ private void SetActivate(bool b)
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

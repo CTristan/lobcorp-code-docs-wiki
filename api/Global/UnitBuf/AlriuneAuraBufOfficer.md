@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/AlriuneAuraBufOfficer
 public class AlriuneAuraBufOfficer : UnitBuf
 ```
 
+Effect that handles clerk death by [Alriune](/api/Global/Misc/Alriune)'s attacks.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → AlriuneAuraBufOfficer
 
@@ -25,6 +30,8 @@ public class AlriuneAuraBufOfficer : UnitBuf
 ```csharp
 public AlriuneAuraBufOfficer()
 ```
+Sets the [UnitBufType](/api/Global/Type/UnitBufType) to ALRIUNE_AURA.
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public AlriuneAuraBufOfficer()
 ```csharp
 private Animator curtainAnimator
 ```
+Animator for the curtain effect on this clerk.
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private Animator curtainAnimator
 ```csharp
 private const float delay = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float delay = 3
 ```csharp
 private bool specialDeadScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private bool specialDeadScene
 ```csharp
 private WorkerModel worker
 ```
+Stores the clerk affected by this buff.
+
 
 #### Field Value
 
@@ -75,6 +90,8 @@ private WorkerModel worker
 ```csharp
 public override void Init(UnitModel model)
 ```
+Sets the clerk's special death animation.
+
 
 #### Parameters
 
@@ -87,9 +104,14 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+If the worker is alive, resets the special death animation to not happen; otherwise, tells the curtainAnimator that this unit is dead and sets the special death animation randomly to one of four animations.
+#code-generated
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+Loads a curtain effect prefab on the clerk. Starts a 3 second timer to destroy this buff.
+

@@ -36,6 +36,8 @@ public KetherBossDust()
 ```csharp
 public float _stdOrtho
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public float _stdOrtho
 ```csharp
 public float _stdY
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public float _stdY
 ```csharp
 public bool calculateScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public bool calculateScale
 ```csharp
 private Camera camera
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,21 +86,30 @@ private Camera camera
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Calculate()
 
 ```csharp
 private void Calculate()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

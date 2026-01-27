@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/EncounterCreatureTutorial
 public class EncounterCreatureTutorial : Tutorial, IObserver
 ```
 
+Tutorial for encountering a creature; seems like it just waits until horror damage is applied to a worker and then ends a second later.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EncounterCreatureTutorial
 
@@ -36,6 +41,8 @@ public EncounterCreatureTutorial()
 ```csharp
 private bool encountered
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool encountered
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,24 +67,32 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,3 +106,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

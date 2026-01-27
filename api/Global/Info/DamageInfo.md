@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/DamageInfo
 ```csharp
 public class DamageInfo
 ```
+Stores information about damage.
+
+Holds damage type, sound and effect data, whether a special death thing needs to happen if it kills.
+
+Also provides the method that calculates damage.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DamageInfo
@@ -25,6 +31,9 @@ public class DamageInfo
 ```csharp
 public DamageInfo(RwbpType type, float damage)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -38,6 +47,8 @@ public DamageInfo(RwbpType type, float damage)
 ```csharp
 public DamageInfo(RwbpType type, int min, int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -54,6 +65,8 @@ public DamageInfo(RwbpType type, int min, int max)
 ```csharp
 public EffectInfo effectInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +77,8 @@ public EffectInfo effectInfo
 ```csharp
 public List<EffectInfo> effectInfos
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +89,8 @@ public List<EffectInfo> effectInfos
 ```csharp
 public float max
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +101,8 @@ public float max
 ```csharp
 public float min
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +113,8 @@ public float min
 ```csharp
 public string param
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +125,8 @@ public string param
 ```csharp
 public SoundInfo soundInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +137,8 @@ public SoundInfo soundInfo
 ```csharp
 public bool specialDeadSceneEnable
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +149,8 @@ public bool specialDeadSceneEnable
 ```csharp
 public string specialDeadSceneName
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +161,8 @@ public string specialDeadSceneName
 ```csharp
 public RwbpType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +187,8 @@ public static DamageInfo zero { get; }
 ```csharp
 public DamageInfo Copy()
 ```
+#INC
+
 
 #### Returns
 
@@ -168,6 +199,8 @@ public DamageInfo Copy()
 ```csharp
 public float GetDamage()
 ```
+#INC
+
 
 #### Returns
 
@@ -178,6 +211,8 @@ public float GetDamage()
 ```csharp
 public float GetDamageWithDefenseInfo(DefenseInfo defense)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,6 +231,8 @@ public float GetDamageWithDefenseInfo(DefenseInfo defense)
 ```csharp
 public static DamageInfo operator *(DamageInfo d, float f)
 ```
+#INC
+
 
 #### Parameters
 
@@ -213,6 +250,8 @@ public static DamageInfo operator *(DamageInfo d, float f)
 ```csharp
 public static DamageInfo operator *(float f, DamageInfo d)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/DeployAgentTutorial
 public class DeployAgentTutorial : Tutorial
 ```
 
+Tutorial for assigning an agent to a department.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → DeployAgentTutorial
 
@@ -33,15 +38,22 @@ public DeployAgentTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

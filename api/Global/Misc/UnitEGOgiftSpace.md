@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/UnitEGOgiftSpace
 ```csharp
 public class UnitEGOgiftSpace
 ```
+Many methods to work with EGO gifts.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UnitEGOgiftSpace
@@ -25,6 +29,9 @@ public class UnitEGOgiftSpace
 ```csharp
 public UnitEGOgiftSpace()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public UnitEGOgiftSpace()
 ```csharp
 public List<EGOgiftModel> addedGifts
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public List<EGOgiftModel> addedGifts
 ```csharp
 public Dictionary<int, bool> displayState
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Dictionary<int, UnitEGOgiftSpace.GiftLockState> lockState
 ```csharp
 public List<EGOgiftModel> replacedGifts
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public List<EGOgiftModel> replacedGifts
 ```csharp
 public static readonly long[] uniqueLock
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,8 @@ public static readonly long[] uniqueLock
 ```csharp
 public void AttachGift(UnitModel owner, EGOgiftModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -98,6 +115,8 @@ public void AttachGift(UnitModel owner, EGOgiftModel model)
 ```csharp
 public int CountGifts()
 ```
+#INC
+
 
 #### Returns
 
@@ -108,6 +127,8 @@ public int CountGifts()
 ```csharp
 public EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,6 +145,8 @@ public EGObonusInfo GetBonus(UnitModel actor)
 ```csharp
 public float GetDamageFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -134,6 +157,8 @@ public float GetDamageFactor()
 ```csharp
 public bool GetDisplayState(EGOgiftModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,6 +175,8 @@ public bool GetDisplayState(EGOgiftModel model)
 ```csharp
 public bool GetLockState(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,6 +193,8 @@ public bool GetLockState(EquipmentTypeInfo info)
 ```csharp
 public bool GetLockStateUI(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,6 +211,8 @@ public bool GetLockStateUI(EquipmentTypeInfo info)
 ```csharp
 public static int GetRegionId(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,6 +229,8 @@ public static int GetRegionId(EquipmentTypeInfo info)
 ```csharp
 public static string GetRegionName(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,6 +247,8 @@ public static string GetRegionName(EquipmentTypeInfo info)
 ```csharp
 public static string GetRegionName(int regionIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,6 +265,8 @@ public static string GetRegionName(int regionIndex)
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -240,6 +277,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,6 +296,8 @@ public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```csharp
 public bool HasEquipment(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +314,8 @@ public bool HasEquipment(int id)
 ```csharp
 public static bool IsUniqueLock(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,6 +332,8 @@ public static bool IsUniqueLock(long id)
 ```csharp
 public void LoadDataAndAttach(UnitModel owner, Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -302,6 +347,8 @@ public void LoadDataAndAttach(UnitModel owner, Dictionary<string, object> dic)
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)
 
@@ -326,6 +373,8 @@ public bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```csharp
 public void OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,6 +388,8 @@ public void OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 public void OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +416,8 @@ public void OwnerHeal(bool isMental, ref float amount)
 ```csharp
 public void ReleaseGift(EGOgiftModel gift)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,6 +430,8 @@ public void ReleaseGift(EGOgiftModel gift)
 ```csharp
 public void SetDisplayState(EGOgiftModel model, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,6 +445,8 @@ public void SetDisplayState(EGOgiftModel model, bool state)
 ```csharp
 public void SetLockState(EGOgiftModel model, bool state)
 ```
+#INC
+
 
 #### Parameters
 

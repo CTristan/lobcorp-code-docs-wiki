@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/ChopLeg
 public class ChopLeg : StandingItemScriptBase
 ```
 
+Part of [BugsForFoodEvent](/api/Global/Event/BugsForFoodEvent), maybe? And some [FallingLegEvent](/api/Global/Event/FallingLegEvent) thing...
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → ChopLeg
 
@@ -53,6 +57,8 @@ private ChopLeg.LegType _type
 ```csharp
 public string allocatedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +69,8 @@ public string allocatedSefira
 ```csharp
 public ChopLegAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +81,8 @@ public ChopLegAnim animScript
 ```csharp
 public Timer attackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +93,8 @@ public Timer attackDelay
 ```csharp
 private float attackRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +105,8 @@ private float attackRange
 ```csharp
 public bool canCancel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +117,8 @@ public bool canCancel
 ```csharp
 private const int clickMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ private const int clickMax = 3
 ```csharp
 private Timer clickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +141,8 @@ private Timer clickTimer
 ```csharp
 private int currentClickCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +153,8 @@ private int currentClickCount
 ```csharp
 public float currentGateOpenSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +165,8 @@ public float currentGateOpenSpeed
 ```csharp
 private PassageObjectModel currentPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +177,8 @@ private PassageObjectModel currentPassage
 ```csharp
 public const float Damage = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +189,8 @@ public const float Damage = 50
 ```csharp
 private float delayMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +201,8 @@ private float delayMax
 ```csharp
 private float delayMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +213,8 @@ private float delayMin
 ```csharp
 private float deleteRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ private float deleteRange
 ```csharp
 private List<MapNode> movNodes
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +237,8 @@ private List<MapNode> movNodes
 ```csharp
 public FallingLegEvent randomEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,6 +283,8 @@ public ChopLeg.LegType type { get; }
 ```csharp
 public void DelayedEnable(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,12 +297,16 @@ public void DelayedEnable(float value)
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### GetNearTargets()
 
 ```csharp
 public List<UnitModel> GetNearTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -275,6 +317,8 @@ public List<UnitModel> GetNearTargets()
 ```csharp
 public List<UnitModel> GetRangeTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -285,12 +329,16 @@ public List<UnitModel> GetRangeTargets()
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### MakeWorkerEffect(UnitModel)
 
 ```csharp
 private void MakeWorkerEffect(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,24 +351,33 @@ private void MakeWorkerEffect(UnitModel target)
 ```csharp
 public void OnAppearEnd()
 ```
+#INC
+
 
 ### OnCancelFail()
 
 ```csharp
 public void OnCancelFail()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -333,6 +390,8 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public void SetEvent(FallingLegEvent fle)
 ```
+#INC
+
 
 #### Parameters
 
@@ -345,12 +404,16 @@ public void SetEvent(FallingLegEvent fle)
 ```csharp
 public void SetNodes()
 ```
+#INC
+
 
 ### SetPassage(PassageObjectModel)
 
 ```csharp
 public void SetPassage(PassageObjectModel targetPassage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,6 +426,8 @@ public void SetPassage(PassageObjectModel targetPassage)
 ```csharp
 public void SetRandomPosition()
 ```
+#INC
+
 
 ### SetType(LegType)
 
@@ -381,3 +446,5 @@ public void SetType(ChopLeg.LegType type)
 ```csharp
 public void StartAttack()
 ```
+#INC
+

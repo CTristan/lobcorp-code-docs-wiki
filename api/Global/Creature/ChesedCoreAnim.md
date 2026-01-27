@@ -11,6 +11,12 @@ canonical_path: /api/Global/Creature/ChesedCoreAnim
 ```csharp
 public class ChesedCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
+Animation handler for [Chesed](/api/Global/Script/ChesedCoreScript) during [his core suppression](/api/Global/Misc/ChesedBossBase).
+
+Actually, it doesn't seem to do anything...?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ChesedCoreAnim
@@ -36,6 +42,8 @@ public ChesedCoreAnim()
 ```csharp
 private ChesedCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +68,9 @@ public ChesedCoreScript Script { get; }
 ```csharp
 public void SetScript(ChesedCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

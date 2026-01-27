@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effecter/DistortionHeatEffecter
 ```csharp
 public class DistortionHeatEffecter : MonoBehaviour
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DistortionHeatEffecter
@@ -33,6 +35,8 @@ public DistortionHeatEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float _elapsedTime
 ```csharp
 private float _lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private float _lifetime
 ```csharp
 public CameraFilterPack_Distortion_Heat target
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,3 +73,6 @@ public CameraFilterPack_Distortion_Heat target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BlueStarBuf
 public class BlueStarBuf : UnitBuf
 ```
 
+Buff marking employees who got killed by [Blue Star](/api/Global/IOBserver/BlueStar)?
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BlueStarBuf
 
@@ -25,6 +28,8 @@ public class BlueStarBuf : UnitBuf
 ```csharp
 public BlueStarBuf(BlueStar blueStar, bool lazyStart = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,8 @@ public BlueStarBuf(BlueStar blueStar, bool lazyStart = false)
 ```csharp
 private BlueStar blueStar
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +57,8 @@ private BlueStar blueStar
 ```csharp
 private bool lazyStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +69,8 @@ private bool lazyStart
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,12 +83,17 @@ private WorkerModel worker
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -90,18 +106,24 @@ public override void Init(UnitModel model)
 ```csharp
 private void InitAction()
 ```
+#INC
+
 
 ### LazyStart()
 
 ```csharp
 public void LazyStart()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 

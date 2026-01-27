@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySelectionUI
 public class StorySelectionUI : MonoBehaviour
 ```
 
+UI showing the options during a choice in a story. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySelectionUI
 
@@ -33,6 +36,8 @@ public StorySelectionUI()
 ```csharp
 public float Delay
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ private StorySelectionUI.OnSelectCallback onSelectCallback
 ```csharp
 public StorySelectionOptionUI[] optionUIs
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ public StorySelectionOptionUI[] optionUIs
 ```csharp
 private string[] textData
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private string[] textData
 ```csharp
 public List<Timer> timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,18 +96,24 @@ public List<Timer> timer
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### HideSelction()
 
 ```csharp
 public void HideSelction()
 ```
+#INC
+
 
 ### OnButtonEnter(GameObject)
 
 ```csharp
 public void OnButtonEnter(GameObject button)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +126,8 @@ public void OnButtonEnter(GameObject button)
 ```csharp
 public void OnSelect(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +140,8 @@ public void OnSelect(int index)
 ```csharp
 private void OnTimerEnd(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +166,8 @@ public void SetOnSelectListener(StorySelectionUI.OnSelectCallback callback)
 ```csharp
 public void ShowSelection(string[] options)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,3 +180,5 @@ public void ShowSelection(string[] options)
 ```csharp
 private void Start()
 ```
+#INC
+

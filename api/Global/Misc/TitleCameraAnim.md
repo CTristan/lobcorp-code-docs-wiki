@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TitleCameraAnim
 public class TitleCameraAnim : MonoBehaviour
 ```
 
+Animation for the [alternate title screen](/api/Global/Misc/AlterTitleController) camera.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TitleCameraAnim
 
@@ -33,6 +38,8 @@ public TitleCameraAnim()
 ```csharp
 public MinMax _effectFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public MinMax _effectFreq
 ```csharp
 public float _effectLifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public float _effectLifetime
 ```csharp
 private UnscaledTimer _effectLifetimeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private UnscaledTimer _effectLifetimeTimer
 ```csharp
 private static MinMax _effectRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private static MinMax _effectRange
 ```csharp
 private UnscaledTimer _effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private UnscaledTimer _effectTimer
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Animator animator
 ```csharp
 public CameraFilterPack_Distortion_ShockWaveManual shockWave
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,27 +124,38 @@ public CameraFilterPack_Distortion_ShockWaveManual shockWave
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnNormalEnd()
 
 ```csharp
 private void OnNormalEnd()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### StartEffect()
 
 ```csharp
 private void StartEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

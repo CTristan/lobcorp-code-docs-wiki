@@ -11,6 +11,8 @@ canonical_path: /api/GeburahBoss/GeburahSoundInfo
 ```csharp
 public static class GeburahSoundInfo
 ```
+Locations of sounds for [Geburah's core suppression](/api/Global/Misc/GeburahBossBase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahSoundInfo
@@ -25,6 +27,9 @@ public static class GeburahSoundInfo
 ```csharp
 public static string GeburahSoundFolder
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -35,6 +40,8 @@ public static string GeburahSoundFolder
 ```csharp
 public static string P1_Attack_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ public static string P1_Attack_0
 ```csharp
 public static string P1_Attack_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +64,8 @@ public static string P1_Attack_1
 ```csharp
 public static string P2_Attack_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public static string P2_Attack_0
 ```csharp
 public static string P2_Attack_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ public static string P2_Attack_1
 ```csharp
 public static string P2_Attack_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,8 @@ public static string P2_Attack_2
 ```csharp
 public static string P2_Attack_3
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ public static string P2_Attack_3
 ```csharp
 public static string P2_Attack_3_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ public static string P2_Attack_3_0
 ```csharp
 public static string P2_Attack_3_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +136,8 @@ public static string P2_Attack_3_1
 ```csharp
 public static string P2_Attack_3_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ public static string P2_Attack_3_2
 ```csharp
 public static string P2_To_P3_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +160,8 @@ public static string P2_To_P3_0
 ```csharp
 public static string P2_To_P3_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +172,8 @@ public static string P2_To_P3_1
 ```csharp
 public static string P3_Attack_1_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +184,8 @@ public static string P3_Attack_1_0
 ```csharp
 public static string P3_Attack_1_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +196,8 @@ public static string P3_Attack_1_1
 ```csharp
 public static string P3_Attack_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +208,8 @@ public static string P3_Attack_2
 ```csharp
 public static string P3_To_P4_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +220,8 @@ public static string P3_To_P4_0
 ```csharp
 public static string P3_To_P4_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +232,8 @@ public static string P3_To_P4_1
 ```csharp
 public static string P4_Attack_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +244,8 @@ public static string P4_Attack_1
 ```csharp
 public static string P4_Attack_End_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +256,8 @@ public static string P4_Attack_End_0
 ```csharp
 public static string P4_Attack_End_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +268,8 @@ public static string P4_Attack_End_1
 ```csharp
 public static string P4_Chase_End
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +280,8 @@ public static string P4_Chase_End
 ```csharp
 public static string Rest
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +292,8 @@ public static string Rest
 ```csharp
 public static string S1_Spear
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,6 +304,8 @@ public static string S1_Spear
 ```csharp
 public static string Teleport_0
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +316,8 @@ public static string Teleport_0
 ```csharp
 public static string Teleport_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -275,6 +328,8 @@ public static string Teleport_1
 ```csharp
 public static string Teleport_Damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +340,8 @@ public static string Teleport_Damage
 ```csharp
 public static string Teleport_End
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,6 +352,8 @@ public static string Teleport_End
 ```csharp
 public static string Teleport_Start
 ```
+#INC
+
 
 #### Field Value
 

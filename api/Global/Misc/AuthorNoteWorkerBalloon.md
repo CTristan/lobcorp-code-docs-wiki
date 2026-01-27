@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AuthorNoteWorkerBalloon
 ```csharp
 public class AuthorNoteWorkerBalloon : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AuthorNoteWorkerBalloon
@@ -33,6 +35,8 @@ public AuthorNoteWorkerBalloon()
 ```csharp
 public SpriteRenderer balloonRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public SpriteRenderer balloonRenderer
 ```csharp
 public Sprite[] characterSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +61,9 @@ public Sprite[] characterSprites
 ```csharp
 public void SetSpriteId(int id)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

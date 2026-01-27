@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/ManualUIScript
 public class ManualUIScript : MonoBehaviour
 ```
 
+Seems like an old version of [ManualUI](/api/Global/UI/ManualUI)...
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ManualUIScript
 
@@ -33,6 +38,8 @@ public ManualUIScript()
 ```csharp
 public int current
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public int current
 ```csharp
 public Animator manualAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Animator manualAnim
 ```csharp
 public Image[] page
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +76,17 @@ public Image[] page
 ```csharp
 public void OnClick()
 ```
+#INC
+#code-generated
+
 
 ### OnPageClick(int)
 
 ```csharp
 public void OnPageClick(int index)
 ```
+#INC
+
 
 #### Parameters
 

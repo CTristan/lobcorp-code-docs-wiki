@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/BgmManager
 public class BgmManager : MonoBehaviour, IObserver
 ```
 
+Handles background music and emergency level score reduction. See also .
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BgmManager
 
@@ -36,6 +39,8 @@ public BgmManager()
 ```csharp
 private AudioClip _bossClip
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private AudioClip _bossClip
 ```csharp
 private float _currentDangerScore
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private float _currentDangerScore
 ```csharp
 private static BgmManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private static BgmManager _instance
 ```csharp
 private bool _isUnique
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private bool _isUnique
 ```csharp
 private AudioSource _src
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private AudioSource _src
 ```csharp
 private const string alarmBeep = "alertBeep"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const string alarmBeep = "alertBeep"
 ```csharp
 public bool canRecover
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public bool canRecover
 ```csharp
 private int currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private int currentAgent
 ```csharp
 public float currentBgmVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public float currentBgmVolume
 ```csharp
 private EmergencyLevel currentLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private EmergencyLevel currentLevel
 ```csharp
 public Text currentLevelDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public Text currentLevelDisplay
 ```csharp
 public float currentMasterVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public float currentMasterVolume
 ```csharp
 public float delayMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +206,8 @@ public float delayTime
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +248,8 @@ public BgmManager.AudioClipList emergencyLevel_3
 ```csharp
 private float fadeElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +260,8 @@ private float fadeElap
 ```csharp
 private bool fadeEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +292,8 @@ public BgmManager.FadeEffectEvent fadeOutEvent
 ```csharp
 public float fadeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +304,8 @@ public float fadeTime
 ```csharp
 private bool isFadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +316,8 @@ private bool isFadeIn
 ```csharp
 private bool isTimerRunning
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,6 +338,8 @@ public BgmManager.AudioClipList normal
 ```csharp
 public bool PlayingState
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,6 +350,8 @@ public bool PlayingState
 ```csharp
 private Timer randTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -317,6 +362,8 @@ private Timer randTimer
 ```csharp
 private const float recoverBlockTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +374,8 @@ private const float recoverBlockTime = 30
 ```csharp
 private Timer recoverBlockTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,6 +386,8 @@ private Timer recoverBlockTimer
 ```csharp
 private float recoveryTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +398,8 @@ private float recoveryTime
 ```csharp
 public Text ScoreDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -357,6 +410,8 @@ public Text ScoreDisplay
 ```csharp
 public Text SoundPlayTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,6 +422,8 @@ public Text SoundPlayTime
 ```csharp
 private int stageAgentMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -451,36 +508,49 @@ private float recoverMult { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### BGMForcelyStop()
 
 ```csharp
 public void BGMForcelyStop()
 ```
+#INC
+
 
 ### BlockRecover()
 
 ```csharp
 public void BlockRecover()
 ```
+#INC
+
 
 ### BlockRecoverInf()
 
 ```csharp
 public void BlockRecoverInf()
 ```
+#INC
+
 
 ### ClearUniqueBgm()
 
 ```csharp
 public void ClearUniqueBgm()
 ```
+#INC
+
 
 ### FadeIn()
 
 ```csharp
 public bool FadeIn()
 ```
+#INC
+
 
 #### Returns
 
@@ -491,6 +561,8 @@ public bool FadeIn()
 ```csharp
 public bool FadeOut()
 ```
+#INC
+
 
 #### Returns
 
@@ -501,12 +573,16 @@ public bool FadeOut()
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetBossClip()
 
 ```csharp
 public AudioClip GetBossClip()
 ```
+#INC
+
 
 #### Returns
 
@@ -517,6 +593,8 @@ public AudioClip GetBossClip()
 ```csharp
 private AudioClip GetClip(EmergencyLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -549,6 +627,8 @@ public BgmManager.AudioClipList GetClipList(EmergencyLevel level)
 ```csharp
 private AudioClip GetCurrentClip(EmergencyLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -565,12 +645,16 @@ private AudioClip GetCurrentClip(EmergencyLevel level)
 ```csharp
 public void Halt()
 ```
+#INC
+
 
 ### InitVolume(float, float)
 
 ```csharp
 public void InitVolume(float master, float bgm)
 ```
+#INC
+
 
 #### Parameters
 
@@ -584,6 +668,8 @@ public void InitVolume(float master, float bgm)
 ```csharp
 public void LoadUniqueBgm(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,6 +682,8 @@ public void LoadUniqueBgm(string src)
 ```csharp
 public void OnClick(string level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -608,12 +696,16 @@ public void OnClick(string level)
 ```csharp
 public void OnManagementStart()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -627,12 +719,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageRelease()
 ```
+#INC
+
 
 ### PlayBgm(AudioClip)
 
 ```csharp
 private void PlayBgm(AudioClip clip)
 ```
+#INC
+
 
 #### Parameters
 
@@ -645,24 +741,32 @@ private void PlayBgm(AudioClip clip)
 ```csharp
 public void ReleaseRecoverBlock()
 ```
+#INC
+
 
 ### ResetBgm()
 
 ```csharp
 public void ResetBgm()
 ```
+#INC
+
 
 ### Resume()
 
 ```csharp
 public void Resume()
 ```
+#INC
+
 
 ### SetBgm(EmergencyLevel)
 
 ```csharp
 public void SetBgm(EmergencyLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -675,6 +779,8 @@ public void SetBgm(EmergencyLevel level)
 ```csharp
 public void SetBgmSoundVolume(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -687,12 +793,16 @@ public void SetBgmSoundVolume(float val)
 ```csharp
 public void SetBossClip()
 ```
+#INC
+
 
 ### SetBossClip(string)
 
 ```csharp
 public void SetBossClip(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -705,6 +815,8 @@ public void SetBossClip(string src)
 ```csharp
 public void SetMasterSoundVolume(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -717,15 +829,21 @@ public void SetMasterSoundVolume(float val)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### SubAgent()
 
 ```csharp
 public void SubAgent()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

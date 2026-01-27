@@ -12,6 +12,9 @@ canonical_path: /api/Global/Model/ArmorModel
 public class ArmorModel : EquipmentModel
 ```
 
+Parent class for EGO Suits.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentModel](/api/Global/Model/EquipmentModel) → ArmorModel
 
@@ -33,6 +36,8 @@ public ArmorModel()
 ```csharp
 public DefenseInfo GetDefense(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -49,6 +54,8 @@ public DefenseInfo GetDefense(UnitModel actor)
 ```csharp
 public static ArmorModel GetDummyArmor()
 ```
+#INC
+
 
 #### Returns
 
@@ -59,6 +66,8 @@ public static ArmorModel GetDummyArmor()
 ```csharp
 public static ArmorModel MakeArmor(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -75,3 +84,6 @@ public static ArmorModel MakeArmor(EquipmentTypeInfo info)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+#code-generated
+

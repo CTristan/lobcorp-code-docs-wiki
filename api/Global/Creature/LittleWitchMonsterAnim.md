@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/LittleWitchMonsterAnim
 public class LittleWitchMonsterAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Laetitia](/api/Global/Misc/LittleWitch)'s friend, [Little Witch's Friend](/api/Global/Misc/LittleWitchMonster).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → LittleWitchMonsterAnim
 
@@ -36,6 +39,8 @@ public LittleWitchMonsterAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private LittleWitchMonster _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,12 +87,16 @@ public LittleWitchMonster Script { get; }
 ```csharp
 public override void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -98,12 +109,16 @@ public override void AttackCalled(int i)
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttack(int)
 
 ```csharp
 public void OnAttack(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,12 +131,17 @@ public void OnAttack(int type)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -134,18 +154,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnReadyToMove()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### SetScript(LittleWitchMonster)
 
 ```csharp
 public void SetScript(LittleWitchMonster script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,3 +184,5 @@ public void SetScript(LittleWitchMonster script)
 ```csharp
 private void Update()
 ```
+#INC
+

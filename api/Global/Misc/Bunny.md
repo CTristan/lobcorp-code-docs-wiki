@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Bunny
 public class Bunny : CreatureBase
 ```
 
+Meat Lantern.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Bunny
 
@@ -33,6 +38,8 @@ public Bunny()
 ```csharp
 private BunnyAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private BunnyAnim _animScript
 ```csharp
 private const float _attackDelayTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _attackDelayTime = 2
 ```csharp
 private const float _attackRange = 3.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _attackRange = 3.1
 ```csharp
 private const int _damageMax = 500
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _damageMax = 500
 ```csharp
 private const int _damageMin = 500
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _damageMin = 500
 ```csharp
 private const float _damageRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _damageRange = 4
 ```csharp
 private const float _killEffecSize = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _killEffecSize = 1
 ```csharp
 private const int _qliphothMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _qliphothMax = 1
 ```csharp
 private const float _sideNodeRemoveRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _sideNodeRemoveRange = 4
 ```csharp
 private const float _subQliphothTimeCondition = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _subQliphothTimeCondition = 40
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,24 +194,32 @@ public BunnyAnim animScript { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDist(UnitModel)
 
 ```csharp
 private float GetDist(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,6 +236,8 @@ private float GetDist(UnitModel target)
 ```csharp
 private List<MapNode> GetNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -211,6 +248,8 @@ private List<MapNode> GetNodes()
 ```csharp
 private List<PassageObjectModel> GetPassages()
 ```
+#INC
+
 
 #### Returns
 
@@ -221,6 +260,8 @@ private List<PassageObjectModel> GetPassages()
 ```csharp
 private List<UnitModel> GetTargets(float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,6 +278,8 @@ private List<UnitModel> GetTargets(float range)
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -247,6 +290,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -257,6 +302,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -267,6 +314,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +333,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -294,6 +345,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -307,6 +360,8 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 private MapNode NodeSelection()
 ```
+#INC
+
 
 #### Returns
 
@@ -317,24 +372,32 @@ private MapNode NodeSelection()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEscapeSuccess()
 
 ```csharp
 public void OnEscapeSuccess()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,18 +410,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -371,15 +441,21 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 private void Teleport()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

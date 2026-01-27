@@ -12,6 +12,9 @@ canonical_path: /api/KetherBoss/FadeoutEffect
 public class FadeoutEffect : KetherLastEffectBase
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → FadeoutEffect
 
@@ -25,6 +28,8 @@ public class FadeoutEffect : KetherLastEffectBase
 ```csharp
 public FadeoutEffect(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public FadeoutEffect(KetherLastBossBase bossBase)
 ```csharp
 private static MinMax _bloom_amount
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private static MinMax _bloom_amount
 ```csharp
 private static MinMax _bloom_glow
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private static MinMax _bloom_glow
 ```csharp
 private static MinMax _brightness
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private static MinMax _brightness
 ```csharp
 private Camera _cam
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private Camera _cam
 ```csharp
 private Timer _lifeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private Timer _lifeTimer
 ```csharp
 private CameraFilterPack_Blur_Bloom bloom
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ private CameraFilterPack_Blur_Bloom bloom
 ```csharp
 private CameraFilterPack_Colors_Brightness brightness
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,9 +142,14 @@ public Camera Camera { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Gift/OneBadManyGoodGift
 internal class OneBadManyGoodGift : EquipmentScriptBase
 ```
 
+Script for [One Sin and Thousands of Good Deeds](/api/Global/Misc/OneBadManyGood)'s EGO Gift: Penitence.
+
+Adds 10 to the work success rate while working with One Sin.
+
+#uses-id
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OneBadManyGoodGift
 
@@ -33,6 +40,9 @@ public OneBadManyGoodGift()
 ```csharp
 public override EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

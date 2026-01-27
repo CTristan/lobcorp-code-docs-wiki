@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YouMustHappyAnim
 public class YouMustHappyAnim : CreatureAnimScript
 ```
 
+Animation handler for [You Must Be Happy](/api/Global/IOBserver/YouMustHappy).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → YouMustHappyAnim
 
@@ -33,6 +38,8 @@ public YouMustHappyAnim()
 ```csharp
 private AgentModel _agentBeDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private AgentModel _agentBeDead
 ```csharp
 private Queue<AgentModel> _agentsBeDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Queue<AgentModel> _agentsBeDead
 ```csharp
 public YouMustHappyAnimEventHandler _animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public YouMustHappyAnimEventHandler _animEventHandler
 ```csharp
 public GameObject _bloodEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public GameObject _bloodEffect
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _SOUND_DEAD_EFFECT = "creature/BloodyTree/MustSee_Atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const string _SOUND_DEAD_EFFECT = "creature/BloodyTree/MustSee_Atk"
 ```csharp
 private const string _SOUND_SRC = "creature/YouMustHappy/Youmust_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const string _SOUND_SRC = "creature/YouMustHappy/Youmust_"
 ```csharp
 public GameObject _usingEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject _usingEffect
 ```csharp
 public SpriteRenderer spriteNo
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public SpriteRenderer spriteNo
 ```csharp
 public SpriteRenderer spriteYes
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,24 +160,33 @@ public SpriteRenderer spriteYes
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### MakeBloodEffect()
 
 ```csharp
 private void MakeBloodEffect()
 ```
+#INC
+
 
 ### MakeExplodeEffect()
 
 ```csharp
 private void MakeExplodeEffect()
 ```
+#INC
+
 
 ### SetAnimation(string)
 
 ```csharp
 public void SetAnimation(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +199,8 @@ public void SetAnimation(string name)
 ```csharp
 public void SetAnimSpeed(float a, float b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,6 +214,8 @@ public void SetAnimSpeed(float a, float b)
 ```csharp
 public void SetKillAgent(AgentModel am)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +228,8 @@ public void SetKillAgent(AgentModel am)
 ```csharp
 public void SetModel(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +242,8 @@ public void SetModel(UnitModel model)
 ```csharp
 public void SetYesNo(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,3 +256,5 @@ public void SetYesNo(bool state)
 ```csharp
 private void Update()
 ```
+#INC
+

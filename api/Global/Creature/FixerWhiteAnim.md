@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/FixerWhiteAnim
 public class FixerWhiteAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for the [White Fixer](/api/Global/Misc/FixerWhite).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FixerWhiteAnim
 
@@ -36,6 +40,8 @@ public FixerWhiteAnim()
 ```csharp
 private const string _deadSmokeSrc = "Effect/Creature/FixerWhite/FixerWhiteDeadSmoke"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private const string _deadSmokeSrc = "Effect/Creature/FixerWhite/FixerWhiteDeadS
 ```csharp
 private GameObject _laser
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private GameObject _laser
 ```csharp
 private const float _laserRemainTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ private const float _laserRemainTime = 0.5
 ```csharp
 private const string _laserSrc = "Effect/Creature/FixerWhite/FixerWhiteLaser"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ private const string _laserSrc = "Effect/Creature/FixerWhite/FixerWhiteLaser"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ private SpineOptimizerModule _module
 ```csharp
 private FixerWhite script
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ private FixerWhite script
 ```csharp
 public GameObject weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +126,8 @@ public GameObject weapon
 ```csharp
 private GameObject AttachLaser()
 ```
+#INC
+
 
 #### Returns
 
@@ -118,30 +138,40 @@ private GameObject AttachLaser()
 ```csharp
 private void BladeEnd()
 ```
+#INC
+
 
 ### CannonEnd()
 
 ```csharp
 private void CannonEnd()
 ```
+#INC
+
 
 ### DeadSceneEffect()
 
 ```csharp
 private void DeadSceneEffect()
 ```
+#INC
+
 
 ### DeadSmokeEffect()
 
 ```csharp
 private void DeadSmokeEffect()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +188,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -168,6 +201,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsPraying()
 ```
+#INC
+
 
 #### Returns
 
@@ -178,6 +213,8 @@ public bool IsPraying()
 ```csharp
 public bool IsShootingCannon()
 ```
+#INC
+
 
 #### Returns
 
@@ -188,6 +225,8 @@ public bool IsShootingCannon()
 ```csharp
 public bool IsUsingBlade()
 ```
+#INC
+
 
 #### Returns
 
@@ -198,6 +237,8 @@ public bool IsUsingBlade()
 ```csharp
 private GameObject MakeLaser()
 ```
+#INC
+
 
 #### Returns
 
@@ -259,12 +300,16 @@ public SoundEffectPlayer MakeSound(string src, Vector3 position, float vol = 1)
 ```csharp
 public void OnBladeStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,48 +322,64 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCannonStart()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnPrayStart()
 
 ```csharp
 private void OnPrayStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### PrayEnd()
 
 ```csharp
 private void PrayEnd()
 ```
+#INC
+
 
 ### RemoveLaser()
 
 ```csharp
 private void RemoveLaser()
 ```
+#INC
+
 
 ### SetActiveLaser(GameObject, bool)
 
 ```csharp
 private void SetActiveLaser(GameObject laser, bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -332,6 +393,8 @@ private void SetActiveLaser(GameObject laser, bool isActive)
 ```csharp
 public void SetScript(FixerWhite script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,15 +407,21 @@ public void SetScript(FixerWhite script)
 ```csharp
 private void ShootLaser()
 ```
+#INC
+
 
 ### TryPray()
 
 ```csharp
 public void TryPray()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

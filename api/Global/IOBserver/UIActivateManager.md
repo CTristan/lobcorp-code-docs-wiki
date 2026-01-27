@@ -12,6 +12,37 @@ canonical_path: /api/Global/IOBserver/UIActivateManager
 public class UIActivateManager : MonoBehaviour, IObserver
 ```
 
+Holds the camera used for UI (a reference to the camera on the [ManualUI](/api/Global/UI/ManualUI)) and responsible for closing some UIs when the background is clicked.
+
+Also, closes out of the UIs when it is notified of a 'TurnOffUI' event. #INC 
+
+Belongs to the game object `UI` in the Main and Tutorial scenes.
+## Fields
+##### public IActivatableObject[] activated = new IActivatableObject[5];
+Holds an [IActivatableObject](/api/Global/Object/IActivatableObject) in each [position](/api/Global/Misc/ActivatableObjectPos). (The only IActivableObject is [NarrationLoggerUI](/api/Global/UI/NarrationLoggerUI), though...)
+
+###### private static UIActivateManager \_instance;
+###### public static UIActivateManager instance => \_instance;
+Singleton structure to have a single UIActivateManager.
+
+##### public Camera UICamera;  
+A copy of the world camera from [ManualUI](/api/Global/UI/ManualUI).
+
+    private List<IActivatableObject> uiList = new List<IActivatableObject>();  
+  
+    private IActivatableObject currentTarget;  
+  
+    public AudioSource player;  
+  
+    public AudioClip confirm;  
+  
+    public AudioClip cannot;  
+  
+    
+
+#INC #not-interesting
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UIActivateManager
 
@@ -36,6 +67,8 @@ public UIActivateManager()
 ```csharp
 private static UIActivateManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +79,8 @@ private static UIActivateManager _instance
 ```csharp
 public IActivatableObject[] activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +91,8 @@ public IActivatableObject[] activated
 ```csharp
 public AudioClip cannot
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +103,8 @@ public AudioClip cannot
 ```csharp
 public AudioClip confirm
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +115,8 @@ public AudioClip confirm
 ```csharp
 private IActivatableObject currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +127,8 @@ private IActivatableObject currentTarget
 ```csharp
 public AudioSource player
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +139,8 @@ public AudioSource player
 ```csharp
 public Camera UICamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +151,8 @@ public Camera UICamera
 ```csharp
 private List<IActivatableObject> uiList
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +177,8 @@ public static UIActivateManager instance { get; }
 ```csharp
 public void Activate(IActivatableObject target, ActivatableObjectPos pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +192,8 @@ public void Activate(IActivatableObject target, ActivatableObjectPos pos)
 ```csharp
 public void AddUI(IActivatableObject target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,18 +206,24 @@ public void AddUI(IActivatableObject target)
 ```csharp
 public void Awake()
 ```
+#INC
+
 
 ### CloseAll()
 
 ```csharp
 public void CloseAll()
 ```
+#INC
+
 
 ### Deactivate(ActivatableObjectPos)
 
 ```csharp
 public void Deactivate(ActivatableObjectPos pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,6 +236,8 @@ public void Deactivate(ActivatableObjectPos pos)
 ```csharp
 public Camera GetCam()
 ```
+#INC
+
 
 #### Returns
 
@@ -189,12 +248,16 @@ public Camera GetCam()
 ```csharp
 public void OnCannot()
 ```
+#INC
+
 
 ### OnClickBackGround(BaseEventData)
 
 ```csharp
 public void OnClickBackGround(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,30 +270,41 @@ public void OnClickBackGround(BaseEventData eventData)
 ```csharp
 public void OnClickRightButton()
 ```
+#INC
+
 
 ### OnConfirm()
 
 ```csharp
 public void OnConfirm()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 public void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnEnter(IActivatableObject)
 
 ```csharp
 public void OnEnter(IActivatableObject target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -243,12 +317,16 @@ public void OnEnter(IActivatableObject target)
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -262,9 +340,13 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

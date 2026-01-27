@@ -11,6 +11,8 @@ canonical_path: /api/Global/Model/GlobalEtcDataModel
 ```csharp
 public class GlobalEtcDataModel
 ```
+Holds and saves flags for which of the endings have been and can be done, how many day 1 resets have happened, whether the tutorial has been done, and whether unlimited mode is unlocked #inc.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GlobalEtcDataModel
@@ -25,6 +27,9 @@ public class GlobalEtcDataModel
 ```csharp
 private GlobalEtcDataModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ private GlobalEtcDataModel()
 ```csharp
 private static GlobalEtcDataModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private static GlobalEtcDataModel _instance
 ```csharp
 private long _nextUnitInstanceId
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private long _nextUnitInstanceId
 ```csharp
 public int cube
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int cube
 ```csharp
 public int day1clearCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public int day1clearCount
 ```csharp
 public bool ending1Done
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool ending1Done
 ```csharp
 public bool ending2Done
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public bool ending2Done
 ```csharp
 public bool ending3Done
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public bool ending3Done
 ```csharp
 public bool hiddenEndingDone
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public bool hiddenEndingDone
 ```csharp
 public bool trueEndingDone
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public bool trueEndingDone
 ```csharp
 public bool tutorialDone
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public bool tutorialDone
 ```csharp
 public int unlockedMaxDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +184,8 @@ public static GlobalEtcDataModel instance { get; }
 ```csharp
 public void AddCube(int v)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +198,8 @@ public void AddCube(int v)
 ```csharp
 public Dictionary<string, object> GetGlobalSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -179,6 +210,8 @@ public Dictionary<string, object> GetGlobalSaveData()
 ```csharp
 public void LoadGlobalData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,6 +224,8 @@ public void LoadGlobalData(Dictionary<string, object> dic)
 ```csharp
 public long NextUnitInstanceId()
 ```
+#INC
+
 
 #### Returns
 
@@ -201,12 +236,16 @@ public long NextUnitInstanceId()
 ```csharp
 public void ResetGlobalData()
 ```
+#INC
+
 
 ### SubCube(int)
 
 ```csharp
 public void SubCube(int v)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,6 +258,8 @@ public void SubCube(int v)
 ```csharp
 public void UpdateUnlockedMaxDay(int day)
 ```
+#INC
+
 
 #### Parameters
 

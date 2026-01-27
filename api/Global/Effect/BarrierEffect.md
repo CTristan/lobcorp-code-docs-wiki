@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effect/BarrierEffect
 ```csharp
 public class BarrierEffect : MonoBehaviour
 ```
+A visual shield object. See [BarrierBuf](/api/Global/UnitBuf/BarrierBuf) for the effect.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BarrierEffect
@@ -33,6 +35,8 @@ public BarrierEffect()
 ```csharp
 public Sprite barrier_cracked
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Sprite barrier_cracked
 ```csharp
 public Sprite barrier_normal
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Sprite barrier_normal
 ```csharp
 public Animator barrierAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Animator barrierAnimator
 ```csharp
 public SpriteRenderer barrierRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public SpriteRenderer barrierRenderer
 ```csharp
 private const string breakParticleSrc = "Effect/BarrierBreakParticle"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private const string breakParticleSrc = "Effect/BarrierBreakParticle"
 ```csharp
 private RwbpType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +109,8 @@ private RwbpType type
 ```csharp
 public static BarrierEffect MakeBarrier(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,24 +127,33 @@ public static BarrierEffect MakeBarrier(WorkerModel target)
 ```csharp
 public void OnBreak()
 ```
+#INC
+
 
 ### OnCrack()
 
 ```csharp
 public void OnCrack()
 ```
+#INC
+
 
 ### OnDisappear()
 
 ```csharp
 public void OnDisappear()
 ```
+#INC
+
 
 ### SetRemainRate(float)
 
 ```csharp
 public void SetRemainRate(float rate)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -141,6 +166,8 @@ public void SetRemainRate(float rate)
 ```csharp
 public void SetRwbpType(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 

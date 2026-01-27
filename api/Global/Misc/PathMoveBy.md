@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/PathMoveBy
 ```csharp
 public class PathMoveBy
 ```
+A direction and amount, for movement.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathMoveBy
@@ -33,6 +37,9 @@ public PathMoveBy()
 ```csharp
 public UnitDirection direction
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public UnitDirection direction
 ```csharp
 public float value
 ```
+#INC
+
 
 #### Field Value
 

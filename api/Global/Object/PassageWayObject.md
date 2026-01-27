@@ -12,6 +12,12 @@ canonical_path: /api/Global/Object/PassageWayObject
 public class PassageWayObject : PassageObject, IMouseCommandTarget, IMouseOnPointListener, IObserver
 ```
 
+A hallway. A type of [room](/api/Global/Object/PassageObject) in-game.
+
+Manages the lights and the escaped abnormality overlay.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PassageObject](/api/Global/Object/PassageObject) → PassageWayObject
 
@@ -39,6 +45,8 @@ public PassageWayObject()
 ```csharp
 private GameObject escapedEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +57,8 @@ private GameObject escapedEffect
 ```csharp
 public SpriteRenderer EscapeFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,15 +71,22 @@ public SpriteRenderer EscapeFrame
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 protected override void Update()
 ```
+#INC
+#code-generated
+

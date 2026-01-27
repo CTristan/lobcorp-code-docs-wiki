@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TextMeshOutline
 public class TextMeshOutline : MonoBehaviour
 ```
 
+An outline for text, used by [SefiraBossDesc](/api/Global/Misc/SefiraBossDesc).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TextMeshOutline
 
@@ -33,6 +38,8 @@ public TextMeshOutline()
 ```csharp
 public int doubleResolution
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public int doubleResolution
 ```csharp
 private MeshRenderer meshRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private MeshRenderer meshRenderer
 ```csharp
 public Color outlineColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Color outlineColor
 ```csharp
 public float pixelSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public float pixelSize
 ```csharp
 public bool resolutionDependant
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool resolutionDependant
 ```csharp
 private TextMesh textMesh
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ private TextMesh textMesh
 ```csharp
 private Vector3 GetOffset(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,9 +130,14 @@ private Vector3 GetOffset(int i)
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

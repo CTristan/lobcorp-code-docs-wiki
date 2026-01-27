@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/AgentName
 public class AgentName : ISerializablePlayData
 ```
 
+Represents an [agent](/api/Global/Worker/AgentModel)'s name
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentName
 
@@ -28,6 +33,8 @@ public class AgentName : ISerializablePlayData
 ```csharp
 public AgentName(AgentNameTypeInfo meta, int instId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -41,6 +48,8 @@ public AgentName(AgentNameTypeInfo meta, int instId)
 ```csharp
 public AgentName(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -55,6 +64,8 @@ public AgentName(int id)
 ```csharp
 public bool canUse
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public bool canUse
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ public int id
 ```csharp
 public int instanceId
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,8 @@ public int instanceId
 ```csharp
 public bool isCredit
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ public bool isCredit
 ```csharp
 public bool isCustom
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ public bool isCustom
 ```csharp
 public bool isUsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +136,8 @@ public bool isUsed
 ```csharp
 public AgentNameTypeInfo metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ public AgentNameTypeInfo metaInfo
 ```csharp
 public Dictionary<string, string> nameDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +162,8 @@ public Dictionary<string, string> nameDic
 ```csharp
 public string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -147,6 +174,8 @@ public string GetName()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -157,6 +186,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +200,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void SetUseState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +214,9 @@ public void SetUseState(bool state)
 ```csharp
 public override string ToString()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

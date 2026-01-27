@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/WorkerSpriteData
 ```csharp
 public class WorkerSpriteData
 ```
+Holds the region for a sprite and provides helper functions for switching between strings and enum values for regions
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpriteData
@@ -48,6 +50,8 @@ public virtual SpriteRegionType RegionType { get; }
 ```csharp
 public static BasicSpriteRegion GetBasicSpriteRegion(string region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -64,6 +68,8 @@ public static BasicSpriteRegion GetBasicSpriteRegion(string region)
 ```csharp
 public static EquipmentSpriteRegion GetEquipmentSpriteRegion(string region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -80,6 +86,9 @@ public static EquipmentSpriteRegion GetEquipmentSpriteRegion(string region)
 ```csharp
 public static SpriteRegion GetSpriteRegion(string region)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

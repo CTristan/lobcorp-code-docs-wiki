@@ -12,6 +12,9 @@ canonical_path: /api/Global/Animator/HellTrainAnimEventHandler
 public class HellTrainAnimEventHandler : AnimatorEventHandler
 ```
 
+Holds the sell animation for [Express Train to Hell](/api/Global/Misc/HellTrain)'s [animation handler](/api/Global/Creature/HellTrainAnim).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → HellTrainAnimEventHandler
 
@@ -45,6 +48,8 @@ private AnimatorEventHandler.EventDelegate _sellingEvent
 ```csharp
 public void Sell()
 ```
+#INC
+
 
 ### SetSellingEvent(EventDelegate)
 

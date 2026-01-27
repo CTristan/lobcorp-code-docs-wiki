@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/WorkLogScript
 public class WorkLogScript : MonoBehaviour, IObserver
 ```
 
+Main script for the work log.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkLogScript
 
@@ -36,6 +41,8 @@ public WorkLogScript()
 ```csharp
 private CreatureModel _currentTargetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +78,8 @@ public CreatureModel currentTargetCreature { get; set; }
 ```csharp
 public void AddText(string message)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,24 +92,33 @@ public void AddText(string message)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,9 +132,13 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnTargetCreatureUpdate()
 ```
+#INC
+
 
 ### SetLogList()
 
 ```csharp
 public void SetLogList()
 ```
+#INC
+

@@ -12,6 +12,16 @@ canonical_path: /api/Global/Creature/KitEquipCreatureAnim
 public class KitEquipCreatureAnim : CreatureAnimScript
 ```
 
+Animation handler for equippable tool abnormalities:
+- [Heart of Aspiration](/api/Global/Misc/DesireHeart)
+- [Luminous Bracelet](/api/Global/Misc/HealthBracelet)
+- [Behavior Adjustment](/api/Global/Misc/JusticeReceiver)
+- [Researcher's Notes](/api/Global/Misc/ResearcherNote)
+- [Yang](/api/Global/Misc/Yang)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → KitEquipCreatureAnim
 
@@ -36,6 +46,8 @@ public KitEquipCreatureAnim()
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +58,8 @@ private bool _activated
 ```csharp
 private Vector3 _bodyOriginPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +70,8 @@ private Vector3 _bodyOriginPosition
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +82,8 @@ private float _elapsedTime
 ```csharp
 public GameObject kitBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,27 +96,38 @@ public GameObject kitBody
 ```csharp
 public void OnEquip()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public void OnReturn()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateBodyPosition()
 
 ```csharp
 private void UpdateBodyPosition()
 ```
+#INC
+

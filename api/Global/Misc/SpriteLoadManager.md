@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SpriteLoadManager
 ```csharp
 public class SpriteLoadManager
 ```
+Loads and stores locations for sprites.
+
+#INC  #verify 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteLoadManager
@@ -33,6 +37,8 @@ public SpriteLoadManager()
 ```csharp
 private static SpriteLoadManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static SpriteLoadManager _instance
 ```csharp
 private bool _isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _isLoaded
 ```csharp
 public Dictionary<string, string> commonLib
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Dictionary<string, string> commonLib
 ```csharp
 public Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic
 ```csharp
 public Dictionary<string, string> sefiraLib
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Dictionary<string, string> sefiraLib
 ```csharp
 public Dictionary<string, SpriteSetLoadedScript.SRC> sefiraSetDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +133,8 @@ public bool isLoaded { get; }
 ```csharp
 public SpriteSetLoadedScript.SRC GetCommonSetSRC(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +151,8 @@ public SpriteSetLoadedScript.SRC GetCommonSetSRC(string key)
 ```csharp
 public string GetCommonSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +169,8 @@ public string GetCommonSrc(string key)
 ```csharp
 public SpriteSetLoadedScript.SRC GetSefiraSetSRC(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +187,8 @@ public SpriteSetLoadedScript.SRC GetSefiraSetSRC(string key)
 ```csharp
 public string GetSefiraSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +205,9 @@ public string GetSefiraSrc(string key)
 ```csharp
 public void Init(Dictionary<string, string> common, Dictionary<string, string> sefira, Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic, Dictionary<string, SpriteSetLoadedScript.SRC> sefiraSetDic)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

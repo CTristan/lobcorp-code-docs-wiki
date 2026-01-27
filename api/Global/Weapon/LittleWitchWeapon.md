@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/LittleWitchWeapon
 public class LittleWitchWeapon : EquipmentScriptBase
 ```
 
+Script for [Laetitia](/api/Global/Misc/LittleWitch)'s EGO Weapon: Laetitia.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LittleWitchWeapon
 
@@ -33,6 +36,8 @@ public LittleWitchWeapon()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

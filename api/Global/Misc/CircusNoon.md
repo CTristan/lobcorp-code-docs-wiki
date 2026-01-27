@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusNoon
 public class CircusNoon : CircusOrdealCreature
 ```
 
+[Crimson Noon](/api/Global/Misc/CircusNoonOrdeal) creature.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [CircusOrdealCreature](/api/Global/Creature/CircusOrdealCreature) → CircusNoon
 
@@ -33,6 +36,8 @@ public CircusNoon()
 ```csharp
 private CircusNoonAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CircusNoonAnim _animScript
 ```csharp
 private const float _appearDelayMax = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float _appearDelayMax = 1.5
 ```csharp
 private const float _appearDelayMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float _appearDelayMin = 1
 ```csharp
 private const float _attackDelayTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _attackDelayTime = 1
 ```csharp
 private const int _attackDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const int _attackDmgMax = 8
 ```csharp
 private const int _attackDmgMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const int _attackDmgMin = 4
 ```csharp
 private const float _attackDmgRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _attackDmgRange = 4.5
 ```csharp
 private const float _attackRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const float _attackRange = 4
 ```csharp
 private const int _pierceDmgMax = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private const int _pierceDmgMax = 9
 ```csharp
 private const int _pierceDmgMin = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const int _pierceDmgMin = 7
 ```csharp
 private const float _pierceDmgRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _pierceDmgRange = 4.5
 ```csharp
 private const int _pierceProb = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const int _pierceProb = 20
 ```csharp
 private const string _sound_Atk1 = "Atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const string _sound_Atk1 = "Atk1"
 ```csharp
 private const string _sound_Atk2 = "Atk2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const string _sound_Atk2 = "Atk2"
 ```csharp
 private const string _sound_Atk3 = "Atk3"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const string _sound_Atk3 = "Atk3"
 ```csharp
 private const string _sound_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const string _sound_Dead = "Dead"
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,24 +284,32 @@ private static int pierceDmg { get; }
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### AttackDamage()
 
 ```csharp
 public void AttackDamage()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### GetDist(UnitModel)
 
 ```csharp
 private float GetDist(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +326,8 @@ private float GetDist(UnitModel unit)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,6 +344,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,6 +362,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInRange(UnitModel unit, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -330,6 +381,8 @@ private bool IsInRange(UnitModel unit, float range)
 ```csharp
 private bool IsInRange(UnitModel unit, float range, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,6 +401,8 @@ private bool IsInRange(UnitModel unit, float range, UnitDirection dir)
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -362,12 +417,16 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -384,6 +443,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -394,6 +455,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,6 +469,9 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -418,15 +484,21 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void Pierce()
 ```
+#INC
+
 
 ### SkillDamage()
 
 ```csharp
 public void SkillDamage()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+

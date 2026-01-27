@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/EncyclopediaTutorial
 public class EncyclopediaTutorial : Tutorial
 ```
 
+Tutorial showing parts of the [abnormality info window](/api/Global/Misc/CreatureInfoWindow).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EncyclopediaTutorial
 
@@ -33,6 +36,8 @@ public EncyclopediaTutorial()
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CreatureModel creature
 ```csharp
 public bool isActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public bool isActive
 ```csharp
 private IsolateRoom isolate
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +74,14 @@ private IsolateRoom isolate
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

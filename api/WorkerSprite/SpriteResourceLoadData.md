@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/SpriteResourceLoadData
 ```csharp
 public class SpriteResourceLoadData
 ```
+Information required to find and load a sprite resource
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteResourceLoadData
@@ -36,6 +38,8 @@ public SpriteResourceLoadData()
 ```csharp
 public int count
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ public int count
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public int id
 ```csharp
 public bool isCredit
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public bool isCredit
 ```csharp
 public bool isCustom
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public bool isCustom
 ```csharp
 public string src
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ public string src
 ```csharp
 public SpriteResourceType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +112,8 @@ public SpriteResourceType type
 ```csharp
 public virtual Sprite GetRandomSprite()
 ```
+#INC
+
 
 #### Returns
 
@@ -108,6 +124,8 @@ public virtual Sprite GetRandomSprite()
 ```csharp
 public virtual Sprite GetSprite(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,3 +142,6 @@ public virtual Sprite GetSprite(int index)
 ```csharp
 public virtual void LoadSprite()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Animator/PpodaeAnimEventHandler
 public class PpodaeAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper script for [PpodaeAnim](/api/Global/Creature/PpodaeAnim).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → PpodaeAnimEventHandler
 
@@ -43,6 +46,8 @@ private AnimatorEventHandler.EventDelegate _nextStateEvent
 ```csharp
 private const string _SOUND_SRC = "creature/Ppodae/Bbodae_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,24 +60,32 @@ private const string _SOUND_SRC = "creature/Ppodae/Bbodae_"
 ```csharp
 public void DecideState()
 ```
+#INC
+
 
 ### PlayAtkSound()
 
 ```csharp
 public void PlayAtkSound()
 ```
+#INC
+
 
 ### PlayBarkSound()
 
 ```csharp
 public void PlayBarkSound()
 ```
+#INC
+
 
 ### PlayDeadSound()
 
 ```csharp
 public void PlayDeadSound()
 ```
+#INC
+
 
 ### SetNextStateEvent(EventDelegate)
 

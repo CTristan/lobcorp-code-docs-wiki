@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BugMidnight
 public class BugMidnight : BugOrdealCreature
 ```
 
+Amber Midnight creature; Eternal Meal. See [BugMidnightOrdeal](/api/Global/Misc/BugMidnightOrdeal).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BugOrdealCreature](/api/Global/Creature/BugOrdealCreature) → BugMidnight
 
@@ -33,6 +36,8 @@ public BugMidnight()
 ```csharp
 private BugMidnightAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BugMidnightAnim _animScript
 ```csharp
 private const int _damageMax = 500
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const int _damageMax = 500
 ```csharp
 private const int _damageMin = 500
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int _damageMin = 500
 ```csharp
 private const float _damageRange = 8.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _damageRange = 8.5
 ```csharp
 private const float _radius = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float _radius = 2.5
 ```csharp
 private const float _spawnChildDelayMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _spawnChildDelayMax = 20
 ```csharp
 private const float _spawnChildDelayMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _spawnChildDelayMin = 15
 ```csharp
 private const int _spawnMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const int _spawnMax = 7
 ```csharp
 public const int _spawnOnce = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public const int _spawnOnce = 2
 ```csharp
 private const float _teleportCoolTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float _teleportCoolTimeMax = 30
 ```csharp
 private const float _teleportCoolTimeMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _teleportCoolTimeMin = 25
 ```csharp
 private const float _teleportDelayMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float _teleportDelayMax = 5
 ```csharp
 private const float _teleportDelayMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const float _teleportDelayMin = 3
 ```csharp
 private const float appearBugTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const float appearBugTime = 3
 ```csharp
 private Timer appearBugTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private Timer appearBugTimer
 ```csharp
 private bool canSpawn
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private bool canSpawn
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private RwbpType dmgType
 ```csharp
 private Timer spawnChildDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private Timer spawnChildDelayTimer
 ```csharp
 private List<BugOrdealCreature> spawns
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private List<BugOrdealCreature> spawns
 ```csharp
 private Timer teleportCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private Timer teleportCoolTimer
 ```csharp
 private Timer teleportDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,12 +342,16 @@ private static float teleportDelay { get; }
 ```csharp
 private void Appear()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -320,6 +369,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckSpawnCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -330,36 +381,48 @@ private bool CheckSpawnCondition()
 ```csharp
 private void DisAppear()
 ```
+#INC
+
 
 ### FixedUpdateDefault()
 
 ```csharp
 private void FixedUpdateDefault()
 ```
+#INC
+
 
 ### FixedUpdateReadyToTelePort()
 
 ```csharp
 private void FixedUpdateReadyToTelePort()
 ```
+#INC
+
 
 ### FixedUpdateSpawning()
 
 ```csharp
 private void FixedUpdateSpawning()
 ```
+#INC
+
 
 ### FixedUpdateTelePorting()
 
 ```csharp
 private void FixedUpdateTelePorting()
 ```
+#INC
+
 
 ### GetRadius()
 
 ```csharp
 public override float GetRadius()
 ```
+#INC
+
 
 #### Returns
 
@@ -370,6 +433,8 @@ public override float GetRadius()
 ```csharp
 private MapNode GetTargetNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -380,6 +445,8 @@ private MapNode GetTargetNode()
 ```csharp
 public void GiveDamageInRange(float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -392,12 +459,16 @@ public void GiveDamageInRange(float range)
 ```csharp
 public void InvokeAppearDamage()
 ```
+#INC
+
 
 ### IsAttackTargetable()
 
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -408,6 +479,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -418,6 +491,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -428,6 +503,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -438,6 +515,8 @@ public override bool IsSuppressable()
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -448,18 +527,24 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAppear()
 ```
+#INC
+
 
 ### OnDisappear()
 
 ```csharp
 public void OnDisappear()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -472,12 +557,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSpawnEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -490,6 +580,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnWorkerDead(List<WorkerModel> target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -502,6 +594,8 @@ public void OnWorkerDead(List<WorkerModel> target)
 ```csharp
 public void Spawn(int spawnCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -514,3 +608,5 @@ public void Spawn(int spawnCount)
 ```csharp
 private void StartSpawn()
 ```
+#INC
+

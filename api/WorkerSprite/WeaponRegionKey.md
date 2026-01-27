@@ -11,6 +11,12 @@ canonical_path: /api/WorkerSprite/WeaponRegionKey
 ```csharp
 public static class WeaponRegionKey
 ```
+List of types of weapons and corresponding strings
+
+Allows to switch between weapon classes and these strings -- probably for getting the sprite and the localization
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WeaponRegionKey
@@ -25,6 +31,8 @@ public static class WeaponRegionKey
 ```csharp
 public static string Axe
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +43,8 @@ public static string Axe
 ```csharp
 public static string BowGun
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +55,8 @@ public static string BowGun
 ```csharp
 public static string Cannon
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +67,8 @@ public static string Cannon
 ```csharp
 public static string FistLeft
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +79,8 @@ public static string FistLeft
 ```csharp
 public static string FistRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +91,8 @@ public static string FistRight
 ```csharp
 public static string Hammer
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +103,8 @@ public static string Hammer
 ```csharp
 public static string Knife
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +115,8 @@ public static string Knife
 ```csharp
 public static string Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +127,8 @@ public static string Left
 ```csharp
 public static string Mace
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +139,8 @@ public static string Mace
 ```csharp
 public static string Pistol
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +151,8 @@ public static string Pistol
 ```csharp
 public static string Rifle
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +163,8 @@ public static string Rifle
 ```csharp
 public static string Right
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +175,8 @@ public static string Right
 ```csharp
 public static string Spear
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +189,9 @@ public static string Spear
 ```csharp
 public static bool GetKey(WeaponClassType type, out string slot, out string attachment)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/ColorSelector
 ```csharp
 public class ColorSelector : MonoBehaviour
 ```
+Stores a color, and some other things that I don't think are used...
+
+See [ColorPalette](/api/Customizing/ColorPalette)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ColorSelector
@@ -33,6 +37,8 @@ public ColorSelector()
 ```csharp
 public Image colorSetted
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Image colorSetted
 ```csharp
 public Color CurrentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Color CurrentColor
 ```csharp
 public RectTransform PalettePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public RectTransform PalettePivot
 ```csharp
 public void OnExitEdit(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,3 +89,6 @@ public void OnExitEdit(Color c)
 ```csharp
 public void OpenPalette()
 ```
+#INC
+#code-generated
+

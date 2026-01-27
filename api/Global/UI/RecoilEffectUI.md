@@ -12,6 +12,10 @@ canonical_path: /api/Global/UI/RecoilEffectUI
 public class RecoilEffectUI : RecoilEffect
 ```
 
+Holds a RectTransform...
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [RecoilEffect](/api/Global/Effect/RecoilEffect) → RecoilEffectUI
 
@@ -25,6 +29,9 @@ public class RecoilEffectUI : RecoilEffect
 ```csharp
 public RecoilEffectUI()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public RecoilEffectUI()
 ```csharp
 public RectTransform rect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public RectTransform rect
 ```csharp
 public Vector3 startPos
 ```
+#INC
+
 
 #### Field Value
 

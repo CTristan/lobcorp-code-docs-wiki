@@ -11,6 +11,10 @@ canonical_path: /api/GeburahBoss/DamageRange
 ```csharp
 public class DamageRange
 ```
+Has 'rear' and 'front', for how far an attack extends ahead and behind [The Red Mist](/api/Global/Script/GeburahCoreScript).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DamageRange
@@ -25,6 +29,9 @@ public class DamageRange
 ```csharp
 public DamageRange(float front, float rear)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public DamageRange(float front, float rear)
 ```csharp
 public float front
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ public float front
 ```csharp
 public float rear
 ```
+#INC
+
 
 #### Field Value
 

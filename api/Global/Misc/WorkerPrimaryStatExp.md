@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/WorkerPrimaryStatExp
 ```csharp
 public class WorkerPrimaryStatExp
 ```
+Holds the stat experience for each stat, for training [agents](/api/Global/Worker/AgentModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerPrimaryStatExp
@@ -33,6 +37,8 @@ public WorkerPrimaryStatExp()
 ```csharp
 public float battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public float battle
 ```csharp
 public float hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public float hp
 ```csharp
 public float mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public float mental
 ```csharp
 public float work
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,3 +87,6 @@ public float work
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+

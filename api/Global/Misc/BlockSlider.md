@@ -36,6 +36,8 @@ public BlockSlider()
 ```csharp
 public GameObject blockItem
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +80,8 @@ public int currentValue
 ```csharp
 public Color disableColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +92,8 @@ public Color disableColor
 ```csharp
 public Sprite disableSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +104,8 @@ public Sprite disableSprite
 ```csharp
 public bool Horizontal
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +116,8 @@ public bool Horizontal
 ```csharp
 protected bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +128,8 @@ protected bool init
 ```csharp
 public Color initialColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +151,8 @@ public Sprite initialSprite
 ```csharp
 public bool interactable
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +163,8 @@ public bool interactable
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,6 +186,8 @@ public int maxValue
 ```csharp
 protected int prev
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,6 +198,8 @@ protected int prev
 ```csharp
 protected int prevCurrentValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -190,6 +210,8 @@ protected int prevCurrentValue
 ```csharp
 public bool remainderDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,18 +257,24 @@ protected RectTransform rect { get; }
 ```csharp
 protected virtual void Awake()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public virtual void Init()
 ```
+#INC
+
 
 ### OnSliderItemClick(int)
 
 ```csharp
 public virtual void OnSliderItemClick(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,6 +287,8 @@ public virtual void OnSliderItemClick(int index)
 ```csharp
 protected virtual void SetValue(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -271,6 +301,8 @@ protected virtual void SetValue(int value)
 ```csharp
 public virtual void SetValueRate(float max, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +316,8 @@ public virtual void SetValueRate(float max, float value)
 ```csharp
 public virtual void SetValueRate(int max, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,15 +331,22 @@ public virtual void SetValueRate(int max, float value)
 ```csharp
 public virtual void SliderSet()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 protected virtual void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 protected virtual void Update()
 ```
+#INC
+

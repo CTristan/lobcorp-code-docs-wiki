@@ -12,6 +12,11 @@ canonical_path: /api/DeadEffect/WorkerExecutionEffect
 public class WorkerExecutionEffect : MonoBehaviour
 ```
 
+Execution effect on workers and rabbits.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerExecutionEffect
 
@@ -44,6 +49,8 @@ public float currentScale
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +61,8 @@ private AnimationCurve curve
 ```csharp
 private const float effectTime = 0.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ private const float effectTime = 0.7
 ```csharp
 private bool isNegative
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +85,8 @@ private bool isNegative
 ```csharp
 private RabbitModel rabbit
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ private RabbitModel rabbit
 ```csharp
 private float startScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ private float startScale
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +121,8 @@ private Timer timer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,12 +135,16 @@ private WorkerModel worker
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(RabbitModel)
 
 ```csharp
 public void Init(RabbitModel rabbit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -134,6 +157,9 @@ public void Init(RabbitModel rabbit)
 ```csharp
 public void Init(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

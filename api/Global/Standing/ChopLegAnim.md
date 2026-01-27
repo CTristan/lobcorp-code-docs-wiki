@@ -11,6 +11,8 @@ canonical_path: /api/Global/Standing/ChopLegAnim
 ```csharp
 public class ChopLegAnim : StandingItemAnim, IAnimatorEventCalled
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → ChopLegAnim
@@ -56,6 +58,8 @@ private ChopLegAnim.AnimData currentData
 ```csharp
 private float currentHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +70,8 @@ private float currentHeight
 ```csharp
 private float currentRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +82,8 @@ private float currentRate
 ```csharp
 private bool damageGived
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +104,8 @@ public List<ChopLegAnim.AnimData> data
 ```csharp
 public GameObject Effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +116,8 @@ public GameObject Effect
 ```csharp
 public GameObject Gate
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +128,8 @@ public GameObject Gate
 ```csharp
 private bool half
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +140,8 @@ private bool half
 ```csharp
 private bool isIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +152,8 @@ private bool isIn
 ```csharp
 public GameObject Leg
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +164,8 @@ public GameObject Leg
 ```csharp
 public GameObject Mask
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +176,8 @@ public GameObject Mask
 ```csharp
 public float movementScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +188,8 @@ public float movementScale
 ```csharp
 public Timer movementTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +200,8 @@ public Timer movementTimer
 ```csharp
 public GameObject PositionSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +212,8 @@ public GameObject PositionSetter
 ```csharp
 public RectTransform positionTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +224,8 @@ public RectTransform positionTarget
 ```csharp
 public ChopLeg script
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +236,8 @@ public ChopLeg script
 ```csharp
 public SkeletonUIEvent skeletonControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +248,8 @@ public SkeletonUIEvent skeletonControl
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +260,8 @@ public AudioSource src
 ```csharp
 public RectTransform targetRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -238,18 +274,24 @@ public RectTransform targetRect
 ```csharp
 private void AddSpineAnimEvent()
 ```
+#INC
+
 
 ### AgentReset()
 
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimationEnd(TrackEntry)
 
 ```csharp
 public void AnimationEnd(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -262,6 +304,8 @@ public void AnimationEnd(TrackEntry entry)
 ```csharp
 public void AnimationStart(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -274,12 +318,16 @@ public void AnimationStart(TrackEntry entry)
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,24 +340,32 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CalculatePos()
 
 ```csharp
 public void CalculatePos()
 ```
+#INC
+
 
 ### CancelAttack()
 
 ```csharp
 public void CancelAttack()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,6 +379,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### HandleEvent(TrackEntry, Event)
 
@@ -342,12 +400,16 @@ public void HandleEvent(TrackEntry entry, Event e)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -360,36 +422,48 @@ public void OnCalled(int i)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnPointerEnter()
 
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### ResetCursor()
 
 ```csharp
 public void ResetCursor()
 ```
+#INC
+
 
 ### RunEffect()
 
 ```csharp
 public void RunEffect()
 ```
+#INC
+
 
 ### SetHeight(float)
 
 ```csharp
 public void SetHeight(float yPos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -402,6 +476,8 @@ public void SetHeight(float yPos)
 ```csharp
 public void SetScript(ChopLeg script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -414,12 +490,16 @@ public void SetScript(ChopLeg script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -432,21 +512,30 @@ public void SoundMake(string src)
 ```csharp
 protected override void Start()
 ```
+#INC
+#code-generated
+
 
 ### StartAttack()
 
 ```csharp
 public void StartAttack()
 ```
+#INC
+
 
 ### StartMovement()
 
 ```csharp
 public void StartMovement()
 ```
+#INC
+
 
 ### Upward()
 
 ```csharp
 public void Upward()
 ```
+#INC
+

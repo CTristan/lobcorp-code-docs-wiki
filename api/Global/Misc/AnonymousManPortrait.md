@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AnonymousManPortrait
 ```csharp
 public class AnonymousManPortrait : CreatureBase
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → AnonymousManPortrait
@@ -33,6 +35,9 @@ public AnonymousManPortrait()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

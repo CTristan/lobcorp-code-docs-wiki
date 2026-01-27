@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoCodex
 ```csharp
 public class CreatureInfoCodex : MonoBehaviour
 ```
+Container for the whole codex (known abnormalities and such)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoCodex
@@ -33,6 +35,8 @@ public CreatureInfoCodex()
 ```csharp
 public GameObject _activeControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public GameObject _activeControl
 ```csharp
 public GameObject _creditSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public GameObject _creditSlot
 ```csharp
 public RectTransform _disabledLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public RectTransform _disabledLayout
 ```csharp
 private int _dontouchmeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private int _dontouchmeCount
 ```csharp
 public RectTransform _layout
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public RectTransform _layout
 ```csharp
 private float _scrollElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private float _scrollElap
 ```csharp
 public GameObject _slot
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public GameObject _slot
 ```csharp
 private List<MonoBehaviour> allocateFilters
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private List<MonoBehaviour> allocateFilters
 ```csharp
 public Text Code
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Text Code
 ```csharp
 private int currentDisplayIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private int currentDisplayIndex
 ```csharp
 private const int displayCount = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ private const int displayCount = 15
 ```csharp
 private List<long> displayList
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ private List<long> displayList
 ```csharp
 private const char div = '-'
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +201,8 @@ private static Comparison<CreatureInfoCodex.SortData> f__mg_cache0
 ```csharp
 public Button LowerArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +213,8 @@ public Button LowerArrow
 ```csharp
 private int maxDisplayIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ private int maxDisplayIndex
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +237,8 @@ public Text Name
 ```csharp
 public Text Observation_Percent
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +249,8 @@ public Text Observation_Percent
 ```csharp
 public Text Observation_Title
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +261,8 @@ public Text Observation_Title
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +273,8 @@ public Image Portrait
 ```csharp
 public Text Risk
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +285,8 @@ public Text Risk
 ```csharp
 public Color[] riskColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +297,8 @@ public Color[] riskColor
 ```csharp
 public float ScrollDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -274,6 +320,8 @@ public GameObject SimpleStat
 ```csharp
 private Dictionary<long, GameObject> slotDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -284,6 +332,8 @@ private Dictionary<long, GameObject> slotDic
 ```csharp
 private static long[] uniqueId
 ```
+#INC
+
 
 #### Field Value
 
@@ -294,6 +344,8 @@ private static long[] uniqueId
 ```csharp
 public Button UpperArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +380,8 @@ private bool Scrollable { get; }
 ```csharp
 public bool CheckIdValidation(long metaId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,6 +398,8 @@ public bool CheckIdValidation(long metaId)
 ```csharp
 private void CheckUniqueAction(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -375,12 +431,16 @@ private bool CheckUniqueGeneration(long id, List<CreatureInfoCodex.SortData> lis
 ```csharp
 private void Clear()
 ```
+#INC
+
 
 ### DontTouchMe()
 
 ```csharp
 private void DontTouchMe()
 ```
+#INC
+
 
 ### GenerateSlot(List<SortData>, CreatureObserveInfoModel, CreatureTypeInfo, int)
 
@@ -402,6 +462,8 @@ private void GenerateSlot(List<CreatureInfoCodex.SortData> sort, CreatureObserve
 ```csharp
 private int GetCurrentDisplayedIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -412,6 +474,8 @@ private int GetCurrentDisplayedIndex()
 ```csharp
 public Color GetRiskLevelColor(RiskLevel risk)
 ```
+#INC
+
 
 #### Parameters
 
@@ -428,42 +492,56 @@ public Color GetRiskLevelColor(RiskLevel risk)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### MoveDown()
 
 ```csharp
 public void MoveDown()
 ```
+#INC
+
 
 ### MoveEnabledToDisable()
 
 ```csharp
 private void MoveEnabledToDisable()
 ```
+#INC
+
 
 ### MoveNext()
 
 ```csharp
 public void MoveNext()
 ```
+#INC
+
 
 ### MovePrev()
 
 ```csharp
 public void MovePrev()
 ```
+#INC
+
 
 ### MoveUp()
 
 ```csharp
 public void MoveUp()
 ```
+#INC
+
 
 ### OnClickCodexUnit(CreatureTypeInfo)
 
 ```csharp
 public void OnClickCodexUnit(CreatureTypeInfo metaInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,12 +554,16 @@ public void OnClickCodexUnit(CreatureTypeInfo metaInfo)
 ```csharp
 public void OnMetaClose()
 ```
+#INC
+
 
 ### OnOeverlayEnter(CreatureTypeInfo)
 
 ```csharp
 public void OnOeverlayEnter(CreatureTypeInfo typeInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -494,18 +576,24 @@ public void OnOeverlayEnter(CreatureTypeInfo typeInfo)
 ```csharp
 public void OnOpen()
 ```
+#INC
+
 
 ### OnOverlayExit()
 
 ```csharp
 public void OnOverlayExit()
 ```
+#INC
+
 
 ### SetList(int)
 
 ```csharp
 public void SetList(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -518,18 +606,25 @@ public void SetList(int index)
 ```csharp
 public void SetPercentage()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### TryParse(string, out int)
 
 ```csharp
 private bool TryParse(string code, out int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -547,12 +642,16 @@ private bool TryParse(string code, out int index)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateArrow(int)
 
 ```csharp
 private void UpdateArrow(int current)
 ```
+#INC
+
 
 #### Parameters
 

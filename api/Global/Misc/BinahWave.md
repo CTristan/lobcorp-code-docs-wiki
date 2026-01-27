@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BinahWave
 public class BinahWave : MonoBehaviour
 ```
 
+[Binah](/api/Global/Misc/BinahBossBase)'s... wave... attack?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BinahWave
 
@@ -33,6 +38,8 @@ public BinahWave()
 ```csharp
 private bool _isDestroied
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _isDestroied
 ```csharp
 private Timer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _timer
 ```csharp
 private Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Animator animator
 ```csharp
 public BinahProjectile binahProjectile
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public BinahProjectile binahProjectile
 ```csharp
 public AnimatorEventHandler eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public AnimatorEventHandler eventHandler
 ```csharp
 private MinMax MinMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private MinMax MinMax
 ```csharp
 public ProjectileModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public ProjectileModel model
 ```csharp
 public ProjectileUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +148,8 @@ private MovableObjectNode Movable { get; }
 ```csharp
 public void AnimEventControl(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,12 +162,16 @@ public void AnimEventControl(int index)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetPassage(PassageObjectModel)
 
 ```csharp
 private static PassageObjectModel GetPassage(PassageObjectModel current)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,6 +188,9 @@ private static PassageObjectModel GetPassage(PassageObjectModel current)
 ```csharp
 public void Init(BinahCoreScript binah, ProjectileModel model, ProjectileUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -175,12 +205,16 @@ public void Init(BinahCoreScript binah, ProjectileModel model, ProjectileUnit un
 ```csharp
 private void MoveToNext()
 ```
+#INC
+
 
 ### OnArrived(ProjectileModel)
 
 ```csharp
 public void OnArrived(ProjectileModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,12 +227,16 @@ public void OnArrived(ProjectileModel model)
 ```csharp
 public void OnDestroied()
 ```
+#INC
+
 
 ### SetNext(PassageObjectModel)
 
 ```csharp
 private void SetNext(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,3 +249,5 @@ private void SetNext(PassageObjectModel passage)
 ```csharp
 public void Timer()
 ```
+#INC
+

@@ -12,6 +12,25 @@ canonical_path: /api/GeburahBoss/DefaultAttack
 public class DefaultAttack : GeburahAction
 ```
 
+Action for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s normal attacks.
+
+Phase 1:
+- [Red Eyes](/api/Global/Weapon/SpiderMomWeapon)
+- [Penitence](/api/Global/Weapon/OneBadManyGoodWeapon)
+- Both
+
+Phase 2:
+- [Mimicry](/api/Global/Weapon/NothingWeapon)
+- [Da Capo](/api/Global/Misc/SilentOrchestra)
+
+Phase 3:
+- [Justitia](/api/Global/Weapon/LongBirdWeapon)
+
+Phase 4:
+- [Twilight](/api/Global/Weapon/BossBirdWeapon) #inc
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → DefaultAttack
 
@@ -25,6 +44,8 @@ public class DefaultAttack : GeburahAction
 ```csharp
 public DefaultAttack(GeburahCoreScript geburah, float front, float rear, int attackTypeMax = 3)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,6 +78,8 @@ public DefaultAttack(GeburahCoreScript geburah, float front, float rear, List<De
 ```csharp
 private float _attackDist_front
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +90,8 @@ private float _attackDist_front
 ```csharp
 private float _attackDist_rear
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +102,8 @@ private float _attackDist_rear
 ```csharp
 private bool _hasStructure
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +114,8 @@ private bool _hasStructure
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +126,8 @@ private bool _isAttacking
 ```csharp
 private static DefenseInfo _p1_dummy
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +138,8 @@ private static DefenseInfo _p1_dummy
 ```csharp
 private static DefenseInfo _p2_dummy
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +150,8 @@ private static DefenseInfo _p2_dummy
 ```csharp
 private int attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +162,8 @@ private int attackType
 ```csharp
 private DamageType damageType
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +184,8 @@ private List<DefaultAttack.AttackProb> list
 ```csharp
 private int maxAttackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +196,8 @@ private int maxAttackType
 ```csharp
 private float maxProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -181,6 +222,8 @@ public bool IsAttacking { get; }
 ```csharp
 public void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,42 +236,57 @@ public void OnAnimEventCalled(int index)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamage()
 
 ```csharp
 public void OnDamage()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### SetAttackTypeMax(int)
 
 ```csharp
 public void SetAttackTypeMax(int max)
 ```
+#INC
+
 
 #### Parameters
 

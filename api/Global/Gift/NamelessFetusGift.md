@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/NamelessFetusGift
 public class NamelessFetusGift : EquipmentScriptBase
 ```
 
+Script for [Nameless Fetus](/api/Global/Misc/NamelessFetus)'s EGO Gift: Syrinx.
+
+Despite this gift's description, this reduces the minimum and maximum of all damage taken by 5%. Lmao. #bug 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → NamelessFetusGift
 
@@ -33,6 +38,9 @@ public NamelessFetusGift()
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

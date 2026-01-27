@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/SpineChangeData
 ```csharp
 public class SpineChangeData
 ```
+information for updating a positioning and color with Spine
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpineChangeData
@@ -44,6 +46,8 @@ public string attachmentName
 ```csharp
 public bool calculateRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +80,8 @@ public bool isSettedOffset
 ```csharp
 public Vector2 position
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +92,8 @@ public Vector2 position
 ```csharp
 public Color regionColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +104,8 @@ public Color regionColor
 ```csharp
 public float rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +116,8 @@ public float rotation
 ```csharp
 public Vector2 scale
 ```
+#INC
+
 
 #### Field Value
 

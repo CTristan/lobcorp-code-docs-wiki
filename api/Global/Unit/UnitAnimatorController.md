@@ -12,6 +12,9 @@ canonical_path: /api/Global/Unit/UnitAnimatorController
 public class UnitAnimatorController : MonoBehaviour
 ```
 
+Manages worker animations. #verify #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitAnimatorController
 
@@ -43,6 +46,8 @@ private UnitAnimatorController.DeadMotionDelegate _deadFunc
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,42 +60,57 @@ public Animator anim
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DieExecution()
 
 ```csharp
 private void DieExecution()
 ```
+#INC
+
 
 ### DieNormal()
 
 ```csharp
 private void DieNormal()
 ```
+#INC
+
 
 ### DiePanic()
 
 ```csharp
 private void DiePanic()
 ```
+#INC
+
 
 ### DiePanicOfficer()
 
 ```csharp
 private void DiePanicOfficer()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### SetAttackSpeed(float)
 
 ```csharp
 public void SetAttackSpeed(float speed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +123,8 @@ public void SetAttackSpeed(float speed)
 ```csharp
 public void SetAttackType(int v)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +137,8 @@ public void SetAttackType(int v)
 ```csharp
 public void SetBattle(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,6 +151,8 @@ public void SetBattle(bool b)
 ```csharp
 public void SetBattleReady(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,6 +165,8 @@ public void SetBattleReady(bool b)
 ```csharp
 public void SetDeadType(DeadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +179,8 @@ public void SetDeadType(DeadType type)
 ```csharp
 public void SetDirection(UnitDirection direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,6 +193,8 @@ public void SetDirection(UnitDirection direction)
 ```csharp
 public void SetMove(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,6 +207,8 @@ public void SetMove(bool b)
 ```csharp
 public void SetOfficerPanic(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +221,8 @@ public void SetOfficerPanic(bool b)
 ```csharp
 public void SetPanic(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +235,8 @@ public void SetPanic(bool b)
 ```csharp
 public void SetWeaponId(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +249,8 @@ public void SetWeaponId(int id)
 ```csharp
 public void SetWork(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -223,9 +263,13 @@ public void SetWork(bool b)
 ```csharp
 public void StartWork()
 ```
+#INC
+
 
 ### SuicideAgent()
 
 ```csharp
 private void SuicideAgent()
 ```
+#INC
+

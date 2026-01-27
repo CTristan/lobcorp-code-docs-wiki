@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/OfficerLayer
 public class OfficerLayer : MonoBehaviour, IObserver
 ```
 
+The layer holding all [clerks](/api/Global/Worker/OfficerUnit).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OfficerLayer
 
@@ -36,6 +41,8 @@ public OfficerLayer()
 ```csharp
 private List<OfficerUnit> officerList
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private List<OfficerUnit> officerList
 ```csharp
 public GameObject target
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject target
 ```csharp
 private int zCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +79,8 @@ private int zCount
 ```csharp
 public static OfficerLayer currentLayer { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -80,6 +93,8 @@ public static OfficerLayer currentLayer { get; private set; }
 ```csharp
 public void AddOfficer(OfficerModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -98,12 +113,16 @@ private void Awake()
 ```csharp
 public void ClearOfficer()
 ```
+#INC
+
 
 ### GetOfficer(long)
 
 ```csharp
 public OfficerUnit GetOfficer(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -120,6 +139,8 @@ public OfficerUnit GetOfficer(long id)
 ```csharp
 public List<OfficerUnit> GetOfficerList()
 ```
+#INC
+
 
 #### Returns
 
@@ -130,24 +151,33 @@ public List<OfficerUnit> GetOfficerList()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,12 +191,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### RemoveOfficer(OfficerModel)
 
 ```csharp
 public void RemoveOfficer(OfficerModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,9 +213,13 @@ public void RemoveOfficer(OfficerModel model)
 ```csharp
 public void TurnOffUI()
 ```
+#INC
+
 
 ### TurnOnUI()
 
 ```csharp
 public void TurnOnUI()
 ```
+#INC
+

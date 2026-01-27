@@ -11,6 +11,9 @@ canonical_path: /api/Global/Effecter/FadeEffecter
 ```csharp
 public class FadeEffecter : MonoBehaviour
 ```
+Fade effect
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FadeEffecter
@@ -33,6 +36,8 @@ public FadeEffecter()
 ```csharp
 private bool _fadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _fadeIn
 ```csharp
 private bool _fadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _fadeOut
 ```csharp
 public Image bgTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Image bgTarget
 ```csharp
 private float currentAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private float currentAlpha
 ```csharp
 private float displayElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private float displayElapsed
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private float elapsed
 ```csharp
 public bool FadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public bool FadeIn
 ```csharp
 public bool FadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public bool FadeOut
 ```csharp
 public GameObject globalTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +155,8 @@ public bool isDisplayed
 ```csharp
 public Text textTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +167,8 @@ public Text textTarget
 ```csharp
 public float totalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -218,24 +243,33 @@ private float totalDisplayTime { get; }
 ```csharp
 public void Disable()
 ```
+#INC
+
 
 ### EffectEnd()
 
 ```csharp
 public void EffectEnd()
 ```
+#INC
+
 
 ### Enable()
 
 ```csharp
 public void Enable()
 ```
+#INC
+#code-generated
+
 
 ### FadeEffect(bool, float)
 
 ```csharp
 public void FadeEffect(bool isFadeIn, float maxTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,15 +283,21 @@ public void FadeEffect(bool isFadeIn, float maxTime)
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### ForceDisable()
 
 ```csharp
 public void ForceDisable()
 ```
+#INC
+
 
 ### ReEnable()
 
 ```csharp
 public void ReEnable()
 ```
+#INC
+

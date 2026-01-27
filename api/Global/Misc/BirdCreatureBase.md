@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/BirdCreatureBase
 public class BirdCreatureBase : CreatureBase
 ```
 
+Base class for birds and [Apocalypse Bird](/api/Global/Misc/BossBird)'s spawns.
+
+(Used mainly for Apocalypse Bird to avoid targeting itself or its spawns.)
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BirdCreatureBase
 

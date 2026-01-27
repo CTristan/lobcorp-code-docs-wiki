@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/DestroyHandler
 ```csharp
 public class DestroyHandler : MonoBehaviour
 ```
+Does some weird stuff with Callbacks, but I think this is unused...
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DestroyHandler
@@ -33,6 +36,8 @@ public DestroyHandler()
 ```csharp
 private List<Callback> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,8 @@ private List<Callback> list
 ```csharp
 public Callback AddReceiver(Callback e)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,9 +68,14 @@ public Callback AddReceiver(Callback e)
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+#code-generated
+

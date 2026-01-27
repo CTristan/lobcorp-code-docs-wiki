@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/PianoCreatureAnim
 public class PianoCreatureAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Il Pianto della Luna's breaching form](/api/Global/Creature/PianoCreature).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PianoCreatureAnim
 
@@ -36,6 +39,8 @@ public PianoCreatureAnim()
 ```csharp
 private PianoCreature script
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +53,9 @@ private PianoCreature script
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -60,18 +68,24 @@ public override void AttackCalled(int i)
 ```csharp
 private void AttackDamage()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -82,6 +96,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -92,12 +108,16 @@ public bool IsInSkill()
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,30 +130,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart()
 
 ```csharp
 public void OnSkillStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### SetScript(PianoCreature)
 
 ```csharp
 public void SetScript(PianoCreature script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,9 +176,13 @@ public void SetScript(PianoCreature script)
 ```csharp
 private void SkillDamage()
 ```
+#INC
+
 
 ### SkillEnd()
 
 ```csharp
 private void SkillEnd()
 ```
+#INC
+

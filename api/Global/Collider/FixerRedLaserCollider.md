@@ -36,6 +36,8 @@ public FixerRedLaserCollider()
 ```csharp
 public FixerRedLaser root
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +50,9 @@ public FixerRedLaser root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -60,6 +65,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -72,6 +79,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

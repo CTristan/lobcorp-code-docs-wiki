@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/AlriuneAuraBuf
 public class AlriuneAuraBuf : UnitBuf
 ```
 
+Effect that kills agents when they panic near [Alriune](/api/Global/Misc/Alriune).
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → AlriuneAuraBuf
 
@@ -25,6 +30,8 @@ public class AlriuneAuraBuf : UnitBuf
 ```csharp
 public AlriuneAuraBuf()
 ```
+Sets the [UnitBufType](/api/Global/Type/UnitBufType) to ALRIUNE_AURA.
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public AlriuneAuraBuf()
 ```csharp
 private Animator curtainAnimator
 ```
+Animator for curtain effects on affected agents.
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private Animator curtainAnimator
 ```csharp
 private const float delay = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float delay = 3
 ```csharp
 private WorkerModel worker
 ```
+The agent with this buff.
+
 
 #### Field Value
 
@@ -65,6 +78,8 @@ private WorkerModel worker
 ```csharp
 public override void Init(UnitModel model)
 ```
+If this is a worker, loads the curtain prefab on the agent, then sets a special death animation and kills the worker. Sets a timer to destroy the buff in 3 seconds.
+
 
 #### Parameters
 
@@ -77,3 +92,6 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+Tells the curtainAnimator that the agent is dead and sets the special death animation randomly to one of four animations.
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/UICommonTextConverter
 public class UICommonTextConverter
 ```
 
+Provides methods for converting common text; only used to get the chance text for work based on the percent (i.e. 'very low', 'low', 'common', 'high', 'very high').
+
+#verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UICommonTextConverter
 
@@ -33,6 +38,8 @@ public UICommonTextConverter()
 ```csharp
 public static string GetPercentText(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -49,6 +56,9 @@ public static string GetPercentText(float rate)
 ```csharp
 public static string GetPercentText(int level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

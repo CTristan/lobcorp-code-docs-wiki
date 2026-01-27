@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/MathUtil
 ```csharp
 public class MathUtil
 ```
+Holds a few mathematical functions. Only the unit step function is used.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MathUtil
@@ -33,6 +36,8 @@ public MathUtil()
 ```csharp
 public static float Power(float power)
 ```
+Returns `power` squared.
+
 
 #### Parameters
 
@@ -49,6 +54,8 @@ public static float Power(float power)
 ```csharp
 public static int UnitStep(float n)
 ```
+If `n` is positive, returns 1, and otherwise returns 0.
+
 
 #### Parameters
 

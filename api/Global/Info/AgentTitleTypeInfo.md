@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/AgentTitleTypeInfo
 ```csharp
 public class AgentTitleTypeInfo
 ```
+Stores information about an [agent](/api/Global/Worker/AgentModel)'s title.
+
+Looks like it has the id of the title, the level of the agent which should have it, the best stat it gives (or all), the name of the title itself, and all of its modifiers.
+
+See also [AgentTitleTypeList](/api/Global/List/AgentTitleTypeList).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentTitleTypeInfo
@@ -33,6 +39,8 @@ public AgentTitleTypeInfo()
 ```csharp
 public int attackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public int attackSpeed
 ```csharp
 public int cubeSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public int cubeSpeed
 ```csharp
 public int hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,9 @@ public int hp
 ```csharp
 public int id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public int id
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public int level
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public int mental
 ```csharp
 public int movementSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ public int movementSpeed
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ public string name
 ```csharp
 public string nameId
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ public string nameId
 ```csharp
 public string pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ public string pos
 ```csharp
 public string rwbp
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ public string rwbp
 ```csharp
 public int workProb
 ```
+#INC
+
 
 #### Field Value
 

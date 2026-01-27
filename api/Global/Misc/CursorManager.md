@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/CursorManager
 ```csharp
 public class CursorManager : MonoBehaviour
 ```
+Manages the cursor.
+
+Specifically manages how the cursor is drawn, and how it changes during hover-over and bullet mode.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CursorManager
@@ -33,6 +39,8 @@ public CursorManager()
 ```csharp
 private UnscaledTimer _cannotAnimTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private UnscaledTimer _cannotAnimTimer
 ```csharp
 private Vector2 _currentHotspot
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private Vector2 _currentHotspot
 ```csharp
 private static CursorManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private static CursorManager _instance
 ```csharp
 private bool _isEnteredTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private bool _isEnteredTarget
 ```csharp
 private bool _isGlowing
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private bool _isGlowing
 ```csharp
 private MouseCursorType _prevCursorType
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ private MouseCursorType _prevCursorType
 ```csharp
 private const float _targetAnimFreq = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ private const float _targetAnimFreq = 1
 ```csharp
 private UnscaledTimer _targetAnimTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ private UnscaledTimer _targetAnimTimer
 ```csharp
 public Vector2 BulletCursorSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ public Vector2 BulletCursorSize
 ```csharp
 public static Vector2 bullettHotspot
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ public static Vector2 bullettHotspot
 ```csharp
 public AnimationCurve CannotAnimCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +171,8 @@ public AnimationCurve CannotAnimCurve
 ```csharp
 public float CannotAnimFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +183,8 @@ public float CannotAnimFreq
 ```csharp
 private Texture2D currentCursorTexture
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +195,8 @@ private Texture2D currentCursorTexture
 ```csharp
 public MouseCursorType currentType
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +207,8 @@ public MouseCursorType currentType
 ```csharp
 public CursorMode cursorMode
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +219,8 @@ public CursorMode cursorMode
 ```csharp
 public List<Texture2D> cursorSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +231,8 @@ public List<Texture2D> cursorSprite
 ```csharp
 private float glowElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +243,8 @@ private float glowElapsed
 ```csharp
 public float glowFrequency
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +255,8 @@ public float glowFrequency
 ```csharp
 private MouseCursorType glowStartSave
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +267,8 @@ private MouseCursorType glowStartSave
 ```csharp
 public static Vector2 halfHotspot
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +279,8 @@ public static Vector2 halfHotspot
 ```csharp
 private bool isAlterMode
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +291,8 @@ private bool isAlterMode
 ```csharp
 private bool isLock
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +303,8 @@ private bool isLock
 ```csharp
 private Vector2 mousePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -274,6 +326,8 @@ public AnimationCurve TargetAnimCurve
 ```csharp
 public static Vector2 zeroHotspot
 ```
+#INC
+
 
 #### Field Value
 
@@ -338,36 +392,49 @@ public bool isGlowing { get; }
 ```csharp
 public void ActivateGlowEffect()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CannotAnim()
 
 ```csharp
 public void CannotAnim()
 ```
+#INC
+
 
 ### CannotEnded()
 
 ```csharp
 private void CannotEnded()
 ```
+#INC
+
 
 ### CannotUpdate()
 
 ```csharp
 public void CannotUpdate()
 ```
+#INC
+
 
 ### ChangeDrawMode(bool)
 
 ```csharp
 private void ChangeDrawMode(bool isGui)
 ```
+#INC
+
 
 #### Parameters
 
@@ -380,6 +447,8 @@ private void ChangeDrawMode(bool isGui)
 ```csharp
 private bool CheckCursorChangable(MouseCursorType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +465,8 @@ private bool CheckCursorChangable(MouseCursorType type)
 ```csharp
 public void CursorSet(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,6 +479,8 @@ public void CursorSet(int index)
 ```csharp
 public void CursorSet(MouseCursorType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -420,12 +493,16 @@ public void CursorSet(MouseCursorType type)
 ```csharp
 public void DeactivateGlowEffect()
 ```
+#INC
+
 
 ### ForcelyCurserSet(MouseCursorType)
 
 ```csharp
 public void ForcelyCurserSet(MouseCursorType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -438,6 +515,8 @@ public void ForcelyCurserSet(MouseCursorType type)
 ```csharp
 public MouseCursorType GetCurrentCusorType()
 ```
+#INC
+
 
 #### Returns
 
@@ -448,6 +527,8 @@ public MouseCursorType GetCurrentCusorType()
 ```csharp
 public MouseCursorType GetCursorType(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,6 +545,8 @@ public MouseCursorType GetCursorType(int index)
 ```csharp
 public Vector2 GetHotspot(MouseCursorType type, Texture2D tex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -481,36 +564,48 @@ public Vector2 GetHotspot(MouseCursorType type, Texture2D tex)
 ```csharp
 public void HideCursor()
 ```
+#INC
+
 
 ### LockCursor()
 
 ```csharp
 public void LockCursor()
 ```
+#INC
+
 
 ### OnEnteredTarget()
 
 ```csharp
 public void OnEnteredTarget()
 ```
+#INC
+
 
 ### OnExitTarget()
 
 ```csharp
 public void OnExitTarget()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### SetCursorScale(float)
 
 ```csharp
 public void SetCursorScale(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -523,15 +618,21 @@ public void SetCursorScale(float factor)
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### UnlockCursor()
 
 ```csharp
 public void UnlockCursor()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

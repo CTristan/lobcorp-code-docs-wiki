@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoKitObserveLevelEffectSlot
 ```csharp
 public class CreatureInfoKitObserveLevelEffectSlot : MonoBehaviour
 ```
+Presumably the thing which controls if the abno class is visible?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoKitObserveLevelEffectSlot
@@ -33,6 +35,8 @@ public CreatureInfoKitObserveLevelEffectSlot()
 ```csharp
 public Image GradeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Image GradeImage
 ```csharp
 public Outline GradeOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +61,9 @@ public Outline GradeOutline
 ```csharp
 public void SetState(bool isEnabled)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

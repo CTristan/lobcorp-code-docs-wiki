@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/MachineNoonAnim
 public class MachineNoonAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Process of Understanding](/api/Global/Machine/MachineNoon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MachineNoonAnim
 
@@ -36,6 +39,8 @@ public MachineNoonAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_atk = "Attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _sound_atk = "Attack"
 ```csharp
 private const string _sound_coolDown = "CoolDown"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string _sound_coolDown = "CoolDown"
 ```csharp
 private const string _sound_dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const string _sound_dead = "Dead"
 ```csharp
 private const string _sound_deadEffect = "DeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const string _sound_deadEffect = "DeadEffect"
 ```csharp
 private const string _sound_default = "Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const string _sound_default = "Default"
 ```csharp
 private const string _sound_walk = "Walk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private const string _sound_walk = "Walk"
 ```csharp
 public GameObject attackEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public GameObject attackEffect
 ```csharp
 public GameObject coolDownEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public GameObject coolDownEffect
 ```csharp
 private SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private SoundEffectPlayer defaultSound
 ```csharp
 private MachineNoon script
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,18 +173,24 @@ private MachineNoon script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### CanMove()
 
 ```csharp
 public bool CanMove()
 ```
+#INC
+
 
 #### Returns
 
@@ -170,24 +201,32 @@ public bool CanMove()
 ```csharp
 private void DefaultSoundOff()
 ```
+#INC
+
 
 ### DefaultSoundOn()
 
 ```csharp
 private void DefaultSoundOn()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -204,6 +243,9 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -214,6 +256,8 @@ public override bool HasDeadMotion()
 ```csharp
 private void MakeDeadEffect()
 ```
+#INC
+
 
 ### MakeSound(string, float)
 
@@ -237,6 +281,8 @@ public SoundEffectPlayer MakeSound(string src, float volume = 1)
 ```csharp
 public SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,18 +299,24 @@ public SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 private void MovingDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackStart()
 
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,36 +329,48 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCoolDownEnd()
 ```
+#INC
+
 
 ### OnCoolDownStart()
 
 ```csharp
 public void OnCoolDownStart()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAttackEffect(bool)
 
 ```csharp
 private void SetAttackEffect(bool active = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,6 +383,8 @@ private void SetAttackEffect(bool active = false)
 ```csharp
 private void SetCoolDownEffect(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +397,8 @@ private void SetCoolDownEffect(bool active)
 ```csharp
 public void SetScript(MachineNoon script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -343,3 +411,5 @@ public void SetScript(MachineNoon script)
 ```csharp
 private void Update()
 ```
+#INC
+

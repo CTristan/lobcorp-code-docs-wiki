@@ -11,3 +11,6 @@ canonical_path: /api/Global/Model/IMouseCommandTargetModel
 ```csharp
 public interface IMouseCommandTargetModel
 ```
+Empty interface for use with [IMouseCommandTarget](/api/Global/Misc/IMouseCommandTarget).
+#code-generated
+

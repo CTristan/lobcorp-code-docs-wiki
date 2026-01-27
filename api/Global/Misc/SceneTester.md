@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SceneTester
 public class SceneTester : MonoBehaviour
 ```
 
+Empty class. Probably was for loading scenes for debugging.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SceneTester
 
@@ -33,9 +38,14 @@ public SceneTester()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Weapon/BakuWeapon
 ```csharp
 internal class BakuWeapon : EquipmentScriptBase
 ```
+Script for [Void Dream](/api/Global/Misc/Baku)'s EGO Weapon: Engulfing Dream.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BakuWeapon
@@ -33,6 +35,8 @@ public BakuWeapon()
 ```csharp
 private int _COUNT_ATTACK_PER_ANIM
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +66,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

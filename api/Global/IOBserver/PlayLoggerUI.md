@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/PlayLoggerUI
 public class PlayLoggerUI : MonoBehaviour, IObserver
 ```
 
+Unused UI for some kind of log.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlayLoggerUI
 
@@ -36,6 +41,8 @@ public PlayLoggerUI()
 ```csharp
 private int boxHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private int boxHeight
 ```csharp
 public GameObject logBoard
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +67,8 @@ public GameObject logBoard
 ```csharp
 public void AddText(string msg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -70,12 +81,17 @@ public void AddText(string msg)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

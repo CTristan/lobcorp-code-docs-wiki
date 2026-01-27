@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MatchGirlAnim
 public class MatchGirlAnim : CreatureAnimScript
 ```
 
+Animation handler for [Scorched Girl](/api/Global/Misc/MatchGirl).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → MatchGirlAnim
 
@@ -33,6 +38,8 @@ public MatchGirlAnim()
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private UnitModel _currentTarget
 ```csharp
 public SpriteRenderer _currentTargetMark
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public SpriteRenderer _currentTargetMark
 ```csharp
 private const float _targetEnableTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _targetEnableTime = 2
 ```csharp
 private Timer _targetMarkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _targetMarkTimer
 ```csharp
 public GameObject bigFire
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,30 +100,41 @@ public GameObject bigFire
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+
 
 ### SefiraExplosion()
 
 ```csharp
 private void SefiraExplosion()
 ```
+#INC
+
 
 ### SetEffect(bool)
 
 ```csharp
 public void SetEffect(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +147,8 @@ public void SetEffect(bool isActive)
 ```csharp
 public void SetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,15 +161,21 @@ public void SetTarget(UnitModel target)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Stop()
 
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

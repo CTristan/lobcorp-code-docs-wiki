@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SelectAgentInInventoryTutorial
 public class SelectAgentInInventoryTutorial : Tutorial
 ```
 
+Ends when an agent is selected on the E.G.O list. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SelectAgentInInventoryTutorial
 
@@ -33,3 +38,6 @@ public SelectAgentInInventoryTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

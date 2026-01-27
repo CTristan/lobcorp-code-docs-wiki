@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/CensoredWeapon
 public class CensoredWeapon : EquipmentScriptBase
 ```
 
+Script for [CENSORED](/api/Global/Misc/Censored)'s EGO Weapon: CENSORED. Heals 40% of damage taken.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → CensoredWeapon
 
@@ -25,6 +28,8 @@ public class CensoredWeapon : EquipmentScriptBase
 ```csharp
 public CensoredWeapon()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public CensoredWeapon()
 ```csharp
 private const int _defaultRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const int _defaultRange = 3
 ```csharp
 private const float _healRatio = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _healRatio = 0.4
 ```csharp
 private const float _specialProb = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _specialProb = 0.1
 ```csharp
 private const int _specialRange = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _specialRange = 10
 ```csharp
 private SplashInfo defaultInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private SplashInfo defaultInfo
 ```csharp
 private float hp_old
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private float hp_old
 ```csharp
 private bool isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private bool isSpecial
 ```csharp
 private float mp_old
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private float mp_old
 ```csharp
 private SplashInfo specialInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ private SplashInfo specialInfo
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,12 +180,17 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnTakeDamage(UnitModel, ref DamageInfo)
 
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,6 +208,8 @@ public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 public override bool OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -195,3 +227,5 @@ public override bool OnTakeDamage_After(float value, RwbpType type)
 ```csharp
 private void SetNextAttackType()
 ```
+#INC
+

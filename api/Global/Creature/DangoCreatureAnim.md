@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/DangoCreatureAnim
 public class DangoCreatureAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Mountain of Smiling Bodies](/api/Global/IOBserver/DangoCreature).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → DangoCreatureAnim
 
@@ -36,6 +39,8 @@ public DangoCreatureAnim()
 ```csharp
 private bool _attackState
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool _attackState
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Transform CurrentPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +97,8 @@ public Transform GutEffectPivot
 ```csharp
 public const string GutEffectSrc = "Effect/Creature/DangoCreature/DangoLv3"
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +109,8 @@ public const string GutEffectSrc = "Effect/Creature/DangoCreature/DangoLv3"
 ```csharp
 public Transform LeftPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +121,8 @@ public Transform LeftPivot
 ```csharp
 public Transform Level1Pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +133,8 @@ public Transform Level1Pivot
 ```csharp
 public Transform Level2Pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,6 +145,8 @@ public Transform Level2Pivot
 ```csharp
 public Transform Level3Pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +157,8 @@ public Transform Level3Pivot
 ```csharp
 public const float PivotChangeTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +169,8 @@ public const float PivotChangeTime = 1
 ```csharp
 private Timer PivotChangeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +181,8 @@ private Timer PivotChangeTimer
 ```csharp
 public Transform RightPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -168,6 +193,8 @@ public Transform RightPivot
 ```csharp
 private DangoCreature script
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +216,8 @@ public GameObject Shadow_lv2
 ```csharp
 public GameObject Shadow_lv3
 ```
+#INC
+
 
 #### Field Value
 
@@ -199,6 +228,8 @@ public GameObject Shadow_lv3
 ```csharp
 private Transform StartPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -209,6 +240,8 @@ private Transform StartPivot
 ```csharp
 public const float zeroFix = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,24 +266,33 @@ public Transform DangoTr { get; }
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### DamageInvoke()
 
 ```csharp
 public void DamageInvoke()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetLeft()
 
 ```csharp
 public Transform GetLeft()
 ```
+#INC
+
 
 #### Returns
 
@@ -261,6 +303,8 @@ public Transform GetLeft()
 ```csharp
 public Transform GetRight()
 ```
+#INC
+
 
 #### Returns
 
@@ -271,6 +315,8 @@ public Transform GetRight()
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -281,6 +327,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -291,42 +339,56 @@ public bool IsAttacking()
 ```csharp
 public void MakeGutEffect()
 ```
+#INC
+
 
 ### PivotChangeUpdate()
 
 ```csharp
 private void PivotChangeUpdate()
 ```
+#INC
+
 
 ### PivotDataUpdate()
 
 ```csharp
 private void PivotDataUpdate()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### ResetPivot()
 
 ```csharp
 public void ResetPivot()
 ```
+#INC
+
 
 ### SetLevel(string, int)
 
 ```csharp
 public void SetLevel(string paramName, int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,6 +402,8 @@ public void SetLevel(string paramName, int level)
 ```csharp
 public void SetScript(DangoCreature dangoCreature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,6 +416,8 @@ public void SetScript(DangoCreature dangoCreature)
 ```csharp
 public void StartAttack(int type = 0)
 ```
+#INC
+
 
 #### Parameters
 
@@ -364,3 +430,5 @@ public void StartAttack(int type = 0)
 ```csharp
 private void Update()
 ```
+#INC
+

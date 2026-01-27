@@ -12,6 +12,9 @@ canonical_path: /api/DeadEffect/LegPartRenderer
 public class LegPartRenderer : WorkerPartRenderer
 ```
 
+For rendering parts of agents' legs.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerPartRenderer](/api/DeadEffect/WorkerPartRenderer) → LegPartRenderer
 
@@ -33,6 +36,8 @@ public LegPartRenderer()
 ```csharp
 public SpriteRenderer LowerLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public SpriteRenderer LowerLeg
 ```csharp
 public SpriteRenderer UpperLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,9 @@ public SpriteRenderer UpperLeg
 ```csharp
 public override void SetWorker(WorkerModel worker, bool flag = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

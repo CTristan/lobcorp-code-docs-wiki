@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/UIControllerStateMachine
 public class UIControllerStateMachine : StateMachineBehaviour
 ```
 
+Used by the Show_Hide, Show_OnShow_Hide, and OverloadCTRL animator controllers.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → UIControllerStateMachine
 
@@ -33,6 +38,8 @@ public UIControllerStateMachine()
 ```csharp
 private Dictionary<int, float> normalizedTimes
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private Dictionary<int, float> normalizedTimes
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -59,6 +69,8 @@ public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo
 ```csharp
 public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +85,8 @@ public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInf
 ```csharp
 private bool TryGetComponent<T>(GameObject go, out T t) where T : Component
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,6 +104,8 @@ private bool TryGetComponent<T>(GameObject go, out T t) where T : Component
 ```csharp
 private IEnumerator WaitForSendMessage(UIController uiController, AnimatorStateInfo stateInfo)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/PpodaeAnim
 public class PpodaeAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Ppodae](/api/Global/Misc/Ppodae).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PpodaeAnim
 
@@ -36,6 +41,8 @@ public PpodaeAnim()
 ```csharp
 private SpineOptimizerModule _module1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module1
 ```csharp
 private SpineOptimizerModule _module2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module2
 ```csharp
 public Animator FrenzyPpodae
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Animator FrenzyPpodae
 ```csharp
 public PpodaeAnimEventHandler handler
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public PpodaeAnimEventHandler handler
 ```csharp
 public Animator NormalPpodae
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Animator NormalPpodae
 ```csharp
 public GameObject TransmuteEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,12 +115,17 @@ public GameObject TransmuteEffect
 ```csharp
 protected override void Awake()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -114,12 +136,16 @@ public override bool HasDeadMotion()
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetModel(UnitModel)
 
 ```csharp
 public void SetModel(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +158,8 @@ public void SetModel(UnitModel model)
 ```csharp
 public void Transmute(bool isFrenzy)
 ```
+#INC
+
 
 #### Parameters
 
@@ -144,3 +172,5 @@ public void Transmute(bool isFrenzy)
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/SnowQueenOneGift
 public class SnowQueenOneGift : EquipmentScriptBase
 ```
 
+Script for [The Snow Queen](/api/Global/Misc/SnowQueen)'s EGO Gift: Those who know the Cruelty of Winter and the Aroma of Roses. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SnowQueenOneGift
 

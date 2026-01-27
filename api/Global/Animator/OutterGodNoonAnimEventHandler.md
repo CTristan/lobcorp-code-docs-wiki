@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/OutterGodNoonAnimEventHandler
 public class OutterGodNoonAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper for [Grant Us Love's animation handler](/api/Global/Creature/OutterGodNoonAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → OutterGodNoonAnimEventHandler
 
@@ -55,12 +60,16 @@ private AnimatorEventHandler.EventDelegate _downAttackEvent
 ```csharp
 public void Cast()
 ```
+#INC
+
 
 ### DownAttack()
 
 ```csharp
 public void DownAttack()
 ```
+#INC
+
 
 ### SetCastingEvent(EventDelegate)
 

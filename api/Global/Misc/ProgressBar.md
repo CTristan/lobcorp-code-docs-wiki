@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/ProgressBar
 public class ProgressBar : MonoBehaviour
 ```
 
+Represents a fillable bar. Used for the EnergyBar prefab, which is probably unused.
+#unused #maybe_unused 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ProgressBar
 
@@ -33,6 +39,8 @@ public ProgressBar()
 ```csharp
 public GameObject barUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public GameObject barUnit
 ```csharp
 private float cnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private float cnt
 ```csharp
 private List<bool> currentSuccess
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private List<bool> currentSuccess
 ```csharp
 public float delayForDisable
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public float delayForDisable
 ```csharp
 private AutoTimer disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private AutoTimer disableTimer
 ```csharp
 public GameObject failUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ public GameObject failUnit
 ```csharp
 public RectTransform failureBar
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public RectTransform failureBar
 ```csharp
 public GridLayoutGroup gridParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public GridLayoutGroup gridParent
 ```csharp
 private List<GameObject> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +160,8 @@ public Sprite unitSprite
 ```csharp
 public void AddBar(bool isSuccess)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,24 +174,33 @@ public void AddBar(bool isSuccess)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ClearBarList()
 
 ```csharp
 private void ClearBarList()
 ```
+#INC
+
 
 ### Disable()
 
 ```csharp
 private void Disable()
 ```
+#INC
+
 
 ### Init(Sprite)
 
 ```csharp
 public void Init(Sprite s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,12 +213,16 @@ public void Init(Sprite s)
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### SetRate(float)
 
 ```csharp
 public void SetRate(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,6 +235,8 @@ public void SetRate(float rate)
 ```csharp
 public void SetRate(float rate, bool isSuccess)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,6 +250,8 @@ public void SetRate(float rate, bool isSuccess)
 ```csharp
 public void SetVisible(bool b)
 ```
+#INC
+
 
 #### Parameters
 

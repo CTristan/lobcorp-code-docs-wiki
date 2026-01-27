@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Wraith
 public class Wraith : CreatureBase
 ```
 
+Dimensional Refraction Variant.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Wraith
 
@@ -33,6 +38,8 @@ public Wraith()
 ```csharp
 private WraithAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private WraithAnim _animScript
 ```csharp
 private const float _attackDelay = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _attackDelay = 1
 ```csharp
 private Timer _attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer _attackDelayTimer
 ```csharp
 private const float _attackTime = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _attackTime = 0.2
 ```csharp
 private Timer _attackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Timer _attackTimer
 ```csharp
 private const float _cognizance = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _cognizance = 1
 ```csharp
 private MapNode _currentDestNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private MapNode _currentDestNode
 ```csharp
 private SoundEffectPlayer _escapeDefaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private SoundEffectPlayer _escapeDefaultSound
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private bool _isAttacking
 ```csharp
 private bool _readyForAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool _readyForAttack
 ```csharp
 private bool _readyForEscape
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private bool _readyForEscape
 ```csharp
 private const float _workOverTime = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float _workOverTime = 40
 ```csharp
 private Timer _workOverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private Timer _workOverTimer
 ```csharp
 private static DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private static DamageInfo damageInfo
 ```csharp
 private const int qliphoth_max = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,24 +242,32 @@ private bool IsAttack { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### DefaultSoundDestroy()
 
 ```csharp
 private void DefaultSoundDestroy()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetAudioSrc(string)
 
 ```csharp
 private string GetAudioSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,6 +284,8 @@ private string GetAudioSrc(string key)
 ```csharp
 private List<UnitModel> GetNearUnits()
 ```
+#INC
+
 
 #### Returns
 
@@ -251,6 +296,8 @@ private List<UnitModel> GetNearUnits()
 ```csharp
 private MapNode GetRandomNode(bool removeSefira = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +314,8 @@ private MapNode GetRandomNode(bool removeSefira = false)
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -277,6 +326,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -287,6 +338,8 @@ public override bool HasRoomCounter()
 ```csharp
 private void InvokeDamage(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,6 +352,8 @@ private void InvokeDamage(List<UnitModel> near)
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -309,6 +364,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -319,6 +376,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -329,6 +388,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressableByRoom()
 ```
+#INC
+
 
 #### Returns
 
@@ -339,6 +400,8 @@ public override bool IsSuppressableByRoom()
 ```csharp
 private void KillWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,12 +414,16 @@ private void KillWorker(WorkerModel worker)
 ```csharp
 public void MakeMovement()
 ```
+#INC
+
 
 ### MakeSoundLoop(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -373,6 +440,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -385,6 +454,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -397,18 +468,24 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -421,6 +498,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkClosed(UseSkill skill, int successCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -434,6 +513,8 @@ public override void OnWorkClosed(UseSkill skill, int successCount)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -446,21 +527,30 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### StartAttack()
 
 ```csharp
 private void StartAttack()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 public void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

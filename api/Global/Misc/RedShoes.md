@@ -12,6 +12,15 @@ canonical_path: /api/Global/Misc/RedShoes
 public class RedShoes : CreatureBase
 ```
 
+Red Shoes.
+
+
+Notes on the Red Shoes agent:
+They are given , which changes their animator, before being given , which controls their behaviour.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → RedShoes
 
@@ -33,6 +42,8 @@ public RedShoes()
 ```csharp
 public bool dropFinished
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ public bool dropFinished
 ```csharp
 public bool dropped
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +66,8 @@ public bool dropped
 ```csharp
 public MovableObjectNode droppedPositionNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +78,8 @@ public MovableObjectNode droppedPositionNode
 ```csharp
 public Vector3 droppedShoesPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private CreatureBase.SpecialSkillTipParameter noWoman
 ```csharp
 public AgentModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public AgentModel owner
 ```csharp
 public int returnTargetCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,12 +126,16 @@ public int returnTargetCount
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AgentAnimCalled(int, WorkerModel)
 
 ```csharp
 public override void AgentAnimCalled(int i, WorkerModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,12 +149,16 @@ public override void AgentAnimCalled(int i, WorkerModel actor)
 ```csharp
 public void FailToReturnShoes()
 ```
+#INC
+
 
 ### GetRealTargets()
 
 ```csharp
 public override UnitModel[] GetRealTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -140,6 +169,8 @@ public override UnitModel[] GetRealTargets()
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -150,6 +181,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -160,6 +193,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool isAttackInWorkProcess()
 ```
+#INC
+
 
 #### Returns
 
@@ -170,6 +205,8 @@ public override bool isAttackInWorkProcess()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -180,6 +217,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -190,12 +229,16 @@ public override bool IsWorkable()
 ```csharp
 public void OnDropFinished()
 ```
+#INC
+
 
 ### OnFinishWork(UseSkill)
 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -208,12 +251,17 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnOpenObserveWindow()
 
 ```csharp
 public override bool OnOpenObserveWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -224,6 +272,8 @@ public override bool OnOpenObserveWindow()
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -234,6 +284,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override bool OnOverlayIsolateObserve()
 ```
+#INC
+
 
 #### Returns
 
@@ -244,6 +296,8 @@ public override bool OnOverlayIsolateObserve()
 ```csharp
 public override bool OnOverlayIsolateWork()
 ```
+#INC
+
 
 #### Returns
 
@@ -254,6 +308,8 @@ public override bool OnOverlayIsolateWork()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -266,24 +322,32 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +360,8 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public void ReturnShoesByAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 

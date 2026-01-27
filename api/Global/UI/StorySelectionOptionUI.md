@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySelectionOptionUI
 public class StorySelectionOptionUI : MonoBehaviour
 ```
 
+UI element for displaying an option during a [story choice](/api/Global/UI/StorySelectionUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySelectionOptionUI
 
@@ -33,6 +36,8 @@ public StorySelectionOptionUI()
 ```csharp
 private Vector3 _basePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private Vector3 _basePosition
 ```csharp
 private float _cur
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float _cur
 ```csharp
 private float _hidingPositionX
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private StorySelectionOptionUI.AnimationState _state
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ public Text textUI
 ```csharp
 public float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,18 +108,25 @@ public float time
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Hide()
 
 ```csharp
 public void Hide()
 ```
+#INC
+
 
 ### Show(string)
 
 ```csharp
 public void Show(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,3 +139,5 @@ public void Show(string text)
 ```csharp
 private void Update()
 ```
+#INC
+

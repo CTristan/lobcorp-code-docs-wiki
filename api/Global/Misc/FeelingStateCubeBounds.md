@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/FeelingStateCubeBounds
 ```csharp
 public class FeelingStateCubeBounds
 ```
+Represents feeling outcome ranges for an abnormality.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FeelingStateCubeBounds
@@ -33,6 +36,8 @@ public FeelingStateCubeBounds()
 ```csharp
 public int[] upperBounds
 ```
+Stores the highest bounds for each of the abnormality's feeling outcome ranges, inclusive.
+
 
 #### Field Value
 
@@ -45,6 +50,8 @@ public int[] upperBounds
 ```csharp
 public CreatureFeelingState CalculateFeelingState(int energyCubeNum)
 ```
+Gets the appropriate mood for getting `energyCubeNum` PE boxes.
+
 
 #### Parameters
 
@@ -61,6 +68,8 @@ public CreatureFeelingState CalculateFeelingState(int energyCubeNum)
 ```csharp
 public int GetLastBound()
 ```
+Gets the greatest higher bound of all ranges present, or 0 if none are present. This is usually the number of possible PE boxes. #verify
+
 
 #### Returns
 

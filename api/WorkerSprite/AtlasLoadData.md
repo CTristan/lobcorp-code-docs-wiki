@@ -12,6 +12,9 @@ canonical_path: /api/WorkerSprite/AtlasLoadData
 public class AtlasLoadData : SpriteResourceLoadData
 ```
 
+Information for loading from an Atlas (aka sprite sheet)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SpriteResourceLoadData](/api/WorkerSprite/SpriteResourceLoadData) → AtlasLoadData
 
@@ -25,6 +28,8 @@ public class AtlasLoadData : SpriteResourceLoadData
 ```csharp
 public AtlasLoadData()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public AtlasLoadData()
 ```csharp
 public List<Sprite> sprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +64,8 @@ public int Count { get; }
 ```csharp
 public override Sprite GetRandomSprite()
 ```
+#INC
+
 
 #### Returns
 
@@ -67,6 +76,8 @@ public override Sprite GetRandomSprite()
 ```csharp
 public override Sprite GetSprite(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,3 +94,6 @@ public override Sprite GetSprite(int index)
 ```csharp
 public override void LoadSprite()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/InventoryButtonTutorial
 public class InventoryButtonTutorial : Tutorial
 ```
 
+Ends when the [E.G.O List](/api/Global/Model/InventoryModel) is opened.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → InventoryButtonTutorial
 
@@ -33,9 +37,14 @@ public InventoryButtonTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

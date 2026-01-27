@@ -12,6 +12,13 @@ canonical_path: /api/GeburahBoss/ThirdPhase
 public class ThirdPhase : GeburahPhaseExectuion
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s third phase behavior.
+
+Binah gets a [Golden](/api/BinahBoss/GoldenOverload), [Black Fog](/api/BinahBoss/BlackFogOverload), [Wave](/api/BinahBoss/WaveOverload), and [|Column](/api/BinahBoss/EightColumn) overloads, then opens with the [Black Fog](/api/BinahBoss/BlackThron) attack, Column attack, and then begins moving. If she gets her overloads back, she will open with the Black Fog attack, then decide randomly to start the column attack (if she isn't doing it already), or otherwise queue an overload.
+
+If someone is near her, she will randomly choose to either use her [Blade Wave](/api/BinahBoss/BladeWaveThrow) or [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahPhaseExectuion](/api/GeburahBoss/GeburahPhaseExectuion) → ThirdPhase
 
@@ -25,6 +32,8 @@ public class ThirdPhase : GeburahPhaseExectuion
 ```csharp
 public ThirdPhase(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +48,8 @@ public ThirdPhase(GeburahCoreScript geburah)
 ```csharp
 private bool _prevIsChase
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +60,8 @@ private bool _prevIsChase
 ```csharp
 private int fillCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +72,8 @@ private int fillCount
 ```csharp
 private float hammerProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +84,8 @@ private float hammerProb
 ```csharp
 private float moveProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +96,8 @@ private float moveProb
 ```csharp
 private float spearProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +108,8 @@ private float spearProb
 ```csharp
 private float teleportProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,12 +122,17 @@ private float teleportProb
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,15 +149,21 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public void OnDamageFilled()
 ```
+#INC
+
 
 ### OnPrevSuppressed()
 
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

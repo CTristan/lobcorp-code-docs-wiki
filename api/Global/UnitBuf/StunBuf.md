@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/StunBuf
 public class StunBuf : UnitBuf
 ```
 
+extends [UnitBuf](/api/Global/Misc/UnitBuf)
+
+Sets movement speed to 0.01x for 10000 seconds or until removed. Used by [The Red Mist's third phase Smile attack](/api/GeburahBoss/DangoAttackAction).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → StunBuf
 
@@ -25,12 +30,16 @@ public class StunBuf : UnitBuf
 ```csharp
 public StunBuf()
 ```
+#INC
+
 
 ### StunBuf(float)
 
 ```csharp
 public StunBuf(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,6 +54,9 @@ public StunBuf(float time)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -55,3 +67,5 @@ public override float MovementScale()
 ```csharp
 public void RemoveBuf()
 ```
+#INC
+

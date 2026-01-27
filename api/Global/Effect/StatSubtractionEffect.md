@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/StatSubtractionEffect
 public class StatSubtractionEffect : MonoBehaviour
 ```
 
+Allows the creation of the effect that appears around workers when their stats are decreased.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StatSubtractionEffect
 
@@ -46,6 +49,11 @@ private ParticleSystem ps
 ```csharp
 public static StatSubtractionEffect MakeEffect(RwbpType type, Transform parent)
 ```
+Creates a new stat subtraction effect at the location of `parent` with the associated color of `type`.
+
+Loads the prefab "Effect/StatSubtraction".
+#loads-prefab
+
 
 #### Parameters
 

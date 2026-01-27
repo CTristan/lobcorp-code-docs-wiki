@@ -11,6 +11,9 @@ canonical_path: /api/Global/Standing/GrandmaBugAnim
 ```csharp
 public class GrandmaBugAnim : StandingItemAnim, IAnimatorEventCalled
 ```
+Animation handler for [GrandmaBug](/api/Global/Misc/GrandmaBug)
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → GrandmaBugAnim
@@ -36,6 +39,8 @@ public GrandmaBugAnim()
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public static string[] animString
 ```csharp
 public GameObject appearEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public GameObject appearEffect
 ```csharp
 private bool appearPosSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private bool appearPosSet
 ```csharp
 public Timer appearTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public Timer appearTimer
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public GameObject center
 ```csharp
 public List<GameObject> createEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private List<GrandmaBugAnim.AgentControl> currentControls
 ```csharp
 private int currentEffectCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private int currentEffectCount
 ```csharp
 public GameObject disappearEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ public GameObject disappearEffect
 ```csharp
 private bool disappearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private bool disappearEffectMake
 ```csharp
 private const float eatTime = 0.73333335
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ private const float eatTime = 0.73333335
 ```csharp
 public Timer EatTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ public Timer EatTimer
 ```csharp
 private bool enableControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ private bool enableControl
 ```csharp
 public GrandmaBug script
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ public GrandmaBug script
 ```csharp
 public const string soundPrefix = "RandomEvent/HordeOfBugs/Bug3_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ public const string soundPrefix = "RandomEvent/HordeOfBugs/Bug3_"
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ public AudioSource src
 ```csharp
 private bool updateAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ private bool updateAnim
 ```csharp
 private GrandmaBug.AnimationState updateAnimState
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ private GrandmaBug.AnimationState updateAnimState
 ```csharp
 public float y_up
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ public float y_up
 ```csharp
 public AnimationCurve yValueCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -248,42 +291,56 @@ public AnimationCurve yValueCurve
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### AppearAnim()
 
 ```csharp
 public void AppearAnim()
 ```
+#INC
+
 
 ### AppearEffect()
 
 ```csharp
 public void AppearEffect()
 ```
+#INC
+
 
 ### AttachHandler()
 
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,12 +353,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -314,6 +375,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,12 +390,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### HandleEvent(TrackEntry, Event)
 
@@ -352,12 +419,16 @@ public void HandleEvent(TrackEntry entry, Event e)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -370,6 +441,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +455,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAnimation(GrandmaBug.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -394,6 +469,8 @@ public void SetAnimation(GrandmaBug.AnimationState animState)
 ```csharp
 public void SetAnimation(string state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,6 +483,8 @@ public void SetAnimation(string state)
 ```csharp
 public void SetAnimation(string state, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -419,6 +498,9 @@ public void SetAnimation(string state, bool loop)
 ```csharp
 public void SetScript(GrandmaBug script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -431,12 +513,16 @@ public void SetScript(GrandmaBug script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -461,6 +547,8 @@ public void StartDeadWorkerControl(List<GrandmaBugAnim.AgentControl> targets)
 ```csharp
 public void StartEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 

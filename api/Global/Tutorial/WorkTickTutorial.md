@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/WorkTickTutorial
 public class WorkTickTutorial : Tutorial, IObserver
 ```
 
+Ends when a work tick passes.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → WorkTickTutorial
 
@@ -36,6 +40,8 @@ public WorkTickTutorial()
 ```csharp
 public bool isFirst
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,18 +54,24 @@ public bool isFirst
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,3 +85,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

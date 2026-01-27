@@ -12,6 +12,11 @@ canonical_path: /api/Global/IANimatorEventCalled/AlriuneCurtainAnim
 public class AlriuneCurtainAnim : MonoBehaviour, IAnimatorEventCalled
 ```
 
+Script for the AlriuneCurtain prefab, for [Alriune](/api/Global/Misc/Alriune)'s teleport and murder effect.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AlriuneCurtainAnim
 
@@ -36,18 +41,24 @@ public AlriuneCurtainAnim()
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -60,12 +71,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -79,12 +94,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,12 +116,16 @@ public void OnCalled(int i)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+Plays the sound at the provided source.
+
 
 #### Parameters
 

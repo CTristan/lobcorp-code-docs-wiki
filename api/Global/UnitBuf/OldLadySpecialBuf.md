@@ -12,6 +12,12 @@ canonical_path: /api/Global/UnitBuf/OldLadySpecialBuf
 public class OldLadySpecialBuf : UnitBuf
 ```
 
+Effect given to 'solitude' employees after working with an upset [Old Lady](/api/Global/IOBserver/OldLady).
+
+Lasts 30 seconds.
+Removes control of the agent, moves them to the entrance to Old Lady's containment unit, and damages them for between 4 and 6 white damage every 6 seconds for 30 seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → OldLadySpecialBuf
 
@@ -25,6 +31,8 @@ public class OldLadySpecialBuf : UnitBuf
 ```csharp
 public OldLadySpecialBuf(OldLady oldLady)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +47,8 @@ public OldLadySpecialBuf(OldLady oldLady)
 ```csharp
 private const float defaultRemainTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +59,8 @@ private const float defaultRemainTime = 30
 ```csharp
 private const float defaultTickTime = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +71,8 @@ private const float defaultTickTime = 6
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +83,8 @@ private GameObject effect
 ```csharp
 private OldLady oldLady
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +95,8 @@ private OldLady oldLady
 ```csharp
 private float tickTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +107,8 @@ private float tickTime
 ```csharp
 private const float whiteDmgMax = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +119,8 @@ private const float whiteDmgMax = 6
 ```csharp
 private const float whiteDmgMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +131,8 @@ private const float whiteDmgMin = 4
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,18 +157,25 @@ private static float whiteDmg { get; }
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

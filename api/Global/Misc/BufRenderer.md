@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/BufRenderer
 ```csharp
 public class BufRenderer : MonoBehaviour
 ```
+For displaying a visual effect by a [buff](/api/Global/Misc/UnitBuf).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BufRenderer
@@ -33,6 +37,9 @@ public BufRenderer()
 ```csharp
 public Image Render
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

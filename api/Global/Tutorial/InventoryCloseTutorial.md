@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/InventoryCloseTutorial
 public class InventoryCloseTutorial : Tutorial
 ```
 
+Ends when the [E.G.O List](/api/Global/Model/InventoryModel) is closed.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → InventoryCloseTutorial
 
@@ -33,3 +37,6 @@ public InventoryCloseTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

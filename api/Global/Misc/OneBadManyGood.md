@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/OneBadManyGood
 public class OneBadManyGood : CreatureBase
 ```
 
+One Sin and Thousands of Good Deeds.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → OneBadManyGood
 
@@ -33,6 +38,8 @@ public OneBadManyGood()
 ```csharp
 private const float mentalHeal = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float mentalHeal = 4
 ```csharp
 private const int skillBigSuccessCube = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int skillBigSuccessCube = 10
 ```csharp
 private const int skillSuccessCube = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private const int skillSuccessCube = 8
 ```csharp
 private void ActivateSkill(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +90,8 @@ private void ActivateSkill(AgentModel agent)
 ```csharp
 private void ActivateSkill(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +104,8 @@ private void ActivateSkill(Sefira sefira)
 ```csharp
 private bool CheckDeathAngel()
 ```
+#INC
+
 
 #### Returns
 
@@ -99,6 +116,8 @@ private bool CheckDeathAngel()
 ```csharp
 public override bool ForcelySuccess(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +134,8 @@ public override bool ForcelySuccess(UseSkill skill)
 ```csharp
 public override int HasUniqueWorkSelect(int workId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +152,9 @@ public override int HasUniqueWorkSelect(int workId)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -143,6 +167,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,6 +181,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 

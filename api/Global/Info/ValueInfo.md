@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/ValueInfo
 ```csharp
 public class ValueInfo
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ValueInfo
@@ -25,6 +27,9 @@ public class ValueInfo
 ```csharp
 public ValueInfo(int hp, int mental, int workspeed, int movement)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public ValueInfo(int hp, int mental, int workspeed, int movement)
 ```csharp
 public int hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ public int hp
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +71,8 @@ public int mental
 ```csharp
 public int movementSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +83,8 @@ public int movementSpeed
 ```csharp
 public int[] stats
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +95,8 @@ public int[] stats
 ```csharp
 public int workSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ public int workSpeed
 ```csharp
 public static ValueInfo getAverage()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +121,8 @@ public static ValueInfo getAverage()
 ```csharp
 public void SetVal(int hp, int mental, int workSpeed, int movement)
 ```
+#INC
+
 
 #### Parameters
 

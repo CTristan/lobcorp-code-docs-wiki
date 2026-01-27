@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/SefiraBossBase
 ```csharp
 public class SefiraBossBase
 ```
+Base class for all core suppressions.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraBossBase
@@ -36,6 +39,8 @@ public SefiraBossBase()
 ```csharp
 protected Timer _cameraDescTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +61,8 @@ public SefiraBossBase.CloseEffect _closeEffectMethod
 ```csharp
 private const float _closeEffectTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +73,8 @@ private const float _closeEffectTime = 5
 ```csharp
 public UnscaledTimer _closeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +85,8 @@ public UnscaledTimer _closeTimer
 ```csharp
 private const float _defaultDescFreq = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ private const float _defaultDescFreq = 3
 ```csharp
 public const float _descAppearProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ public const float _descAppearProb = 0.3
 ```csharp
 public const string bgmSoundPrefix = "Sounds/BGM/Boss/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ public const string bgmSoundPrefix = "Sounds/BGM/Boss/"
 ```csharp
 public SefiraBossCloseEffectType closeEffectType
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ public SefiraBossCloseEffectType closeEffectType
 ```csharp
 private List<object> currentCloseEffectParam
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private List<object> currentCloseEffectParam
 ```csharp
 public static DamageInfo DefaultDamageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ public static DamageInfo DefaultDamageInfo
 ```csharp
 public static DefenseInfo DefaultDefenseInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ public static DefenseInfo DefaultDefenseInfo
 ```csharp
 public List<SefiraBossDescUI> descList
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ public List<SefiraBossDescUI> descList
 ```csharp
 public const string generalAnim = "SefiraBossGeneral"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ public const string generalAnim = "SefiraBossGeneral"
 ```csharp
 public const string generalScript = "SefiraBossBase"
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ public const string generalScript = "SefiraBossBase"
 ```csharp
 public List<SefiraBossCreatureModel> modelList
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ public List<SefiraBossCreatureModel> modelList
 ```csharp
 public SefiraEnum sefiraEnum
 ```
+#INC
+
 
 #### Field Value
 
@@ -220,12 +253,16 @@ public Sefira Sefira { get; }
 ```csharp
 public virtual void ClearDescTexts()
 ```
+#INC
+
 
 ### DefaultClearEffect(params object[])
 
 ```csharp
 public virtual void DefaultClearEffect(params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,12 +275,16 @@ public virtual void DefaultClearEffect(params object[] param)
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetDamageInfo()
 
 ```csharp
 public virtual DamageInfo GetDamageInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -254,6 +295,8 @@ public virtual DamageInfo GetDamageInfo()
 ```csharp
 public virtual DefenseInfo GetDefenseInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -264,6 +307,8 @@ public virtual DefenseInfo GetDefenseInfo()
 ```csharp
 public virtual float GetDescFreq()
 ```
+#INC
+
 
 #### Returns
 
@@ -290,6 +335,8 @@ public virtual SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public virtual bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -300,6 +347,8 @@ public virtual bool IsCleared()
 ```csharp
 public virtual bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -310,6 +359,8 @@ public virtual bool IsReadyToClose()
 ```csharp
 public virtual bool IsStartEmergencyBgm()
 ```
+#INC
+
 
 #### Returns
 
@@ -320,6 +371,8 @@ public virtual bool IsStartEmergencyBgm()
 ```csharp
 public virtual SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,6 +389,8 @@ public virtual SoundEffectPlayer MakeSound(string src)
 ```csharp
 public virtual SoundEffectPlayer MakeSoundAttachCamera(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,30 +407,40 @@ public virtual SoundEffectPlayer MakeSoundAttachCamera(string src)
 ```csharp
 public virtual void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public virtual void OnCleared()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public virtual void OnKetherStart()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public virtual void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -388,6 +453,8 @@ public virtual void OnOverloadActivated(int currentLevel)
 ```csharp
 public void OnRemoveDesc(SefiraBossDescUI ui)
 ```
+#INC
+
 
 #### Parameters
 
@@ -400,15 +467,22 @@ public void OnRemoveDesc(SefiraBossDescUI ui)
 ```csharp
 public virtual void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public virtual void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public virtual void Update()
 ```
+#INC
+

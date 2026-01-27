@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/OfficerWeapon
 public class OfficerWeapon : EquipmentScriptBase
 ```
 
+Script for a [clerk](/api/Global/Worker/OfficerUnit)'s weapon.
+
+Before Hod's upgrade, has a 40% chance of doing 1 red damage. After, has a 60% chance of doing 2 red damage.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OfficerWeapon
 
@@ -33,6 +39,9 @@ public OfficerWeapon()
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

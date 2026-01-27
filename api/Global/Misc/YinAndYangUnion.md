@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/YinAndYangUnion
 public class YinAndYangUnion : MonoBehaviour
 ```
 
+Script for the dragon formed by [Yin](/api/Global/Misc/Yin) and [Yang](/api/Global/Misc/Yang) meeting.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → YinAndYangUnion
 
@@ -33,6 +38,8 @@ public YinAndYangUnion()
 ```csharp
 private float _bottomYPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _bottomYPos
 ```csharp
 private float _distance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float _distance
 ```csharp
 private float _dragonSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private float _dragonSpeed
 ```csharp
 private Vector3 _moveDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Vector3 _moveDirection
 ```csharp
 private bool _readyToMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _readyToMove
 ```csharp
 public Transform dragon
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Transform dragon
 ```csharp
 public Animator dragonAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Animator dragonAnim
 ```csharp
 private SoundEffectPlayer sound
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private SoundEffectPlayer sound
 ```csharp
 public Transform tail
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ public Transform tail
 ```csharp
 private IEnumerator Accelerate()
 ```
+#INC
+
 
 #### Returns
 
@@ -135,24 +160,33 @@ private IEnumerator Accelerate()
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### SetDragonMovement()
 
 ```csharp
 public void SetDragonMovement()
 ```
+#INC
+#code-generated
+
 
 ### SetSoundState(bool)
 
 ```csharp
 private void SetSoundState(bool state)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,14 @@ canonical_path: /api/BinahBoss/FirstPhase
 public class FirstPhase : BinahPhaseExecution
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s behavior for phase one.
+
+She:
+Creates the [Black Fog](/api/BinahBoss/BlackFogOverload) or [Golden](/api/BinahBoss/GoldenOverload) meltdowns, if she has her meltdowns currently.
+
+If there's someone near her, she randomly chooses to smite them with the [Blade Wave](/api/BinahBoss/BladeWaveThrow) or the [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahPhaseExecution](/api/BinahBoss/BinahPhaseExecution) → FirstPhase
 
@@ -25,6 +33,8 @@ public class FirstPhase : BinahPhaseExecution
 ```csharp
 public FirstPhase(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,12 +49,17 @@ public FirstPhase(BinahCoreScript binah)
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override BinahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,9 +76,13 @@ public override BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

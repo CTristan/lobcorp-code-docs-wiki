@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SnowQueenAnim
 public class SnowQueenAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Snow Queen](/api/Global/Misc/SnowQueen).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SnowQueenAnim
 
@@ -36,6 +41,8 @@ public SnowQueenAnim()
 ```csharp
 private int _currentParticleLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private int _currentParticleLevel
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module
 ```csharp
 private SnowQueen _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private SnowQueen _script
 ```csharp
 public ParticleSystem _snowStromParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public ParticleSystem _snowStromParticle
 ```csharp
 public Animator door
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Animator door
 ```csharp
 public GameObject freezeEnergyUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public GameObject freezeEnergyUI
 ```csharp
 public SpriteRenderer[] ices
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +127,8 @@ public SpriteRenderer[] ices
 ```csharp
 public void ActiveIce(int idx, bool state, Sprite hair = null, Sprite rear = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +144,9 @@ public void ActiveIce(int idx, bool state, Sprite hair = null, Sprite rear = nul
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -135,6 +159,8 @@ public override void OnCalled(int i)
 ```csharp
 public void SetAnim(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,6 +173,8 @@ public void SetAnim(string name)
 ```csharp
 public void SetDualFilerAnim(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +187,8 @@ public void SetDualFilerAnim(string name)
 ```csharp
 public void SetScript(SnowQueen sc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +201,8 @@ public void SetScript(SnowQueen sc)
 ```csharp
 public void SetSnowParticleLevel(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,3 +215,5 @@ public void SetSnowParticleLevel(int level)
 ```csharp
 private void Update()
 ```
+#INC
+

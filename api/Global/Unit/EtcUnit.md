@@ -12,6 +12,13 @@ canonical_path: /api/Global/Unit/EtcUnit
 public class EtcUnit : MonoBehaviour
 ```
 
+Represents certain area effects from abnormalities:
+- [Snow White's Apple](/api/Global/Misc/SnowWhite)'s vines
+- [The Little Prince](/api/Global/IOBserver/YoungPrince)'s spores
+- [Funeral of the Dead Butterflies](/api/Global/Misc/Butterfly)'s butterflies
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EtcUnit
 
@@ -33,6 +40,9 @@ public EtcUnit()
 ```csharp
 public bool followZScale
 ```
+#INC
+
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ public bool followZScale
 ```csharp
 public UnitModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ public UnitModel model
 ```csharp
 private float opacity
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private float opacity
 ```csharp
 public Sprite[] sprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ public Sprite[] sprites
 ```csharp
 public SpriteRenderer sr
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,15 +103,21 @@ public SpriteRenderer sr
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 private void UpdateViewPosition()
 ```
+#INC
+

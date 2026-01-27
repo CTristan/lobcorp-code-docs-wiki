@@ -12,6 +12,9 @@ canonical_path: /api/DeadEffect/BodyPartRenderer
 public class BodyPartRenderer : WorkerPartRenderer
 ```
 
+For rendering agent torsos.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerPartRenderer](/api/DeadEffect/WorkerPartRenderer) → BodyPartRenderer
 
@@ -33,6 +36,8 @@ public BodyPartRenderer()
 ```csharp
 public SpriteRenderer Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public SpriteRenderer Body
 ```csharp
 public SpriteRenderer CoatBack
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public SpriteRenderer CoatBack
 ```csharp
 public SpriteRenderer CoatLeft
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public SpriteRenderer CoatLeft
 ```csharp
 public SpriteRenderer CoatRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,9 @@ public SpriteRenderer CoatRight
 ```csharp
 public override void SetWorker(WorkerModel worker, bool flag = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

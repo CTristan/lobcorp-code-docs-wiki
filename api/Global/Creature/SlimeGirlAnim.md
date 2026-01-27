@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SlimeGirlAnim
 public class SlimeGirlAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Melting Love](/api/Global/Misc/SlimeGirl).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SlimeGirlAnim
 
@@ -36,6 +41,8 @@ public SlimeGirlAnim()
 ```csharp
 private SpineOptimizerModule _module1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module1
 ```csharp
 private SpineOptimizerModule _module2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module2
 ```csharp
 public BufRenderer bufUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public BufRenderer bufUnit
 ```csharp
 public Animator defaultAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Animator defaultAnimator
 ```csharp
 public GameObject defaultObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public GameObject defaultObj
 ```csharp
 public GameObject enrageEffectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public GameObject enrageEffectPos
 ```csharp
 public GameObject escapeObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public GameObject escapeObj
 ```csharp
 public GameObject projectilePos
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public GameObject projectilePos
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private SlimeGirl script
 ```csharp
 private const string SKILL_PROJECTILE_SRC = "Effect/Creature/SlimeGirl/SlimeGirlSkillProjectile"
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +163,8 @@ private const string SKILL_PROJECTILE_SRC = "Effect/Creature/SlimeGirl/SlimeGirl
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,18 +177,25 @@ public override void AttackCalled(int i)
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -172,18 +206,24 @@ public override bool HasDeadMotion()
 ```csharp
 private void HealEnd()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -194,6 +234,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsHealing()
 ```
+#INC
+
 
 #### Returns
 
@@ -204,6 +246,8 @@ public bool IsHealing()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -214,12 +258,16 @@ public bool IsInSkill()
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,48 +280,64 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnFinishHeal()
 
 ```csharp
 public void OnFinishHeal()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart()
 
 ```csharp
 public void OnSkillStart()
 ```
+#INC
+
 
 ### OnStartHeal()
 
 ```csharp
 public void OnStartHeal()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(SlimeGirl)
 
 ```csharp
 public void SetScript(SlimeGirl script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -286,15 +350,21 @@ public void SetScript(SlimeGirl script)
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### SkillFire()
 
 ```csharp
 private void SkillFire()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

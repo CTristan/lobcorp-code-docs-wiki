@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/PorccuAnim
 public class PorccuAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Porccubus](/api/Global/Misc/Porccu).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PorccuAnim
 
@@ -36,6 +41,8 @@ public PorccuAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Porccu script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,30 +67,40 @@ private Porccu script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### DeadSceneEnd()
 
 ```csharp
 private void DeadSceneEnd()
 ```
+#INC
+
 
 ### EscapeSuccess()
 
 ```csharp
 private void EscapeSuccess()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -92,12 +111,16 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -108,6 +131,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsAttackingNear()
 ```
+#INC
+
 
 #### Returns
 
@@ -118,6 +143,8 @@ public bool IsAttackingNear()
 ```csharp
 public bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -128,18 +155,24 @@ public bool IsInDeadScene()
 ```csharp
 private void MakeDeadSceneSound()
 ```
+#INC
+
 
 ### MakeDeadSound()
 
 ```csharp
 private void MakeDeadSound()
 ```
+#INC
+
 
 ### OnAttackStart(bool)
 
 ```csharp
 public void OnAttackStart(bool near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,6 +185,9 @@ public void OnAttackStart(bool near)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -164,12 +200,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnSetDeadScene(bool)
 
 ```csharp
 public void OnSetDeadScene(bool near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,12 +222,16 @@ public void OnSetDeadScene(bool near)
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(Porccu)
 
 ```csharp
 public void SetScript(Porccu script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,3 +244,5 @@ public void SetScript(Porccu script)
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,12 @@ canonical_path: /api/Global/UnitBuf/SharkDruggedBuf
 public class SharkDruggedBuf : UnitBuf
 ```
 
+Debuff given by [The Dreaming Current](/api/Global/Misc/Shark)'s hallways.
+
+Slows by 0.4x.
+Damages for 2-4 red and heals for 2-4 white every 2 seconds... but only lasts 1 second, so this never happens. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SharkDruggedBuf
 
@@ -25,6 +31,8 @@ public class SharkDruggedBuf : UnitBuf
 ```csharp
 public SharkDruggedBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ public SharkDruggedBuf()
 ```csharp
 private const float debufMovement = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private const float debufMovement = 0.4
 ```csharp
 private const int dmgMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ private const int dmgMax = 3
 ```csharp
 private const int dmgMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private const int dmgMin = 2
 ```csharp
 private const int mpHealMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ private const int mpHealMax = 3
 ```csharp
 private const int mpHealMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +101,8 @@ private const int mpHealMin = 2
 ```csharp
 private const float tickTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +113,8 @@ private const float tickTime = 2
 ```csharp
 private Timer tickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +125,8 @@ private Timer tickTimer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,12 +161,17 @@ private static int mpHeal { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -155,6 +184,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -165,3 +196,5 @@ public override float MovementScale()
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

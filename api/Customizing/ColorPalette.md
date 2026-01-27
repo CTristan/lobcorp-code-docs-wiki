@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/ColorPalette
 ```csharp
 public class ColorPalette : MonoBehaviour
 ```
+UI element for selecting colors (used for customizing hair color).
+
+See [AppearanceUI](/api/Customizing/AppearanceUI)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ColorPalette
@@ -33,6 +37,8 @@ public ColorPalette()
 ```csharp
 private Color _currentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private Color _currentColor
 ```csharp
 public Slider Blue
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Slider Blue
 ```csharp
 public InputField BlueInput
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public InputField BlueInput
 ```csharp
 private const int colorRangeMax = 255
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const int colorRangeMax = 255
 ```csharp
 public Image CurrentColorRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Image CurrentColorRenderer
 ```csharp
 public Slider Green
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public Slider Green
 ```csharp
 public InputField GreenInput
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public InputField GreenInput
 ```csharp
 public Slider Red
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ public Slider Red
 ```csharp
 public InputField RedInput
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public InputField RedInput
 ```csharp
 public GameObject rootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public GameObject rootObject
 ```csharp
 private ColorSelector selector
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,18 +171,25 @@ private ColorSelector selector
 ```csharp
 public void Apply()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### BlueChanged(float)
 
 ```csharp
 public void BlueChanged(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +202,8 @@ public void BlueChanged(float value)
 ```csharp
 public void Changed(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,12 +216,16 @@ public void Changed(float val)
 ```csharp
 public void GenRandomColor()
 ```
+#INC
+
 
 ### GetValue(string)
 
 ```csharp
 private float GetValue(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,6 +242,8 @@ private float GetValue(string str)
 ```csharp
 public void GreenChanged(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +256,8 @@ public void GreenChanged(float value)
 ```csharp
 public void OnBlueInputEnd(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +270,8 @@ public void OnBlueInputEnd(string str)
 ```csharp
 public void OnBlueInputUpdate(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,12 +284,16 @@ public void OnBlueInputUpdate(string str)
 ```csharp
 public void OnExitEdit()
 ```
+#INC
+
 
 ### OnGreenInputEnd(string)
 
 ```csharp
 public void OnGreenInputEnd(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,6 +306,8 @@ public void OnGreenInputEnd(string str)
 ```csharp
 public void OnGreenInputUpdate(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,6 +320,8 @@ public void OnGreenInputUpdate(string str)
 ```csharp
 public void OnRedInputEnd(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +334,8 @@ public void OnRedInputEnd(string str)
 ```csharp
 public void OnRedInputUpdate(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,6 +348,8 @@ public void OnRedInputUpdate(string str)
 ```csharp
 public void OnSetColor(Color current)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,12 +362,16 @@ public void OnSetColor(Color current)
 ```csharp
 public void OpenWindow()
 ```
+#INC
+
 
 ### RedChanged(float)
 
 ```csharp
 public void RedChanged(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,6 +384,8 @@ public void RedChanged(float value)
 ```csharp
 public void SetSelector(ColorSelector s)
 ```
+#INC
+
 
 #### Parameters
 

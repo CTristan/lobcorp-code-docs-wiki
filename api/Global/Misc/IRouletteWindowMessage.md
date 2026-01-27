@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/IRouletteWindowMessage
 ```csharp
 public interface IRouletteWindowMessage
 ```
+Interface for things which call the [roulette UI](/api/Global/IANimatorEventCalled/RouletteWindow).
+
 
 ## Methods
 
@@ -19,9 +21,14 @@ public interface IRouletteWindowMessage
 ```csharp
 void RouletteCancel()
 ```
+#INC
+
 
 ### RouletteOpen()
 
 ```csharp
 void RouletteOpen()
 ```
+#INC
+#code-generated
+

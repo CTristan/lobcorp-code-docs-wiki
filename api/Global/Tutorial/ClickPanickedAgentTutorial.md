@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/ClickPanickedAgentTutorial
 public class ClickPanickedAgentTutorial : Tutorial
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → ClickPanickedAgentTutorial
 
@@ -33,9 +36,14 @@ public ClickPanickedAgentTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

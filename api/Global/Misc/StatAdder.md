@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StatAdder
 public class StatAdder : IdentityTransform, StatTransform
 ```
 
+Returns the sum of the input float and a fixed value.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [IdentityTransform](/api/Global/Misc/IdentityTransform) → StatAdder
 
@@ -28,6 +33,8 @@ public class StatAdder : IdentityTransform, StatTransform
 ```csharp
 public StatAdder(float adder)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public StatAdder(float adder)
 ```csharp
 private float adder
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +63,9 @@ private float adder
 ```csharp
 public override float FloatToFloat(float v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

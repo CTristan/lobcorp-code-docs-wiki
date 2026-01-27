@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/PanicViolence
 public class PanicViolence : PanicAction
 ```
 
+Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to indiscriminately attack employees around them.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicViolence
 
@@ -25,6 +29,8 @@ public class PanicViolence : PanicAction
 ```csharp
 public PanicViolence(AgentModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +45,8 @@ public PanicViolence(AgentModel actor)
 ```csharp
 private AgentModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +57,8 @@ private AgentModel actor
 ```csharp
 private const int suicideCooltime = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +69,8 @@ private const int suicideCooltime = 60
 ```csharp
 private Timer suicideTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +81,8 @@ private Timer suicideTimer
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +93,8 @@ private UnitModel target
 ```csharp
 private AgentUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,12 +107,16 @@ private AgentUnit unit
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetAttackSpeedMultiplier()
 
 ```csharp
 public override float GetAttackSpeedMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -107,3 +127,6 @@ public override float GetAttackSpeedMultiplier()
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+

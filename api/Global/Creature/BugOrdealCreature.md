@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BugOrdealCreature
 public class BugOrdealCreature : CreatureBase
 ```
 
+Parent class for [Amber ordeal](/api/Global/Misc/BugOrdeal) creatures.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BugOrdealCreature
 
@@ -36,6 +39,8 @@ public BugOrdealCreature()
 ```csharp
 protected OrdealLevel _level
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected OrdealLevel _level
 ```csharp
 protected BugMidnight _midnight
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected BugMidnight _midnight
 ```csharp
 protected string _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ protected string _name
 ```csharp
 protected BugOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ protected BugOrdealCreature.BugPhase _phase
 ```csharp
 protected RiskLevel _risk
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +133,9 @@ public RiskLevel Risk { get; }
 ```csharp
 public virtual string GetOrdealName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -130,12 +146,16 @@ public virtual string GetOrdealName()
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### ReadyToTeleport(PassageObjectModel)
 
 ```csharp
 public virtual void ReadyToTeleport(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,6 +168,8 @@ public virtual void ReadyToTeleport(PassageObjectModel passage)
 ```csharp
 public void SetMidnight(BugMidnight midnight)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +182,8 @@ public void SetMidnight(BugMidnight midnight)
 ```csharp
 public virtual void SetOrdeal(BugOrdeal ordealScript, OrdealLevel level, RiskLevel risk, string name)
 ```
+#INC
+
 
 #### Parameters
 

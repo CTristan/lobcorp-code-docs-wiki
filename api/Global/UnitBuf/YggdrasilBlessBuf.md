@@ -12,6 +12,12 @@ canonical_path: /api/Global/UnitBuf/YggdrasilBlessBuf
 public class YggdrasilBlessBuf : UnitBuf
 ```
 
+Buff applied to [Parasite Tree](/api/Global/IOBserver/Yggdrasil)'s blessed employees. Last forever.
+
+When destroyed, removes the blessed employee from Parasite Tree's list. Overwritten by [DeathAngelBetrayerBuf](/api/Global/UnitBuf/DeathAngelBetrayerBuf).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → YggdrasilBlessBuf
 
@@ -25,6 +31,8 @@ public class YggdrasilBlessBuf : UnitBuf
 ```csharp
 public YggdrasilBlessBuf(WorkerModel worker, Yggdrasil script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +48,8 @@ public YggdrasilBlessBuf(WorkerModel worker, Yggdrasil script)
 ```csharp
 private Yggdrasil script
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +60,8 @@ private Yggdrasil script
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,15 +74,22 @@ private WorkerModel worker
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

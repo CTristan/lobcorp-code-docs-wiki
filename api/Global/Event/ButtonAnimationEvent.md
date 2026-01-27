@@ -36,6 +36,8 @@ public ButtonAnimationEvent()
 ```csharp
 private Animator _buttonAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private Animator _buttonAnimator
 ```csharp
 private List<IButtonAnimCalled> _messageRecived
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +104,8 @@ private UnityEvent m_OnExit
 ```csharp
 public List<GameObject> MessageReceived
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +170,8 @@ public UnityEvent onExit { get; set; }
 ```csharp
 private bool GetInterface(GameObject behav, out IButtonAnimCalled output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,39 +189,54 @@ private bool GetInterface(GameObject behav, out IButtonAnimCalled output)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### OnButtonDisable()
 
 ```csharp
 public virtual void OnButtonDisable()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public virtual void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public virtual void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public virtual void OnExit()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### TestFunction()
 
 ```csharp
 public void TestFunction()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ParticleDestroy
 public class ParticleDestroy : MonoBehaviour
 ```
 
+Creates a particle that gets destroyed after a certain amount of time.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ParticleDestroy
 
@@ -33,6 +38,8 @@ public ParticleDestroy()
 ```csharp
 private bool clockStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool clockStarted
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float elapsed
 ```csharp
 private float total
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private float total
 ```csharp
 public void DelayedDestroy(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,18 +90,25 @@ public void DelayedDestroy(float time)
 ```csharp
 public void DestroyNow()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### SetClock(float)
 
 ```csharp
 public void SetClock(float time)
 ```
+#INC
+
 
 #### Parameters
 

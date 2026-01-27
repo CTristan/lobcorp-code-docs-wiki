@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/TextColorSetter
 public class TextColorSetter : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TextColorSetter
 
@@ -33,6 +36,8 @@ public TextColorSetter()
 ```csharp
 public Color textColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public Color textColor
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/AgentHitEffect
 public class AgentHitEffect : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentHitEffect
 
@@ -33,6 +36,8 @@ public AgentHitEffect()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float elapsedTime
 ```csharp
 private float goalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float goalTime
 ```csharp
 private float startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ private float startTime
 ```csharp
 public static AgentHitEffect Create(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -81,15 +92,22 @@ public static AgentHitEffect Create(AgentModel agent)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### UpdateState()
 
 ```csharp
 private void UpdateState()
 ```
+#INC
+

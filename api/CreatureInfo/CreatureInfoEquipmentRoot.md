@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoEquipmentRoot
 ```csharp
 public class CreatureInfoEquipmentRoot : CreatureInfoController
 ```
+EGO section in the abnormality info screen
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoEquipmentRoot
@@ -33,6 +35,8 @@ public CreatureInfoEquipmentRoot()
 ```csharp
 public ArmorSlot armorSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public ArmorSlot armorSlot
 ```csharp
 public GiftSlot giftSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public GiftSlot giftSlot
 ```csharp
 public WeaponSlot weaponSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,8 @@ public WeaponSlot weaponSlot
 ```csharp
 public int GetObserveLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -75,12 +85,17 @@ public int GetObserveLevel()
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -93,6 +108,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -103,51 +120,69 @@ public override bool OnClick()
 ```csharp
 public void OnClickArmor()
 ```
+#INC
+
 
 ### OnClickWeapon()
 
 ```csharp
 public void OnClickWeapon()
 ```
+#INC
+
 
 ### OnEnterArmor()
 
 ```csharp
 public void OnEnterArmor()
 ```
+#INC
+
 
 ### OnEnterWeapon()
 
 ```csharp
 public void OnEnterWeapon()
 ```
+#INC
+
 
 ### OnExitArmor()
 
 ```csharp
 public void OnExitArmor()
 ```
+#INC
+
 
 ### OnExitWeapon()
 
 ```csharp
 public void OnExitWeapon()
 ```
+#INC
+
 
 ### OnPurchase()
 
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 private void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 private void SetEnabled()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CosmosAnim
 public class CosmosAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Fragment of the Universe](/api/Global/Misc/Cosmos).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CosmosAnim
 
@@ -36,6 +39,8 @@ public CosmosAnim()
 ```csharp
 public AnimatorEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimatorEventHandler animEventHandler
 ```csharp
 private int lastAttackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private int lastAttackType
 ```csharp
 private CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,66 +77,89 @@ private CreatureModel model
 ```csharp
 public override void Attack()
 ```
+#INC
+
 
 ### Attack1()
 
 ```csharp
 public void Attack1()
 ```
+#INC
+
 
 ### Attack2()
 
 ```csharp
 public void Attack2()
 ```
+#INC
+
 
 ### AttackDamageTimeCalled()
 
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### ChangeForm()
 
 ```csharp
 public void ChangeForm()
 ```
+#INC
+
 
 ### Damage()
 
 ```csharp
 public void Damage()
 ```
+#INC
+
 
 ### FinishCast()
 
 ```csharp
 public void FinishCast()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### ReturnForm()
 
 ```csharp
 public void ReturnForm()
 ```
+#INC
+
 
 ### SetModel(CreatureModel)
 
 ```csharp
 public void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,9 +172,13 @@ public void SetModel(CreatureModel model)
 ```csharp
 public void StartCast()
 ```
+#INC
+
 
 ### StopMoving()
 
 ```csharp
 public override void StopMoving()
 ```
+#INC
+

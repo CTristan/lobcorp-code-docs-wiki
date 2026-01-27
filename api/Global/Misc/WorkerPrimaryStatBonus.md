@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/WorkerPrimaryStatBonus
 ```csharp
 public class WorkerPrimaryStatBonus
 ```
+Stores bonuses for [worker stats](/api/Global/Misc/WorkerPrimaryStat).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerPrimaryStatBonus
@@ -33,6 +35,8 @@ public WorkerPrimaryStatBonus()
 ```csharp
 public int battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public int battle
 ```csharp
 public int hp
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public int hp
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public int mental
 ```csharp
 public int work
 ```
+#INC
+
 
 #### Field Value
 

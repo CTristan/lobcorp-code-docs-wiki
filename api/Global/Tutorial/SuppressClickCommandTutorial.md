@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SuppressClickCommandTutorial
 public class SuppressClickCommandTutorial : Tutorial, IObserver
 ```
 
+End when two things are suppressed.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SuppressClickCommandTutorial
 
@@ -36,6 +41,8 @@ public SuppressClickCommandTutorial()
 ```csharp
 public int SuppressNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,18 +55,24 @@ public int SuppressNum
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,3 +86,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

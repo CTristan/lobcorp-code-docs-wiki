@@ -36,6 +36,8 @@ public MachineMidnightLaser()
 ```csharp
 public float _damageDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public float _damageDelay
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private bool _isEnabled
 ```csharp
 public GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +114,8 @@ private RwbpType damageType { get; }
 ```csharp
 public MachineMidnight machine { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -130,6 +138,8 @@ public CreatureModel Model { get; }
 ```csharp
 private void AttackDamageBuf(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,12 +152,17 @@ private void AttackDamageBuf(UnitModel target)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCollision(Collider2D)
 
 ```csharp
 private void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +175,8 @@ private void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,12 +193,16 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel)
 
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,6 +215,8 @@ private void GiveDamage(UnitModel unit)
 ```csharp
 private void MakeDamageEffect(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -206,6 +229,8 @@ private void MakeDamageEffect(UnitModel unit)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,6 +243,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,6 +257,8 @@ private void OnTriggerStay2D(Collider2D collision)
 ```csharp
 private void OnWorkerKill(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,6 +271,8 @@ private void OnWorkerKill(WorkerModel worker)
 ```csharp
 public void SetDamageActivation(bool b)
 ```
+#INC
+
 
 #### Parameters
 

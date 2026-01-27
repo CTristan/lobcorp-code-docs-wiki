@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/PianoAnim
 public class PianoAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Il Pianto della Luna](/api/Global/Misc/Piano).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PianoAnim
 
@@ -36,6 +41,8 @@ public PianoAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public Animator animator_creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public Animator animator_creature
 ```csharp
 public Animator animator_piano
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Animator animator_piano
 ```csharp
 private Piano script
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,24 +91,32 @@ private Piano script
 ```csharp
 public void ClosePiano()
 ```
+#INC
+
 
 ### EscapeAnimEnd()
 
 ```csharp
 private void EscapeAnimEnd()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsPlaying()
 
 ```csharp
 public bool IsPlaying()
 ```
+#INC
+
 
 #### Returns
 
@@ -106,6 +127,9 @@ public bool IsPlaying()
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -118,18 +142,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OpenPiano()
 
 ```csharp
 public void OpenPiano()
 ```
+#INC
+
 
 ### SetScript(Piano)
 
 ```csharp
 public void SetScript(Piano script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,9 +172,13 @@ public void SetScript(Piano script)
 ```csharp
 private void StartPlaying()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SefiraResearchPanel
 public class SefiraResearchPanel : MonoBehaviour
 ```
 
+UI element for the research tab #verify on a [department on the deployment screen](/api/Global/Misc/SefiraPanel).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraResearchPanel
 
@@ -33,6 +36,8 @@ public SefiraResearchPanel()
 ```csharp
 private int _current
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int _current
 ```csharp
 private int _currentResearchMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int _currentResearchMax
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Sefira _currentSefira
 ```csharp
 private int _picked
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private int _picked
 ```csharp
 private Color blackColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Color blackColor
 ```csharp
 private Color currentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Color currentColor
 ```csharp
 public Text CurrentResearchDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public Text CurrentResearchDesc
 ```csharp
 public Text CurrentResearchName
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Text CurrentResearchName
 ```csharp
 public GameObject DescController
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public GameObject DescController
 ```csharp
 public const int ResearchMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public const int ResearchMax = 4
 ```csharp
 public AudioClipPlayer SefiraSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public AudioClipPlayer SefiraSound
 ```csharp
 public List<SefiraResearchSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +194,8 @@ public Sefira CurrentSefira { get; }
 ```csharp
 public void DisplayData(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,6 +208,9 @@ public void DisplayData(int index)
 ```csharp
 public void Init(Sefira sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -191,6 +223,8 @@ public void Init(Sefira sefira)
 ```csharp
 public void OnPointerClick(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,6 +237,8 @@ public void OnPointerClick(int index)
 ```csharp
 public void OnPointerEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +251,8 @@ public void OnPointerEnter(int index)
 ```csharp
 public void OnPointerExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,3 +265,5 @@ public void OnPointerExit(int index)
 ```csharp
 public void ResetAll()
 ```
+#INC
+

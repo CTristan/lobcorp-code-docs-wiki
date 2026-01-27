@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/MagicalGirlTextEffect
 public class MagicalGirlTextEffect : MonoBehaviour
 ```
 
+Probably unused text effect for [Queen of Hatred](/api/Global/IOBserver/MagicalGirl).
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MagicalGirlTextEffect
 
@@ -43,6 +48,8 @@ public MagicalGirlTextEffect.TimeEffectSetting[] dark
 ```csharp
 public static int darkSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public static int darkSize
 ```csharp
 public bool effectEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +114,8 @@ public MagicalGirlTextEffect.TimeEffectSetting[] normal
 ```csharp
 public static int normalSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +128,8 @@ public static int normalSize
 ```csharp
 public static MagicalGirlTextEffect Create(IsolateRoom room)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,21 +146,30 @@ public static MagicalGirlTextEffect Create(IsolateRoom room)
 ```csharp
 public void DisableEffect()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### UpdateState()
 
 ```csharp
 public void UpdateState()
 ```
+#INC
+

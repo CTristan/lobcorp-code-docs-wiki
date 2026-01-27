@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RotateAngle
 ```csharp
 public class RotateAngle : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RotateAngle
@@ -33,15 +35,22 @@ public RotateAngle()
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

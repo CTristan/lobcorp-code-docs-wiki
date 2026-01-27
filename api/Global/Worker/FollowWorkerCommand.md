@@ -12,6 +12,12 @@ canonical_path: /api/Global/Worker/FollowWorkerCommand
 public class FollowWorkerCommand : WorkerCommand
 ```
 
+Sets a worker to follow a worker.
+
+Seems to only be used by Singing Machine's uncontrollable effect...
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → FollowWorkerCommand
 
@@ -25,6 +31,8 @@ public class FollowWorkerCommand : WorkerCommand
 ```csharp
 public FollowWorkerCommand(MovableObjectNode target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +47,8 @@ public FollowWorkerCommand(MovableObjectNode target)
 ```csharp
 public float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +59,8 @@ public float elapsedTime
 ```csharp
 public MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,18 +73,25 @@ public MovableObjectNode targetMovable
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -85,3 +104,5 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/CosmosWeapon
 public class CosmosWeapon : EquipmentScriptBase
 ```
 
+Script for [Fragment of the Universe](/api/Global/Misc/Cosmos)'s EGO Weapon: Fragments from Somewhere.
+
+Increase max SP by 40% for agents with level 4 or lower prudence on attack, at a 10% chance.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → CosmosWeapon
 
@@ -33,6 +38,8 @@ public CosmosWeapon()
 ```csharp
 private readonly float _AMOUNT_RATIO_INCREASE_MAX_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private readonly float _AMOUNT_RATIO_INCREASE_MAX_MENTAL
 ```csharp
 private readonly int _CONDITION_PRUDENCE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly int _CONDITION_PRUDENCE_LEVEL
 ```csharp
 private readonly float _DURATION_BUF
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private readonly float _DURATION_BUF
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private readonly bool _LOG_STATE
 ```csharp
 private readonly float _PROB_INCREASE_MAX_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,9 @@ private readonly float _PROB_INCREASE_MAX_MENTAL
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -97,6 +115,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +135,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void PrintLog(object s)
 ```
+#INC
+
 
 #### Parameters
 

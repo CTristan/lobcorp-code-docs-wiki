@@ -11,6 +11,8 @@ canonical_path: /api/Global/UnitBuf/PanicUnderAttackBuf
 ```csharp
 public class PanicUnderAttackBuf : UnitBuf
 ```
+Buff given to panicking employees with the [roaming](/api/Global/Misc/PanicRoaming) or [abnormality-freeing](/api/Global/Misc/PanicOpenIsolate) panic behaviours when attacked. Slows movement to 0.5x for 3 seconds #verify .
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → PanicUnderAttackBuf
@@ -25,6 +27,8 @@ public class PanicUnderAttackBuf : UnitBuf
 ```csharp
 public PanicUnderAttackBuf()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,6 +37,9 @@ public PanicUnderAttackBuf()
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -45,6 +52,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

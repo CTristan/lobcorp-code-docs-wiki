@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/CreatureLyrics
 ```csharp
 public class CreatureLyrics
 ```
+Text for abnormalities which yap. Like Queen of Hatred.
+
+See [CreatureSpeech](/api/Global/Misc/CreatureSpeech)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureLyrics
@@ -33,6 +37,8 @@ public CreatureLyrics()
 ```csharp
 private static CreatureLyrics _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +111,8 @@ public CreatureLyrics.CreatureLyricList GetCreatureLyricList(long id)
 ```csharp
 public string GetRandomLyricByKey(long creatureId, string key)
 ```
+#INC
+
 
 #### Parameters
 

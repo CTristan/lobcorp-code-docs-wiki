@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LightsHammer
 public class LightsHammer : CreatureBase
 ```
 
+Hammer of Light. Unused.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → LightsHammer
 
@@ -33,6 +38,8 @@ public LightsHammer()
 ```csharp
 public string agentDefEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public string agentDefEffect
 ```csharp
 private float allDeathTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float allDeathTime
 ```csharp
 private Timer allDeathTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer allDeathTimer
 ```csharp
 private LightsHammerAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private LightsHammerAnim anim
 ```csharp
 public string collapseEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public string collapseEffect
 ```csharp
 private int deadAgentOmitCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private int deadAgentOmitCount
 ```csharp
 private string effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private string effect
 ```csharp
 private IsolateFilter enableFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private IsolateFilter enableFilter
 ```csharp
 private const string enableFireSound = "enableFire"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string enableFireSound = "enableFire"
 ```csharp
 private SoundEffectPlayer enableFireSoundPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private SoundEffectPlayer enableFireSoundPlayer
 ```csharp
 private string[] filterOutSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private LightsHammer.HammerFilterState filterState
 ```csharp
 private string grabEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private string grabEffect
 ```csharp
 public string hitEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public string hitEffect
 ```csharp
 private IsolateFilter lockFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private IsolateFilter lockFilter
 ```csharp
 private const string overlaySound = "overlay"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const string overlaySound = "overlay"
 ```csharp
 public string teleportEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ public string teleportEffect
 ```csharp
 private IsolateFilter unableFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private IsolateFilter unableFilter
 ```csharp
 private CreatureUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private CreatureUnit unit
 ```csharp
 private string[] usableSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private string[] usableSound
 ```csharp
 private List<WorkerModel> warriorList
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +290,8 @@ private List<WorkerModel> warriorList
 ```csharp
 private void CreatreWarrior(AgentModel baseWorker, UnitModel target, int num)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,6 +306,8 @@ private void CreatreWarrior(AgentModel baseWorker, UnitModel target, int num)
 ```csharp
 private void EquipHammer(AgentModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -271,6 +320,8 @@ private void EquipHammer(AgentModel worker)
 ```csharp
 private int GetConditionScore()
 ```
+#INC
+
 
 #### Returns
 
@@ -281,6 +332,8 @@ private int GetConditionScore()
 ```csharp
 private List<CreatureModel> GetEscapedCreatureList()
 ```
+#INC
+
 
 #### Returns
 
@@ -291,6 +344,8 @@ private List<CreatureModel> GetEscapedCreatureList()
 ```csharp
 public SkillTypeInfo GetHammerSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -301,6 +356,8 @@ public SkillTypeInfo GetHammerSkill()
 ```csharp
 public override SkillTypeInfo GetSpecialSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -311,12 +368,16 @@ public override SkillTypeInfo GetSpecialSkill()
 ```csharp
 public void GrabHammer()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -329,6 +390,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,12 +404,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnOpenObserveWindow()
 
 ```csharp
 public override bool OnOpenObserveWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -357,6 +425,8 @@ public override bool OnOpenObserveWindow()
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -367,6 +437,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override bool OnOverlayIsolateWork()
 ```
+#INC
+
 
 #### Returns
 
@@ -377,6 +449,8 @@ public override bool OnOverlayIsolateWork()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,18 +463,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -413,21 +493,29 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void ReturnHammer()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### UpdateFilterImage()
 
 ```csharp
 private void UpdateFilterImage()
 ```
+#INC
+
 
 ### UpdateState()
 
 ```csharp
 private void UpdateState()
 ```
+#INC
+

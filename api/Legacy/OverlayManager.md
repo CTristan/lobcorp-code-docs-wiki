@@ -12,6 +12,11 @@ canonical_path: /api/Legacy/OverlayManager
 public class OverlayManager
 ```
 
+Handles overlays, the places the mouse can hover over and click on.
+
+#verify
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OverlayManager
 
@@ -33,6 +38,8 @@ private OverlayManager()
 ```csharp
 private static OverlayManager _instance
 ```
+#INC
+
 
 #### Field Value
 

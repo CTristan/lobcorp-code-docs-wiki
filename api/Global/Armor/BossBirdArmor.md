@@ -12,6 +12,9 @@ canonical_path: /api/Global/Armor/BossBirdArmor
 public class BossBirdArmor : EquipmentScriptBase
 ```
 
+Script for [Apocalypse Bird](/api/Global/Misc/BossBird)'s EGO Suit: Twilight. Does some damage to enemies in the room, I think. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BossBirdArmor
 
@@ -33,6 +36,8 @@ public BossBirdArmor()
 ```csharp
 private const string _damageEffect = "Effect/Creature/BossBird/BossBirdArmorHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const string _damageEffect = "Effect/Creature/BossBird/BossBirdArmorHit"
 ```csharp
 private const string _damageEffect_set = "Effect/Creature/BossBird/BossBirdArmorHit_Set"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const string _damageEffect_set = "Effect/Creature/BossBird/BossBirdArmor
 ```csharp
 private GameObject _footEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private GameObject _footEffect
 ```csharp
 private const string _footEffectSrc = "Effect/Creature/BossBird/BossBirdArmorEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const string _footEffectSrc = "Effect/Creature/BossBird/BossBirdArmorEff
 ```csharp
 private DamageInfo _nearDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private DamageInfo _nearDamage
 ```csharp
 private const float _nearDamageFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _nearDamageFreq = 5
 ```csharp
 private Timer _nearDamageTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private Timer _nearDamageTimer
 ```csharp
 private static DamageInfo[] _setDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private static DamageInfo[] _setDamage
 ```csharp
 private bool _setOption
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private bool _setOption
 ```csharp
 private WorkerModel _worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,12 +158,16 @@ private WorkerModel _worker
 ```csharp
 private void ClearEffect()
 ```
+#INC
+
 
 ### GetDamageFactor()
 
 ```csharp
 public override float GetDamageFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -151,6 +178,8 @@ public override float GetDamageFactor()
 ```csharp
 private List<UnitModel> GetNearHostileUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -161,18 +190,24 @@ private List<UnitModel> GetNearHostileUnit()
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### LoadEffect()
 
 ```csharp
 private void LoadEffect()
 ```
+#INC
+
 
 ### MakeDamage(List<UnitModel>)
 
 ```csharp
 private void MakeDamage(List<UnitModel> target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +220,8 @@ private void MakeDamage(List<UnitModel> target)
 ```csharp
 private void MakeDamageEffect(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,24 +234,33 @@ private void MakeDamageEffect(UnitModel target)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetActiveEffect(bool)
 
 ```csharp
 private void SetActiveEffect(bool state)
 ```
+#INC
+
 
 #### Parameters
 

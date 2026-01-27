@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/Yggdrasil
 public class Yggdrasil : CreatureBase, IObserver
 ```
 
+Parasite Tree.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Yggdrasil
 
@@ -36,6 +41,8 @@ public Yggdrasil()
 ```csharp
 private YggdrasilAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private YggdrasilAnim _animScript
 ```csharp
 private const float _defaultSoundFreqMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const float _defaultSoundFreqMax = 10
 ```csharp
 private const float _defaultSoundFreqMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const float _defaultSoundFreqMin = 5
 ```csharp
 private const string _FILTER_NAME = "YggdrasilSporeFilter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _FILTER_NAME = "YggdrasilSporeFilter"
 ```csharp
 private const string _FILTER_SRC = "Sprites/CreatureSprite/Yggdrasil/filter_hall"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _FILTER_SRC = "Sprites/CreatureSprite/Yggdrasil/filter_hall
 ```csharp
 private const int _PASSAGE_DMG_MAX = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const int _PASSAGE_DMG_MAX = 12
 ```csharp
 private const int _PASSAGE_DMG_MIN = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const int _PASSAGE_DMG_MIN = 9
 ```csharp
 private const RwbpType _PASSAGE_DMG_TYPE = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private const RwbpType _PASSAGE_DMG_TYPE = W
 ```csharp
 private int BLESS_OVERLOAD_CNT
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private int BLESS_OVERLOAD_CNT
 ```csharp
 private List<WorkerModel> blessedList
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private List<WorkerModel> blessedList
 ```csharp
 private WorkerModel blessTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private WorkerModel blessTarget
 ```csharp
 private Timer defaultSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private Timer defaultSoundTimer
 ```csharp
 private const float FILTER_DECREASE_TIME = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private const float FILTER_DECREASE_TIME = 1
 ```csharp
 private const float FILTER_INCREASE_TIME = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private const float FILTER_INCREASE_TIME = 1
 ```csharp
 private Timer filterDecreaseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private Timer filterDecreaseTimer
 ```csharp
 private Timer filterIncreaseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private Timer filterIncreaseTimer
 ```csharp
 private bool gonnaSubQliphoth
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private Dictionary<PassageObjectModel, Yggdrasil.InfestedPassage> infestedPassag
 ```csharp
 private bool isInSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private bool isInSkill
 ```csharp
 private SoundEffectPlayer loopSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private SoundEffectPlayer loopSound
 ```csharp
 private float SUB_QLIPHOTH_ESCAPE_PROB
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private float SUB_QLIPHOTH_ESCAPE_PROB
 ```csharp
 private int SUB_QLIPHOTH_WORK_OHTER_CNT
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ private int SUB_QLIPHOTH_WORK_OHTER_CNT
 ```csharp
 private int TARGET_SKILL_ID
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ private int TARGET_SKILL_ID
 ```csharp
 private int workOtherCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -330,18 +381,24 @@ public static DamageInfo PassageDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateSkill()
 
 ```csharp
 private void ActivateSkill()
 ```
+#INC
+
 
 ### AddBlessedList(WorkerModel)
 
 ```csharp
 public void AddBlessedList(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,6 +411,8 @@ public void AddBlessedList(WorkerModel target)
 ```csharp
 private void AddFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,18 +425,24 @@ private void AddFilters(float alpha)
 ```csharp
 private void AddFlower()
 ```
+#INC
+
 
 ### AddWorkCount()
 
 ```csharp
 private void AddWorkCount()
 ```
+#INC
+
 
 ### Attract(WorkerModel)
 
 ```csharp
 private void Attract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,6 +455,8 @@ private void Attract(WorkerModel worker)
 ```csharp
 private void Bless(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -402,24 +469,32 @@ private void Bless(WorkerModel worker)
 ```csharp
 private void BlessOverload()
 ```
+#INC
+
 
 ### BlessOverloadEnd()
 
 ```csharp
 private void BlessOverloadEnd()
 ```
+#INC
+
 
 ### BlessStart()
 
 ```csharp
 private void BlessStart()
 ```
+#INC
+
 
 ### CancelAttract(WorkerModel)
 
 ```csharp
 public void CancelAttract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -432,6 +507,8 @@ public void CancelAttract(WorkerModel worker)
 ```csharp
 private bool CheckAttractCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,6 +525,8 @@ private bool CheckAttractCondition(WorkerModel worker)
 ```csharp
 private bool CheckBlessCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,6 +543,8 @@ private bool CheckBlessCondition(WorkerModel worker)
 ```csharp
 private WorkerModel[] GetAttractTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -474,6 +555,8 @@ private WorkerModel[] GetAttractTargets()
 ```csharp
 private WorkerModel[] GetAttractTargets(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -490,6 +573,8 @@ private WorkerModel[] GetAttractTargets(Sefira sefira)
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -506,6 +591,8 @@ private string GetSoundSrc(string key)
 ```csharp
 public UnitModel[] GetTargets(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -522,6 +609,8 @@ public UnitModel[] GetTargets(PassageObjectModel passage)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -532,12 +621,16 @@ public override bool HasRoomCounter()
 ```csharp
 private void InitFlower()
 ```
+#INC
+
 
 ### IsHostile(MovableObjectNode)
 
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -554,6 +647,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsTransformed()
 ```
+#INC
+
 
 #### Returns
 
@@ -564,6 +659,8 @@ private bool IsTransformed()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -574,6 +671,8 @@ public override bool IsWorkable()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -626,6 +725,8 @@ public SoundEffectPlayer MakeSoundLoop(string src, Transform trans, float vol = 
 ```csharp
 public void OnArrive(WorkerModel arrived)
 ```
+#INC
+
 
 #### Parameters
 
@@ -638,6 +739,8 @@ public void OnArrive(WorkerModel arrived)
 ```csharp
 public override void OnChildSuppressed(ChildCreatureModel child)
 ```
+#INC
+
 
 #### Parameters
 
@@ -650,6 +753,8 @@ public override void OnChildSuppressed(ChildCreatureModel child)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -662,6 +767,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -674,6 +781,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -686,6 +795,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -699,6 +810,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -709,6 +822,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -721,18 +836,25 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -745,6 +867,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -757,6 +881,8 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public void OnWorkerAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -769,12 +895,16 @@ public void OnWorkerAnimCalled(int i)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ReduceFilters(float)
 
 ```csharp
 private void ReduceFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -787,12 +917,16 @@ private void ReduceFilters(float alpha)
 ```csharp
 private void ReduceFlower()
 ```
+#INC
+
 
 ### RemoveBlessedWorker(WorkerModel)
 
 ```csharp
 public void RemoveBlessedWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -805,24 +939,32 @@ public void RemoveBlessedWorker(WorkerModel worker)
 ```csharp
 private void RemoveLoopSound()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 private void Reset()
 ```
+#INC
+
 
 ### ResetWorkCount()
 
 ```csharp
 private void ResetWorkCount()
 ```
+#INC
+
 
 ### SetFilters(float)
 
 ```csharp
 private void SetFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -835,6 +977,8 @@ private void SetFilters(float alpha)
 ```csharp
 private void SetTransform(bool isTransform)
 ```
+#INC
+
 
 #### Parameters
 
@@ -847,3 +991,5 @@ private void SetTransform(bool isTransform)
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+

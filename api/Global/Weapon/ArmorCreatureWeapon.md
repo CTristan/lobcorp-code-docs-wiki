@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/ArmorCreatureWeapon
 public class ArmorCreatureWeapon : EquipmentScriptBase
 ```
 
+[Crumbling Armor](/api/Global/IOBserver/ArmorCreature)'s EGO Weapon: Life for a Daredevil script. Randomly decides to do an alternate pattern half the time.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ArmorCreatureWeapon
 
@@ -33,6 +36,8 @@ public ArmorCreatureWeapon()
 ```csharp
 private const float pattern2Prob = 0.5
 ```
+#INC
+
 
 #### Field Value
 

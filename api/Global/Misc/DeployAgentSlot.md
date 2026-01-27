@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/DeployAgentSlot
 public class DeployAgentSlot : MonoBehaviour, IDraggableObject, IDeployResetCalled
 ```
 
+Draggable slot representing an agent to be deployed.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeployAgentSlot
 
@@ -36,6 +41,8 @@ public DeployAgentSlot()
 ```csharp
 private DraggedObject _dragged
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private DraggedObject _dragged
 ```csharp
 private AgentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private AgentModel _model
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject ActiveControl
 ```csharp
 public Drag drag
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Drag drag
 ```csharp
 private string draggedPortraitSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private string draggedPortraitSrc
 ```csharp
 public RectTransform ScaleAnchor
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public RectTransform ScaleAnchor
 ```csharp
 public ScrollExchanger scrollReciever
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public ScrollExchanger scrollReciever
 ```csharp
 public AgentSlotUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +171,8 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void DeployColorSetted(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,18 +185,24 @@ public void DeployColorSetted(Color c)
 ```csharp
 public void DeployResetCalled()
 ```
+#INC
+
 
 ### Equip()
 
 ```csharp
 public void Equip()
 ```
+#INC
+
 
 ### GenDraggedObject(string)
 
 ```csharp
 public GameObject GenDraggedObject(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +219,8 @@ public GameObject GenDraggedObject(string name)
 ```csharp
 public DraggedObject GetDraggingObject()
 ```
+#INC
+
 
 #### Returns
 
@@ -200,6 +231,9 @@ public DraggedObject GetDraggingObject()
 ```csharp
 public void Init(AgentModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -212,12 +246,16 @@ public void Init(AgentModel model)
 ```csharp
 public void OnCanceled()
 ```
+#INC
+
 
 ### OnClickEquipment(int)
 
 ```csharp
 public void OnClickEquipment(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,6 +268,8 @@ public void OnClickEquipment(int i)
 ```csharp
 public void OnClickPanel(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,24 +282,32 @@ public void OnClickPanel(int i)
 ```csharp
 public void OnClickPortrait()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDragStart()
 
 ```csharp
 public void OnDragStart()
 ```
+#INC
+
 
 ### OnDropEnd(Drop, bool)
 
 ```csharp
 public void OnDropEnd(Drop drop, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,36 +321,48 @@ public void OnDropEnd(Drop drop, bool state)
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnEndDrag()
 
 ```csharp
 public void OnEndDrag()
 ```
+#INC
+
 
 ### OnEnterPortrait()
 
 ```csharp
 public void OnEnterPortrait()
 ```
+#INC
+
 
 ### OnExitPortrait()
 
 ```csharp
 public void OnExitPortrait()
 ```
+#INC
+
 
 ### Registration()
 
 ```csharp
 public void Registration()
 ```
+#INC
+
 
 ### SetAnchorScale(float)
 
 ```csharp
 public void SetAnchorScale(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,3 +375,5 @@ public void SetAnchorScale(float factor)
 ```csharp
 private void Start()
 ```
+#INC
+

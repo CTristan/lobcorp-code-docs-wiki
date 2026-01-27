@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/BlackSwanArmor
 public class BlackSwanArmor : EquipmentScriptBase
 ```
 
+Script for [Dream of a Black Swan](/api/Global/IOBserver/BlackSwan)'s EGO Suit: Black Swan. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BlackSwanArmor
 
@@ -33,6 +38,8 @@ public BlackSwanArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

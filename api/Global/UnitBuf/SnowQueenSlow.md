@@ -12,6 +12,15 @@ canonical_path: /api/Global/UnitBuf/SnowQueenSlow
 public class SnowQueenSlow : UnitBuf
 ```
 
+Slowing buff applied by [Frost Splinter (weapon)](/api/Global/Weapon/SnowQueenWeapon).
+
+Slows creatures by 0.5x for 3 seconds.
+
+#verify Check that this doesn't actually happen to workers too?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SnowQueenSlow
 
@@ -25,6 +34,8 @@ public class SnowQueenSlow : UnitBuf
 ```csharp
 public SnowQueenSlow()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +44,8 @@ public SnowQueenSlow()
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +58,9 @@ private CreatureModel creature
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +73,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -67,9 +85,13 @@ public override float MovementScale()
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

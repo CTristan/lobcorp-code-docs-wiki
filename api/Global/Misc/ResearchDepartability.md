@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResearchDepartability
 ```csharp
 public class ResearchDepartability
 ```
+Malkuth's 'Joint Command' research, for allowing agents to move between departments.
+
+See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchDepartability
@@ -33,6 +37,8 @@ public ResearchDepartability()
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,9 @@ public int level
 ```csharp
 public string sephira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -11,6 +11,18 @@ canonical_path: /api/Global/Misc/IMouseOnPointListener
 ```csharp
 public interface IMouseOnPointListener
 ```
+Interface for things which react to being hovered over by the cursor.
+
+Implemented by [AgentUnit](/api/Global/Worker/AgentUnit) and [PassageObject](/api/Global/Object/PassageObject).
+
+Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
+
+
+#### Methods
+	bool HasPointListener()
+	void OnPointEnter()
+	void OnPointExit()
+
 
 ## Methods
 
@@ -19,6 +31,9 @@ public interface IMouseOnPointListener
 ```csharp
 bool HasPointListener()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -29,9 +44,13 @@ bool HasPointListener()
 ```csharp
 void OnPointEnter()
 ```
+#INC
+
 
 ### OnPointExit()
 
 ```csharp
 void OnPointExit()
 ```
+#INC
+

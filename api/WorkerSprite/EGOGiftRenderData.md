@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/EGOGiftRenderData
 ```csharp
 public class EGOGiftRenderData
 ```
+Stores information for rendering an EGO gift
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EGOGiftRenderData
@@ -33,6 +35,8 @@ public EGOGiftRenderData()
 ```csharp
 public string attachmentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public string attachmentName
 ```csharp
 public EGOgiftAttachType attachType
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public EGOgiftAttachType attachType
 ```csharp
 public string DataName
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public string DataName
 ```csharp
 public long metaId
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public long metaId
 ```csharp
 public EGOgiftAttachRegion region
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public EGOgiftAttachRegion region
 ```csharp
 public SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public SpriteRenderer renderer
 ```csharp
 public string slot
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,9 @@ public string slot
 ```csharp
 public Sprite Sprite
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

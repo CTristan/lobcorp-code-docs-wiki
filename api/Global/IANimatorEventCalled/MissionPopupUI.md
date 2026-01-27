@@ -12,6 +12,13 @@ canonical_path: /api/Global/IANimatorEventCalled/MissionPopupUI
 public class MissionPopupUI : MonoBehaviour, IAnimatorEventCalled
 ```
 
+UI for a mission popping up after the story #inc.
+
+See also [StorySceneController](/api/Global/Story/StorySceneController)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MissionPopupUI
 
@@ -46,6 +53,8 @@ private MissionPopupUI.MissionPopupCallbackFunc _callback
 ```csharp
 private bool _canClick
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool _canClick
 ```csharp
 private static MissionPopupUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private static MissionPopupUI _instance
 ```csharp
 private Mission _mission
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private Mission _mission
 ```csharp
 public UIController Anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public UIController Anim
 ```csharp
 public float clickBlockTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public float clickBlockTime
 ```csharp
 public Timer clickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public Timer clickTimer
 ```csharp
 public ColorMultiplier[] frameColorMultipliers
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public ColorMultiplier[] frameColorMultipliers
 ```csharp
 public Text missionDescText
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Text missionDescText
 ```csharp
 public Text missionDiagText
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public Text missionDiagText
 ```csharp
 public Text missionNameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public Text missionNameText
 ```csharp
 public Text missionTeamNameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,18 +209,24 @@ public static MissionPopupUI instance { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -204,18 +239,25 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,12 +284,16 @@ public void Init(Mission m, MissionPopupUI.MissionPopupCallbackFunc callback)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,24 +306,32 @@ public void OnCalled(int i)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### PlayAudio()
 
 ```csharp
 public void PlayAudio()
 ```
+#INC
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -290,3 +344,5 @@ public void SoundMake(string src)
 ```csharp
 private void Update()
 ```
+#INC
+

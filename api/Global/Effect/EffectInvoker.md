@@ -11,6 +11,10 @@ canonical_path: /api/Global/Effect/EffectInvoker
 ```csharp
 public class EffectInvoker : MonoBehaviour
 ```
+Invokes an effect by loading a prefab.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EffectInvoker
@@ -36,6 +40,8 @@ public EffectInvoker()
 ```csharp
 private bool _attached
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private bool _attached
 ```csharp
 private MovableObjectNode _node
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public EffectInvoker.OnDestroyEvent destroyEvent
 ```csharp
 public const string PrefabSrc = "Effect/Invoke/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,18 +100,25 @@ public bool IsAttached { get; }
 ```csharp
 public void Attach()
 ```
+#INC
+
 
 ### Dettach()
 
 ```csharp
 public void Dettach()
 ```
+#INC
+
 
 ### Invoker(string, MovableObjectNode, float, bool)
 
 ```csharp
 public static EffectInvoker Invoker(string src, MovableObjectNode mov, float lifeTime, bool isUnscaled)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -121,6 +138,8 @@ public static EffectInvoker Invoker(string src, MovableObjectNode mov, float lif
 ```csharp
 public static EffectInvoker Invoker(string src, Vector3 pos, float lifeTime, bool isUnscaled)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,6 +159,8 @@ public static EffectInvoker Invoker(string src, Vector3 pos, float lifeTime, boo
 ```csharp
 protected virtual void OnDestroy()
 ```
+#INC
+
 
 ### SetDestroyEvent(OnDestroyEvent)
 
@@ -158,6 +179,8 @@ public void SetDestroyEvent(EffectInvoker.OnDestroyEvent e)
 ```csharp
 public void SetMovableSetting(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,3 +193,5 @@ public void SetMovableSetting(MovableObjectNode mov)
 ```csharp
 protected virtual void Update()
 ```
+#INC
+

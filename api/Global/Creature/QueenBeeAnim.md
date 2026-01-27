@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/QueenBeeAnim
 public class QueenBeeAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Queen Bee](/api/Global/Misc/QueenBee).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → QueenBeeAnim
 
@@ -36,6 +41,8 @@ public QueenBeeAnim()
 ```csharp
 private bool currentGlobal
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool currentGlobal
 ```csharp
 public GameObject globalEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject globalEffect
 ```csharp
 private QueenBee script
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,18 +79,24 @@ private QueenBee script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,18 +109,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +140,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Emit(bool isGloal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,24 +154,33 @@ public void Emit(bool isGloal)
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +193,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetScript(QueenBee script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,12 +207,16 @@ public void SetScript(QueenBee script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,3 +229,5 @@ public void SoundMake(string src)
 ```csharp
 public override void Stop()
 ```
+#INC
+

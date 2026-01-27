@@ -12,6 +12,9 @@ canonical_path: /api/Global/Collider/YinLaserFloorCollider
 public class YinLaserFloorCollider : MonoBehaviour
 ```
 
+Collider for [Yin](/api/Global/Misc/Yin)'s laser attack which slows targets touching it. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → YinLaserFloorCollider
 
@@ -43,6 +46,8 @@ private List<YinLaserFloorCollider.UnitMovement> _slowUnitList
 ```csharp
 public ParticleSystem effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +60,8 @@ public ParticleSystem effect
 ```csharp
 public float slowMultiplier { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -67,6 +74,8 @@ public float slowMultiplier { get; set; }
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
@@ -85,6 +94,9 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -97,6 +109,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void SetMovement(float multiplier, Collider2D collision, bool isEnter)
 ```
+#INC
+
 
 #### Parameters
 

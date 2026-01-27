@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/MatchGirl
 public class MatchGirl : CreatureBase
 ```
 
+Scorched Girl.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → MatchGirl
 
@@ -33,6 +38,8 @@ public MatchGirl()
 ```csharp
 private const float _afterMeetingTimeMax = 5.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _afterMeetingTimeMax = 5.5
 ```csharp
 private const float _afterMeetingTimeMin = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _afterMeetingTimeMin = 4.5
 ```csharp
 private MatchGirlAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private MatchGirlAnim _animScript
 ```csharp
 private Timer afterMeetingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer afterMeetingTimer
 ```csharp
 private const int dmgMax = 300
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int dmgMax = 300
 ```csharp
 private const int dmgMin = 300
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int dmgMin = 300
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private RwbpType dmgType
 ```csharp
 private const float effectLength = 5.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float effectLength = 5.5
 ```csharp
 private const string escape = "escape"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string escape = "escape"
 ```csharp
 private const string explosion = "explosion"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const string explosion = "explosion"
 ```csharp
 private bool explosionReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private bool explosionReady
 ```csharp
 private bool isMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private bool isMoving
 ```csharp
 private const float kaboom_pd_Time = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float kaboom_pd_Time = 3
 ```csharp
 private const string kaboomEffect = "Effect/Creature/MatchGirl/KaBOOOM"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const string kaboomEffect = "Effect/Creature/MatchGirl/KaBOOOM"
 ```csharp
 private const float meetingRange = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float meetingRange = 8
 ```csharp
 private WorkerModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private WorkerModel moveTarget
 ```csharp
 private const int recoil = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const int recoil = 3
 ```csharp
 private const string sefiraEffect = "Effect/Creature/MatchGirl/MatchGirl_Sefira"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const string sefiraEffect = "Effect/Creature/MatchGirl/MatchGirl_Sefira"
 ```csharp
 private const string smallExplode = "smallExplode"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const string smallExplode = "smallExplode"
 ```csharp
 private const float smoke_pd_Time = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const float smoke_pd_Time = 5
 ```csharp
 private const string smokeEffect = "Effect/Creature/MatchGirl/BlackBlow"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private const string smokeEffect = "Effect/Creature/MatchGirl/BlackBlow"
 ```csharp
 private const float speechFreq = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const float speechFreq = 2.5
 ```csharp
 private Timer speechTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private Timer speechTimer
 ```csharp
 private const string walking = "walking"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private const string walking = "walking"
 ```csharp
 private SoundEffectPlayer walkingSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private SoundEffectPlayer walkingSound
 ```csharp
 private SoundEffectPlayer weepingSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,24 +384,32 @@ private static int dmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AfterMeeting()
 
 ```csharp
 private void AfterMeeting()
 ```
+#INC
+
 
 ### CallPassageExplosion()
 
 ```csharp
 private void CallPassageExplosion()
 ```
+#INC
+
 
 ### CheckMoveCondition(WorkerModel)
 
 ```csharp
 private bool CheckMoveCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -361,12 +426,16 @@ private bool CheckMoveCondition(WorkerModel worker)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -383,6 +452,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private WorkerModel GetMoveTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -393,6 +464,8 @@ private WorkerModel GetMoveTarget()
 ```csharp
 private List<WorkerModel> GetWorkers(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,6 +482,8 @@ private List<WorkerModel> GetWorkers(Sefira sefira)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -426,6 +501,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -440,36 +517,48 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -482,18 +571,25 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### PassageExplosion()
 
 ```csharp
 private void PassageExplosion()
 ```
+#INC
+
 
 ### SetTarget(WorkerModel)
 
 ```csharp
 private void SetTarget(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -506,9 +602,13 @@ private void SetTarget(WorkerModel target)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

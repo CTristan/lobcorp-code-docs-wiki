@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/BigBadWolfAnim
 public class BigBadWolfAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Big and Will Be Bad Wolf](/api/Global/IOBserver/BigBadWolf).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BigBadWolfAnim
 
@@ -36,6 +41,8 @@ public BigBadWolfAnim()
 ```csharp
 public GameObject _badassWolf
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject _badassWolf
 ```csharp
 private Timer _castingAttackDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private Timer _castingAttackDuration
 ```csharp
 private Timer _castingAttackEffectFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private Timer _castingAttackEffectFreq
 ```csharp
 private Timer _castingAttackEnable
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private Timer _castingAttackEnable
 ```csharp
 public MeshRenderer _castingAttackMeshRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public MeshRenderer _castingAttackMeshRenderer
 ```csharp
 private bool _castingMiddle
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private bool _castingMiddle
 ```csharp
 public Animator _changeFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public Animator _changeFilter
 ```csharp
 public Material _defaultMaterial
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public Material _defaultMaterial
 ```csharp
 public Transform _effectHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Transform _effectHeight
 ```csharp
 public GameObject _escapeCloseParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public GameObject _escapeCloseParticle
 ```csharp
 public GameObject _escapeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public GameObject _escapeParticle
 ```csharp
 public AnimatorEventHandler _eventHnadler
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public AnimatorEventHandler _eventHnadler
 ```csharp
 private bool _isMoonRed
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private bool _isMoonRed
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject _moonObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ public GameObject _moonObject
 ```csharp
 public GameObject _normalWolf
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ public List<BigBadWolfAnim.MoonPos> moonPosList
 ```csharp
 private BigBadWolf script
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private BigBadWolf script
 ```csharp
 public BigBadWolfSense sense
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ public BigBadWolfSense sense
 ```csharp
 public SpriteRenderer[] WorkerEatenSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -270,12 +313,16 @@ public Animator MoonAnimator { get; }
 ```csharp
 private void ChangeAnim()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### GetMoonPos(SefiraEnum)
 
@@ -298,12 +345,16 @@ private BigBadWolfAnim.MoonPos GetMoonPos(SefiraEnum sefiraEnum)
 ```csharp
 public void Howling()
 ```
+#INC
+
 
 ### IsRedMoon()
 
 ```csharp
 public bool IsRedMoon()
 ```
+#INC
+
 
 #### Returns
 
@@ -314,6 +365,8 @@ public bool IsRedMoon()
 ```csharp
 public void OnAttack(BigBadWolf.WolfAttackType attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,6 +379,9 @@ public void OnAttack(BigBadWolf.WolfAttackType attackType)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -338,36 +394,48 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCastingAttackEnd()
 ```
+#INC
+
 
 ### OnCastingEnd()
 
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnCastingTrigger()
 
 ```csharp
 public void OnCastingTrigger()
 ```
+#INC
+
 
 ### OnEscape()
 
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### SetEatenSprite(int)
 
 ```csharp
 public void SetEatenSprite(int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -380,6 +448,8 @@ public void SetEatenSprite(int count)
 ```csharp
 public void SetGetaway(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -392,6 +462,8 @@ public void SetGetaway(bool state)
 ```csharp
 public void SetGroggy(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -404,6 +476,8 @@ public void SetGroggy(bool state)
 ```csharp
 public void SetMoon(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -416,12 +490,16 @@ public void SetMoon(Sefira sefira)
 ```csharp
 public void SetMoonActive()
 ```
+#INC
+
 
 ### SetMoonState(bool)
 
 ```csharp
 public void SetMoonState(bool isRed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -434,6 +512,8 @@ public void SetMoonState(bool isRed)
 ```csharp
 public void SetScript(BigBadWolf wolf)
 ```
+#INC
+
 
 #### Parameters
 
@@ -446,6 +526,8 @@ public void SetScript(BigBadWolf wolf)
 ```csharp
 public void SetWolfAnimState(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -458,9 +540,13 @@ public void SetWolfAnimState(int value)
 ```csharp
 public void StartCastingAttack()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

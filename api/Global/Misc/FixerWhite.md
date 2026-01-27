@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FixerWhite
 public class FixerWhite : FixerCreature
 ```
 
+White Fixer.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [FixerCreature](/api/Global/Creature/FixerCreature) → FixerWhite
 
@@ -33,6 +38,8 @@ public FixerWhite()
 ```csharp
 private FixerWhiteAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FixerWhiteAnim _animScript
 ```csharp
 private const float _bladeCoolTimeMax = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _bladeCoolTimeMax = 60
 ```csharp
 private const float _bladeCoolTimeMin = 55
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _bladeCoolTimeMin = 55
 ```csharp
 private const float _bladeInitCoolTimeMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _bladeInitCoolTimeMax = 45
 ```csharp
 private const float _bladeInitCoolTimeMin = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _bladeInitCoolTimeMin = 40
 ```csharp
 private const float _cannonCoolTimeMax = 21
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _cannonCoolTimeMax = 21
 ```csharp
 private const float _cannonCoolTimeMin = 19
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _cannonCoolTimeMin = 19
 ```csharp
 private const float _cannonInitCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _cannonInitCoolTimeMax = 15
 ```csharp
 private const float _cannonInitCoolTimeMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _cannonInitCoolTimeMin = 12
 ```csharp
 private const int _cloudDmgMax = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const int _cloudDmgMax = 6
 ```csharp
 private const int _cloudDmgMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int _cloudDmgMin = 4
 ```csharp
 private const RwbpType _cloudType = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const RwbpType _cloudType = W
 ```csharp
 private const int _dSceneDmgMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const int _dSceneDmgMax = 15
 ```csharp
 private const int _dSceneDmgMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const int _dSceneDmgMin = 12
 ```csharp
 private const RwbpType _dSceneType = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const RwbpType _dSceneType = W
 ```csharp
 private const int _laserDmgMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const int _laserDmgMax = 12
 ```csharp
 private const int _laserDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const int _laserDmgMin = 10
 ```csharp
 private const RwbpType _laserType = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const RwbpType _laserType = W
 ```csharp
 private const float _motionDelayMax = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const float _motionDelayMax = 1.5
 ```csharp
 private const float _motionDelayMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const float _motionDelayMin = 1
 ```csharp
 private Timer bladeCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private Timer bladeCoolTimer
 ```csharp
 private Timer cannonCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private Timer cannonCoolTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private Timer motionDelayTimer
 ```csharp
 private int prayCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,18 +420,24 @@ private static float motionDelay { get; }
 ```csharp
 private void BladeStart()
 ```
+#INC
+
 
 ### CannonStart()
 
 ```csharp
 private void CannonStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +455,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -406,6 +467,8 @@ private bool IsMovable()
 ```csharp
 private bool IsPraying()
 ```
+#INC
+
 
 #### Returns
 
@@ -416,6 +479,8 @@ private bool IsPraying()
 ```csharp
 private bool IsShootingCannon()
 ```
+#INC
+
 
 #### Returns
 
@@ -426,6 +491,8 @@ private bool IsShootingCannon()
 ```csharp
 private bool IsUsingBlade()
 ```
+#INC
+
 
 #### Returns
 
@@ -436,12 +503,16 @@ private bool IsUsingBlade()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeReflectSound()
 
 ```csharp
 private SoundEffectPlayer MakeReflectSound()
 ```
+#INC
+
 
 #### Returns
 
@@ -452,12 +523,16 @@ private SoundEffectPlayer MakeReflectSound()
 ```csharp
 private void MoveAround()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -468,24 +543,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnBladeEnd()
 ```
+#INC
+
 
 ### OnCannonEnd()
 
 ```csharp
 public void OnCannonEnd()
 ```
+#INC
+
 
 ### OnDeadSceneEffect()
 
 ```csharp
 public void OnDeadSceneEffect()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -498,12 +581,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnPrayEnd()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -518,6 +605,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -530,12 +620,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void Pray()
 ```
+#INC
+
 
 ### PrepareAttack(UnitModel)
 
 ```csharp
 private void PrepareAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,12 +642,16 @@ private void PrepareAttack(UnitModel target)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### TryAttack(UnitModel)
 
 ```csharp
 private bool TryAttack(UnitModel nearest)
 ```
+#INC
+
 
 #### Parameters
 

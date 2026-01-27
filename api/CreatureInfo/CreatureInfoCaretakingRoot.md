@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoCaretakingRoot
 ```csharp
 public class CreatureInfoCaretakingRoot : CreatureInfoController
 ```
+Class for management tips container? #inc
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoCaretakingRoot
@@ -33,6 +35,8 @@ public CreatureInfoCaretakingRoot()
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public RectTransform listParent
 ```csharp
 private int revealedCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private int revealedCount
 ```csharp
 public ScrollRect scroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public ScrollRect scroll
 ```csharp
 public List<CreatureInfoCaretakingSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public List<CreatureInfoCaretakingSlot> slots
 ```csharp
 private const string slotSrc = "UIComponent/CreatureInfo/CareTakingSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +97,8 @@ private const string slotSrc = "UIComponent/CreatureInfo/CareTakingSlot"
 ```csharp
 public int GetIndex(CreatureInfoCaretakingSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,12 +115,17 @@ public int GetIndex(CreatureInfoCaretakingSlot slot)
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -119,6 +138,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool IsOpened()
 ```
+#INC
+
 
 #### Returns
 
@@ -129,12 +150,16 @@ public override bool IsOpened()
 ```csharp
 private void ListInit()
 ```
+#INC
+
 
 ### ListInit(CreatureModel)
 
 ```csharp
 private void ListInit(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,6 +172,8 @@ private void ListInit(CreatureModel creature)
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -157,24 +184,32 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 private void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 private void SetEnabled()
 ```
+#INC
+
 
 ### SetSlotAreaName(string[])
 
 ```csharp
 public void SetSlotAreaName(string[] names)
 ```
+#INC
+
 
 #### Parameters
 

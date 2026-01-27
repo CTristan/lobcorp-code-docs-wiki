@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StraitJacket
 public class StraitJacket : CreatureBase
 ```
 
+Forsaken Murderer.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → StraitJacket
 
@@ -33,6 +38,8 @@ public StraitJacket()
 ```csharp
 private StraitJacketAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private StraitJacketAnim _animScript
 ```csharp
 private const float attackDamage = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float attackDamage = 2.5
 ```csharp
 private const float attackDelay = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float attackDelay = 4.5
 ```csharp
 private bool isTransformed
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool isTransformed
 ```csharp
 private bool isTransforming
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool isTransforming
 ```csharp
 public const string jacketHitEffectSrc = "Effect/Creature/StraitJacket/JacketHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public const string jacketHitEffectSrc = "Effect/Creature/StraitJacket/JacketHit
 ```csharp
 private const float moveFreqMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float moveFreqMax = 4
 ```csharp
 private const float moveFreqMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float moveFreqMin = 2
 ```csharp
 private Timer moveSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer moveSoundTimer
 ```csharp
 private const float range = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float range = 2
 ```csharp
 private const float standFreqMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float standFreqMax = 20
 ```csharp
 private const float standFreqMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float standFreqMin = 15
 ```csharp
 private Timer standSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,12 +228,16 @@ private float StandSoundFreq { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AttackProcess(UnitModel)
 
 ```csharp
 public override bool AttackProcess(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,12 +254,16 @@ public override bool AttackProcess(UnitModel target)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### HasUniqueAttackDealy()
 
 ```csharp
 public override bool HasUniqueAttackDealy()
 ```
+#INC
+
 
 #### Returns
 
@@ -235,18 +274,24 @@ public override bool HasUniqueAttackDealy()
 ```csharp
 private void MakeDefaultStandSound()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,6 +308,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,48 +322,65 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTransformEnd()
 
 ```csharp
 public void OnTransformEnd()
 ```
+#INC
+
 
 ### OnTransformReturnEnd()
 
 ```csharp
 public void OnTransformReturnEnd()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -329,21 +393,29 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### PrevEscape()
 
 ```csharp
 private void PrevEscape()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

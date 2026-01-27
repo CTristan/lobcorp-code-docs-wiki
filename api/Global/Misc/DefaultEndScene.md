@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/DefaultEndScene
 public class DefaultEndScene : LoadingScene
 ```
 
+Loading scene used for going back to title.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → DefaultEndScene
 
@@ -33,6 +36,8 @@ public DefaultEndScene()
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int currentIndex
 ```csharp
 private int dotProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int dotProgress
 ```csharp
 public Text text
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +74,14 @@ public Text text
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

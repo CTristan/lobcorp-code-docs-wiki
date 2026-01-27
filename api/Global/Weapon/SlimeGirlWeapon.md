@@ -12,6 +12,17 @@ canonical_path: /api/Global/Weapon/SlimeGirlWeapon
 public class SlimeGirlWeapon : EquipmentScriptBase
 ```
 
+Script for [Melting Love](/api/Global/Misc/SlimeGirl)'s EGO Weapon: Adoration.
+
+Instead of giving damage normally, shoots a projectile ([SlimeGirlWeaponProjectile](/api/Global/Misc/SlimeGirlWeaponProjectile) prefab) and plays a sound.
+
+Checks if the projectile should hit[^1], and if it does, calculates damage[^2], creates the damage particle effect, and gives the target a slowing DOT debuff ([SlimeGirlWeaponDebuf](/api/Global/UnitBuf/SlimeGirlWeaponDebuf)). Also loads an effect prefab (SlimeGirlProjectileHitEffect) at the target.
+
+[^1]: #inc verify that this code is NOT how other weapons check this
+
+[^2]: Does not use WeaponModel's OnGiveDamage, and does not use the meta info in the equipment xml. Hard-coded to do base 22-44 black damage. #INC -- check if this has any other consequences
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SlimeGirlWeapon
 
@@ -33,6 +44,8 @@ public SlimeGirlWeapon()
 ```csharp
 private const int _dmgMax = 44
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +56,8 @@ private const int _dmgMax = 44
 ```csharp
 private const int _dmgMin = 22
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +68,8 @@ private const int _dmgMin = 22
 ```csharp
 private const RwbpType _dmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +80,8 @@ private const RwbpType _dmgType = B
 ```csharp
 private Vector3 _effectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +92,8 @@ private Vector3 _effectPos
 ```csharp
 private const string _projectileHitSrc = "Effect/Creature/SlimeGirl/SlimeGirlProjectileHitEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +104,8 @@ private const string _projectileHitSrc = "Effect/Creature/SlimeGirl/SlimeGirlPro
 ```csharp
 private const string _projectileSrc = "Effect/Agent/SlimeGirlWeaponProjectile"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +116,8 @@ private const string _projectileSrc = "Effect/Agent/SlimeGirlWeaponProjectile"
 ```csharp
 public const float slowRatio = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +142,8 @@ private static DamageInfo Dmg { get; }
 ```csharp
 public bool CheckHit(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +160,8 @@ public bool CheckHit(UnitModel target)
 ```csharp
 private void GiveDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +174,8 @@ private void GiveDamage(UnitModel target)
 ```csharp
 private GameObject MakeEffect(Vector3 pos, float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,6 +193,9 @@ private GameObject MakeEffect(Vector3 pos, float scale)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -180,3 +214,5 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void ShootProjectile()
 ```
+#INC
+

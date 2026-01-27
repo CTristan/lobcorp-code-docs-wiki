@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/WorkerEquipmentSprite
 ```csharp
 public class WorkerEquipmentSprite
 ```
+Stores a region and a list of sprite resources?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerEquipmentSprite
@@ -36,6 +40,8 @@ public WorkerEquipmentSprite()
 ```csharp
 public List<SpriteResourceLoadData> loadedData
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,9 @@ public List<SpriteResourceLoadData> loadedData
 ```csharp
 public EquipmentSpriteRegion subRegion
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

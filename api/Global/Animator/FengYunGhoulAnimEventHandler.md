@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/FengYunGhoulAnimEventHandler
 public class FengYunGhoulAnimEventHandler : AnimatorEventHandler
 ```
 
+Animation handler for [Clouded Monk](/api/Global/IOBserver/FengYun)'s escaping form.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → FengYunGhoulAnimEventHandler
 
@@ -53,6 +58,8 @@ private AnimatorEventHandler.EventDelegate _howlEndEvent
 ```csharp
 private const string _SOUND_ATTACK = "creature/FengYUn/Templer_Atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private const string _SOUND_ATTACK = "creature/FengYUn/Templer_Atk"
 ```csharp
 private const string _SOUND_CAST = "creature/FengYUn/Templer_Cast"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private const string _SOUND_CAST = "creature/FengYUn/Templer_Cast"
 ```csharp
 private const string _SOUND_EAT = "creature/FengYUn/Templer_Eat"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ private const string _SOUND_EAT = "creature/FengYUn/Templer_Eat"
 ```csharp
 private const string _SOUND_EATGROGGY = "creature/FengYUn/Templer_EatGroggy"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private const string _SOUND_EATGROGGY = "creature/FengYUn/Templer_EatGroggy"
 ```csharp
 private const string _SOUND_GROGGY = "creature/FengYUn/Templer_Groggy"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private const string _SOUND_GROGGY = "creature/FengYUn/Templer_Groggy"
 ```csharp
 private const string _SOUND_HOWL = "creature/FengYUn/Templer_Howl"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ private const string _SOUND_HOWL = "creature/FengYUn/Templer_Howl"
 ```csharp
 private const string _SOUND_RUN = "creature/FengYUn/Templer_Run"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ private const string _SOUND_RUN = "creature/FengYUn/Templer_Run"
 ```csharp
 private const string _SOUND_RUNFIRE = "creature/FengYUn/Templer_Run_Fire"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ private const string _SOUND_RUNFIRE = "creature/FengYUn/Templer_Run_Fire"
 ```csharp
 private SoundEffectPlayer _soundRunLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,60 +168,80 @@ private SoundEffectPlayer _soundRunLoop
 ```csharp
 public void EndEat()
 ```
+#INC
+
 
 ### EndHowl()
 
 ```csharp
 public void EndHowl()
 ```
+#INC
+
 
 ### PlayAtkSound()
 
 ```csharp
 public void PlayAtkSound()
 ```
+#INC
+
 
 ### PlayCastSound()
 
 ```csharp
 public void PlayCastSound()
 ```
+#INC
+
 
 ### PlayEatGroggySound()
 
 ```csharp
 public void PlayEatGroggySound()
 ```
+#INC
+
 
 ### PlayEatSound()
 
 ```csharp
 public void PlayEatSound()
 ```
+#INC
+
 
 ### PlayGroggySound()
 
 ```csharp
 public void PlayGroggySound()
 ```
+#INC
+
 
 ### PlayHowlSound()
 
 ```csharp
 public void PlayHowlSound()
 ```
+#INC
+
 
 ### PlayRunFireSound()
 
 ```csharp
 public void PlayRunFireSound()
 ```
+#INC
+
 
 ### PlayRunLoopSound()
 
 ```csharp
 public void PlayRunLoopSound()
 ```
+#INC
+
 
 ### SetEatEndEvent(EventDelegate)
 
@@ -229,3 +272,5 @@ public void SetHowlEndEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void StopRunLoopSound()
 ```
+#INC
+

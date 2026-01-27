@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/PlagueDoctor
 public class PlagueDoctor : CreatureBase, IObserver
 ```
 
+Plague Doctor!!!!!!!!!!
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → PlagueDoctor
 
@@ -36,6 +39,8 @@ public PlagueDoctor()
 ```csharp
 private DeathAngel _angel
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private DeathAngel _angel
 ```csharp
 private PlagueDoctorAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private PlagueDoctorAnim _animScript
 ```csharp
 private const int _apostleCount = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const int _apostleCount = 12
 ```csharp
 private static MinMax _attractFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private static MinMax _attractFreq
 ```csharp
 private Animator _currentKissAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private Animator _currentKissAnim
 ```csharp
 private AgentModel _currentKissTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private AgentModel _currentKissTarget
 ```csharp
 private UseSkill _currentWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private UseSkill _currentWork
 ```csharp
 private List<ApostleGenData> _genData
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private List<ApostleGenData> _genData
 ```csharp
 private int _genDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private int _genDay
 ```csharp
 private bool _isKiss
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private bool _isKiss
 ```csharp
 private Timer _kissDurationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private Timer _kissDurationTimer
 ```csharp
 private static float _kissEnd_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private static float _kissEnd_1
 ```csharp
 private Timer _kissEndTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private Timer _kissEndTimer
 ```csharp
 private Timer _kissMovementTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private Timer _kissMovementTimer
 ```csharp
 private SoundEffectPlayer _kissSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private SoundEffectPlayer _kissSound
 ```csharp
 private Vector3 _kissTargetInitialScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private Vector3 _kissTargetInitialScale
 ```csharp
 private static MinMax _kissTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private static MinMax _kissTime
 ```csharp
 private static string[] _save
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private static string[] _save
 ```csharp
 private static float _workerAnimatorScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private static float _workerAnimatorScale
 ```csharp
 private const int AdventLevel = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private const int AdventLevel = 12
 ```csharp
 private List<ApostleData> apostleData
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private List<ApostleData> apostleData
 ```csharp
 public const string Bell = "creature/deathangel/Lucifer_Bell0"
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ public const string Bell = "creature/deathangel/Lucifer_Bell0"
 ```csharp
 public static int giftId
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ public static int giftId
 ```csharp
 public static long ID
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ public static long ID
 ```csharp
 public static string KissSoundSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +339,8 @@ public static string KissSoundSrc
 ```csharp
 private const int QliphothCounterMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +351,8 @@ private const int QliphothCounterMax = 1
 ```csharp
 public const string TickSound = "creature/deathangel/Lucifer_Tick1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +363,8 @@ public const string TickSound = "creature/deathangel/Lucifer_Tick1"
 ```csharp
 public static long WhiteNightID
 ```
+#INC
+
 
 #### Field Value
 
@@ -350,12 +409,16 @@ private static float AttractFreq { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AddApostle(AgentModel)
 
 ```csharp
 public void AddApostle(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -368,12 +431,16 @@ public void AddApostle(AgentModel target)
 ```csharp
 public void AdventWhiteNight()
 ```
+#INC
+
 
 ### BlessedAgentWorkCheck()
 
 ```csharp
 public bool BlessedAgentWorkCheck()
 ```
+#INC
+
 
 #### Returns
 
@@ -384,18 +451,24 @@ public bool BlessedAgentWorkCheck()
 ```csharp
 public void CancelAttract()
 ```
+#INC
+
 
 ### ChangeIsolateRoom()
 
 ```csharp
 public void ChangeIsolateRoom()
 ```
+#INC
+
 
 ### CheckAdvent()
 
 ```csharp
 public static bool CheckAdvent()
 ```
+#INC
+
 
 #### Returns
 
@@ -406,6 +479,8 @@ public static bool CheckAdvent()
 ```csharp
 public bool CheckApostle(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -422,18 +497,24 @@ public bool CheckApostle(AgentModel target)
 ```csharp
 public void ClearKiss()
 ```
+#INC
+
 
 ### ClearKissSound()
 
 ```csharp
 private void ClearKissSound()
 ```
+#INC
+
 
 ### GenDeathAngel()
 
 ```csharp
 public CreatureModel GenDeathAngel()
 ```
+#INC
+
 
 #### Returns
 
@@ -444,6 +525,8 @@ public CreatureModel GenDeathAngel()
 ```csharp
 public CreatureStaticData.ParameterData GetApostleDesc(int targetindex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -460,6 +543,8 @@ public CreatureStaticData.ParameterData GetApostleDesc(int targetindex)
 ```csharp
 public string GetApostleDescRefined(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,6 +561,8 @@ public string GetApostleDescRefined(int index)
 ```csharp
 public static string GetApostleDescRefined(int index, List<ApostleGenData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -493,6 +580,8 @@ public static string GetApostleDescRefined(int index, List<ApostleGenData> data)
 ```csharp
 public List<string> GetApostleNames()
 ```
+#INC
+
 
 #### Returns
 
@@ -503,6 +592,8 @@ public List<string> GetApostleNames()
 ```csharp
 private Dictionary<int, Dictionary<string, object>> GetApostleSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -513,6 +604,8 @@ private Dictionary<int, Dictionary<string, object>> GetApostleSaveData()
 ```csharp
 public override Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -523,6 +616,8 @@ public override Dictionary<string, object> GetSaveData()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -533,6 +628,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool HasScriptSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -543,6 +640,8 @@ public override bool HasScriptSaveData()
 ```csharp
 public override bool HasUniqueCollectionCost(string areaName, out string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -560,6 +659,8 @@ public override bool HasUniqueCollectionCost(string areaName, out string text)
 ```csharp
 public bool IsKissing()
 ```
+#INC
+
 
 #### Returns
 
@@ -570,6 +671,8 @@ public bool IsKissing()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -580,6 +683,8 @@ public override bool IsWorkable()
 ```csharp
 private void LoadApostleSaveData(int max, Dictionary<int, Dictionary<string, object>> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -593,6 +698,8 @@ private void LoadApostleSaveData(int max, Dictionary<int, Dictionary<string, obj
 ```csharp
 public override void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -605,6 +712,8 @@ public override void LoadData(Dictionary<string, object> dic)
 ```csharp
 public static void Log(string log, bool isError = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -618,6 +727,8 @@ public static void Log(string log, bool isError = false)
 ```csharp
 private void MoveWorkerToCustomNode(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -630,24 +741,32 @@ private void MoveWorkerToCustomNode(WorkerModel target)
 ```csharp
 public void OnAdventEnd()
 ```
+#INC
+
 
 ### OnClockUIEnd()
 
 ```csharp
 public void OnClockUIEnd()
 ```
+#INC
+
 
 ### OnEndKiss()
 
 ```csharp
 public void OnEndKiss()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -660,24 +779,33 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnGamemanagerInit()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnInitialBuild()
 
 ```csharp
 public override void OnInitialBuild()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -691,6 +819,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -701,12 +831,16 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public void OnPlagueDoctorAdventEnd()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -719,12 +853,16 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -737,6 +875,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -749,12 +889,16 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### StartKiss(AgentModel)
 
 ```csharp
 public void StartKiss(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BigTreeSapBuf
 public class BigTreeSapBuf : UnitBuf
 ```
 
+Buff which makes agents explode after drinking from [Giant Tree Sap](/api/Global/Misc/BigTreeSap), sometimes.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BigTreeSapBuf
 
@@ -33,6 +36,8 @@ public BigTreeSapBuf()
 ```csharp
 private const float _explodeDamage = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _explodeDamage = 30
 ```csharp
 private Timer _explosionTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _explosionTimer
 ```csharp
 private float _range
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float _range
 ```csharp
 private float _remainExplodeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,18 +86,25 @@ private float _remainExplodeTime
 ```csharp
 private void Explode()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -99,6 +117,8 @@ public override void Init(UnitModel model)
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,15 +132,21 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### PrepareExplode()
 
 ```csharp
 private void PrepareExplode()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CustomProperty
 ```csharp
 public class CustomProperty : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CustomProperty
@@ -33,6 +35,8 @@ public CustomProperty()
 ```csharp
 private Dictionary<string, string> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +59,17 @@ public CustomProperty.Property[] properties
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetValue(string)
 
 ```csharp
 public string GetValue(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,3 +86,5 @@ public string GetValue(string key)
 ```csharp
 private void initDictionary()
 ```
+#INC
+

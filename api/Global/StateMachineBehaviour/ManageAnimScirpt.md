@@ -12,6 +12,10 @@ canonical_path: /api/Global/StateMachineBehaviour/ManageAnimScirpt
 public class ManageAnimScirpt : StateMachineBehaviour
 ```
 
+Resets a bunch of animator variables to 0 or false when this state is entered.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ManageAnimScirpt
 
@@ -33,6 +37,9 @@ public ManageAnimScirpt()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

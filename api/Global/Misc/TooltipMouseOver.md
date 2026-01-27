@@ -39,6 +39,8 @@ public TooltipMouseOver()
 ```csharp
 private string dynamicDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +51,8 @@ private string dynamicDesc
 ```csharp
 public string ID
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +63,8 @@ public string ID
 ```csharp
 public bool viewDefaultDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +89,8 @@ private static float _delay { get; }
 ```csharp
 private IEnumerator Delay()
 ```
+#INC
+
 
 #### Returns
 
@@ -93,12 +101,16 @@ private IEnumerator Delay()
 ```csharp
 public void ForcelySetText()
 ```
+#INC
+
 
 ### OnPointerEnter(PointerEventData)
 
 ```csharp
 public void OnPointerEnter(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,6 +123,8 @@ public void OnPointerEnter(PointerEventData eventData)
 ```csharp
 public void OnPointerExit(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +137,9 @@ public void OnPointerExit(PointerEventData eventData)
 ```csharp
 public void SetDynamicTooltip(string str)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -135,3 +152,5 @@ public void SetDynamicTooltip(string str)
 ```csharp
 private void SetText()
 ```
+#INC
+

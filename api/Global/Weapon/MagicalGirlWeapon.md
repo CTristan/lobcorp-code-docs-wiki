@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/MagicalGirlWeapon
 public class MagicalGirlWeapon : EquipmentScriptBase
 ```
 
+Script for [Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s EGO Weapon: In the Name of Love and Hate.
+
+Sends stars of a random type of damage (.3/.3/.3/.1 flying. Damages hostile things, panicked workers, and abnormalities, and heals other controllable workers. (Ignores uncontrollable workers.)
+
+Healing heals the corresponding HP or SP for the damage type, with Pale damage healing percentile HP.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → MagicalGirlWeapon
 
@@ -33,6 +40,8 @@ public MagicalGirlWeapon()
 ```csharp
 private const float _bDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _bDmgMax = 8
 ```csharp
 private const float _bDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float _bDmgMin = 5
 ```csharp
 private const float _bHealMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const float _bHealMax = 3
 ```csharp
 private const float _bHealMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private const float _bHealMin = 2
 ```csharp
 private const float _bProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private const float _bProb = 0.3
 ```csharp
 private Vector3 _effectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private Vector3 _effectPos
 ```csharp
 private const float _pDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ private const float _pDmgMax = 8
 ```csharp
 private const float _pDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ private const float _pDmgMin = 5
 ```csharp
 private const float _pHealMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ private const float _pHealMax = 3
 ```csharp
 private const float _pHealMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ private const float _pHealMin = 2
 ```csharp
 private const string _projectileSrc = "Effect/Agent/MagicalGirlWeaponProjectile_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ private const string _projectileSrc = "Effect/Agent/MagicalGirlWeaponProjectile_
 ```csharp
 private const float _rDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ private const float _rDmgMax = 8
 ```csharp
 private const float _rDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ private const float _rDmgMin = 5
 ```csharp
 private const float _rHealMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ private const float _rHealMax = 3
 ```csharp
 private const float _rHealMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ private const float _rHealMin = 2
 ```csharp
 private const float _rProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +232,8 @@ private const float _rProb = 0.3
 ```csharp
 private const float _wDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +244,8 @@ private const float _wDmgMax = 8
 ```csharp
 private const float _wDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +256,8 @@ private const float _wDmgMin = 5
 ```csharp
 private const float _wHealMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +268,8 @@ private const float _wHealMax = 3
 ```csharp
 private const float _wHealMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +280,8 @@ private const float _wHealMin = 2
 ```csharp
 private const float _wProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,6 +416,8 @@ private static float wValue { get; }
 ```csharp
 public bool CheckHit(UnitModel target, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -384,6 +435,8 @@ public bool CheckHit(UnitModel target, RwbpType type)
 ```csharp
 private void GiveDamage(UnitModel target, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -397,6 +450,8 @@ private void GiveDamage(UnitModel target, RwbpType type)
 ```csharp
 private void Heal(WorkerModel worker, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -410,6 +465,9 @@ private void Heal(WorkerModel worker, RwbpType type)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -428,3 +486,5 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void ShootProjectile()
 ```
+#INC
+

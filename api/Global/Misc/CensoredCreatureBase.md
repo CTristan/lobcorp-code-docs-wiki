@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CensoredCreatureBase
 ```csharp
 public class CensoredCreatureBase : CreatureBase
 ```
+Parent class for [CENSORED](/api/Global/Misc/Censored) and its spawn.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → CensoredCreatureBase
@@ -36,6 +38,8 @@ public CensoredCreatureBase()
 ```csharp
 protected const int _agentLevelCondition = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ protected const int _agentLevelCondition = 4
 ```csharp
 protected const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ protected const float _motionDelayMax = 1
 ```csharp
 protected const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ protected const float _motionDelayMin = 0.5
 ```csharp
 protected float attackDmgRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ protected float attackDmgRange
 ```csharp
 protected float attackRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ protected float attackRange
 ```csharp
 protected Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ protected Timer motionDelayTimer
 ```csharp
 protected float recognizeRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,18 +136,24 @@ protected static float motionDelay { get; }
 ```csharp
 protected virtual void AttackStart()
 ```
+#INC
+
 
 ### CheckNear()
 
 ```csharp
 protected void CheckNear()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 protected float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,6 +170,8 @@ protected float GetDistance(UnitModel target)
 ```csharp
 protected UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +189,8 @@ protected UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 protected UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +207,8 @@ protected UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 protected List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,6 +226,8 @@ protected List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 protected bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,6 +244,8 @@ protected bool IsHostile(MovableObjectNode mov)
 ```csharp
 protected bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,6 +263,8 @@ protected bool IsInRange(UnitModel target, float range)
 ```csharp
 protected bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -247,6 +281,8 @@ protected bool IsInView(UnitModel target)
 ```csharp
 protected virtual bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -257,15 +293,22 @@ protected virtual bool IsMovable()
 ```csharp
 protected virtual void MakeMovement()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 protected virtual void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+#code-generated
+

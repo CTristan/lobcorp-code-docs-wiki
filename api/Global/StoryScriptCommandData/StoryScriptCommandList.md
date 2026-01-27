@@ -12,6 +12,9 @@ canonical_path: /api/Global/StoryScriptCommandData/StoryScriptCommandList
 public class StoryScriptCommandList : StoryScriptCommandData
 ```
 
+Stores a list of [story commands](/api/Global/Story/StoryScriptCommandData). #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StoryScriptCommandData](/api/Global/Story/StoryScriptCommandData) → StoryScriptCommandList
 
@@ -25,6 +28,9 @@ public class StoryScriptCommandList : StoryScriptCommandData
 ```csharp
 public StoryScriptCommandList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ public StoryScriptCommandList()
 ```csharp
 public List<StoryScriptCommandData> list
 ```
+#INC
+
 
 #### Field Value
 

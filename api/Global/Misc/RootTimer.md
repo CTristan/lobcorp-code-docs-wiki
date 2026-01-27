@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/RootTimer
 public class RootTimer : MonoBehaviour
 ```
 
+Keeps track of timers, maybe. See [GameManager](/api/Global/Misc/GameManager)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RootTimer
 
@@ -33,6 +38,8 @@ public RootTimer()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,9 @@ private List<RootTimer.Timer> timers
 ```csharp
 public void AddTimer(string noticeName, float tick)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -68,12 +78,16 @@ public void AddTimer(string noticeName, float tick)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### RemoveTimer(string)
 
 ```csharp
 public void RemoveTimer(string noticeName)
 ```
+#INC
+
 
 #### Parameters
 

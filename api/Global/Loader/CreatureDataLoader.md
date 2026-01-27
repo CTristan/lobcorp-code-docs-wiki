@@ -11,6 +11,14 @@ canonical_path: /api/Global/Loader/CreatureDataLoader
 ```csharp
 public class CreatureDataLoader
 ```
+Loads abnormality information from various XML files.
+
+Requires that equipment is loaded first. (See [EquipmentDataLoader](/api/Global/Loader/EquipmentDataLoader))
+
+Loads stats, the animation handler, risk level, observation data, creature scripts, portraits, child creature data, sounds, and probably other things, too.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureDataLoader
@@ -137,6 +145,8 @@ public CreatureEventCallTime GetCreatureEventCallTime(string time)
 ```csharp
 public void Load()
 ```
+#INC
+
 
 ### LoadChildMeta(string, ref List<CreatureSpecialSkillTipTable>, ref Dictionary<long, int>, bool)
 
@@ -214,6 +224,8 @@ public string LoadCollectionStringItem(XmlNode node, ref int level)
 ```csharp
 public void LoadCreatureCollectionInfo(XmlNode collection, CreatureTypeInfo model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +239,8 @@ public void LoadCreatureCollectionInfo(XmlNode collection, CreatureTypeInfo mode
 ```csharp
 private void LoadCreatureStat(XmlNode stat, XmlNode statCreature, CreatureTypeInfo model)
 ```
+#INC
+
 
 #### Parameters
 

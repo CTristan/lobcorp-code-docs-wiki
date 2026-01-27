@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/HammerTeleportCommand
 public class HammerTeleportCommand : MonoBehaviour
 ```
 
+Empty command for [Hammer of Light](/api/Global/Misc/LightsHammer).
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → HammerTeleportCommand
 
@@ -33,9 +37,14 @@ public HammerTeleportCommand()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Sakura
 public class Sakura : CreatureBase
 ```
 
+Grave of the Cherry Blossoms.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Sakura
 
@@ -33,6 +38,8 @@ public Sakura()
 ```csharp
 private SakuraAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SakuraAnim _animScript
 ```csharp
 private const int _attractCnt = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _attractCnt = 5
 ```csharp
 private const int _cancelAttractDmgMax = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _cancelAttractDmgMax = 18
 ```csharp
 private const int _cancelAttractDmgMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _cancelAttractDmgMin = 15
 ```csharp
 private const RwbpType _cancelAttractDmgType = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const RwbpType _cancelAttractDmgType = W
 ```csharp
 private const int _qliphothMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _qliphothMax = 3
 ```csharp
 private List<WorkerModel> attracted
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private List<WorkerModel> attracted
 ```csharp
 private bool isEating
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private bool isEating
 ```csharp
 private bool isInSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private bool isInSkill
 ```csharp
 private bool sacrificed
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool sacrificed
 ```csharp
 private WorkerModel sacrificeTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,24 +194,32 @@ private static DamageInfo cancelAttractDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateSkill()
 
 ```csharp
 private void ActivateSkill()
 ```
+#INC
+
 
 ### AddedQliphothCounter()
 
 ```csharp
 public override void AddedQliphothCounter()
 ```
+#INC
+
 
 ### Attract(WorkerModel)
 
 ```csharp
 private void Attract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,12 +232,16 @@ private void Attract(WorkerModel worker)
 ```csharp
 public void CancelAttract()
 ```
+#INC
+
 
 ### CancelAttract(WorkerModel)
 
 ```csharp
 public void CancelAttract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +254,8 @@ public void CancelAttract(WorkerModel worker)
 ```csharp
 private bool CheckAttractCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,6 +272,8 @@ private bool CheckAttractCondition(WorkerModel worker)
 ```csharp
 private bool CheckHealCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -247,6 +290,8 @@ private bool CheckHealCondition(WorkerModel worker)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -257,18 +302,24 @@ public override bool HasRoomCounter()
 ```csharp
 public void Heal()
 ```
+#INC
+
 
 ### HealStart()
 
 ```csharp
 private void HealStart()
 ```
+#INC
+
 
 ### isHealing()
 
 ```csharp
 private bool isHealing()
 ```
+#INC
+
 
 #### Returns
 
@@ -279,6 +330,8 @@ private bool isHealing()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -289,6 +342,8 @@ public override bool IsWorkable()
 ```csharp
 public void OnArrive(WorkerModel arrived)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,12 +356,16 @@ public void OnArrive(WorkerModel arrived)
 ```csharp
 public void OnHealEnd()
 ```
+#INC
+
 
 ### OnOpenWorkWindow()
 
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -317,6 +376,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -329,30 +390,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public void OnSacrificeEnd()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +436,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,6 +450,8 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public void OnWorkerAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,33 +464,46 @@ public void OnWorkerAnimCalled(int i)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ReducedQliphothCounter()
 
 ```csharp
 public override void ReducedQliphothCounter()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 private void Reset()
 ```
+#INC
+
 
 ### Sacrifice()
 
 ```csharp
 private void Sacrifice()
 ```
+#INC
+
 
 ### SubQliphothCounter()
 
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+
 
 ### UpdateAnim()
 
 ```csharp
 private void UpdateAnim()
 ```
+#INC
+

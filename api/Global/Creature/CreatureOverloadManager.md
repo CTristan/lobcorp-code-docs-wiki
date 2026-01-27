@@ -11,6 +11,8 @@ canonical_path: /api/Global/Creature/CreatureOverloadManager
 ```csharp
 public class CreatureOverloadManager
 ```
+Manages Qliphoth overloads for each day. Also, sets the [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)'s maximum number of bullets.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureOverloadManager
@@ -33,6 +35,8 @@ public CreatureOverloadManager()
 ```csharp
 private static CreatureOverloadManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static CreatureOverloadManager _instance
 ```csharp
 private OrdealBase _nextOrdeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private OrdealBase _nextOrdeal
 ```csharp
 private int _qliphothOverloadMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private int _qliphothOverloadMax
 ```csharp
 private HashSet<SefiraEnum> clearedBossMissions
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private HashSet<SefiraEnum> clearedBossMissions
 ```csharp
 private readonly int[] overflowValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private readonly int[] overflowValue
 ```csharp
 private int qliphothOverloadGauge
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private int qliphothOverloadGauge
 ```csharp
 private int qliphothOverloadIsolateNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private int qliphothOverloadIsolateNum
 ```csharp
 private int qliphothOverloadLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,12 +155,16 @@ public int qliphothOverloadMax { get; }
 ```csharp
 private void ActivateOverload()
 ```
+#INC
+
 
 ### ActivateOverload(int, OverloadType, float, bool, bool, bool, params long[])
 
 ```csharp
 public List<CreatureModel> ActivateOverload(int overloadCount, OverloadType type, float overloadTime, bool ignoreWork = false, bool ignoreBossReward = false, bool ignoreDefaultOverload = false, params long[] ignoredCreatureMetaId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,12 +187,16 @@ public List<CreatureModel> ActivateOverload(int overloadCount, OverloadType type
 ```csharp
 public void AddOverloadGague()
 ```
+#INC
+
 
 ### CheckOrdealActivate(int)
 
 ```csharp
 private bool CheckOrdealActivate(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +213,8 @@ private bool CheckOrdealActivate(int currentLevel)
 ```csharp
 public int GetQliphothOverloadLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -197,18 +225,25 @@ public int GetQliphothOverloadLevel()
 ```csharp
 public void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetQliphothOverloadLevel(int)
 
 ```csharp
 private void SetQliphothOverloadLevel(int level)
 ```
+#INC
+
 
 #### Parameters
 

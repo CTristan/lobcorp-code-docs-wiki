@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/SingingMachineGift
 public class SingingMachineGift : EquipmentScriptBase
 ```
 
+Script for [Singing Machine](/api/Global/Machine/SingingMachine)'s EGO Gift: Harmony.
+
+After taking white damage, recovers 20% of damage taken and gains 10 attack speed for 5 seconds (unless dead).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SingingMachineGift
 
@@ -33,6 +38,8 @@ public SingingMachineGift()
 ```csharp
 public override bool OnTakeDamage_After(float value, RwbpType type)
 ```
+After taking white damage, recovers 20% of SP damage taken and gives the user [SingingMachineGiftBuf](/api/Global/UnitStatBuf/SingingMachineGiftBuf).
+
 
 #### Parameters
 

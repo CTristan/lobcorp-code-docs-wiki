@@ -12,6 +12,11 @@ canonical_path: /api/InGameUI/AgentGiftSlot
 public class AgentGiftSlot : MonoBehaviour
 ```
 
+UI element representing [agents](/api/Global/Worker/AgentModel)' EGO gift slots; can have lock and display toggled, holds description, etc.
+
+See [AgentGiftWindow](/api/InGameUI/AgentGiftWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentGiftSlot
 
@@ -33,6 +38,8 @@ public AgentGiftSlot()
 ```csharp
 private const float _additionalHeight = 90
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _additionalHeight = 90
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private AgentModel _currentAgent
 ```csharp
 private bool _dispState
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _dispState
 ```csharp
 private bool _lockState
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool _lockState
 ```csharp
 private bool _setLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _setLayout
 ```csharp
 private const float _spacing = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _spacing = 5
 ```csharp
 public Image DisplayActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Image DisplayActive
 ```csharp
 public Button DisplayButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public Button DisplayButton
 ```csharp
 public TooltipMouseOver dispTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public TooltipMouseOver dispTooltip
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public Image Frame
 ```csharp
 public Text GiftDescription
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public Text GiftDescription
 ```csharp
 public Text GiftName
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public Text GiftName
 ```csharp
 public bool IsDisplayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ public bool IsDisplayed
 ```csharp
 public bool IsLocked
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +217,8 @@ public Sprite Lock_Close
 ```csharp
 public Sprite Lock_Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +229,8 @@ public Sprite Lock_Open
 ```csharp
 public Button LockButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +241,8 @@ public Button LockButton
 ```csharp
 public TooltipMouseOver lockTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,6 +253,8 @@ public TooltipMouseOver lockTooltip
 ```csharp
 private RectTransform rectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +265,8 @@ private RectTransform rectTransform
 ```csharp
 public int region
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,6 +290,8 @@ public Text RegionName
 ```csharp
 public EGOgiftModel CurrentModel { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -265,12 +310,16 @@ private void Awake()
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### SetButtonInteractable(bool, bool)
 
 ```csharp
 public void SetButtonInteractable(bool disp, bool lockS)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,18 +333,24 @@ public void SetButtonInteractable(bool disp, bool lockS)
 ```csharp
 private void SetData()
 ```
+#INC
+
 
 ### SetDisplay()
 
 ```csharp
 public void SetDisplay()
 ```
+#INC
+
 
 ### SetDisplayButton(bool)
 
 ```csharp
 public void SetDisplayButton(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,6 +363,8 @@ public void SetDisplayButton(bool state)
 ```csharp
 public void SetGift(AgentModel agent, EGOgiftModel gift)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,18 +378,24 @@ public void SetGift(AgentModel agent, EGOgiftModel gift)
 ```csharp
 private void SetLayout()
 ```
+#INC
+
 
 ### SetLock()
 
 ```csharp
 public void SetLock()
 ```
+#INC
+
 
 ### SetLockButton(bool)
 
 ```csharp
 public void SetLockButton(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -345,9 +408,14 @@ public void SetLockButton(bool state)
 ```csharp
 private void SetRegionName()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

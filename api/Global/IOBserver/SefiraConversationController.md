@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/SefiraConversationController
 public class SefiraConversationController : MonoBehaviour, IObserver
 ```
 
+Manages Sephirot yapping. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraConversationController
 
@@ -46,6 +51,8 @@ private Object _conversationPrefab
 ```csharp
 private static SefiraConversationController _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private static SefiraConversationController _instance
 ```csharp
 public Transform _layout
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public Transform _layout
 ```csharp
 private GameObject asd
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private GameObject asd
 ```csharp
 private int count
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private int count
 ```csharp
 private List<SefiraEnum> mutedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,12 +125,17 @@ public static SefiraConversationController Instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckMuted(int)
 
 ```csharp
 public bool CheckMuted(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +152,8 @@ public bool CheckMuted(int index)
 ```csharp
 private IEnumerator MoveDown()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,18 +164,24 @@ private IEnumerator MoveDown()
 ```csharp
 private void MoveDownUpdate()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,18 +195,24 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateConversation(Sprite, Color, string)
 
 ```csharp
 public void UpdateConversation(Sprite s, Color c, string d)
 ```
+#INC
+
 
 #### Parameters
 

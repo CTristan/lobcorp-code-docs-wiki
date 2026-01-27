@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SnowWhiteAnim
 public class SnowWhiteAnim : CreatureAnimScript
 ```
 
+Animation handler for [Snow White's Apple](/api/Global/Misc/SnowWhite).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → SnowWhiteAnim
 
@@ -33,6 +38,8 @@ public SnowWhiteAnim()
 ```csharp
 public GameObject attackEffectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public GameObject attackEffectPrefab
 ```csharp
 public Sprite dressDefault
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Sprite dressDefault
 ```csharp
 public SpriteRenderer dressRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public SpriteRenderer dressRenderer
 ```csharp
 public Sprite dressRooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Sprite dressRooted
 ```csharp
 public Animator teleportEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,15 +100,22 @@ public Animator teleportEffect
 ```csharp
 public void ChangeDressToDefault()
 ```
+#INC
+#code-generated
+
 
 ### ChangeDressToRooted()
 
 ```csharp
 public void ChangeDressToRooted()
 ```
+#INC
+
 
 ### OnReturned()
 
 ```csharp
 public void OnReturned()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/YggdrasilSuicideBuf
 public class YggdrasilSuicideBuf : UnitBuf
 ```
 
+Buff from [Parasite Tree](/api/Global/IOBserver/Yggdrasil) which instantly kills the employee and spawns a sapling if needed.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → YggdrasilSuicideBuf
 
@@ -25,6 +30,9 @@ public class YggdrasilSuicideBuf : UnitBuf
 ```csharp
 public YggdrasilSuicideBuf(WorkerModel worker, Yggdrasil script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +48,8 @@ public YggdrasilSuicideBuf(WorkerModel worker, Yggdrasil script)
 ```csharp
 private Yggdrasil script
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +60,8 @@ private Yggdrasil script
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +74,8 @@ private WorkerModel worker
 ```csharp
 public void OnWorkerAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 

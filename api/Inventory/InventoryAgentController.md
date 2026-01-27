@@ -12,6 +12,11 @@ canonical_path: /api/Inventory/InventoryAgentController
 public class InventoryAgentController : MonoBehaviour
 ```
 
+UI to show detailed information about the selected agent on the [E.G.O List screen](/api/Inventory/InventoryUI).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryAgentController
 
@@ -33,6 +38,8 @@ public InventoryAgentController()
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private AgentModel _currentAgent
 ```csharp
 public InventoryAgentSlot AgentSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public InventoryAgentSlot AgentSlot
 ```csharp
 public Text ArmorGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Text ArmorGrade
 ```csharp
 public WorkerPortraitSetter ArmorImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ public Text ArmorTitle
 ```csharp
 public GameObject attachUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ public GameObject attachUnit
 ```csharp
 public Text DamageText
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +121,8 @@ public Text DamageText
 ```csharp
 public Text[] DefenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public Text[] DefenseFactor
 ```csharp
 public Text[] DefenseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +156,8 @@ public AgentInfoWindow.StatObject[] Stats
 ```csharp
 public RectTransform SubEquipListParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +179,8 @@ public Text SubEquipTitle
 ```csharp
 public Image TypeFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +191,8 @@ public Image TypeFill
 ```csharp
 public Text TypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +203,8 @@ public Text TypeText
 ```csharp
 public Text WeaponGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +215,8 @@ public Text WeaponGrade
 ```csharp
 public Image WeaponImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -221,6 +252,9 @@ public AgentModel CurrentAgent { get; }
 ```csharp
 public void SetAgent(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -233,3 +267,5 @@ public void SetAgent(AgentModel agent)
 ```csharp
 public void SetUI()
 ```
+#INC
+

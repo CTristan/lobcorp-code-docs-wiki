@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/ShieldTypeInfo
 ```csharp
 public class ShieldTypeInfo
 ```
+Holds information about a type of shield.
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ShieldTypeInfo
@@ -33,6 +37,8 @@ public ShieldTypeInfo()
 ```csharp
 public int defense
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public int defense
 ```csharp
 public string description_key
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public string description_key
 ```csharp
 public string iconSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public string iconSrc
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public int id
 ```csharp
 public int maxHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public int maxHp
 ```csharp
 public float movement
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,9 @@ public float movement
 ```csharp
 public string GetDescription()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -105,6 +124,8 @@ public string GetDescription()
 ```csharp
 public string GetIconSrc()
 ```
+#INC
+
 
 #### Returns
 

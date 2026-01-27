@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/IsolateDescManager
 public class IsolateDescManager
 ```
 
+Helper for displaying [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription) instances.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IsolateDescManager
 
@@ -105,6 +109,8 @@ public const int Max_WorkStart = 1
 ```csharp
 public static List<int> GetList(RwbpType type)
 ```
+Produces a list of integers from 0 to the maximum number of available different [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription) texts for the given work type.
+
 
 #### Parameters
 

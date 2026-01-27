@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/IButtonAnimCalled
 ```csharp
 public interface IButtonAnimCalled
 ```
+An interface representing a button, presumably for animation.
+
+Used by [ButtonAnimationEvent](/api/Global/Event/ButtonAnimationEvent), which seems unused...
+
+#unused #maybe_unused 
+
 
 ## Methods
 
@@ -19,21 +25,30 @@ public interface IButtonAnimCalled
 ```csharp
 void OnButtonDisable()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 void OnEnter()
 ```
+#INC
+#code-generated
+
 
 ### OnExit()
 
 ```csharp
 void OnExit()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SpineSpriteChanger
 public class SpineSpriteChanger : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpineSpriteChanger
 
@@ -43,6 +46,8 @@ public List<SpineSpriteChanger.SpriteChangeData> changeData
 ```csharp
 public bool RefreshoOnStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +60,8 @@ public bool RefreshoOnStart
 ```csharp
 public void Attach()
 ```
+#INC
+
 
 ### Attach(SpriteChangeData)
 
@@ -73,3 +80,6 @@ public void Attach(SpineSpriteChanger.SpriteChangeData data)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

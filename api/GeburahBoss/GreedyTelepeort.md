@@ -12,6 +12,10 @@ canonical_path: /api/GeburahBoss/GreedyTelepeort
 public class GreedyTelepeort : GeburahAction
 ```
 
+[The Red Mist](/api/Global/Script/GeburahCoreScript)'s action for the Gold Rush attack.
+(First and third phases.)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → GreedyTelepeort
 
@@ -25,6 +29,8 @@ public class GreedyTelepeort : GeburahAction
 ```csharp
 public GreedyTelepeort(GeburahCoreScript geburah, int passageCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +46,8 @@ public GreedyTelepeort(GeburahCoreScript geburah, int passageCount)
 ```csharp
 private Timer _damageSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +58,8 @@ private Timer _damageSoundTimer
 ```csharp
 private Timer _delayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +70,8 @@ private Timer _delayTimer
 ```csharp
 private const float animClipTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +82,8 @@ private const float animClipTime = 1
 ```csharp
 private MovementBuf buf
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +94,8 @@ private MovementBuf buf
 ```csharp
 private MovementInfo currentInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +106,8 @@ private MovementInfo currentInfo
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +118,8 @@ private List<UnitModel> damaged
 ```csharp
 public static DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +130,8 @@ public static DamageInfo damageInfo
 ```csharp
 private int moveCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +142,8 @@ private int moveCount
 ```csharp
 private int moveMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +154,8 @@ private int moveMax
 ```csharp
 private Queue<MovementInfo> movementInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +166,8 @@ private Queue<MovementInfo> movementInfo
 ```csharp
 private List<MovementInfo> movementInfoList
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +178,8 @@ private List<MovementInfo> movementInfoList
 ```csharp
 private int PassageCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +190,8 @@ private int PassageCount
 ```csharp
 private List<Animator> portalAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,6 +202,8 @@ private List<Animator> portalAnim
 ```csharp
 private float speedFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,6 +214,8 @@ private float speedFactor
 ```csharp
 public const float speedValue = 32
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,12 +250,16 @@ private bool isRunning { get; }
 ```csharp
 private void ExecuteNextInfo()
 ```
+#INC
+
 
 ### MakePortal(Vector3)
 
 ```csharp
 public Animator MakePortal(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,12 +276,16 @@ public Animator MakePortal(Vector3 pos)
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnEventCalled(int)
 
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -254,18 +298,24 @@ public void OnEventCalled(int i)
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public void OnGiveDamage()
 ```
+#INC
+
 
 ### OnReadyForRun(MovementInfo)
 
 ```csharp
 private void OnReadyForRun(MovementInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -278,9 +328,14 @@ private void OnReadyForRun(MovementInfo info)
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

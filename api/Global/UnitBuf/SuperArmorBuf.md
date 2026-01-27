@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/SuperArmorBuf
 public class SuperArmorBuf : UnitBuf
 ```
 
+Used by [Punishing Bird](/api/Global/Misc/SmallBird), but shouldn't do anything other than a visual effect, maybe... #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SuperArmorBuf
 
@@ -25,6 +28,8 @@ public class SuperArmorBuf : UnitBuf
 ```csharp
 public SuperArmorBuf(UnitBufType type, float superArmor, float defense)
 ```
+#INC
+
 
 #### Parameters
 
@@ -41,6 +46,8 @@ public SuperArmorBuf(UnitBufType type, float superArmor, float defense)
 ```csharp
 private float defense
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +58,8 @@ private float defense
 ```csharp
 private float superArmor
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ private float superArmor
 ```csharp
 private SuperArmorEffect superArmorEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,12 +84,17 @@ private SuperArmorEffect superArmorEffect
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -91,3 +107,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

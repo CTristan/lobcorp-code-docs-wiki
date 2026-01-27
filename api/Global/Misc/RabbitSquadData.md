@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/RabbitSquadData
 ```csharp
 public class RabbitSquadData
 ```
+Holds the information for creating a [RabbitSquad](/api/Global/Misc/RabbitSquad).
+
+Holds the squad ID, the department ID, [RabbitTeamData](/api/Global/Misc/RabbitTeamData) for the teams, the list of nodes to deactivate, and [RabbitTeleportData](/api/Global/Misc/RabbitTeleportData) for the teleports. #verify #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitSquadData
@@ -33,6 +37,9 @@ public RabbitSquadData()
 ```csharp
 public int id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public int id
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public SefiraEnum sefira
 ```csharp
 public List<string> shutdownNodes
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public List<string> shutdownNodes
 ```csharp
 public List<RabbitTeamData> teams
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public List<RabbitTeamData> teams
 ```csharp
 public List<RabbitTeleportData> teleports
 ```
+#INC
+
 
 #### Field Value
 

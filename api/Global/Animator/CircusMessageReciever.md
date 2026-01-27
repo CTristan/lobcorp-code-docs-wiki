@@ -12,6 +12,12 @@ canonical_path: /api/Global/Animator/CircusMessageReciever
 public class CircusMessageReciever : AnimatorEventHandler
 ```
 
+Not sure. Maybe for queuing animations on certain events?
+
+Possibly (un)used by [CircusDawnAnim](/api/Global/Creature/CircusDawnAnim)
+#INC #unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → CircusMessageReciever
 
@@ -75,18 +81,24 @@ private AnimatorEventHandler.EventDelegate _teleportEvent
 ```csharp
 public void EndTeleport()
 ```
+#INC
+
 
 ### Explosion()
 
 ```csharp
 public void Explosion()
 ```
+#INC
+
 
 ### MakeParticle()
 
 ```csharp
 public void MakeParticle()
 ```
+#INC
+
 
 ### SetEndTeleportEvent(EventDelegate)
 
@@ -141,3 +153,5 @@ public void SetTeleportEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void Teleport()
 ```
+#INC
+

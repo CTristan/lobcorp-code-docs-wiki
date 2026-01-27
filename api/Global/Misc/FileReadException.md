@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/FileReadException
 public class FileReadException : Exception, ISerializable, _Exception
 ```
 
+Exception through when a file could not be read. Thrown only by [SaveUtil](/api/Global/Misc/SaveUtil).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Exception](https://learn.microsoft.com/dotnet/api/system.exception) → FileReadException
 
@@ -28,6 +31,8 @@ public class FileReadException : Exception, ISerializable, _Exception
 ```csharp
 public FileReadException(Exception exception)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public FileReadException(Exception exception)
 ```csharp
 private Exception basicExceptionInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ private Exception basicExceptionInfo
 ```csharp
 public string fileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,9 @@ public string fileName
 ```csharp
 public override string ToString()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

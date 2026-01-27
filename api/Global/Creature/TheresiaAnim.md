@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/TheresiaAnim
 public class TheresiaAnim : CreatureAnimScript
 ```
 
+Animation handler for [Theresia](/api/Global/Misc/Theresia).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → TheresiaAnim
 
@@ -33,6 +36,8 @@ public TheresiaAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,18 +50,25 @@ private SpineOptimizerModule _module
 ```csharp
 public void CancelCast()
 ```
+#INC
+
 
 ### Cast()
 
 ```csharp
 public void Cast()
 ```
+#INC
+
 
 ### SetModel(UnitModel)
 
 ```csharp
 public void SetModel(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -69,3 +81,5 @@ public void SetModel(UnitModel model)
 ```csharp
 private void Update()
 ```
+#INC
+

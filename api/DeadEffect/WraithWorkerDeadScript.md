@@ -12,6 +12,11 @@ canonical_path: /api/DeadEffect/WraithWorkerDeadScript
 public class WraithWorkerDeadScript : MonoBehaviour
 ```
 
+Empty and unused.
+
+#unused
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WraithWorkerDeadScript
 

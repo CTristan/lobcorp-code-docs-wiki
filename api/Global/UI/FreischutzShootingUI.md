@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/FreischutzShootingUI
 public class FreischutzShootingUI : MonoBehaviour
 ```
 
+UI for [Der Freischütz](/api/Global/Misc/Freischutz)'s special work type.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FreischutzShootingUI
 
@@ -33,6 +38,8 @@ public FreischutzShootingUI()
 ```csharp
 private FreischutzAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FreischutzAnim _anim
 ```csharp
 public Canvas _canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Canvas _canvas
 ```csharp
 public GameObject _cursorAfterImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public GameObject _cursorAfterImage
 ```csharp
 public GameObject _cursorSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,18 +88,25 @@ public GameObject _cursorSprite
 ```csharp
 public void FinishShooting()
 ```
+#INC
+
 
 ### Shot()
 
 ```csharp
 private void Shot()
 ```
+#INC
+
 
 ### StartShooting(FreischutzAnim)
 
 ```csharp
 public void StartShooting(FreischutzAnim a)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -99,3 +119,5 @@ public void StartShooting(FreischutzAnim a)
 ```csharp
 private void Update()
 ```
+#INC
+

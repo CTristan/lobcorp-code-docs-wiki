@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/PromiseAndFaithAnimEventHandler
 public class PromiseAndFaithAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper script for [Old Faith and Promise's animation handler](/api/Global/Creature/PromiseAndFaithAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → PromiseAndFaithAnimEventHandler
 
@@ -115,12 +120,16 @@ private AnimatorEventHandler.EventDelegate _soundSuccessEvent
 ```csharp
 public void ExitWork()
 ```
+#INC
+
 
 ### Result()
 
 ```csharp
 public void Result()
 ```
+#INC
+
 
 ### SetExitEvent(EventDelegate)
 
@@ -163,6 +172,8 @@ public void SetSoundEvent(AnimatorEventHandler.AnimEventDelegate e)
 ```csharp
 public void Sound(int idx)
 ```
+#INC
+
 
 #### Parameters
 

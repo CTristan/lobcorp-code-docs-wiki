@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/HellTrainDepartureCollision
 public class HellTrainDepartureCollision : MonoBehaviour
 ```
 
+Collider for [Express Train to Hell](/api/Global/Misc/HellTrain)'s [train](/api/Global/Misc/HellTrainDeparture).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → HellTrainDepartureCollision
 
@@ -33,6 +36,8 @@ public HellTrainDepartureCollision()
 ```csharp
 public HellTrainDeparture root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ public HellTrainDeparture root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

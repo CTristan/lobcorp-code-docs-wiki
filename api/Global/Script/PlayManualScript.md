@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/PlayManualScript
 public class PlayManualScript : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlayManualScript
 
@@ -33,6 +36,8 @@ public PlayManualScript()
 ```csharp
 private int _cnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int _cnt
 ```csharp
 private bool _exported
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _exported
 ```csharp
 private int _max
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private int _max
 ```csharp
 private bool _onDrag
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private bool _onDrag
 ```csharp
 private Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Animator anim
 ```csharp
 private bool animActivate
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private bool animActivate
 ```csharp
 public int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public int currentIndex
 ```csharp
 private RectTransform destroyArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private RectTransform destroyArea
 ```csharp
 public string directory
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public string directory
 ```csharp
 private bool extended
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private bool extended
 ```csharp
 public List<Image> imageList
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public List<Image> imageList
 ```csharp
 public Sprite None
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public Sprite None
 ```csharp
 private RectTransform rect
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private RectTransform rect
 ```csharp
 public GameObject Std
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,12 +206,16 @@ public GameObject Std
 ```csharp
 public void BoundaryCheck()
 ```
+#INC
+
 
 ### Drag(BaseEventData)
 
 ```csharp
 public void Drag(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +228,8 @@ public void Drag(BaseEventData eventData)
 ```csharp
 public void MovePage(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,9 +242,14 @@ public void MovePage(int index)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

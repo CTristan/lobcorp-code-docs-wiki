@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/PassageGroundInfo
 ```csharp
 public class PassageGroundInfo
 ```
+Holds the height of the ground and the sprites on the floor of a [room](/api/Global/Model/PassageObjectModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PassageGroundInfo
@@ -25,6 +29,9 @@ public class PassageGroundInfo
 ```csharp
 public PassageGroundInfo()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public PassageGroundInfo()
 ```csharp
 public List<Sprite> alterSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public List<Sprite> alterSprites
 ```csharp
 public List<Sprite> bloodSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public List<Sprite> bloodSprites
 ```csharp
 public float height
 ```
+#INC
+
 
 #### Field Value
 

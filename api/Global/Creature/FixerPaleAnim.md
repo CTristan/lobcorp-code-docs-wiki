@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/FixerPaleAnim
 public class FixerPaleAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for the [Pale Fixer](/api/Global/Misc/FixerPale).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FixerPaleAnim
 
@@ -36,6 +39,8 @@ public FixerPaleAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject blade
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public GameObject blade
 ```csharp
 public GameObject pistol
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public GameObject pistol
 ```csharp
 private FixerPale script
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +89,8 @@ private FixerPale script
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,18 +103,24 @@ public override void AttackCalled(int i)
 ```csharp
 private void AttackFarEnd()
 ```
+#INC
+
 
 ### AttackNearEnd()
 
 ```csharp
 private void AttackNearEnd()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,6 +137,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -128,6 +150,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -138,6 +162,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -148,6 +174,8 @@ public bool IsInSkill()
 ```csharp
 public bool IsTeleporting()
 ```
+#INC
+
 
 #### Returns
 
@@ -193,6 +221,8 @@ public SoundEffectPlayer MakeSound(string src, Vector3 position, float vol = 1)
 ```csharp
 public void OnAttackStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,6 +235,8 @@ public void OnAttackStart(bool isNear)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,48 +249,64 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart()
 
 ```csharp
 public void OnSkillStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### OnTeleport()
 
 ```csharp
 public void OnTeleport()
 ```
+#INC
+
 
 ### OnTeleportStart()
 
 ```csharp
 public void OnTeleportStart()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAttackEnd()
 
 ```csharp
 public void SetAttackEnd()
 ```
+#INC
+
 
 ### SetScript(FixerPale)
 
 ```csharp
 public void SetScript(FixerPale script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -271,9 +319,13 @@ public void SetScript(FixerPale script)
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

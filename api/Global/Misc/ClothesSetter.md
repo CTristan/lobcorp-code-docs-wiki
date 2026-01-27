@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ClothesSetter
 ```csharp
 public class ClothesSetter : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ClothesSetter
@@ -33,6 +35,8 @@ public ClothesSetter()
 ```csharp
 private AgentSpriteChanger changer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private AgentSpriteChanger changer
 ```csharp
 public int clothesId
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public int clothesId
 ```csharp
 public List<Sprite> ClothesSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public List<Sprite> ClothesSet
 ```csharp
 private SpriteResourceLoadData loadedData
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,9 +85,14 @@ private SpriteResourceLoadData loadedData
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

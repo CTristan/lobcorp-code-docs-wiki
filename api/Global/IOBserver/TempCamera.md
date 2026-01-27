@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/TempCamera
 public class TempCamera : MonoBehaviour, IObserver
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TempCamera
 
@@ -36,6 +39,8 @@ public TempCamera()
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private AgentModel agent
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private float elapsed
 ```csharp
 private bool start
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool start
 ```csharp
 private float startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private float startTime
 ```csharp
 public Vector3 vel
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,12 +101,16 @@ public Vector3 vel
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,9 +124,14 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public void OnSetAI()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

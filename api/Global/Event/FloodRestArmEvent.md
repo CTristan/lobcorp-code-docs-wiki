@@ -12,6 +12,9 @@ canonical_path: /api/Global/Event/FloodRestArmEvent
 public class FloodRestArmEvent : RandomEventBase
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [RandomEventBase](/api/Global/Misc/RandomEventBase) → FloodRestArmEvent
 
@@ -33,6 +36,8 @@ public FloodRestArmEvent()
 ```csharp
 public const float DelayEnableMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public const float DelayEnableMax = 3
 ```csharp
 public const float DelayEnableMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public const float DelayEnableMin = 1
 ```csharp
 public const int GenerateCount = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public const int GenerateCount = 1
 ```csharp
 public const float GenerateFrequency = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public const float GenerateFrequency = 10
 ```csharp
 private Timer generatorTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Timer generatorTimer
 ```csharp
 public const int InitialObjectCountPerSefira = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ public List<FloodRestArmEvent.SefiraManagement> management
 ```csharp
 public const int MaximumObjectCountPerSefira = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ public const int MaximumObjectCountPerSefira = 15
 ```csharp
 public const float rootScale = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ public const float rootScale = 2.5
 ```csharp
 public Dictionary<string, List<FloodTentacle>> sefiraLists
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ public Dictionary<string, List<FloodTentacle>> sefiraLists
 ```csharp
 public const string tentacleBgm = "RandomEvent/Tentacle_Bgm"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ public const string tentacleBgm = "RandomEvent/Tentacle_Bgm"
 ```csharp
 public const long tentacleID = 1001
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ public const long tentacleID = 1001
 ```csharp
 private List<StandingItemModel> tentacles
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ private List<StandingItemModel> tentacles
 ```csharp
 public const string tentacleSrcA = "StandingItem/FloodRestTentacle_A"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ public const string tentacleSrcA = "StandingItem/FloodRestTentacle_A"
 ```csharp
 public const string tentacleSrcB = "StandingItem/FloodRestTentacle_B"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ public const string tentacleSrcB = "StandingItem/FloodRestTentacle_B"
 ```csharp
 public const string tentacleSrcC = "StandingItem/FloodRestTentacle_C"
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +228,8 @@ public const string tentacleSrcC = "StandingItem/FloodRestTentacle_C"
 ```csharp
 public void DisableTentacle(FloodTentacle script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,6 +271,8 @@ public FloodRestArmEvent.SefiraManagement GetSefiraManagement(string str)
 ```csharp
 public List<FloodTentacle> GetSefiraTentacles(string area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -252,6 +289,8 @@ public List<FloodTentacle> GetSefiraTentacles(string area)
 ```csharp
 private FloodTentacle.TentacleType GetTentacleType()
 ```
+#INC
+
 
 #### Returns
 
@@ -262,6 +301,8 @@ private FloodTentacle.TentacleType GetTentacleType()
 ```csharp
 public GameObject LoadTentacle(FloodTentacle.TentacleType type, out FloodTentacle script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,30 +320,41 @@ public GameObject LoadTentacle(FloodTentacle.TentacleType type, out FloodTentacl
 ```csharp
 public override void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public override void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### SetTentacleType(FloodTentacle, StandingItemUnit, TentacleType)
 
 ```csharp
 public void SetTentacleType(FloodTentacle script, StandingItemUnit unit, FloodTentacle.TentacleType type)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Creature/AprilBaldAnim
 ```csharp
 public class AprilBaldAnim : CreatureAnimScript
 ```
+Animation for [You're Bald](/api/Global/Misc/Bald)?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → AprilBaldAnim
@@ -33,6 +36,8 @@ public AprilBaldAnim()
 ```csharp
 private Timer changeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private Timer changeTimer
 ```csharp
 private int curLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int curLevel
 ```csharp
 public SkeletonAnimation spineAnimation
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public SkeletonAnimation spineAnimation
 ```csharp
 public void SetLevel(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,9 +88,14 @@ public void SetLevel(int level)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

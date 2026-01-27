@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ScavengerOrdeal
 public class ScavengerOrdeal : OrdealBase
 ```
 
+Parent class for Indigo Ordeals. There is just one: [Indigo Noon](/api/Global/Misc/ScavengerNoonOrdeal).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → ScavengerOrdeal
 
@@ -28,6 +31,8 @@ public class ScavengerOrdeal : OrdealBase
 ```csharp
 public ScavengerOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -36,6 +41,8 @@ public ScavengerOrdeal()
 ```csharp
 protected Color _color
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ protected Color _color
 ```csharp
 protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```csharp
 protected string _ordealName
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ protected string _ordealName
 ```csharp
 private static int[] ids
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +91,8 @@ private static int[] ids
 ```csharp
 protected virtual bool CheckCloseCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -88,12 +103,17 @@ protected virtual bool CheckCloseCondition()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MakeOrdealCreature(OrdealLevel, MapNode, params UnitDirection[])
 
 ```csharp
 public ScavengerOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode node, params UnitDirection[] direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,6 +132,8 @@ public ScavengerOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode nod
 ```csharp
 public virtual void OnDie(OrdealCreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,15 +146,21 @@ public virtual void OnDie(OrdealCreatureModel model)
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+
 
 ### OrdealEnd()
 
 ```csharp
 public override void OrdealEnd()
 ```
+#INC
+
 
 ### SetColor()
 
 ```csharp
 protected void SetColor()
 ```
+#INC
+

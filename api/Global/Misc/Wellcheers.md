@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Wellcheers
 public class Wellcheers : CreatureBase
 ```
 
+Opened Can of Wellcheers.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Wellcheers
 
@@ -33,6 +38,8 @@ public Wellcheers()
 ```csharp
 private WellcheersAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private WellcheersAnim _animScript
 ```csharp
 private static float[] bothHeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private static float[] bothHeal
 ```csharp
 private SoundEffectPlayer danceSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private SoundEffectPlayer danceSound
 ```csharp
 private const float danceStartDelay = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float danceStartDelay = 4
 ```csharp
 private Timer danceStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Timer danceStartTimer
 ```csharp
 private bool drinking
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private bool drinking
 ```csharp
 private int feelingLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private int feelingLevel
 ```csharp
 private const float filterEndTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float filterEndTime = 10
 ```csharp
 private Timer filterEndTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer filterEndTimer
 ```csharp
 private const float filterStartDelay = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float filterStartDelay = 6
 ```csharp
 private Timer filterStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private Timer filterStartTimer
 ```csharp
 private static float[] hpHeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private static float[] hpHeal
 ```csharp
 private static float[] mpHeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private static float[] mpHeal
 ```csharp
 private IsolateFilter shipFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private IsolateFilter shipFilter
 ```csharp
 private long skillId
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private long skillId
 ```csharp
 private AgentModel targetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private AgentModel targetAgent
 ```csharp
 private IsolateFilter umiFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private IsolateFilter umiFilter
 ```csharp
 private bool willDie
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +268,8 @@ public WellcheersAnim animScript { get; }
 ```csharp
 private void ActivateSkill(bool willDie)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,24 +282,32 @@ private void ActivateSkill(bool willDie)
 ```csharp
 private void FinishDeadScene()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### MakeDrinkSound()
 
 ```csharp
 private void MakeDrinkSound()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 private void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,6 +320,8 @@ private void OnAnimCalled(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +334,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,6 +348,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,30 +362,41 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetDrink(bool)
 
 ```csharp
 private void SetDrink(bool willDie)
 ```
+#INC
+
 
 #### Parameters
 

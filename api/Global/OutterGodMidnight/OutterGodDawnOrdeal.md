@@ -12,6 +12,9 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodDawnOrdeal
 public class OutterGodDawnOrdeal : OutterGodOrdeal
 ```
 
+Dawn of Violet ordeal, The Fruit of Understanding. Spawns several [OutterGodDawn](/api/Global/OutterGodMidnight/OutterGodDawn)s.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [OutterGodOrdeal](/api/Global/Misc/OutterGodOrdeal) → OutterGodDawnOrdeal
 
@@ -25,6 +28,8 @@ public class OutterGodDawnOrdeal : OutterGodOrdeal
 ```csharp
 public OutterGodDawnOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public OutterGodDawnOrdeal()
 ```csharp
 private const int _dawnCount = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +52,14 @@ private const int _dawnCount = 1
 ```csharp
 private void MakeOutterGods()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

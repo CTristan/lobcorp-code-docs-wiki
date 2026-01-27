@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/GeburahChaseBuf
 public class GeburahChaseBuf : UnitBuf
 ```
 
+extends [UnitBuf](/api/Global/Misc/UnitBuf)
+
+Buff marking the target of [The Red Mist](/api/Global/Misc/GeburahBossBase)'s [chase](/api/GeburahBoss/ChaseAction). Prevents working and prematurely cancels active work.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → GeburahChaseBuf
 
@@ -25,6 +30,8 @@ public class GeburahChaseBuf : UnitBuf
 ```csharp
 public GeburahChaseBuf(GeburahCoreScript geburah, AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public GeburahChaseBuf(GeburahCoreScript geburah, AgentModel target)
 ```csharp
 private GeburahCoreScript _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ private GeburahCoreScript _script
 ```csharp
 private AgentModel _targetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +73,8 @@ private AgentModel _targetAgent
 ```csharp
 public bool CheckWork()
 ```
+#INC
+
 
 #### Returns
 
@@ -72,9 +85,14 @@ public bool CheckWork()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

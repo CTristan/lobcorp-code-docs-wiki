@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FixerClaw
 public class FixerClaw : FixerCreature
 ```
 
+The Claw.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [FixerCreature](/api/Global/Creature/FixerCreature) → FixerClaw
 
@@ -33,6 +38,8 @@ public FixerClaw()
 ```csharp
 private FixerClawAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FixerClawAnim _animScript
 ```csharp
 private const int _atkDmgMax = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 25
 ```csharp
 private const int _atkDmgMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 15
 ```csharp
 private const float _atkDmgRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _atkDmgRange = 3.5
 ```csharp
 private const RwbpType _atkDmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const RwbpType _atkDmgType = R
 ```csharp
 private const float _atkRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _atkRange = 3
 ```csharp
 private const float _atkSpecialProb = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _atkSpecialProb = 0.4
 ```csharp
 private const int _blueAtkMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _blueAtkMax = 8
 ```csharp
 private const float _blueAttackTimeMax = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _blueAttackTimeMax = 0.5
 ```csharp
 private const float _blueAttackTimeMin = 0.45
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _blueAttackTimeMin = 0.45
 ```csharp
 private const float _blueCapsuleProb = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float _blueCapsuleProb = 0.4
 ```csharp
 private const int _blueDmgMax = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const int _blueDmgMax = 35
 ```csharp
 private const int _blueDmgMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const int _blueDmgMin = 25
 ```csharp
 private const RwbpType _blueDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const RwbpType _blueDmgType = B
 ```csharp
 private const float _cancelNeededDmg = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _cancelNeededDmg = 200
 ```csharp
 private const float _capsuleCoolTimeMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const float _capsuleCoolTimeMax = 45
 ```csharp
 private const float _capsuleCoolTimeMin = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _capsuleCoolTimeMin = 40
 ```csharp
 private const float _capsuleInitCoolTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float _capsuleInitCoolTimeMax = 30
 ```csharp
 private const float _capsuleInitCoolTimeMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const float _capsuleInitCoolTimeMin = 30
 ```csharp
 private const string _colliderSrc = "Effect/Creature/FixerClaw/FixerClawUltimateCollider"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const string _colliderSrc = "Effect/Creature/FixerClaw/FixerClawUltimate
 ```csharp
 private const float _greenCapsuleNeededDmg = 120
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private const float _greenCapsuleNeededDmg = 120
 ```csharp
 private const float _groggyTimeMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const float _groggyTimeMax = 12
 ```csharp
 private const float _groggyTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private const float _groggyTimeMin = 10
 ```csharp
 private const string _healEffectSrc = "Effect/RecoverHP"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private const string _healEffectSrc = "Effect/RecoverHP"
 ```csharp
 private const float _healTimeMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private const float _healTimeMax = 10
 ```csharp
 private const float _healTimeMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private const float _healTimeMin = 8
 ```csharp
 private const float _healValueMax = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +362,8 @@ private const float _healValueMax = 150
 ```csharp
 private const float _healValueMin = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +374,8 @@ private const float _healValueMin = 150
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +386,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +398,8 @@ private const float _motionDelayMin = 0.5
 ```csharp
 private const float _movementScale_Orange = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +410,8 @@ private const float _movementScale_Orange = 25
 ```csharp
 private const int _orangeDmgMax = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +422,8 @@ private const int _orangeDmgMax = 100
 ```csharp
 private const int _orangeDmgMin = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +434,8 @@ private const int _orangeDmgMin = 100
 ```csharp
 private const float _orangeDmgRange = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +446,8 @@ private const float _orangeDmgRange = 1.5
 ```csharp
 private const RwbpType _orangeDmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +468,8 @@ private FixerClaw.Phase _phase
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +480,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const int _strFirstDmgMax = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +492,8 @@ private const int _strFirstDmgMax = 40
 ```csharp
 private const int _strFirstDmgMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +504,8 @@ private const int _strFirstDmgMin = 25
 ```csharp
 private const RwbpType _strFirstDmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +516,8 @@ private const RwbpType _strFirstDmgType = R
 ```csharp
 private const string _strongBloodEffectSrc = "Effect/Creature/FixerClaw/FixerClawStrongBlood"
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +528,8 @@ private const string _strongBloodEffectSrc = "Effect/Creature/FixerClaw/FixerCla
 ```csharp
 private const int _strSecondDmgMax = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +540,8 @@ private const int _strSecondDmgMax = 40
 ```csharp
 private const int _strSecondDmgMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +552,8 @@ private const int _strSecondDmgMin = 25
 ```csharp
 private const RwbpType _strSecondDmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +564,8 @@ private const RwbpType _strSecondDmgType = R
 ```csharp
 private const int _ultiAtkMax = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +576,8 @@ private const int _ultiAtkMax = 6
 ```csharp
 private const float _ultiAttackTimeMax = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +588,8 @@ private const float _ultiAttackTimeMax = 0.5
 ```csharp
 private const float _ultiAttackTimeMin = 0.45
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +600,8 @@ private const float _ultiAttackTimeMin = 0.45
 ```csharp
 private const float _ultiCapsuleCoolTimeMax = 85
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +612,8 @@ private const float _ultiCapsuleCoolTimeMax = 85
 ```csharp
 private const float _ultiCapsuleCoolTimeMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +624,8 @@ private const float _ultiCapsuleCoolTimeMin = 60
 ```csharp
 private const float _ultiCastingTimeMax = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +636,8 @@ private const float _ultiCastingTimeMax = 9
 ```csharp
 private const float _ultiCastingTimeMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +648,8 @@ private const float _ultiCastingTimeMin = 6
 ```csharp
 private const float _ultiCondition_Hp = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +660,8 @@ private const float _ultiCondition_Hp = 0.25
 ```csharp
 private const int _ultiDmgMax = 85
 ```
+#INC
+
 
 #### Field Value
 
@@ -563,6 +672,8 @@ private const int _ultiDmgMax = 85
 ```csharp
 private const int _ultiDmgMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -573,6 +684,8 @@ private const int _ultiDmgMin = 60
 ```csharp
 private const RwbpType _ultiDmgType = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -583,6 +696,8 @@ private const RwbpType _ultiDmgType = P
 ```csharp
 private const int _ultiMoveDmgMax = 65
 ```
+#INC
+
 
 #### Field Value
 
@@ -593,6 +708,8 @@ private const int _ultiMoveDmgMax = 65
 ```csharp
 private const int _ultiMoveDmgMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -603,6 +720,8 @@ private const int _ultiMoveDmgMin = 60
 ```csharp
 private const RwbpType _ultiMoveDmgType = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -613,6 +732,8 @@ private const RwbpType _ultiMoveDmgType = P
 ```csharp
 private float accumulatedDmg_green
 ```
+#INC
+
 
 #### Field Value
 
@@ -623,6 +744,8 @@ private float accumulatedDmg_green
 ```csharp
 private float accumulatedDmg_groggy
 ```
+#INC
+
 
 #### Field Value
 
@@ -633,6 +756,8 @@ private float accumulatedDmg_groggy
 ```csharp
 private Timer blueAttackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -643,6 +768,8 @@ private Timer blueAttackTimer
 ```csharp
 private Timer capsuleCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -653,6 +780,8 @@ private Timer capsuleCoolTimer
 ```csharp
 private List<UnitModel> damagedUnits
 ```
+#INC
+
 
 #### Field Value
 
@@ -663,6 +792,8 @@ private List<UnitModel> damagedUnits
 ```csharp
 private Timer groggyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -673,6 +804,8 @@ private Timer groggyTimer
 ```csharp
 private Timer healTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -683,6 +816,8 @@ private Timer healTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -693,6 +828,8 @@ private Timer motionDelayTimer
 ```csharp
 private UnitModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -703,6 +840,8 @@ private UnitModel moveTarget
 ```csharp
 private MapNode orangeTargetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -713,6 +852,8 @@ private MapNode orangeTargetNode
 ```csharp
 private List<UnitModel> skillTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -723,6 +864,8 @@ private List<UnitModel> skillTargets
 ```csharp
 private bool speedUp
 ```
+#INC
+
 
 #### Field Value
 
@@ -733,6 +876,8 @@ private bool speedUp
 ```csharp
 private Timer ultiAttackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -743,6 +888,8 @@ private Timer ultiAttackTimer
 ```csharp
 private Timer ultiCapsuleCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -753,6 +900,8 @@ private Timer ultiCapsuleCoolTimer
 ```csharp
 private Timer ultiCastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -947,30 +1096,40 @@ private static DamageInfo ultiMoveDmg { get; }
 ```csharp
 private void AttackLast()
 ```
+#INC
+
 
 ### AttackNext()
 
 ```csharp
 private void AttackNext()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### BlueAttackNext()
 
 ```csharp
 private void BlueAttackNext()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -988,6 +1147,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckPassage(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1004,6 +1165,8 @@ private bool CheckPassage(PassageObjectModel passage)
 ```csharp
 private bool CheckTargetCondition(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1020,6 +1183,8 @@ private bool CheckTargetCondition(UnitModel target)
 ```csharp
 private bool CheckUlti()
 ```
+#INC
+
 
 #### Returns
 
@@ -1030,6 +1195,8 @@ private bool CheckUlti()
 ```csharp
 private void ClearSkillTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1042,12 +1209,16 @@ private void ClearSkillTarget(UnitModel target)
 ```csharp
 private void ClearSkillTargets()
 ```
+#INC
+
 
 ### GetAvailableTargets()
 
 ```csharp
 private List<UnitModel> GetAvailableTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -1058,6 +1229,8 @@ private List<UnitModel> GetAvailableTargets()
 ```csharp
 private List<PassageObjectModel> GetHorizontalPassages()
 ```
+#INC
+
 
 #### Returns
 
@@ -1068,6 +1241,8 @@ private List<PassageObjectModel> GetHorizontalPassages()
 ```csharp
 private UnitModel GetNextTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -1078,6 +1253,8 @@ private UnitModel GetNextTarget()
 ```csharp
 private MapNode GetOrangeTargetNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -1088,6 +1265,8 @@ private MapNode GetOrangeTargetNode()
 ```csharp
 private List<PassageObjectModel> GetSidePassages(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1130,6 +1309,8 @@ private FixerClaw.Capsule GetSkillType()
 ```csharp
 private MapNode GetTargetNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -1140,6 +1321,8 @@ private MapNode GetTargetNode()
 ```csharp
 private List<MapNode> GetTargetNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -1150,6 +1333,8 @@ private List<MapNode> GetTargetNodes()
 ```csharp
 private void GiveDamage(UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1163,12 +1348,16 @@ private void GiveDamage(UnitModel target, DamageInfo dmg)
 ```csharp
 private void GroggyTimerEnd()
 ```
+#INC
+
 
 ### HasEscapeUI()
 
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -1179,12 +1368,16 @@ public override bool HasEscapeUI()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -1195,6 +1388,8 @@ private bool IsAttacking()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -1205,6 +1400,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -1215,6 +1412,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -1225,6 +1424,8 @@ private bool IsMovable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -1235,6 +1436,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 private void MakeClawEffects(string src, bool setParent = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1248,6 +1451,8 @@ private void MakeClawEffects(string src, bool setParent = true)
 ```csharp
 private GameObject MakeEffect(GameObject position, string src, bool setParent = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1266,12 +1471,16 @@ private GameObject MakeEffect(GameObject position, string src, bool setParent = 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -1282,30 +1491,40 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnBlueAttackEnd()
 
 ```csharp
 public void OnBlueAttackEnd()
 ```
+#INC
+
 
 ### OnBlueAttackStart()
 
 ```csharp
 public void OnBlueAttackStart()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1318,78 +1537,104 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 private void OnFixedUpdate_Capsule_All()
 ```
+#INC
+
 
 ### OnFixedUpdate_Default()
 
 ```csharp
 private void OnFixedUpdate_Default()
 ```
+#INC
+
 
 ### OnFixedUpdate_Groggy()
 
 ```csharp
 private void OnFixedUpdate_Groggy()
 ```
+#INC
+
 
 ### OnFixedUpdate_Skill_All()
 
 ```csharp
 private void OnFixedUpdate_Skill_All()
 ```
+#INC
+
 
 ### OnFixedUpdate_Skill_Blue()
 
 ```csharp
 private void OnFixedUpdate_Skill_Blue()
 ```
+#INC
+
 
 ### OnFixedUpdate_Skill_Green()
 
 ```csharp
 private void OnFixedUpdate_Skill_Green()
 ```
+#INC
+
 
 ### OnFixedUpdate_Skill_Orange()
 
 ```csharp
 private void OnFixedUpdate_Skill_Orange()
 ```
+#INC
+
 
 ### OnGroggyEnd()
 
 ```csharp
 public void OnGroggyEnd()
 ```
+#INC
+
 
 ### OnOrangeArrive()
 
 ```csharp
 public void OnOrangeArrive()
 ```
+#INC
+
 
 ### OnOrangeRunStart()
 
 ```csharp
 public void OnOrangeRunStart()
 ```
+#INC
+
 
 ### OnSkillEnd()
 
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnStartHealing()
 
 ```csharp
 public void OnStartHealing()
 ```
+#INC
+
 
 ### OnStrongAttack(bool)
 
 ```csharp
 public void OnStrongAttack(bool isFirst)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1402,6 +1647,8 @@ public void OnStrongAttack(bool isFirst)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1416,6 +1663,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 private void OnTakeDamage_Capsule(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1428,18 +1677,24 @@ private void OnTakeDamage_Capsule(float value)
 ```csharp
 public void OnUltimateAttackEnd()
 ```
+#INC
+
 
 ### OnUltimateAttackStart()
 
 ```csharp
 public void OnUltimateAttackStart()
 ```
+#INC
+
 
 ### OnUltimateCollide(UnitModel)
 
 ```csharp
 public bool OnUltimateCollide(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1456,12 +1711,17 @@ public bool OnUltimateCollide(UnitModel target)
 ```csharp
 public void OnUltimateSkillEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -1474,6 +1734,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void PrepareAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1486,6 +1748,8 @@ private void PrepareAttack(UnitModel target)
 ```csharp
 private void ReadPassage(PassageObjectModel passage, ref List<PassageObjectModel> targets)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1511,36 +1775,48 @@ private void SkillStart(FixerClaw.Capsule capsule)
 ```csharp
 private void SpeedDown()
 ```
+#INC
+
 
 ### SpeedUp()
 
 ```csharp
 private void SpeedUp()
 ```
+#INC
+
 
 ### StartGroggy()
 
 ```csharp
 private void StartGroggy()
 ```
+#INC
+
 
 ### StartHeal()
 
 ```csharp
 private void StartHeal()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### TeleportToNode()
 
 ```csharp
 private void TeleportToNode()
 ```
+#INC
+
 
 ### TeleportToTarget(UnitModel, Capsule)
 
@@ -1560,6 +1836,8 @@ private void TeleportToTarget(UnitModel target, FixerClaw.Capsule capsule)
 ```csharp
 public override bool TryRabbitTeleport(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1576,3 +1854,5 @@ public override bool TryRabbitTeleport(MapNode node)
 ```csharp
 private void UltiAttackNext()
 ```
+#INC
+

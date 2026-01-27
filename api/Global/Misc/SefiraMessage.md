@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/SefiraMessage
 ```csharp
 public class SefiraMessage
 ```
+A single unit of Sephirah yap.
+
+Holds a type and a text field.
+
+See [Conversation](/api/Global/Misc/Conversation)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraMessage
@@ -25,12 +31,17 @@ public class SefiraMessage
 ```csharp
 public SefiraMessage()
 ```
+#INC
+
 
 ### SefiraMessage(int, int, string)
 
 ```csharp
 public SefiraMessage(int t, int d, string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -47,6 +58,8 @@ public SefiraMessage(int t, int d, string s)
 ```csharp
 private string _desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +70,8 @@ private string _desc
 ```csharp
 private int _descId
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +82,8 @@ private int _descId
 ```csharp
 private int _type
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,3 +118,5 @@ public int type { get; }
 ```csharp
 public void PrintFields()
 ```
+#INC
+

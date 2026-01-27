@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ThrowItem
 ```csharp
 public class ThrowItem
 ```
+Used by [ThrowGravScript](/api/Global/Script/ThrowGravScript)
+
+#INC #unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ThrowItem
@@ -33,6 +37,8 @@ public ThrowItem()
 ```csharp
 public GameObject gameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public GameObject gameObject
 ```csharp
 public bool setActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,9 @@ public bool setActive
 ```csharp
 public Sprite sprite
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

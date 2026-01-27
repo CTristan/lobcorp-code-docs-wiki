@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/ArmorCreature
 public class ArmorCreature : CreatureBase, IObserver
 ```
 
+Crumbling Armor.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ArmorCreature
 
@@ -36,6 +39,8 @@ public ArmorCreature()
 ```csharp
 private ArmorCreatureAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private ArmorCreatureAnim _anim
 ```csharp
 private bool _isGiveGift
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +87,8 @@ private void ChangeGift(ArmorCreature.StackAgent specialAgent)
 ```csharp
 public void OnAgentDeadAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,6 +101,8 @@ public void OnAgentDeadAnimEvent(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -104,6 +115,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +129,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,6 +143,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,18 +158,25 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -165,6 +189,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SetObserver(bool activate)
 ```
+#INC
+
 
 #### Parameters
 

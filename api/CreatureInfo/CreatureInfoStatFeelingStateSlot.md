@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoStatFeelingStateSlot
 ```csharp
 public class CreatureInfoStatFeelingStateSlot : MonoBehaviour
 ```
+Section for positive/neutral/negative results
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoStatFeelingStateSlot
@@ -33,6 +35,8 @@ public CreatureInfoStatFeelingStateSlot()
 ```csharp
 public Image Icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Image Icon
 ```csharp
 public Text Label
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Text Label
 ```csharp
 public Text RangeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +85,9 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void SetData(int index, string rangeDesc)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -90,9 +101,13 @@ public void SetData(int index, string rangeDesc)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

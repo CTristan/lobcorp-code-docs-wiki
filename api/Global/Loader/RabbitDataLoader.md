@@ -11,6 +11,12 @@ canonical_path: /api/Global/Loader/RabbitDataLoader
 ```csharp
 public class RabbitDataLoader
 ```
+Loads in static data regarding [rabbits](/api/Global/Model/RabbitModel).
+
+Includes the spawn locations, elevators to shut down ( #verify  this actually does something), and doors to turn into teleporters.
+
+Stores the loaded information in [RabbitSquadDataList](/api/Global/List/RabbitSquadDataList).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitDataLoader
@@ -33,3 +39,6 @@ public RabbitDataLoader()
 ```csharp
 public void Load()
 ```
+#INC
+#code-generated
+

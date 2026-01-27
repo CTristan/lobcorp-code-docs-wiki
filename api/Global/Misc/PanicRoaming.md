@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/PanicRoaming
 public class PanicRoaming : PanicAction
 ```
 
+Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to run wildly.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicRoaming
 
@@ -25,6 +29,8 @@ public class PanicRoaming : PanicAction
 ```csharp
 public PanicRoaming(AgentModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +45,8 @@ public PanicRoaming(AgentModel actor)
 ```csharp
 private Timer _dmgTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +57,8 @@ private Timer _dmgTimer
 ```csharp
 private AgentModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,12 +71,16 @@ private AgentModel actor
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetMovementMultiplier()
 
 ```csharp
 public override float GetMovementMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -77,15 +91,22 @@ public override float GetMovementMultiplier()
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnDie()
 
 ```csharp
 public override void OnDie()
 ```
+#INC
+
 
 ### PanicEnd()
 
 ```csharp
 public override void PanicEnd()
 ```
+#INC
+

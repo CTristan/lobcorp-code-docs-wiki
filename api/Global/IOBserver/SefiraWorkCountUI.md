@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/SefiraWorkCountUI
 public class SefiraWorkCountUI : MonoBehaviour, IObserver
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraWorkCountUI
 
@@ -36,6 +39,8 @@ public SefiraWorkCountUI()
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private Sefira _currentSefira
 ```csharp
 private int _max
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private int _max
 ```csharp
 private bool _maxWorkCountReached
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _maxWorkCountReached
 ```csharp
 private int _oldCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +98,8 @@ public GameObject ActiveControl
 ```csharp
 public Color MaxColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ public Color MaxColor
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +122,8 @@ public SefiraEnum sefira
 ```csharp
 public Color UIColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +134,8 @@ public Color UIColor
 ```csharp
 public Color WorkCount_Disabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +157,8 @@ public Color WorkCount_Enabled
 ```csharp
 public List<Image> WorkCounterImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +169,8 @@ public List<Image> WorkCounterImage
 ```csharp
 public RectTransform WorkCounterLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +192,8 @@ public GameObject WorkCounterObject
 ```csharp
 public Text WorkCounterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,30 +228,40 @@ private int Max { get; }
 ```csharp
 public void CheckWorkCount()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -240,6 +275,9 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -252,9 +290,13 @@ public void SetActive(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

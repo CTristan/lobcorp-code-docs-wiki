@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/UniqueWeaponSpritePortraitTransformInfo
 ```csharp
 public class UniqueWeaponSpritePortraitTransformInfo
 ```
+????? has... some... transformation data???
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UniqueWeaponSpritePortraitTransformInfo
@@ -44,6 +48,9 @@ public int childIndex
 ```csharp
 public Vector3 localPosition
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -54,6 +61,8 @@ public Vector3 localPosition
 ```csharp
 public Vector3 localRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ public Vector3 localRotation
 ```csharp
 public Vector3 localScale
 ```
+#INC
+
 
 #### Field Value
 

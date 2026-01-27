@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/OrdealTimer
 ```csharp
 public class OrdealTimer
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OrdealTimer
@@ -33,6 +35,9 @@ public OrdealTimer()
 ```csharp
 public int dawnTime
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public int dawnTime
 ```csharp
 public int duskTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public int duskTime
 ```csharp
 public int noonTime
 ```
+#INC
+
 
 #### Field Value
 

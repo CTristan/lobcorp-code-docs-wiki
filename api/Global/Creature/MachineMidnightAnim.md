@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MachineMidnightAnim
 public class MachineMidnightAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Helix of the End](/api/Global/Machine/MachineMidnight).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MachineMidnightAnim
 
@@ -47,6 +52,8 @@ private MachineMidnightLaser _laserScript
 ```csharp
 private SoundEffectPlayer _loop1
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +64,8 @@ private SoundEffectPlayer _loop1
 ```csharp
 private SoundEffectPlayer _loop2
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +87,8 @@ private MachineMidnightLaser _vertiaclLaser
 ```csharp
 public AnimatorEventHandler animatorEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +99,8 @@ public AnimatorEventHandler animatorEventHandler
 ```csharp
 public const string dead = "Effect/Ordeal/Machine/MidnightDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +111,8 @@ public const string dead = "Effect/Ordeal/Machine/MidnightDead"
 ```csharp
 public Sprite[] deadSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +123,8 @@ public Sprite[] deadSprite
 ```csharp
 public const string effect = "Effect/Ordeal/Machine/MachineMidnightWorkerDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +135,8 @@ public const string effect = "Effect/Ordeal/Machine/MachineMidnightWorkerDead"
 ```csharp
 private MachineMidnight script
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,6 +147,8 @@ private MachineMidnight script
 ```csharp
 public GameObject sparkParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -162,24 +183,32 @@ public MachineMidnightLaser VerticalLaser { get; }
 ```csharp
 public void ActivateSpark()
 ```
+#INC
+
 
 ### AnimEventInit()
 
 ```csharp
 private void AnimEventInit()
 ```
+#INC
+
 
 ### DestroyLoop()
 
 ```csharp
 private void DestroyLoop()
 ```
+#INC
+
 
 ### GetRandomDeadSprite()
 
 ```csharp
 public Sprite GetRandomDeadSprite()
 ```
+#INC
+
 
 #### Returns
 
@@ -190,12 +219,17 @@ public Sprite GetRandomDeadSprite()
 ```csharp
 private void MakeLoop()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -208,12 +242,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCloseLaser()
 ```
+#INC
+
 
 ### OnSoundCalled(int)
 
 ```csharp
 private void OnSoundCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -226,18 +264,24 @@ private void OnSoundCalled(int i)
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### Restart()
 
 ```csharp
 public void Restart()
 ```
+#INC
+
 
 ### SetRotationSpeed(float)
 
 ```csharp
 public void SetRotationSpeed(float speed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -250,6 +294,8 @@ public void SetRotationSpeed(float speed)
 ```csharp
 public void SetScript(MachineMidnight script)
 ```
+#INC
+
 
 #### Parameters
 

@@ -36,6 +36,8 @@ public SuperArmorEffect()
 ```csharp
 public ParticleSystem breaking
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public ParticleSystem breaking
 ```csharp
 private bool breakingEffecf
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private bool breakingEffecf
 ```csharp
 public ParticleSystem breakSystem
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public ParticleSystem breakSystem
 ```csharp
 public float currentArmor
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public float currentArmor
 ```csharp
 public float damageScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public float damageScale
 ```csharp
 public Vector2 damageScaleRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ public Vector2 damageScaleRange
 ```csharp
 private const float disableTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ private const float disableTime = 10
 ```csharp
 private Timer disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ private Timer disableTimer
 ```csharp
 private bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ private bool isEnabled
 ```csharp
 public Color Max
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ public Color Max
 ```csharp
 public float MaxArmor
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ public float MaxArmor
 ```csharp
 public Color Mid
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ public Color Mid
 ```csharp
 public Color Min
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public Color Min
 ```csharp
 private Vector3 pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ private Vector3 pivot
 ```csharp
 public ParticleSystem pSystem
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +216,8 @@ public ParticleSystem pSystem
 ```csharp
 private const float rangeMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +228,8 @@ private const float rangeMax = 1
 ```csharp
 private Vector3 RangeMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +240,8 @@ private Vector3 RangeMax
 ```csharp
 private const float rangeMid = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +252,8 @@ private const float rangeMid = 0.5
 ```csharp
 private const float rangeMin = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +264,8 @@ private const float rangeMin = 0
 ```csharp
 private Vector3 RangeMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +276,8 @@ private Vector3 RangeMin
 ```csharp
 public bool shoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -260,6 +302,8 @@ private float Scale { get; }
 ```csharp
 public bool Block(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -276,18 +320,24 @@ public bool Block(float damage)
 ```csharp
 private void CheckBreakEffect()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(float)
 
 ```csharp
 public void Init(float maxArmorVal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -300,6 +350,8 @@ public void Init(float maxArmorVal)
 ```csharp
 private void SetColor(float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -312,12 +364,16 @@ private void SetColor(float scale)
 ```csharp
 private void SetPos()
 ```
+#INC
+
 
 ### SetScale(float)
 
 ```csharp
 private void SetScale(float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -330,9 +386,14 @@ private void SetScale(float scale)
 ```csharp
 private void StartEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

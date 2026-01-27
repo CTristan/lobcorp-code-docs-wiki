@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/EightColumn
 ```csharp
 public class EightColumn : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s 8 column attack (scary!).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → EightColumn
@@ -25,6 +27,8 @@ public class EightColumn : BinahAction
 ```csharp
 public EightColumn(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public EightColumn(BinahCoreScript binah)
 ```csharp
 private const float _timeLimit = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private const float _timeLimit = 60
 ```csharp
 private ColumnOverload columnOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private ColumnOverload columnOverload
 ```csharp
 private Dictionary<BinahProjectile, Vector3> columns
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private Dictionary<BinahProjectile, Vector3> columns
 ```csharp
 private int genCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private int genCount
 ```csharp
 private Timer generationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private Timer generationTimer
 ```csharp
 private float genFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +115,8 @@ private float genFreq
 ```csharp
 private SoundEffectPlayer Loop
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +127,8 @@ private SoundEffectPlayer Loop
 ```csharp
 private Transform[] Pivots
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +139,8 @@ private Transform[] Pivots
 ```csharp
 private Timer timeLimitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -131,6 +153,8 @@ private Timer timeLimitTimer
 ```csharp
 private BinahProjectile GenProjectile(Transform startPos, out Vector3 velocity)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,6 +172,8 @@ private BinahProjectile GenProjectile(Transform startPos, out Vector3 velocity)
 ```csharp
 public override void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,45 +186,62 @@ public override void OnAnimEventCalled(int index)
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCancel()
 
 ```csharp
 public void OnCancel()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public override void OnGiveDamage()
 ```
+#INC
+
 
 ### OnShoot()
 
 ```csharp
 public void OnShoot()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+

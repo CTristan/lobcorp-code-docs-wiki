@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/ManageWorkParamSetter
 public class ManageWorkParamSetter : StateMachineBehaviour
 ```
 
+Manages the work management animation? Seems unused?? #INC 
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ManageWorkParamSetter
 
@@ -45,6 +50,9 @@ public List<ManageWorkParamSetter.RandomSettedParam> randomSettedParams
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

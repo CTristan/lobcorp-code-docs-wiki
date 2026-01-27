@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/OtherWorldPortraitAnim
 public class OtherWorldPortraitAnim : CreatureAnimScript
 ```
 
+Animation handler for [Portrait of Another World](/api/Global/IOBserver/OtherWorldPortrait).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → OtherWorldPortraitAnim
 
@@ -43,6 +48,8 @@ private WorkerSprite _agentSprite
 ```csharp
 private GameObject _curTargetEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private GameObject _curTargetEffect
 ```csharp
 private GameObject _curVictimEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private GameObject _curVictimEffect
 ```csharp
 private OtherWorldPortrait _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private OtherWorldPortrait _script
 ```csharp
 public BufRenderer bufRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public BufRenderer bufRenderer
 ```csharp
 public GameObject[] canvasImgs
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public GameObject[] canvasImgs
 ```csharp
 public GameObject deadEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public GameObject deadEffect
 ```csharp
 public GameObject initEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public GameObject initEffect
 ```csharp
 public WorkerPortraitSetter workerPortrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +146,8 @@ public WorkerPortraitSetter workerPortrait
 ```csharp
 public void SetAgentSprite(AgentModel am)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,6 +160,8 @@ public void SetAgentSprite(AgentModel am)
 ```csharp
 public GameObject SetEffect(int i, Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,6 +179,8 @@ public GameObject SetEffect(int i, Transform t)
 ```csharp
 public void SetPortraitCanvasImg(int idx)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,6 +193,9 @@ public void SetPortraitCanvasImg(int idx)
 ```csharp
 public void SetScript(OtherWorldPortrait s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

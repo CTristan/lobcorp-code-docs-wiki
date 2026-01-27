@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/MidnightLaserDebuf
 public class MidnightLaserDebuf : UnitBuf
 ```
 
+Buff which halves speed for half a second when hit by [Green Midnight's laser](/api/Global/Misc/MachineMidnightLaser).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → MidnightLaserDebuf
 
@@ -25,6 +28,8 @@ public class MidnightLaserDebuf : UnitBuf
 ```csharp
 public MidnightLaserDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public MidnightLaserDebuf()
 ```csharp
 public const float defaultLifeTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public const float defaultLifeTime = 0.5
 ```csharp
 private const float speedFactor = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +64,17 @@ private const float speedFactor = 0.5
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MovementScale()
 
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

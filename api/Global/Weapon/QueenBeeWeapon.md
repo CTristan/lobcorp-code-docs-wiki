@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/QueenBeeWeapon
 public class QueenBeeWeapon : EquipmentScriptBase
 ```
 
+Script for [Queen Bee](/api/Global/Misc/QueenBee)'s EGO Weapon: Hornet. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → QueenBeeWeapon
 

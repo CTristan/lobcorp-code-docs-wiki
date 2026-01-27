@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AudioClipPlayer
 ```csharp
 public class AudioClipPlayer : MonoBehaviour
 ```
+Plays audio?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AudioClipPlayer
@@ -55,6 +59,8 @@ public AudioClipPlayer.PlayerData mainData
 ```csharp
 public void OnPlay()
 ```
+#INC
+
 
 ### OnPlay(PlayerData)
 
@@ -73,6 +79,8 @@ private void OnPlay(AudioClipPlayer.PlayerData data)
 ```csharp
 public void OnPlayInList(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,9 +93,14 @@ public void OnPlayInList(int index)
 ```csharp
 public void PlayGlobal()
 ```
+#INC
+
 
 ### PlayLocal()
 
 ```csharp
 public void PlayLocal()
 ```
+#INC
+#code-generated
+

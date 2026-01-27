@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherBlackFrame
 ```csharp
 public class KetherBlackFrame : MonoBehaviour
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → KetherBlackFrame
@@ -33,6 +35,8 @@ public KetherBlackFrame()
 ```csharp
 public float _earthQuake_X
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public float _earthQuake_X
 ```csharp
 public float _earthQuake_Y
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public float _earthQuake_Y
 ```csharp
 private float _earthQuakeElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private float _earthQuakeElap
 ```csharp
 public float _earthQuakeFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public float _earthQuakeFreq
 ```csharp
 private static float _earthQuakeFreqMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private static float _earthQuakeFreqMin
 ```csharp
 private static MinMax _earthquakeValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private static MinMax _earthquakeValue
 ```csharp
 private MinMax _eqFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private MinMax _eqFreq
 ```csharp
 private Vector3 _startPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private Vector3 _startPos
 ```csharp
 public GameObject _target
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public GameObject _target
 ```csharp
 private Vector3 _targetInitialPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private Vector3 _targetInitialPos
 ```csharp
 private bool _turnOnEarthQuake
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,12 +181,16 @@ public bool TurnOnEarthQuake { get; set; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnSetTrigger(bool)
 
 ```csharp
 private void OnSetTrigger(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,3 +203,6 @@ private void OnSetTrigger(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

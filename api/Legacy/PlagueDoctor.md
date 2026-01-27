@@ -12,6 +12,9 @@ canonical_path: /api/Legacy/PlagueDoctor
 public class PlagueDoctor : CreatureBase, IObserver
 ```
 
+Plague Doctor!!!!!!!!!!
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → PlagueDoctor
 
@@ -353,6 +356,8 @@ public void ApostleClockEffectEnd()
 ```csharp
 public void CancelAttract()
 ```
+#INC
+
 
 ### CanObservedByAgent(AgentModel)
 
@@ -413,6 +418,8 @@ public DeathAngelApostle GetApostle(int index)
 ```csharp
 public CreatureStaticData.ParameterData GetApostleDesc(int targetindex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -445,6 +452,8 @@ public string GetApostleDescRefined(CreatureStaticData.ParameterData paramData)
 ```csharp
 public override Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -465,6 +474,8 @@ public override SkillTypeInfo GetSpecialSkill()
 ```csharp
 public override bool HasScriptSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -475,6 +486,8 @@ public override bool HasScriptSaveData()
 ```csharp
 public override void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,6 +524,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -523,12 +538,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnGamemanagerInit()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnKissAnimEnd()
 
@@ -541,6 +561,8 @@ public void OnKissAnimEnd()
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -572,6 +594,8 @@ public override void OnStageRelease()
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewDestroy()
 
@@ -584,6 +608,8 @@ public override void OnViewDestroy()
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,6 +622,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### StartAdventEvent()
 

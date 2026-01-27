@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/BaldArmor
 public class BaldArmor : EquipmentScriptBase
 ```
 
+Script for [You're Bald...](/api/Global/Misc/Bald)'s EGO Suit: Tough. No script.
+
+#unused
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BaldArmor
 
@@ -33,6 +38,8 @@ public BaldArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

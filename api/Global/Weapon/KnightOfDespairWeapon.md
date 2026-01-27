@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/KnightOfDespairWeapon
 public class KnightOfDespairWeapon : EquipmentScriptBase
 ```
 
+Script for [The Knight of Despair](/api/Global/Misc/KnightOfDespair)'s EGO Weapon: The Sword Sharpened with Tears.
+
+Does a special attack which does a bunch of little damages in addition to the normal damage, at a 30% chance.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → KnightOfDespairWeapon
 
@@ -33,6 +38,8 @@ public KnightOfDespairWeapon()
 ```csharp
 private const float _patternProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 

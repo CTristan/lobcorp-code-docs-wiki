@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/EffectSound
 ```csharp
 public class EffectSound : MonoBehaviour
 ```
+Manager for playing [sound effects](/api/Global/Misc/EffectSoundItem).
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EffectSound
@@ -33,6 +36,8 @@ public EffectSound()
 ```csharp
 private static EffectSound _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static EffectSound _instance
 ```csharp
 public float _volume
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public float _volume
 ```csharp
 public AudioSource audioSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public AudioSource audioSrc
 ```csharp
 public List<EffectSoundItem> clips
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +108,17 @@ public float volume { get; private set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetClip(EffectSoundType)
 
 ```csharp
 private AudioClip GetClip(EffectSoundType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +135,8 @@ private AudioClip GetClip(EffectSoundType type)
 ```csharp
 private AudioClip GetClip(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +153,8 @@ private AudioClip GetClip(int index)
 ```csharp
 public void PlayEffectSound(EffectSoundType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,6 +167,8 @@ public void PlayEffectSound(EffectSoundType type)
 ```csharp
 public void PlayEffectSound(EffectSoundType type, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +182,8 @@ public void PlayEffectSound(EffectSoundType type, float volume)
 ```csharp
 public void PlayEffectSound(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,6 +196,8 @@ public void PlayEffectSound(int index)
 ```csharp
 public void PlayEffectSound(int index, float voulme)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +211,8 @@ public void PlayEffectSound(int index, float voulme)
 ```csharp
 public static void PlaySound(EffectSoundType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +225,8 @@ public static void PlaySound(EffectSoundType type)
 ```csharp
 public static void PlaySound(EffectSoundType type, float vol)
 ```
+#INC
+
 
 #### Parameters
 
@@ -210,6 +240,8 @@ public static void PlaySound(EffectSoundType type, float vol)
 ```csharp
 public static void PlaySound(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -222,6 +254,8 @@ public static void PlaySound(int index)
 ```csharp
 public static void PlaySound(int index, float vol)
 ```
+#INC
+
 
 #### Parameters
 

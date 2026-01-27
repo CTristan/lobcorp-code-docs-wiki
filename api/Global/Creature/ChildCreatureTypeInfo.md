@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ChildCreatureTypeInfo
 public class ChildCreatureTypeInfo : CreatureTypeInfo
 ```
 
+Holds basic type information for a [ChildCreatureModel](/api/Global/Creature/ChildCreatureModel), like risk level and attack type.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureTypeInfo](/api/Global/Info/CreatureTypeInfo) → ChildCreatureTypeInfo
 
@@ -33,6 +36,8 @@ public ChildCreatureTypeInfo()
 ```csharp
 public string _attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public string _attackType
 ```csharp
 public string _riskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public string _riskLevel
 ```csharp
 public int attackTypeOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public int attackTypeOpen
 ```csharp
 public ChildCreatureData data
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public ChildCreatureData data
 ```csharp
 public bool isHasBaseMeta
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public bool isHasBaseMeta
 ```csharp
 public int riskLevelOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +132,8 @@ public override string riskLevel { get; }
 ```csharp
 public RwbpType GetAttackType()
 ```
+#INC
+
 
 #### Returns
 
@@ -127,6 +144,9 @@ public RwbpType GetAttackType()
 ```csharp
 public override RiskLevel GetRiskLevel()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

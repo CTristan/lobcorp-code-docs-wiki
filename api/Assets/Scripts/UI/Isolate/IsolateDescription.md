@@ -12,6 +12,9 @@ canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescription
 public class IsolateDescription : MonoBehaviour
 ```
 
+A unit of text which appears on the sides of the containment unit during work. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateDescription
 
@@ -33,6 +36,8 @@ public IsolateDescription()
 ```csharp
 public IsolateDescController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public IsolateDescController controller
 ```csharp
 public DescController DescController
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private IsolateDescription.OnDisplayEnd endEvent
 ```csharp
 private Vector2 initial
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private Vector2 initial
 ```csharp
 private const float max = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ private const float max = 5
 ```csharp
 private const float min = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private const float min = 3
 ```csharp
 public DescPos pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ public DescPos pos
 ```csharp
 public int textId
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ public int textId
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +186,8 @@ public Image Texture { get; }
 ```csharp
 public void Display(string desc, int fontSize, int textId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,12 +202,16 @@ public void Display(string desc, int fontSize, int textId)
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### Init(IsolateDescController)
 
 ```csharp
 public void Init(IsolateDescController ctrl)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,12 +224,17 @@ public void Init(IsolateDescController ctrl)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public void OnEnd()
 ```
+#INC
+#code-generated
+
 
 ### SetEndEvent(OnDisplayEnd)
 
@@ -223,9 +253,13 @@ public void SetEndEvent(IsolateDescription.OnDisplayEnd end)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Terminate()
 
 ```csharp
 public void Terminate()
 ```
+#INC
+

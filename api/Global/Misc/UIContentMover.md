@@ -36,6 +36,8 @@ public UIContentMover()
 ```csharp
 private float _currentHorizontal
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private float _currentHorizontal
 ```csharp
 private float _currentVertical
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private float _currentVertical
 ```csharp
 private Vector2 _initialPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private Vector2 _initialPosition
 ```csharp
 private HorizontalOrVerticalLayoutGroup _layout
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private HorizontalOrVerticalLayoutGroup _layout
 ```csharp
 private float _oldSaveHor
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ private float _oldSaveHor
 ```csharp
 private float _oldSaveVer
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private float _oldSaveVer
 ```csharp
 private RectTransform _rt
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +153,8 @@ public float MoveHorizontalFactor
 ```csharp
 public bool MoveVertical
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +165,8 @@ public bool MoveVertical
 ```csharp
 public float MoveVerticalFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +177,8 @@ public float MoveVerticalFactor
 ```csharp
 public float ScreenHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +189,8 @@ public float ScreenHeight
 ```csharp
 public float ScreenWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +201,8 @@ public float ScreenWidth
 ```csharp
 public float VerticalSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,27 +248,38 @@ private float _std { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### InitPosition()
 
 ```csharp
 public void InitPosition()
 ```
+#INC
+
 
 ### MoveExecute()
 
 ```csharp
 public void MoveExecute()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

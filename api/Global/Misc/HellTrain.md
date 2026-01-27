@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/HellTrain
 public class HellTrain : CreatureBase
 ```
 
+Express Train to Hell. Tool abnormality.
+
+This thing sucks. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → HellTrain
 
@@ -33,6 +38,8 @@ public HellTrain()
 ```csharp
 private readonly float[] _AMOUNT_RECOVERY
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private readonly float[] _AMOUNT_RECOVERY
 ```csharp
 private HellTrainAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private HellTrainAnim _anim
 ```csharp
 private int _otherCreatureWorkCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private int _otherCreatureWorkCount
 ```csharp
 private const float _reduceTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _reduceTimeMax = 30
 ```csharp
 private const float _reduceTimeMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _reduceTimeMin = 30
 ```csharp
 private AgentModel curAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private AgentModel curAgent
 ```csharp
 private Timer reduceTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +136,8 @@ private static float reduceTime { get; }
 ```csharp
 private bool CheckTurnOn(int idx)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +154,8 @@ private bool CheckTurnOn(int idx)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +168,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,6 +182,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,18 +196,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -193,6 +227,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void RecoverAgents(AgentModel agent, int idx)
 ```
+#INC
+
 
 #### Parameters
 
@@ -206,3 +242,5 @@ private void RecoverAgents(AgentModel agent, int idx)
 ```csharp
 public void SellTicket()
 ```
+#INC
+

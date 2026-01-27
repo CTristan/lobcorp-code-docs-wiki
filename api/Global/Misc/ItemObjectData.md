@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ItemObjectData
 ```csharp
 public class ItemObjectData
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ItemObjectData
@@ -33,6 +35,8 @@ public ItemObjectData()
 ```csharp
 public float defense
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public float defense
 ```csharp
 public long id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public long id
 ```csharp
 public int maxHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public int maxHp
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public string name
 ```csharp
 public string script
 ```
+#INC
+
 
 #### Field Value
 

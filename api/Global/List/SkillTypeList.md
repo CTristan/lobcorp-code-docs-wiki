@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/SkillTypeList
 ```csharp
 public class SkillTypeList
 ```
+A list of [SkillTypeInfo](/api/Global/Info/SkillTypeInfo)s, mostly for abnormality work type. #verify 
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkillTypeList
@@ -25,6 +29,9 @@ public class SkillTypeList
 ```csharp
 private SkillTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private SkillTypeList()
 ```csharp
 private static SkillTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static SkillTypeList _instance
 ```csharp
 private List<SkillTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private List<SkillTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public bool loaded { get; }
 ```csharp
 public SkillTypeInfo GetData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +118,8 @@ public SkillTypeInfo GetData(long id)
 ```csharp
 public SkillTypeInfo GetDataByName(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +136,8 @@ public SkillTypeInfo GetDataByName(string name)
 ```csharp
 public SkillTypeInfo[] GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -129,6 +148,8 @@ public SkillTypeInfo[] GetList()
 ```csharp
 public SkillTypeInfo GetNextSkill(SkillTypeInfo typeInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +166,8 @@ public SkillTypeInfo GetNextSkill(SkillTypeInfo typeInfo)
 ```csharp
 public void Init(SkillTypeInfo[] list)
 ```
+#INC
+
 
 #### Parameters
 

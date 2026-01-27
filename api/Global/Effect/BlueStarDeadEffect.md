@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effect/BlueStarDeadEffect
 ```csharp
 public class BlueStarDeadEffect : MonoBehaviour
 ```
+Animation effect for [Blue Star](/api/Global/IOBserver/BlueStar)'s kill; applies to workers with [BlueStarBuf](/api/Global/UnitBuf/BlueStarBuf).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BlueStarDeadEffect
@@ -33,6 +35,8 @@ public BlueStarDeadEffect()
 ```csharp
 public AnimationCurve _defaultCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public AnimationCurve _defaultCurve
 ```csharp
 private Timer _effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private Timer _effectTimer
 ```csharp
 private bool _isInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _isInit
 ```csharp
 public float cos
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public float cos
 ```csharp
 public float deltaX
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public float deltaX
 ```csharp
 public float deltaY
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public float deltaY
 ```csharp
 public const string EffectSrc = "Effect/Creature/BlueStar/BlueStarDisappear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public const string EffectSrc = "Effect/Creature/BlueStar/BlueStarDisappear"
 ```csharp
 private Vector2 end
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private Vector2 end
 ```csharp
 public WorkerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public WorkerModel model
 ```csharp
 public float moveTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public float moveTime
 ```csharp
 private float rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ private float rotation
 ```csharp
 public float sin
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public float sin
 ```csharp
 public BlueStar star
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ public BlueStar star
 ```csharp
 private Vector2 start
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +203,8 @@ private Vector2 start
 ```csharp
 private Vector3 startScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ private BlueStarDeadEffect.TransType type
 ```csharp
 private WorkerUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +239,9 @@ private WorkerUnit unit
 ```csharp
 public void Init(BlueStar star, WorkerModel unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -218,15 +255,21 @@ public void Init(BlueStar star, WorkerModel unit)
 ```csharp
 private void MakeEndEffect()
 ```
+#INC
+
 
 ### SetFactor()
 
 ```csharp
 private void SetFactor()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

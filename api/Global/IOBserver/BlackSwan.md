@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/BlackSwan
 public class BlackSwan : CreatureBase, IObserver
 ```
 
+Dream of a Black Swan.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BlackSwan
 
@@ -36,6 +39,8 @@ public BlackSwan()
 ```csharp
 private BlackSwanAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private BlackSwanAnim _animScript
 ```csharp
 private List<int> brothersCurrent
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private List<int> brothersCurrent
 ```csharp
 private static int[] brothersDefault
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private static int[] brothersDefault
 ```csharp
 private const int creatureEscapeCondition = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const int creatureEscapeCondition = 3
 ```csharp
 private int creatureEscapeCurrent
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private int creatureEscapeCurrent
 ```csharp
 public ChildCreatureModel sister
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public ChildCreatureModel sister
 ```csharp
 public const string sound_trans = "trans"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public const string sound_trans = "trans"
 ```csharp
 private int transformTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private int transformTarget
 ```csharp
 private const int workerDieCondition = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private const int workerDieCondition = 5
 ```csharp
 private int workerDieCurrent
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private int workerDieCurrent
 ```csharp
 private const int workerPanicCondition = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private const int workerPanicCondition = 5
 ```csharp
 private int workerPanicCurrent
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,12 +197,16 @@ public BlackSwanAnim animScript { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +224,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,6 +242,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -219,6 +254,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -229,6 +266,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -239,6 +278,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -249,6 +290,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,6 +308,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +326,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -291,6 +338,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnChildSuppressed(ChildCreatureModel child)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,6 +352,8 @@ public override void OnChildSuppressed(ChildCreatureModel child)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -316,6 +367,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -328,24 +381,33 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -358,18 +420,24 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ReducedQliphothCounter()
 
 ```csharp
 public override void ReducedQliphothCounter()
 ```
+#INC
+
 
 ### SubQliphothCounter(int)
 
 ```csharp
 private void SubQliphothCounter(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +450,8 @@ private void SubQliphothCounter(int i)
 ```csharp
 private void TransformBrother(int i)
 ```
+#INC
+
 
 #### Parameters
 

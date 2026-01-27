@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YoungPrinceAnim
 public class YoungPrinceAnim : CreatureAnimScript
 ```
 
+Animation handler for [The Little Prince](/api/Global/IOBserver/YoungPrince).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → YoungPrinceAnim
 
@@ -33,6 +38,8 @@ public YoungPrinceAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject Normal
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public GameObject Normal
 ```csharp
 public Animator NormalAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Animator NormalAnim
 ```csharp
 public GameObject NormalCenter
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public GameObject NormalCenter
 ```csharp
 public YoungPrince script
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public YoungPrince script
 ```csharp
 public GameObject Transformed
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public GameObject Transformed
 ```csharp
 public Animator TransformedAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ public Animator TransformedAnim
 ```csharp
 public void ChangeState(bool isCasting)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,18 +138,25 @@ public void ChangeState(bool isCasting)
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsTransformed()
 
 ```csharp
 public bool IsTransformed()
 ```
+#INC
+
 
 #### Returns
 
@@ -139,6 +167,8 @@ public bool IsTransformed()
 ```csharp
 public void SetPhase(bool casting, int phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,6 +182,8 @@ public void SetPhase(bool casting, int phase)
 ```csharp
 public void SetScript(YoungPrince scr)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,9 +196,13 @@ public void SetScript(YoungPrince scr)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

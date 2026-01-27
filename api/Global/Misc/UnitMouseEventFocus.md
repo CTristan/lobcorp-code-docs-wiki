@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/UnitMouseEventFocus
 public class UnitMouseEventFocus : MonoBehaviour
 ```
 
+Probably controls which things are in focus for the mouse at a given time...
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitMouseEventFocus
 
@@ -33,6 +38,8 @@ public UnitMouseEventFocus()
 ```csharp
 private UnitMouseEventEffect.EffectType _currentEffectType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private UnitMouseEventEffect.EffectType _currentEffectType
 ```csharp
 private List<UnitMouseEventEffect> _effectList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private List<UnitMouseEventEffect> _effectList
 ```csharp
 private UnscaledTimer _focusAnimTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private UnscaledTimer _focusAnimTimer
 ```csharp
 private bool _rabbitEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool _rabbitEnabled
 ```csharp
 public GameObject f1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public GameObject f1
 ```csharp
 public GameObject f2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public GameObject f2
 ```csharp
 public GameObject f3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public GameObject f3
 ```csharp
 public GameObject f4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject f4
 ```csharp
 private float FocusAnimFreq_Click
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private float FocusAnimFreq_Click
 ```csharp
 private float FocusAnimFreq_Overlay
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private float FocusAnimFreq_Overlay
 ```csharp
 public float height
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public float height
 ```csharp
 private const string originalText = "MouseFocusMove"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string originalText = "MouseFocusMove"
 ```csharp
 private const string rabbitText = "RabbitProtocolMoveFocus"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const string rabbitText = "RabbitProtocolMoveFocus"
 ```csharp
 public GameObject text
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public GameObject text
 ```csharp
 public float width
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +242,8 @@ private string textValue { get; }
 ```csharp
 private void AttachScript(GameObject target, UnitMouseEventEffect.EffectPosition pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,12 +257,17 @@ private void AttachScript(GameObject target, UnitMouseEventEffect.EffectPosition
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### IsDisableEffect()
 
 ```csharp
 public bool IsDisableEffect()
 ```
+#INC
+
 
 #### Returns
 
@@ -236,27 +278,37 @@ public bool IsDisableEffect()
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### StartFocusAnimation_Overlay()
 
 ```csharp
 public void StartFocusAnimation_Overlay()
 ```
+#INC
+
 
 ### StartFoucsAnimation_Click()
 
 ```csharp
 public void StartFoucsAnimation_Click()
 ```
+#INC
+
 
 ### StopEffect()
 
 ```csharp
 public void StopEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SefiraBossDesc
 public class SefiraBossDesc : MonoBehaviour
 ```
 
+Script for [core suppression](/api/Global/Misc/SefiraBossBase) text which appears over the screen. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraBossDesc
 
@@ -33,6 +38,8 @@ public SefiraBossDesc()
 ```csharp
 private UnscaledTimer _activateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private UnscaledTimer _activateTimer
 ```csharp
 private UnscaledTimer _alphaTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private UnscaledTimer _alphaTimer
 ```csharp
 private UnscaledTimer _disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private UnscaledTimer _disableTimer
 ```csharp
 private UnscaledTimer _enableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private UnscaledTimer _enableTimer
 ```csharp
 private Font _font
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Font _font
 ```csharp
 private SefiraEnum _sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private SefiraEnum _sefira
 ```csharp
 public float alphaTransitionTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public float alphaTransitionTime
 ```csharp
 public float bigMaxScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public float bigMaxScale
 ```csharp
 public float bigMinScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public float bigMinScale
 ```csharp
 public bool check
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public bool check
 ```csharp
 private int currentGenIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private int currentGenIndex
 ```csharp
 public float customSpcaing
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public float customSpcaing
 ```csharp
 public float disableTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ public float disableTime
 ```csharp
 public TextMesh dummyMesh
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +217,8 @@ public float enableTime
 ```csharp
 public float endAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +229,8 @@ public float endAlpha
 ```csharp
 public int fontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +241,8 @@ public int fontSize
 ```csharp
 public FontType fontType
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,6 +253,8 @@ public FontType fontType
 ```csharp
 private Vector3 initialPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +265,8 @@ private Vector3 initialPos
 ```csharp
 private Color innerColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -234,6 +277,8 @@ private Color innerColor
 ```csharp
 public SpriteRenderer layerSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -244,6 +289,8 @@ public SpriteRenderer layerSetter
 ```csharp
 public float maxRootRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -254,6 +301,8 @@ public float maxRootRotation
 ```csharp
 public float maxRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +335,8 @@ public float minRotation
 ```csharp
 private Color outlineColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +347,8 @@ private Color outlineColor
 ```csharp
 public float smallMaxScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +359,8 @@ public float smallMaxScale
 ```csharp
 public float smallMinScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +371,8 @@ public float smallMinScale
 ```csharp
 private float spaceWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +383,8 @@ private float spaceWidth
 ```csharp
 public const string Src = "Effect/SefiraBoss/SefiraBossText"
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +406,8 @@ public float startAlpha
 ```csharp
 public string text
 ```
+#INC
+
 
 #### Field Value
 
@@ -357,6 +418,8 @@ public string text
 ```csharp
 public TextAnchor textAnchor
 ```
+#INC
+
 
 #### Field Value
 
@@ -377,6 +440,8 @@ public List<SefiraBossDesc.TextUnit> textList
 ```csharp
 public Transform textPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -387,6 +452,8 @@ public Transform textPivot
 ```csharp
 public float xRatioMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -397,6 +464,8 @@ public float xRatioMax
 ```csharp
 public float xRatioMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -407,6 +476,8 @@ public float xRatioMin
 ```csharp
 public float yRatioMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -417,6 +488,8 @@ public float yRatioMax
 ```csharp
 public float yRatioMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -427,6 +500,8 @@ public float yRatioMin
 ```csharp
 public const float zeroSize = 22
 ```
+#INC
+
 
 #### Field Value
 
@@ -437,6 +512,8 @@ public const float zeroSize = 22
 ```csharp
 public const float zeroX = 38
 ```
+#INC
+
 
 #### Field Value
 
@@ -447,6 +524,8 @@ public const float zeroX = 38
 ```csharp
 public const float zeroY = 21.375
 ```
+#INC
+
 
 #### Field Value
 
@@ -501,6 +580,8 @@ private int MaxCharCount { get; }
 ```csharp
 public static SefiraBossDesc GenDesc(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -517,6 +598,8 @@ public static SefiraBossDesc GenDesc(string text)
 ```csharp
 public float GetRandomScale(bool prev)
 ```
+#INC
+
 
 #### Parameters
 
@@ -533,6 +616,8 @@ public float GetRandomScale(bool prev)
 ```csharp
 public Quaternion GetRootRotation()
 ```
+#INC
+
 
 #### Returns
 
@@ -543,6 +628,8 @@ public Quaternion GetRootRotation()
 ```csharp
 public Quaternion GetRotation()
 ```
+#INC
+
 
 #### Returns
 
@@ -553,6 +640,8 @@ public Quaternion GetRotation()
 ```csharp
 public void Init(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -565,12 +654,16 @@ public void Init(string desc)
 ```csharp
 private void SetAlpha()
 ```
+#INC
+
 
 ### SetFont(FontType)
 
 ```csharp
 public void SetFont(FontType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -583,6 +676,8 @@ public void SetFont(FontType type)
 ```csharp
 public void SetInitialPos(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -595,15 +690,22 @@ public void SetInitialPos(Vector3 pos)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateText()
 
 ```csharp
 public void UpdateText()
 ```
+#INC
+

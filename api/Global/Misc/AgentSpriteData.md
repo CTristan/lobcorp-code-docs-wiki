@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AgentSpriteData
 ```csharp
 public class AgentSpriteData
 ```
+Stores sprite information about an [agent](/api/Global/Worker/AgentUnit).
+
+Used by [AgentPortrait](/api/Global/Misc/AgentPortrait)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentSpriteData
@@ -33,6 +37,8 @@ public AgentSpriteData()
 ```csharp
 public AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public AgentModel agent
 ```csharp
 public WorkerSpriteSet Sets
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +85,9 @@ public Sprite Hair { get; }
 ```csharp
 public void Init(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

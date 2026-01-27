@@ -12,6 +12,10 @@ canonical_path: /api/Global/Armor/AlriuneArmor
 public class AlriuneArmor : EquipmentScriptBase
 ```
 
+Script for [Alriune](/api/Global/Misc/Alriune)'s EGO Suit: Faint Aroma.
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → AlriuneArmor
 
@@ -33,6 +37,8 @@ public AlriuneArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

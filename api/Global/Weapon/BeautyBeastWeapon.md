@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/BeautyBeastWeapon
 public class BeautyBeastWeapon : EquipmentScriptBase
 ```
 
+Script for [Beauty and the Beast](/api/Global/Misc/BeautyBeast)'s EGO Weapon: Horn.
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BeautyBeastWeapon
 

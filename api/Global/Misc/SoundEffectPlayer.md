@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SoundEffectPlayer
 public class SoundEffectPlayer : MonoBehaviour
 ```
 
+Plays sound effects.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SoundEffectPlayer
 
@@ -33,6 +38,8 @@ public SoundEffectPlayer()
 ```csharp
 private Queue<AudioClip> clips
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Queue<AudioClip> clips
 ```csharp
 private float destroyTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float destroyTime
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private float elapsedTime
 ```csharp
 public bool halted
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public bool halted
 ```csharp
 private bool onshot
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool onshot
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,18 +112,24 @@ public AudioSource src
 ```csharp
 public void AttachToCamera()
 ```
+#INC
+
 
 ### DeQueue()
 
 ```csharp
 private void DeQueue()
 ```
+#INC
+
 
 ### DestroyPlayer(ref SoundEffectPlayer)
 
 ```csharp
 public static bool DestroyPlayer(ref SoundEffectPlayer player)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,12 +146,16 @@ public static bool DestroyPlayer(ref SoundEffectPlayer player)
 ```csharp
 public void Halt()
 ```
+#INC
+
 
 ### Play(string, Transform)
 
 ```csharp
 public static SoundEffectPlayer Play(string filename, Transform transf)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,6 +173,8 @@ public static SoundEffectPlayer Play(string filename, Transform transf)
 ```csharp
 public static SoundEffectPlayer Play(string filename, Transform transf, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,6 +193,8 @@ public static SoundEffectPlayer Play(string filename, Transform transf, float vo
 ```csharp
 public static SoundEffectPlayer PlayOnce(string filename, float pitch, Vector2 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,6 +213,8 @@ public static SoundEffectPlayer PlayOnce(string filename, float pitch, Vector2 p
 ```csharp
 public static SoundEffectPlayer PlayOnce(string filename, Vector2 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +232,8 @@ public static SoundEffectPlayer PlayOnce(string filename, Vector2 position)
 ```csharp
 public static SoundEffectPlayer PlayOnce(string filename, Vector2 position, AudioRolloffMode mode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,6 +252,8 @@ public static SoundEffectPlayer PlayOnce(string filename, Vector2 position, Audi
 ```csharp
 public static SoundEffectPlayer PlayOnce(string filename, Vector2 position, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -235,6 +272,8 @@ public static SoundEffectPlayer PlayOnce(string filename, Vector2 position, floa
 ```csharp
 public static SoundEffectPlayer PlaySequence(Vector2 position, params string[] fileName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -252,12 +291,16 @@ public static SoundEffectPlayer PlaySequence(Vector2 position, params string[] f
 ```csharp
 public void ReStart()
 ```
+#INC
+
 
 ### SetDestroyTime(float)
 
 ```csharp
 public void SetDestroyTime(float destroyTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,9 +313,14 @@ public void SetDestroyTime(float destroyTime)
 ```csharp
 public void Stop()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditElement
 ```csharp
 public class CreditElement
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreditElement
@@ -33,6 +35,9 @@ public CreditElement()
 ```csharp
 public string name
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

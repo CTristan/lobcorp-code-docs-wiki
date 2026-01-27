@@ -11,6 +11,8 @@ canonical_path: /api/Global/Standing/DaughterBugAnim
 ```csharp
 public class DaughterBugAnim : StandingItemAnim, IAnimatorEventCalled, IOverlapOnclick
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → DaughterBugAnim
@@ -36,6 +38,8 @@ public DaughterBugAnim()
 ```csharp
 private DaughterBug.AnimationState _curState
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private DaughterBug.AnimationState _curState
 ```csharp
 private Vector3 _defaultPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ private Vector3 _defaultPosition
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ private float _elapsedTime
 ```csharp
 private SoundEffectPlayer _moveSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ private SoundEffectPlayer _moveSound
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ public static string[] animString
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +122,8 @@ public GameObject center
 ```csharp
 public GameObject clickObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +134,8 @@ public GameObject clickObject
 ```csharp
 public GameObject creator1
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ public GameObject creator1
 ```csharp
 public GameObject creator2
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +158,8 @@ public GameObject creator2
 ```csharp
 public DaughterBug script
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +170,8 @@ public DaughterBug script
 ```csharp
 public const string sound_src = "RandomEvent/HordeOfBugs/Bug1_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +182,8 @@ public const string sound_src = "RandomEvent/HordeOfBugs/Bug1_"
 ```csharp
 public static string[] soundString
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +194,8 @@ public static string[] soundString
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -178,30 +208,40 @@ public AudioSource src
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### AttachHandler()
 
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,18 +254,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,6 +284,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,18 +299,24 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### EnableClick()
 
 ```csharp
 public void EnableClick()
 ```
+#INC
+
 
 ### EndEvent(TrackEntry)
 
 ```csharp
 public void EndEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,12 +342,16 @@ public void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -306,24 +364,32 @@ public void OnCalled(int i)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,6 +402,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAnimation(DaughterBug.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,6 +416,8 @@ public void SetAnimation(DaughterBug.AnimationState animState)
 ```csharp
 public void SetScript(DaughterBug script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -360,12 +430,16 @@ public void SetScript(DaughterBug script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -378,3 +452,6 @@ public void SoundMake(string src)
 ```csharp
 protected override void Update()
 ```
+#INC
+#code-generated
+

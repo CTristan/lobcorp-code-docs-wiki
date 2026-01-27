@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AngelaMessage
 ```csharp
 public class AngelaMessage
 ```
+Represents one of Angela's messages (one unit of yap)
+
+See [AngelaConversation](/api/Global/Misc/AngelaConversation)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AngelaMessage
@@ -25,6 +29,9 @@ public class AngelaMessage
 ```csharp
 public AngelaMessage(AngelaMessageState state, AngelaMessagePos pos, AngelaMessageUnit[] ary)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +48,8 @@ public AngelaMessage(AngelaMessageState state, AngelaMessagePos pos, AngelaMessa
 ```csharp
 public string defaultFormat
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +60,8 @@ public string defaultFormat
 ```csharp
 public List<AngelaMessageUnit> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ public List<AngelaMessageUnit> list
 ```csharp
 public AngelaMessagePos pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +84,8 @@ public AngelaMessagePos pos
 ```csharp
 public AngelaMessageState state
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public AngelaMessageState state
 ```csharp
 public virtual AngelaMessageUnit GetUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -93,6 +110,8 @@ public virtual AngelaMessageUnit GetUnit()
 ```csharp
 public virtual AngelaMessageUnit GetUnit(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,3 +128,5 @@ public virtual AngelaMessageUnit GetUnit(int id)
 ```csharp
 public void PrintData()
 ```
+#INC
+

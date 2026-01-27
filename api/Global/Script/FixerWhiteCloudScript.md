@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/FixerWhiteCloudScript
 public class FixerWhiteCloudScript : MonoBehaviour
 ```
 
+Script for [White Fixer](/api/Global/Misc/FixerWhite)'s cloud attack.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FixerWhiteCloudScript
 
@@ -33,6 +38,8 @@ public FixerWhiteCloudScript()
 ```csharp
 public float _damageDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +82,8 @@ public CreatureModel Model { get; }
 ```csharp
 public FixerWhite script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -87,6 +96,8 @@ public FixerWhite script { get; set; }
 ```csharp
 private void AttackDamageBuf(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,12 +110,17 @@ private void AttackDamageBuf(UnitModel target)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCollision(Collider2D)
 
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +133,8 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,12 +151,16 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel)
 
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/ResearchLog
 ```csharp
 public class ResearchLog
 ```
+#unused 
+#code-generated
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchLog

@@ -12,6 +12,10 @@ canonical_path: /api/CreatureInfo/CreatureInfoObserveLevelEffectSlot
 public class CreatureInfoObserveLevelEffectSlot : MonoBehaviour
 ```
 
+Observation level and effects
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoObserveLevelEffectSlot
 
@@ -33,6 +37,8 @@ public CreatureInfoObserveLevelEffectSlot()
 ```csharp
 public Outline GradeOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Outline GradeOutline
 ```csharp
 public Text GradeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Text GradeText
 ```csharp
 public Outline InnerOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Outline InnerOutline
 ```csharp
 public Text InnerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public Text InnerText
 ```csharp
 public void SetState(bool isEnabled)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +101,9 @@ public void SetState(bool isEnabled)
 ```csharp
 public void SetText(string desc)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

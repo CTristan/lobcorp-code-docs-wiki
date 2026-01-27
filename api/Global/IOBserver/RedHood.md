@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/RedHood
 public class RedHood : CreatureBase, IObserver
 ```
 
+Little Red Riding Hooded Mercenary.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → RedHood
 
@@ -36,6 +41,8 @@ public RedHood()
 ```csharp
 public const float _axeRespawn = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public const float _axeRespawn = 10
 ```csharp
 private bool _changeTargetAsWolf
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool _changeTargetAsWolf
 ```csharp
 private bool _chase
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private bool _chase
 ```csharp
 private bool _currentAgentPrevWorkIsWolf
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private RedHood.AttackType _currentAttackType
 ```csharp
 private MovableObjectNode _currentDestMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private MovableObjectNode _currentDestMovable
 ```csharp
 private MapNode _currentDestNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private MapNode _currentDestNode
 ```csharp
 private CreatureCommand.OnCommandEnd _currentMoveCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private CreatureCommand.OnCommandEnd _currentMoveCommand
 ```csharp
 private float _currentSpeedFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private float _currentSpeedFactor
 ```csharp
 private PassageObjectModel _entryPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private PassageObjectModel _entryPassage
 ```csharp
 private Timer _freezeReturnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private Timer _freezeReturnTimer
 ```csharp
 private float _initialSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private float _initialSpeed
 ```csharp
 private bool _isApproaching
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private bool _isApproaching
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private bool _isAttacking
 ```csharp
 private bool _isAxeThrowed
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private bool _isAxeThrowed
 ```csharp
 private bool _isWaiting
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private bool _isWaiting
 ```csharp
 private bool _isWolfSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private bool _isWolfSuppressed
 ```csharp
 private MapNode _oldTargetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ private RedHood.RedHoodState _state
 ```csharp
 private UnitModel _target
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ private UnitModel _target
 ```csharp
 private const string _text_exclam = "...!"
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ private const string _text_exclam = "...!"
 ```csharp
 private const string _text_norm = "..."
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +301,8 @@ private const string _text_norm = "..."
 ```csharp
 private Timer _throwingRespawnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +313,8 @@ private Timer _throwingRespawnTimer
 ```csharp
 private BigBadWolf _wolf
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +325,8 @@ private BigBadWolf _wolf
 ```csharp
 private Dictionary<UnitModel, RedHoodBleedBuf> bufDictionary
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +337,8 @@ private Dictionary<UnitModel, RedHoodBleedBuf> bufDictionary
 ```csharp
 private const string GunFire_Left = "Effect/Creature/RedHood/GunFireLeft"
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +349,8 @@ private const string GunFire_Left = "Effect/Creature/RedHood/GunFireLeft"
 ```csharp
 private const string GunFire_Right = "Effect/Creature/RedHood/GunFireRight"
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +361,8 @@ private const string GunFire_Right = "Effect/Creature/RedHood/GunFireRight"
 ```csharp
 private const float MeleeAttackRange = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +373,8 @@ private const float MeleeAttackRange = 2
 ```csharp
 public const int QliphothMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +385,8 @@ public const int QliphothMax = 3
 ```csharp
 private const int RequestCostFactor = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +397,8 @@ private const int RequestCostFactor = 40
 ```csharp
 private const string SlashSrc = "Effect/Creature/RedHood/RedHoodSlash{0}_{1}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -420,18 +483,24 @@ public DamageInfo ThrowingDamage { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Approach()
 
 ```csharp
 private void Approach()
 ```
+#INC
+
 
 ### CanCastMovingShoot()
 
 ```csharp
 public bool CanCastMovingShoot()
 ```
+#INC
+
 
 #### Returns
 
@@ -442,6 +511,8 @@ public bool CanCastMovingShoot()
 ```csharp
 private bool CheckRange(UnitModel target, float range, bool ignoreDirection = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -460,6 +531,8 @@ private bool CheckRange(UnitModel target, float range, bool ignoreDirection = tr
 ```csharp
 private bool CheckTargetPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -470,6 +543,8 @@ private bool CheckTargetPassage()
 ```csharp
 private void CheckWolf(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -482,36 +557,48 @@ private void CheckWolf(List<UnitModel> near)
 ```csharp
 public void ClearBuf()
 ```
+#INC
+
 
 ### EscapeMovementArrived()
 
 ```csharp
 private void EscapeMovementArrived()
 ```
+#INC
+
 
 ### EscapeUpdate()
 
 ```csharp
 private void EscapeUpdate()
 ```
+#INC
+
 
 ### FindBadWolf()
 
 ```csharp
 private void FindBadWolf()
 ```
+#INC
+
 
 ### GenThrowing()
 
 ```csharp
 private void GenThrowing()
 ```
+#INC
+
 
 ### GetBuf(UnitModel)
 
 ```csharp
 private RedHoodBleedBuf GetBuf(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -528,6 +615,8 @@ private RedHoodBleedBuf GetBuf(UnitModel target)
 ```csharp
 public override float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -562,6 +651,8 @@ private List<UnitModel> GetDamageTargets(float dist = -1, bool ignoreDirection =
 ```csharp
 public int GetRequestCost(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -578,6 +669,8 @@ public int GetRequestCost(UnitModel unit)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -594,6 +687,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveAxeThrowingDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -620,6 +715,8 @@ private void GiveDamage(DamageInfo damageInfo, List<UnitModel> targets, RedHood.
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -630,6 +727,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool HasUniqueCommandAction(int workType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -646,12 +745,16 @@ public override bool HasUniqueCommandAction(int workType)
 ```csharp
 private void HuntingUpdate()
 ```
+#INC
+
 
 ### IsAutoSuppressable()
 
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -662,6 +765,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -672,6 +777,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -682,6 +789,8 @@ public override bool IsSuppressable()
 ```csharp
 public bool IsWolf(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -698,6 +807,8 @@ public bool IsWolf(UnitModel unit)
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -708,6 +819,8 @@ public override bool IsWorkable()
 ```csharp
 public static void Log(string log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -720,6 +833,8 @@ public static void Log(string log)
 ```csharp
 public void MakeGunFlame(Transform tr)
 ```
+#INC
+
 
 #### Parameters
 
@@ -732,6 +847,8 @@ public void MakeGunFlame(Transform tr)
 ```csharp
 public void MakeMovement(MapNode targetNode, CreatureCommand.OnCommandEnd end = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -745,6 +862,8 @@ public void MakeMovement(MapNode targetNode, CreatureCommand.OnCommandEnd end = 
 ```csharp
 public void MakeMovement(MovableObjectNode targetMovable, CreatureCommand.OnCommandEnd end = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -758,12 +877,16 @@ public void MakeMovement(MovableObjectNode targetMovable, CreatureCommand.OnComm
 ```csharp
 public void MakeSlashEffect()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -793,6 +916,8 @@ public void MakeThrowEffect(UnitModel target, float heightFctor = 2)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -803,36 +928,48 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnApproachUpdate()
 ```
+#INC
+
 
 ### OnArrivedRoom()
 
 ```csharp
 public void OnArrivedRoom()
 ```
+#INC
+
 
 ### OnAttackAnimEnd()
 
 ```csharp
 public void OnAttackAnimEnd()
 ```
+#INC
+
 
 ### OnAxeRespawned()
 
 ```csharp
 public void OnAxeRespawned()
 ```
+#INC
+
 
 ### OnDamageTime()
 
 ```csharp
 public void OnDamageTime()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -845,6 +982,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -857,6 +996,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnGiveDamage(UnitModel target, bool isRanged)
 ```
+#INC
+
 
 #### Parameters
 
@@ -870,12 +1011,16 @@ public void OnGiveDamage(UnitModel target, bool isRanged)
 ```csharp
 public void OnHowlingAttacked()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -889,6 +1034,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -901,6 +1048,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -911,18 +1060,24 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public void OnReadyForEscape()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSetTarget(UnitModel)
 
 ```csharp
 public void OnSetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -935,18 +1090,24 @@ public void OnSetTarget(UnitModel target)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -961,6 +1122,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -973,18 +1136,24 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnWolfSuppressedByOther()
 ```
+#INC
+
 
 ### OnWolfSuppressedByRedHood()
 
 ```csharp
 public void OnWolfSuppressedByRedHood()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -997,18 +1166,25 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ResetMovement()
 
 ```csharp
 public void ResetMovement()
 ```
+#INC
+
 
 ### SetTargetDirection(UnitModel)
 
 ```csharp
 public void SetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1021,12 +1197,16 @@ public void SetTargetDirection(UnitModel target)
 ```csharp
 private void StartAttack()
 ```
+#INC
+
 
 ### StartRequest(UnitModel)
 
 ```csharp
 public void StartRequest(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1039,6 +1219,8 @@ public void StartRequest(UnitModel target)
 ```csharp
 public void StopMovement(bool clearDest = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1051,18 +1233,24 @@ public void StopMovement(bool clearDest = false)
 ```csharp
 public void TryRequest()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+
 
 ### UniqueMoveControl()
 
 ```csharp
 public override bool UniqueMoveControl()
 ```
+#INC
+
 
 #### Returns
 
@@ -1073,6 +1261,8 @@ public override bool UniqueMoveControl()
 ```csharp
 private bool ValidateTarget()
 ```
+#INC
+
 
 #### Returns
 

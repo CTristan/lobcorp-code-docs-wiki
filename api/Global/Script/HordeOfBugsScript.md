@@ -12,6 +12,10 @@ canonical_path: /api/Global/Script/HordeOfBugsScript
 public class HordeOfBugsScript : StandingItemScriptBase
 ```
 
+Script for [HordeOfBugs](/api/Global/Misc/HordeOfBugs).
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → HordeOfBugsScript
 
@@ -36,6 +40,8 @@ public HordeOfBugsScript()
 ```csharp
 public HordeOfBugs randomEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +54,9 @@ public HordeOfBugs randomEvent
 ```csharp
 public virtual void SetEvent(HordeOfBugs script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

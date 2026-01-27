@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/SilenOrchestraBuf
 public class SilenOrchestraBuf : UnitBuf
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SilenOrchestraBuf
 
@@ -25,6 +28,8 @@ public class SilenOrchestraBuf : UnitBuf
 ```csharp
 public SilenOrchestraBuf(Uncontrollable_SilentOrchestra uncon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public SilenOrchestraBuf(Uncontrollable_SilentOrchestra uncon)
 ```csharp
 private float defHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private float defHp
 ```csharp
 private const float scale = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private const float scale = 30
 ```csharp
 private Uncontrollable_SilentOrchestra uncon
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,12 +82,17 @@ private Uncontrollable_SilentOrchestra uncon
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -89,3 +105,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

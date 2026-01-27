@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AnimatorName
 ```csharp
 public class AnimatorName
 ```
+List of strings and IDs associated to each 'Animator' (i.e., animation)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorName
@@ -33,6 +35,9 @@ public AnimatorName()
 ```csharp
 public static string AgentCtrl
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public static string AgentCtrl
 ```csharp
 public static string AuthorNote_SubWorkerCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public static string AuthorNote_SubWorkerCTRL
 ```csharp
 public static string AuthorNote_WorkerCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public static string AuthorNote_WorkerCTRL
 ```csharp
 public static string BigBird_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public static string BigBird_AgentCTRL
 ```csharp
 public static string DeathAngel_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public static string DeathAngel_AgentCTRL
 ```csharp
 public static string Helper_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public static string Helper_AgentCTRL
 ```csharp
 public static long id_AgentCtrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public static long id_AgentCtrl
 ```csharp
 public static long id_BigBird_agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public static long id_BigBird_agent
 ```csharp
 public static long id_DeathAngel_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public static long id_DeathAngel_AgentCTRL
 ```csharp
 public static long id_Helper_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public static long id_Helper_AgentCTRL
 ```csharp
 public static long id_LadyLooking_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public static long id_LadyLooking_AgentCTRL
 ```csharp
 public static long id_LightsHammer_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public static long id_LightsHammer_AgentCTRL
 ```csharp
 public static long id_LongBirdAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public static long id_LongBirdAgentCTRL
 ```csharp
 public static long id_Machine_attract
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public static long id_Machine_attract
 ```csharp
 public static long id_Machine_victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public static long id_Machine_victim
 ```csharp
 public static long id_MalkutOfficerAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ public static long id_MalkutOfficerAction
 ```csharp
 public static long id_MatchGirl_agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ public static long id_MatchGirl_agent
 ```csharp
 public static long id_NamelessFetus_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ public static long id_NamelessFetus_AgentCTRL
 ```csharp
 public static long id_Nullthing_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ public static long id_Nullthing_AgentCTRL
 ```csharp
 public static long id_OfficerCtrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ public static long id_OfficerCtrl
 ```csharp
 public static long id_OldLady_agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ public static long id_OldLady_agent
 ```csharp
 public static long id_OneBad
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ public static long id_OneBad
 ```csharp
 public static long id_PlagueDoctor_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ public static long id_PlagueDoctor_AgentCTRL
 ```csharp
 public static long id_QueenBee_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ public static long id_QueenBee_AgentCTRL
 ```csharp
 public static long id_RedShoes_attract
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ public static long id_RedShoes_attract
 ```csharp
 public static long id_RedShoes_infected
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ public static long id_RedShoes_infected
 ```csharp
 public static long id_RedShoes_victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ public static long id_RedShoes_victim
 ```csharp
 public static long id_SilentOrchestra_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +372,8 @@ public static long id_SilentOrchestra_AgentCTRL
 ```csharp
 public static long id_SnowQueenAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +384,8 @@ public static long id_SnowQueenAgentCTRL
 ```csharp
 public static long id_SpiderMom_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +396,8 @@ public static long id_SpiderMom_AgentCTRL
 ```csharp
 public static long id_Teddy_agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +408,8 @@ public static long id_Teddy_agent
 ```csharp
 public static long id_Wellcheers_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +420,8 @@ public static long id_Wellcheers_AgentCTRL
 ```csharp
 public static long id_YesodOfficerAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +432,8 @@ public static long id_YesodOfficerAction
 ```csharp
 public static long id_YoungPrinceAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +444,8 @@ public static long id_YoungPrinceAgentCTRL
 ```csharp
 public static string LadyLooking_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +456,8 @@ public static string LadyLooking_AgentCTRL
 ```csharp
 public static string LightsHammer_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +468,8 @@ public static string LightsHammer_AgentCTRL
 ```csharp
 public static string LongBirdAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +480,8 @@ public static string LongBirdAgentCTRL
 ```csharp
 public static string Machine_attract
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +492,8 @@ public static string Machine_attract
 ```csharp
 public static string Machine_victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +504,8 @@ public static string Machine_victim
 ```csharp
 public static string MalkutOfficerAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +516,8 @@ public static string MalkutOfficerAction
 ```csharp
 public static string MatchedGirl_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +528,8 @@ public static string MatchedGirl_AgentCTRL
 ```csharp
 public static string NamelessFetus_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +540,8 @@ public static string NamelessFetus_AgentCTRL
 ```csharp
 public static string Nullthing_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +552,8 @@ public static string Nullthing_AgentCTRL
 ```csharp
 public static string OfficerCtrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +564,8 @@ public static string OfficerCtrl
 ```csharp
 public static string OldLady_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +576,8 @@ public static string OldLady_AgentCTRL
 ```csharp
 public static string OneBad
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +588,8 @@ public static string OneBad
 ```csharp
 public static string PlagueDoctor_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +600,8 @@ public static string PlagueDoctor_AgentCTRL
 ```csharp
 public static string QueenBee_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +612,8 @@ public static string QueenBee_AgentCTRL
 ```csharp
 public static string RedShoes_attract
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +624,8 @@ public static string RedShoes_attract
 ```csharp
 public static string RedShoes_infected
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +636,8 @@ public static string RedShoes_infected
 ```csharp
 public static string RedShoes_victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +648,8 @@ public static string RedShoes_victim
 ```csharp
 public static string SilentOrchestra_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +660,8 @@ public static string SilentOrchestra_AgentCTRL
 ```csharp
 public static string SnowQueenAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -563,6 +672,8 @@ public static string SnowQueenAgentCTRL
 ```csharp
 public static string SpiderMom_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -573,6 +684,8 @@ public static string SpiderMom_AgentCTRL
 ```csharp
 public static string Teddy_agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -583,6 +696,8 @@ public static string Teddy_agent
 ```csharp
 public static string Wellcheers_AgentCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -593,6 +708,8 @@ public static string Wellcheers_AgentCTRL
 ```csharp
 public static string YesodOfficerAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -603,6 +720,8 @@ public static string YesodOfficerAction
 ```csharp
 public static string YoungPrinceAgentCTRL
 ```
+#INC
+
 
 #### Field Value
 

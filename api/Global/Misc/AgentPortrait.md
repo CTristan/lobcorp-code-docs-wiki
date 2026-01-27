@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AgentPortrait
 ```csharp
 public class AgentPortrait
 ```
+Holds an [agent](/api/Global/Worker/AgentUnit) and their sprite data.
+
+Seems to be used by prefabs for some UI components.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentPortrait
@@ -33,6 +37,8 @@ public AgentPortrait()
 ```csharp
 public AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public AgentModel agent
 ```csharp
 public AgentSpriteData spriteData
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,9 @@ public AgentSpriteData spriteData
 ```csharp
 public void Init(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

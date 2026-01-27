@@ -12,6 +12,9 @@ canonical_path: /api/GeburahBoss/GeburahIdle
 public class GeburahIdle : GeburahAction
 ```
 
+Action for [The Red Mist](/api/Global/Script/GeburahCoreScript) doing nothing (or being stunned).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → GeburahIdle
 
@@ -25,6 +28,8 @@ public class GeburahIdle : GeburahAction
 ```csharp
 public GeburahIdle(GeburahCoreScript geburah, bool nearClose, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public GeburahIdle(GeburahCoreScript geburah, bool nearClose, float time)
 ```csharp
 public GeburahIdle(GeburahCoreScript geburah, float time, bool isGroggy = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -55,6 +62,8 @@ public GeburahIdle(GeburahCoreScript geburah, float time, bool isGroggy = false)
 ```csharp
 private bool _isGroggy
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ private bool _isGroggy
 ```csharp
 private bool _nearClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,8 @@ private bool _nearClose
 ```csharp
 private float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +98,8 @@ private float time
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,15 +112,22 @@ private Timer timer
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

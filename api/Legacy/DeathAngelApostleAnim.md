@@ -12,6 +12,11 @@ canonical_path: /api/Legacy/DeathAngelApostleAnim
 public class DeathAngelApostleAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Parent class for [apostle](/api/Legacy/DeathAngelApostle) animations
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → DeathAngelApostleAnim
 
@@ -495,6 +500,8 @@ private void Start()
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### Update()
 

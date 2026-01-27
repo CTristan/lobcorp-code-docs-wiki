@@ -11,6 +11,10 @@ canonical_path: /api/Global/Script/ConsoleScript
 ```csharp
 public class ConsoleScript : MonoBehaviour
 ```
+Manages the console.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ConsoleScript
@@ -33,6 +37,8 @@ public ConsoleScript()
 ```csharp
 private static ConsoleScript _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static ConsoleScript _instance
 ```csharp
 private bool angelaLogEnter
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool angelaLogEnter
 ```csharp
 private bool consoleActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool consoleActivated
 ```csharp
 public GameObject ConsoleWnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public GameObject ConsoleWnd
 ```csharp
 private InputField inputField
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private InputField inputField
 ```csharp
 private bool systemLogEnter
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +123,17 @@ public static ConsoleScript instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### GetHmmCommand(string)
 
 ```csharp
 private string GetHmmCommand(string cmd)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -129,6 +150,8 @@ private string GetHmmCommand(string cmd)
 ```csharp
 public void OnExitEdit(string command)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,9 +164,13 @@ public void OnExitEdit(string command)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/EndingBackground
 ```csharp
 public class EndingBackground : MonoBehaviour
 ```
+Probably the background at the end?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EndingBackground
@@ -33,6 +37,8 @@ public EndingBackground()
 ```csharp
 private SpriteRenderer[] _darkRenderers
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private SpriteRenderer[] _darkRenderers
 ```csharp
 private float _energyMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private float _energyMax
 ```csharp
 public SpriteRenderer[] _lightEnergyRelated
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public SpriteRenderer[] _lightEnergyRelated
 ```csharp
 private float _lightOnTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private float _lightOnTime
 ```csharp
 private UnscaledTimer _lightOnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private UnscaledTimer _lightOnTimer
 ```csharp
 private SpriteRenderer[] _lightRenderers
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private SpriteRenderer[] _lightRenderers
 ```csharp
 public GameObject darkBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public GameObject darkBackground
 ```csharp
 public GameObject lightBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,18 +135,25 @@ public GameObject lightBackground
 ```csharp
 public void ActivateBackground()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CreateEndingBackground(float)
 
 ```csharp
 public static EndingBackground CreateEndingBackground(float energyMax)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,12 +170,16 @@ public static EndingBackground CreateEndingBackground(float energyMax)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### LightRelateAlpha(float)
 
 ```csharp
 private void LightRelateAlpha(float a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,6 +192,8 @@ private void LightRelateAlpha(float a)
 ```csharp
 public void LightRelatedActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -173,3 +206,5 @@ public void LightRelatedActive(bool state)
 ```csharp
 public void TurnOnLight()
 ```
+#INC
+

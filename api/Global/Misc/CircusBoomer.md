@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/CircusBoomer
 public class CircusBoomer : BoomerCircusScript
 ```
 
+old red dawn, I guess
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → [BoomerCircusScript](/api/Global/Script/BoomerCircusScript) → CircusBoomer
 
@@ -53,6 +58,8 @@ private CircusBoomer.BoomerPhase _phase
 ```csharp
 public CircusBoomerAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ public CircusBoomerAnim animScript
 ```csharp
 private bool appearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private bool appearEffectMake
 ```csharp
 public const float boomFreq = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ public const float boomFreq = 2
 ```csharp
 public const float boomRange = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ public const float boomRange = 7
 ```csharp
 public Timer boomTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ public Timer boomTimer
 ```csharp
 public bool canTakeDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ public bool canTakeDmg
 ```csharp
 public SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ public SoundEffectPlayer defaultSound
 ```csharp
 public const float detectRange = 3.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ public const float detectRange = 3.25
 ```csharp
 private const int dmg = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private const int dmg = 50
 ```csharp
 public const float dmgPerClick = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ public const float dmgPerClick = 30
 ```csharp
 public Timer enableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ public Timer enableDelay
 ```csharp
 private DamageInfo explosionDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ private DamageInfo explosionDmg
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ public int index
 ```csharp
 public float indexZ
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ public float indexZ
 ```csharp
 public const float moveSpeed = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ public const float moveSpeed = 3
 ```csharp
 public bool readyToBomb
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ public bool readyToBomb
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ public Text textUI
 ```csharp
 public const float yValueFix = -18
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,12 +276,16 @@ public const float yValueFix = -18
 ```csharp
 private void AppearEffect()
 ```
+#INC
+
 
 ### CanRangeInCamera()
 
 ```csharp
 public bool CanRangeInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -251,6 +296,8 @@ public bool CanRangeInCamera()
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +314,8 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public void DelayedEnable(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,6 +338,8 @@ public CircusBoomer.BoomerPhase GetPhase()
 ```csharp
 public void GiveDamageInRange(float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,12 +352,16 @@ public void GiveDamageInRange(float range)
 ```csharp
 public override void Init()
 ```
+#INC
+
 
 ### IsActive()
 
 ```csharp
 public override bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -317,6 +372,8 @@ public override bool IsActive()
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +388,8 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 public void MakeExplodeEffect(Vector3 pos, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,24 +403,32 @@ public void MakeExplodeEffect(Vector3 pos, float size)
 ```csharp
 public void Move()
 ```
+#INC
+
 
 ### OnBreakDown()
 
 ```csharp
 public override void OnBreakDown()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +441,8 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public override void OnTakePhyisclaDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -386,6 +455,8 @@ public override void OnTakePhyisclaDamage(float damage)
 ```csharp
 public override void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -398,6 +469,9 @@ public override void SetActive(bool state)
 ```csharp
 public override void SetEvent(BoomerCircusEvent bce)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -422,6 +496,8 @@ public void SetPhase(CircusBoomer.BoomerPhase phase)
 ```csharp
 public bool TargetInRage(float range)
 ```
+#INC
+
 
 #### Parameters
 

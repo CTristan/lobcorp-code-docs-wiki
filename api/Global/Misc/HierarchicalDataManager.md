@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/HierarchicalDataManager
 ```csharp
 public class HierarchicalDataManager
 ```
+Loads [HierarchicalData](/api/Global/Misc/HierarchicalData) from XML.
+
+The only such data is for [uncontrollable actions](/api/Global/Action/UncontrollableAction). These values do not appear to be used, but the class is still called to load them.
+
+#called-unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → HierarchicalDataManager
@@ -33,6 +39,8 @@ public HierarchicalDataManager()
 ```csharp
 private static HierarchicalDataManager _intance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private static HierarchicalDataManager _intance
 ```csharp
 private bool isInitiated
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private bool isInitiated
 ```csharp
 public Dictionary<string, List<string>> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public Dictionary<string, List<string>> lib
 ```csharp
 public static string Uncon
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +111,9 @@ public bool IsInit { get; }
 ```csharp
 public void Init(Dictionary<string, List<string>> lib)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -109,6 +126,8 @@ public void Init(Dictionary<string, List<string>> lib)
 ```csharp
 public int InitialSetting(string area, string name)
 ```
+#INC
+
 
 #### Parameters
 

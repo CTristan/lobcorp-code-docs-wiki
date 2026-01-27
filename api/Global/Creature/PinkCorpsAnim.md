@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/PinkCorpsAnim
 public class PinkCorpsAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Army in Black](/api/Global/IOBserver/PinkCorps).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PinkCorpsAnim
 
@@ -36,6 +41,8 @@ public PinkCorpsAnim()
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject PinkActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject PinkActiveControl
 ```csharp
 public PinkCorpsRequestUI requestUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +101,8 @@ public int CurrentAttackAnimType { get; private set; }
 ```csharp
 public PinkCorps Script { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -100,6 +115,8 @@ public PinkCorps Script { get; private set; }
 ```csharp
 public void Attack(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,30 +129,41 @@ public void Attack(int attackType)
 ```csharp
 public void ChangeToBlack()
 ```
+#INC
+
 
 ### CloseRequestUI()
 
 ```csharp
 public void CloseRequestUI()
 ```
+#INC
+
 
 ### DeadAnim()
 
 ```csharp
 public void DeadAnim()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -148,12 +176,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnGiveDamage()
 ```
+#INC
+
 
 ### OnSetState(PinkCorpsState)
 
 ```csharp
 public void OnSetState(PinkCorps.PinkCorpsState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,18 +198,24 @@ public void OnSetState(PinkCorps.PinkCorpsState state)
 ```csharp
 public void OpenRequestUI()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### SetScript(PinkCorps)
 
 ```csharp
 public void SetScript(PinkCorps script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,9 +228,13 @@ public void SetScript(PinkCorps script)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

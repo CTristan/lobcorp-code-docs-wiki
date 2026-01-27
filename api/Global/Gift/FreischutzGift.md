@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/FreischutzGift
 public class FreischutzGift : EquipmentScriptBase
 ```
 
+Script for [Der Freischütz](/api/Global/Misc/Freischutz)'s EGO Gift: Magic Bullet. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FreischutzGift
 

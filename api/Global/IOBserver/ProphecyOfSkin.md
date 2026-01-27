@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/ProphecyOfSkin
 public class ProphecyOfSkin : CreatureBase, IObserver
 ```
 
+Skin Prophecy. Tool abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ProphecyOfSkin
 
@@ -36,6 +41,8 @@ public ProphecyOfSkin()
 ```csharp
 private const float _AMOUNT_DECREASE_W = 0.05
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const float _AMOUNT_DECREASE_W = 0.05
 ```csharp
 private const float _AMOUNT_DECREASE_W_BASE = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const float _AMOUNT_DECREASE_W_BASE = 0.2
 ```csharp
 private const int _AMOUNT_PRUDENCE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const int _AMOUNT_PRUDENCE = 15
 ```csharp
 private const float _LIMIT_DECREASE_W = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const float _LIMIT_DECREASE_W = 2
 ```csharp
 private const int _LIMIT_PRUDENCE = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private List<ProphecyOfSkin.ReadAgent> _readAgentList
 ```csharp
 private List<AgentModel> _readAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private List<AgentModel> _readAgents
 ```csharp
 private AgentModel _readingAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private AgentModel _readingAgent
 ```csharp
 private Timer _readingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private Timer _readingTimer
 ```csharp
 private const string _SOUND_AGENT_DEAD = "creature/ProphecyOfSkin/BOOK_DeadScene"
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private const string _SOUND_AGENT_DEAD = "creature/ProphecyOfSkin/BOOK_DeadScene
 ```csharp
 private const string _SOUND_AGENT_READ = "creature/ProphecyOfSkin/BOOK_Use"
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +173,8 @@ private const string _SOUND_AGENT_READ = "creature/ProphecyOfSkin/BOOK_Use"
 ```csharp
 private void OnAgentDeadAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +187,8 @@ private void OnAgentDeadAnimEvent(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,6 +201,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,6 +215,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +230,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,18 +244,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Bald
 public class Bald : CreatureBase
 ```
 
+You're Bald....
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Bald
 
@@ -33,6 +36,8 @@ public Bald()
 ```csharp
 public const int addEng = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public const int addEng = 20
 ```csharp
 public const int addMood = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public const int addMood = 16
 ```csharp
 private AprilBaldAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private AprilBaldAnim anim
 ```csharp
 private readonly Sprite BALD_FRONT_SPRITE
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private readonly Sprite BALD_FRONT_SPRITE
 ```csharp
 private readonly Sprite BALD_FRONT_SPRITE2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private readonly Sprite BALD_FRONT_SPRITE2
 ```csharp
 private readonly Sprite BALD_REAR_SPRITE
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private readonly Sprite BALD_REAR_SPRITE
 ```csharp
 public AgentModel changeAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public AgentModel changeAgent
 ```csharp
 public List<WorkerModel> currentiList
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public List<WorkerModel> currentiList
 ```csharp
 private Timer delayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private Timer delayTimer
 ```csharp
 public static WorkerSpriteSaveData.Pair FrontPair
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public static WorkerSpriteSaveData.Pair FrontPair
 ```csharp
 public bool isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public bool isSpecial
 ```csharp
 public const float maxTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public const float maxTime = 5
 ```csharp
 public List<AgentModel> memeriList
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public List<AgentModel> memeriList
 ```csharp
 public static WorkerSpriteSaveData.Pair RearPair
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public static WorkerSpriteSaveData.Pair RearPair
 ```csharp
 public int stack
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public int stack
 ```csharp
 public const int subMood = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ public const int subMood = 20
 ```csharp
 private CreatureUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +242,8 @@ private CreatureUnit unit
 ```csharp
 private bool IsBald(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,6 +260,8 @@ private bool IsBald(AgentModel agent)
 ```csharp
 private void MakeBaldLevel1(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -233,6 +274,8 @@ private void MakeBaldLevel1(WorkerModel target)
 ```csharp
 private void MakeBaldLevel2(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,12 +288,17 @@ private void MakeBaldLevel2(WorkerModel target)
 ```csharp
 private void MakeEffect()
 ```
+#INC
+
 
 ### OnBonusWorkProb()
 
 ```csharp
 public override int OnBonusWorkProb()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -261,6 +309,8 @@ public override int OnBonusWorkProb()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +323,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,6 +337,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,18 +351,24 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,6 +381,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SpecialSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -333,3 +395,5 @@ private void SpecialSkill(UseSkill skill)
 ```csharp
 private void UpdateLevel()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/ParamSetterBehavior
 public class ParamSetterBehavior : StateMachineBehaviour
 ```
 
+Sets the target values on entry and exit.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ParamSetterBehavior
 
@@ -85,6 +90,9 @@ public List<ParamSetterBehavior.ParamData> onStateMove
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -99,6 +107,8 @@ public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +123,8 @@ public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
 ```csharp
 public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 

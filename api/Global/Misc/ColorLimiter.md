@@ -36,6 +36,8 @@ public ColorLimiter()
 ```csharp
 private MaskableGraphic _targetGraphic
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +78,8 @@ public ColorLimiter.Limiter G
 ```csharp
 public bool IsEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,3 +114,6 @@ public MaskableGraphic TargetGraphic { get; }
 ```csharp
 public void Update()
 ```
+#INC
+#code-generated
+

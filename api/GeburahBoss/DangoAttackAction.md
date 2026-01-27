@@ -12,6 +12,11 @@ canonical_path: /api/GeburahBoss/DangoAttackAction
 public class DangoAttackAction : GeburahAction
 ```
 
+Action for [The Red Mist](/api/Global/Script/GeburahCoreScript) using [Smile](/api/Global/Weapon/DangoCreatureWeapon) attack (ouchie!!)
+
+If 'isPhaseShift' is true (for the end of her third phase), destroys Smile and is scary.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → DangoAttackAction
 
@@ -25,6 +30,8 @@ public class DangoAttackAction : GeburahAction
 ```csharp
 public DangoAttackAction(GeburahCoreScript geburah, bool isPhaseShift)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public DangoAttackAction(GeburahCoreScript geburah, bool isPhaseShift)
 ```csharp
 public static DamageInfo _b_damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ public static DamageInfo _b_damage
 ```csharp
 private const string _damageEffect = "GeburahDangoDamage"
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ private const string _damageEffect = "GeburahDangoDamage"
 ```csharp
 private GameObject _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +83,8 @@ private GameObject _effect
 ```csharp
 private bool _isPhaseShift
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +95,8 @@ private bool _isPhaseShift
 ```csharp
 public static DamageInfo _p_damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +107,8 @@ public static DamageInfo _p_damage
 ```csharp
 private const string _stunEffect = "GeburahDangoStun"
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +119,8 @@ private const string _stunEffect = "GeburahDangoStun"
 ```csharp
 private DamageInfo curDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +131,8 @@ private DamageInfo curDamage
 ```csharp
 private List<StunBuf> stunbuf
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,12 +145,16 @@ private List<StunBuf> stunbuf
 ```csharp
 public void AddStunBuf()
 ```
+#INC
+
 
 ### CanTakeDamage()
 
 ```csharp
 public override bool CanTakeDamage()
 ```
+#INC
+
 
 #### Returns
 
@@ -138,18 +165,24 @@ public override bool CanTakeDamage()
 ```csharp
 public void ClearStunBuf()
 ```
+#INC
+
 
 ### DangoFirstDamage()
 
 ```csharp
 public void DangoFirstDamage()
 ```
+#INC
+
 
 ### GetTargets()
 
 ```csharp
 private List<UnitModel> GetTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -160,24 +193,32 @@ private List<UnitModel> GetTargets()
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamage()
 
 ```csharp
 public void OnDamage()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnEventCalled(int)
 
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,3 +231,6 @@ public void OnEventCalled(int i)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

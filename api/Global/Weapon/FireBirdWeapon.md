@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/FireBirdWeapon
 public class FireBirdWeapon : EquipmentScriptBase
 ```
 
+Script for [The Firebird](/api/Global/IOBserver/FireBird)'s EGO Weapon: Feather of Honor.
+
+Rolls damage twice.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FireBirdWeapon
 
@@ -33,6 +38,8 @@ public FireBirdWeapon()
 ```csharp
 private int _COUNT_ATTACK_PER_ANIM
 ```
+#INC
+
 
 #### Field Value
 

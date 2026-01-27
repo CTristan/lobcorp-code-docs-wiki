@@ -11,6 +11,12 @@ canonical_path: /api/Global/Event/BoomerCircusEvent
 ```csharp
 public class BoomerCircusEvent : RandomEventBase
 ```
+The Noon of Crimson, The Harmony of Skin. I think. #INC 
+
+No, wait, that would be [CircusNoon](/api/Global/Misc/CircusNoon). Uh. Hm. Older version?
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [RandomEventBase](/api/Global/Misc/RandomEventBase) → BoomerCircusEvent
@@ -33,6 +39,8 @@ public BoomerCircusEvent()
 ```csharp
 public const long boomerId = 10052
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public const long boomerId = 10052
 ```csharp
 public static int boomerMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public static int boomerMax
 ```csharp
 private List<CircusBoomer> boomers
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private List<CircusBoomer> boomers
 ```csharp
 public const string boomerSrc = "StandingItem/BoomerCircus/CircusBoomer"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public const string boomerSrc = "StandingItem/BoomerCircus/CircusBoomer"
 ```csharp
 public const string circusBgm = ""
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ public const string circusBgm = ""
 ```csharp
 private int numOfBoomers
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ private int numOfBoomers
 ```csharp
 private int numOfTents
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ private int numOfTents
 ```csharp
 public const long tentId = 10051
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public const long tentId = 10051
 ```csharp
 public static int tentMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ public static int tentMax
 ```csharp
 private List<CircusTent> tents
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ private List<CircusTent> tents
 ```csharp
 public const string tentSrc = "StandingItem/BoomerCircus/CircusTent"
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +173,8 @@ public const string tentSrc = "StandingItem/BoomerCircus/CircusTent"
 ```csharp
 public void DisableCircus(BoomerCircusScript script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,6 +187,8 @@ public void DisableCircus(BoomerCircusScript script)
 ```csharp
 public void EnableCircus(BoomerCircusScript.CircusType type, MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,6 +202,8 @@ public void EnableCircus(BoomerCircusScript.CircusType type, MapNode node)
 ```csharp
 public GameObject LoadCircus(string src, long metaId, out BoomerCircusScript script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -188,21 +222,30 @@ public GameObject LoadCircus(string src, long metaId, out BoomerCircusScript scr
 ```csharp
 public override void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public override void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+

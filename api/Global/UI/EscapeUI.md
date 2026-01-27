@@ -11,6 +11,10 @@ canonical_path: /api/Global/UI/EscapeUI
 ```csharp
 public class EscapeUI : MonoBehaviour
 ```
+UI for the escape menu.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EscapeUI
@@ -33,6 +37,8 @@ public EscapeUI()
 ```csharp
 private bool _initstate
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private bool _initstate
 ```csharp
 private static EscapeUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private static EscapeUI _instance
 ```csharp
 private bool _isOpened
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _isOpened
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public GameObject ActiveControl
 ```csharp
 public GameObject CheckPointConfirmControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public GameObject CheckPointConfirmControl
 ```csharp
 public Text CheckPointConfirmText
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public Text CheckPointConfirmText
 ```csharp
 public Image MasterFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public Image MasterFill
 ```csharp
 public Slider MasterVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ public Slider MasterVolume
 ```csharp
 public GameObject MiddleAreaControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public GameObject MiddleAreaControl
 ```csharp
 public Image MusicFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public Image MusicFill
 ```csharp
 public Slider MusicVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ public Slider MusicVolume
 ```csharp
 public Image[] OverlayableButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ public Image[] OverlayableButton
 ```csharp
 public RectTransform OverlayArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ public RectTransform OverlayArrow
 ```csharp
 public EscapeMenuArrowUI OverlayArrowUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ public EscapeMenuArrowUI OverlayArrowUI
 ```csharp
 public Toggle tooltipToggle
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,36 +241,48 @@ public bool IsOpened { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CloseWindow()
 
 ```csharp
 public static void CloseWindow()
 ```
+#INC
+
 
 ### CloseWindow_Tutorial()
 
 ```csharp
 public static void CloseWindow_Tutorial()
 ```
+#INC
+
 
 ### ExitGame()
 
 ```csharp
 private void ExitGame()
 ```
+#INC
+
 
 ### MoveTitle()
 
 ```csharp
 private void MoveTitle()
 ```
+#INC
+
 
 ### OnClickButton(int)
 
 ```csharp
 public void OnClickButton(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,30 +295,40 @@ public void OnClickButton(int index)
 ```csharp
 private void OnClickCheckPointCancel()
 ```
+#INC
+
 
 ### OnClickCheckPointConfirm()
 
 ```csharp
 private void OnClickCheckPointConfirm()
 ```
+#INC
+
 
 ### OnClickTooltipToggle()
 
 ```csharp
 public void OnClickTooltipToggle()
 ```
+#INC
+
 
 ### OnCloseWindow()
 
 ```csharp
 private void OnCloseWindow()
 ```
+#INC
+
 
 ### OnEnterButton(int)
 
 ```csharp
 public void OnEnterButton(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,6 +341,8 @@ public void OnEnterButton(int index)
 ```csharp
 public void OnExitButton(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,12 +355,16 @@ public void OnExitButton(int index)
 ```csharp
 private void OnOpenWindow()
 ```
+#INC
+
 
 ### OnSetCheckPointDescText(Text)
 
 ```csharp
 public void OnSetCheckPointDescText(Text self)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,6 +377,8 @@ public void OnSetCheckPointDescText(Text self)
 ```csharp
 public void OnSetMasterVolume(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,6 +391,8 @@ public void OnSetMasterVolume(float value)
 ```csharp
 public void OnSetMusicVolume(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,42 +405,56 @@ public void OnSetMusicVolume(float value)
 ```csharp
 public void OpenManual()
 ```
+#INC
+
 
 ### OpenOptionUI()
 
 ```csharp
 public void OpenOptionUI()
 ```
+#INC
+
 
 ### OpenWindow()
 
 ```csharp
 public static void OpenWindow()
 ```
+#INC
+
 
 ### OpenWindow_Tutorial()
 
 ```csharp
 public static void OpenWindow_Tutorial()
 ```
+#INC
+
 
 ### RestartAtCheckpoint()
 
 ```csharp
 private void RestartAtCheckpoint()
 ```
+#INC
+
 
 ### ReturnToCheckpoint()
 
 ```csharp
 private void ReturnToCheckpoint()
 ```
+#INC
+
 
 ### SetButtonBright(Image)
 
 ```csharp
 private void SetButtonBright(Image b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -387,6 +467,8 @@ private void SetButtonBright(Image b)
 ```csharp
 private void SetButtonDark(Image b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -399,3 +481,6 @@ private void SetButtonDark(Image b)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Model/BloodMapObjectModel
 public class BloodMapObjectModel : MapObjectModel
 ```
 
+Model for blood splatters in some [room](/api/Global/Model/PassageObjectModel), together with [BloodMapObject](/api/Global/Object/BloodMapObject).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [ObjectModelBase](/api/Global/Object/ObjectModelBase) → [MapObjectModel](/api/Global/Model/MapObjectModel) → BloodMapObjectModel
 
@@ -33,6 +37,9 @@ public BloodMapObjectModel()
 ```csharp
 public Sprite bloodSprite
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Sprite bloodSprite
 ```csharp
 public Color color
 ```
+#INC
+
 
 #### Field Value
 

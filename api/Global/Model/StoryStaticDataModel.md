@@ -11,6 +11,9 @@ canonical_path: /api/Global/Model/StoryStaticDataModel
 ```csharp
 public class StoryStaticDataModel
 ```
+Holds the story scenes after loading. #verify 
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryStaticDataModel
@@ -25,6 +28,9 @@ public class StoryStaticDataModel
 ```csharp
 private StoryStaticDataModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ private StoryStaticDataModel()
 ```csharp
 private static StoryStaticDataModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private static StoryStaticDataModel _instance
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private bool _loaded
 ```csharp
 private Dictionary<string, StoryScriptScene> _scenes
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +99,8 @@ public bool loaded { get; }
 ```csharp
 public StoryScriptScene GetSceneData(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +117,8 @@ public StoryScriptScene GetSceneData(string id)
 ```csharp
 public StoryScriptScene[] GetSceneList()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +129,8 @@ public StoryScriptScene[] GetSceneList()
 ```csharp
 public void Init(Dictionary<string, StoryScriptScene> data)
 ```
+#INC
+
 
 #### Parameters
 

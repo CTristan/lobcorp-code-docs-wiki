@@ -12,6 +12,11 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateModel
 public class CreatureGenerateModel : CreatureGenerateData
 ```
 
+Holds three doors, which can be set as creatures. Also, has the implementation for the Remove and Only actions. 'Only' restricts to the listed abnormalities, and 'Remove' removes banned abnormalities for that day.
+
+See [CreatureGenerateInfoManager](/api/CreatureGenerate/CreatureGenerateInfoManager)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureGenerateData](/api/CreatureGenerate/CreatureGenerateData) → CreatureGenerateModel
 
@@ -33,6 +38,8 @@ public CreatureGenerateModel()
 ```csharp
 public List<long> creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public List<long> creature
 ```csharp
 public int day
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public int day
 ```csharp
 public CreatureGenerateDoor door1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public CreatureGenerateDoor door1
 ```csharp
 public CreatureGenerateDoor door2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public CreatureGenerateDoor door2
 ```csharp
 public CreatureGenerateDoor door3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public CreatureGenerateDoor door3
 ```csharp
 public bool stop
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ public bool stop
 ```csharp
 public override void OnlyAction(params object[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,12 +142,17 @@ public CreatureGenerateData.ActionData ParseActionNode(string nodeText)
 ```csharp
 public void Print()
 ```
+#INC
+
 
 ### RemoveAction(params object[])
 
 ```csharp
 public override void RemoveAction(params object[] ids)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -141,3 +165,5 @@ public override void RemoveAction(params object[] ids)
 ```csharp
 public void SetCreature()
 ```
+#INC
+

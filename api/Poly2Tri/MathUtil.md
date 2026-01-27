@@ -11,6 +11,9 @@ canonical_path: /api/Poly2Tri/MathUtil
 ```csharp
 public class MathUtil
 ```
+Holds a few mathematical functions. Only the unit step function is used.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MathUtil

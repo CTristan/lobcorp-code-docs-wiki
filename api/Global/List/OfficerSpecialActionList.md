@@ -11,6 +11,15 @@ canonical_path: /api/Global/List/OfficerSpecialActionList
 ```csharp
 public class OfficerSpecialActionList
 ```
+Not used.
+
+Maintains a list of all [clerk actions](/api/Global/Action/OfficerSpecialAction), and a list of currently available clerk actions.
+
+When an action is gotten, it is removed from the list of available actions until reset.
+
+See also [Sefira](/api/Global/Misc/Sefira).
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OfficerSpecialActionList
@@ -33,6 +42,8 @@ public OfficerSpecialActionList()
 ```csharp
 private List<OfficerSpecialAction> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ private List<OfficerSpecialAction> _list
 ```csharp
 public List<OfficerSpecialAction> currentAvaialbe
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +66,8 @@ public List<OfficerSpecialAction> currentAvaialbe
 ```csharp
 public int sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +92,8 @@ public List<OfficerSpecialAction> list { get; }
 ```csharp
 public void AddList(OfficerSpecialAction osa)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +106,8 @@ public void AddList(OfficerSpecialAction osa)
 ```csharp
 public OfficerSpecialAction GetRandomAction()
 ```
+#INC
+
 
 #### Returns
 
@@ -99,6 +118,8 @@ public OfficerSpecialAction GetRandomAction()
 ```csharp
 public void ResetAction(OfficerSpecialAction osa)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,3 +132,5 @@ public void ResetAction(OfficerSpecialAction osa)
 ```csharp
 public void ResetActionAll()
 ```
+#INC
+

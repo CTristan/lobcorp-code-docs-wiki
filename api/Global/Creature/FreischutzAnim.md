@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/FreischutzAnim
 public class FreischutzAnim : CreatureAnimScript
 ```
 
+Animation handler for [Der Freischütz](/api/Global/Misc/Freischutz).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → FreischutzAnim
 
@@ -33,6 +36,8 @@ public FreischutzAnim()
 ```csharp
 public FreischutzAnimEventHandler _animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public FreischutzAnimEventHandler _animEventHandler
 ```csharp
 private Object _bulletPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Object _bulletPrefab
 ```csharp
 private bool _isShooting
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private bool _isShooting
 ```csharp
 private Vector3 _magicDstPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Vector3 _magicDstPos
 ```csharp
 private Queue<Vector3> _magicDstPosQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Queue<Vector3> _magicDstPosQueue
 ```csharp
 private Object _magicPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Object _magicPrefab
 ```csharp
 private Vector3 _magicSrcPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private Vector3 _magicSrcPos
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Freischutz _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private Freischutz _script
 ```csharp
 private FreischutzShootingUI _snipe
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private FreischutzShootingUI _snipe
 ```csharp
 private GameObject _snipeObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private GameObject _snipeObject
 ```csharp
 private Object _snipePrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private Object _snipePrefab
 ```csharp
 private readonly string _SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,18 +194,25 @@ private readonly string _SOUND_SRC
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CreatePortal()
 
 ```csharp
 private void CreatePortal()
 ```
+#INC
+
 
 ### ReadyToShoot(Vector3)
 
 ```csharp
 public void ReadyToShoot(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +225,8 @@ public void ReadyToShoot(Vector3 pos)
 ```csharp
 public void SetScript(Freischutz s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,27 +239,37 @@ public void SetScript(Freischutz s)
 ```csharp
 private void Shoot()
 ```
+#INC
+
 
 ### ShootBullet()
 
 ```csharp
 public void ShootBullet()
 ```
+#INC
+
 
 ### ShowSnipintUI()
 
 ```csharp
 public void ShowSnipintUI()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### WaitAndShoot()
 
 ```csharp
 private void WaitAndShoot()
 ```
+#INC
+

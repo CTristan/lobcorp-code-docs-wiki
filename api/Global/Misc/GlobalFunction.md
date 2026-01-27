@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/GlobalFunction
 ```csharp
 public class GlobalFunction : MonoBehaviour
 ```
+Probably unused, for old versions of elevators and slide doors.
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalFunction
@@ -33,6 +36,8 @@ public GlobalFunction()
 ```csharp
 public static int currentDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public static int currentDay
 ```csharp
 public TextMesh dDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public TextMesh dDay
 ```csharp
 public static bool finishWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public static bool finishWork
 ```csharp
 public static bool HomeLight
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public static bool HomeLight
 ```csharp
 public GameObject HomeOff
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public GameObject HomeOff
 ```csharp
 public GameObject HomeOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public GameObject HomeOn
 ```csharp
 private int tempDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,15 +122,22 @@ private int tempDay
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Quit()
 
 ```csharp
 public void Quit()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

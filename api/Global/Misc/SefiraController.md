@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SefiraController
 public class SefiraController : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraController
 
@@ -33,6 +36,8 @@ public SefiraController()
 ```csharp
 private static SefiraController _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static SefiraController _instance
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float elapsed
 ```csharp
 private float wait
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,3 +86,6 @@ public static SefiraController instance { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+

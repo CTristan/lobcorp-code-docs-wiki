@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/ScytheApostleAnim
 public class ScytheApostleAnim : DeathAngelApostleAnim, IAnimatorEventCalled
 ```
 
+Animation handler for [Scythe Apostle](/api/WhiteNightSpace/ScytheApostle).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → [DeathAngelApostleAnim](/api/WhiteNightSpace/DeathAngelApostleAnim) → ScytheApostleAnim
 
@@ -48,6 +51,9 @@ public ScytheApostle ScytheApostle { get; }
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -60,15 +66,21 @@ public override void OnCalled(int i)
 ```csharp
 public void OnSuccessPick()
 ```
+#INC
+
 
 ### ResetInstantKill()
 
 ```csharp
 public void ResetInstantKill()
 ```
+#INC
+
 
 ### ResetParam()
 
 ```csharp
 public override void ResetParam()
 ```
+#INC
+

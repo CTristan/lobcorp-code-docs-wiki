@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/ManualUI
 public class ManualUI : MonoBehaviour
 ```
 
+The manual.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ManualUI
 
@@ -44,6 +49,8 @@ private UnscaledTimer _actionTImer
 ```csharp
 private int _currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +61,8 @@ private int _currentIndex
 ```csharp
 private CategorySlot _currentMain
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ private CategorySlot _currentMain
 ```csharp
 private CategorySlot _currentRender
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +85,8 @@ private CategorySlot _currentRender
 ```csharp
 private CategorySlot _currentSub
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ private CategorySlot _currentSub
 ```csharp
 private static ManualUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ private static ManualUI _instance
 ```csharp
 private bool _isActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +121,8 @@ private bool _isActivated
 ```csharp
 public Color _normalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public Color _normalColor
 ```csharp
 public Color _selectedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +145,8 @@ public Color _selectedColor
 ```csharp
 public float actionDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +157,8 @@ public float actionDelay
 ```csharp
 public UIController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +169,8 @@ public UIController controller
 ```csharp
 public RectTransform dataParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +181,8 @@ public RectTransform dataParent
 ```csharp
 public RectTransform disabledNodeCategoryParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +193,8 @@ public RectTransform disabledNodeCategoryParent
 ```csharp
 public RectTransform disabledSubCategoryParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +205,8 @@ public RectTransform disabledSubCategoryParent
 ```csharp
 private string documentSrcFormat
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +217,8 @@ private string documentSrcFormat
 ```csharp
 private const string imageSrc = "Sprites/UI/Manual/{0}/{1}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +229,8 @@ private const string imageSrc = "Sprites/UI/Manual/{0}/{1}"
 ```csharp
 public GameObject labelSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +241,8 @@ public GameObject labelSlot
 ```csharp
 public LocalizeTextLoadScript loadScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +275,8 @@ public Image mainTexture
 ```csharp
 public List<CategorySlot> nodeCategorySlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +298,8 @@ public GameObject nodeObject
 ```csharp
 public RectTransform NodeParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +310,8 @@ public RectTransform NodeParent
 ```csharp
 public Canvas rootCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +322,8 @@ public Canvas rootCanvas
 ```csharp
 public float scrollAbs
 ```
+#INC
+
 
 #### Field Value
 
@@ -287,6 +334,8 @@ public float scrollAbs
 ```csharp
 private const string structureXMLsrc = "xml/ManualStructure"
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,6 +346,8 @@ private const string structureXMLsrc = "xml/ManualStructure"
 ```csharp
 public RectTransform subCategoryParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,6 +358,8 @@ public RectTransform subCategoryParent
 ```csharp
 public List<CategorySlot> subCategorySlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +381,8 @@ public GameObject subOjbect
 ```csharp
 private static string[] supportedLanguage
 ```
+#INC
+
 
 #### Field Value
 
@@ -338,6 +393,8 @@ private static string[] supportedLanguage
 ```csharp
 public GameObject textSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -348,6 +405,8 @@ public GameObject textSlot
 ```csharp
 private CategoryTypeInfo typeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -402,24 +461,32 @@ public bool IsActivated { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CloseManual()
 
 ```csharp
 public void CloseManual()
 ```
+#INC
+
 
 ### DestroyOld()
 
 ```csharp
 private void DestroyOld()
 ```
+#INC
+
 
 ### FindNext(out Category)
 
 ```csharp
 private bool FindNext(out Category category)
 ```
+#INC
+
 
 #### Parameters
 
@@ -436,6 +503,8 @@ private bool FindNext(out Category category)
 ```csharp
 private bool FindPrev(out Category category)
 ```
+#INC
+
 
 #### Parameters
 
@@ -452,6 +521,8 @@ private bool FindPrev(out Category category)
 ```csharp
 public CategorySlot GetMainSlot(Category category)
 ```
+#INC
+
 
 #### Parameters
 
@@ -468,18 +539,24 @@ public CategorySlot GetMainSlot(Category category)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InverseActivation()
 
 ```csharp
 public void InverseActivation()
 ```
+#INC
+
 
 ### LoadCategoryTextData(Category, XmlNode)
 
 ```csharp
 private NodeTextInfo LoadCategoryTextData(Category node, XmlNode rootNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -497,6 +574,9 @@ private NodeTextInfo LoadCategoryTextData(Category node, XmlNode rootNode)
 ```csharp
 private XmlDocument LoadDoc(string src, string currentLn)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -514,6 +594,8 @@ private XmlDocument LoadDoc(string src, string currentLn)
 ```csharp
 private Sprite LoadSprite(string sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -530,42 +612,56 @@ private Sprite LoadSprite(string sprite)
 ```csharp
 public void LoadStaticData()
 ```
+#INC
+
 
 ### MoveNext()
 
 ```csharp
 public void MoveNext()
 ```
+#INC
+
 
 ### MovePrev()
 
 ```csharp
 public void MovePrev()
 ```
+#INC
+
 
 ### OnControllerClosed()
 
 ```csharp
 public void OnControllerClosed()
 ```
+#INC
+
 
 ### OpenManual()
 
 ```csharp
 public void OpenManual()
 ```
+#INC
+
 
 ### Reload()
 
 ```csharp
 public void Reload()
 ```
+#INC
+
 
 ### SetMainCategory(CategorySlot)
 
 ```csharp
 public void SetMainCategory(CategorySlot mainCategory)
 ```
+#INC
+
 
 #### Parameters
 
@@ -578,6 +674,8 @@ public void SetMainCategory(CategorySlot mainCategory)
 ```csharp
 public void SetNodeCategory(CategorySlot nodeCategory)
 ```
+#INC
+
 
 #### Parameters
 
@@ -590,6 +688,8 @@ public void SetNodeCategory(CategorySlot nodeCategory)
 ```csharp
 public void SetNodeCategorySlots(CategorySlot categorySlot, List<CategorySlot> slots)
 ```
+#INC
+
 
 #### Parameters
 
@@ -603,6 +703,8 @@ public void SetNodeCategorySlots(CategorySlot categorySlot, List<CategorySlot> s
 ```csharp
 public void SetRender(NodeCategory nodeInfo, CategorySlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,6 +718,8 @@ public void SetRender(NodeCategory nodeInfo, CategorySlot slot)
 ```csharp
 public void SetSubCategory(CategorySlot subCategory)
 ```
+#INC
+
 
 #### Parameters
 
@@ -628,6 +732,8 @@ public void SetSubCategory(CategorySlot subCategory)
 ```csharp
 public void SetSubCategorySlots(CategorySlot categorySlot, List<CategorySlot> slots)
 ```
+#INC
+
 
 #### Parameters
 
@@ -641,9 +747,13 @@ public void SetSubCategorySlots(CategorySlot categorySlot, List<CategorySlot> sl
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

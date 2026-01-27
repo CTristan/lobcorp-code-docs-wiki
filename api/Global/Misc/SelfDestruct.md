@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SelfDestruct
 public class SelfDestruct : MonoBehaviour
 ```
 
+Used to make some effect prefabs destroy themselves after 4 seconds.
+
+#INC (which?)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SelfDestruct
 
@@ -33,6 +38,8 @@ public SelfDestruct()
 ```csharp
 public float selfdestruct_in
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +52,6 @@ public float selfdestruct_in
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

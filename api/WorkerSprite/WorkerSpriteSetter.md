@@ -36,6 +36,8 @@ public WorkerSpriteSetter()
 ```csharp
 private bool _armorColored
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool _armorColored
 ```csharp
 private bool _initWeaponData
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private bool _initWeaponData
 ```csharp
 private WorkerModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private WorkerModel _model
 ```csharp
 private Vector2 _weaponPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private Vector2 _weaponPosition
 ```csharp
 private float _weaponRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ private float _weaponRotation
 ```csharp
 private const string AddObjectSrc = "Slot/WorkerAttachment"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private const string AddObjectSrc = "Slot/WorkerAttachment"
 ```csharp
 public int armorId
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ public int armorId
 ```csharp
 private Dictionary<int, EGOGiftRenderData> attachGiftData
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ private Dictionary<int, EGOGiftRenderData> attachGiftData
 ```csharp
 private List<EGOgiftModel> currentGift
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ private List<EGOgiftModel> currentGift
 ```csharp
 public Skin currentSkin
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +167,8 @@ public WorkerCurrentSpriteSet currentSpriteSet
 ```csharp
 private WeaponClassType currentWeaponType
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +179,8 @@ private WeaponClassType currentWeaponType
 ```csharp
 public bool debugCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +191,8 @@ public bool debugCheck
 ```csharp
 public SpriteRenderer EyebrowRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +203,8 @@ public SpriteRenderer EyebrowRenderer
 ```csharp
 public Color eyeColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -198,6 +226,8 @@ public SpriteRenderer EyeRenderer
 ```csharp
 public WorkerFaceType faceType
 ```
+#INC
+
 
 #### Field Value
 
@@ -219,6 +249,8 @@ public Transform[] GiftPos
 ```csharp
 public Color hairColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -229,6 +261,8 @@ public Color hairColor
 ```csharp
 private const string HeadRegion = "Head"
 ```
+#INC
+
 
 #### Field Value
 
@@ -239,6 +273,8 @@ private const string HeadRegion = "Head"
 ```csharp
 public Sprite HeadSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -249,6 +285,8 @@ public Sprite HeadSprite
 ```csharp
 public SpriteRenderer MouthRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -259,6 +297,8 @@ public SpriteRenderer MouthRenderer
 ```csharp
 public SpriteRenderer MouthReplaceGiftRender
 ```
+#INC
+
 
 #### Field Value
 
@@ -269,6 +309,8 @@ public SpriteRenderer MouthReplaceGiftRender
 ```csharp
 public SpriteRenderer NoteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -290,6 +332,8 @@ public SpriteRenderer panicRenderer
 ```csharp
 public bool repack
 ```
+#INC
+
 
 #### Field Value
 
@@ -300,6 +344,8 @@ public bool repack
 ```csharp
 public Shader repackedShader
 ```
+#INC
+
 
 #### Field Value
 
@@ -310,6 +356,8 @@ public Shader repackedShader
 ```csharp
 private Dictionary<EGOgiftAttachRegion, EGOGiftRenderData> replaceGiftData
 ```
+#INC
+
 
 #### Field Value
 
@@ -331,6 +379,8 @@ public Texture2D runtimeAtlas
 ```csharp
 public Material runtimeMaterial
 ```
+#INC
+
 
 #### Field Value
 
@@ -341,6 +391,8 @@ public Material runtimeMaterial
 ```csharp
 private SkeletonRenderSeparator separator
 ```
+#INC
+
 
 #### Field Value
 
@@ -351,6 +403,8 @@ private SkeletonRenderSeparator separator
 ```csharp
 public bool SetHeadSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -361,6 +415,8 @@ public bool SetHeadSprite
 ```csharp
 public SpriteRenderer SymbolRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -371,6 +427,8 @@ public SpriteRenderer SymbolRenderer
 ```csharp
 public Sprite TransparentSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +514,8 @@ public WorkerSprite workerSpriteData { get; set; }
 ```csharp
 public void AddGift(EGOGiftRenderData renderData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -468,6 +528,8 @@ public void AddGift(EGOGiftRenderData renderData)
 ```csharp
 public void AddGiftModel(EGOgiftModel gift)
 ```
+#INC
+
 
 #### Parameters
 
@@ -480,6 +542,8 @@ public void AddGiftModel(EGOgiftModel gift)
 ```csharp
 public void Apply(List<SpineChangeData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -492,12 +556,16 @@ public void Apply(List<SpineChangeData> data)
 ```csharp
 public void ArmorApply()
 ```
+#INC
+
 
 ### ArmorEquip(int)
 
 ```csharp
 public void ArmorEquip(int armorId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -510,30 +578,40 @@ public void ArmorEquip(int armorId)
 ```csharp
 public void BaiscRendererInit()
 ```
+#INC
+
 
 ### BaiscUniqueApply()
 
 ```csharp
 public void BaiscUniqueApply()
 ```
+#INC
+
 
 ### BasicApply()
 
 ```csharp
 public void BasicApply()
 ```
+#INC
+
 
 ### ChangeBasicSpriteData()
 
 ```csharp
 public void ChangeBasicSpriteData()
 ```
+#INC
+
 
 ### ChangeSpineData(Skeleton, Skin, SpineChangeData)
 
 ```csharp
 private void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpineChangeData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,6 +626,8 @@ private void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpineChangeData da
 ```csharp
 private void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpineChangeData data, ref Vector3 PositionFix)
 ```
+#INC
+
 
 #### Parameters
 
@@ -563,6 +643,8 @@ private void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpineChangeData da
 ```csharp
 public void CheckGiftModel(List<EGOgiftModel> gifts)
 ```
+#INC
+
 
 #### Parameters
 
@@ -575,12 +657,16 @@ public void CheckGiftModel(List<EGOgiftModel> gifts)
 ```csharp
 private void DebugArmorEquip()
 ```
+#INC
+
 
 ### DisableSeparartor(WorkerFaceType)
 
 ```csharp
 public void DisableSeparartor(WorkerFaceType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -593,42 +679,57 @@ public void DisableSeparartor(WorkerFaceType type)
 ```csharp
 public void DisableSeparator()
 ```
+#INC
+
 
 ### DisableSeparatorForUnique()
 
 ```csharp
 public void DisableSeparatorForUnique()
 ```
+#INC
+
 
 ### EnableSeparator()
 
 ```csharp
 public void EnableSeparator()
 ```
+#INC
+
 
 ### EquipmentApply()
 
 ```csharp
 public void EquipmentApply()
 ```
+#INC
+
 
 ### ExtractWeaponRegionData()
 
 ```csharp
 private void ExtractWeaponRegionData()
 ```
+#INC
+
 
 ### EyeApply()
 
 ```csharp
 public void EyeApply()
 ```
+#INC
+
 
 ### GetGiftPos(EGOgiftAttachRegion)
 
 ```csharp
 public Transform GetGiftPos(EGOgiftAttachRegion region)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -645,12 +746,16 @@ public Transform GetGiftPos(EGOgiftAttachRegion region)
 ```csharp
 private void IgnoreSpriteRenderer()
 ```
+#INC
+
 
 ### IgnoreSpriteRenderer(WorkerFaceType)
 
 ```csharp
 private void IgnoreSpriteRenderer(WorkerFaceType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -663,6 +768,8 @@ private void IgnoreSpriteRenderer(WorkerFaceType type)
 ```csharp
 public void Init(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -675,30 +782,40 @@ public void Init(WorkerModel worker)
 ```csharp
 public void InitBasicSet()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### LoadBasicSpriteData()
 
 ```csharp
 public void LoadBasicSpriteData()
 ```
+#INC
+
 
 ### MouthApply()
 
 ```csharp
 public void MouthApply()
 ```
+#INC
+
 
 ### OnDie(bool)
 
 ```csharp
 public void OnDie(bool isPanic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -711,6 +828,8 @@ public void OnDie(bool isPanic)
 ```csharp
 public void OnSetEyeColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -723,6 +842,8 @@ public void OnSetEyeColor(Color c)
 ```csharp
 public void OnSetHair(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -735,6 +856,8 @@ public void OnSetHair(Color c)
 ```csharp
 public void RemoveGiftModel(EGOgiftModel gift)
 ```
+#INC
+
 
 #### Parameters
 
@@ -747,6 +870,8 @@ public void RemoveGiftModel(EGOgiftModel gift)
 ```csharp
 public void ReplaceGift(EGOGiftRenderData renderData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -759,6 +884,8 @@ public void ReplaceGift(EGOGiftRenderData renderData)
 ```csharp
 private void ReplaceGiftMouth(Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -771,12 +898,16 @@ private void ReplaceGiftMouth(Sprite sprite)
 ```csharp
 public void Reskin()
 ```
+#INC
+
 
 ### SetBodyRegionKey(List<SpineChangeData>)
 
 ```csharp
 public void SetBodyRegionKey(List<SpineChangeData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -789,6 +920,8 @@ public void SetBodyRegionKey(List<SpineChangeData> data)
 ```csharp
 public void SetFaceEnable(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -801,6 +934,8 @@ public void SetFaceEnable(bool state)
 ```csharp
 public void SetHeadColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -813,6 +948,8 @@ public void SetHeadColor(Color c)
 ```csharp
 public void SetLayer(int layerId, int order)
 ```
+#INC
+
 
 #### Parameters
 
@@ -826,6 +963,8 @@ public void SetLayer(int layerId, int order)
 ```csharp
 private void SetLayer(Transform tr, int layerId, int order)
 ```
+#INC
+
 
 #### Parameters
 
@@ -840,6 +979,8 @@ private void SetLayer(Transform tr, int layerId, int order)
 ```csharp
 public void SetLeftWeapon(WeaponClassType type, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -853,6 +994,8 @@ public void SetLeftWeapon(WeaponClassType type, Sprite sprite)
 ```csharp
 public void SetPanicShadow(bool state, RwbpType type = RwbpType.N)
 ```
+#INC
+
 
 #### Parameters
 
@@ -866,6 +1009,8 @@ public void SetPanicShadow(bool state, RwbpType type = RwbpType.N)
 ```csharp
 public void SetRegionAsTransparent(string slot, string attachmentName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -879,6 +1024,8 @@ public void SetRegionAsTransparent(string slot, string attachmentName)
 ```csharp
 public void SetRightWeapon(WeaponClassType type, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -892,6 +1039,8 @@ public void SetRightWeapon(WeaponClassType type, Sprite sprite)
 ```csharp
 public void SetSefira(SefiraEnum sefira, int level = 1)
 ```
+#INC
+
 
 #### Parameters
 
@@ -905,12 +1054,16 @@ public void SetSefira(SefiraEnum sefira, int level = 1)
 ```csharp
 public void SetWeaponTransparent()
 ```
+#INC
+
 
 ### SetWorkerFaceType(WorkerFaceType)
 
 ```csharp
 public void SetWorkerFaceType(WorkerFaceType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -923,6 +1076,8 @@ public void SetWorkerFaceType(WorkerFaceType type)
 ```csharp
 public void SetWorkerType(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -935,6 +1090,8 @@ public void SetWorkerType(WorkerModel worker)
 ```csharp
 public void SetWorkNoteSprite(Sprite s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -947,18 +1104,24 @@ public void SetWorkNoteSprite(Sprite s)
 ```csharp
 public void StageStart()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### TryGetGift(EGOgiftModel, out EGOGiftRenderData)
 
 ```csharp
 public bool TryGetGift(EGOgiftModel model, out EGOGiftRenderData renderData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -976,33 +1139,45 @@ public bool TryGetGift(EGOgiftModel model, out EGOGiftRenderData renderData)
 ```csharp
 public void UniqueFaceReskin()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateArmorSpriteSet()
 
 ```csharp
 public void UpdateArmorSpriteSet()
 ```
+#INC
+
 
 ### UpdateAttachment()
 
 ```csharp
 public void UpdateAttachment()
 ```
+#INC
+
 
 ### UpdateBasicSpriteSet()
 
 ```csharp
 public void UpdateBasicSpriteSet()
 ```
+#INC
+
 
 ### WeaponApply()
 
 ```csharp
 public void WeaponApply()
 ```
+#INC
+

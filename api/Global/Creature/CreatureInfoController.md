@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/CreatureInfoController
 public class CreatureInfoController : MonoBehaviour
 ```
 
+Some kind of controller for the window?
+#inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoController
 
@@ -36,6 +40,8 @@ public CreatureInfoController()
 ```csharp
 private string _areaName
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private string _areaName
 ```csharp
 private Text _cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private Text _cost
 ```csharp
 public CreatureModel _currentCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public CreatureModel _currentCreature
 ```csharp
 public bool _isOpened
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,12 +142,16 @@ public CreatureObserveInfoModel ObserveInfo { get; }
 ```csharp
 public virtual void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public virtual void Initialize(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,6 +164,8 @@ public virtual void Initialize(CreatureModel creature)
 ```csharp
 public virtual bool IsOpenable()
 ```
+#INC
+
 
 #### Returns
 
@@ -158,6 +176,8 @@ public virtual bool IsOpenable()
 ```csharp
 public virtual bool IsOpened()
 ```
+#INC
+
 
 #### Returns
 
@@ -168,6 +188,8 @@ public virtual bool IsOpened()
 ```csharp
 public virtual bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -178,12 +200,17 @@ public virtual bool OnClick()
 ```csharp
 public virtual void OnPurchase()
 ```
+#INC
+
 
 ### SetArea(string)
 
 ```csharp
 public void SetArea(string areaName)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

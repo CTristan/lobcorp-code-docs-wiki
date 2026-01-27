@@ -11,6 +11,8 @@ canonical_path: /api/Global/Standing/StandingItemManager
 ```csharp
 public class StandingItemManager
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StandingItemManager
@@ -33,6 +35,8 @@ public StandingItemManager()
 ```csharp
 private static StandingItemManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static StandingItemManager _instance
 ```csharp
 private long instId
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +73,9 @@ public static StandingItemManager instance { get; }
 ```csharp
 public long GetInstId()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

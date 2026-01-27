@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ResearcherNote
 public class ResearcherNote : CreatureBase
 ```
 
+Notes from a Crazed Researcher. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ResearcherNote
 
@@ -33,12 +36,17 @@ public ResearcherNote()
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

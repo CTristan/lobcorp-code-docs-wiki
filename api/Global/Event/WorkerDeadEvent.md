@@ -12,6 +12,12 @@ canonical_path: /api/Global/Event/WorkerDeadEvent
 public class WorkerDeadEvent : MonoBehaviour
 ```
 
+Used only for the ApostleRangeAgent prefab.
+
+Wrapper for [WorkerDeadScript](/api/Global/Script/WorkerDeadScript).
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerDeadEvent
 
@@ -33,6 +39,8 @@ public WorkerDeadEvent()
 ```csharp
 public WorkerDeadScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +53,17 @@ public WorkerDeadScript script
 ```csharp
 public void DestroyObject()
 ```
+#INC
+
 
 ### OnEventCalled(int)
 
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,6 +76,8 @@ public void OnEventCalled(int i)
 ```csharp
 public void PlaySound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -75,6 +90,8 @@ public void PlaySound(string src)
 ```csharp
 public void SetFaceSprite(Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,9 +104,13 @@ public void SetFaceSprite(Sprite sprite)
 ```csharp
 public void SetFaceSpriteDefault()
 ```
+#INC
+
 
 ### SetHeadSprite()
 
 ```csharp
 public void SetHeadSprite()
 ```
+#INC
+

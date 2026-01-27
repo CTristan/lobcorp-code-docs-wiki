@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/DummyWeapon
 public class DummyWeapon : EquipmentScriptBase
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → DummyWeapon
 
@@ -33,6 +36,8 @@ public DummyWeapon()
 ```csharp
 public override void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,6 +50,9 @@ public override void OnCancelWeapon(UnitModel actor)
 ```csharp
 public override void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

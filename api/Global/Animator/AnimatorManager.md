@@ -11,6 +11,8 @@ canonical_path: /api/Global/Animator/AnimatorManager
 ```csharp
 public class AnimatorManager : MonoBehaviour
 ```
+Loads and stores animations
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimatorManager
@@ -25,6 +27,9 @@ public class AnimatorManager : MonoBehaviour
 ```csharp
 public AnimatorManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public AnimatorManager()
 ```csharp
 private static AnimatorManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ public List<AnimatorManager.AnimatorComponet> dynamicLib
 ```csharp
 private static bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +106,16 @@ public static AnimatorManager instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### ChangeAnimatorByID(long, long, Animator, bool, bool)
 
 ```csharp
 public void ChangeAnimatorByID(long id, long targetID, Animator animator, bool isStatic, bool isSaved)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +132,8 @@ public void ChangeAnimatorByID(long id, long targetID, Animator animator, bool i
 ```csharp
 public void ChangeAnimatorByName(long id, string targetStr, Animator animator, bool isStatic, bool isSaved)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +150,8 @@ public void ChangeAnimatorByName(long id, string targetStr, Animator animator, b
 ```csharp
 public void ChangeAnimatorWithSave(long id, Animator animator, string target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +166,8 @@ public void ChangeAnimatorWithSave(long id, Animator animator, string target)
 ```csharp
 public void ChangeAnimatorWithSave(long id, Animator animator, string target, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,6 +261,8 @@ public void Init(AnimatorManager.AnimatorComponet[] ary)
 ```csharp
 public bool IsContainCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +279,8 @@ public bool IsContainCreature(long id)
 ```csharp
 public bool IsLoaded()
 ```
+#INC
+
 
 #### Returns
 
@@ -268,12 +291,16 @@ public bool IsLoaded()
 ```csharp
 private void LoadAnimatorData()
 ```
+#INC
+
 
 ### ResetAnimatorTransform(long)
 
 ```csharp
 public void ResetAnimatorTransform(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -286,6 +313,8 @@ public void ResetAnimatorTransform(long id)
 ```csharp
 public void ResetCreatureAnimatorTransform(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -298,6 +327,8 @@ public void ResetCreatureAnimatorTransform(long id)
 ```csharp
 public void SaveAnimator(long id, Animator animator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,6 +342,8 @@ public void SaveAnimator(long id, Animator animator)
 ```csharp
 public void SaveAnimator(long id, Animator animator, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,6 +358,8 @@ public void SaveAnimator(long id, Animator animator, string name)
 ```csharp
 public void SaveCreatureAnimator(long id, Animator animator)
 ```
+#INC
+
 
 #### Parameters
 

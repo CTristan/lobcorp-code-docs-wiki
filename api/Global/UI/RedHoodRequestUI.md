@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/RedHoodRequestUI
 public class RedHoodRequestUI : MonoBehaviour
 ```
 
+UI for using [Little Red](/api/Global/IOBserver/RedHood)'s special work type.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RedHoodRequestUI
 
@@ -33,6 +38,8 @@ public RedHoodRequestUI()
 ```csharp
 private UnitModel _currentOverlayCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private UnitModel _currentOverlayCreature
 ```csharp
 public Color _cursorColorFail
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Color _cursorColorFail
 ```csharp
 public Color _cursorColorNormal
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Color _cursorColorNormal
 ```csharp
 private RedHoodAnim _redHoodAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private RedHoodAnim _redHoodAnim
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Canvas canvas
 ```csharp
 public Text cursorAttachedCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Text cursorAttachedCost
 ```csharp
 public Text cursorAttachedRiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Text cursorAttachedRiskLevel
 ```csharp
 public GameObject cursorSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject cursorSprite
 ```csharp
 public Text cursorTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public Text cursorTitle
 ```csharp
 public SpriteRenderer spriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +182,8 @@ public UnitModel CurrentOverlayCreature { get; set; }
 ```csharp
 private bool CanPurchase()
 ```
+#INC
+
 
 #### Returns
 
@@ -167,24 +194,32 @@ private bool CanPurchase()
 ```csharp
 private void CheckRaycasts()
 ```
+#INC
+
 
 ### CursorUpdate()
 
 ```csharp
 private void CursorUpdate()
 ```
+#INC
+
 
 ### OnCloseRequest()
 
 ```csharp
 public void OnCloseRequest()
 ```
+#INC
+
 
 ### OnSetOverlay(UnitModel)
 
 ```csharp
 public void OnSetOverlay(UnitModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,12 +232,17 @@ public void OnSetOverlay(UnitModel creature)
 ```csharp
 public void OnTryRequest()
 ```
+#INC
+
 
 ### OpenRequest(RedHoodAnim)
 
 ```csharp
 public void OpenRequest(RedHoodAnim redHoodAnim)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -215,3 +255,5 @@ public void OpenRequest(RedHoodAnim redHoodAnim)
 ```csharp
 private void Update()
 ```
+#INC
+

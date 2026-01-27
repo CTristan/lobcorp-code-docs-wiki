@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/ApostleLanceScript
 public class ApostleLanceScript : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ApostleLanceScript
 
@@ -43,6 +46,8 @@ private ApostleLanceScript.DestArrive arrive
 ```csharp
 private WorkerUnit attachedUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ private WorkerUnit attachedUnit
 ```csharp
 private MapNode endNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private MapNode endNode
 ```csharp
 private float endPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private float endPos
 ```csharp
 private bool isRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ private bool isRight
 ```csharp
 public GameObject LancePickArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +130,8 @@ public Transform lance { get; }
 ```csharp
 public void Attach(WorkerUnit unit, MapNode destination, bool isRight)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,18 +146,24 @@ public void Attach(WorkerUnit unit, MapNode destination, bool isRight)
 ```csharp
 private void CheckArrive()
 ```
+#INC
+
 
 ### Decouple()
 
 ```csharp
 public void Decouple()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(DestArrive)
 
@@ -161,3 +182,6 @@ public void Init(ApostleLanceScript.DestArrive arrive)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

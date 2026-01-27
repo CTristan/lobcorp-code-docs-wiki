@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/YinAndYangBase
 public class YinAndYangBase : CreatureBase
 ```
 
+Parent class for [Yin](/api/Global/Misc/Yin) and [Yang](/api/Global/Misc/Yang).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → YinAndYangBase
 
@@ -36,6 +41,8 @@ public YinAndYangBase()
 ```csharp
 public readonly string _SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +65,8 @@ protected MapNode DstNode { get; set; }
 ```csharp
 protected bool IsUnion { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -68,6 +77,8 @@ protected bool IsUnion { get; set; }
 ```csharp
 protected List<object> UnitList { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -92,12 +103,16 @@ public void AddCollisionUnit(object unit)
 ```csharp
 protected virtual void Arrive()
 ```
+#INC
+
 
 ### DelCollisionUnit(object)
 
 ```csharp
 public void DelCollisionUnit(object unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,6 +125,8 @@ public void DelCollisionUnit(object unit)
 ```csharp
 public void EnableMoving(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -122,6 +139,8 @@ public void EnableMoving(bool state)
 ```csharp
 protected CreatureBase GetCreatureBase(Type t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,6 +157,8 @@ protected CreatureBase GetCreatureBase(Type t)
 ```csharp
 protected void MoveToNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,39 +171,54 @@ protected void MoveToNode(MapNode node)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### ProcessCollision()
 
 ```csharp
 protected virtual void ProcessCollision()
 ```
+#INC
+
 
 ### ResetFields()
 
 ```csharp
 protected virtual void ResetFields()
 ```
+#INC
+
 
 ### Revive()
 
 ```csharp
 public virtual void Revive()
 ```
+#INC
+
 
 ### Unite()
 
 ```csharp
 public virtual void Unite()
 ```
+#INC
+

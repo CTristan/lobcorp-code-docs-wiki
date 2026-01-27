@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StoryStandingCGRootUI
 public class StoryStandingCGRootUI : MonoBehaviour
 ```
 
+UI element which displays the characters #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryStandingCGRootUI
 
@@ -33,6 +36,8 @@ public StoryStandingCGRootUI()
 ```csharp
 private const float _appearSpeed = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _appearSpeed = 7
 ```csharp
 public readonly Vector3 centerPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public readonly Vector3 centerPosition
 ```csharp
 private List<StoryStandingCGUI> characterList
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private List<StoryStandingCGUI> characterList
 ```csharp
 public readonly Vector3 leftFullPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public readonly Vector3 leftFullPosition
 ```csharp
 public readonly Vector3 leftMorePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public readonly Vector3 leftMorePosition
 ```csharp
 public readonly Vector3 leftNearPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public readonly Vector3 leftNearPosition
 ```csharp
 public GameObject leftPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public GameObject leftPos
 ```csharp
 public readonly Vector3 leftPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public readonly Vector3 leftPosition
 ```csharp
 public readonly Vector3 rightFullPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public readonly Vector3 rightFullPosition
 ```csharp
 public readonly Vector3 rightMorePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public readonly Vector3 rightMorePosition
 ```csharp
 public readonly Vector3 rightNearPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public readonly Vector3 rightNearPosition
 ```csharp
 public GameObject rightPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public GameObject rightPos
 ```csharp
 public readonly Vector3 rightPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +194,8 @@ public readonly Vector3 rightPosition
 ```csharp
 public GameObject AddStandingCG(StoryUI.CharacterVar charVar)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,12 +212,17 @@ public GameObject AddStandingCG(StoryUI.CharacterVar charVar)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Disappear(CharacterVar, StoryScriptDirectionEnum)
 
 ```csharp
 public void Disappear(StoryUI.CharacterVar charVar, StoryScriptDirectionEnum to)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,18 +236,24 @@ public void Disappear(StoryUI.CharacterVar charVar, StoryScriptDirectionEnum to)
 ```csharp
 public void DisappearAll()
 ```
+#INC
+
 
 ### DisappearAllWithRemoving()
 
 ```csharp
 public void DisappearAllWithRemoving()
 ```
+#INC
+
 
 ### GetPositionByEnum(StoryScriptPosEnum)
 
 ```csharp
 private Vector3 GetPositionByEnum(StoryScriptPosEnum e)
 ```
+#INC
+
 
 #### Parameters
 
@@ -228,6 +270,8 @@ private Vector3 GetPositionByEnum(StoryScriptPosEnum e)
 ```csharp
 public void HighlightCharacter(StoryUI.CharacterVar charVar)
 ```
+#INC
+
 
 #### Parameters
 
@@ -240,6 +284,8 @@ public void HighlightCharacter(StoryUI.CharacterVar charVar)
 ```csharp
 private IEnumerator ProcessAppear(StoryStandingCGUI cg, Vector3 to)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,6 +303,8 @@ private IEnumerator ProcessAppear(StoryStandingCGUI cg, Vector3 to)
 ```csharp
 private IEnumerator ProcessAppear(StoryStandingCGUI cg, Vector3 from, Vector3 to)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +323,8 @@ private IEnumerator ProcessAppear(StoryStandingCGUI cg, Vector3 from, Vector3 to
 ```csharp
 private IEnumerator ProcessDisappear(StoryStandingCGUI cg, Vector3 from, Vector3 to, bool bRemove)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,6 +344,8 @@ private IEnumerator ProcessDisappear(StoryStandingCGUI cg, Vector3 from, Vector3
 ```csharp
 private IEnumerator ProcessMove(StoryStandingCGUI cg, Vector3 from, Vector3 to)
 ```
+#INC
+
 
 #### Parameters
 
@@ -312,6 +364,8 @@ private IEnumerator ProcessMove(StoryStandingCGUI cg, Vector3 from, Vector3 to)
 ```csharp
 private IEnumerator ProcessTeleport(StoryStandingCGUI cg, StoryScriptPosEnum fromEnum, StoryScriptPosEnum toEnum)
 ```
+#INC
+
 
 #### Parameters
 
@@ -330,6 +384,8 @@ private IEnumerator ProcessTeleport(StoryStandingCGUI cg, StoryScriptPosEnum fro
 ```csharp
 public void SetAnimation(StoryUI.CharacterVar charVar, string anim)
 ```
+#INC
+
 
 #### Parameters
 
@@ -343,6 +399,8 @@ public void SetAnimation(StoryUI.CharacterVar charVar, string anim)
 ```csharp
 public void SetPosition(StoryUI.CharacterVar charVar, StoryScriptPosEnum p2, StoryScriptDirectionEnum direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -357,6 +415,8 @@ public void SetPosition(StoryUI.CharacterVar charVar, StoryScriptPosEnum p2, Sto
 ```csharp
 public void SetPosition(StoryUI.CharacterVar charVar, StoryScriptPosEnum p2, StoryScriptDirectionEnum direction, StoryScriptDirectionEnum from)
 ```
+#INC
+
 
 #### Parameters
 
@@ -372,6 +432,8 @@ public void SetPosition(StoryUI.CharacterVar charVar, StoryScriptPosEnum p2, Sto
 ```csharp
 public void SetPositionYAdder(StoryUI.CharacterVar charVar, float y)
 ```
+#INC
+
 
 #### Parameters
 

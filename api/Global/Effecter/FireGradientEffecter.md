@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effecter/FireGradientEffecter
 ```csharp
 public class FireGradientEffecter : MonoBehaviour
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FireGradientEffecter
@@ -33,6 +35,8 @@ public FireGradientEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float _elapsedTime
 ```csharp
 private float _lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private float _lifetime
 ```csharp
 private float _value
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private float _value
 ```csharp
 public CameraFilterPack_Gradients_FireGradient target
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,3 +85,6 @@ public CameraFilterPack_Gradients_FireGradient target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

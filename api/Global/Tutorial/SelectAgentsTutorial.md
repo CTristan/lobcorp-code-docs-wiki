@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SelectAgentsTutorial
 public class SelectAgentsTutorial : Tutorial
 ```
 
+Ends when agents are sent to suppress the abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SelectAgentsTutorial
 
@@ -33,6 +38,8 @@ public SelectAgentsTutorial()
 ```csharp
 public int targetNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +52,14 @@ public int targetNum
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

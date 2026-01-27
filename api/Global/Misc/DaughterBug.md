@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/DaughterBug
 ```csharp
 public class DaughterBug : HordeOfBugsScript
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → [HordeOfBugsScript](/api/Global/Script/HordeOfBugsScript) → DaughterBug
@@ -33,6 +35,8 @@ public DaughterBug()
 ```csharp
 private int _attackCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private int _attackCount
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +79,8 @@ private DaughterBug.DaughterPhase _phase
 ```csharp
 public DaughterBugAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +91,8 @@ public DaughterBugAnim animScript
 ```csharp
 private bool appearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +103,8 @@ private bool appearEffectMake
 ```csharp
 public const float attackDelay = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +115,8 @@ public const float attackDelay = 0.5
 ```csharp
 public Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +127,8 @@ public Timer attackDelayTimer
 ```csharp
 private UnitDirection attackDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +139,8 @@ private UnitDirection attackDirection
 ```csharp
 public const float attackRange = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +151,8 @@ public const float attackRange = 5
 ```csharp
 private List<UnitModel> damagedUnits
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +163,8 @@ private List<UnitModel> damagedUnits
 ```csharp
 public const float defaultRange = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +175,8 @@ public const float defaultRange = 2
 ```csharp
 public Timer enableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +187,8 @@ public Timer enableDelay
 ```csharp
 public const float makeChildFreq = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +199,8 @@ public const float makeChildFreq = 10
 ```csharp
 private float oldPosX
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +211,8 @@ private float oldPosX
 ```csharp
 public const string sound_default = "RandomEvent/Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +223,8 @@ public const string sound_default = "RandomEvent/Default"
 ```csharp
 public const float teleportDelay = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +235,8 @@ public const float teleportDelay = 2
 ```csharp
 public Timer teleportDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +247,8 @@ public Timer teleportDelayTimer
 ```csharp
 public const float teleportFreq = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +259,8 @@ public const float teleportFreq = 2
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,12 +273,16 @@ public Text textUI
 ```csharp
 private void AppearEffect()
 ```
+#INC
+
 
 ### CanRangeInCamera()
 
 ```csharp
 public bool CanRangeInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -251,6 +293,8 @@ public bool CanRangeInCamera()
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +311,8 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public void DelayedEnable(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +325,8 @@ public void DelayedEnable(float delay)
 ```csharp
 public void Enable(UnitDirection direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,18 +339,24 @@ public void Enable(UnitDirection direction)
 ```csharp
 private void EncounterWorker()
 ```
+#INC
+
 
 ### FindTarget()
 
 ```csharp
 private void FindTarget()
 ```
+#INC
+
 
 ### GiveDamageInRange(float, float)
 
 ```csharp
 public void GiveDamageInRange(float range, float dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -316,12 +370,16 @@ public void GiveDamageInRange(float range, float dmg)
 ```csharp
 public override void Init()
 ```
+#INC
+
 
 ### IsActive()
 
 ```csharp
 public bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -332,6 +390,8 @@ public bool IsActive()
 ```csharp
 private bool IsHostile(UnitModel u)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,42 +408,56 @@ private bool IsHostile(UnitModel u)
 ```csharp
 public override void OnBreakDown()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnEndAttack()
 
 ```csharp
 public void OnEndAttack()
 ```
+#INC
+
 
 ### OnEndDigIn()
 
 ```csharp
 public void OnEndDigIn()
 ```
+#INC
+
 
 ### OnEndDigOut()
 
 ```csharp
 public void OnEndDigOut()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +470,8 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 private void ProccessAttack(float baseRange)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,18 +484,24 @@ private void ProccessAttack(float baseRange)
 ```csharp
 private void ProccessMoving()
 ```
+#INC
+
 
 ### ReadyToTeleport()
 
 ```csharp
 public void ReadyToTeleport()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -432,6 +514,9 @@ public void SetActive(bool state)
 ```csharp
 public override void SetEvent(HordeOfBugs hob)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -444,6 +529,8 @@ public override void SetEvent(HordeOfBugs hob)
 ```csharp
 public void SetSpawnPosition(GrandmaBug grand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -456,9 +543,13 @@ public void SetSpawnPosition(GrandmaBug grand)
 ```csharp
 private void StartAttack()
 ```
+#INC
+
 
 ### StartTeleport()
 
 ```csharp
 private void StartTeleport()
 ```
+#INC
+

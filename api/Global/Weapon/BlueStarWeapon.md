@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/BlueStarWeapon
 public class BlueStarWeapon : EquipmentScriptBase
 ```
 
+Script for [Blue Star](/api/Global/IOBserver/BlueStar)'s EGO Weapon: Sound of a Star.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BlueStarWeapon
 
@@ -33,6 +36,8 @@ public BlueStarWeapon()
 ```csharp
 private const int _pattern_1_hit = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const int _pattern_1_hit = 1
 ```csharp
 private const float _pattern_1_ratio = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float _pattern_1_ratio = 0.3
 ```csharp
 private const int _pattern_2_hit = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int _pattern_2_hit = 2
 ```csharp
 private const float _pattern_2_ratio = 0.6
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _pattern_2_ratio = 0.6
 ```csharp
 private const int _pattern_3_hit = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const int _pattern_3_hit = 3
 ```csharp
 private WorkerModel _worker
 ```
+#INC
+
 
 #### Field Value
 

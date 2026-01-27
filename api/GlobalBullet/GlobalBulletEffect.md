@@ -12,6 +12,12 @@ canonical_path: /api/GlobalBullet/GlobalBulletEffect
 public class GlobalBulletEffect : MonoBehaviour
 ```
 
+extends 
+Static locations for bullet particles effects, I think
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalBulletEffect
 
@@ -33,6 +39,8 @@ public GlobalBulletEffect()
 ```csharp
 private const string _Execute_src = "Effect/Bullet/ExecutionEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private const string _Execute_src = "Effect/Bullet/ExecutionEffect"
 ```csharp
 private const string _Health_Recover_src = "Effect/Bullet/Health_Proto"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private const string _Health_Recover_src = "Effect/Bullet/Health_Proto"
 ```csharp
 private const string _Mental_Recover_src = "Effect/Bullet/Mental_Prototype"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private const string _Mental_Recover_src = "Effect/Bullet/Mental_Prototype"
 ```csharp
 private const string _Shield_B_src = "Effect/Bullet/Shield_Proto"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private const string _Shield_B_src = "Effect/Bullet/Shield_Proto"
 ```csharp
 private const string _Shield_P_src = "Effect/Bullet/Shield_Proto"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private const string _Shield_P_src = "Effect/Bullet/Shield_Proto"
 ```csharp
 private const string _Shield_R_src = "Effect/Bullet/Shield_Proto"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ private const string _Shield_R_src = "Effect/Bullet/Shield_Proto"
 ```csharp
 private const string _Shield_W_src = "Effect/Bullet/Shield_Proto"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ private const string _Shield_W_src = "Effect/Bullet/Shield_Proto"
 ```csharp
 private const string _Slow_src = "Effect/Bullet/SlowBullet"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ private const string _Slow_src = "Effect/Bullet/SlowBullet"
 ```csharp
 public ParticleSystem particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ public ParticleSystem particle
 ```csharp
 public float ScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +161,9 @@ public float ScaleFactor
 ```csharp
 public static GlobalBulletEffect GenEffect(GlobalBulletType type, Vector3 pos)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -152,6 +181,8 @@ public static GlobalBulletEffect GenEffect(GlobalBulletType type, Vector3 pos)
 ```csharp
 public static string GetEffectSrc(GlobalBulletType t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -168,6 +199,8 @@ public static string GetEffectSrc(GlobalBulletType t)
 ```csharp
 public void SetColor(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 

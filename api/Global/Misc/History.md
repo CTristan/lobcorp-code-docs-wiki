@@ -11,6 +11,17 @@ canonical_path: /api/Global/Misc/History
 ```csharp
 public class History
 ```
+Stores an time and event type for an event in the work day.
+
+These events can be:
+- Worker panic
+- Worker death
+- Abnormality escape
+- Ordeal start
+- Trumpet start
+
+See also [GlobalHistory](/api/Global/IOBserver/GlobalHistory).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → History
@@ -25,6 +36,9 @@ public class History
 ```csharp
 public History(string notice, params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +54,8 @@ public History(string notice, params object[] param)
 ```csharp
 private float _inputTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +66,8 @@ private float _inputTime
 ```csharp
 private CreatureModel _targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +78,8 @@ private CreatureModel _targetCreature
 ```csharp
 private RandomEventBase _targetEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +90,8 @@ private RandomEventBase _targetEvent
 ```csharp
 private EmergencyLevel _targetLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +102,8 @@ private EmergencyLevel _targetLevel
 ```csharp
 private AgentModel _targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +124,8 @@ private History.HistoryType _type
 ```csharp
 public bool isSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +136,8 @@ public bool isSuppressed
 ```csharp
 public float suppressedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,6 +150,8 @@ public float suppressedTime
 ```csharp
 public CreatureModel GetCreature()
 ```
+#INC
+
 
 #### Returns
 
@@ -132,6 +162,8 @@ public CreatureModel GetCreature()
 ```csharp
 public EmergencyLevel GetEmergency()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,6 +174,8 @@ public EmergencyLevel GetEmergency()
 ```csharp
 public RandomEventBase GetEvent()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,6 +196,8 @@ public History.HistoryType GetHistoryType()
 ```csharp
 public float GetTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -172,6 +208,8 @@ public float GetTime()
 ```csharp
 public AgentModel GetWorker()
 ```
+#INC
+
 
 #### Returns
 

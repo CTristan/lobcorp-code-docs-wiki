@@ -12,6 +12,11 @@ canonical_path: /api/CreatureSelect/CreatureSelectUnit
 public class CreatureSelectUnit : MonoBehaviour, IAnimatorEventCalled
 ```
 
+A door, in the abnormality extraction screen.
+
+(Why this lives in its own folder, and not with [CreatureSelectUI](/api/Global/IANimatorEventCalled/CreatureSelectUI), is beyond me.)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureSelectUnit
 
@@ -36,6 +41,8 @@ public CreatureSelectUnit()
 ```csharp
 private long _creatureId
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private long _creatureId
 ```csharp
 public GameObject CreditCreatureFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject CreditCreatureFrame
 ```csharp
 public Animator DoorAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Animator DoorAnim
 ```csharp
 public Animator DullAnimCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Animator DullAnimCTRL
 ```csharp
 private Timer DullTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Timer DullTimer
 ```csharp
 public const long EmptyId = -1
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public const long EmptyId = -1
 ```csharp
 public Image[] Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public Image[] Frame
 ```csharp
 public Text IdText
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public Text IdText
 ```csharp
 private bool isChanging
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private bool isChanging
 ```csharp
 private CreatureTypeInfo metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private CreatureTypeInfo metaInfo
 ```csharp
 public GameObject NormalCreatureFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public GameObject NormalCreatureFrame
 ```csharp
 private bool pointer
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private bool pointer
 ```csharp
 public RectTransform PositionPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public RectTransform PositionPivot
 ```csharp
 public GameObject RootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public GameObject RootObject
 ```csharp
 private long savedId
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private long savedId
 ```csharp
 public Animator TransAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ public Animator TransAnim
 ```csharp
 public float TransitionTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ public float TransitionTime
 ```csharp
 private Timer TransitionTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ private Timer TransitionTimer
 ```csharp
 public bool TransSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -260,18 +303,24 @@ private RectTransform RectTransform { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,12 +333,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,12 +356,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### GetName()
 
 ```csharp
 private string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -319,6 +376,8 @@ private string GetName()
 ```csharp
 public string GetText()
 ```
+#INC
+
 
 #### Returns
 
@@ -329,6 +388,8 @@ public string GetText()
 ```csharp
 public void Init(long creatureId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,18 +402,25 @@ public void Init(long creatureId)
 ```csharp
 private void LateInit()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,72 +433,96 @@ public void OnCalled(int i)
 ```csharp
 public void OnChange()
 ```
+#INC
+
 
 ### OnChangeComplete()
 
 ```csharp
 public void OnChangeComplete()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 private void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 private void OnExit()
 ```
+#INC
+
 
 ### OnPointerClick()
 
 ```csharp
 public void OnPointerClick()
 ```
+#INC
+
 
 ### OnPointerEnter()
 
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### ResetPos()
 
 ```csharp
 private void ResetPos()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 public void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 public void SetEnabled()
 ```
+#INC
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,9 +535,13 @@ public void SoundMake(string src)
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

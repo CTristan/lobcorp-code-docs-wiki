@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResearchBulletAbility
 ```csharp
 public class ResearchBulletAbility
 ```
+Holds a [type of bullet](/api/GlobalBullet/GlobalBulletType) to be unlocked by this research.
+
+See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchBulletAbility
@@ -33,6 +37,9 @@ public ResearchBulletAbility()
 ```csharp
 public GlobalBulletType bulletType
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

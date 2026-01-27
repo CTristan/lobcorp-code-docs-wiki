@@ -11,6 +11,8 @@ canonical_path: /api/Manual/CategorySlot
 ```csharp
 public class CategorySlot : MonoBehaviour
 ```
+Section in the manual
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CategorySlot
@@ -36,6 +38,8 @@ public CategorySlot()
 ```csharp
 private bool _initText
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private bool _initText
 ```csharp
 protected bool _isSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ protected bool _isSelected
 ```csharp
 public Button button
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public Button button
 ```csharp
 public Category category
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public Category category
 ```csharp
 public List<CategorySlot> childs
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ public List<CategorySlot> childs
 ```csharp
 public List<MaskableGraphic> coloredTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 public List<GameObject> nonSelectedObjects
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +122,8 @@ public List<GameObject> nonSelectedObjects
 ```csharp
 public List<GameObject> selectedObjects
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +134,8 @@ public List<GameObject> selectedObjects
 ```csharp
 public List<GameObject> textList
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ public List<GameObject> textList
 ```csharp
 public Text Title
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +158,8 @@ public Text Title
 ```csharp
 public bool UseAnimation
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,6 +204,8 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void AddText(GameObject text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -192,24 +218,32 @@ public void AddText(GameObject text)
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### ComeleteTextInit()
 
 ```csharp
 public void ComeleteTextInit()
 ```
+#INC
+
 
 ### Destory()
 
 ```csharp
 public void Destory()
 ```
+#INC
+
 
 ### GetSlotInChild(Category)
 
 ```csharp
 public CategorySlot GetSlotInChild(Category category)
 ```
+#INC
+
 
 #### Parameters
 
@@ -226,6 +260,9 @@ public CategorySlot GetSlotInChild(Category category)
 ```csharp
 public virtual void Init(Category category)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -238,30 +275,40 @@ public virtual void Init(Category category)
 ```csharp
 public virtual void OnClick()
 ```
+#INC
+
 
 ### OnDeselect()
 
 ```csharp
 public virtual void OnDeselect()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 protected virtual void OnEnable()
 ```
+#INC
+
 
 ### OnSelected()
 
 ```csharp
 public virtual void OnSelected()
 ```
+#INC
+
 
 ### SetColor(Color)
 
 ```csharp
 protected virtual void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -274,12 +321,16 @@ protected virtual void SetColor(Color c)
 ```csharp
 public virtual void SetNormal()
 ```
+#INC
+
 
 ### SetObjects(bool)
 
 ```csharp
 public void SetObjects(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,3 +343,5 @@ public void SetObjects(bool state)
 ```csharp
 public virtual void SetSelected()
 ```
+#INC
+

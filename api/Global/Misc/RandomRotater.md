@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/RandomRotater
 public class RandomRotater : MonoBehaviour
 ```
 
+Chooses a random angle between min and max.
+Used for some splash or drop effect prefabs.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RandomRotater
 
@@ -33,6 +37,8 @@ public RandomRotater()
 ```csharp
 public float max
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public float max
 ```csharp
 public float min
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public float min
 ```csharp
 public Transform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,3 +75,6 @@ public Transform parent
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

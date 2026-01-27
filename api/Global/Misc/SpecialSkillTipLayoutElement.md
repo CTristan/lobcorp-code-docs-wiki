@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SpecialSkillTipLayoutElement
 public class SpecialSkillTipLayoutElement : MonoBehaviour
 ```
 
+Appears on the TipDesc prefab, but I think still unused...
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpecialSkillTipLayoutElement
 
@@ -33,6 +38,8 @@ public SpecialSkillTipLayoutElement()
 ```csharp
 private float _height
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _height
 ```csharp
 private bool _revealed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool _revealed
 ```csharp
 private Vector2 c_pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Vector2 c_pos
 ```csharp
 public Image clause
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Image clause
 ```csharp
 private const float defaultHeight = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float defaultHeight = 25
 ```csharp
 public float lowerSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public float lowerSpacing
 ```csharp
 private string Nodata
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private string Nodata
 ```csharp
 public CreatureSpecialSkillDesc skillDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public CreatureSpecialSkillDesc skillDesc
 ```csharp
 private Vector2 t_pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Vector2 t_pos
 ```csharp
 public Text text
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public Text text
 ```csharp
 private const float upperSpacing = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +204,8 @@ public RectTransform SlotRect { get; }
 ```csharp
 public string GetKey()
 ```
+#INC
+
 
 #### Returns
 
@@ -187,12 +216,16 @@ public string GetKey()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### isTarget(string)
 
 ```csharp
 public bool isTarget(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,12 +242,16 @@ public bool isTarget(string key)
 ```csharp
 public void OnRevealed()
 ```
+#INC
+
 
 ### SetText(CreatureSpecialSkillDesc)
 
 ```csharp
 public void SetText(CreatureSpecialSkillDesc desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,3 +264,6 @@ public void SetText(CreatureSpecialSkillDesc desc)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

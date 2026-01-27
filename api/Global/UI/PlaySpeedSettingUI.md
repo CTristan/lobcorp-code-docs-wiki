@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/PlaySpeedSettingUI
 public class PlaySpeedSettingUI : MonoBehaviour
 ```
 
+Controls changing the speed during management.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlaySpeedSettingUI
 
@@ -33,6 +38,8 @@ public PlaySpeedSettingUI()
 ```csharp
 private bool _available
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _available
 ```csharp
 private static PlaySpeedSettingUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private static PlaySpeedSettingUI _instance
 ```csharp
 private List<CreatureBase> blockedCaller
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private List<CreatureBase> blockedCaller
 ```csharp
 private Dictionary<PlaySpeedSettingBlockType, PlaySpeedSettingBlockedUI> blockedDictionary
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Dictionary<PlaySpeedSettingBlockType, PlaySpeedSettingBlockedUI> blocked
 ```csharp
 public Image blockedImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +119,8 @@ private PlaySpeedSettingUI.BlockedUIEvent blockEvent
 ```csharp
 public Button NormalSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +131,8 @@ public Button NormalSpeed
 ```csharp
 public Image observeFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +143,8 @@ public Image observeFilter
 ```csharp
 public Sprite observeSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +155,8 @@ public Sprite observeSprite
 ```csharp
 public Button OneHalfSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +167,8 @@ public Button OneHalfSpeed
 ```csharp
 public Button PauseButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +179,8 @@ public Button PauseButton
 ```csharp
 public Sprite pauseDefSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +191,8 @@ public Sprite pauseDefSprite
 ```csharp
 public Image pauseFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +203,8 @@ public Image pauseFilter
 ```csharp
 public Image pauseImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +225,8 @@ private List<PlaySpeedSettingUI.SpaceEvent> spaceCalled
 ```csharp
 public Image speed1Image
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +237,8 @@ public Image speed1Image
 ```csharp
 public Image speed2Image
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,6 +249,8 @@ public Image speed2Image
 ```csharp
 public Image speed3Image
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +261,8 @@ public Image speed3Image
 ```csharp
 public Image speedBlockMask
 ```
+#INC
+
 
 #### Field Value
 
@@ -234,6 +273,8 @@ public Image speedBlockMask
 ```csharp
 private bool timeMultiplierEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -244,6 +285,8 @@ private bool timeMultiplierEnabled
 ```csharp
 public Button TwiceSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -288,6 +331,8 @@ public static PlaySpeedSettingUI instance { get; }
 ```csharp
 public void AddBlockedEvent(PlaySpeedSettingBlockType blockType, PlaySpeedSettingBlockedUI script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,12 +358,17 @@ public void AddSpaceEvent(PlaySpeedSettingUI.SpaceEvent newEvent)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### BlockImageSetActivate(bool)
 
 ```csharp
 public void BlockImageSetActivate(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +381,8 @@ public void BlockImageSetActivate(bool state)
 ```csharp
 public void BlockSetting(CreatureBase caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -343,6 +395,8 @@ public void BlockSetting(CreatureBase caller)
 ```csharp
 public void CallBlockEvent(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -355,6 +409,8 @@ public void CallBlockEvent(int index)
 ```csharp
 private void CheckAction(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +423,8 @@ private void CheckAction(PlaySpeedSettingBlockFunction function)
 ```csharp
 private bool CheckEscapeBlocked()
 ```
+#INC
+
 
 #### Returns
 
@@ -377,6 +435,8 @@ private bool CheckEscapeBlocked()
 ```csharp
 private bool CheckManaulBlocked()
 ```
+#INC
+
 
 #### Returns
 
@@ -387,6 +447,8 @@ private bool CheckManaulBlocked()
 ```csharp
 public bool CheckPlaySpeedUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -397,6 +459,8 @@ public bool CheckPlaySpeedUI()
 ```csharp
 private bool CheckTimeMultiplierBlocked()
 ```
+#INC
+
 
 #### Returns
 
@@ -407,6 +471,8 @@ private bool CheckTimeMultiplierBlocked()
 ```csharp
 private bool CheckTimeStopBlocked(bool isRelease)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,54 +489,72 @@ private bool CheckTimeStopBlocked(bool isRelease)
 ```csharp
 public void ClearBlockEvent()
 ```
+#INC
+
 
 ### ForcelyPlay()
 
 ```csharp
 public void ForcelyPlay()
 ```
+#INC
+
 
 ### ForcleyReleaseSetting()
 
 ```csharp
 public void ForcleyReleaseSetting()
 ```
+#INC
+
 
 ### OnClickPause()
 
 ```csharp
 public void OnClickPause()
 ```
+#INC
+
 
 ### OnClickResume()
 
 ```csharp
 public void OnClickResume()
 ```
+#INC
+
 
 ### OnClickSpeed1()
 
 ```csharp
 public void OnClickSpeed1()
 ```
+#INC
+
 
 ### OnClickSpeed2()
 
 ```csharp
 public void OnClickSpeed2()
 ```
+#INC
+
 
 ### OnClickSpeed3()
 
 ```csharp
 public void OnClickSpeed3()
 ```
+#INC
+
 
 ### OnPause(PAUSECALL)
 
 ```csharp
 public void OnPause(PAUSECALL caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -483,6 +567,8 @@ public void OnPause(PAUSECALL caller)
 ```csharp
 public void OnResume(PAUSECALL caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -495,12 +581,16 @@ public void OnResume(PAUSECALL caller)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### ReleaseSetting(CreatureBase)
 
 ```csharp
 public void ReleaseSetting(CreatureBase caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,6 +603,8 @@ public void ReleaseSetting(CreatureBase caller)
 ```csharp
 public void RemoveBlockedEvent(PlaySpeedSettingBlockType blockType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -549,12 +641,16 @@ public void SetBlockEvent(PlaySpeedSettingUI.BlockedUIEvent blockEvent)
 ```csharp
 public void SetNormalSpeedForcely()
 ```
+#INC
+
 
 ### SetTimeMultiplierEnable(bool)
 
 ```csharp
 public void SetTimeMultiplierEnable(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -567,15 +663,21 @@ public void SetTimeMultiplierEnable(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateButton()
 
 ```csharp
 public void UpdateButton()
 ```
+#INC
+

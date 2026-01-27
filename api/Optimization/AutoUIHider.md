@@ -11,6 +11,8 @@ canonical_path: /api/Optimization/AutoUIHider
 ```csharp
 public class AutoUIHider : MonoBehaviour, IObserver
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AutoUIHider
@@ -36,6 +38,8 @@ public AutoUIHider()
 ```csharp
 private bool _enabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +61,8 @@ private float _hidePoint
 ```csharp
 public Graphic targetGraphic
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +75,8 @@ public Graphic targetGraphic
 ```csharp
 private void OnChangeCameraSize(float currentSize)
 ```
+#INC
+
 
 #### Parameters
 
@@ -81,18 +89,25 @@ private void OnChangeCameraSize(float currentSize)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

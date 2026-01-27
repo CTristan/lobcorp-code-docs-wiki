@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BlackLovePanicReady
 public class BlackLovePanicReady : PanicReady
 ```
 
+Panic action for employees affected by [Army in Black's breach panic buff](/api/Global/UnitBuf/BlackLoveBuf).
+
+See [BlackLoveBuf](/api/Global/UnitBuf/BlackLoveBuf)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → [PanicReady](/api/Global/Misc/PanicReady) → BlackLovePanicReady
 
@@ -25,6 +30,8 @@ public class BlackLovePanicReady : PanicReady
 ```csharp
 public BlackLovePanicReady(WorkerModel target, BlackLoveBuf buf)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public BlackLovePanicReady(WorkerModel target, BlackLoveBuf buf)
 ```csharp
 private BlackLoveBuf buf
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,15 +61,22 @@ private BlackLoveBuf buf
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### StartPanic()
 
 ```csharp
 public void StartPanic()
 ```
+#INC
+

@@ -11,6 +11,17 @@ canonical_path: /api/Global/Loader/ResourceLoader
 ```csharp
 public class ResourceLoader
 ```
+Unused helper for loading some sprites and prefabs.
+
+#unused #maybe_unused 
+## Methods
+#### private static string GetLowQualityPath(string src)
+Replaces 'filename' in the path with 'SD/filename' to get a lower quality version of the file.
+#### public static Sprite LoadSprite(string src)
+Returns the sprite (or a lower quality version of the sprite if the quality settings are low). Uses the Unity Resources class.
+#### public static GameObject LoadPrefab(string src)
+Returns the prefab (or a lower quality version of the prefab if the quality settings are low). Uses [Prefab](/api/Global/Misc/Prefab).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResourceLoader
@@ -33,6 +44,9 @@ public ResourceLoader()
 ```csharp
 private static string GetLowQualityPath(string src)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -49,6 +63,8 @@ private static string GetLowQualityPath(string src)
 ```csharp
 public static GameObject LoadPrefab(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -65,6 +81,8 @@ public static GameObject LoadPrefab(string src)
 ```csharp
 public static Sprite LoadSprite(string src)
 ```
+#INC
+
 
 #### Parameters
 

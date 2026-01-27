@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ShyThing
 public class ShyThing : CreatureBase
 ```
 
+Today's Shy Look.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ShyThing
 
@@ -33,6 +38,8 @@ public ShyThing()
 ```csharp
 private ShyThingAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private ShyThingAnim _animScript
 ```csharp
 private const float _changeFaceTimeMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _changeFaceTimeMax = 5
 ```csharp
 private const float _changeFaceTimeMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _changeFaceTimeMin = 3
 ```csharp
 public const int _defaultFaceType = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public const int _defaultFaceType = 2
 ```csharp
 private readonly float[] _dmgMultiplierByFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private readonly float[] _dmgMultiplierByFace
 ```csharp
 private const int _faceTypeCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _faceTypeCount = 5
 ```csharp
 private const float _hpHealRatio = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _hpHealRatio = 0.2
 ```csharp
 private const float _mpHealRatio = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _mpHealRatio = 0.2
 ```csharp
 private readonly int[] _workProbBonusByFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private readonly int[] _workProbBonusByFace
 ```csharp
 private Timer changeFaceTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +182,8 @@ public ShyThingAnim animScript { get; }
 ```csharp
 public override float GetDamageMultiplierInWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -173,6 +200,8 @@ public override float GetDamageMultiplierInWork(UseSkill skill)
 ```csharp
 public override int OnBonusWorkProb()
 ```
+#INC
+
 
 #### Returns
 
@@ -183,6 +212,8 @@ public override int OnBonusWorkProb()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -195,6 +226,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +240,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,6 +254,8 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnSkillSuccessWorkTick(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,12 +268,16 @@ public override void OnSkillSuccessWorkTick(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,12 +290,17 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### SetFaceType(int)
 
 ```csharp
 private void SetFaceType(int feelingState)
 ```
+#INC
+
 
 #### Parameters
 

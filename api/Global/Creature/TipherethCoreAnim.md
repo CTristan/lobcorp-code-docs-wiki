@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/TipherethCoreAnim
 public class TipherethCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Tiphereth](/api/Global/Script/TipherethCoreScript) as they appear in [Tiphereth's core suppression](/api/Global/Misc/TipherethBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → TipherethCoreAnim
 
@@ -36,6 +39,8 @@ public TipherethCoreAnim()
 ```csharp
 public AnimationCurve effectCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimationCurve effectCurve
 ```csharp
 private TipherethCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +65,8 @@ private TipherethCoreScript script
 ```csharp
 public void OnPhaseChange(int val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -70,6 +79,9 @@ public void OnPhaseChange(int val)
 ```csharp
 public void SetScript(TipherethCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

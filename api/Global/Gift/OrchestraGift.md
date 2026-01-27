@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/OrchestraGift
 public class OrchestraGift : EquipmentScriptBase
 ```
 
+Script for [The Silent Orchestra](/api/Global/Misc/SilentOrchestra)'s EGO Gift: Da Capo. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OrchestraGift
 

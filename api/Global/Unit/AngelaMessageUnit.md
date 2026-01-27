@@ -11,6 +11,8 @@ canonical_path: /api/Global/Unit/AngelaMessageUnit
 ```csharp
 public class AngelaMessageUnit
 ```
+Unit for storing message id and 'desc', which I think is the body of the message? #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AngelaMessageUnit
@@ -33,6 +35,8 @@ public AngelaMessageUnit()
 ```csharp
 public string desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public string desc
 ```csharp
 public int id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

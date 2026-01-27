@@ -12,6 +12,11 @@ canonical_path: /api/Global/Action/UncontrollableAction
 public class UncontrollableAction : HierarchicalData
 ```
 
+An uncontrollable effect, for employees which are 'Uncontrollable' or otherwise possessed.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [HierarchicalData](/api/Global/Misc/HierarchicalData) → UncontrollableAction
 
@@ -36,6 +41,8 @@ public UncontrollableAction()
 ```csharp
 public virtual bool CastingSlider(Slider slider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,12 +59,16 @@ public virtual bool CastingSlider(Slider slider)
 ```csharp
 public virtual void Execute()
 ```
+#INC
+
 
 ### HasAttackAnim()
 
 ```csharp
 public virtual bool HasAttackAnim()
 ```
+#INC
+
 
 #### Returns
 
@@ -68,6 +79,8 @@ public virtual bool HasAttackAnim()
 ```csharp
 public virtual bool HasUniqueHostility()
 ```
+#INC
+
 
 #### Returns
 
@@ -78,12 +91,17 @@ public virtual bool HasUniqueHostility()
 ```csharp
 public virtual void Init()
 ```
+#INC
+#code-generated
+
 
 ### IsAttackTargetable()
 
 ```csharp
 public virtual bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -94,6 +112,8 @@ public virtual bool IsAttackTargetable()
 ```csharp
 public virtual bool IsHostile()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +124,8 @@ public virtual bool IsHostile()
 ```csharp
 public virtual bool IsNextAttackWillKillTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -114,6 +136,8 @@ public virtual bool IsNextAttackWillKillTarget()
 ```csharp
 public virtual bool IsPreferredTouch()
 ```
+#INC
+
 
 #### Returns
 
@@ -124,30 +148,40 @@ public virtual bool IsPreferredTouch()
 ```csharp
 public virtual void OnClick()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### OnKillTarget()
 
 ```csharp
 public virtual void OnKillTarget()
 ```
+#INC
+
 
 ### OnNextAttakInvokeKill()
 
 ```csharp
 public virtual bool OnNextAttakInvokeKill()
 ```
+#INC
+
 
 #### Returns
 
@@ -158,18 +192,24 @@ public virtual bool OnNextAttakInvokeKill()
 ```csharp
 public virtual void OnPrevDie()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public virtual void OnStageEnd()
 ```
+#INC
+
 
 ### OnTakeMentalDamage(int)
 
 ```csharp
 public virtual void OnTakeMentalDamage(int damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,6 +222,8 @@ public virtual void OnTakeMentalDamage(int damage)
 ```csharp
 public virtual void OnTakePhysicalDamage(int damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,12 +236,16 @@ public virtual void OnTakePhysicalDamage(int damage)
 ```csharp
 public virtual void SetAttackAnim()
 ```
+#INC
+
 
 ### ShowUnconSpeech(string)
 
 ```csharp
 public virtual void ShowUnconSpeech(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,3 +258,5 @@ public virtual void ShowUnconSpeech(string key)
 ```csharp
 public virtual void UnderAttack()
 ```
+#INC
+

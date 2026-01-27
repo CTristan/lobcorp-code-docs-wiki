@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SefiraFilterMgr
 public class SefiraFilterMgr : MonoBehaviour
 ```
 
+Manages filters over rooms in departments, maybe.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraFilterMgr
 
@@ -33,6 +38,8 @@ public SefiraFilterMgr()
 ```csharp
 private int _sortOrder
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private int _sortOrder
 ```csharp
 public void Init(Sprite s, Transform t, SpriteRenderer pivotRenderer, int sortOrder = 2)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -60,6 +70,8 @@ public void Init(Sprite s, Transform t, SpriteRenderer pivotRenderer, int sortOr
 ```csharp
 public void SetAlpha(float alpha, bool rootControl = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +85,8 @@ public void SetAlpha(float alpha, bool rootControl = false)
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,3 +99,5 @@ public void SetColor(Color c)
 ```csharp
 private void Start()
 ```
+#INC
+

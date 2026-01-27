@@ -12,6 +12,13 @@ canonical_path: /api/Global/IOBserver/CreatureManager
 public class CreatureManager : IObserver, ISerializablePlayData
 ```
 
+Manages all abnormalities currently in the facility.
+
+Controls adding, moving, and removing creatures in departments; loading, saving, resetting, and getting observation levels; calculating how complete the codex is; calling creatures during stage start, release, end, fixed update, and initialization; loading abnormality script data; resetting overload penalties for WAWs and ALEPHs; and a few other utilities.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureManager
 
@@ -28,6 +35,9 @@ public class CreatureManager : IObserver, ISerializablePlayData
 ```csharp
 private CreatureManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -36,6 +46,8 @@ private CreatureManager()
 ```csharp
 private static CreatureManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +58,8 @@ private static CreatureManager _instance
 ```csharp
 private List<CreatureModel> creatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +70,8 @@ private List<CreatureModel> creatureList
 ```csharp
 public GameObject creatureListNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +82,8 @@ public GameObject creatureListNode
 ```csharp
 private long nextInstId
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +94,8 @@ private long nextInstId
 ```csharp
 private Dictionary<long, CreatureObserveInfoModel> observeInfoList
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +106,8 @@ private Dictionary<long, CreatureObserveInfoModel> observeInfoList
 ```csharp
 private Dictionary<long, CreatureSpecialSkillTipTable> specialSkillTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +132,8 @@ public static CreatureManager instance { get; }
 ```csharp
 public void AddChildObserveInfo(CreatureObserveInfoModel infoModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -122,6 +146,8 @@ public void AddChildObserveInfo(CreatureObserveInfoModel infoModel)
 ```csharp
 public CreatureModel AddCreature(long metadataId, SefiraIsolate roomData, string sefiraNum)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,6 +166,8 @@ public CreatureModel AddCreature(long metadataId, SefiraIsolate roomData, string
 ```csharp
 public void AddCreatureInSefira(CreatureModel creature, string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,6 +181,8 @@ public void AddCreatureInSefira(CreatureModel creature, string sefira)
 ```csharp
 private void BuildCreatureModel(CreatureModel model, long metadataId, SefiraIsolate roomData, string sefiraNum)
 ```
+#INC
+
 
 #### Parameters
 
@@ -168,6 +198,8 @@ private void BuildCreatureModel(CreatureModel model, long metadataId, SefiraIsol
 ```csharp
 public void ChangeCreaturePos(CreatureModel caller, CreatureModel changed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,12 +213,16 @@ public void ChangeCreaturePos(CreatureModel caller, CreatureModel changed)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### FindCreature(long)
 
 ```csharp
 public CreatureModel FindCreature(long metaId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,6 +239,8 @@ public CreatureModel FindCreature(long metaId)
 ```csharp
 public CreatureModel GetCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,6 +257,8 @@ public CreatureModel GetCreature(long id)
 ```csharp
 public int GetCreatureCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -229,6 +269,8 @@ public int GetCreatureCount()
 ```csharp
 public CreatureModel[] GetCreatureList()
 ```
+#INC
+
 
 #### Returns
 
@@ -239,6 +281,8 @@ public CreatureModel[] GetCreatureList()
 ```csharp
 public int GetHiddenProgressByObserveLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -249,6 +293,8 @@ public int GetHiddenProgressByObserveLevel()
 ```csharp
 public int GetMaxHiddenProgressByObserveLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -259,6 +305,8 @@ public int GetMaxHiddenProgressByObserveLevel()
 ```csharp
 public CreatureModel[] GetNearSuppressedCreatures(MovableObjectNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +323,8 @@ public CreatureModel[] GetNearSuppressedCreatures(MovableObjectNode node)
 ```csharp
 public CreatureObserveInfoModel GetObserveInfo(long metadataId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +341,8 @@ public CreatureObserveInfoModel GetObserveInfo(long metadataId)
 ```csharp
 public List<CreatureObserveInfoModel> GetObserveInfoList()
 ```
+#INC
+
 
 #### Returns
 
@@ -301,6 +353,8 @@ public List<CreatureObserveInfoModel> GetObserveInfoList()
 ```csharp
 public int GetObserveLevel(long metadataId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,6 +371,8 @@ public int GetObserveLevel(long metadataId)
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -327,6 +383,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public Dictionary<string, object> GetSaveObserveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -337,6 +395,8 @@ public Dictionary<string, object> GetSaveObserveData()
 ```csharp
 public Dictionary<string, object> GetSaveSpecialSkillTable()
 ```
+#INC
+
 
 #### Returns
 
@@ -347,6 +407,8 @@ public Dictionary<string, object> GetSaveSpecialSkillTable()
 ```csharp
 public int GetSefiraMaxWorkCount(Sefira s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,6 +425,8 @@ public int GetSefiraMaxWorkCount(Sefira s)
 ```csharp
 public int GetSefiraWorkCount(Sefira s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,18 +443,24 @@ public int GetSefiraWorkCount(Sefira s)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitValues()
 
 ```csharp
 private void InitValues()
 ```
+#INC
+
 
 ### IsCreatureActivated(long)
 
 ```csharp
 public bool IsCreatureActivated(long metaId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -407,6 +477,8 @@ public bool IsCreatureActivated(long metaId)
 ```csharp
 public bool IsMaxHiddenProgress()
 ```
+#INC
+
 
 #### Returns
 
@@ -417,6 +489,8 @@ public bool IsMaxHiddenProgress()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -429,6 +503,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void LoadObserveData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -441,12 +517,16 @@ public void LoadObserveData(Dictionary<string, object> dic)
 ```csharp
 public void LoadScriptSaveData()
 ```
+#INC
+
 
 ### LoadSpecialSkillTable(Dictionary<string, object>)
 
 ```csharp
 public void LoadSpecialSkillTable(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -459,6 +539,8 @@ public void LoadSpecialSkillTable(Dictionary<string, object> dic)
 ```csharp
 public void OnAddCreatureWorkCountInSefira(Sefira s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -471,18 +553,24 @@ public void OnAddCreatureWorkCountInSefira(Sefira s)
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnGameInit()
 
 ```csharp
 public void OnGameInit()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -496,24 +584,32 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### PickOtherSefiraCreatureByRandom(CreatureModel)
 
 ```csharp
 public CreatureModel PickOtherSefiraCreatureByRandom(CreatureModel exclude)
 ```
+#INC
+
 
 #### Parameters
 
@@ -530,6 +626,8 @@ public CreatureModel PickOtherSefiraCreatureByRandom(CreatureModel exclude)
 ```csharp
 public void RegisterByReplace(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -542,6 +640,8 @@ public void RegisterByReplace(CreatureModel model)
 ```csharp
 public void RegisterCreature(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -554,6 +654,8 @@ public void RegisterCreature(CreatureModel model)
 ```csharp
 public void RemoveCreatureInSefira(CreatureModel creature, string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -567,12 +669,16 @@ public void RemoveCreatureInSefira(CreatureModel creature, string sefira)
 ```csharp
 public void RemoveSriptSaveData()
 ```
+#INC
+
 
 ### ReplaceAllDlcCreature()
 
 ```csharp
 public bool ReplaceAllDlcCreature()
 ```
+#INC
+
 
 #### Returns
 
@@ -583,6 +689,8 @@ public bool ReplaceAllDlcCreature()
 ```csharp
 private void ReplaceBuildCreatureModel(CreatureModel model, long metadataId, CreatureModel old)
 ```
+#INC
+
 
 #### Parameters
 
@@ -597,6 +705,8 @@ private void ReplaceBuildCreatureModel(CreatureModel model, long metadataId, Cre
 ```csharp
 public void ReplaceCommand(CreatureModel old, CreatureModel replaced)
 ```
+#INC
+
 
 #### Parameters
 
@@ -610,6 +720,8 @@ public void ReplaceCommand(CreatureModel old, CreatureModel replaced)
 ```csharp
 public CreatureModel ReplaceCreature(long metadataId, CreatureModel exist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -627,24 +739,32 @@ public CreatureModel ReplaceCreature(long metadataId, CreatureModel exist)
 ```csharp
 public void ResetObserveData()
 ```
+#INC
+
 
 ### ResetProbReductionCounterAll()
 
 ```csharp
 public void ResetProbReductionCounterAll()
 ```
+#INC
+
 
 ### ResetSpecialSkillTable()
 
 ```csharp
 public void ResetSpecialSkillTable()
 ```
+#INC
+
 
 ### TryGetValue<T>(Dictionary<string, object>, string, ref T)
 
 ```csharp
 private static bool TryGetValue<T>(Dictionary<string, object> dic, string name, ref T field)
 ```
+#INC
+
 
 #### Parameters
 
@@ -663,6 +783,8 @@ private static bool TryGetValue<T>(Dictionary<string, object> dic, string name, 
 ```csharp
 public void UnRegisterCreature(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 

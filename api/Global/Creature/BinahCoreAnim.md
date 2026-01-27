@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BinahCoreAnim
 public class BinahCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Binah](/api/Global/Script/BinahCoreScript) during her [core suppression](/api/Global/Misc/BinahBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BinahCoreAnim
 
@@ -36,6 +39,8 @@ public BinahCoreAnim()
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private BinahCoreScript _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private BinahCoreScript _script
 ```csharp
 public Color _textInner
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public Color _textInner
 ```csharp
 public Color _textOutter
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public Color _textOutter
 ```csharp
 public ParticleSystem AttackTypeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public ParticleSystem AttackTypeParticle
 ```csharp
 public GameObject BinahAgentSlow
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public GameObject BinahAgentSlow
 ```csharp
 public GameObject BinahArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public GameObject BinahArrived
 ```csharp
 public GameObject BinahBladeAttackParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +157,8 @@ public GameObject BinahCastDefaultOverload
 ```csharp
 public GameObject BinahOverloadClear
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +169,8 @@ public GameObject BinahOverloadClear
 ```csharp
 public GameObject BinahOverloadClearExplode
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +181,8 @@ public GameObject BinahOverloadClearExplode
 ```csharp
 public Color blackColorMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -168,6 +193,8 @@ public Color blackColorMin
 ```csharp
 public GameObject BlackFog
 ```
+#INC
+
 
 #### Field Value
 
@@ -178,6 +205,8 @@ public GameObject BlackFog
 ```csharp
 public AnimationCurve ColumnCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,6 +217,8 @@ public AnimationCurve ColumnCurve
 ```csharp
 public Transform ColumnPivotParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -198,6 +229,8 @@ public Transform ColumnPivotParent
 ```csharp
 public Transform[] ColumnPivots
 ```
+#INC
+
 
 #### Field Value
 
@@ -208,6 +241,8 @@ public Transform[] ColumnPivots
 ```csharp
 public Text debugText
 ```
+#INC
+
 
 #### Field Value
 
@@ -218,6 +253,8 @@ public Text debugText
 ```csharp
 public Color defaultColorMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -228,6 +265,8 @@ public Color defaultColorMax
 ```csharp
 public Transform DisabledParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -238,6 +277,8 @@ public Transform DisabledParent
 ```csharp
 private Vector3 effectInitLossy
 ```
+#INC
+
 
 #### Field Value
 
@@ -248,6 +289,8 @@ private Vector3 effectInitLossy
 ```csharp
 public Color eightColorMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -269,6 +312,8 @@ public Transform EnabledParent
 ```csharp
 public GameObject Golden_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -279,6 +324,8 @@ public GameObject Golden_1
 ```csharp
 public GameObject Golden_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -289,6 +336,8 @@ public GameObject Golden_2
 ```csharp
 public GameObject Golden_3
 ```
+#INC
+
 
 #### Field Value
 
@@ -299,6 +348,8 @@ public GameObject Golden_3
 ```csharp
 public Color GoldenColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -309,6 +360,8 @@ public Color GoldenColor
 ```csharp
 public Color goldenColorMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -319,6 +372,8 @@ public Color goldenColorMin
 ```csharp
 public Transform HandFollower
 ```
+#INC
+
 
 #### Field Value
 
@@ -329,6 +384,8 @@ public Transform HandFollower
 ```csharp
 public Transform HeartFollower
 ```
+#INC
+
 
 #### Field Value
 
@@ -339,6 +396,8 @@ public Transform HeartFollower
 ```csharp
 private Vector3 initLossyScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -349,6 +408,8 @@ private Vector3 initLossyScale
 ```csharp
 public Color waveColorMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +434,8 @@ public BinahCoreScript Script { get; }
 ```csharp
 public Color GetOverloadTypeColor(OverloadType overloadType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,6 +452,8 @@ public Color GetOverloadTypeColor(OverloadType overloadType)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -399,12 +464,16 @@ public override bool HasDeadMotion()
 ```csharp
 protected override void LateUpdate()
 ```
+#INC
+
 
 ### MakeBinahText(string)
 
 ```csharp
 public void MakeBinahText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -417,6 +486,9 @@ public void MakeBinahText(string text)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -429,42 +501,56 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCastingCancel()
 ```
+#INC
+
 
 ### OnCastingEnd()
 
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnEndAttack()
 
 ```csharp
 public void OnEndAttack()
 ```
+#INC
+
 
 ### OnGroggy()
 
 ```csharp
 public void OnGroggy()
 ```
+#INC
+
 
 ### OnGroggyEnd()
 
 ```csharp
 public void OnGroggyEnd()
 ```
+#INC
+
 
 ### OnPrevSuppressed()
 
 ```csharp
 public void OnPrevSuppressed()
 ```
+#INC
+
 
 ### OnStartAttack(BinahAttackType)
 
 ```csharp
 public void OnStartAttack(BinahAttackType attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -477,12 +563,16 @@ public void OnStartAttack(BinahAttackType attackType)
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScrpt(BinahCoreScript)
 
 ```csharp
 public void SetScrpt(BinahCoreScript coreScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -495,12 +585,16 @@ public void SetScrpt(BinahCoreScript coreScript)
 ```csharp
 public void TurnOffAttackType()
 ```
+#INC
+
 
 ### TurnOffBodyEffect(OverloadType)
 
 ```csharp
 public void TurnOffBodyEffect(OverloadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,12 +607,16 @@ public void TurnOffBodyEffect(OverloadType type)
 ```csharp
 public void TurnOnAttackTypeEffect()
 ```
+#INC
+
 
 ### TurnOnAttackTypeEffect(RwbpType)
 
 ```csharp
 public void TurnOnAttackTypeEffect(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -531,12 +629,16 @@ public void TurnOnAttackTypeEffect(RwbpType type)
 ```csharp
 public void TurnOnBlackFog()
 ```
+#INC
+
 
 ### TurnOnBodyEffect(OverloadType, BinahPhase)
 
 ```csharp
 public void TurnOnBodyEffect(OverloadType type, BinahPhase phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -550,3 +652,5 @@ public void TurnOnBodyEffect(OverloadType type, BinahPhase phase)
 ```csharp
 private void Update()
 ```
+#INC
+

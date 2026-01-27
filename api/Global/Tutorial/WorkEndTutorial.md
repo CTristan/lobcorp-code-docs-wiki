@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/WorkEndTutorial
 public class WorkEndTutorial : Tutorial, IObserver
 ```
 
+Ends when the work cycle ends.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → WorkEndTutorial
 
@@ -36,6 +41,8 @@ public WorkEndTutorial()
 ```csharp
 private bool completed
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool completed
 ```csharp
 public bool isWorkTickTutorial
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public bool isWorkTickTutorial
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,24 +79,32 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,3 +118,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

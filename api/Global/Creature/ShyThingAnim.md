@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/ShyThingAnim
 public class ShyThingAnim : CreatureAnimScript
 ```
 
+Animation handler for [Today's Shy Look](/api/Global/Misc/ShyThing).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → ShyThingAnim
 
@@ -33,6 +38,8 @@ public ShyThingAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 private ShyThing script
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +64,8 @@ private ShyThing script
 ```csharp
 public int GetFaceType()
 ```
+#INC
+
 
 #### Returns
 
@@ -65,12 +76,16 @@ public int GetFaceType()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### SetFaceType(int)
 
 ```csharp
 public void SetFaceType(int feelingState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +98,9 @@ public void SetFaceType(int feelingState)
 ```csharp
 public void SetScript(ShyThing script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -95,3 +113,5 @@ public void SetScript(ShyThing script)
 ```csharp
 private void Update()
 ```
+#INC
+

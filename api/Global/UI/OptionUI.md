@@ -12,6 +12,10 @@ canonical_path: /api/Global/UI/OptionUI
 public class OptionUI : MonoBehaviour
 ```
 
+Options menu.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OptionUI
 
@@ -33,6 +37,8 @@ public OptionUI()
 ```csharp
 public UIController _controllerAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public UIController _controllerAnim
 ```csharp
 private bool _initstate
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _initstate
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _isEnabled
 ```csharp
 public Image _languageArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Image _languageArrow
 ```csharp
 public Text _languageTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +127,8 @@ public GameObject BaseModTest
 ```csharp
 private static string[] credit
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +139,8 @@ private static string[] credit
 ```csharp
 public Text CreditLabel
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +162,8 @@ public GameObject CreditRoot
 ```csharp
 private Dictionary<string, string> creditText
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +174,8 @@ private Dictionary<string, string> creditText
 ```csharp
 public Text CreditTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +196,8 @@ private Dictionary<OptionUI.OptionAction, object> currentOptionSetted
 ```csharp
 public DisplayDropdown Opt_Display
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +208,8 @@ public DisplayDropdown Opt_Display
 ```csharp
 public Toggle Opt_Dlc
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +220,8 @@ public Toggle Opt_Dlc
 ```csharp
 public GameObject Opt_DlcRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +232,8 @@ public GameObject Opt_DlcRoot
 ```csharp
 public LanguageDropdown Opt_Language
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,6 +244,8 @@ public LanguageDropdown Opt_Language
 ```csharp
 public Image Opt_MasterFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +256,8 @@ public Image Opt_MasterFill
 ```csharp
 public Slider Opt_MasterVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -234,6 +268,8 @@ public Slider Opt_MasterVolume
 ```csharp
 public Image Opt_MusicFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -244,6 +280,8 @@ public Image Opt_MusicFill
 ```csharp
 public Slider Opt_MusicVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -254,6 +292,8 @@ public Slider Opt_MusicVolume
 ```csharp
 public ResolutionDropdown Opt_Resolution
 ```
+#INC
+
 
 #### Field Value
 
@@ -264,6 +304,8 @@ public ResolutionDropdown Opt_Resolution
 ```csharp
 public TextureDropdown Opt_Texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -274,6 +316,8 @@ public TextureDropdown Opt_Texture
 ```csharp
 public Toggle Opt_Tooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -284,6 +328,8 @@ public Toggle Opt_Tooltip
 ```csharp
 public Text OverlayDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +342,8 @@ public Text OverlayDesc
 ```csharp
 public static OptionUI Instance { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -331,12 +379,17 @@ private void AddValueChanged(OptionUI.OptionAction action, object value)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeDlc(bool)
 
 ```csharp
 public void ChangeDlc(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,6 +402,8 @@ public void ChangeDlc(bool b)
 ```csharp
 public void ChangeLanguage(string ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -361,42 +416,56 @@ public void ChangeLanguage(string ln)
 ```csharp
 public void CheckCredit()
 ```
+#INC
+
 
 ### CheckDlcOptionUsable()
 
 ```csharp
 public void CheckDlcOptionUsable()
 ```
+#INC
+
 
 ### CheckLanguageOptionUsable()
 
 ```csharp
 public void CheckLanguageOptionUsable()
 ```
+#INC
+
 
 ### CheckTooltipState()
 
 ```csharp
 public void CheckTooltipState()
 ```
+#INC
+
 
 ### CheckVolume()
 
 ```csharp
 public void CheckVolume()
 ```
+#INC
+
 
 ### Close()
 
 ```csharp
 public void Close()
 ```
+#INC
+
 
 ### ExecuteActions()
 
 ```csharp
 public void ExecuteActions()
 ```
+#INC
+
 
 ### GetParam<T>(OptionAction)
 
@@ -431,18 +500,24 @@ public void OnClickMODbutton()
 ```csharp
 public void OnClickSaveAndQuit()
 ```
+#INC
+
 
 ### OnClose()
 
 ```csharp
 public void OnClose()
 ```
+#INC
+
 
 ### OnLevelWasLoaded(int)
 
 ```csharp
 private void OnLevelWasLoaded(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,24 +530,32 @@ private void OnLevelWasLoaded(int level)
 ```csharp
 public void OnOpen()
 ```
+#INC
+
 
 ### OnPointerEnterDlc()
 
 ```csharp
 public void OnPointerEnterDlc()
 ```
+#INC
+
 
 ### OnPointerExitDlc()
 
 ```csharp
 public void OnPointerExitDlc()
 ```
+#INC
+
 
 ### OnSetDisplayMode(int)
 
 ```csharp
 public void OnSetDisplayMode(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -485,6 +568,8 @@ public void OnSetDisplayMode(int type)
 ```csharp
 public void OnSetLanguage(string language)
 ```
+#INC
+
 
 #### Parameters
 
@@ -497,6 +582,8 @@ public void OnSetLanguage(string language)
 ```csharp
 public void OnSetMasterVolume(float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -509,6 +596,8 @@ public void OnSetMasterVolume(float volume)
 ```csharp
 public void OnSetMusicVolume(float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -521,6 +610,8 @@ public void OnSetMusicVolume(float volume)
 ```csharp
 public void OnSetResolution(Resolution r)
 ```
+#INC
+
 
 #### Parameters
 
@@ -533,6 +624,8 @@ public void OnSetResolution(Resolution r)
 ```csharp
 public void OnSetTextureQuality(int quality)
 ```
+#INC
+
 
 #### Parameters
 
@@ -545,18 +638,24 @@ public void OnSetTextureQuality(int quality)
 ```csharp
 public void OnSetTooltip()
 ```
+#INC
+
 
 ### Open()
 
 ```csharp
 public void Open()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
@@ -569,6 +668,8 @@ private void Update()
 ```csharp
 public bool ValidateLanguageOption()
 ```
+#INC
+
 
 #### Returns
 

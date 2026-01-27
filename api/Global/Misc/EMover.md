@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/EMover
 ```csharp
 public class EMover : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EMover
@@ -33,6 +35,8 @@ public EMover()
 ```csharp
 public Animator a1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Animator a1
 ```csharp
 public Animator a2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Animator a2
 ```csharp
 public Animator a3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Animator a3
 ```csharp
 private bool down
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,3 +85,6 @@ private bool down
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

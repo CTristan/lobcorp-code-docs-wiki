@@ -12,6 +12,11 @@ canonical_path: /api/Global/IANimatorEventCalled/RouletteWindow
 public class RouletteWindow : MonoBehaviour, IAnimatorEventCalled
 ```
 
+The roulette that appears during [Censored](/api/Global/Misc/Censored)'s special work type and [Nameless Fetus](/api/Global/Misc/NamelessFetus)' meltdown.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RouletteWindow
 
@@ -36,6 +41,8 @@ public RouletteWindow()
 ```csharp
 private IRouletteWindowMessage _currentCaller
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private IRouletteWindowMessage _currentCaller
 ```csharp
 private static RouletteWindow _currentWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private static RouletteWindow _currentWindow
 ```csharp
 private float _looping
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private float _looping
 ```csharp
 public float anchorMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public float anchorMax
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Animator anim
 ```csharp
 public AudioSource audioSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public AudioSource audioSrc
 ```csharp
 public bool autoClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +136,8 @@ public Vector3 CameraPos
 ```csharp
 public Button CancelButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +148,8 @@ public Button CancelButton
 ```csharp
 public AudioClip closeSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +160,8 @@ public AudioClip closeSound
 ```csharp
 public Button ConfirmButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +172,8 @@ public Button ConfirmButton
 ```csharp
 private GameObject copied
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +184,8 @@ private GameObject copied
 ```csharp
 private List<RouletteItem> copiedList
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +196,8 @@ private List<RouletteItem> copiedList
 ```csharp
 private RectTransform current
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +208,8 @@ private RectTransform current
 ```csharp
 public Text currentIndexDisplay_Debug
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +220,8 @@ public Text currentIndexDisplay_Debug
 ```csharp
 public CreatureModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +232,8 @@ public CreatureModel currentTarget
 ```csharp
 public float endTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +244,8 @@ public float endTime
 ```csharp
 private UnscaledTimer endTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +256,8 @@ private UnscaledTimer endTimer
 ```csharp
 public Sprite filterNormal
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +268,8 @@ public Sprite filterNormal
 ```csharp
 public Image filterRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +280,8 @@ public Image filterRenderer
 ```csharp
 public float filterTransTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,6 +292,8 @@ public float filterTransTime
 ```csharp
 private UnscaledTimer filterTransTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +304,8 @@ private UnscaledTimer filterTransTimer
 ```csharp
 public Sprite filterWorkerSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +316,8 @@ public Sprite filterWorkerSelected
 ```csharp
 public Vector2 findingSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +328,8 @@ public Vector2 findingSpeed
 ```csharp
 public float findingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -287,6 +340,8 @@ public float findingTime
 ```csharp
 public GameObject integrate
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,6 +352,8 @@ public GameObject integrate
 ```csharp
 private bool isFinding
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,6 +364,8 @@ private bool isFinding
 ```csharp
 private bool isOrigin
 ```
+#INC
+
 
 #### Field Value
 
@@ -317,6 +376,8 @@ private bool isOrigin
 ```csharp
 private bool isRunning
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +388,8 @@ private bool isRunning
 ```csharp
 private bool isTransBright
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,6 +400,8 @@ private bool isTransBright
 ```csharp
 private List<RouletteItem> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +412,8 @@ private List<RouletteItem> list
 ```csharp
 public Vector2 loopRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -368,6 +435,8 @@ public Vector2 loopSpeedRange
 ```csharp
 private UnscaledTimer loopTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -378,6 +447,8 @@ private UnscaledTimer loopTimer
 ```csharp
 private float moveElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -388,6 +459,8 @@ private float moveElap
 ```csharp
 private float moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -398,6 +471,8 @@ private float moveTarget
 ```csharp
 public GameObject OnInvalidPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -408,6 +483,8 @@ public GameObject OnInvalidPanel
 ```csharp
 public AudioClip openSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -418,6 +495,8 @@ public AudioClip openSound
 ```csharp
 public RectTransform panel
 ```
+#INC
+
 
 #### Field Value
 
@@ -428,6 +507,8 @@ public RectTransform panel
 ```csharp
 private float posy
 ```
+#INC
+
 
 #### Field Value
 
@@ -449,6 +530,8 @@ public float prewarm
 ```csharp
 private UnscaledTimer prewarmTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -459,6 +542,8 @@ private UnscaledTimer prewarmTimer
 ```csharp
 public GameObject raycastObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -469,6 +554,8 @@ public GameObject raycastObject
 ```csharp
 public float rouletteMaskHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -479,6 +566,8 @@ public float rouletteMaskHeight
 ```csharp
 public ScrollRect scrollArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -499,6 +588,8 @@ private RouletteWindow.OnSelectedEvent selectedEvent
 ```csharp
 public AudioClip selectSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -509,6 +600,8 @@ public AudioClip selectSound
 ```csharp
 private bool shooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -519,6 +612,8 @@ private bool shooted
 ```csharp
 private RectTransform spare
 ```
+#INC
+
 
 #### Field Value
 
@@ -529,6 +624,8 @@ private RectTransform spare
 ```csharp
 public float speedFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -539,6 +636,8 @@ public float speedFactor
 ```csharp
 private bool startedRun
 ```
+#INC
+
 
 #### Field Value
 
@@ -560,6 +659,8 @@ public Vector2 stopTime
 ```csharp
 private int targetIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -570,6 +671,8 @@ private int targetIndex
 ```csharp
 public GameObject textItem
 ```
+#INC
+
 
 #### Field Value
 
@@ -580,6 +683,8 @@ public GameObject textItem
 ```csharp
 public float tickFreqDef
 ```
+#INC
+
 
 #### Field Value
 
@@ -590,6 +695,8 @@ public float tickFreqDef
 ```csharp
 public float tickFreqMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -600,6 +707,8 @@ public float tickFreqMin
 ```csharp
 public AudioClip tickSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -610,6 +719,8 @@ public AudioClip tickSound
 ```csharp
 public float tickSoundFreqScaler
 ```
+#INC
+
 
 #### Field Value
 
@@ -620,6 +731,8 @@ public float tickSoundFreqScaler
 ```csharp
 private UnscaledTimer tickSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -630,6 +743,8 @@ private UnscaledTimer tickSoundTimer
 ```csharp
 public Text title
 ```
+#INC
+
 
 #### Field Value
 
@@ -651,6 +766,8 @@ public float unitRectHeight
 ```csharp
 private List<WorkerModel> workerlist
 ```
+#INC
+
 
 #### Field Value
 
@@ -735,18 +852,24 @@ private float tickSoundFreq { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -759,18 +882,25 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CallerSet(IRouletteWindowMessage)
 
 ```csharp
 public void CallerSet(IRouletteWindowMessage caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -783,18 +913,24 @@ public void CallerSet(IRouletteWindowMessage caller)
 ```csharp
 private void CheckProcess()
 ```
+#INC
+
 
 ### CheckRaycast()
 
 ```csharp
 private void CheckRaycast()
 ```
+#INC
+
 
 ### CheckValidate()
 
 ```csharp
 private bool CheckValidate()
 ```
+#INC
+
 
 #### Returns
 
@@ -805,12 +941,16 @@ private bool CheckValidate()
 ```csharp
 private void CopyForRun()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -824,30 +964,40 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void FindTarget()
 ```
+#INC
+
 
 ### InitList()
 
 ```csharp
 private void InitList()
 ```
+#INC
+
 
 ### MoveToFind()
 
 ```csharp
 private void MoveToFind()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -860,54 +1010,72 @@ public void OnCalled(int i)
 ```csharp
 public void OnClickCancel()
 ```
+#INC
+
 
 ### OnClickConfirm()
 
 ```csharp
 public void OnClickConfirm()
 ```
+#INC
+
 
 ### OnClose()
 
 ```csharp
 public void OnClose()
 ```
+#INC
+
 
 ### OnFilterDefault()
 
 ```csharp
 public void OnFilterDefault()
 ```
+#INC
+
 
 ### OnFilterSelected()
 
 ```csharp
 public void OnFilterSelected()
 ```
+#INC
+
 
 ### OnInvalid()
 
 ```csharp
 private void OnInvalid()
 ```
+#INC
+
 
 ### OnOpenWindowPrev()
 
 ```csharp
 private void OnOpenWindowPrev()
 ```
+#INC
+
 
 ### OnRunningEnd()
 
 ```csharp
 private void OnRunningEnd()
 ```
+#INC
+
 
 ### OnSelectedItemEffectEnd(RouletteItem)
 
 ```csharp
 public void OnSelectedItemEffectEnd(RouletteItem item)
 ```
+#INC
+
 
 #### Parameters
 
@@ -920,6 +1088,8 @@ public void OnSelectedItemEffectEnd(RouletteItem item)
 ```csharp
 private void OnStageStart()
 ```
+#INC
+
 
 ### OpenWindowGlobal(CreatureModel, OnSelectedEvent)
 
@@ -953,18 +1123,24 @@ public void OpenWindowLocal(CreatureModel creature, Sefira range, RouletteWindow
 ```csharp
 public void PlaySelectSound()
 ```
+#INC
+
 
 ### RunPanel()
 
 ```csharp
 private void RunPanel()
 ```
+#INC
+
 
 ### SetFilterAlpha(float)
 
 ```csharp
 public void SetFilterAlpha(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -977,24 +1153,32 @@ public void SetFilterAlpha(float alpha)
 ```csharp
 private void SetLooping()
 ```
+#INC
+
 
 ### SetTarget()
 
 ```csharp
 private void SetTarget()
 ```
+#INC
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1007,3 +1191,5 @@ public void SoundMake(string src)
 ```csharp
 private void Update()
 ```
+#INC
+

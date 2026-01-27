@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/YoungPrinceFriend
 public class YoungPrinceFriend : CreatureBase
 ```
 
+One of [The Little Prince](/api/Global/IOBserver/YoungPrince)'s minions.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → YoungPrinceFriend
 
@@ -33,6 +38,8 @@ public YoungPrinceFriend()
 ```csharp
 private YoungPrinceFriendAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private YoungPrinceFriendAnim _animScript
 ```csharp
 private const int _atkDmgMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 4
 ```csharp
 private const int _atkDmgMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 6
 ```csharp
 private const float _atkDmgRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _atkDmgRange = 3.5
 ```csharp
 private const float _attackRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _attackRange = 3
 ```csharp
 private const int _infestProb = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _infestProb = 40
 ```csharp
 private const float _motionDelayMax = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _motionDelayMax = 1.2
 ```csharp
 private const float _motionDelayMin = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _motionDelayMin = 0.8
 ```csharp
 private const float _moveFreqMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _moveFreqMax = 2
 ```csharp
 private const float _moveFreqMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _moveFreqMin = 1
 ```csharp
 private const int _smashDmgMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int _smashDmgMax = 7
 ```csharp
 private const int _smashDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const int _smashDmgMin = 10
 ```csharp
 private const float _smashDmgRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _smashDmgRange = 4
 ```csharp
 private const int _smashProb = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const int _smashProb = 20
 ```csharp
 private UnitModel aggro
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private UnitModel aggro
 ```csharp
 private RwbpType atkType
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private RwbpType atkType
 ```csharp
 public SoundEffectPlayer[] effects
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ public SoundEffectPlayer[] effects
 ```csharp
 private const float escapeDelay = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float escapeDelay = 2.5
 ```csharp
 private bool escapeInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private bool escapeInit
 ```csharp
 public bool isMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ public bool isMovable
 ```csharp
 private bool isRoamer
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private YoungPrinceFriend.Spore leftSpore
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private Timer motionDelayTimer
 ```csharp
 private Timer moveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private Timer moveTimer
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ public string name
 ```csharp
 public long nextSporeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ public long nextSporeId
 ```csharp
 private PassageObjectModel passage
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private PassageObjectModel passage
 ```csharp
 public YoungPrince prince
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ private YoungPrinceFriend.Spore rightSpore
 ```csharp
 private RwbpType smashType
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private RwbpType smashType
 ```csharp
 public const string sound_Atk1 = "Atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ public const string sound_Atk1 = "Atk1"
 ```csharp
 public const string sound_Atk2_Base = "Atk2_base"
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ public const string sound_Atk2_Base = "Atk2_base"
 ```csharp
 public const string sound_Atk2_Hit = "Atk2_atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ public const string sound_Atk2_Hit = "Atk2_atk"
 ```csharp
 public const string sound_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ public const string sound_Dead = "Dead"
 ```csharp
 public const string sound_Default = "Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ public const string sound_Default = "Default"
 ```csharp
 public const string sound_Walk = "Walk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ public const string sound_Walk = "Walk"
 ```csharp
 public const string soundPath = "creature/YoungPrince/Friend/Prince_Child_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +488,8 @@ private List<YoungPrinceFriend.Spore> sporeList
 ```csharp
 private const float spreadFreq = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +500,8 @@ private const float spreadFreq = 0.2
 ```csharp
 private Timer spreadTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +512,8 @@ private Timer spreadTimer
 ```csharp
 private const float volume = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -497,12 +578,16 @@ private static int smashDmg { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -520,12 +605,16 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private void Chase()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -542,6 +631,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 public override string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -552,6 +643,8 @@ public override string GetName()
 ```csharp
 private UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -569,6 +662,8 @@ private UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 private UnitModel GetNearestByDoor()
 ```
+#INC
+
 
 #### Returns
 
@@ -579,6 +674,8 @@ private UnitModel GetNearestByDoor()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -595,6 +692,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -611,6 +710,8 @@ private UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -628,12 +729,16 @@ private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 private void Infest()
 ```
+#INC
+
 
 ### IsAttackable(UnitModel)
 
 ```csharp
 private bool IsAttackable(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -650,6 +755,8 @@ private bool IsAttackable(UnitModel unit)
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -660,6 +767,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -676,6 +785,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -693,6 +804,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 private bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -709,12 +822,16 @@ private bool IsInView(UnitModel target)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -731,6 +848,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -741,24 +860,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnSmashDamageTimeCalled()
 
 ```csharp
 public void OnSmashDamageTimeCalled()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -771,12 +898,17 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void Roam()
 ```
+#INC
+
 
 ### SetModel(CreatureModel)
 
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -789,6 +921,8 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SetPrince(YoungPrince prince)
 ```
+#INC
+
 
 #### Parameters
 
@@ -801,6 +935,8 @@ public void SetPrince(YoungPrince prince)
 ```csharp
 private bool SpreadSpore()
 ```
+#INC
+
 
 #### Returns
 
@@ -811,9 +947,13 @@ private bool SpreadSpore()
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

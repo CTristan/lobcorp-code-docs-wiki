@@ -12,6 +12,9 @@ canonical_path: /api/Global/Standing/FloodRestTentacleAnim
 public class FloodRestTentacleAnim : StandingItemAnim, IAnimatorEventCalled
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → FloodRestTentacleAnim
 
@@ -36,6 +39,8 @@ public FloodRestTentacleAnim()
 ```csharp
 private Vector3 initial
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private Vector3 initial
 ```csharp
 private const float randActionTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const float randActionTime = 5
 ```csharp
 private Timer randActionTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private Timer randActionTimer
 ```csharp
 public FloodTentacle script
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public FloodTentacle script
 ```csharp
 public SpineSpriteChanger spriteChanger
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public SpineSpriteChanger spriteChanger
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,30 +125,40 @@ public FloodTentacle.TentacleType Type { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### Attack()
 
 ```csharp
 public void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,12 +171,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### ChangeSprite(SpriteChangeData)
 
 ```csharp
 public void ChangeSprite(SpineSpriteChanger.SpriteChangeData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,6 +193,8 @@ public void ChangeSprite(SpineSpriteChanger.SpriteChangeData data)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,18 +208,24 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected void FixedUpdate()
 ```
+#INC
+
 
 ### FixPos(float)
 
 ```csharp
 public void FixPos(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,12 +238,16 @@ public void FixPos(float value)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,6 +260,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetScale(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,6 +274,8 @@ public void SetScale(float factor)
 ```csharp
 public void SetScript(FloodTentacle script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -243,12 +288,16 @@ public void SetScript(FloodTentacle script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -261,9 +310,14 @@ public void SoundMake(string src)
 ```csharp
 public void Stand()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 protected override void Start()
 ```
+#INC
+#code-generated
+

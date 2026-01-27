@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/SpriteSequencerScript
 public class SpriteSequencerScript : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpriteSequencerScript
 
@@ -33,6 +36,8 @@ public SpriteSequencerScript()
 ```csharp
 public int fps
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public int fps
 ```csharp
 public bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public bool isEnabled
 ```csharp
 public bool isRunning
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public bool isRunning
 ```csharp
 public SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public SpriteRenderer renderer
 ```csharp
 public float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public float speed
 ```csharp
 private Sprite[] sprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Sprite[] sprites
 ```csharp
 public string src
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,30 +122,41 @@ public string src
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDisalbed()
 
 ```csharp
 public void OnDisalbed()
 ```
+#INC
+
 
 ### OnEnabled()
 
 ```csharp
 public void OnEnabled()
 ```
+#INC
+
 
 ### Run()
 
 ```csharp
 public void Run()
 ```
+#INC
+
 
 ### Sequencer()
 
 ```csharp
 private IEnumerator Sequencer()
 ```
+#INC
+
 
 #### Returns
 
@@ -139,9 +167,13 @@ private IEnumerator Sequencer()
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Stop()
 
 ```csharp
 public void Stop()
 ```
+#INC
+

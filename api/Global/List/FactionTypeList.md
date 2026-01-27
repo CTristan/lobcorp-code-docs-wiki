@@ -11,6 +11,8 @@ canonical_path: /api/Global/List/FactionTypeList
 ```csharp
 public class FactionTypeList
 ```
+Maintains a list of [factions](/api/Global/Info/FactionTypeInfo).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FactionTypeList
@@ -33,6 +35,8 @@ public FactionTypeList()
 ```csharp
 private static FactionTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static FactionTypeList _instance
 ```csharp
 private Dictionary<string, FactionTypeInfo> factions
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private Dictionary<string, FactionTypeInfo> factions
 ```csharp
 private bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +95,8 @@ public bool IsLoaded { get; }
 ```csharp
 public FactionTypeInfo GetFaction(string code)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +113,8 @@ public FactionTypeInfo GetFaction(string code)
 ```csharp
 public FactionTypeInfo GetFactionByName(string factionName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +131,9 @@ public FactionTypeInfo GetFactionByName(string factionName)
 ```csharp
 public void Init(ReadOnlyCollection<FactionTypeInfo> factions)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/ScavengerNoonAnim
 public class ScavengerNoonAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [scavengers](/api/Global/Misc/ScavengerNoon).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ScavengerNoonAnim
 
@@ -36,6 +41,8 @@ public ScavengerNoonAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject[] faces
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject[] faces
 ```csharp
 private ScavengerNoon script
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +79,8 @@ private ScavengerNoon script
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -80,24 +93,33 @@ public override void AttackCalled(int i)
 ```csharp
 private void AttackDamage()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### DeadSceneSound()
 
 ```csharp
 private void DeadSceneSound()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -108,12 +130,16 @@ public override bool HasDeadMotion()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -124,6 +150,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsLooting()
 ```
+#INC
+
 
 #### Returns
 
@@ -134,18 +162,24 @@ public bool IsLooting()
 ```csharp
 private void Loot()
 ```
+#INC
+
 
 ### LootEnd()
 
 ```csharp
 private void LootEnd()
 ```
+#INC
+
 
 ### OnAttackStart(int)
 
 ```csharp
 public void OnAttackStart(int pattern)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +192,8 @@ public void OnAttackStart(int pattern)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,30 +206,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnLootStart()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(ScavengerNoon)
 
 ```csharp
 public void SetScript(ScavengerNoon script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -206,6 +252,8 @@ public void SetScript(ScavengerNoon script)
 ```csharp
 private void SpecialDamage(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,3 +266,5 @@ private void SpecialDamage(int type)
 ```csharp
 private void Update()
 ```
+#INC
+

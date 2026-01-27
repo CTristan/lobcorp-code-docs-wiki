@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/SaveUtil
 ```csharp
 public class SaveUtil
 ```
+Provides several utilities for reading, writing, and deleting external files.
+
+See also [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager).
+
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SaveUtil
@@ -33,6 +39,9 @@ public SaveUtil()
 ```csharp
 public static void DeleteSerializableFile(string fileName)
 ```
+Deletes the file at the provided path if it exists, as well as the files at the paths `fileName`+".val.txt" and `fileName`+".\_temp".
+#code-generated
+
 
 #### Parameters
 
@@ -45,6 +54,14 @@ public static void DeleteSerializableFile(string fileName)
 ```csharp
 public static Dictionary<string, object> ReadSerializableFile(string fileName)
 ```
+Broadly, checks to see if there's a current version of the file and loads a Dictionary\<string,object> from it, or restores a backup if that fails.
+###### More details:
+Checks the path fileName+".val.txt" first; if it exists and the first byte is 64, it reads a Dictionary\<string,object> from fileName+".\_temp" and returns it.
+
+Otherwise, it reads a Dictionary\<string, object> from the path fileName.
+
+If this fails, it tries to read from fileName+".backup". If the backup exists, it moves the original fileName to another file with a random number appended, and replaces fileName with the backup.
+
 
 #### Parameters
 
@@ -61,6 +78,16 @@ public static Dictionary<string, object> ReadSerializableFile(string fileName)
 ```csharp
 public static void WriteSerializableFile(string fileName, Dictionary<string, object> dic)
 ```
+Broadly, creates a backup of the current file, does some things with temporary files, and writes `dic` to `fileName`.
+###### More details:
+Serializes dic to fileName+".backup".
+
+If there is a fileName+".val.txt" file with the value 64, tries to copy fileName+".\_temp" to overwrite fileName.
+
+Then, makes a fileName+".\_temp" file and serializes dic to it, and makes a fileName+".val.txt" with a first byte of 64.
+
+Then it copies the temp file to fileName and deletes both the .val.txt and .\_temp files.
+
 
 #### Parameters
 

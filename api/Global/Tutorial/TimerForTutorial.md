@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/TimerForTutorial
 public class TimerForTutorial : Tutorial
 ```
 
+Ends after 3 seconds.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → TimerForTutorial
 
@@ -33,6 +38,8 @@ public TimerForTutorial()
 ```csharp
 private bool isCompleted
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool isCompleted
 ```csharp
 public float timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,3 +64,6 @@ public float timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

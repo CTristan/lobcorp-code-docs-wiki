@@ -12,6 +12,9 @@ canonical_path: /api/InGameUI/AgentGiftWindow
 public class AgentGiftWindow : MonoBehaviour
 ```
 
+UI for displaying [agent](/api/Global/Worker/AgentModel) EGO gifts and toggling lock/display.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentGiftWindow
 
@@ -33,6 +36,8 @@ public AgentGiftWindow()
 ```csharp
 public Dictionary<int, AgentGiftSlot> dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Dictionary<int, AgentGiftSlot> dic
 ```csharp
 private const int dispActiveLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const int dispActiveLevel = 3
 ```csharp
 private const int lockActiveLevel = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int lockActiveLevel = 4
 ```csharp
 public List<AgentGiftSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,18 +86,25 @@ public List<AgentGiftSlot> slots
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DisableAllSlots()
 
 ```csharp
 private void DisableAllSlots()
 ```
+#INC
+
 
 ### GetGiftSlot(EGOgiftAttachRegion, EGOgiftAttachType)
 
 ```csharp
 public AgentGiftSlot GetGiftSlot(EGOgiftAttachRegion region, EGOgiftAttachType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -104,6 +122,8 @@ public AgentGiftSlot GetGiftSlot(EGOgiftAttachRegion region, EGOgiftAttachType t
 ```csharp
 public void SetAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +136,8 @@ public void SetAgent(AgentModel agent)
 ```csharp
 private void SetGiftSlot(AgentModel agent, EGOgiftModel gift, bool dispState, bool lockState)
 ```
+#INC
+
 
 #### Parameters
 

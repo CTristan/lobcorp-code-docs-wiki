@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/RudolphWeapon
 public class RudolphWeapon : EquipmentScriptBase
 ```
 
+Script for [Rudolta of the Sleigh](/api/Global/Misc/Rudolph)'s EGO Weapon: Christmas. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RudolphWeapon
 

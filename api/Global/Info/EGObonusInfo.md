@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/EGObonusInfo
 ```csharp
 public class EGObonusInfo
 ```
+Holds information about [EGO Gift](/api/Global/Model/EGOgiftModel) stat bonuses.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EGObonusInfo
@@ -33,6 +35,8 @@ public EGObonusInfo()
 ```csharp
 public int attackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int attackSpeed
 ```csharp
 public int cubeSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public int cubeSpeed
 ```csharp
 public int damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public int damage
 ```csharp
 public int hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public int hp
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public int mental
 ```csharp
 public int movement
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public int movement
 ```csharp
 public int workProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +121,9 @@ public int workProb
 ```csharp
 public static EGObonusInfo operator +(EGObonusInfo a, EGObonusInfo b)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

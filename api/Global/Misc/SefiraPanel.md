@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SefiraPanel
 public class SefiraPanel : MonoBehaviour, IDeployResetCalled
 ```
 
+Represents a department on the [deployment screen](/api/Global/UI/DeployUI). Holds [slots](/api/Global/Misc/DeploySefiraAgentSlot) for assigning agents.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraPanel
 
@@ -36,6 +41,8 @@ public SefiraPanel()
 ```csharp
 private int _allocateMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private int _allocateMax
 ```csharp
 private int _currentAgentCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private int _currentAgentCount
 ```csharp
 private int _currentClickTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SefiraPanel.PanelDataState _dataState
 ```csharp
 private CanvasGroup _group
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private CanvasGroup _group
 ```csharp
 private const float _logoDefault = 0.98
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const float _logoDefault = 0.98
 ```csharp
 private const float _logoTrans = 1.02
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private SefiraPanel.PanelDataState _overlayState
 ```csharp
 private Sefira _sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private Sefira _sefira
 ```csharp
 private Color _sefiraColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private Color _sefiraColor
 ```csharp
 private SefiraUIColor _sefiraUIColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private SefiraUIColor _sefiraUIColor
 ```csharp
 public List<GameObject> activateEffected
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +192,8 @@ public DeploySefiraAgentSlot[] agentSlots
 ```csharp
 public List<AgentModel> allocateAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +204,8 @@ public List<AgentModel> allocateAgents
 ```csharp
 public List<MaskableGraphic> alterGraphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -208,6 +237,8 @@ public SefiraPanel.Decorations decorations
 ```csharp
 public Button DescriptionButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -218,6 +249,8 @@ public Button DescriptionButton
 ```csharp
 public Text DescriptionText
 ```
+#INC
+
 
 #### Field Value
 
@@ -228,6 +261,8 @@ public Text DescriptionText
 ```csharp
 public Text DescriptionTextArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -238,6 +273,8 @@ public Text DescriptionTextArea
 ```csharp
 public bool DoNotCloseMain
 ```
+#INC
+
 
 #### Field Value
 
@@ -248,6 +285,8 @@ public bool DoNotCloseMain
 ```csharp
 private bool dragEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -258,6 +297,8 @@ private bool dragEntered
 ```csharp
 public Drop dropScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -268,6 +309,8 @@ public Drop dropScript
 ```csharp
 public Outline FrameOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -289,6 +332,8 @@ public Text Function_SefiraFunction_Context
 ```csharp
 public Text Function_SefiraTenure_Context
 ```
+#INC
+
 
 #### Field Value
 
@@ -299,6 +344,8 @@ public Text Function_SefiraTenure_Context
 ```csharp
 public Button FunctionButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -309,6 +356,8 @@ public Button FunctionButton
 ```csharp
 public RectTransform functionRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -319,6 +368,8 @@ public RectTransform functionRoot
 ```csharp
 public Text FunctionText
 ```
+#INC
+
 
 #### Field Value
 
@@ -329,6 +380,8 @@ public Text FunctionText
 ```csharp
 public List<MaskableGraphic> graphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -339,6 +392,8 @@ public List<MaskableGraphic> graphics
 ```csharp
 public GameObject Kether_Chain
 ```
+#INC
+
 
 #### Field Value
 
@@ -349,6 +404,8 @@ public GameObject Kether_Chain
 ```csharp
 public GameObject Kether_Pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -359,6 +416,8 @@ public GameObject Kether_Pivot
 ```csharp
 public RectTransform leftRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -369,6 +428,8 @@ public RectTransform leftRoot
 ```csharp
 public SefiraLevel level
 ```
+#INC
+
 
 #### Field Value
 
@@ -379,6 +440,8 @@ public SefiraLevel level
 ```csharp
 public SefiraPanel LinkedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -389,6 +452,8 @@ public SefiraPanel LinkedSefira
 ```csharp
 public RectTransform mainRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -399,6 +464,8 @@ public RectTransform mainRoot
 ```csharp
 public const int maxAgentCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -409,6 +476,8 @@ public const int maxAgentCount = 5
 ```csharp
 public Animator MissionPanelAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -419,6 +488,8 @@ public Animator MissionPanelAnim
 ```csharp
 private Timer missionPanelStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -429,6 +500,8 @@ private Timer missionPanelStartTimer
 ```csharp
 public SefiraPanelMissionUI missionUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -439,6 +512,8 @@ public SefiraPanelMissionUI missionUI
 ```csharp
 private const string noDataPortraitSrc = "Sprites/Unit/creature/NoData"
 ```
+#INC
+
 
 #### Field Value
 
@@ -449,6 +524,8 @@ private const string noDataPortraitSrc = "Sprites/Unit/creature/NoData"
 ```csharp
 private UnscaledTimer removeCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -459,6 +536,8 @@ private UnscaledTimer removeCoolTimer
 ```csharp
 public Button ResearchButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -469,6 +548,8 @@ public Button ResearchButton
 ```csharp
 public SefiraResearchPanel researchPanelController
 ```
+#INC
+
 
 #### Field Value
 
@@ -479,6 +560,8 @@ public SefiraResearchPanel researchPanelController
 ```csharp
 public Text ResearchText
 ```
+#INC
+
 
 #### Field Value
 
@@ -489,6 +572,8 @@ public Text ResearchText
 ```csharp
 public RectTransform rightRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -499,6 +584,8 @@ public RectTransform rightRoot
 ```csharp
 public List<ScaleSetter> scaleSetted
 ```
+#INC
+
 
 #### Field Value
 
@@ -509,6 +596,8 @@ public List<ScaleSetter> scaleSetted
 ```csharp
 public List<ScrollExchanger> scrollExchanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -530,6 +619,8 @@ public Button SefiraBossButton
 ```csharp
 public Text SefiraBossButtonText
 ```
+#INC
+
 
 #### Field Value
 
@@ -540,6 +631,8 @@ public Text SefiraBossButtonText
 ```csharp
 public Text SefiraBossDesc_Clear
 ```
+#INC
+
 
 #### Field Value
 
@@ -550,6 +643,8 @@ public Text SefiraBossDesc_Clear
 ```csharp
 public Text SefiraBossDesc_Condition
 ```
+#INC
+
 
 #### Field Value
 
@@ -560,6 +655,8 @@ public Text SefiraBossDesc_Condition
 ```csharp
 public UIController sefiraBossDescPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -570,6 +667,8 @@ public UIController sefiraBossDescPanel
 ```csharp
 public List<GameObject> sefiraBossRelated
 ```
+#INC
+
 
 #### Field Value
 
@@ -580,6 +679,8 @@ public List<GameObject> sefiraBossRelated
 ```csharp
 public Text SefiraName
 ```
+#INC
+
 
 #### Field Value
 
@@ -590,6 +691,8 @@ public Text SefiraName
 ```csharp
 public AudioClipPlayer SefiraSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -600,6 +703,8 @@ public AudioClipPlayer SefiraSound
 ```csharp
 public GameObject TooltipObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -724,6 +829,8 @@ public SefiraUIColor SefiraUIColor { get; }
 ```csharp
 public bool AddAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -740,18 +847,24 @@ public bool AddAgent(AgentModel agent)
 ```csharp
 private void AgentListInit()
 ```
+#INC
+
 
 ### CreaturePortraitInit()
 
 ```csharp
 public void CreaturePortraitInit()
 ```
+#INC
+
 
 ### DeployColorSetted(Color)
 
 ```csharp
 public void DeployColorSetted(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -764,18 +877,24 @@ public void DeployColorSetted(Color c)
 ```csharp
 public void DeployResetCalled()
 ```
+#INC
+
 
 ### DisableSefiraBoss()
 
 ```csharp
 public void DisableSefiraBoss()
 ```
+#INC
+
 
 ### DropEvent(params object[])
 
 ```csharp
 public bool DropEvent(params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -792,6 +911,8 @@ public bool DropEvent(params object[] param)
 ```csharp
 public void Init(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -804,6 +925,8 @@ public void Init(SefiraEnum sefira)
 ```csharp
 public void InitialAddAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -816,12 +939,16 @@ public void InitialAddAgent(AgentModel agent)
 ```csharp
 public void InitResearch()
 ```
+#INC
+
 
 ### OnAgentSlotEnter(DeploySefiraAgentSlot)
 
 ```csharp
 public void OnAgentSlotEnter(DeploySefiraAgentSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -834,6 +961,8 @@ public void OnAgentSlotEnter(DeploySefiraAgentSlot slot)
 ```csharp
 public void OnAgentSlotExit(DeploySefiraAgentSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -846,12 +975,16 @@ public void OnAgentSlotExit(DeploySefiraAgentSlot slot)
 ```csharp
 public void OnBossDescDisabled()
 ```
+#INC
+
 
 ### OnClickAgentSlot(BaseEventData)
 
 ```csharp
 public void OnClickAgentSlot(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -864,6 +997,8 @@ public void OnClickAgentSlot(BaseEventData bData)
 ```csharp
 public void OnClickAgentSlot(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -876,6 +1011,8 @@ public void OnClickAgentSlot(int index)
 ```csharp
 public void OnClickCreaturePortriat(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -888,30 +1025,40 @@ public void OnClickCreaturePortriat(int i)
 ```csharp
 public void OnClickDescription()
 ```
+#INC
+
 
 ### OnClickPanel()
 
 ```csharp
 public void OnClickPanel()
 ```
+#INC
+
 
 ### OnClickResearch()
 
 ```csharp
 public void OnClickResearch()
 ```
+#INC
+
 
 ### OnClickSefiraFunction()
 
 ```csharp
 public void OnClickSefiraFunction()
 ```
+#INC
+
 
 ### OnCreaturePortraitEnter(int)
 
 ```csharp
 public void OnCreaturePortraitEnter(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -924,6 +1071,8 @@ public void OnCreaturePortraitEnter(int i)
 ```csharp
 public void OnCreaturePortraitExit(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -936,24 +1085,32 @@ public void OnCreaturePortraitExit(int i)
 ```csharp
 public void OnDeallocateAll()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnManageStart()
 
 ```csharp
 public void OnManageStart()
 ```
+#INC
+
 
 ### OnOverlayEnter(int)
 
 ```csharp
 public void OnOverlayEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -966,6 +1123,8 @@ public void OnOverlayEnter(int index)
 ```csharp
 public void OnOverlayExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -990,6 +1149,8 @@ private void OnOverlayPanel(SefiraPanel.PanelDataState state)
 ```csharp
 public void OnPanelEnter(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1002,12 +1163,16 @@ public void OnPanelEnter(BaseEventData bData)
 ```csharp
 public void OnPanelExit()
 ```
+#INC
+
 
 ### OnRemoveAgent(int)
 
 ```csharp
 public void OnRemoveAgent(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1020,6 +1185,8 @@ public void OnRemoveAgent(int index)
 ```csharp
 public void OnRemoveAgent_NotAddToList(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1044,18 +1211,24 @@ private void OnSetPanel(SefiraPanel.PanelDataState state)
 ```csharp
 public void OnStartBossSession()
 ```
+#INC
+
 
 ### Registration()
 
 ```csharp
 public void Registration()
 ```
+#INC
+
 
 ### RemoveAgent(AgentModel)
 
 ```csharp
 public bool RemoveAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1072,6 +1245,8 @@ public bool RemoveAgent(AgentModel agent)
 ```csharp
 public bool RemoveAgentNotRemoved(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1088,12 +1263,16 @@ public bool RemoveAgentNotRemoved(AgentModel agent)
 ```csharp
 private void ResetPanel()
 ```
+#INC
+
 
 ### ScrollInit(Transform)
 
 ```csharp
 private void ScrollInit(Transform root)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1106,6 +1285,8 @@ private void ScrollInit(Transform root)
 ```csharp
 public void SetAlterGraphicsColor(Color altercolor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1118,6 +1299,8 @@ public void SetAlterGraphicsColor(Color altercolor)
 ```csharp
 public void SetBossPanel(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1130,18 +1313,24 @@ public void SetBossPanel(bool state)
 ```csharp
 public void SetBossState()
 ```
+#INC
+
 
 ### SetDescriptionText()
 
 ```csharp
 public void SetDescriptionText()
 ```
+#INC
+
 
 ### SetSclae(float)
 
 ```csharp
 public void SetSclae(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1154,15 +1343,21 @@ public void SetSclae(float factor)
 ```csharp
 private void SetTextureColor()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

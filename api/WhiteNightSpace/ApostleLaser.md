@@ -11,6 +11,8 @@ canonical_path: /api/WhiteNightSpace/ApostleLaser
 ```csharp
 public class ApostleLaser : MonoBehaviour
 ```
+Laser attack. Probably the [Wand Apostle](/api/WhiteNightSpace/WandApostle)'s charge attack?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ApostleLaser
@@ -33,6 +35,8 @@ public ApostleLaser()
 ```csharp
 private WandApostle _aposlte
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private WandApostle _aposlte
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private UnitModel _currentTarget
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _isEnabled
 ```csharp
 public Vector3 endPositionFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Vector3 endPositionFix
 ```csharp
 public SpriteRenderer endSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +116,8 @@ public ApostleLaser.LaserSprite laserSprites
 ```csharp
 public LineRenderer line
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +128,8 @@ public LineRenderer line
 ```csharp
 public SpriteRenderer refSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +140,8 @@ public SpriteRenderer refSpriteRenderer
 ```csharp
 private float spriteElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +152,8 @@ private float spriteElap
 ```csharp
 private int spriteIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +164,8 @@ private int spriteIndex
 ```csharp
 public SpriteRenderer startSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -218,30 +240,40 @@ private Transform StartPos { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### ClearTarget()
 
 ```csharp
 public void ClearTarget()
 ```
+#INC
+
 
 ### InitSprite()
 
 ```csharp
 public void InitSprite()
 ```
+#INC
+
 
 ### ReadyLine()
 
 ```csharp
 public void ReadyLine()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -254,6 +286,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetEnd(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -266,12 +300,16 @@ public void SetEnd(UnitModel target)
 ```csharp
 public void SetLaserSprite()
 ```
+#INC
+
 
 ### SetSprite(int)
 
 ```csharp
 public void SetSprite(int spriteIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +322,8 @@ public void SetSprite(int spriteIndex)
 ```csharp
 public void SetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +336,9 @@ public void SetTarget(UnitModel target)
 ```csharp
 public void SetWandApostle(WandApostle wa)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -308,3 +351,5 @@ public void SetWandApostle(WandApostle wa)
 ```csharp
 private void Update()
 ```
+#INC
+

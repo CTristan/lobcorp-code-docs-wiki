@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/ScaleSetter
 public class ScaleSetter : MonoBehaviour
 ```
 
+Sets the transform of the GameObject this belongs to.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ScaleSetter
 
@@ -33,6 +37,8 @@ public ScaleSetter()
 ```csharp
 public bool fixXsign
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public bool fixXsign
 ```csharp
 private float initialXsign
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private float initialXsign
 ```csharp
 private float oldScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,9 @@ private float oldScale
 ```csharp
 public float scaleFactor
 ```
+#INC
+
+
 
 #### Field Value
 
@@ -75,9 +88,15 @@ public float scaleFactor
 ```csharp
 private void Start()
 ```
+Saves the old transform.localScale.x and transform.lossyScale.x values.
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+If the scaleFactor of this setter is different than the old one, sets oldScale to scaleFactor and changes the transform.localScale of the parent object to be uniformly scaled by scaleFactor.
+
+Then, if the fixXsign flag is set, changes the localScale.x to match the sign of initialXSign. #INC (figure out what any of this means)
+

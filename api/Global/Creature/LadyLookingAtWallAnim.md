@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/LadyLookingAtWallAnim
 public class LadyLookingAtWallAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [The Lady Facing the Wall](/api/Global/Misc/LadyLookingAtWall).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → LadyLookingAtWallAnim
 
@@ -36,6 +40,8 @@ public LadyLookingAtWallAnim()
 ```csharp
 private Camera cam
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private Camera cam
 ```csharp
 public GameObject hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public GameObject hand
 ```csharp
 public Animator handAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public Animator handAnim
 ```csharp
 public Animator horrorAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public Animator horrorAnim
 ```csharp
 public GameObject horrorFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public GameObject horrorFace
 ```csharp
 private const float MaxSize = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ private const float MaxSize = 3
 ```csharp
 private const float MinSize = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ private const float MinSize = 1.5
 ```csharp
 private LadyLookingAtWall script
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +136,8 @@ private LadyLookingAtWall script
 ```csharp
 public float std
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,18 +150,24 @@ public float std
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,12 +180,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +203,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Init(LadyLookingAtWall script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,12 +217,16 @@ public void Init(LadyLookingAtWall script)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,12 +239,16 @@ public void OnCalled(int i)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,3 +261,6 @@ public void SoundMake(string src)
 ```csharp
 public void StartEffect()
 ```
+#INC
+#code-generated
+

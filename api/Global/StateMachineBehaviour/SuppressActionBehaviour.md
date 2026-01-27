@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/SuppressActionBehaviour
 public class SuppressActionBehaviour : StateMachineBehaviour
 ```
 
+Sets SuppressAction to 0 when this state is entered.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → SuppressActionBehaviour
 
@@ -33,6 +38,9 @@ public SuppressActionBehaviour()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

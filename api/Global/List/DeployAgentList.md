@@ -12,6 +12,14 @@ canonical_path: /api/Global/List/DeployAgentList
 public class DeployAgentList : MonoBehaviour, IScrollMessageReciever
 ```
 
+UI element displaying unassigned agents on the deployment screen.
+
+May touch other things... #INC 
+
+(Also, seems they had intended it to be able to sort, though this is not present in the game.)
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeployAgentList
 
@@ -36,6 +44,8 @@ public DeployAgentList()
 ```csharp
 private int _currentLinePos
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +56,8 @@ private int _currentLinePos
 ```csharp
 private PersonalityType _currentPersonality
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +68,8 @@ private PersonalityType _currentPersonality
 ```csharp
 private List<DeployAgentSlot> _disabledList
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +80,8 @@ private List<DeployAgentSlot> _disabledList
 ```csharp
 private const int _minimumScrollLineCount = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +92,8 @@ private const int _minimumScrollLineCount = 4
 ```csharp
 private const int _slotsPerLine = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +104,8 @@ private const int _slotsPerLine = 3
 ```csharp
 private const string _slotSrc = "UIComponent/DeployAgentSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +116,8 @@ private const string _slotSrc = "UIComponent/DeployAgentSlot"
 ```csharp
 public List<AgentModel> agentList
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +128,8 @@ public List<AgentModel> agentList
 ```csharp
 public Button Customizing
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +140,8 @@ public Button Customizing
 ```csharp
 public Text CustomizingText
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +152,8 @@ public Text CustomizingText
 ```csharp
 public RectTransform disableParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +164,8 @@ public RectTransform disableParent
 ```csharp
 private bool enterLeft
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +176,8 @@ private bool enterLeft
 ```csharp
 private bool enterRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +188,8 @@ private bool enterRight
 ```csharp
 public Button HireButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +200,8 @@ public Button HireButton
 ```csharp
 public Text HireText
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +212,8 @@ public Text HireText
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +224,8 @@ public RectTransform listParent
 ```csharp
 public GameObject LowerArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +236,8 @@ public GameObject LowerArrow
 ```csharp
 private List<AgentModel> originalList
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +248,8 @@ private List<AgentModel> originalList
 ```csharp
 public ScaleSetter[] OverlayScaleSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +260,8 @@ public ScaleSetter[] OverlayScaleSetter
 ```csharp
 public ScrollExchanger scroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +272,8 @@ public ScrollExchanger scroll
 ```csharp
 public ScrollRect scrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +284,8 @@ public ScrollRect scrollRect
 ```csharp
 public List<DeployAgentSlot> slotList
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +306,8 @@ public DeployAgentList.AgentSortData sortData
 ```csharp
 public Vector2 Spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +318,8 @@ public Vector2 Spacing
 ```csharp
 public Vector2 UnitSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +330,8 @@ public Vector2 UnitSize
 ```csharp
 public GameObject UpperArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -310,6 +366,8 @@ public int LineUnit { get; }
 ```csharp
 public void AddAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,12 +380,16 @@ public void AddAgent(AgentModel agent)
 ```csharp
 private void CheckArrow()
 ```
+#INC
+
 
 ### DeployAgent(AgentModel)
 
 ```csharp
 public bool DeployAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,6 +406,8 @@ public bool DeployAgent(AgentModel agent)
 ```csharp
 private Dictionary<int, List<AgentModel>> DivByLevel(List<AgentModel> original)
 ```
+#INC
+
 
 #### Parameters
 
@@ -360,6 +424,8 @@ private Dictionary<int, List<AgentModel>> DivByLevel(List<AgentModel> original)
 ```csharp
 private List<AgentModel>[] DivideByValue(List<AgentModel> original)
 ```
+#INC
+
 
 #### Parameters
 
@@ -376,6 +442,8 @@ private List<AgentModel>[] DivideByValue(List<AgentModel> original)
 ```csharp
 private List<AgentModel>[] DivideListByGender(List<AgentModel> original)
 ```
+#INC
+
 
 #### Parameters
 
@@ -392,6 +460,8 @@ private List<AgentModel>[] DivideListByGender(List<AgentModel> original)
 ```csharp
 private DeployAgentSlot GenSlot(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,6 +478,8 @@ private DeployAgentSlot GenSlot(AgentModel agent)
 ```csharp
 private List<AgentModel> GetCopiedList()
 ```
+#INC
+
 
 #### Returns
 
@@ -418,6 +490,8 @@ private List<AgentModel> GetCopiedList()
 ```csharp
 private DeployAgentSlot GetDisabledSlot(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -434,6 +508,8 @@ private DeployAgentSlot GetDisabledSlot(AgentModel agent)
 ```csharp
 private DeployAgentSlot GetSlot(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -450,6 +526,9 @@ private DeployAgentSlot GetSlot(AgentModel agent)
 ```csharp
 public void Init(IList<AgentModel> spareAgents)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -462,12 +541,16 @@ public void Init(IList<AgentModel> spareAgents)
 ```csharp
 private void InitArrow()
 ```
+#INC
+
 
 ### LifeStyleFix(bool)
 
 ```csharp
 private void LifeStyleFix(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -480,18 +563,24 @@ private void LifeStyleFix(bool state)
 ```csharp
 private void ListInit()
 ```
+#INC
+
 
 ### ListSort()
 
 ```csharp
 public void ListSort()
 ```
+#INC
+
 
 ### MainSort()
 
 ```csharp
 private List<AgentModel> MainSort()
 ```
+#INC
+
 
 #### Returns
 
@@ -502,36 +591,48 @@ private List<AgentModel> MainSort()
 ```csharp
 public void MoveLower()
 ```
+#INC
+
 
 ### MoveUpper()
 
 ```csharp
 public void MoveUpper()
 ```
+#INC
+
 
 ### OnClickGenderSort()
 
 ```csharp
 public void OnClickGenderSort()
 ```
+#INC
+
 
 ### OnClickLevelSort()
 
 ```csharp
 public void OnClickLevelSort()
 ```
+#INC
+
 
 ### OnClickValueSort()
 
 ```csharp
 public void OnClickValueSort()
 ```
+#INC
+
 
 ### OnEnterButton(int)
 
 ```csharp
 public void OnEnterButton(int buttonIndexer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -544,6 +645,8 @@ public void OnEnterButton(int buttonIndexer)
 ```csharp
 public void OnExitButton(int buttonIndexer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -556,6 +659,8 @@ public void OnExitButton(int buttonIndexer)
 ```csharp
 public void OnPointerDown(int button)
 ```
+#INC
+
 
 #### Parameters
 
@@ -568,6 +673,8 @@ public void OnPointerDown(int button)
 ```csharp
 public void OnPointerUp(int button)
 ```
+#INC
+
 
 #### Parameters
 
@@ -580,6 +687,8 @@ public void OnPointerUp(int button)
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -592,6 +701,8 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 public void OnScrolled(PointerEventData pData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -604,6 +715,8 @@ public void OnScrolled(PointerEventData pData)
 ```csharp
 public void OnScrolled(Vector2 scrollDelta)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,6 +729,8 @@ public void OnScrolled(Vector2 scrollDelta)
 ```csharp
 public void OnSortClick(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -628,6 +743,8 @@ public void OnSortClick(int index)
 ```csharp
 public void OnSortEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -640,24 +757,32 @@ public void OnSortEnter(int index)
 ```csharp
 private void SetList()
 ```
+#INC
+
 
 ### SetSortUI()
 
 ```csharp
 private void SetSortUI()
 ```
+#INC
+
 
 ### SetSortUIColor()
 
 ```csharp
 private void SetSortUIColor()
 ```
+#INC
+
 
 ### SortByLevel(List<AgentModel>, bool)
 
 ```csharp
 private List<AgentModel> SortByLevel(List<AgentModel> sorted, bool isAscending)
 ```
+#INC
+
 
 #### Parameters
 
@@ -675,9 +800,13 @@ private List<AgentModel> SortByLevel(List<AgentModel> sorted, bool isAscending)
 ```csharp
 private void SortInverse()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

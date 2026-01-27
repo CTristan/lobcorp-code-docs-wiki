@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/LittleWitchBuf
 public class LittleWitchBuf : UnitBuf
 ```
 
+Buff for [Laetitia](/api/Global/Misc/LittleWitch)'s gift; starts a timer when this agent is assigned to someone else, and turns them into [Little Witch's Friend](/api/Global/Misc/LittleWitchMonster) if it isn't canceled.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → LittleWitchBuf
 
@@ -25,6 +30,8 @@ public class LittleWitchBuf : UnitBuf
 ```csharp
 public LittleWitchBuf(LittleWitch witch)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public LittleWitchBuf(LittleWitch witch)
 ```csharp
 private Timer _activateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private Timer _activateTimer
 ```csharp
 private const float _max = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private const float _max = 10
 ```csharp
 private const float _min = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private const float _min = 5
 ```csharp
 private LittleWitch _witch
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private LittleWitch _witch
 ```csharp
 private const string animParam = "Speed"
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private const string animParam = "Speed"
 ```csharp
 private static Vector2 bodyPosFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ private static Vector2 bodyPosFix
 ```csharp
 private Sprite brokenSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +130,8 @@ private Sprite brokenSprite
 ```csharp
 private const string BrokenSrc = "Sprites/CreatureSprite/LittleWitch/HeartBroken"
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +142,8 @@ private const string BrokenSrc = "Sprites/CreatureSprite/LittleWitch/HeartBroken
 ```csharp
 private GameObject Effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +154,8 @@ private GameObject Effect
 ```csharp
 private Animator EffectAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +166,8 @@ private Animator EffectAnimator
 ```csharp
 private const string EffectSrc = "Effect/Creature/LittleWitch/LittleWitch_BufEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +178,8 @@ private const string EffectSrc = "Effect/Creature/LittleWitch/LittleWitch_BufEff
 ```csharp
 private const float multiplier = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +190,8 @@ private const float multiplier = 2
 ```csharp
 private const string NormalSrc = "Sprites/CreatureSprite/LittleWitch/HeartNormal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +202,8 @@ private const string NormalSrc = "Sprites/CreatureSprite/LittleWitch/HeartNormal
 ```csharp
 private Sprite originalSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +214,8 @@ private Sprite originalSprite
 ```csharp
 private const float startFreq = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,18 +240,25 @@ private AgentModel Agent { get; }
 ```csharp
 private void BreakHeart()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -227,9 +271,13 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### ResetHeart()
 
 ```csharp
 private void ResetHeart()
 ```
+#INC
+

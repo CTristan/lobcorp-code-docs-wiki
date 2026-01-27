@@ -36,6 +36,8 @@ public AgentSpriteChanger()
 ```csharp
 private SpriteChangeData _leftData
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private SpriteChangeData _leftData
 ```csharp
 private SpriteChangeData _weaponData
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private SpriteChangeData _weaponData
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public Animator animator
 ```csharp
 public List<SpriteChangeData> basic
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public List<SpriteChangeData> basic
 ```csharp
 public List<SpriteChangeData> clothes
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public List<SpriteChangeData> clothes
 ```csharp
 public Sprite CurrentWeapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ public Sprite CurrentWeapon
 ```csharp
 public SpriteChangeData dummy
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ public SpriteChangeData dummy
 ```csharp
 private bool fixMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ private bool fixMove
 ```csharp
 public SpriteChangeData move
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public SpriteChangeData move
 ```csharp
 private SpriteChangeData newData
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ private SpriteChangeData newData
 ```csharp
 public Vector2 positionFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ public Vector2 positionFix
 ```csharp
 public bool repack
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ public bool repack
 ```csharp
 public Shader repackedShader
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public Shader repackedShader
 ```csharp
 private Vector2 rifleCatch
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ private Vector2 rifleCatch
 ```csharp
 public float rotationFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +227,8 @@ public Texture2D runtimeAtlas
 ```csharp
 public Material runtimeMaterial
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +239,8 @@ public Material runtimeMaterial
 ```csharp
 public SkeletonAnimator skeletonAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +251,8 @@ public SkeletonAnimator skeletonAnimator
 ```csharp
 private Vector2 weaponCatch
 ```
+#INC
+
 
 #### Field Value
 
@@ -229,6 +265,8 @@ private Vector2 weaponCatch
 ```csharp
 public void Apply(List<SpriteChangeData> list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,6 +279,8 @@ public void Apply(List<SpriteChangeData> list)
 ```csharp
 public void Apply(SpriteChangeData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,6 +293,8 @@ public void Apply(SpriteChangeData data)
 ```csharp
 public void Apply(SpriteChangeData data, bool set)
 ```
+#INC
+
 
 #### Parameters
 
@@ -266,12 +308,16 @@ public void Apply(SpriteChangeData data, bool set)
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### ChangeSpineData(Skeleton, Skin, SpriteChangeData)
 
 ```csharp
 public void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpriteChangeData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -286,6 +332,8 @@ public void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpriteChangeData da
 ```csharp
 public void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpriteChangeData data, bool set)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,6 +349,8 @@ public void ChangeSpineData(Skeleton skeleton, Skin newSkin, SpriteChangeData da
 ```csharp
 public void ClothesSetting(AtlasLoadData atlas)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,6 +363,8 @@ public void ClothesSetting(AtlasLoadData atlas)
 ```csharp
 public void LeftWeaponSetting(Sprite weaponSprite, string slot, string attach)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,18 +379,25 @@ public void LeftWeaponSetting(Sprite weaponSprite, string slot, string attach)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### WeaponSetting(Sprite, string, string)
 
 ```csharp
 public void WeaponSetting(Sprite weaponSprite, string slot, string attach)
 ```
+#INC
+
 
 #### Parameters
 

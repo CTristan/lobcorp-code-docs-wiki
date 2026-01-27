@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/CreatureSpecialSkill
 public class CreatureSpecialSkill : IObserver
 ```
 
+Seems to be used for Red Shoes and Singing Machine's possessions, and maybe literally nothing else. But it shows up all over the place because Red Shoes is strange.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSpecialSkill
 
@@ -31,12 +36,17 @@ public class CreatureSpecialSkill : IObserver
 ```csharp
 public CreatureSpecialSkill()
 ```
+#INC
+#code-generated
+
 
 ### CreatureSpecialSkill(CreatureModel)
 
 ```csharp
 public CreatureSpecialSkill(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +61,8 @@ public CreatureSpecialSkill(CreatureModel model)
 ```csharp
 public bool Activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +73,8 @@ public bool Activated
 ```csharp
 public CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +85,8 @@ public CreatureModel model
 ```csharp
 public Sefira sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,24 +99,32 @@ public Sefira sefira
 ```csharp
 public virtual void Activate()
 ```
+#INC
+
 
 ### DeActivate()
 
 ```csharp
 public virtual void DeActivate()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,30 +138,40 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public virtual void OnObserveLevelChanged()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public virtual void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public virtual void OnStageStart()
 ```
+#INC
+
 
 ### SkillActivate()
 
 ```csharp
 public virtual void SkillActivate()
 ```
+#INC
+
 
 ### SkillActivate(WorkerModel)
 
 ```csharp
 public virtual void SkillActivate(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/HireReinforcementTutorial
 public class HireReinforcementTutorial : Tutorial
 ```
 
+Ends when an agent has the appropriate stat fortified. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → HireReinforcementTutorial
 
@@ -33,6 +36,8 @@ public HireReinforcementTutorial()
 ```csharp
 public RwbpType targetStat
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public RwbpType targetStat
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

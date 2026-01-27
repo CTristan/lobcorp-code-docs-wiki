@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/RabbitSquadDataList
 ```csharp
 public class RabbitSquadDataList
 ```
+Holds the [RabbitSquadData](/api/Global/Misc/RabbitSquadData) for each operation area.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitSquadDataList
@@ -33,6 +37,8 @@ public RabbitSquadDataList()
 ```csharp
 private Dictionary<int, RabbitSquadData> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private Dictionary<int, RabbitSquadData> _dic
 ```csharp
 private Dictionary<SefiraEnum, RabbitSquadData> _dicSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private Dictionary<SefiraEnum, RabbitSquadData> _dicSefira
 ```csharp
 private static RabbitSquadDataList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private static RabbitSquadDataList _instance
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +109,8 @@ public bool loaded { get; }
 ```csharp
 public RabbitSquadData GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +127,8 @@ public RabbitSquadData GetData(int id)
 ```csharp
 public RabbitSquadData GetData(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +145,9 @@ public RabbitSquadData GetData(SefiraEnum sefira)
 ```csharp
 public void Init(Dictionary<int, RabbitSquadData> dic, Dictionary<SefiraEnum, RabbitSquadData> dicSefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

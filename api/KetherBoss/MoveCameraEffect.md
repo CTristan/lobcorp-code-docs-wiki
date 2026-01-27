@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/MoveCameraEffect
 ```csharp
 public class MoveCameraEffect : KetherLastEffectBase
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → MoveCameraEffect
@@ -25,6 +27,8 @@ public class MoveCameraEffect : KetherLastEffectBase
 ```csharp
 public MoveCameraEffect(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public MoveCameraEffect(KetherLastBossBase bossBase)
 ```csharp
 private GameObject _cameraAttached
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private GameObject _cameraAttached
 ```csharp
 private float _cameraYStd
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private float _cameraYStd
 ```csharp
 private Timer _speedMultiplyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private Timer _speedMultiplyTimer
 ```csharp
 private const string particleSrc = "Effect/SefiraBoss/Kether/CameraConcentration"
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private const string particleSrc = "Effect/SefiraBoss/Kether/CameraConcentration
 ```csharp
 private MinMax speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private MinMax speed
 ```csharp
 private bool startMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,21 +117,30 @@ private bool startMoving
 ```csharp
 private void LoadParticle()
 ```
+#INC
+
 
 ### OnArrived()
 
 ```csharp
 public void OnArrived()
 ```
+#INC
+
 
 ### StartEffect()
 
 ```csharp
 public void StartEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+#code-generated
+

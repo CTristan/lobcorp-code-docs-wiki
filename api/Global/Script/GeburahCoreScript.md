@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/GeburahCoreScript
 public class GeburahCoreScript : CreatureBase
 ```
 
+extends [CreatureBase](/api/Global/Creature/CreatureBase)
+
+The Red Mist. [Geburah's core suppression](/api/Global/Misc/GeburahBossBase) ends when she is defeated. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → GeburahCoreScript
 
@@ -33,6 +38,8 @@ public GeburahCoreScript()
 ```csharp
 private Queue<GeburahAction> _actionQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Queue<GeburahAction> _actionQueue
 ```csharp
 private GeburahActionMethod _attackEndInvoked
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private GeburahActionMethod _attackEndInvoked
 ```csharp
 private MinMax _bloodyTreeFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private MinMax _bloodyTreeFreq
 ```csharp
 private Timer _bloodyTreeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _bloodyTreeTimer
 ```csharp
 private GeburahAction _currentAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private GeburahAction _currentAction
 ```csharp
 private GeburahActionMethod _damageInvoked
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private GeburahActionMethod _damageInvoked
 ```csharp
 private GeburahEventCalled _eventCalledInvoked
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private GeburahEventCalled _eventCalledInvoked
 ```csharp
 private bool _isInvincible
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private bool _isInvincible
 ```csharp
 private GeburahPhase _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private GeburahPhase _phase
 ```csharp
 private GeburahPhaseExectuion _phaseExecution
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private GeburahPhaseExectuion _phaseExecution
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private Timer _recoverTimer
 ```csharp
 private GeburahBossBase bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public GeburahCoreScript.DamageCalculator damageCalculator
 ```csharp
 private const float defaultSpeed = 4.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const float defaultSpeed = 4.8
 ```csharp
 public const string GeburahKillEffect = "Effect/SefiraBoss/GeburahProjectile/GeburahKill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public const string GeburahKillEffect = "Effect/SefiraBoss/GeburahProjectile/Geb
 ```csharp
 public const string GeburahProjectileFolder = "Effect/SefiraBoss/GeburahProjectile/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ public const string GeburahProjectileFolder = "Effect/SefiraBoss/GeburahProjecti
 ```csharp
 public const string GeburahProjectileSrc = "Effect/SefiraBoss/GeburahProjectile/GeburahProjectile"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ public const string GeburahProjectileSrc = "Effect/SefiraBoss/GeburahProjectile/
 ```csharp
 public const string SpawnSrc = "GeburahSpawn"
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +306,8 @@ public GeburahPhase Phase { get; }
 ```csharp
 public bool AttachProjectile(GeburahProjectile proj, string projectileName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +325,8 @@ public bool AttachProjectile(GeburahProjectile proj, string projectileName)
 ```csharp
 public bool CanStartBloodyTree()
 ```
+#INC
+
 
 #### Returns
 
@@ -294,6 +337,8 @@ public bool CanStartBloodyTree()
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,36 +356,48 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public void ClearActionQueue()
 ```
+#INC
+
 
 ### ClearAttackEndInvoked()
 
 ```csharp
 public void ClearAttackEndInvoked()
 ```
+#INC
+
 
 ### ClearDamageFillEvent()
 
 ```csharp
 public void ClearDamageFillEvent()
 ```
+#INC
+
 
 ### ClearDamageInvoked()
 
 ```csharp
 public void ClearDamageInvoked()
 ```
+#INC
+
 
 ### ClearEventInvoked()
 
 ```csharp
 public void ClearEventInvoked()
 ```
+#INC
+
 
 ### EnqeueAction(GeburahAction)
 
 ```csharp
 public void EnqeueAction(GeburahAction action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,6 +410,8 @@ public void EnqeueAction(GeburahAction action)
 ```csharp
 public void GeburahGiveDamage(UnitModel target, DamageInfo damage, bool maunualgutMake = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +426,8 @@ public void GeburahGiveDamage(UnitModel target, DamageInfo damage, bool maunualg
 ```csharp
 public bool GenProjectile(Transform pivot, ProjectileType type, out GeburahProjectile output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -385,6 +446,8 @@ public bool GenProjectile(Transform pivot, ProjectileType type, out GeburahProje
 ```csharp
 public Sefira GetCurrentStandingSefira()
 ```
+#INC
+
 
 #### Returns
 
@@ -395,6 +458,8 @@ public Sefira GetCurrentStandingSefira()
 ```csharp
 public override float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -412,6 +477,8 @@ public override float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```csharp
 public List<DamageInfo> GetDamageInfo(int attackType, int indexer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -429,6 +496,8 @@ public List<DamageInfo> GetDamageInfo(int attackType, int indexer)
 ```csharp
 public UnitDirection GetDirectionWithTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -445,6 +514,8 @@ public UnitDirection GetDirectionWithTarget(UnitModel target)
 ```csharp
 public override string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -455,6 +526,8 @@ public override string GetName()
 ```csharp
 public List<UnitModel> GetNearUnits()
 ```
+#INC
+
 
 #### Returns
 
@@ -465,6 +538,8 @@ public List<UnitModel> GetNearUnits()
 ```csharp
 public GeburahAction GetNextAction()
 ```
+#INC
+
 
 #### Returns
 
@@ -475,6 +550,8 @@ public GeburahAction GetNextAction()
 ```csharp
 private string GetProjectileName(ProjectileType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,6 +568,8 @@ private string GetProjectileName(ProjectileType type)
 ```csharp
 public Sefira GetRandomMoveSefira(Sefira removeSefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -507,6 +586,8 @@ public Sefira GetRandomMoveSefira(Sefira removeSefira)
 ```csharp
 public List<UnitModel> GetRangedTargets(List<UnitModel> near, float front, float rear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -525,12 +606,16 @@ public List<UnitModel> GetRangedTargets(List<UnitModel> near, float front, float
 ```csharp
 public void InterruptCurrentAction()
 ```
+#INC
+
 
 ### IsInRange(UnitModel, float)
 
 ```csharp
 public bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,6 +633,8 @@ public bool IsInRange(UnitModel target, float range)
 ```csharp
 public static void Log(string log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -560,6 +647,8 @@ public static void Log(string log)
 ```csharp
 public void LookTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -572,6 +661,8 @@ public void LookTarget(UnitModel target)
 ```csharp
 public void MakeBattleDesc(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -584,6 +675,8 @@ public void MakeBattleDesc(int index)
 ```csharp
 public void MakeBattleDesc(params int[] index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,6 +689,8 @@ public void MakeBattleDesc(params int[] index)
 ```csharp
 public void MakeBloodyTree(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -608,6 +703,8 @@ public void MakeBloodyTree(WorkerModel target)
 ```csharp
 public void MakeSlash(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -620,6 +717,8 @@ public void MakeSlash(UnitModel target)
 ```csharp
 public override SoundEffectPlayer MakeSound(string soundSrc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -636,6 +735,8 @@ public override SoundEffectPlayer MakeSound(string soundSrc)
 ```csharp
 public GeburahTeleport MakeTeleprot()
 ```
+#INC
+
 
 #### Returns
 
@@ -646,6 +747,8 @@ public GeburahTeleport MakeTeleprot()
 ```csharp
 public void MimicriNearDamage(Vector3 end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -658,12 +761,16 @@ public void MimicriNearDamage(Vector3 end)
 ```csharp
 public void MoveToNextPhase()
 ```
+#INC
+
 
 ### OnAnimEventCalled(int)
 
 ```csharp
 public void OnAnimEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -676,18 +783,24 @@ public void OnAnimEventCalled(int i)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamage()
 
 ```csharp
 public void OnDamage()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -700,6 +813,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnKillWokrer(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -712,6 +827,8 @@ public void OnKillWokrer(WorkerModel target)
 ```csharp
 public void OnMakeGut(WorkerModel target, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -725,6 +842,8 @@ public void OnMakeGut(WorkerModel target, UnitDirection dir)
 ```csharp
 public void OnProjectileGiveDamage(UnitModel target, GeburahProjectile proj)
 ```
+#INC
+
 
 #### Parameters
 
@@ -738,24 +857,32 @@ public void OnProjectileGiveDamage(UnitModel target, GeburahProjectile proj)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnStartBloodyTreeTimer()
 
 ```csharp
 public void OnStartBloodyTreeTimer()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -770,6 +897,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -782,6 +912,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void SetAttackEndInvoked(GeburahActionMethod actionMethod)
 ```
+#INC
+
 
 #### Parameters
 
@@ -794,6 +926,8 @@ public void SetAttackEndInvoked(GeburahActionMethod actionMethod)
 ```csharp
 public void SetBossBase(GeburahBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -806,6 +940,8 @@ public void SetBossBase(GeburahBossBase bossBase)
 ```csharp
 public void SetDamageFillEvent(GeburahActionMethod actionMethod)
 ```
+#INC
+
 
 #### Parameters
 
@@ -818,6 +954,8 @@ public void SetDamageFillEvent(GeburahActionMethod actionMethod)
 ```csharp
 public void SetDamageInvoked(GeburahActionMethod actionMethod)
 ```
+#INC
+
 
 #### Parameters
 
@@ -830,6 +968,8 @@ public void SetDamageInvoked(GeburahActionMethod actionMethod)
 ```csharp
 public void SetEventCalledInvoked(GeburahEventCalled actionMethod)
 ```
+#INC
+
 
 #### Parameters
 
@@ -842,6 +982,8 @@ public void SetEventCalledInvoked(GeburahEventCalled actionMethod)
 ```csharp
 public void SetPhase(GeburahPhase phase)
 ```
+#INC
+
 
 #### Parameters
 

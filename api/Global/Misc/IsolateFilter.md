@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/IsolateFilter
 public class IsolateFilter : MonoBehaviour
 ```
 
+A filter displayed over a [room](/api/Global/IOBserver/IsolateRoom).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateFilter
 
@@ -33,6 +38,8 @@ public IsolateFilter()
 ```csharp
 public bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public bool _activated
 ```csharp
 private Sprite _renderSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Sprite _renderSprite
 ```csharp
 public bool hasSpecialAnimKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +85,8 @@ public List<IsolateFilter> higherDisplayed
 ```csharp
 public string specialAnimKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ public string specialAnimKey
 ```csharp
 public IsolateFilterType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +174,8 @@ public SpriteRenderer spriteRenderer { get; }
 ```csharp
 public void AddHigherFilter(params IsolateFilter[] filter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +188,9 @@ public void AddHigherFilter(params IsolateFilter[] filter)
 ```csharp
 public bool canDisplayed()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -181,6 +201,8 @@ public bool canDisplayed()
 ```csharp
 public string GetAnimKey()
 ```
+#INC
+
 
 #### Returns
 
@@ -191,6 +213,8 @@ public string GetAnimKey()
 ```csharp
 public void SetAnimValue(bool value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,9 +227,13 @@ public void SetAnimValue(bool value)
 ```csharp
 public void SetAnimValueToFalse()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+

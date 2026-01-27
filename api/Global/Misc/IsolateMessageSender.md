@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/IsolateMessageSender
 public class IsolateMessageSender : MonoBehaviour
 ```
 
+Not sure. Used for ticking the PE box thing, though?
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateMessageSender
 
@@ -33,6 +37,8 @@ public IsolateMessageSender()
 ```csharp
 public UnityEvent _event
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,15 +51,22 @@ public UnityEvent _event
 ```csharp
 public void InvokeMessage()
 ```
+#INC
+#code-generated
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

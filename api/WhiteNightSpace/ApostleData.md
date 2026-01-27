@@ -11,6 +11,9 @@ canonical_path: /api/WhiteNightSpace/ApostleData
 ```csharp
 public class ApostleData
 ```
+structure for apostle data (including stuff gotten from the old agent)
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleData
@@ -25,6 +28,9 @@ public class ApostleData
 ```csharp
 public ApostleData(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -37,6 +43,8 @@ public ApostleData(AgentModel agent)
 ```csharp
 public ApostleData(Dictionary<string, object> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +59,8 @@ public ApostleData(Dictionary<string, object> data)
 ```csharp
 public WorkerSpriteSaveData.ColorData hairColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +71,8 @@ public WorkerSpriteSaveData.ColorData hairColor
 ```csharp
 public WorkerSpriteSaveData.Pair hairData
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +83,8 @@ public WorkerSpriteSaveData.Pair hairData
 ```csharp
 public long instId
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,6 +95,8 @@ public long instId
 ```csharp
 public string Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,6 +107,8 @@ public string Name
 ```csharp
 public int NameId
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public int NameId
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 

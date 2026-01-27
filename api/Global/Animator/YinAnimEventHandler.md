@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/YinAnimEventHandler
 public class YinAnimEventHandler : AnimatorEventHandler
 ```
 
+Handles some events with [Yin's animation handler](/api/Global/Creature/YinAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → YinAnimEventHandler
 
@@ -55,12 +60,16 @@ private AnimatorEventHandler.EventDelegate _endRevivalEvent
 ```csharp
 public void AttackLaser()
 ```
+#INC
+
 
 ### EndRevival()
 
 ```csharp
 public void EndRevival()
 ```
+#INC
+
 
 ### SetAttackEvent(EventDelegate)
 

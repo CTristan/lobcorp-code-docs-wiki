@@ -11,6 +11,11 @@ canonical_path: /api/Global/Action/OfficerSpecialAction
 ```csharp
 public class OfficerSpecialAction
 ```
+Not used.
+
+Holds information for a [clerk](/api/Global/Worker/OfficerUnit) to move around.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OfficerSpecialAction
@@ -25,6 +30,8 @@ public class OfficerSpecialAction
 ```csharp
 public OfficerSpecialAction(int id, string nodeid, int animVal, string animParam)
 ```
+Creates a new clerk action with the given parameters.
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public OfficerSpecialAction(int id, string nodeid, int animVal, string animParam
 ```csharp
 public string animParam
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +61,8 @@ public string animParam
 ```csharp
 public int animVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +73,8 @@ public int animVal
 ```csharp
 private MapNode excutedPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +85,8 @@ private MapNode excutedPos
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +97,8 @@ public int id
 ```csharp
 public string nodeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +119,8 @@ public List<OfficerSpecialAction.PosData> posData
 ```csharp
 public bool shouldMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public bool shouldMove
 ```csharp
 public MapNode GetNode()
 ```
+Gets the target node of this action and sets the position data to its position.
+
 
 #### Returns
 

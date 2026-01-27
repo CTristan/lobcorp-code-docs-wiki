@@ -12,6 +12,10 @@ canonical_path: /api/Global/Script/MenuScript
 public class MenuScript : MonoBehaviour
 ```
 
+Legacy version of a menu, I think.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MenuScript
 
@@ -36,6 +40,8 @@ public MenuScript()
 ```csharp
 public int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public int currentIndex
 ```csharp
 public bool EnableOverlayPrevView
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public bool EnableOverlayPrevView
 ```csharp
 public Menu[] menus
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +89,8 @@ public Menu selected
 ```csharp
 public virtual int GetCurrentSelectedIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -89,6 +101,8 @@ public virtual int GetCurrentSelectedIndex()
 ```csharp
 public virtual Menu GetMenu(Button target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +119,8 @@ public virtual Menu GetMenu(Button target)
 ```csharp
 public virtual RectTransform GetSelectedRect()
 ```
+#INC
+
 
 #### Returns
 
@@ -115,6 +131,8 @@ public virtual RectTransform GetSelectedRect()
 ```csharp
 public virtual void OnClick(Button target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,6 +145,8 @@ public virtual void OnClick(Button target)
 ```csharp
 public virtual void OnOverlayEnter(Button target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,6 +159,8 @@ public virtual void OnOverlayEnter(Button target)
 ```csharp
 public virtual void OnOverlayExit(Button target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,12 +173,16 @@ public virtual void OnOverlayExit(Button target)
 ```csharp
 public virtual void SelectMenu()
 ```
+#INC
+
 
 ### SelectMenu(int)
 
 ```csharp
 public virtual void SelectMenu(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,3 +195,6 @@ public virtual void SelectMenu(int index)
 ```csharp
 public virtual void Start()
 ```
+#INC
+#code-generated
+

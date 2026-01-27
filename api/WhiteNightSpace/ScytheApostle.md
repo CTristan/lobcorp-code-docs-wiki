@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/ScytheApostle
 public class ScytheApostle : DeathAngelApostle
 ```
 
+Scythe apostle.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [DeathAngelApostle](/api/WhiteNightSpace/DeathAngelApostle) → ScytheApostle
 
@@ -33,6 +36,8 @@ public ScytheApostle()
 ```csharp
 private int _attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int _attackType
 ```csharp
 private bool _checkCurrentInstantKill
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _checkCurrentInstantKill
 ```csharp
 private WorkerModel _currentInstantKillTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private WorkerModel _currentInstantKillTarget
 ```csharp
 private static DamageInfo _defaultAttack_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private static DamageInfo _defaultAttack_1
 ```csharp
 private static DamageInfo _defaultAttack_1_guard
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private static DamageInfo _defaultAttack_1_guard
 ```csharp
 private static DamageInfo _defaultAttack_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private static DamageInfo _defaultAttack_2
 ```csharp
 private static DamageInfo _defaultAttack_2_guard
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private static DamageInfo _defaultAttack_2_guard
 ```csharp
 private MinMax _instantKillFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private MinMax _instantKillFreq
 ```csharp
 private static float _instantKillProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private static float _instantKillProb
 ```csharp
 private Timer _instantKillTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private Timer _instantKillTimer
 ```csharp
 private static float attackRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,12 +182,16 @@ private ScytheApostleAnim ScytheAnim { get; }
 ```csharp
 public void CastInstantKill()
 ```
+#INC
+
 
 ### CheckInstantKill(bool)
 
 ```csharp
 public void CheckInstantKill(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,60 +204,81 @@ public void CheckInstantKill(bool state)
 ```csharp
 public override void ClearParams()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### Execution()
 
 ```csharp
 public override void Execution()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public override void GiveDamage()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCastInstantKill()
 
 ```csharp
 public void OnCastInstantKill()
 ```
+#INC
+
 
 ### OnCheckInstantState()
 
 ```csharp
 public void OnCheckInstantState()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnPrevSupressed()
 
 ```csharp
 public override void OnPrevSupressed()
 ```
+#INC
+
 
 ### OnStartAttack(UnitModel)
 
 ```csharp
 public void OnStartAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,6 +291,8 @@ public void OnStartAttack(UnitModel target)
 ```csharp
 public void OnStartInstantKill(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,3 +305,5 @@ public void OnStartInstantKill(WorkerModel target)
 ```csharp
 public override void Resurrect()
 ```
+#INC
+

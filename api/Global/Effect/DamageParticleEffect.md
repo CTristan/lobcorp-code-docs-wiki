@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/DamageParticleEffect
 public class DamageParticleEffect : EffectInvoker
 ```
 
+Particle that shows up on hit, sometimes (NOT to be confused with [DamageEffect](/api/Global/Effect/DamageEffect), which displays damage type and amount).
+
+Has different particles for each damage type.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [EffectInvoker](/api/Global/Effect/EffectInvoker) → DamageParticleEffect
 
@@ -33,6 +38,8 @@ public DamageParticleEffect()
 ```csharp
 public List<GameObject> BTypeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +61,8 @@ public GameObject ParticleSlot
 ```csharp
 public List<GameObject> PTypeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ public List<GameObject> PTypeParticle
 ```csharp
 public List<GameObject> RTypeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +85,8 @@ public List<GameObject> RTypeParticle
 ```csharp
 public const string src = "DamageParticle/DamageParticleParent"
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ public const string src = "DamageParticle/DamageParticleParent"
 ```csharp
 public float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ public float time
 ```csharp
 public List<GameObject> WTypeParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public List<GameObject> WTypeParticle
 ```csharp
 public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, DefenseInfo defense)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,6 +143,8 @@ public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, Defe
 ```csharp
 public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, DefenseInfo defense, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +164,8 @@ public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, Defe
 ```csharp
 public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, float defense, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,6 +185,8 @@ public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, floa
 ```csharp
 public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -180,6 +205,8 @@ public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, int 
 ```csharp
 public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,6 +225,8 @@ public static DamageParticleEffect Invoker(UnitModel target, RwbpType type, Unit
 ```csharp
 public static DamageParticleEffect Invoker_Weak(UnitModel target, RwbpType type, UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,6 +245,9 @@ public static DamageParticleEffect Invoker_Weak(UnitModel target, RwbpType type,
 ```csharp
 public static DamageParticleEffect LoadDefaultPrefab(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

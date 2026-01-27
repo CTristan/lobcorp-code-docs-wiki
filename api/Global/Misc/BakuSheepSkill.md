@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/BakuSheepSkill
 ```csharp
 public class BakuSheepSkill : MonoBehaviour
 ```
+[Void Dream](/api/Global/Misc/Baku)'s sleep attack.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BakuSheepSkill
@@ -33,6 +35,8 @@ public BakuSheepSkill()
 ```csharp
 private const string _sound_ball = "ball"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private const string _sound_ball = "ball"
 ```csharp
 private const float _speed = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private const float _speed = 3
 ```csharp
 public Transform effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Transform effect
 ```csharp
 private bool isActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private bool isActive
 ```csharp
 private Vector3 moveDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +107,8 @@ private CreatureModel Model { get; }
 ```csharp
 public Baku script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -107,12 +121,17 @@ public Baku script { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckUnit(UnitModel)
 
 ```csharp
 private void CheckUnit(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +144,8 @@ private void CheckUnit(UnitModel unit)
 ```csharp
 public void CollisionCheck(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,15 +158,21 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 public void Disable()
 ```
+#INC
+
 
 ### Enable()
 
 ```csharp
 public void Enable()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RestrictionTable
 ```csharp
 public class RestrictionTable
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RestrictionTable
@@ -33,6 +35,8 @@ public RestrictionTable()
 ```csharp
 private static RestrictionTable _instance
 ```
+
+
 
 #### Field Value
 

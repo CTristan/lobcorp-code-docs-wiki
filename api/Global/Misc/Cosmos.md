@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Cosmos
 public class Cosmos : CreatureBase
 ```
 
+Fragment of the Universe.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Cosmos
 
@@ -33,6 +36,8 @@ public Cosmos()
 ```csharp
 private CosmosAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CosmosAnim anim
 ```csharp
 private const float castingDelayTime = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float castingDelayTime = 15
 ```csharp
 private Timer castingDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer castingDelayTimer
 ```csharp
 private Timer castingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Timer castingTimer
 ```csharp
 private const float castTime = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float castTime = 6
 ```csharp
 private List<UnitModel> damagedUnitList
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private List<UnitModel> damagedUnitList
 ```csharp
 private GameObject effectObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private GameObject effectObject
 ```csharp
 private SoundEffectPlayer singSoundPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private SoundEffectPlayer singSoundPlayer
 ```csharp
 private RwbpType skillDamageType
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private RwbpType skillDamageType
 ```csharp
 private const string skillEffect = "Effect/Creature/Cosmos/CosmosSkillEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const string skillEffect = "Effect/Creature/Cosmos/CosmosSkillEffect"
 ```csharp
 private const float skillMentalDamageDelayTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float skillMentalDamageDelayTime = 2
 ```csharp
 private Timer skillMentalDamageDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private Timer skillMentalDamageDelayTimer
 ```csharp
 private const int skillMentalDamageMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const int skillMentalDamageMax = 4
 ```csharp
 private const int skillMentalDamageMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const int skillMentalDamageMin = 2
 ```csharp
 private const float soundTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const float soundTime = 20
 ```csharp
 private Timer soundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private Timer soundTimer
 ```csharp
 private const float waitTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private const float waitTime = 3
 ```csharp
 private Timer waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,24 +266,32 @@ private static int skillMentalDamage { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FinishCast()
 
 ```csharp
 private void FinishCast()
 ```
+#INC
+
 
 ### GetNearTargetUnit()
 
 ```csharp
 private UnitModel GetNearTargetUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -255,18 +302,24 @@ private UnitModel GetNearTargetUnit()
 ```csharp
 private void GiveMentalDamage()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +332,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,12 +346,17 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,30 +369,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -345,6 +415,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -357,15 +429,21 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 private void ResetValues()
 ```
+#INC
+
 
 ### StartCast()
 
 ```csharp
 private void StartCast()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

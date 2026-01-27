@@ -11,6 +11,9 @@ canonical_path: /api/Global/Camera/Mover/CameraMover
 ```csharp
 public class CameraMover : MonoBehaviour
 ```
+Thing which controls camera movement; seems to include both automatic movement and player movement.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CameraMover
@@ -33,6 +36,8 @@ public CameraMover()
 ```csharp
 private int _currentRangeLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int _currentRangeLevel
 ```csharp
 private static CameraMover _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private static CameraMover _instance
 ```csharp
 private float _kether_ortho_inv
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float _kether_ortho_inv
 ```csharp
 private float _kether_ortho_min
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private float _kether_ortho_min
 ```csharp
 private MinMax _kether_x
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private MinMax _kether_x
 ```csharp
 private MinMax _kether_y_max
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private MinMax _kether_y_max
 ```csharp
 private MinMax _kether_y_min
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private MinMax _kether_y_min
 ```csharp
 private bool _movable
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private bool _movable
 ```csharp
 private IScrollTarget _target
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private IScrollTarget _target
 ```csharp
 public long agentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public long agentTarget
 ```csharp
 private bool attached
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private bool attached
 ```csharp
 private MovableObjectNode attachTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private MovableObjectNode attachTarget
 ```csharp
 public Vector3 CameraMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public Vector3 CameraMax
 ```csharp
 public Vector3 CameraMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public Vector3 CameraMin
 ```csharp
 public long creatureTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public long creatureTarget
 ```csharp
 public float DefaultOrtho
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ public float DefaultOrtho
 ```csharp
 public Vector3 DefaultPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ public Vector3 DefaultPos
 ```csharp
 private Vector3 Diference
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private Vector3 Diference
 ```csharp
 private bool Drag
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private bool Drag
 ```csharp
 private Vector3 dragedPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ public CameraMover.OnCameraMoveEndEvent endCall
 ```csharp
 public GameObject escapeButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ public GameObject escapeButton
 ```csharp
 private bool isObserving
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +320,8 @@ public CameraMover.CameraForcelyMove moveScript
 ```csharp
 private const float ObserveOrthoSize = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +332,8 @@ private const float ObserveOrthoSize = 4
 ```csharp
 private CreatureModel observeTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +344,8 @@ private CreatureModel observeTarget
 ```csharp
 private Vector3 Origin
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +356,8 @@ private Vector3 Origin
 ```csharp
 public GameObject player
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +378,8 @@ public List<CameraMover.CameraMoveRange> Range
 ```csharp
 public RecoilEffect recoil
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +390,8 @@ public RecoilEffect recoil
 ```csharp
 private Vector3 ResetCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +402,8 @@ private Vector3 ResetCamera
 ```csharp
 private const float roomXCorrection = -1
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +414,8 @@ private const float roomXCorrection = -1
 ```csharp
 private const float roomYCorrection = -1.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +426,8 @@ private const float roomYCorrection = -1.7
 ```csharp
 private float saveOrtho
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +438,8 @@ private float saveOrtho
 ```csharp
 public float scrollSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +450,8 @@ public float scrollSpeed
 ```csharp
 public Camera targetCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -467,6 +536,8 @@ private float orthoMax { get; }
 ```csharp
 public void AttachToMovable(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -479,12 +550,16 @@ public void AttachToMovable(MovableObjectNode mov)
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CameraMoveEvent(Vector3, float)
 
 ```csharp
 public void CameraMoveEvent(Vector3 dest, float ortho)
 ```
+#INC
+
 
 #### Parameters
 
@@ -498,6 +573,8 @@ public void CameraMoveEvent(Vector3 dest, float ortho)
 ```csharp
 public void CameraMoveEvent(Vector3 dest, float ortho, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -512,18 +589,24 @@ public void CameraMoveEvent(Vector3 dest, float ortho, float time)
 ```csharp
 public void DecoupleToMovable()
 ```
+#INC
+
 
 ### DeRegistration()
 
 ```csharp
 public void DeRegistration()
 ```
+#INC
+
 
 ### GenObserveMovement(CreatureModel)
 
 ```csharp
 public void GenObserveMovement(CreatureModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -536,6 +619,9 @@ public void GenObserveMovement(CreatureModel target)
 ```csharp
 public Vector3 GetMovementClamped(Vector3 input)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -552,6 +638,8 @@ public Vector3 GetMovementClamped(Vector3 input)
 ```csharp
 public bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -562,36 +650,48 @@ public bool IsMovable()
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### OnCameraMoveEnd()
 
 ```csharp
 public void OnCameraMoveEnd()
 ```
+#INC
+
 
 ### OnObserveCameraMoveEnd()
 
 ```csharp
 private void OnObserveCameraMoveEnd()
 ```
+#INC
+
 
 ### OnObserveEnded()
 
 ```csharp
 public void OnObserveEnded()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### PlayRecoil(Queue<Vector3>, float)
 
 ```csharp
 private IEnumerator PlayRecoil(Queue<Vector3> queue, float maxTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -609,6 +709,8 @@ private IEnumerator PlayRecoil(Queue<Vector3> queue, float maxTime)
 ```csharp
 public void Recoil(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -621,6 +723,8 @@ public void Recoil(int level)
 ```csharp
 public void Recoil(int level, float maxTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -634,6 +738,8 @@ public void Recoil(int level, float maxTime)
 ```csharp
 public void Recoil(int level, float maxTime, int recoilCount, float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -649,6 +755,8 @@ public void Recoil(int level, float maxTime, int recoilCount, float scale)
 ```csharp
 public void Registration(IScrollTarget target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -661,6 +769,8 @@ public void Registration(IScrollTarget target)
 ```csharp
 public void Registration(IScrollTarget target, bool cursorSet)
 ```
+#INC
+
 
 #### Parameters
 
@@ -674,6 +784,8 @@ public void Registration(IScrollTarget target, bool cursorSet)
 ```csharp
 public void ReleaseMove()
 ```
+#INC
+
 
 ### SetEndCall(OnCameraMoveEndEvent)
 
@@ -692,33 +804,45 @@ public void SetEndCall(CameraMover.OnCameraMoveEndEvent call)
 ```csharp
 public void SetSettingToDefault()
 ```
+#INC
+
 
 ### SetSettingToStart()
 
 ```csharp
 public void SetSettingToStart()
 ```
+#INC
+
 
 ### SetTutorialCam()
 
 ```csharp
 public void SetTutorialCam()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StopMove()
 
 ```csharp
 public void StopMove()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

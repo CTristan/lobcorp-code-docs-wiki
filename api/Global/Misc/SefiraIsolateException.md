@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/SefiraIsolateException
 public class SefiraIsolateException : Exception, ISerializable, _Exception
 ```
 
+Exception thrown when a node ID is invalid.
+
+Holds the invalid node.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Exception](https://learn.microsoft.com/dotnet/api/system.exception) → SefiraIsolateException
 
@@ -36,6 +43,9 @@ public SefiraIsolateException()
 ```csharp
 public string nodeId
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

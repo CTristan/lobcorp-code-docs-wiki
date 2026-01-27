@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/MakeEgoTutorial
 public class MakeEgoTutorial : Tutorial, IObserver
 ```
 
+Ends when the player buys EGO from the [Standard Training-Dummy Rabbit](/api/Global/Creature/DummyCreature).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → MakeEgoTutorial
 
@@ -36,6 +41,8 @@ public MakeEgoTutorial()
 ```csharp
 public EquipmentTypeInfo.EquipmentType targetType
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,18 +55,24 @@ public EquipmentTypeInfo.EquipmentType targetType
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,3 +86,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

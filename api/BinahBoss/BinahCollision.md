@@ -36,6 +36,8 @@ public BinahCollision()
 ```csharp
 private BinahCoreScript _binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private BinahCoreScript _binah
 ```csharp
 private bool _isActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private bool _isActivated
 ```csharp
 public BoxCollider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public BoxCollider2D collider
 ```csharp
 public CreatureModel targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +98,9 @@ public bool IsActivated { get; }
 ```csharp
 public void Init(CreatureModel creature, BinahCoreScript binah, IsolateRoom isolate)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -104,6 +115,8 @@ public void Init(CreatureModel creature, BinahCoreScript binah, IsolateRoom isol
 ```csharp
 public void Init(CreatureModel creature, BinahCoreScript binah, MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,6 +131,8 @@ public void Init(CreatureModel creature, BinahCoreScript binah, MapNode node)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +145,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 

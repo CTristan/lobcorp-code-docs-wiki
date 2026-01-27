@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/NetzachCoreAnim
 public class NetzachCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Netzach](/api/Global/Script/NetzachCoreScript), as he appears in [his core suppression](/api/Global/Misc/NetzachBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → NetzachCoreAnim
 
@@ -36,6 +39,8 @@ public NetzachCoreAnim()
 ```csharp
 public AnimationCurve destroyCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimationCurve destroyCurve
 ```csharp
 public Transform middlePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public Transform middlePivot
 ```csharp
 private NetzachCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private NetzachCoreScript script
 ```csharp
 public float startEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,18 +101,25 @@ private UnscaledTimer closeTimer { get; }
 ```csharp
 public void OnChange()
 ```
+#INC
+
 
 ### OnClear()
 
 ```csharp
 public void OnClear()
 ```
+#INC
+
 
 ### SetScript(NetzachCoreScript)
 
 ```csharp
 public void SetScript(NetzachCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -114,3 +132,5 @@ public void SetScript(NetzachCoreScript script)
 ```csharp
 public void Update()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResearchItemDesc
 ```csharp
 public class ResearchItemDesc
 ```
+Holds the description for a research.
+
+Used by [ResearchPanel](/api/Global/Misc/ResearchPanel).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchItemDesc
@@ -33,6 +37,8 @@ public ResearchItemDesc()
 ```csharp
 public string desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,9 @@ public string desc
 ```csharp
 public string name
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public string name
 ```csharp
 public string next
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public string next
 ```csharp
 public string shortDesc
 ```
+#INC
+
 
 #### Field Value
 

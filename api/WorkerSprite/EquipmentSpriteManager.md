@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/EquipmentSpriteManager
 ```csharp
 public class EquipmentSpriteManager
 ```
+unused singleton
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentSpriteManager
@@ -33,6 +37,9 @@ public EquipmentSpriteManager()
 ```csharp
 private static EquipmentSpriteManager _instance
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

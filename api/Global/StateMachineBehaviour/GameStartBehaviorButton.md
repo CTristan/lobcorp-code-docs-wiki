@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/GameStartBehaviorButton
 public class GameStartBehaviorButton : StateMachineBehaviour
 ```
 
+Sets an animator's "Start" to false. ??
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → GameStartBehaviorButton
 
@@ -33,6 +38,9 @@ public GameStartBehaviorButton()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

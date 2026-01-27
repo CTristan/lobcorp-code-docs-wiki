@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/SakuraWeapon
 public class SakuraWeapon : EquipmentScriptBase
 ```
 
+Script for [Grave of the Cherry Blossoms](/api/Global/Misc/Sakura)'s EGO Weapon: Cherry Blossoms.
+
+Creates a special effect #verify and does its damage three times.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SakuraWeapon
 
@@ -33,6 +38,8 @@ public SakuraWeapon()
 ```csharp
 private int _COUNT_ATTACK_PER_ANIM
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private int _COUNT_ATTACK_PER_ANIM
 ```csharp
 private const string _effectSrc = "Effect/Invoke/DamageInfo/SakuraWeaponEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const string _effectSrc = "Effect/Invoke/DamageInfo/SakuraWeaponEffect"
 ```csharp
 private WorkerModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +76,16 @@ private WorkerModel owner
 ```csharp
 private void MakeEffect()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 private void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,6 +115,9 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -112,6 +130,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

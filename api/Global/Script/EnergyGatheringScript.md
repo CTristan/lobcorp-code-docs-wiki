@@ -11,6 +11,10 @@ canonical_path: /api/Global/Script/EnergyGatheringScript
 ```csharp
 public class EnergyGatheringScript : MonoBehaviour
 ```
+UI element which displays the amount of energy currently gathered.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EnergyGatheringScript
@@ -33,6 +37,8 @@ public EnergyGatheringScript()
 ```csharp
 public Slider addEnergySlider
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Slider addEnergySlider
 ```csharp
 public Sprite addSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Sprite addSprite
 ```csharp
 private bool AngelaSayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool AngelaSayed
 ```csharp
 public AudioSource audioSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public AudioSource audioSrc
 ```csharp
 public AudioClip[] clips
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public AudioClip[] clips
 ```csharp
 private int cnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +120,8 @@ public string currentDesc
 ```csharp
 private int currentOverEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +132,8 @@ private int currentOverEnergy
 ```csharp
 private float currentVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +144,8 @@ private float currentVal
 ```csharp
 public Sprite defSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +156,8 @@ public Sprite defSprite
 ```csharp
 public Slider EnergySlider
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +168,8 @@ public Slider EnergySlider
 ```csharp
 public Image[] finishCountImages
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +180,8 @@ public Image[] finishCountImages
 ```csharp
 public bool isGathered
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +192,8 @@ public bool isGathered
 ```csharp
 private float maxVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +204,8 @@ private float maxVal
 ```csharp
 public Image sliderImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,9 +229,14 @@ public string targetDesc
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

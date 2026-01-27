@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/YoungPrinceSlowBuf
 public class YoungPrinceSlowBuf : UnitBuf
 ```
 
+Slowing buff given by [The Little Prince's minions](/api/Global/Misc/YoungPrinceFriend) #verify .
+
+Slows movement by 0.5x for 1 second.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → YoungPrinceSlowBuf
 
@@ -25,6 +30,8 @@ public class YoungPrinceSlowBuf : UnitBuf
 ```csharp
 public YoungPrinceSlowBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public YoungPrinceSlowBuf()
 ```csharp
 private const float _remainTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _remainTime = 1
 ```csharp
 private const float _slowScale = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +66,9 @@ private const float _slowScale = 0.5
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -67,6 +81,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

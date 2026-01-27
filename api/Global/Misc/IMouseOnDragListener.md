@@ -11,6 +11,18 @@ canonical_path: /api/Global/Misc/IMouseOnDragListener
 ```csharp
 public interface IMouseOnDragListener
 ```
+Interface for listeners to drag area selections.
+
+Only implemented by [AgentUnit](/api/Global/Worker/AgentUnit).
+
+Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
+
+
+#### Methods
+	bool IsDragSelectable
+	void OnEnterDragArea
+	void OnExitDragArea
+
 
 ## Methods
 
@@ -19,6 +31,9 @@ public interface IMouseOnDragListener
 ```csharp
 bool IsDragSelectable()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -29,9 +44,13 @@ bool IsDragSelectable()
 ```csharp
 void OnEnterDragArea()
 ```
+#INC
+
 
 ### OnExitDragArea()
 
 ```csharp
 void OnExitDragArea()
 ```
+#INC
+

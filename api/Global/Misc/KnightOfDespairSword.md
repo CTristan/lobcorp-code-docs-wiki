@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/KnightOfDespairSword
 public class KnightOfDespairSword : MonoBehaviour
 ```
 
+One of [The Knight of Despair](/api/Global/Misc/KnightOfDespair)'s floating swords, for her breach? #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → KnightOfDespairSword
 
@@ -33,6 +36,8 @@ public KnightOfDespairSword()
 ```csharp
 private Timer _enableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private Timer _enableTimer
 ```csharp
 public GameObject enableEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject enableEffect
 ```csharp
 public Transform LeftPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Transform LeftPivot
 ```csharp
 public SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public SpriteRenderer renderer
 ```csharp
 public Transform RightPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,12 +98,16 @@ public Transform RightPivot
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### OnThrow(UnitModel)
 
 ```csharp
 public void OnThrow(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +120,9 @@ public void OnThrow(UnitModel target)
 ```csharp
 public void SetActiveEffect(float time, bool makeParticle = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

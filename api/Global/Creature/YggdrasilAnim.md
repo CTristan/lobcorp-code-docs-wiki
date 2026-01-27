@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YggdrasilAnim
 public class YggdrasilAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Parasite Tree](/api/Global/IOBserver/Yggdrasil).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → YggdrasilAnim
 
@@ -36,6 +41,8 @@ public YggdrasilAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public BufRenderer blessObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public BufRenderer blessObject
 ```csharp
 public SpriteRenderer[] filters
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public SpriteRenderer[] filters
 ```csharp
 public GameObject[] flowers
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public GameObject[] flowers
 ```csharp
 private Yggdrasil script
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Yggdrasil script
 ```csharp
 private const string TRANSFORM_EFFECT_SRC = "Effect/Creature/Yggdrasil/YggdrasilTransformEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +115,8 @@ private const string TRANSFORM_EFFECT_SRC = "Effect/Creature/Yggdrasil/Yggdrasil
 ```csharp
 public void AddFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,12 +129,16 @@ public void AddFilters(float alpha)
 ```csharp
 public void AddFlower()
 ```
+#INC
+
 
 ### GetCurrentAlpha()
 
 ```csharp
 public float GetCurrentAlpha()
 ```
+#INC
+
 
 #### Returns
 
@@ -126,18 +149,24 @@ public float GetCurrentAlpha()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitFlower()
 
 ```csharp
 public void InitFlower()
 ```
+#INC
+
 
 ### IsTransformed()
 
 ```csharp
 public bool IsTransformed()
 ```
+#INC
+
 
 #### Returns
 
@@ -148,12 +177,16 @@ public bool IsTransformed()
 ```csharp
 public void OnBless()
 ```
+#INC
+
 
 ### ReduceFilters(float)
 
 ```csharp
 public void ReduceFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,12 +199,16 @@ public void ReduceFilters(float alpha)
 ```csharp
 public void ReduceFlower()
 ```
+#INC
+
 
 ### SetFilters(float)
 
 ```csharp
 public void SetFilters(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,6 +221,9 @@ public void SetFilters(float alpha)
 ```csharp
 public void SetScript(Yggdrasil script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -196,6 +236,8 @@ public void SetScript(Yggdrasil script)
 ```csharp
 public void SetTransform(bool isTransform)
 ```
+#INC
+
 
 #### Parameters
 
@@ -208,6 +250,8 @@ public void SetTransform(bool isTransform)
 ```csharp
 public void SetTransformWithoutEffect(bool isTransform)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,9 +264,13 @@ public void SetTransformWithoutEffect(bool isTransform)
 ```csharp
 private void TransformEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

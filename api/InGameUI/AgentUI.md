@@ -12,6 +12,13 @@ canonical_path: /api/InGameUI/AgentUI
 public class AgentUI : MonoBehaviour
 ```
 
+UI that appears above (or below) [agent units](/api/Global/Worker/AgentUnit) displaying [name](/api/Global/Misc/AgentName), [rank title](/api/Global/UI/AgentContinueUI), department, tool status, HP, and SP, once Yesod's research for it is obtained.
+
+See [AgentUnitUI](/api/Global/UI/AgentUnitUI) for before Yesod's upgrade.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentUI
 
@@ -33,6 +40,8 @@ public AgentUI()
 ```csharp
 private AgentContinueUI _continueUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private AgentContinueUI _continueUI
 ```csharp
 private Timer _encounterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private Timer _encounterTimer
 ```csharp
 private UnitModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private AgentUI.UIAgentState _state
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public GameObject ActiveControl
 ```csharp
 public Image BlackHide
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Image BlackHide
 ```csharp
 private int currentHorrorLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public GameObject EncounterActiveControl
 ```csharp
 public float EncounterEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +145,8 @@ public float EncounterEffectTime
 ```csharp
 public Image EncounterIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +157,8 @@ public Image EncounterIcon
 ```csharp
 public Text EncounterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +169,8 @@ public Text EncounterText
 ```csharp
 public Image Grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +181,8 @@ public Image Grade
 ```csharp
 public Image HpFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +193,8 @@ public Image HpFill
 ```csharp
 public Color[] level_Color
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +216,8 @@ public Sprite[] level_Exclams
 ```csharp
 public Image MentalFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +228,8 @@ public Image MentalFill
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +251,8 @@ public Color[] stateColor
 ```csharp
 public Image Texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +263,8 @@ public Image Texture
 ```csharp
 public Animator UIAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -280,6 +319,8 @@ public AgentUI.UIAgentState State { get; set; }
 ```csharp
 public void EncounterActivate(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +333,9 @@ public void EncounterActivate(int level)
 ```csharp
 public void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -316,6 +360,8 @@ private void OnSetState(AgentUI.UIAgentState state)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,6 +386,8 @@ public void SetAgentState(AgentUI.UIAgentState state)
 ```csharp
 public void SetOverlayState(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,6 +400,8 @@ public void SetOverlayState(bool b)
 ```csharp
 public void SetSelectState(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -364,30 +414,40 @@ public void SetSelectState(bool b)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateHp()
 
 ```csharp
 private void UpdateHp()
 ```
+#INC
+
 
 ### UpdateMental()
 
 ```csharp
 private void UpdateMental()
 ```
+#INC
+
 
 ### UpdateState()
 
 ```csharp
 private void UpdateState()
 ```
+#INC
+
 
 ### ValidateUIActiate()
 
 ```csharp
 private bool ValidateUIActiate()
 ```
+#INC
+
 
 #### Returns
 

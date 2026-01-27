@@ -12,6 +12,11 @@ canonical_path: /api/Global/Story/StorySceneController
 public class StorySceneController : MonoBehaviour
 ```
 
+Main controller for playing stories #verify .
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySceneController
 
@@ -33,6 +38,8 @@ public StorySceneController()
 ```csharp
 private List<Mission> _clearedMissions
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private StorySceneController.StorySceneState _curState
 ```csharp
 private SefiraEnum _finaleSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private SefiraEnum _finaleSefira
 ```csharp
 private bool _firstBossMission
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private bool _firstBossMission
 ```csharp
 private static StorySceneController _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private static StorySceneController _instance
 ```csharp
 private bool _isOpenedArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private Queue<StorySceneController.SubStorySceneData> _missionSceneQueue
 ```csharp
 private Mission _newMission
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ private Mission _newMission
 ```csharp
 private List<Mission> _nextMissions
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ private List<Mission> _nextMissions
 ```csharp
 private SefiraEnum[] _sefiraOrder
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ private SefiraEnum[] _sefiraOrder
 ```csharp
 private Queue<SefiraEnum> _sefiraOrderQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private Queue<SefiraEnum> _sefiraOrderQueue
 ```csharp
 public BossMissionAppearUI bossAppearUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ public BossMissionAppearUI bossAppearUI
 ```csharp
 public StoryChallengeModeUI challangeModeUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ public StoryChallengeModeUI challangeModeUI
 ```csharp
 public StoryFadeUI fadeUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ public StoryFadeUI fadeUI
 ```csharp
 public GameObject missionShader
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ public GameObject missionShader
 ```csharp
 public StorySeedUI seedUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ public StorySeedUI seedUI
 ```csharp
 public StoryUI storyUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,12 +252,17 @@ public static StorySceneController instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ExistsSefiraMemory()
 
 ```csharp
 private bool ExistsSefiraMemory()
 ```
+#INC
+
 
 #### Returns
 
@@ -233,18 +273,24 @@ private bool ExistsSefiraMemory()
 ```csharp
 public void InitStory()
 ```
+#INC
+
 
 ### LoadMainScene()
 
 ```csharp
 private void LoadMainScene()
 ```
+#INC
+
 
 ### LoadStory(string)
 
 ```csharp
 private void LoadStory(string storyId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,6 +303,8 @@ private void LoadStory(string storyId)
 ```csharp
 private void LoadStoryWithFade(string storyId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,6 +317,8 @@ private void LoadStoryWithFade(string storyId)
 ```csharp
 public void OnEndSeedUI(string angelaStory)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,12 +331,16 @@ public void OnEndSeedUI(string angelaStory)
 ```csharp
 public void OnEndStory()
 ```
+#INC
+
 
 ### PrintQueue(Queue<SefiraEnum>)
 
 ```csharp
 private void PrintQueue(Queue<SefiraEnum> q)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,6 +353,8 @@ private void PrintQueue(Queue<SefiraEnum> q)
 ```csharp
 private void SetStoryKether(int day)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,9 +367,13 @@ private void SetStoryKether(int day)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### TryPlayNextSubStory()
 
 ```csharp
 private void TryPlayNextSubStory()
 ```
+#INC
+

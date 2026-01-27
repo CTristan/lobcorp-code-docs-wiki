@@ -11,6 +11,10 @@ canonical_path: /api/Inventory/InventorySefiraPanel
 ```csharp
 public class InventorySefiraPanel
 ```
+UI element for displaying the agents in a department on the [E.G.O List screen](/api/Inventory/InventoryUI).
+
+See [InventorySefiraController](/api/Inventory/InventorySefiraController)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → InventorySefiraPanel
@@ -33,6 +37,8 @@ public InventorySefiraPanel()
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private Sefira _currentSefira
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public GameObject ActiveControl
 ```csharp
 public Text AreaNameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Text AreaNameText
 ```csharp
 public Image SefiraAreaFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Image SefiraAreaFill
 ```csharp
 public List<InventoryAgentSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,18 +111,25 @@ public Sefira CurrentSefira { get; }
 ```csharp
 public void AwakeAction()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### SetAgentList(SefiraUIColor)
 
 ```csharp
 public void SetAgentList(SefiraUIColor color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +142,8 @@ public void SetAgentList(SefiraUIColor color)
 ```csharp
 public void SetSefira(Sefira current)
 ```
+#INC
+
 
 #### Parameters
 

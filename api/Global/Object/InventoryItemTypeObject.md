@@ -11,6 +11,10 @@ canonical_path: /api/Global/Object/InventoryItemTypeObject
 ```csharp
 public class InventoryItemTypeObject
 ```
+Holds the [InventoryItemType](/api/Inventory/InventoryItemType) that was just clicked.
+
+Used for [InventoryTapTutorial](/api/Global/Tutorial/InventoryTapTutorial).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → InventoryItemTypeObject
@@ -25,6 +29,9 @@ public class InventoryItemTypeObject
 ```csharp
 public InventoryItemTypeObject(InventoryItemType type)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public InventoryItemTypeObject(InventoryItemType type)
 ```csharp
 private InventoryItemType _type
 ```
+#INC
+
 
 #### Field Value
 

@@ -11,6 +11,13 @@ canonical_path: /api/Global/Misc/IEnableMessage
 ```csharp
 public interface IEnableMessage
 ```
+Interface with one method.
+
+Only used by [AudioSlider](/api/Global/Misc/AudioSlider).
+
+#### Method
+Enable
+
 
 ## Methods
 
@@ -19,3 +26,6 @@ public interface IEnableMessage
 ```csharp
 void Enable()
 ```
+#INC
+#code-generated
+

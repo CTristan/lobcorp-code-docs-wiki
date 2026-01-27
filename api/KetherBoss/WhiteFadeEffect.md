@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/WhiteFadeEffect
 ```csharp
 public class WhiteFadeEffect : KetherLastEffectBase
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → WhiteFadeEffect
@@ -25,6 +27,8 @@ public class WhiteFadeEffect : KetherLastEffectBase
 ```csharp
 public WhiteFadeEffect(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public WhiteFadeEffect(KetherLastBossBase bossBase)
 ```csharp
 private bool _arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private bool _arrived
 ```csharp
 private float _effectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private float _effectTime
 ```csharp
 private Timer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private Timer _timer
 ```csharp
 private CameraFilterPack_Colors_Brightness brightness
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private CameraFilterPack_Colors_Brightness brightness
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private AnimationCurve curve
 ```csharp
 private bool terminateMovement
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,15 +117,22 @@ private bool terminateMovement
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### StartEffect()
 
 ```csharp
 public void StartEffect()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/GalaxyBoyGift
 public class GalaxyBoyGift : EquipmentScriptBase
 ```
 
+Script for [Child of the Galaxy](/api/Global/IOBserver/GalaxyBoy)'s EGO Gift: Our Galaxy.
+
+Heals 1.8 HP and SP every 5 seconds #inc.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → GalaxyBoyGift
 
@@ -33,6 +38,8 @@ public GalaxyBoyGift()
 ```csharp
 private const float _recoverFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _recoverFreq = 5
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _recoverTimer
 ```csharp
 private const float _recoverValue = 1.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,3 +76,6 @@ private const float _recoverValue = 1.8
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,10 @@ canonical_path: /api/WhiteNightSpace/ApostleStaticInfo
 ```csharp
 public static class ApostleStaticInfo
 ```
+Locations for prefabs and scripts and apostle types by index and stuff
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleStaticInfo
@@ -25,6 +29,8 @@ public static class ApostleStaticInfo
 ```csharp
 public static int[] GuardApostleAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +41,8 @@ public static int[] GuardApostleAry
 ```csharp
 public const string ScytheApostleDead = "ScytheApostleDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +53,8 @@ public const string ScytheApostleDead = "ScytheApostleDead"
 ```csharp
 public const string ScytheApostlePrefab = "Unit/CreatureAnimator/Apostle/ScytheApostleAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +65,8 @@ public const string ScytheApostlePrefab = "Unit/CreatureAnimator/Apostle/ScytheA
 ```csharp
 public const string ScytheApostleScript = "WhiteNightSpace.ScytheApostle"
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +77,8 @@ public const string ScytheApostleScript = "WhiteNightSpace.ScytheApostle"
 ```csharp
 public const string SpearApostleDead = "SpearApostleDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +89,8 @@ public const string SpearApostleDead = "SpearApostleDead"
 ```csharp
 public const string SpearApostlePrefab = "Unit/CreatureAnimator/Apostle/SpearApostleAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +101,8 @@ public const string SpearApostlePrefab = "Unit/CreatureAnimator/Apostle/SpearApo
 ```csharp
 public const string SpearApostleScript = "WhiteNightSpace.SpearApostle"
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +113,8 @@ public const string SpearApostleScript = "WhiteNightSpace.SpearApostle"
 ```csharp
 public const string WandApostleDead = "WandApostleDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +125,8 @@ public const string WandApostleDead = "WandApostleDead"
 ```csharp
 public const string WandApostlePrefab = "Unit/CreatureAnimator/Apostle/WandApostleAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +137,8 @@ public const string WandApostlePrefab = "Unit/CreatureAnimator/Apostle/WandApost
 ```csharp
 public const string WandApostleScript = "WhiteNightSpace.WandApostle"
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +151,8 @@ public const string WandApostleScript = "WhiteNightSpace.WandApostle"
 ```csharp
 public static void GetApostleGenInfo(ApostleType type, out string script, out string prefab)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,6 +167,9 @@ public static void GetApostleGenInfo(ApostleType type, out string script, out st
 ```csharp
 public static ApostleType GetApostleType(int index)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

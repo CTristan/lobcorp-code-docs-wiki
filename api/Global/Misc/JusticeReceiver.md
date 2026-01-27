@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/JusticeReceiver
 public class JusticeReceiver : CreatureBase
 ```
 
+Behavior Adjustment. Tool abnormality. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → JusticeReceiver
 
@@ -33,6 +36,8 @@ public JusticeReceiver()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,12 +50,17 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

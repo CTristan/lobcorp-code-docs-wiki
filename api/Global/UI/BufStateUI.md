@@ -11,6 +11,12 @@ canonical_path: /api/Global/UI/BufStateUI
 ```csharp
 public class BufStateUI : MonoBehaviour
 ```
+UI element for displaying buffs (and their icons) on workers.
+
+The images themselves are in [BufRenderer](/api/Global/Misc/BufRenderer) objects. #verify 
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BufStateUI
@@ -33,6 +39,8 @@ public BufStateUI()
 ```csharp
 private const float default_ImageSize = 128
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private const float default_ImageSize = 128
 ```csharp
 private const float default_UIRange = 256
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Dictionary<UnitBufType, BufStateUI.BufData> dictionary
 ```csharp
 private const int factor = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const int factor = 2
 ```csharp
 private static string logPrefix
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private static string logPrefix
 ```csharp
 public RectTransform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +146,9 @@ public BufStateUI.BufData AddBuf(UnitBuf buf, Sprite sprite)
 ```csharp
 public static void Log(string log)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -142,6 +161,8 @@ public static void Log(string log)
 ```csharp
 public void RemoveBuf(UnitBufType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,3 +175,5 @@ public void RemoveBuf(UnitBufType type)
 ```csharp
 private void SetList()
 ```
+#INC
+

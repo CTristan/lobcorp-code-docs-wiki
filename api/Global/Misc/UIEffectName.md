@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/UIEffectName
 ```csharp
 public static class UIEffectName
 ```
+Stores some IDs for various effects used by [UIEffectManager](/api/Global/Misc/UIEffectManager).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UIEffectName
@@ -25,6 +27,9 @@ public static class UIEffectName
 ```csharp
 public static long Blackout
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -35,6 +40,8 @@ public static long Blackout
 ```csharp
 public static long Bloody
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ public static long Bloody
 ```csharp
 public static long Noise
 ```
+#INC
+
 
 #### Field Value
 

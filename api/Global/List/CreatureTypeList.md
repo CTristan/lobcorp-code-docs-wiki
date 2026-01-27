@@ -11,6 +11,9 @@ canonical_path: /api/Global/List/CreatureTypeList
 ```csharp
 public class CreatureTypeList
 ```
+Holds a list of the [CreatureTypeInfo](/api/Global/Info/CreatureTypeInfo) objects, one for each abnormality.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureTypeList
@@ -25,6 +28,9 @@ public class CreatureTypeList
 ```csharp
 private CreatureTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ private CreatureTypeList()
 ```csharp
 private static CreatureTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private static CreatureTypeList _instance
 ```csharp
 private List<CreatureTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private List<CreatureTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private bool _loaded
 ```csharp
 private Dictionary<long, int> _specialTipSizeDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private Dictionary<long, int> _specialTipSizeDic
 ```csharp
 private List<CreatureSpecialSkillTipTable> _tableList
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +123,8 @@ public bool loaded { get; }
 ```csharp
 public CreatureTypeInfo GetData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +141,8 @@ public CreatureTypeInfo GetData(long id)
 ```csharp
 public CreatureTypeInfo[] GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -133,6 +153,8 @@ public CreatureTypeInfo[] GetList()
 ```csharp
 public CreatureSpecialSkillTipTable GetSkillTipData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +171,8 @@ public CreatureSpecialSkillTipTable GetSkillTipData(long id)
 ```csharp
 public int GetSpecialSkillSize(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +189,8 @@ public int GetSpecialSkillSize(long id)
 ```csharp
 public CreatureSpecialSkillTipTable[] GetTable()
 ```
+#INC
+
 
 #### Returns
 
@@ -175,6 +201,8 @@ public CreatureSpecialSkillTipTable[] GetTable()
 ```csharp
 public void Init(CreatureTypeInfo[] list, CreatureSpecialSkillTipTable[] table, Dictionary<long, int> specialTipSize)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,3 +217,5 @@ public void Init(CreatureTypeInfo[] list, CreatureSpecialSkillTipTable[] table, 
 ```csharp
 public void ResetSkillTipTable()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YesodCoreAnim
 public class YesodCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Yesod](/api/Global/Script/YesodCoreScript) as he appears in [his core suppression](/api/Global/Misc/YesodBossBase).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → YesodCoreAnim
 
@@ -36,6 +41,8 @@ public YesodCoreAnim()
 ```csharp
 public AnimationCurve destroyCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public AnimationCurve destroyCurve
 ```csharp
 public Transform middlePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public Transform middlePivot
 ```csharp
 private YesodCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,18 +91,25 @@ private UnscaledTimer closeTimer { get; }
 ```csharp
 public void OnChange()
 ```
+#INC
+
 
 ### OnClear()
 
 ```csharp
 public void OnClear()
 ```
+#INC
+
 
 ### SetScript(YesodCoreScript)
 
 ```csharp
 public void SetScript(YesodCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -104,3 +122,5 @@ public void SetScript(YesodCoreScript script)
 ```csharp
 public void Update()
 ```
+#INC
+

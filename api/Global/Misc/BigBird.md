@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BigBird
 public class BigBird : BirdCreatureBase, IBirdControl, IObserver
 ```
 
+Big Bird. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → BigBird
 
@@ -36,6 +39,8 @@ public BigBird()
 ```csharp
 private const float _agentDeadSceneHpConditionRatio = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const float _agentDeadSceneHpConditionRatio = 0.3
 ```csharp
 private BigBirdAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private BigBirdAnim _animScript
 ```csharp
 private const float _attractCoolTimeMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const float _attractCoolTimeMax = 12
 ```csharp
 private const float _attractCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const float _attractCoolTimeMin = 10
 ```csharp
 private const float _attractInitTimeMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const float _attractInitTimeMax = 7
 ```csharp
 private const float _attractInitTimeMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const float _attractInitTimeMin = 5
 ```csharp
 private const int _attractOfficerProb = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private const int _attractOfficerProb = 40
 ```csharp
 private const float _attractTimeMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private const float _attractTimeMax = 5
 ```csharp
 private const float _attractTimeMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private const float _attractTimeMin = 3
 ```csharp
 private const float _cameraSensingScale = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private const float _cameraSensingScale = 2
 ```csharp
 private const float _deadSceneRangeMax = 2.75
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private const float _deadSceneRangeMax = 2.75
 ```csharp
 private const float _deadSceneRangeMin = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private const float _deadSceneRangeMin = 0
 ```csharp
 private const float _defaultSpeed = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private const float _defaultSpeed = 1.5
 ```csharp
 private const string _effect_boom = "BigBirdAgentDeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private const string _effect_boom = "BigBirdAgentDeadEffect"
 ```csharp
 private const string _effect_src = "Effect/Creature/BigBird/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private const string _effect_src = "Effect/Creature/BigBird/"
 ```csharp
 private const float _escapeCoolTimeMax = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private const float _escapeCoolTimeMax = 40
 ```csharp
 private const float _escapeCoolTimeMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private const float _escapeCoolTimeMin = 30
 ```csharp
 private const float _motionDelayMax = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private const float _motionDelayMax = 1.2
 ```csharp
 private const float _motionDelayMin = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private const float _motionDelayMin = 0.8
 ```csharp
 private const int _officeDeadSceneProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private const int _officeDeadSceneProb = 30
 ```csharp
 private BossBird.OtherBirdState _otherBirdState
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private BossBird.OtherBirdState _otherBirdState
 ```csharp
 private const int _qliphothMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ private const int _qliphothMax = 5
 ```csharp
 private const string _sound_attract = "attract"
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ private const string _sound_attract = "attract"
 ```csharp
 private const string _sound_dead1 = "dead1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ private const string _sound_dead1 = "dead1"
 ```csharp
 private const string _sound_dead2 = "dead2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +339,8 @@ private const string _sound_dead2 = "dead2"
 ```csharp
 private const string _sound_walk = "walk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +351,8 @@ private const string _sound_walk = "walk"
 ```csharp
 private const float _specialSpeed = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +363,8 @@ private const float _specialSpeed = 2.5
 ```csharp
 private const int _subQliphothCondition = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +375,8 @@ private const int _subQliphothCondition = 5
 ```csharp
 private List<OfficerModel> alive
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +387,8 @@ private List<OfficerModel> alive
 ```csharp
 private Timer attractCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +399,8 @@ private Timer attractCoolTimer
 ```csharp
 private List<WorkerModel> attracted
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +411,8 @@ private List<WorkerModel> attracted
 ```csharp
 private Timer attractTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +423,8 @@ private Timer attractTimer
 ```csharp
 private BossBird boss
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +435,8 @@ private BossBird boss
 ```csharp
 private bool boss_activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +447,8 @@ private bool boss_activated
 ```csharp
 private bool cameraSensored
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +459,8 @@ private bool cameraSensored
 ```csharp
 private List<WorkerModel> dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +471,8 @@ private List<WorkerModel> dead
 ```csharp
 private int deadCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +483,8 @@ private int deadCnt
 ```csharp
 private Queue<WorkerModel> deadScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -416,6 +495,8 @@ private Queue<WorkerModel> deadScene
 ```csharp
 private Timer escapeCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -426,6 +507,8 @@ private Timer escapeCoolTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +519,8 @@ private Timer motionDelayTimer
 ```csharp
 private WorkerModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -446,6 +531,8 @@ private WorkerModel moveTarget
 ```csharp
 private bool observingDanger
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +543,8 @@ private bool observingDanger
 ```csharp
 private PassageObjectModel oldPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -466,6 +555,8 @@ private PassageObjectModel oldPassage
 ```csharp
 private Sefira prevSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -558,6 +649,8 @@ private static float escapeCoolTime { get; }
 ```csharp
 public Guid InstanceID { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -610,18 +703,25 @@ private Camera sensor { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+#code-generated
+
 
 ### AgentDeadScene()
 
 ```csharp
 private void AgentDeadScene()
 ```
+#INC
+
 
 ### Attract(WorkerModel)
 
 ```csharp
 private void Attract(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -634,12 +734,16 @@ private void Attract(WorkerModel target)
 ```csharp
 public void CancelAttract()
 ```
+#INC
+
 
 ### CancelAttract(WorkerModel)
 
 ```csharp
 public void CancelAttract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -652,12 +756,16 @@ public void CancelAttract(WorkerModel worker)
 ```csharp
 private void CancelCast()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -675,6 +783,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckAttractCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -691,18 +801,24 @@ private bool CheckAttractCondition(WorkerModel worker)
 ```csharp
 private void CheckDeadScene()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDistance(WorkerModel)
 
 ```csharp
 private float GetDistance(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -719,6 +835,8 @@ private float GetDistance(WorkerModel target)
 ```csharp
 private WorkerModel GetMoveTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -729,6 +847,8 @@ private WorkerModel GetMoveTarget()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -763,6 +883,8 @@ private List<WorkerModel> GetWorkersInRange(float rangeMax, float rangeMin = 0, 
 ```csharp
 private bool GetWorkersInSefira(Sefira sefira, ref List<AgentModel> agents, ref List<OfficerModel> officers)
 ```
+#INC
+
 
 #### Parameters
 
@@ -781,6 +903,8 @@ private bool GetWorkersInSefira(Sefira sefira, ref List<AgentModel> agents, ref 
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -791,6 +915,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -801,6 +927,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 private bool IsCasting()
 ```
+#INC
+
 
 #### Returns
 
@@ -811,6 +939,8 @@ private bool IsCasting()
 ```csharp
 private bool IsHostile(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -827,6 +957,8 @@ private bool IsHostile(WorkerModel worker)
 ```csharp
 private bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -856,6 +988,8 @@ private bool IsInRange(WorkerModel target, float rangeMax, float rangeMin = 0, b
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -866,6 +1000,8 @@ public override bool IsSuppressable()
 ```csharp
 private GameObject MakeAgentDeadEffect(WorkerModel worker, string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -883,12 +1019,16 @@ private GameObject MakeAgentDeadEffect(WorkerModel worker, string src)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeMoveToGate(MapNode)
 
 ```csharp
 public void MakeMoveToGate(MapNode dest)
 ```
+#INC
+
 
 #### Parameters
 
@@ -901,6 +1041,8 @@ public void MakeMoveToGate(MapNode dest)
 ```csharp
 private void MakeSefiraBrightly(Sefira targetSefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -913,6 +1055,8 @@ private void MakeSefiraBrightly(Sefira targetSefira)
 ```csharp
 public void MakeSefiraDarkly(Sefira targetSefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -925,6 +1069,8 @@ public void MakeSefiraDarkly(Sefira targetSefira)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -941,6 +1087,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src, float vol)
 ```
+#INC
+
 
 #### Parameters
 
@@ -958,6 +1106,8 @@ public override SoundEffectPlayer MakeSound(string src, float vol)
 ```csharp
 private bool MoveTargetable(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -974,6 +1124,8 @@ private bool MoveTargetable(WorkerModel worker)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -984,6 +1136,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAgentAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -996,54 +1150,72 @@ public void OnAgentAnimCalled(int i)
 ```csharp
 public void OnArrivedAndHide()
 ```
+#INC
+
 
 ### OnAttractSound()
 
 ```csharp
 public void OnAttractSound()
 ```
+#INC
+
 
 ### OnBossActivate()
 
 ```csharp
 public void OnBossActivate()
 ```
+#INC
+
 
 ### OnBossSuppressed()
 
 ```csharp
 public void OnBossSuppressed()
 ```
+#INC
+
 
 ### OnDeadSceneSound_1()
 
 ```csharp
 public void OnDeadSceneSound_1()
 ```
+#INC
+
 
 ### OnDeadSceneSound_2()
 
 ```csharp
 public void OnDeadSceneSound_2()
 ```
+#INC
+
 
 ### OnEndCast()
 
 ```csharp
 public void OnEndCast()
 ```
+#INC
+
 
 ### OnEndDeadScene()
 
 ```csharp
 public void OnEndDeadScene()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1056,12 +1228,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnGateSuppressed()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1075,6 +1251,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override bool OnOpenCollectionWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -1085,6 +1263,8 @@ public override bool OnOpenCollectionWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1097,36 +1277,48 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnStep()
 
 ```csharp
 public void OnStep()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1139,12 +1331,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SetBoss(BossBird)
 
 ```csharp
 public void SetBoss(BossBird boss)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1157,6 +1353,8 @@ public void SetBoss(BossBird boss)
 ```csharp
 private void SetObserver(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1169,12 +1367,16 @@ private void SetObserver(bool active)
 ```csharp
 private void StartCast()
 ```
+#INC
+
 
 ### StartDeadScene(WorkerModel)
 
 ```csharp
 private void StartDeadScene(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1187,18 +1389,24 @@ private void StartDeadScene(WorkerModel target)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### SuccessCast()
 
 ```csharp
 private void SuccessCast()
 ```
+#INC
+
 
 ### TryAttract(out WorkerModel)
 
 ```csharp
 private bool TryAttract(out WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1215,3 +1423,5 @@ private bool TryAttract(out WorkerModel target)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

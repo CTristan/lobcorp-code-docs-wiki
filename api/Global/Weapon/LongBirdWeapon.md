@@ -12,6 +12,16 @@ canonical_path: /api/Global/Weapon/LongBirdWeapon
 public class LongBirdWeapon : EquipmentScriptBase
 ```
 
+Script for [Judgement Bird](/api/Global/Misc/LongBird)'s EGO Weapon: Justitia.
+
+From the wiki:
+60% chance to hit the enemy for 2-4 Damage 5 times for a total of 10-20 damage.
+
+40% chance to Attack in a 10-hit combo, will first deal 7-10 damage 3 times and then 2-4 damage 7 times for a total of 35-58 damage.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LongBirdWeapon
 

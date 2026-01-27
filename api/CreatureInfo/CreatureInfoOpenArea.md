@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoOpenArea
 ```csharp
 public class CreatureInfoOpenArea : MonoBehaviour
 ```
+Hover-over area for opening abnormality info
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoOpenArea
@@ -33,6 +35,8 @@ public CreatureInfoOpenArea()
 ```csharp
 private CreatureInfoController _ctrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private CreatureInfoController _ctrl
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private bool _isEnabled
 ```csharp
 private string _originalText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private string _originalText
 ```csharp
 private string _originTooltipID
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private string _originTooltipID
 ```csharp
 private bool _textInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private bool _textInit
 ```csharp
 public Animator AnimCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public Animator AnimCTRL
 ```csharp
 public Text AreaText
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public Text AreaText
 ```csharp
 public string BlockedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public string BlockedText
 ```csharp
 public Text CostText
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Text CostText
 ```csharp
 public TooltipMouseOver CostTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public TooltipMouseOver CostTooltip
 ```csharp
 public Image CubeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public Image CubeImage
 ```csharp
 public Color originalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public Color originalColor
 ```csharp
 public bool UniqueBlockedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +205,8 @@ private GameObject ActiveControl { get; }
 ```csharp
 public void AnimTriggerSet(string trigger)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +219,8 @@ public void AnimTriggerSet(string trigger)
 ```csharp
 public bool CheckEnabled()
 ```
+#INC
+
 
 #### Returns
 
@@ -199,6 +231,8 @@ public bool CheckEnabled()
 ```csharp
 public void Init(CreatureInfoController controller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,30 +245,40 @@ public void Init(CreatureInfoController controller)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnOverlayEnter()
 
 ```csharp
 public void OnOverlayEnter()
 ```
+#INC
+
 
 ### OnOverlayExit()
 
 ```csharp
 public void OnOverlayExit()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -247,6 +291,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAreaText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,9 +305,14 @@ public void SetAreaText(string text)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

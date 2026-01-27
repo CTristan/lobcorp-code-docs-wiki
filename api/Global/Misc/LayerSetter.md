@@ -36,6 +36,8 @@ public LayerSetter()
 ```csharp
 public List<Renderer> renderers
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,9 +62,14 @@ private SpriteRenderer refRenderer { get; }
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

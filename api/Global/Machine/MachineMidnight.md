@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineMidnight
 public class MachineMidnight : MachineOrdealCreature
 ```
 
+[Green Midnight](/api/Global/Machine/MachineMidnightOrdeal) creature.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [MachineOrdealCreature](/api/Global/Creature/MachineOrdealCreature) → MachineMidnight
 
@@ -33,6 +38,8 @@ public MachineMidnight()
 ```csharp
 private const float _damageValue = 405
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _damageValue = 405
 ```csharp
 private const float _defaultSpeed = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _defaultSpeed = 0.2
 ```csharp
 private const float _resetDelay = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _resetDelay = 10
 ```csharp
 private Timer _resetTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _resetTimer
 ```csharp
 private bool _rotationStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _rotationStarted
 ```csharp
 private const float _speedDownRate = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _speedDownRate = 0.5
 ```csharp
 private const float _speedDownTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _speedDownTime = 10
 ```csharp
 private Timer _speedDownTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private Timer _speedDownTimer
 ```csharp
 private float currentDamageCumlatived
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private float currentDamageCumlatived
 ```csharp
 public static DamageInfo DamageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,12 +172,16 @@ public MachineMidnightAnim AnimScript { get; }
 ```csharp
 private void ActivateSpeedDown()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +198,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +216,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -195,6 +228,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,24 +242,33 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnRotationEnd()
 
 ```csharp
 public void OnRotationEnd()
 ```
+#INC
+
 
 ### OnStartAttack()
 
 ```csharp
 public void OnStartAttack()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +283,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,6 +297,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void SetRotationSpeed(float rate)
 ```
+#INC
+
 
 #### Parameters
 

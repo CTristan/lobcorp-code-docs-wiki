@@ -11,6 +11,8 @@ canonical_path: /api/Global/Loader/AssetLoader
 ```csharp
 public class AssetLoader
 ```
+Loads an XML from `ExternalData/xml` #verify .
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AssetLoader
@@ -33,6 +35,9 @@ public AssetLoader()
 ```csharp
 public static XmlDocument LoadExternalXML(string src)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -49,6 +54,8 @@ public static XmlDocument LoadExternalXML(string src)
 ```csharp
 public static XmlDocument LoadExternalXmlSafe(string fileName, string language, bool languageFolderExist, string prefix = "Language/")
 ```
+#INC
+
 
 #### Parameters
 

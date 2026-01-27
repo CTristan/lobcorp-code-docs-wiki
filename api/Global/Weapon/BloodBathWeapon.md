@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/BloodBathWeapon
 public class BloodBathWeapon : EquipmentScriptBase
 ```
 
+Script for [Blood Bath](/api/Global/Misc/BloodBath)'s EGO Weapon: Wrist Cutter. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BloodBathWeapon
 

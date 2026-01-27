@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahOverloadUI
 ```csharp
 public class BinahOverloadUI : MonoBehaviour
 ```
+Display for [An Arbiter](/api/Global/Script/BinahCoreScript)'s special Qliphoth meltdowns (a pretty color and a pretty name)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BinahOverloadUI
@@ -33,6 +35,8 @@ public BinahOverloadUI()
 ```csharp
 private bool _isActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private bool _isActivated
 ```csharp
 public List<Image> alarms
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public List<Image> alarms
 ```csharp
 private float alarmValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private float alarmValue
 ```csharp
 private string currentText
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private string currentText
 ```csharp
 public float originPositionY
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public float originPositionY
 ```csharp
 public OverloadType overloadType
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public OverloadType overloadType
 ```csharp
 public Text overloadTypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public Text overloadTypeText
 ```csharp
 public Image timerBar
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public Image timerBar
 ```csharp
 public Text timerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Text timerText
 ```csharp
 private float yAdder
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,12 +169,17 @@ public bool isActivated { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +192,8 @@ public void SetActive(bool b)
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,6 +206,8 @@ public void SetColor(Color c)
 ```csharp
 public void SetTimer(float t, float max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,3 +221,5 @@ public void SetTimer(float t, float max)
 ```csharp
 private void Update()
 ```
+#INC
+

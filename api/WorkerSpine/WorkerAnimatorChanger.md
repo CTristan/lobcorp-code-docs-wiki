@@ -36,6 +36,8 @@ public WorkerAnimatorChanger()
 ```csharp
 private Animator _animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private Animator _animator
 ```csharp
 private WorkerSpriteSetter _setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private WorkerSpriteSetter _setter
 ```csharp
 private SkeletonAnimator _skeletonAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private SkeletonAnimator _skeletonAnimator
 ```csharp
 public WorkerSpineAnimatorData CurrentData
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public WorkerSpineAnimatorData CurrentData
 ```csharp
 public WorkerSpineAnimatorData DefaultData
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,18 +150,25 @@ private SkeletonAnimator skeletonAnimator { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeAnimator()
 
 ```csharp
 public void ChangeAnimator()
 ```
+#INC
+
 
 ### ChangeAnimator(int)
 
 ```csharp
 public void ChangeAnimator(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,6 +181,8 @@ public void ChangeAnimator(int id)
 ```csharp
 public void ChangeAnimator(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,6 +195,8 @@ public void ChangeAnimator(string name)
 ```csharp
 public void ChangeAnimator(string name, bool separator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +210,8 @@ public void ChangeAnimator(string name, bool separator)
 ```csharp
 public void ChangeAnimatorWithUniqueFace(string name, bool separator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,6 +235,8 @@ public SkeletonAnimator GetAnimator()
 ```csharp
 private void SetAnimator(WorkerSpineAnimatorData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -224,6 +249,8 @@ private void SetAnimator(WorkerSpineAnimatorData data)
 ```csharp
 private void SetAnimator(WorkerSpineAnimatorData data, bool separator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,6 +264,8 @@ private void SetAnimator(WorkerSpineAnimatorData data, bool separator)
 ```csharp
 private void SetAnimatorWithUniqueFace(WorkerSpineAnimatorData data, bool separator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -262,9 +291,13 @@ public void SetState(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

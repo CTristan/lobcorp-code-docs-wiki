@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/BinahCoreScript
 public class BinahCoreScript : CreatureBase
 ```
 
+extends [CreatureBase](/api/Global/Creature/CreatureBase)
+
+An Arbiter, from [Binah's core suppression](/api/Global/Misc/BinahBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BinahCoreScript
 
@@ -33,6 +38,8 @@ public BinahCoreScript()
 ```csharp
 private Queue<BinahAction> _actionQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Queue<BinahAction> _actionQueue
 ```csharp
 private BinahAction _currentAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private BinahAction _currentAction
 ```csharp
 private BinahPhase _currentPhase
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private BinahPhase _currentPhase
 ```csharp
 private Timer _defenseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _defenseTimer
 ```csharp
 private bool _isHalted
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _isHalted
 ```csharp
 private bool _isInvincible
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private bool _isInvincible
 ```csharp
 private BinahPhaseExecution _phaseExecution
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private BinahPhaseExecution _phaseExecution
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private Timer _recoverTimer
 ```csharp
 private List<ProjectileModel> _waves
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private List<ProjectileModel> _waves
 ```csharp
 private BinahIntegerAction AnimIntegerEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private BinahIntegerAction AnimIntegerEvent
 ```csharp
 public static MinMax ArriveStopTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public static MinMax ArriveStopTime
 ```csharp
 private BinahVoidAction AttackEndEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private BinahVoidAction AttackEndEvent
 ```csharp
 private BinahDefenseType binahDefenseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private BinahDefenseType binahDefenseType
 ```csharp
 private BinahBossBase bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private BinahBossBase bossBase
 ```csharp
 private BinahOverload currentOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private BinahOverload currentOverload
 ```csharp
 private BinahVoidAction DamageEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private BinahVoidAction DamageEvent
 ```csharp
 public const float defaultSpeed = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ public const float defaultSpeed = 2.5
 ```csharp
 private BinahMovementModule movementModule
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private BinahMovementModule movementModule
 ```csharp
 private Dictionary<OverloadType, BinahOverload> overloads
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private Dictionary<OverloadType, BinahOverload> overloads
 ```csharp
 public const string PrefabFolder = "Effect/SefiraBoss/BinahBoss/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ public const string PrefabFolder = "Effect/SefiraBoss/BinahBoss/"
 ```csharp
 public const float workerSenseRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -630,6 +677,8 @@ public override bool IsSuppressable()
 ```csharp
 public static void Log(string log, bool isError = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -834,6 +883,9 @@ public void OnParticleArrived(BinahOverloadClearParticle ps)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnSuppressed()
 
@@ -860,6 +912,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -896,6 +950,8 @@ public void SetAttackEndEvent(BinahVoidAction action)
 ```csharp
 public void SetBossBase(BinahBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 

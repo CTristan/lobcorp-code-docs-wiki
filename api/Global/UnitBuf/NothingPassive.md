@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/NothingPassive
 public class NothingPassive : UnitBuf
 ```
 
+[Nothing There](/api/Global/Misc/Nothing)'s passive regeneration buff.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → NothingPassive
 
@@ -25,6 +30,8 @@ public class NothingPassive : UnitBuf
 ```csharp
 public NothingPassive(Nothing script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public NothingPassive(Nothing script)
 ```csharp
 private const float healFreq = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private const float healFreq = 1
 ```csharp
 private Timer healTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private Timer healTimer
 ```csharp
 private Nothing script
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,18 +84,25 @@ private Nothing script
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

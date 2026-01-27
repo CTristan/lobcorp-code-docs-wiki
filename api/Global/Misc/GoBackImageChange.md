@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/GoBackImageChange
 public class GoBackImageChange : MonoBehaviour
 ```
 
+Updates the sprite for an [elevator](/api/Global/Misc/ElevatorMover) when its state changes.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GoBackImageChange
 
@@ -33,6 +37,8 @@ public GoBackImageChange()
 ```csharp
 public GameObject backImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public GameObject backImage
 ```csharp
 public ElevatorMover elevatorState
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public ElevatorMover elevatorState
 ```csharp
 public GameObject goImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +75,14 @@ public GameObject goImage
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

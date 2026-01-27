@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/NothingWeapon
 public class NothingWeapon : EquipmentScriptBase
 ```
 
+Script for [Nothing There](/api/Global/Misc/Nothing)'s EGO Weapon: Mimicry.
+
+Does a special attack at a 10% chance.
+Heals 25% of damage dealt.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → NothingWeapon
 
@@ -33,6 +39,8 @@ public NothingWeapon()
 ```csharp
 private float _hpOld
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private float _hpOld
 ```csharp
 private const float lifeGainRatio = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private const float lifeGainRatio = 0.25
 ```csharp
 private const float pattern2Prob = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +94,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,6 +114,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

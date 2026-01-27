@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/MissionPrerequisite
 ```csharp
 public class MissionPrerequisite
 ```
+Represents another mission which needs to be completed before this one can be attempted.
+
+See [MissionManager](/api/Global/IOBserver/MissionManager)
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MissionPrerequisite
@@ -33,6 +39,8 @@ public MissionPrerequisite()
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,9 @@ public int level
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

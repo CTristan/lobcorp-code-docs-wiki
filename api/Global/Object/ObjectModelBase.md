@@ -11,6 +11,8 @@ canonical_path: /api/Global/Object/ObjectModelBase
 ```csharp
 public class ObjectModelBase
 ```
+Parent class for [rooms](/api/Global/Model/PassageObjectModel), [doors](/api/Global/Model/DoorObjectModel), and the [map](/api/Global/Model/MapObjectModel).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObjectModelBase
@@ -36,6 +38,9 @@ public ObjectModelBase()
 ```csharp
 public Vector3 position
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

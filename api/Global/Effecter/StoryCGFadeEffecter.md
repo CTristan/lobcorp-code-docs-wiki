@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effecter/StoryCGFadeEffecter
 public class StoryCGFadeEffecter : MonoBehaviour
 ```
 
+Controls how the current [CG](/api/Global/Misc/StoryCGCanvas) should fade in or out. See also [StoryCGFadeEffect](/api/Global/Effect/StoryCGFadeEffect).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryCGFadeEffecter
 
@@ -33,6 +36,8 @@ public StoryCGFadeEffecter()
 ```csharp
 private int _blinkCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int _blinkCount
 ```csharp
 private bool _blinking
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _blinking
 ```csharp
 private Timer _blinkOffTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _blinkOffTimer
 ```csharp
 private Timer _blinkOnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Timer _blinkOnTimer
 ```csharp
 private bool _fadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private bool _fadeIn
 ```csharp
 private bool _fadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private bool _fadeOut
 ```csharp
 private float _fadeProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private float _fadeProgress
 ```csharp
 private HashSet<Sprite> _usedSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private HashSet<Sprite> _usedSprites
 ```csharp
 public Image backImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +155,8 @@ public Material clockMat
 ```csharp
 public Image frontImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +167,8 @@ public Image frontImage
 ```csharp
 public Material upDownMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,12 +181,17 @@ public Material upDownMat
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeCG(string, StoryCGFadeEffect, float)
 
 ```csharp
 public void ChangeCG(string spriteSrc, StoryCGFadeEffect effect, float posY)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,12 +206,16 @@ public void ChangeCG(string spriteSrc, StoryCGFadeEffect effect, float posY)
 ```csharp
 private void FadeEnd()
 ```
+#INC
+
 
 ### RemoveCG(StoryCGFadeEffect)
 
 ```csharp
 public void RemoveCG(StoryCGFadeEffect effect)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,9 +228,13 @@ public void RemoveCG(StoryCGFadeEffect effect)
 ```csharp
 public void UnloadResrouces()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

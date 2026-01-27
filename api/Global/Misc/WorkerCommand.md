@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/WorkerCommand
 public class WorkerCommand : UnitCommand
 ```
 
+Parent class for commands to employees, which are instructions to change their current behaviour.
+
+Holds many static commands.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → WorkerCommand
 
@@ -36,6 +43,8 @@ public WorkerCommand()
 ```csharp
 public static WorkerCommand MakeFollowAgent(MovableObjectNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,6 +61,9 @@ public static WorkerCommand MakeFollowAgent(MovableObjectNode targetNode)
 ```csharp
 public static WorkerCommand MakeManageCreature(CreatureModel targetCreature, AgentModel agent, SkillTypeInfo skill, Sprite skillSprite)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -71,6 +83,8 @@ public static WorkerCommand MakeManageCreature(CreatureModel targetCreature, Age
 ```csharp
 public static WorkerCommand MakeMove(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +101,8 @@ public static WorkerCommand MakeMove(MapNode node)
 ```csharp
 public static WorkerCommand MakeMove(MovableObjectNode movable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +119,8 @@ public static WorkerCommand MakeMove(MovableObjectNode movable)
 ```csharp
 public static WorkerCommand MakeOfficerSpecialAction(OfficerSpecialAction action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +137,8 @@ public static WorkerCommand MakeOfficerSpecialAction(OfficerSpecialAction action
 ```csharp
 public static WorkerCommand MakePanicPursueAgent(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +155,8 @@ public static WorkerCommand MakePanicPursueAgent(UnitModel target)
 ```csharp
 public static WorkerCommand MakeReturnCreature(CreatureModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +173,8 @@ public static WorkerCommand MakeReturnCreature(CreatureModel target)
 ```csharp
 public static WorkerCommand MakeSuppressCommand(UnitModel targetObject)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +191,8 @@ public static WorkerCommand MakeSuppressCommand(UnitModel targetObject)
 ```csharp
 public static WorkerCommand MakeUnconPursueAgent(UnitModel targetAgent)
 ```
+#INC
+
 
 #### Parameters
 

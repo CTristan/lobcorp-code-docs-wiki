@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LittleWitchMonster
 public class LittleWitchMonster : CreatureBase
 ```
 
+[Laetitia](/api/Global/Misc/LittleWitch)'s friend, Little Witch's Friend.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → LittleWitchMonster
 
@@ -33,6 +38,8 @@ public LittleWitchMonster()
 ```csharp
 private LittleWitchMonsterAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private LittleWitchMonsterAnim _animScript
 ```csharp
 private UnitModel _currentAttackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private UnitModel _currentAttackTarget
 ```csharp
 private Timer _elevatorTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer _elevatorTimer
 ```csharp
 private bool _init
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool _init
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _isAttacking
 ```csharp
 private AgentModel _origin
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private AgentModel _origin
 ```csharp
 private LittleWitch _witch
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private LittleWitch _witch
 ```csharp
 private static string BornSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private static string BornSound
 ```csharp
 private static string BornSound2
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private static string BornSound2
 ```csharp
 private static string DeadSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private static string DeadSound
 ```csharp
 private static string[] DefaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private static string[] DefaultSound
 ```csharp
 private Timer DefaultSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private Timer DefaultSoundTimer
 ```csharp
 public static string HitSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,12 +238,16 @@ private ChildCreatureUnit UnitCasted { get; }
 ```csharp
 public void AnimscriptAttack()
 ```
+#INC
+
 
 ### Attack(UnitModel)
 
 ```csharp
 public void Attack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,12 +260,16 @@ public void Attack(UnitModel target)
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### GetAttackType(UnitModel)
 
 ```csharp
 private int GetAttackType(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -247,6 +286,8 @@ private int GetAttackType(UnitModel target)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,12 +304,16 @@ public string GetSoundSrc(string key)
 ```csharp
 public void MakeMovement()
 ```
+#INC
+
 
 ### MakeMovement(MapNode)
 
 ```csharp
 public void MakeMovement(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +326,8 @@ public void MakeMovement(MapNode node)
 ```csharp
 public void MakeMovement(MovableObjectNode target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,6 +340,8 @@ public void MakeMovement(MovableObjectNode target)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,6 +358,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -319,6 +370,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,18 +384,25 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnReadyToMove()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -355,6 +415,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +429,8 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SetOrigin(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,9 +443,13 @@ public void SetOrigin(AgentModel agent)
 ```csharp
 public void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

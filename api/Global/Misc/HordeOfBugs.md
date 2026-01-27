@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/HordeOfBugs
 public class HordeOfBugs : RandomEventBase
 ```
 
+Unused random event.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [RandomEventBase](/api/Global/Misc/RandomEventBase) → HordeOfBugs
 
@@ -33,6 +38,8 @@ public HordeOfBugs()
 ```csharp
 private List<TastyBug> bugs
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private List<TastyBug> bugs
 ```csharp
 private List<DaughterBug> daughterBugs
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private List<DaughterBug> daughterBugs
 ```csharp
 public const string daughterBugSrc = "StandingItem/DaughterBugAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public const string daughterBugSrc = "StandingItem/DaughterBugAnim"
 ```csharp
 public const long daughterId = 10043
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public const long daughterId = 10043
 ```csharp
 public const int daughterMax = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public const int daughterMax = 100
 ```csharp
 public const float DelayEnableMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public const float DelayEnableMax = 3
 ```csharp
 public const float DelayEnableMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public const float DelayEnableMin = 1
 ```csharp
 private GrandmaBug grandBug
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private GrandmaBug grandBug
 ```csharp
 public const string grandBugSrc = "StandingItem/TastyBugs/GrandBug"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public const string grandBugSrc = "StandingItem/TastyBugs/GrandBug"
 ```csharp
 public const long grandmaId = 10041
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public const long grandmaId = 10041
 ```csharp
 public const string hordeBgm = ""
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public const string hordeBgm = ""
 ```csharp
 private List<MotherBug> motherBugs
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private List<MotherBug> motherBugs
 ```csharp
 public const string motherBugSrc = "StandingItem/HordeOfBugs/MotherBug"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ public const string motherBugSrc = "StandingItem/HordeOfBugs/MotherBug"
 ```csharp
 public const long motherId = 10042
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public const long motherId = 10042
 ```csharp
 public const int motherMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public const int motherMax = 20
 ```csharp
 public int numOfDaughters
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ public int numOfDaughters
 ```csharp
 public int numOfMothers
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ public int numOfMothers
 ```csharp
 public List<PassageObjectModel> sefiraPassages
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +256,8 @@ public List<PassageObjectModel> sefiraPassages
 ```csharp
 public void EnableBugs(HordeOfBugsScript.BugType type, MapNode node, params UnitDirection[] direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -229,6 +272,8 @@ public void EnableBugs(HordeOfBugsScript.BugType type, MapNode node, params Unit
 ```csharp
 public PassageObjectModel GetOtherpassage(PassageObjectModel current)
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,6 +290,8 @@ public PassageObjectModel GetOtherpassage(PassageObjectModel current)
 ```csharp
 public PassageObjectModel GetRandomTargetPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -255,6 +302,8 @@ public PassageObjectModel GetRandomTargetPassage()
 ```csharp
 public GameObject LoadBug(string src, long metaId, out HordeOfBugsScript script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,36 +322,49 @@ public GameObject LoadBug(string src, long metaId, out HordeOfBugsScript script)
 ```csharp
 public override void ManualDisable()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 public override void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public override void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### SetTime(float)
 
 ```csharp
 public void SetTime(float time)
 ```
+#INC
+
 
 #### Parameters
 

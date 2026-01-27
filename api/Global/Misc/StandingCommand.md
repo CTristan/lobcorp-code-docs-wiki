@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StandingCommand
 public class StandingCommand : UnitCommand
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → StandingCommand
 
@@ -54,6 +57,8 @@ public virtual void Finish()
 ```csharp
 public static MoveItemCommand MoveCommand(MapNode mapNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +92,9 @@ public static MoveItemCommand MoveCommand(MapNode mapNode, StandingCommand.OnCom
 ```csharp
 public static MoveItemCommand MoveCommand(MovableObjectNode movable)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherUpperBossBase
 ```csharp
 public class KetherUpperBossBase : KetherBossBase
 ```
+Day 47 suppression
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → [KetherBossBase](/api/KetherBoss/KetherBossBase) → KetherUpperBossBase
@@ -25,6 +27,8 @@ public class KetherUpperBossBase : KetherBossBase
 ```csharp
 public KetherUpperBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +37,8 @@ public KetherUpperBossBase()
 ```csharp
 private CameraFilterPack_FX_Glitch3 _glitch
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private CameraFilterPack_FX_Glitch3 _glitch
 ```csharp
 private const float _hodReduceVal = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private KetherUpperBossBase.KetherUpperPhase _phase
 ```csharp
 private float _phaseShiftEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private float _phaseShiftEffectTime
 ```csharp
 private UnscaledTimer _phaseShiftTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private UnscaledTimer _phaseShiftTimer
 ```csharp
 private CameraFilterPack_Pixel_Pixelisation _pixelisation
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private CameraFilterPack_Pixel_Pixelisation _pixelisation
 ```csharp
 private const string bgm0 = "Sounds/BGM/Boss/Event/47/1_Tilarids - Red Dots"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private const string bgm0 = "Sounds/BGM/Boss/Event/47/1_Tilarids - Red Dots"
 ```csharp
 private const string bgm1 = "Sounds/BGM/Boss/Event/47/2_Tilarids - Faded"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private const string bgm1 = "Sounds/BGM/Boss/Event/47/2_Tilarids - Faded"
 ```csharp
 private const string bgm2 = "Sounds/BGM/Boss/Event/47/3_Theme_-_Retro_Time_ALT(Mix)"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private const string bgm2 = "Sounds/BGM/Boss/Event/47/3_Theme_-_Retro_Time_ALT(M
 ```csharp
 private const string bgm3 = "Sounds/BGM/Boss/Event/47/4_Tilarids - Blue Dots"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private const string bgm3 = "Sounds/BGM/Boss/Event/47/4_Tilarids - Blue Dots"
 ```csharp
 private const string bgm4 = "Sounds/BGM/Boss/Event/47/5_Tilarids - Violation Of Black Colors"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ private const string bgm4 = "Sounds/BGM/Boss/Event/47/5_Tilarids - Violation Of 
 ```csharp
 public List<HodBossBuf> bufList
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public List<HodBossBuf> bufList
 ```csharp
 private YesodBossCameraScript cameraScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ private YesodBossCameraScript cameraScript
 ```csharp
 private const int clearQliphothLevel = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +203,8 @@ private const int clearQliphothLevel = 6
 ```csharp
 private CameraFilterPack_AAA_SuperComputer superComputer
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +215,8 @@ private CameraFilterPack_AAA_SuperComputer superComputer
 ```csharp
 private float totalEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +227,8 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +269,8 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -243,6 +281,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,6 +293,8 @@ public override bool IsReadyToClose()
 ```csharp
 public override bool IsStartEmergencyBgm()
 ```
+#INC
+
 
 #### Returns
 
@@ -263,12 +305,16 @@ public override bool IsStartEmergencyBgm()
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,24 +327,33 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 private void OnPhaseShift()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetCameraScript(YesodBossCameraScript)
 
 ```csharp
 public void SetCameraScript(YesodBossCameraScript cameraScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,6 +366,8 @@ public void SetCameraScript(YesodBossCameraScript cameraScript)
 ```csharp
 public void SetHodBufValue(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,3 +380,5 @@ public void SetHodBufValue(float value)
 ```csharp
 public override void Update()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CreatureCommand
 ```csharp
 public class CreatureCommand
 ```
+Instruction to an abnormality to do something (looks like mostly movement)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureCommand
@@ -36,6 +38,8 @@ public CreatureCommand()
 ```csharp
 public CreatureModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ public CreatureModel actor
 ```csharp
 public CreatureCommandQueue cmdQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public CreatureCommand.OnCommandEnd endCmd
 ```csharp
 public bool isFinished
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,18 +86,24 @@ public bool isFinished
 ```csharp
 public virtual void Execute()
 ```
+#INC
+
 
 ### Finish()
 
 ```csharp
 public virtual void Finish()
 ```
+#INC
+
 
 ### MakeMove(MapNode)
 
 ```csharp
 public static CreatureCommand MakeMove(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -106,6 +120,8 @@ public static CreatureCommand MakeMove(MapNode node)
 ```csharp
 public static CreatureCommand MakeMove(MovableObjectNode movable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -122,6 +138,8 @@ public static CreatureCommand MakeMove(MovableObjectNode movable)
 ```csharp
 public static CreatureCommand MakePursue(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,6 +156,8 @@ public static CreatureCommand MakePursue(WorkerModel worker)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,6 +174,8 @@ public static CreatureCommand MakePursueAlter(WorkerModel target)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +193,8 @@ public static CreatureCommand MakePursueAlter(WorkerModel target, float damage)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target, RwbpType dmgType, int dmgMin, int dmgMax)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,12 +214,17 @@ public static CreatureCommand MakePursueAlter(WorkerModel target, RwbpType dmgTy
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(CreatureModel, CreatureCommandQueue)
 
 ```csharp
 public virtual void OnInit(CreatureModel creature, CreatureCommandQueue cmdQueue)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -209,12 +238,16 @@ public virtual void OnInit(CreatureModel creature, CreatureCommandQueue cmdQueue
 ```csharp
 public virtual void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public virtual void OnStop()
 ```
+#INC
+
 
 ### SetEndCommand(OnCommandEnd)
 

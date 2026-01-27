@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StandingItemAnim
 public class StandingItemAnim : MonoBehaviour
 ```
 
+Animation handler for a [StandingItemModel](/api/Global/Model/StandingItemModel).
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StandingItemAnim
 
@@ -36,6 +41,8 @@ public StandingItemAnim()
 ```csharp
 protected StandingItemUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ protected StandingItemUnit _unit
 ```csharp
 protected StandingItemScriptBase scriptBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +89,8 @@ public StandingItemUnit unit { get; }
 ```csharp
 public virtual void SetScript(StandingItemScriptBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,6 +103,9 @@ public virtual void SetScript(StandingItemScriptBase script)
 ```csharp
 public virtual void SetUnit(StandingItemUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -104,9 +118,13 @@ public virtual void SetUnit(StandingItemUnit unit)
 ```csharp
 protected virtual void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 protected virtual void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BugDawn
 public class BugDawn : BugOrdealCreature
 ```
 
+Amber Dawn creature.
+
+See [BugDawnOrdeal](/api/Global/Misc/BugDawnOrdeal).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BugOrdealCreature](/api/Global/Creature/BugOrdealCreature) → BugDawn
 
@@ -33,6 +38,8 @@ public BugDawn()
 ```csharp
 private BugDawnAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private BugDawnAnim _animScript
 ```csharp
 private const float _appearanceDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _appearanceDelayMax = 1
 ```csharp
 private const float _appearanceDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _appearanceDelayMin = 0.5
 ```csharp
 private const int _appearDmgMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _appearDmgMax = 2
 ```csharp
 private const int _appearDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _appearDmgMin = 1
 ```csharp
 private const float _attackDelayMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _attackDelayMax = 2
 ```csharp
 private const float _attackDelayMin = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _attackDelayMin = 1.5
 ```csharp
 private const int _attackDmgMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _attackDmgMax = 2
 ```csharp
 private const int _attackDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const int _attackDmgMin = 1
 ```csharp
 private MapNode _attackNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private MapNode _attackNode
 ```csharp
 private const float _attackRange = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float _attackRange = 5
 ```csharp
 private const float _beforeteleportTimeMax = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float _beforeteleportTimeMax = 0.3
 ```csharp
 private const float _beforeteleportTimeMin = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _beforeteleportTimeMin = 0.1
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private UnitModel _currentTarget
 ```csharp
 private const float _sideNodeRemoveRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _sideNodeRemoveRange = 3
 ```csharp
 private const float _soundDistDobule = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const float _soundDistDobule = 30
 ```csharp
 private const float _speedMax = 3.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _speedMax = 3.2
 ```csharp
 private const float _speedMin = 2.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float _speedMin = 2.8
 ```csharp
 private MapNode _targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private MapNode _targetNode
 ```csharp
 private const float _teleportDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const float _teleportDelayMax = 1
 ```csharp
 private const float _teleportDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private const float _teleportDelayMin = 0.5
 ```csharp
 private Timer appearanceTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private Timer appearanceTimer
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private Timer attackDelayTimer
 ```csharp
 private UnitDirection attackDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private UnitDirection attackDirection
 ```csharp
 private Timer beforeteleportTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private Timer beforeteleportTimer
 ```csharp
 private List<UnitModel> damagedUnits
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private List<UnitModel> damagedUnits
 ```csharp
 private float oldPosX
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +362,8 @@ private float oldPosX
 ```csharp
 private Timer teleportDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -397,6 +458,8 @@ private static float teleportDelay { get; }
 ```csharp
 public bool CanRangeInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -407,18 +470,24 @@ public bool CanRangeInCamera()
 ```csharp
 private void FindTarget()
 ```
+#INC
+
 
 ### GetAttackNode()
 
 ```csharp
 private void GetAttackNode()
 ```
+#INC
+
 
 ### GiveAppearDmg(float)
 
 ```csharp
 public void GiveAppearDmg(float baseRange)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,12 +500,16 @@ public void GiveAppearDmg(float baseRange)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsHostile(UnitModel)
 
 ```csharp
 private bool IsHostile(UnitModel u)
 ```
+#INC
+
 
 #### Parameters
 
@@ -453,12 +526,16 @@ private bool IsHostile(UnitModel u)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### NodeSelection(PassageObjectModel)
 
 ```csharp
 private MapNode NodeSelection(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -475,6 +552,8 @@ private MapNode NodeSelection(PassageObjectModel passage)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -485,24 +564,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnEndAttack()
 ```
+#INC
+
 
 ### OnEndDigIn()
 
 ```csharp
 public void OnEndDigIn()
 ```
+#INC
+
 
 ### OnEndDigOut()
 
 ```csharp
 public void OnEndDigOut()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -515,6 +602,9 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -527,6 +617,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void ProcessAttack(float baseRange)
 ```
+#INC
+
 
 #### Parameters
 
@@ -539,12 +631,16 @@ private void ProcessAttack(float baseRange)
 ```csharp
 private void ProcessMoving()
 ```
+#INC
+
 
 ### ReadyToTeleport(PassageObjectModel)
 
 ```csharp
 public override void ReadyToTeleport(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -557,15 +653,21 @@ public override void ReadyToTeleport(PassageObjectModel passage)
 ```csharp
 private void StartAttack()
 ```
+#INC
+
 
 ### StartTeleport()
 
 ```csharp
 public void StartTeleport()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+

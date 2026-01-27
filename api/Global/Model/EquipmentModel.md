@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/EquipmentModel
 ```csharp
 public class EquipmentModel
 ```
+Represents EGO.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentModel
@@ -36,6 +40,8 @@ public EquipmentModel()
 ```csharp
 private UnitModel _owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private UnitModel _owner
 ```csharp
 public UnitModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public UnitModel currentTarget
 ```csharp
 public long instanceId
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public long instanceId
 ```csharp
 public EquipmentTypeInfo metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public EquipmentTypeInfo metaInfo
 ```csharp
 public EquipmentScriptBase script
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +114,8 @@ public UnitModel owner { get; }
 ```csharp
 public bool CheckRequire(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +132,8 @@ public bool CheckRequire(UnitModel unit)
 ```csharp
 public EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +150,8 @@ public EGObonusInfo GetBonus(UnitModel actor)
 ```csharp
 public float GetDamageFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,6 +162,8 @@ public float GetDamageFactor()
 ```csharp
 public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +181,8 @@ public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```csharp
 public void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +195,8 @@ public void OnCancelWeapon(UnitModel actor)
 ```csharp
 public void OnEquip(UnitModel newOwner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,12 +209,17 @@ public void OnEquip(UnitModel newOwner)
 ```csharp
 public virtual void OnFixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnPrepareWeapon(UnitModel)
 
 ```csharp
 public void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,12 +232,16 @@ public void OnPrepareWeapon(UnitModel actor)
 ```csharp
 public void OnRelease()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, ref DamageInfo)
 
 ```csharp
 public void OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,6 +255,8 @@ public void OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 public void OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 

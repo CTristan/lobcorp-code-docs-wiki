@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/BloodBathArmor
 public class BloodBathArmor : EquipmentScriptBase
 ```
 
+Script for [Blood Bath](/api/Global/Misc/BloodBath)'s EGO Suit: Wrist Cutter. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BloodBathArmor
 
@@ -33,6 +38,8 @@ public BloodBathArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

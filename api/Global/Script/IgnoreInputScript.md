@@ -12,6 +12,10 @@ canonical_path: /api/Global/Script/IgnoreInputScript
 public class IgnoreInputScript : MonoBehaviour, ICanvasRaycastFilter
 ```
 
+Debugging tool, probably?
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IgnoreInputScript
 
@@ -36,6 +40,8 @@ public IgnoreInputScript()
 ```csharp
 private bool _currentTransparent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private bool _currentTransparent
 ```csharp
 public Image currentDisplayedImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public Image currentDisplayedImage
 ```csharp
 public Text DebuggingLog
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public Text DebuggingLog
 ```csharp
 public bool isAllowInnerInput
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public bool isAllowInnerInput
 ```csharp
 public bool ReturningVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +124,8 @@ public bool currentTransparent { get; }
 ```csharp
 public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,9 +143,14 @@ public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

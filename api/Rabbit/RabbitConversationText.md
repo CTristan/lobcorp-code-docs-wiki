@@ -11,6 +11,10 @@ canonical_path: /api/Rabbit/RabbitConversationText
 ```csharp
 public static class RabbitConversationText
 ```
+For getting [rabbit](/api/Global/Model/RabbitModel) yapping text.
+
+Randomly selects from the available text for the given type. See [RabbitConversationType](/api/Rabbit/RabbitConversationType).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitConversationText
@@ -25,6 +29,8 @@ public static class RabbitConversationText
 ```csharp
 public static int[] keyCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +41,8 @@ public static int[] keyCount
 ```csharp
 private const string txt = "Rabbit_Unit_{0}_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -47,6 +55,9 @@ private const string txt = "Rabbit_Unit_{0}_"
 ```csharp
 public static string GetKey(RabbitConversationType type)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,6 +74,8 @@ public static string GetKey(RabbitConversationType type)
 ```csharp
 public static string GetText(RabbitConversationType type)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SkillTrigger
 ```csharp
 public class SkillTrigger
 ```
+Stores the event to call when called by [SkillTriggerCheck](/api/Global/Misc/SkillTriggerCheck).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkillTrigger
@@ -66,6 +70,8 @@ public List<SkillTrigger.CalledEvent> calledEvent
 ```csharp
 public bool check
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +82,8 @@ public bool check
 ```csharp
 public bool clearOnActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +94,8 @@ public bool clearOnActivated
 ```csharp
 public bool clearOnFalse
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +116,8 @@ public List<SkillTrigger.CalledEvent> commonClearEvent
 ```csharp
 public int currentCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +128,8 @@ public int currentCount
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +140,8 @@ public int index
 ```csharp
 public int maxCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,12 +154,17 @@ public int maxCount
 ```csharp
 public virtual void Init()
 ```
+#INC
+
 
 ### isActivated(object)
 
 ```csharp
 public virtual bool isActivated(object checkedTarget)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -160,3 +181,5 @@ public virtual bool isActivated(object checkedTarget)
 ```csharp
 public virtual void OnSkillActivated()
 ```
+#INC
+

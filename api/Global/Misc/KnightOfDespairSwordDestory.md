@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/KnightOfDespairSwordDestory
 public class KnightOfDespairSwordDestory : MonoBehaviour
 ```
 
+Script which destroys [The Knight of Despair's thrown sword](/api/Global/Misc/KnightOfDespiarThrowedSword) after it kills the target, or after a certain amount of time? #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → KnightOfDespairSwordDestory
 
@@ -33,6 +36,8 @@ public KnightOfDespairSwordDestory()
 ```csharp
 public float destroyTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public float destroyTime
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float elapsedTime
 ```csharp
 public UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,3 +74,6 @@ public UnitModel target
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+#code-generated
+

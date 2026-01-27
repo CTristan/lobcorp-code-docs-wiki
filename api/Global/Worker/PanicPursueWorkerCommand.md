@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/PanicPursueWorkerCommand
 public class PanicPursueWorkerCommand : WorkerCommand
 ```
 
+Command for a worker to chase another worker during [violent panic behaviour](/api/Global/Misc/PanicViolence).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → PanicPursueWorkerCommand
 
@@ -25,6 +28,8 @@ public class PanicPursueWorkerCommand : WorkerCommand
 ```csharp
 public PanicPursueWorkerCommand(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public PanicPursueWorkerCommand(UnitModel target)
 ```csharp
 public float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ public float elapsedTime
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,30 +70,41 @@ private UnitModel target
 ```csharp
 private void CheckPursueTarget()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### MoveOrAttack()
 
 ```csharp
 private void MoveOrAttack()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -97,3 +117,5 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+

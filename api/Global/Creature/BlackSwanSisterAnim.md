@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BlackSwanSisterAnim
 public class BlackSwanSisterAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Dream of a Black Swan's breaching form](/api/Global/Misc/BlackSwanSister).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BlackSwanSisterAnim
 
@@ -36,6 +39,8 @@ public BlackSwanSisterAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private BlackSwanSister script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,18 +65,24 @@ private BlackSwanSister script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -82,24 +95,32 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 public void AttackStart()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +134,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,6 +146,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsCastingSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -133,6 +158,8 @@ public bool IsCastingSkill()
 ```csharp
 public bool IsReflecting()
 ```
+#INC
+
 
 #### Returns
 
@@ -143,6 +170,8 @@ public bool IsReflecting()
 ```csharp
 public bool IsTransformed()
 ```
+#INC
+
 
 #### Returns
 
@@ -153,12 +182,16 @@ public bool IsTransformed()
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +204,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetRefelect(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +218,9 @@ public void SetRefelect(bool active)
 ```csharp
 public void SetScript(BlackSwanSister script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -195,30 +233,40 @@ public void SetScript(BlackSwanSister script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SkillDamage()
 
 ```csharp
 private void SkillDamage()
 ```
+#INC
+
 
 ### SkillEnd()
 
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### SkillStart()
 
 ```csharp
 public void SkillStart()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,9 +279,13 @@ public void SoundMake(string src)
 ```csharp
 public void Transform()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

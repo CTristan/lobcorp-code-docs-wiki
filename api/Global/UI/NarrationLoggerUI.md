@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/NarrationLoggerUI
 public class NarrationLoggerUI : MonoBehaviour, IObserver, IActivatableObject
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NarrationLoggerUI
 
@@ -36,6 +39,8 @@ public NarrationLoggerUI()
 ```csharp
 private bool activatableObjectInitiated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool activatableObjectInitiated
 ```csharp
 private bool addedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private bool addedText
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public Animator animator
 ```csharp
 private float boxPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private float boxPosition
 ```csharp
 private float diff
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private float diff
 ```csharp
 public RectTransform eventTriggerTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public RectTransform eventTriggerTarget
 ```csharp
 public static NarrationLoggerUI instantNarrationLog
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public static NarrationLoggerUI instantNarrationLog
 ```csharp
 private float lastTextHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private float lastTextHeight
 ```csharp
 private float lastTextPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private float lastTextPosition
 ```csharp
 public GameObject logBoard
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public GameObject logBoard
 ```csharp
 private int logSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private int logSize
 ```csharp
 public CreatureModel newInputCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public CreatureModel newInputCreature
 ```csharp
 public CreatureModel oldInputCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +206,8 @@ public LoggingScript script
 ```csharp
 public CreatureModel targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +218,8 @@ public CreatureModel targetCreature
 ```csharp
 public Text title
 ```
+#INC
+
 
 #### Field Value
 
@@ -210,12 +243,16 @@ public ActivatableObjectPos windowPos
 ```csharp
 public void Activate()
 ```
+#INC
+
 
 ### AddText(string)
 
 ```csharp
 public void AddText(string msg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -228,54 +265,73 @@ public void AddText(string msg)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Close()
 
 ```csharp
 public void Close()
 ```
+#INC
+
 
 ### Deactivate()
 
 ```csharp
 public void Deactivate()
 ```
+#INC
+
 
 ### logClear()
 
 ```csharp
 public void logClear()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,12 +345,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnTargetCreatureUpdate()
 ```
+#INC
+
 
 ### OnUIAreaClick(BaseEventData)
 
 ```csharp
 public void OnUIAreaClick(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -307,12 +367,16 @@ public void OnUIAreaClick(BaseEventData eventData)
 ```csharp
 public void ReDraw()
 ```
+#INC
+
 
 ### SetLogList(CreatureModel)
 
 ```csharp
 public void SetLogList(CreatureModel focusCreature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,3 +389,5 @@ public void SetLogList(CreatureModel focusCreature)
 ```csharp
 public void UIActivateInit()
 ```
+#INC
+

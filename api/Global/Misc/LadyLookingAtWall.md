@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LadyLookingAtWall
 public class LadyLookingAtWall : CreatureBase
 ```
 
+The Lady Facing the Wall.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → LadyLookingAtWall
 
@@ -33,6 +38,8 @@ public LadyLookingAtWall()
 ```csharp
 private LadyLookingAtWallAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private LadyLookingAtWallAnim animScript
 ```csharp
 private readonly string beep
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly string beep
 ```csharp
 public CreatureUnit currentCreatureUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public CreatureUnit currentCreatureUnit
 ```csharp
 private readonly string DEFAULT_SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private readonly string DEFAULT_SOUND_SRC
 ```csharp
 private const int dmgMax = 24
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int dmgMax = 24
 ```csharp
 private const int dmgMin = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int dmgMin = 18
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private RwbpType dmgType
 ```csharp
 private const float panicDelay = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float panicDelay = 4
 ```csharp
 private Timer panicTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer panicTimer
 ```csharp
 private readonly string surprise4
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private readonly string surprise4
 ```csharp
 public AgentModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,12 +184,16 @@ private static int GetDamage { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### HasRoomCounter()
 
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -173,6 +204,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +218,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +232,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,6 +246,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,12 +260,16 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +282,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,15 +296,22 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public void Panic()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### SpecialAbility()
 
 ```csharp
 private void SpecialAbility()
 ```
+#INC
+

@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/FactionTypeInfo
 ```csharp
 public class FactionTypeInfo
 ```
+Contains a layer of units which are considered in the same group for targetting, e.g., workers, or idle creatures, or panicked workers.
+
+Contains a list of factions which are considered hostile.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FactionTypeInfo
@@ -33,6 +39,8 @@ public FactionTypeInfo()
 ```csharp
 public string code
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public FactionTypeInfo.ExceptType except
 ```csharp
 public Dictionary<string, FactionActionType> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Dictionary<string, FactionActionType> lib
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public string name
 ```csharp
 public string type
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,9 @@ public string type
 ```csharp
 public FactionActionType Check(UnitModel unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

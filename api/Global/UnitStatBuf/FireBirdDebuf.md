@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitStatBuf/FireBirdDebuf
 public class FireBirdDebuf : UnitStatBuf
 ```
 
+[The Firebird](/api/Global/IOBserver/FireBird)'s blinding effect on employees that attack it. Halves work speed until The Firebird is worked.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → FireBirdDebuf
 
@@ -25,6 +28,8 @@ public class FireBirdDebuf : UnitStatBuf
 ```csharp
 public FireBirdDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public FireBirdDebuf()
 ```csharp
 private const string _DEBUF_SRC = "Effect/Creature/FireBird/FireBirdDebufEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const string _DEBUF_SRC = "Effect/Creature/FireBird/FireBirdDebufEffect"
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private AgentModel agent
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,18 +76,25 @@ private GameObject effect
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### DestroyEffect()
 
 ```csharp
 private void DestroyEffect()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -89,9 +107,13 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

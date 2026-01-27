@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/OutterGodMidnightAnim
 public class OutterGodMidnightAnim : CreatureAnimScript
 ```
 
+Animation handler for [OutterGodMidnight](/api/Global/OutterGodMidnight/OutterGodMidnight)s.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → OutterGodMidnightAnim
 
@@ -33,6 +36,8 @@ public OutterGodMidnightAnim()
 ```csharp
 public GameObject alive
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public GameObject alive
 ```csharp
 public GameObject dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject dead
 ```csharp
 private OutterGodMidnight script
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,9 @@ private OutterGodMidnight script
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -75,18 +87,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void OnTakeDamage()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(OutterGodMidnight)
 
 ```csharp
 public void SetScript(OutterGodMidnight script)
 ```
+#INC
+
 
 #### Parameters
 

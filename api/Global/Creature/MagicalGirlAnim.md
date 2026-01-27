@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MagicalGirlAnim
 public class MagicalGirlAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Queen of Hatred](/api/Global/IOBserver/MagicalGirl).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MagicalGirlAnim
 
@@ -36,6 +41,8 @@ public MagicalGirlAnim()
 ```csharp
 private const string _bangHeroSrc = "Effect/Creature/MagicalGirl/MagicalGirlGun_Hero"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _bangHeroSrc = "Effect/Creature/MagicalGirl/MagicalGirlGun_
 ```csharp
 private const string _dmgEffectSrc = "Effect/Creature/MagicalGirl/MagicalGirlDamageEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _dmgEffectSrc = "Effect/Creature/MagicalGirl/MagicalGirlDam
 ```csharp
 private const string _laserHeroSrc_1st = "Effect/Creature/MagicalGirl/MagicalGirlLaser_Hero_1st"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _laserHeroSrc_1st = "Effect/Creature/MagicalGirl/MagicalGir
 ```csharp
 private const string _laserHeroSrc_2nd = "Effect/Creature/MagicalGirl/MagicalGirlLaser_Hero_2nd"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _laserHeroSrc_2nd = "Effect/Creature/MagicalGirl/MagicalGir
 ```csharp
 private const string _laserVillainSrc_1st = "Effect/Creature/MagicalGirl/MagicalGirlLaser_Villain_1st"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _laserVillainSrc_1st = "Effect/Creature/MagicalGirl/Magical
 ```csharp
 private const string _laserVillainSrc_2nd = "Effect/Creature/MagicalGirl/MagicalGirlLaser_Villain_2nd"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const string _laserVillainSrc_2nd = "Effect/Creature/MagicalGirl/Magical
 ```csharp
 private const string _laserVillainSrc_3rd = "Effect/Creature/MagicalGirl/MagicalGirlLaser_Villain_3rd"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const string _laserVillainSrc_3rd = "Effect/Creature/MagicalGirl/Magical
 ```csharp
 private SpineOptimizerModule _module1
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private SpineOptimizerModule _module1
 ```csharp
 private SpineOptimizerModule _module2
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private SpineOptimizerModule _module2
 ```csharp
 private const string _normalAttackHeroSrc = "Effect/Creature/MagicalGirl/MagicalGirlNormalAttack_Hero"
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private const string _normalAttackHeroSrc = "Effect/Creature/MagicalGirl/Magical
 ```csharp
 private const string _sound_hero_atk = "hero_atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private const string _sound_hero_atk = "hero_atk"
 ```csharp
 private const string _sound_hero_delay1 = "hero_delay1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private const string _sound_hero_delay1 = "hero_delay1"
 ```csharp
 private const string _sound_hero_delay2 = "hero_delay2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private const string _sound_hero_delay2 = "hero_delay2"
 ```csharp
 private const string _sound_hero_delay_loop1 = "hero_delay_loop1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private const string _sound_hero_delay_loop1 = "hero_delay_loop1"
 ```csharp
 private const string _sound_hero_delay_loop2 = "hero_delay_loop2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private const string _sound_hero_delay_loop2 = "hero_delay_loop2"
 ```csharp
 private const string _sound_hero_gun_shot = "hero_gun_shot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private const string _sound_hero_gun_shot = "hero_gun_shot"
 ```csharp
 private const string _sound_hero_gun_start = "gun_start"
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ private const string _sound_hero_gun_start = "gun_start"
 ```csharp
 private const string _sound_hero_kiss1 = "hero_kiss1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ private const string _sound_hero_kiss1 = "hero_kiss1"
 ```csharp
 private const string _sound_hero_kiss2 = "hero_kiss2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ private const string _sound_hero_kiss2 = "hero_kiss2"
 ```csharp
 private const string _sound_hero_panic_down = "hero_panic_down"
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +281,8 @@ private const string _sound_hero_panic_down = "hero_panic_down"
 ```csharp
 private const string _sound_hero_panic_loop = "hero_panic_loop"
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +293,8 @@ private const string _sound_hero_panic_loop = "hero_panic_loop"
 ```csharp
 private const string _sound_hero_portal = "hero_portal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +305,8 @@ private const string _sound_hero_portal = "hero_portal"
 ```csharp
 private const string _sound_hero_skill_castend = "hero_skill_castend"
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +317,8 @@ private const string _sound_hero_skill_castend = "hero_skill_castend"
 ```csharp
 private const string _sound_hero_skill_loop = "hero_skill_loop"
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +329,8 @@ private const string _sound_hero_skill_loop = "hero_skill_loop"
 ```csharp
 private const string _sound_hero_skill_portal1 = "hero_skill_portal1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +341,8 @@ private const string _sound_hero_skill_portal1 = "hero_skill_portal1"
 ```csharp
 private const string _sound_hero_skill_portal2 = "hero_skill_portal2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +353,8 @@ private const string _sound_hero_skill_portal2 = "hero_skill_portal2"
 ```csharp
 private const string _sound_hero_skill_start = "hero_skill_start"
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +365,8 @@ private const string _sound_hero_skill_start = "hero_skill_start"
 ```csharp
 private const string _sound_hero_smile = "hero_smile"
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +377,8 @@ private const string _sound_hero_smile = "hero_smile"
 ```csharp
 private const string _sound_hero_transform1 = "hero_transform1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +389,8 @@ private const string _sound_hero_transform1 = "hero_transform1"
 ```csharp
 private const string _sound_hero_transform2 = "hero_transform2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +401,8 @@ private const string _sound_hero_transform2 = "hero_transform2"
 ```csharp
 private const string _sound_hero_transform3 = "hero_transform3"
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +413,8 @@ private const string _sound_hero_transform3 = "hero_transform3"
 ```csharp
 private const string _sound_hero_transform4 = "hero_transform4"
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +425,8 @@ private const string _sound_hero_transform4 = "hero_transform4"
 ```csharp
 private const string _sound_teleport = "teleport"
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +437,8 @@ private const string _sound_teleport = "teleport"
 ```csharp
 private const string _sound_villain_cast1 = "villain_cast1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +449,8 @@ private const string _sound_villain_cast1 = "villain_cast1"
 ```csharp
 private const string _sound_villain_cast2 = "villain_cast2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +461,8 @@ private const string _sound_villain_cast2 = "villain_cast2"
 ```csharp
 private const string _sound_villain_cast_loop = "villain_cast_loop"
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +473,8 @@ private const string _sound_villain_cast_loop = "villain_cast_loop"
 ```csharp
 private const string _sound_villain_cast_start = "villain_cast_start"
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +485,8 @@ private const string _sound_villain_cast_start = "villain_cast_start"
 ```csharp
 private const string _sound_villain_dead1 = "villain_dead1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -416,6 +497,8 @@ private const string _sound_villain_dead1 = "villain_dead1"
 ```csharp
 private const string _sound_villain_dead2 = "villain_dead2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -426,6 +509,8 @@ private const string _sound_villain_dead2 = "villain_dead2"
 ```csharp
 private const string _sound_villain_dead_boom = "villain_dead_boom"
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +521,8 @@ private const string _sound_villain_dead_boom = "villain_dead_boom"
 ```csharp
 private const string _sound_villain_dead_end = "villain_dead_end"
 ```
+#INC
+
 
 #### Field Value
 
@@ -446,6 +533,8 @@ private const string _sound_villain_dead_end = "villain_dead_end"
 ```csharp
 private const string _sound_villain_delay = "villain_delay"
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +545,8 @@ private const string _sound_villain_delay = "villain_delay"
 ```csharp
 private const string _sound_villain_down = "villain_down"
 ```
+#INC
+
 
 #### Field Value
 
@@ -466,6 +557,8 @@ private const string _sound_villain_down = "villain_down"
 ```csharp
 private const string _teleportSrc = "Effect/Creature/MagicalGirl/MagicalGirlTeleport"
 ```
+#INC
+
 
 #### Field Value
 
@@ -476,6 +569,8 @@ private const string _teleportSrc = "Effect/Creature/MagicalGirl/MagicalGirlTele
 ```csharp
 public GameObject circle
 ```
+#INC
+
 
 #### Field Value
 
@@ -486,6 +581,8 @@ public GameObject circle
 ```csharp
 public GameObject gun
 ```
+#INC
+
 
 #### Field Value
 
@@ -496,6 +593,8 @@ public GameObject gun
 ```csharp
 public GameObject hero
 ```
+#INC
+
 
 #### Field Value
 
@@ -506,6 +605,8 @@ public GameObject hero
 ```csharp
 private MagicalGirlSkillEffect_Hero laser_Hero
 ```
+#INC
+
 
 #### Field Value
 
@@ -516,6 +617,8 @@ private MagicalGirlSkillEffect_Hero laser_Hero
 ```csharp
 private MagicalGirlLaser_Villain laser_Villain
 ```
+#INC
+
 
 #### Field Value
 
@@ -526,6 +629,8 @@ private MagicalGirlLaser_Villain laser_Villain
 ```csharp
 private SoundEffectPlayer loopSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -536,6 +641,8 @@ private SoundEffectPlayer loopSound
 ```csharp
 public GameObject mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -546,6 +653,8 @@ public GameObject mouth
 ```csharp
 private MagicalGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -556,6 +665,8 @@ private MagicalGirl script
 ```csharp
 public GameObject villain
 ```
+#INC
+
 
 #### Field Value
 
@@ -566,6 +677,8 @@ public GameObject villain
 ```csharp
 public GameObject weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -600,42 +713,56 @@ private Animator animator_Villain { get; }
 ```csharp
 private void AfterDeadScene()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### Bang()
 
 ```csharp
 private void Bang()
 ```
+#INC
+
 
 ### ChangeDefaultType()
 
 ```csharp
 public void ChangeDefaultType()
 ```
+#INC
+
 
 ### ChuEnd()
 
 ```csharp
 private void ChuEnd()
 ```
+#INC
+
 
 ### ChuStart()
 
 ```csharp
 public void ChuStart()
 ```
+#INC
+
 
 ### CurrentAttackType()
 
 ```csharp
 public int CurrentAttackType()
 ```
+#INC
+
 
 #### Returns
 
@@ -646,18 +773,24 @@ public int CurrentAttackType()
 ```csharp
 private void EndTransformToVillain()
 ```
+#INC
+
 
 ### FinishGroggy()
 
 ```csharp
 public void FinishGroggy()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -674,6 +807,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -684,12 +820,16 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitAnimator(Animator)
 
 ```csharp
 private void InitAnimator(Animator anim)
 ```
+#INC
+
 
 #### Parameters
 
@@ -702,6 +842,8 @@ private void InitAnimator(Animator anim)
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -712,6 +854,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInGroggy()
 ```
+#INC
+
 
 #### Returns
 
@@ -722,6 +866,8 @@ public bool IsInGroggy()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -732,6 +878,8 @@ public bool IsInSkill()
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -748,6 +896,8 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 private SoundEffectPlayer MakeSound(string src, Vector3 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -765,6 +915,8 @@ private SoundEffectPlayer MakeSound(string src, Vector3 position)
 ```csharp
 private SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -781,12 +933,16 @@ private SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public void NormalAttack_Hero()
 ```
+#INC
+
 
 ### OnAttackStart(int)
 
 ```csharp
 public void OnAttackStart(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -799,12 +955,16 @@ public void OnAttackStart(int attackType)
 ```csharp
 public void OnBeingAHero()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -817,24 +977,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnGroggyEnd()
 
 ```csharp
 private void OnGroggyEnd()
 ```
+#INC
+
 
 ### OnGroggyStart()
 
 ```csharp
 public void OnGroggyStart()
 ```
+#INC
+
 
 ### OnMakeDamageEffect(Camp, Vector3)
 
 ```csharp
 public void OnMakeDamageEffect(MagicalGirl.Camp camp, Vector3 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -848,12 +1016,16 @@ public void OnMakeDamageEffect(MagicalGirl.Camp camp, Vector3 position)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart(int)
 
 ```csharp
 public void OnSkillStart(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -866,24 +1038,32 @@ public void OnSkillStart(int attackType)
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### RemoveLoopSound()
 
 ```csharp
 private void RemoveLoopSound()
 ```
+#INC
+
 
 ### SetScript(MagicalGirl)
 
 ```csharp
 public void SetScript(MagicalGirl script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -896,12 +1076,16 @@ public void SetScript(MagicalGirl script)
 ```csharp
 public void ShootingEnd()
 ```
+#INC
+
 
 ### ShootLaser_Hero(int)
 
 ```csharp
 public void ShootLaser_Hero(int phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -914,6 +1098,8 @@ public void ShootLaser_Hero(int phase)
 ```csharp
 public void ShootLaser_Villain(int phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -926,6 +1112,8 @@ public void ShootLaser_Villain(int phase)
 ```csharp
 private void SkillEnd(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -938,12 +1126,16 @@ private void SkillEnd(int attackType)
 ```csharp
 private void StartHysteric()
 ```
+#INC
+
 
 ### TeleportEffect(Camp, Vector3, bool)
 
 ```csharp
 public void TeleportEffect(MagicalGirl.Camp camp, Vector3 position, bool isAppear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -958,21 +1150,29 @@ public void TeleportEffect(MagicalGirl.Camp camp, Vector3 position, bool isAppea
 ```csharp
 public void TransformToHero()
 ```
+#INC
+
 
 ### TransformToHysteric()
 
 ```csharp
 public void TransformToHysteric()
 ```
+#INC
+
 
 ### TransformToVillain()
 
 ```csharp
 public void TransformToVillain()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

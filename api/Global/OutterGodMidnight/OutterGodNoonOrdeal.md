@@ -12,6 +12,11 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodNoonOrdeal
 public class OutterGodNoonOrdeal : OutterGodOrdeal
 ```
 
+Noon of Violet, Grant Us Love. Spawns an [OutterGodNoon](/api/Global/OutterGodMidnight/OutterGodNoon) in each department.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [OutterGodOrdeal](/api/Global/Misc/OutterGodOrdeal) → OutterGodNoonOrdeal
 
@@ -25,6 +30,8 @@ public class OutterGodNoonOrdeal : OutterGodOrdeal
 ```csharp
 public OutterGodNoonOrdeal()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,15 +40,22 @@ public OutterGodNoonOrdeal()
 ```csharp
 private void MakeOutterGod()
 ```
+#INC
+
 
 ### OnGameInit()
 
 ```csharp
 public override void OnGameInit()
 ```
+#INC
+#code-generated
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+

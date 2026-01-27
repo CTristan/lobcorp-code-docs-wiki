@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/WorkerCurrentSpriteSet
 ```csharp
 public class WorkerCurrentSpriteSet
 ```
+Stores a sprite for each one needed for a worker??
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerCurrentSpriteSet
@@ -33,6 +37,8 @@ public WorkerCurrentSpriteSet()
 ```csharp
 public Sprite Arm_Left_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Sprite Arm_Left_Down
 ```csharp
 public Sprite Arm_Left_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Sprite Arm_Left_Up
 ```csharp
 public Sprite Arm_Right_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Sprite Arm_Right_Down
 ```csharp
 public Sprite Arm_Right_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Sprite Arm_Right_Up
 ```csharp
 public Sprite Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Sprite Body
 ```csharp
 public Sprite Coat_Back
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public Sprite Coat_Back
 ```csharp
 public Sprite Coat_Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public Sprite Coat_Left
 ```csharp
 public Sprite Coat_Right
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,9 @@ public Sprite Coat_Right
 ```csharp
 public Sprite Eye
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public Sprite Eye
 ```csharp
 public Sprite Eyebrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public Sprite Eyebrow
 ```csharp
 public Sprite EyeClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public Sprite EyeClose
 ```csharp
 public Sprite FrontHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public Sprite FrontHair
 ```csharp
 public Sprite Left_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ public Sprite Left_Hand
 ```csharp
 public Sprite Leg_Left_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public Sprite Leg_Left_Down
 ```csharp
 public Sprite Leg_Left_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public Sprite Leg_Left_Up
 ```csharp
 public Sprite Leg_Right_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ public Sprite Leg_Right_Down
 ```csharp
 public Sprite Leg_Right_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ public Sprite Leg_Right_Up
 ```csharp
 public Sprite Mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ public Sprite Mouth
 ```csharp
 public Sprite RearHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ public Sprite RearHair
 ```csharp
 public Sprite Right_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ public Sprite Right_Hand
 ```csharp
 public Sprite Symbol
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ public Sprite Symbol
 ```csharp
 public Sprite Weapon_Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ public Sprite Weapon_Left
 ```csharp
 public Sprite Weapon_Right
 ```
+#INC
+
 
 #### Field Value
 

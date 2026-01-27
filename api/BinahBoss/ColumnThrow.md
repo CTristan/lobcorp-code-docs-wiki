@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/ColumnThrow
 ```csharp
 public class ColumnThrow : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s column attack (yikes!)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → ColumnThrow
@@ -25,6 +27,8 @@ public class ColumnThrow : BinahAction
 ```csharp
 public ColumnThrow(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public ColumnThrow(BinahCoreScript binah)
 ```csharp
 private BinahProjectile Column
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private BinahProjectile Column
 ```csharp
 private Vector3 columnGenPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private Vector3 columnGenPos
 ```csharp
 private DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private DamageInfo damageInfo
 ```csharp
 private RwbpType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,12 +93,16 @@ private RwbpType type
 ```csharp
 private void GenColumn()
 ```
+#INC
+
 
 ### GetDamageInfo()
 
 ```csharp
 private DamageInfo GetDamageInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -97,6 +113,9 @@ private DamageInfo GetDamageInfo()
 ```csharp
 public override void OnAnimEventCalled(int index)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -109,33 +128,45 @@ public override void OnAnimEventCalled(int index)
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public override void OnGiveDamage()
 ```
+#INC
+
 
 ### OnInterrupt()
 
 ```csharp
 public override void OnInterrupt()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+

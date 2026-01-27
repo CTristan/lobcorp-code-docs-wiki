@@ -12,6 +12,9 @@ canonical_path: /api/Global/IANimatorEventCalled/CreatureSelectUI
 public class CreatureSelectUI : MonoBehaviour, IAnimatorEventCalled
 ```
 
+Abnormality selection screen.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureSelectUI
 
@@ -36,6 +39,8 @@ public CreatureSelectUI()
 ```csharp
 private static CreatureSelectUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private static CreatureSelectUI _instance
 ```csharp
 private bool _reExtracted
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private bool _reExtracted
 ```csharp
 private bool _skip
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _skip
 ```csharp
 private bool _tiperethRunned
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private bool _tiperethRunned
 ```csharp
 public UIController Block
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public UIController Block
 ```csharp
 public AudioClip clip
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public AudioClip clip
 ```csharp
 private AudioClip clipSaved
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private AudioClip clipSaved
 ```csharp
 private List<long> CurrentCreatures
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private List<long> CurrentCreatures
 ```csharp
 public const long deathangel = 100015
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public const long deathangel = 100015
 ```csharp
 private bool effectRunned
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private bool effectRunned
 ```csharp
 private Timer EffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private Timer EffectTimer
 ```csharp
 private Timer FadeoutEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private Timer FadeoutEffectTimer
 ```csharp
 public CameraFilterPack_TV_80 filter
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,6 +217,8 @@ public RectTransform Index_Normal
 ```csharp
 public RectTransform Index_Select
 ```
+#INC
+
 
 #### Field Value
 
@@ -198,6 +229,8 @@ public RectTransform Index_Select
 ```csharp
 public const long plagueDoctor = 100014
 ```
+#INC
+
 
 #### Field Value
 
@@ -219,6 +252,8 @@ public UIController reExtractController
 ```csharp
 public GameObject RootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -229,6 +264,8 @@ public GameObject RootObject
 ```csharp
 public const int SelectEndDay = 51
 ```
+#INC
+
 
 #### Field Value
 
@@ -239,6 +276,8 @@ public const int SelectEndDay = 51
 ```csharp
 public const int SelectStartDay = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -249,6 +288,8 @@ public const int SelectStartDay = 0
 ```csharp
 private float startVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -270,6 +311,8 @@ public UIController TextBoxController
 ```csharp
 public Text TextBoxText
 ```
+#INC
+
 
 #### Field Value
 
@@ -280,6 +323,8 @@ public Text TextBoxText
 ```csharp
 private int threshold
 ```
+#INC
+
 
 #### Field Value
 
@@ -301,6 +346,8 @@ public CreatureSelectUnit[] Units
 ```csharp
 public const long yang = 300109
 ```
+#INC
+
 
 #### Field Value
 
@@ -311,6 +358,8 @@ public const long yang = 300109
 ```csharp
 public const long yin = 100104
 ```
+#INC
+
 
 #### Field Value
 
@@ -365,18 +414,24 @@ private bool ReExtractResearchCompleted { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,18 +444,25 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCreatureExisting(long)
 
 ```csharp
 public static bool CheckCreatureExisting(long targetId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -417,12 +479,16 @@ public static bool CheckCreatureExisting(long targetId)
 ```csharp
 private void CheckKitGeneration()
 ```
+#INC
+
 
 ### CheckUIActivateCondition()
 
 ```csharp
 private bool CheckUIActivateCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -433,12 +499,16 @@ private bool CheckUIActivateCondition()
 ```csharp
 private void CheckYinAndYang()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,12 +534,16 @@ public void FadeoutEffect(float time = 3)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetCreatureList(bool)
 
 ```csharp
 private void GetCreatureList(bool setEmpty = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -482,12 +556,16 @@ private void GetCreatureList(bool setEmpty = true)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsInteractable()
 
 ```csharp
 public bool IsInteractable()
 ```
+#INC
+
 
 #### Returns
 
@@ -498,12 +576,16 @@ public bool IsInteractable()
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -516,12 +598,16 @@ public void OnCalled(int i)
 ```csharp
 public void OnClickReExtract()
 ```
+#INC
+
 
 ### OnClickUnit(CreatureSelectUnit)
 
 ```csharp
 public void OnClickUnit(CreatureSelectUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -534,6 +620,8 @@ public void OnClickUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnEnterUnit(CreatureSelectUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -546,6 +634,8 @@ public void OnEnterUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnExitUnit(CreatureSelectUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -558,12 +648,16 @@ public void OnExitUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnUIActionEnd()
 ```
+#INC
+
 
 ### SetSlotInit(bool)
 
 ```csharp
 private void SetSlotInit(bool setEmpty = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -576,12 +670,16 @@ private void SetSlotInit(bool setEmpty = true)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -594,3 +692,5 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+

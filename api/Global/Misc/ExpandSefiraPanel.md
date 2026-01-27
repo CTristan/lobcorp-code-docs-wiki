@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ExpandSefiraPanel
 ```csharp
 public class ExpandSefiraPanel : MonoBehaviour
 ```
+UI element for displaying a department on the [department expansion UI](/api/Global/IANimatorEventCalled/ExpandUI).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ExpandSefiraPanel
@@ -33,6 +35,8 @@ public ExpandSefiraPanel()
 ```csharp
 private bool _isMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private bool _isMax
 ```csharp
 private bool _isOpenable
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private bool _isOpenable
 ```csharp
 private bool _isOpened
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _isOpened
 ```csharp
 private Sefira _sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private Sefira _sefira
 ```csharp
 private SefiraUIColor _uiColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private SefiraUIColor _uiColor
 ```csharp
 private const float blinkFreq = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private const float blinkFreq = 1
 ```csharp
 private Timer blinkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private Timer blinkTimer
 ```csharp
 public GameObject BlockedActiveContorl
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public GameObject BlockedActiveContorl
 ```csharp
 public Text BlockedStateText
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Text BlockedStateText
 ```csharp
 private Image CurrentBlink
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private Image CurrentBlink
 ```csharp
 public Color decorationColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +177,8 @@ public ExpandSefiraPanel.Decorations decorations
 ```csharp
 public AudioClipPlayer ExpandUiSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +189,8 @@ public AudioClipPlayer ExpandUiSound
 ```csharp
 public Image[] Filled
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +201,8 @@ public Image[] Filled
 ```csharp
 public List<MaskableGraphic> graphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +213,8 @@ public List<MaskableGraphic> graphics
 ```csharp
 public Vector3 initialScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ public Vector3 initialScale
 ```csharp
 public CanvasGroup InteractableControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +237,8 @@ public CanvasGroup InteractableControl
 ```csharp
 public GameObject NameField
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +249,8 @@ public GameObject NameField
 ```csharp
 public Text NameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +261,8 @@ public Text NameText
 ```csharp
 public Text OpenText
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +273,8 @@ public Text OpenText
 ```csharp
 public Animator transAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,12 +339,17 @@ public Sefira Sefira { get; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(SefiraEnum)
 
 ```csharp
 public void Init(SefiraEnum sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -315,30 +362,40 @@ public void Init(SefiraEnum sefira)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetColor()
 
 ```csharp
 private void SetColor()
 ```
+#INC
+
 
 ### SetColor(Color)
 
 ```csharp
 private void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,9 +408,13 @@ private void SetColor(Color c)
 ```csharp
 private void SetCondition()
 ```
+#INC
+
 
 ### SetUI()
 
 ```csharp
 private void SetUI()
 ```
+#INC
+

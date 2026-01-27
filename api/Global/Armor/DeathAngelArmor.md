@@ -12,6 +12,12 @@ canonical_path: /api/Global/Armor/DeathAngelArmor
 public class DeathAngelArmor : EquipmentScriptBase
 ```
 
+Script for [WhiteNight](/api/Legacy/DeathAngel)'s EGO Suit: Paradise Lost.
+
+Has different stats depending on if WhiteNight is in the facility.
+Negates damage less then 5, or less than 10 if WhiteNight is present.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → DeathAngelArmor
 
@@ -33,6 +39,8 @@ public DeathAngelArmor()
 ```csharp
 private const float _ABSORB_WITH_GIFT = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private const float _ABSORB_WITH_GIFT = 10
 ```csharp
 private const int _DEATH_ANGEL_GIFT = 400015
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private const int _DEATH_ANGEL_GIFT = 400015
 ```csharp
 private const float _IGNORE_DMG_COND = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private const float _IGNORE_DMG_COND = 5
 ```csharp
 private bool _whiteNight
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +89,8 @@ private bool _whiteNight
 ```csharp
 public override DefenseInfo GetDefense(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,12 +107,17 @@ public override DefenseInfo GetDefense(UnitModel actor)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnTakeDamage(UnitModel, ref DamageInfo)
 
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/SystemLoggerUI
 public class SystemLoggerUI : MonoBehaviour, IObserver
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SystemLoggerUI
 
@@ -36,6 +39,8 @@ public SystemLoggerUI()
 ```csharp
 private bool addedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool addedText
 ```csharp
 private float boxPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +73,8 @@ private List<SystemLoggerUI.CreatureSystemLog> creatureList
 ```csharp
 private float defaultY
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +85,8 @@ private float defaultY
 ```csharp
 private float diff
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ private float diff
 ```csharp
 private float lastTextHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ private float lastTextHeight
 ```csharp
 private float lastTextPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ private float lastTextPosition
 ```csharp
 private List<Text> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private List<Text> list
 ```csharp
 public GameObject logBoard
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ public GameObject logBoard
 ```csharp
 private float posy
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private float posy
 ```csharp
 public float spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ public float spacing
 ```csharp
 public float textSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +183,8 @@ public float textSpacing
 ```csharp
 public void AddCreatureText(long instanceId, string msg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,6 +198,8 @@ public void AddCreatureText(long instanceId, string msg)
 ```csharp
 public Text AddText(string msg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +216,8 @@ public Text AddText(string msg)
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CheckContains(long)
 
@@ -209,30 +240,41 @@ public SystemLoggerUI.CreatureSystemLog CheckContains(long target)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -246,9 +288,13 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetParentRect()
 ```
+#INC
+
 
 ### Sort()
 
 ```csharp
 public void Sort()
 ```
+#INC
+

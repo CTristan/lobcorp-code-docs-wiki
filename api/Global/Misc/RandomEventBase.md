@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RandomEventBase
 ```csharp
 public class RandomEventBase
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RandomEventBase
@@ -36,6 +38,8 @@ public RandomEventBase()
 ```csharp
 protected bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public List<RandomEventBase.Condition> enableCheckConditions
 ```csharp
 public long instanceId
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public long instanceId
 ```csharp
 public RandomEventInfo metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public RandomEventInfo metaInfo
 ```csharp
 public RandomEventRank rank
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public RandomEventRank rank
 ```csharp
 public GameObject rootGameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ public GameObject rootGameObject
 ```csharp
 public const long rootObjectId = 1000
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ public const long rootObjectId = 1000
 ```csharp
 public const string rootObjectSrc = "StandingItem/RandomEventRoot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ public const string rootObjectSrc = "StandingItem/RandomEventRoot"
 ```csharp
 public RandomEventRoot rootStanding
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public RandomEventRoot rootStanding
 ```csharp
 public RandomEventType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,12 +200,16 @@ public Transform RootTransform { get; }
 ```csharp
 public virtual void CheckCondition()
 ```
+#INC
+
 
 ### CheckEquivalent(string)
 
 ```csharp
 public bool CheckEquivalent(string script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +226,8 @@ public bool CheckEquivalent(string script)
 ```csharp
 public virtual void GenerateCondition()
 ```
+#INC
+
 
 ### GenerateCondition(ConditionInfo, ref List<int>)
 
@@ -225,6 +251,8 @@ public RandomEventBase.Condition GenerateCondition(RandomEventInfo.ConditionInfo
 ```csharp
 public virtual void GenerateTypo(string message)
 ```
+#INC
+
 
 #### Parameters
 
@@ -262,6 +290,8 @@ public virtual void GenerateTypo(RandomEventBase.TypoType type, string sound)
 ```csharp
 public static EnableCondition GetCondition(string condition)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,6 +318,8 @@ public RandomEventBase.Condition GetTimerCondition()
 ```csharp
 public bool IsDuplicatable()
 ```
+#INC
+
 
 #### Returns
 
@@ -298,18 +330,24 @@ public bool IsDuplicatable()
 ```csharp
 public void MakeRootObject()
 ```
+#INC
+
 
 ### ManualDisable()
 
 ```csharp
 public virtual void ManualDisable()
 ```
+#INC
+
 
 ### ManualDisable(string)
 
 ```csharp
 public virtual void ManualDisable(string sound)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,48 +360,65 @@ public virtual void ManualDisable(string sound)
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 public virtual void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public virtual void OnEnable()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public virtual void OnEnd()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public virtual void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public virtual void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnUpdate()
 
 ```csharp
 public virtual void OnUpdate()
 ```
+#INC
+
 
 ### SetTimerConditionTime(float)
 
 ```csharp
 public void SetTimerConditionTime(float value)
 ```
+#INC
+
 
 #### Parameters
 

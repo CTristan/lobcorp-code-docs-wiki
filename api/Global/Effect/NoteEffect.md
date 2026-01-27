@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/NoteEffect
 public class NoteEffect : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NoteEffect
 
@@ -43,6 +46,8 @@ public NoteEffect.Note[] notes
 ```csharp
 public ParticleSystemRenderer[] particleRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +60,9 @@ public ParticleSystemRenderer[] particleRenderer
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Changing(Note)
 
@@ -77,15 +85,21 @@ public IEnumerator Changing(NoteEffect.Note target)
 ```csharp
 public void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### StartChange()
 
 ```csharp
 public void StartChange()
 ```
+#INC
+

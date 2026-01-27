@@ -11,6 +11,9 @@ canonical_path: /api/Global/Animator/DummyAttackAnimator
 ```csharp
 public class DummyAttackAnimator
 ```
+Default animator for attacking?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DummyAttackAnimator
@@ -43,6 +46,8 @@ private DummyAttackAnimator.Callback _animationEndCallback
 ```csharp
 private float _attackDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ private float _attackDuration
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,18 +72,24 @@ private Timer timer
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### EndAttackCycle()
 
 ```csharp
 private void EndAttackCycle()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### PlayAttackAnimation(Callback)
 
@@ -95,6 +108,9 @@ public void PlayAttackAnimation(DummyAttackAnimator.Callback animationEndCallbac
 ```csharp
 public void SetAttackDuraction(int duration)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

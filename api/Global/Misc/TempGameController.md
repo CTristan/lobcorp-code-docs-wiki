@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/TempGameController
 public class TempGameController : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TempGameController
 
@@ -33,6 +36,8 @@ public TempGameController()
 ```csharp
 public WorkerBasicSpriteController bCtrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public WorkerBasicSpriteController bCtrl
 ```csharp
 public WorkerEquipmentSpriteController eCtrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +62,14 @@ public WorkerEquipmentSpriteController eCtrl
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

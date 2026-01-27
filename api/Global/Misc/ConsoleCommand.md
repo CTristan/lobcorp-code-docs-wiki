@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/ConsoleCommand
 ```csharp
 public class ConsoleCommand
 ```
+Holds many static strings for console command names, and implementations for commands.
+
+See [ConsoleScript](/api/Global/Script/ConsoleScript).
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ConsoleCommand
@@ -25,6 +30,9 @@ public class ConsoleCommand
 ```csharp
 public ConsoleCommand()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ public ConsoleCommand()
 ```csharp
 private static ConsoleCommand _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private static ConsoleCommand _instance
 ```csharp
 public static string ActivateOrdeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ public static string ActivateOrdeal
 ```csharp
 public static string AddCreatureFeeling
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ public static string AddCreatureFeeling
 ```csharp
 public static string AddCumlativeCube
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ public static string AddCumlativeCube
 ```csharp
 public static string AddMoney
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +101,8 @@ public static string AddMoney
 ```csharp
 public static string AddSystemLog
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +113,8 @@ public static string AddSystemLog
 ```csharp
 public static string AgentCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +125,8 @@ public static string AgentCommand
 ```csharp
 public List<string> agentCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +137,8 @@ public List<string> agentCommand
 ```csharp
 public static string AllocateAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +149,8 @@ public static string AllocateAgents
 ```csharp
 public static string AngelaCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +161,8 @@ public static string AngelaCommand
 ```csharp
 public static string AngelaDescMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +173,8 @@ public static string AngelaDescMake
 ```csharp
 public static string BetaCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +185,8 @@ public static string BetaCommand
 ```csharp
 public static string Boss
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +197,8 @@ public static string Boss
 ```csharp
 public static string ChangeLanguage
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +209,8 @@ public static string ChangeLanguage
 ```csharp
 public static string ClearBoss
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +221,8 @@ public static string ClearBoss
 ```csharp
 public static string ClearOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +233,8 @@ public static string ClearOverload
 ```csharp
 public static string CreatureCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +245,8 @@ public static string CreatureCommand
 ```csharp
 public List<string> creatureCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +257,8 @@ public List<string> creatureCommand
 ```csharp
 public static string DamageForcely
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +269,8 @@ public static string DamageForcely
 ```csharp
 public static string DamageInvoking
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +281,8 @@ public static string DamageInvoking
 ```csharp
 public static string DeallocateAll
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +293,8 @@ public static string DeallocateAll
 ```csharp
 public static string EmregencyAdd
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +305,8 @@ public static string EmregencyAdd
 ```csharp
 public static string Encounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +317,8 @@ public static string Encounter
 ```csharp
 public static string EnergyFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +329,8 @@ public static string EnergyFill
 ```csharp
 public static string FullAmmo
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +341,8 @@ public static string FullAmmo
 ```csharp
 public static string GiftAdd
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +353,8 @@ public static string GiftAdd
 ```csharp
 public static string GiftRemove
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +365,8 @@ public static string GiftRemove
 ```csharp
 public static string InventoryOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +377,8 @@ public static string InventoryOpen
 ```csharp
 public static string InvokeOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +389,8 @@ public static string InvokeOverload
 ```csharp
 public Dictionary<string, string> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +401,8 @@ public Dictionary<string, string> lib
 ```csharp
 public static string MakeEquipment
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +413,8 @@ public static string MakeEquipment
 ```csharp
 public static string MakePanicAll
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +425,8 @@ public static string MakePanicAll
 ```csharp
 public static string MissionAdd
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +437,8 @@ public static string MissionAdd
 ```csharp
 public static string MissionClear
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +449,8 @@ public static string MissionClear
 ```csharp
 public static string OfficerCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +461,8 @@ public static string OfficerCommand
 ```csharp
 public List<string> officerCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +473,8 @@ public List<string> officerCommand
 ```csharp
 public static string OpenListWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +485,8 @@ public static string OpenListWindow
 ```csharp
 public static string PresentCluster
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +497,8 @@ public static string PresentCluster
 ```csharp
 public static string QliportCounterReduce
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +509,8 @@ public static string QliportCounterReduce
 ```csharp
 public static string RabbitProtocol
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +521,8 @@ public static string RabbitProtocol
 ```csharp
 public static string ResearchAll
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +533,8 @@ public static string ResearchAll
 ```csharp
 public static string RootCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +545,8 @@ public static string RootCommand
 ```csharp
 public List<string> rootCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +557,8 @@ public List<string> rootCommand
 ```csharp
 public static string SefiraBossConversation
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +569,8 @@ public static string SefiraBossConversation
 ```csharp
 public static string SetCreatureObservable
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +581,8 @@ public static string SetCreatureObservable
 ```csharp
 public static string StandardCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +593,8 @@ public static string StandardCommand
 ```csharp
 public List<string> standardCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +605,8 @@ public List<string> standardCommand
 ```csharp
 public static string SubCreatureFeeling
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +617,8 @@ public static string SubCreatureFeeling
 ```csharp
 public static string SuperSoldier
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +629,8 @@ public static string SuperSoldier
 ```csharp
 public static string SuppressAll
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +641,8 @@ public static string SuppressAll
 ```csharp
 public static string TakeMentalDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +653,8 @@ public static string TakeMentalDamage
 ```csharp
 public static string TakePhysicalDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +665,8 @@ public static string TakePhysicalDamage
 ```csharp
 public static string WaitingCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -577,6 +691,8 @@ public static ConsoleCommand instance { get; }
 ```csharp
 public void ActivateOrdealSystem(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -589,6 +705,8 @@ public void ActivateOrdealSystem(int level)
 ```csharp
 public void AddAngelaDescCommand(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -601,6 +719,8 @@ public void AddAngelaDescCommand(string desc)
 ```csharp
 public void AddCreatureFeelingCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -614,6 +734,8 @@ public void AddCreatureFeelingCommand(long id, float value)
 ```csharp
 public void AddEmergeny(int emergency)
 ```
+#INC
+
 
 #### Parameters
 
@@ -626,6 +748,8 @@ public void AddEmergeny(int emergency)
 ```csharp
 public void AddGift(long id, int equipid)
 ```
+#INC
+
 
 #### Parameters
 
@@ -639,6 +763,8 @@ public void AddGift(long id, int equipid)
 ```csharp
 public void AddMission(int metaid)
 ```
+#INC
+
 
 #### Parameters
 
@@ -651,6 +777,8 @@ public void AddMission(int metaid)
 ```csharp
 public void AddMoneyCommand(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -663,6 +791,8 @@ public void AddMoneyCommand(int value)
 ```csharp
 public void AddSystemLogCommand(string msg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -675,6 +805,8 @@ public void AddSystemLogCommand(string msg)
 ```csharp
 public void AddWaitingGenCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -687,6 +819,8 @@ public void AddWaitingGenCreature(long id)
 ```csharp
 public void AgentCommandOperation(int index, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -700,18 +834,24 @@ public void AgentCommandOperation(int index, params object[] param)
 ```csharp
 public void AllocateAllAgentsToAllSefira()
 ```
+#INC
+
 
 ### AllResearchUpgrade()
 
 ```csharp
 public void AllResearchUpgrade()
 ```
+#INC
+
 
 ### BetaAddEnergy(int)
 
 ```csharp
 public void BetaAddEnergy(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -724,6 +864,8 @@ public void BetaAddEnergy(int value)
 ```csharp
 public void BetaCommandOperation(string cmd, string[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -737,12 +879,16 @@ public void BetaCommandOperation(string cmd, string[] param)
 ```csharp
 public void BetaEquip()
 ```
+#INC
+
 
 ### BetaLob(int)
 
 ```csharp
 public void BetaLob(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -755,12 +901,16 @@ public void BetaLob(int value)
 ```csharp
 public void BetaMeltdown()
 ```
+#INC
+
 
 ### BetaPeBox(int)
 
 ```csharp
 public void BetaPeBox(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -773,12 +923,16 @@ public void BetaPeBox(int value)
 ```csharp
 public void BetaStoryTester()
 ```
+#INC
+
 
 ### ChangeLanguageCommad(string)
 
 ```csharp
 public void ChangeLanguageCommad(string ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -791,18 +945,24 @@ public void ChangeLanguageCommad(string ln)
 ```csharp
 public void ClearOverloadAction()
 ```
+#INC
+
 
 ### ClearSefiraBoss()
 
 ```csharp
 public void ClearSefiraBoss()
 ```
+#INC
+
 
 ### CreatureCommandOperation(int, bool, params object[])
 
 ```csharp
 public void CreatureCommandOperation(int index, bool global, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -817,6 +977,8 @@ public void CreatureCommandOperation(int index, bool global, params object[] par
 ```csharp
 public void CreatureTakeDamageCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -830,6 +992,8 @@ public void CreatureTakeDamageCommand(long id, float value)
 ```csharp
 public void Damage(RwbpType type, long id, int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -844,6 +1008,8 @@ public void Damage(RwbpType type, long id, int value)
 ```csharp
 public void DamageInvoke(string type, string defense, string damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -858,12 +1024,16 @@ public void DamageInvoke(string type, string defense, string damage)
 ```csharp
 public void DeAllocateAgentFromSefira()
 ```
+#INC
+
 
 ### EncounterAction(long, int)
 
 ```csharp
 public void EncounterAction(long id, int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -877,6 +1047,8 @@ public void EncounterAction(long id, int level)
 ```csharp
 public void EnergyFillCommand(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -889,12 +1061,16 @@ public void EnergyFillCommand(float value)
 ```csharp
 public void FullFillAmmo()
 ```
+#INC
+
 
 ### GenerateEquipment(int)
 
 ```csharp
 public void GenerateEquipment(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -907,12 +1083,16 @@ public void GenerateEquipment(int id)
 ```csharp
 public void MakePanicAllCommand()
 ```
+#INC
+
 
 ### MakeSefiraBossDesc(string)
 
 ```csharp
 public void MakeSefiraBossDesc(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -925,6 +1105,8 @@ public void MakeSefiraBossDesc(string desc)
 ```csharp
 public void OfficerCommandOperation(int index, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -938,6 +1120,8 @@ public void OfficerCommandOperation(int index, params object[] param)
 ```csharp
 public void OfficerTakePhysicalDamage(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -950,6 +1134,8 @@ public void OfficerTakePhysicalDamage(float value)
 ```csharp
 public void OpenAgentListWindow(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -962,12 +1148,16 @@ public void OpenAgentListWindow(string sefira)
 ```csharp
 public void OpenInventory()
 ```
+#INC
+
 
 ### OverloadInvoke(int)
 
 ```csharp
 public void OverloadInvoke(int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -980,18 +1170,24 @@ public void OverloadInvoke(int count)
 ```csharp
 public void PresentClusterAction()
 ```
+#INC
+
 
 ### RabbitOpen()
 
 ```csharp
 public void RabbitOpen()
 ```
+#INC
+
 
 ### RemoveGift(long, int)
 
 ```csharp
 public void RemoveGift(long id, int equipid)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1005,6 +1201,8 @@ public void RemoveGift(long id, int equipid)
 ```csharp
 public void RootCommandOperation(int index, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1018,6 +1216,8 @@ public void RootCommandOperation(int index, params object[] param)
 ```csharp
 public void SefiraBossInvoke(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1030,12 +1230,16 @@ public void SefiraBossInvoke(string sefira)
 ```csharp
 public void SetList()
 ```
+#INC
+
 
 ### SetObservable(long)
 
 ```csharp
 public void SetObservable(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1048,6 +1252,8 @@ public void SetObservable(long id)
 ```csharp
 public void StandardCommandOperation(int index, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1061,6 +1267,8 @@ public void StandardCommandOperation(int index, params object[] param)
 ```csharp
 public void SubCreatureFeelingCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1074,6 +1282,8 @@ public void SubCreatureFeelingCommand(long id, float value)
 ```csharp
 public void SuperSoldierCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1087,12 +1297,16 @@ public void SuperSoldierCommand(long id, float value)
 ```csharp
 public void SuppressAllCommand()
 ```
+#INC
+
 
 ### TakeMentalDamageCommand(long, float)
 
 ```csharp
 public void TakeMentalDamageCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1106,6 +1320,8 @@ public void TakeMentalDamageCommand(long id, float value)
 ```csharp
 public void TakePhysicalDamageCommand(long id, float value)
 ```
+#INC
+
 
 #### Parameters
 

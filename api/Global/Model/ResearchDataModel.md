@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/ResearchDataModel
 ```csharp
 public class ResearchDataModel
 ```
+Loads and holds information about researches, including completed researches.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchDataModel
@@ -33,6 +37,8 @@ public ResearchDataModel()
 ```csharp
 private static ResearchDataModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static ResearchDataModel _instance
 ```csharp
 private ResearchUnitStatUpgrade agentStatBonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private ResearchUnitStatUpgrade agentStatBonus
 ```csharp
 private Dictionary<GlobalBulletType, bool> bulletAbility
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private Dictionary<GlobalBulletType, bool> bulletAbility
 ```csharp
 private ResearchPromotionEasily promotionEasilyUpgrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private ResearchPromotionEasily promotionEasilyUpgrade
 ```csharp
 private Dictionary<int, ResearchItemModel> researchDatas
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private Dictionary<int, ResearchItemModel> researchDatas
 ```csharp
 private Dictionary<string, int> sephiraabilityLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private Dictionary<string, int> sephiraabilityLevel
 ```csharp
 private Dictionary<string, bool> specialAbility
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private Dictionary<string, bool> specialAbility
 ```csharp
 private Dictionary<int, int> weaponLevelResearchInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +147,8 @@ public static ResearchDataModel instance { get; }
 ```csharp
 public static string ConvertResearchType(ResearchType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +165,8 @@ public static string ConvertResearchType(ResearchType type)
 ```csharp
 public static ResearchType ConvertResearchType(string type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +183,8 @@ public static ResearchType ConvertResearchType(string type)
 ```csharp
 public static int CurrentLevel(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,6 +201,8 @@ public static int CurrentLevel(int id)
 ```csharp
 public ResearchUnitStatUpgrade GetAgentStatBonus()
 ```
+#INC
+
 
 #### Returns
 
@@ -185,6 +213,8 @@ public ResearchUnitStatUpgrade GetAgentStatBonus()
 ```csharp
 public static int GetLevel(int id, int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +232,8 @@ public static int GetLevel(int id, int value)
 ```csharp
 public ResearchItemModel GetModel(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,6 +250,8 @@ public ResearchItemModel GetModel(int id)
 ```csharp
 public List<ResearchItemModel> GetModelBySefira(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -234,6 +268,8 @@ public List<ResearchItemModel> GetModelBySefira(string sefira)
 ```csharp
 public float GetPromotionEasilyValue()
 ```
+#INC
+
 
 #### Returns
 
@@ -244,6 +280,8 @@ public float GetPromotionEasilyValue()
 ```csharp
 public List<ResearchItemModel> GetRemainResearchListBySefira(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,6 +298,8 @@ public List<ResearchItemModel> GetRemainResearchListBySefira(string sefira)
 ```csharp
 public int GetResearchCost(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -276,6 +316,8 @@ public int GetResearchCost(int id)
 ```csharp
 public ResearchItemModel GetResearchItem(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +334,8 @@ public ResearchItemModel GetResearchItem(int id)
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -302,6 +346,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public int GetSephiraAbility(Sefira sephira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,6 +364,8 @@ public int GetSephiraAbility(Sefira sephira)
 ```csharp
 public List<ResearchItemModel> GetUpgradedResearchList()
 ```
+#INC
+
 
 #### Returns
 
@@ -328,6 +376,8 @@ public List<ResearchItemModel> GetUpgradedResearchList()
 ```csharp
 public List<ResearchItemModel> GetUpgradedResearchListBySefira(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,12 +394,17 @@ public List<ResearchItemModel> GetUpgradedResearchListBySefira(SefiraEnum sefira
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### IsUpgradedAbility(string)
 
 ```csharp
 public bool IsUpgradedAbility(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,6 +421,8 @@ public bool IsUpgradedAbility(string name)
 ```csharp
 public bool IsUpgradedBullet(GlobalBulletType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +439,8 @@ public bool IsUpgradedBullet(GlobalBulletType type)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -394,6 +453,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public static int NextLevel(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -410,18 +471,24 @@ public static int NextLevel(int id)
 ```csharp
 public void UpdateResearch()
 ```
+#INC
+
 
 ### UpgradeAllResearch()
 
 ```csharp
 public void UpgradeAllResearch()
 ```
+#INC
+
 
 ### UpgradeResearch(int, bool)
 
 ```csharp
 public bool UpgradeResearch(int id, bool forcely = false)
 ```
+#INC
+
 
 #### Parameters
 

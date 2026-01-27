@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RabbitTeleportData
 ```csharp
 public class RabbitTeleportData
 ```
+Holds a list of teleporting nodes and where they should go to. #verify #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitTeleportData
@@ -43,6 +45,8 @@ public List<RabbitTeleportData.TNode> nodes
 ```csharp
 public List<string> to
 ```
+#INC
+
 
 #### Field Value
 

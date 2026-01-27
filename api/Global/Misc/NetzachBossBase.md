@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/NetzachBossBase
 public class NetzachBossBase : SefiraBossBase
 ```
 
+Netzach's core suppression.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → NetzachBossBase
 
@@ -25,6 +28,8 @@ public class NetzachBossBase : SefiraBossBase
 ```csharp
 public NetzachBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public NetzachBossBase()
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private int _phase
 ```csharp
 private Timer _startEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _startEffectTimer
 ```csharp
 private const string animSrc = "NetzachCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const string animSrc = "NetzachCoreAnim"
 ```csharp
 private const string bgm1 = "Netzach/1_3 - Abandoned"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const string bgm1 = "Netzach/1_3 - Abandoned"
 ```csharp
 private const string bgm2 = "Netzach/2_Tilarids - Blue Dots"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const string bgm2 = "Netzach/2_Tilarids - Blue Dots"
 ```csharp
 private const int changeQliphothLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int changeQliphothLevel = 3
 ```csharp
 private const int clearQliphothLevel = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int clearQliphothLevel = 6
 ```csharp
 private const float descDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float descDelay = 15
 ```csharp
 private CameraFilterPack_Atmosphere_Fog fog
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private CameraFilterPack_Atmosphere_Fog fog
 ```csharp
 private SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private SefiraBossCreatureModel model
 ```csharp
 private const string netzachBase = "NetzachCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const string netzachBase = "NetzachCoreScript"
 ```csharp
 private const string phaseSound = "SefiraBoss/Boss_Nezach"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string phaseSound = "SefiraBoss/Boss_Nezach"
 ```csharp
 private float totalEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private CameraFilterPack_TV_Vignetting vignetting
 ```csharp
 private CameraFilterPack_AAA_WaterDrop waterDrop
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,12 +232,16 @@ private NetzachCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetDescFreq()
 
 ```csharp
 public override float GetDescFreq()
 ```
+#INC
+
 
 #### Returns
 
@@ -213,6 +252,8 @@ public override float GetDescFreq()
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -223,6 +264,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -233,24 +276,32 @@ public override bool IsReadyToClose()
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,15 +314,22 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### RecoverAll()
 
 ```csharp
 public void RecoverAll()
 ```
+#INC
+
 
 ### StartEffect()
 
 ```csharp
 public void StartEffect()
 ```
+#INC
+

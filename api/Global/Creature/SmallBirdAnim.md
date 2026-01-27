@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SmallBirdAnim
 public class SmallBirdAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Punishing Bird](/api/Global/Misc/SmallBird).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SmallBirdAnim
 
@@ -36,6 +41,8 @@ public SmallBirdAnim()
 ```csharp
 public GameObject angryEffect1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject angryEffect1
 ```csharp
 public GameObject angryEffect2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject angryEffect2
 ```csharp
 private Vector3 birdEscapePos
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private Vector3 birdEscapePos
 ```csharp
 public GameObject birdObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public GameObject birdObject
 ```csharp
 private Vector3 birdPerchStandPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Vector3 birdPerchStandPos
 ```csharp
 public List<Material> coloredMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public List<Material> coloredMat
 ```csharp
 public List<SpriteRenderer> coloredTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public List<SpriteRenderer> coloredTarget
 ```csharp
 private Vector3 fixedPerchPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private Vector3 fixedPerchPos
 ```csharp
 private bool isEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private bool isEscaped
 ```csharp
 private const float madEffectDisplayTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private const float madEffectDisplayTime = 0.5
 ```csharp
 private Timer madEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private Timer madEffectTimer
 ```csharp
 private bool madStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ public SmallBirdAnim.YAxisModule module
 ```csharp
 private GameObject perchObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private GameObject perchObject
 ```csharp
 private Vector3 perchParentInitialScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private Vector3 perchParentInitialScale
 ```csharp
 private bool perchPosInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private bool perchPosInit
 ```csharp
 private Vector3 perchPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private Vector3 perchPosition
 ```csharp
 private Vector3 perchScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private Vector3 perchScale
 ```csharp
 private const float randActionFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private const float randActionFreq = 5
 ```csharp
 private Timer randTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private Timer randTimer
 ```csharp
 private SmallBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private SmallBird script
 ```csharp
 private const string src = "Unit/ETC/SmallBirdPerch"
 ```
+#INC
+
 
 #### Field Value
 
@@ -280,36 +327,49 @@ private Transform angryTr2 { get; }
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### MadEffect()
 
 ```csharp
 public void MadEffect()
 ```
+#INC
+
 
 ### MadEffectDisable()
 
 ```csharp
 public void MadEffectDisable()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,42 +382,56 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnMadReteurn()
 
 ```csharp
 public void OnMadReteurn()
 ```
+#INC
+
 
 ### OnMadStart()
 
 ```csharp
 public void OnMadStart()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### SetMadEffectScale()
 
 ```csharp
 private void SetMadEffectScale()
 ```
+#INC
+
 
 ### SetScript(SmallBird)
 
 ```csharp
 public void SetScript(SmallBird bird)
 ```
+#INC
+
 
 #### Parameters
 
@@ -370,6 +444,8 @@ public void SetScript(SmallBird bird)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,3 +458,5 @@ public override void SoundMake(string src)
 ```csharp
 public void Update()
 ```
+#INC
+

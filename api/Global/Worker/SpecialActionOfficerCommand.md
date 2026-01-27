@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/SpecialActionOfficerCommand
 public class SpecialActionOfficerCommand : WorkerCommand
 ```
 
+Old version of clerks' actions.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → SpecialActionOfficerCommand
 
@@ -25,6 +30,8 @@ public class SpecialActionOfficerCommand : WorkerCommand
 ```csharp
 public SpecialActionOfficerCommand(OfficerSpecialAction action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public SpecialActionOfficerCommand(OfficerSpecialAction action)
 ```csharp
 private OfficerSpecialAction action
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private OfficerSpecialAction action
 ```csharp
 private long animatorId
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private long animatorId
 ```csharp
 private bool arrival
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private bool arrival
 ```csharp
 private int cnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private int cnt
 ```csharp
 private int cntMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private int cntMax
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ private float elapsedTime
 ```csharp
 private bool endMotion
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +130,8 @@ private bool endMotion
 ```csharp
 private Vector3 initialPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +142,8 @@ private Vector3 initialPos
 ```csharp
 private Vector3 initialScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +154,8 @@ private Vector3 initialScale
 ```csharp
 private float motionTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +166,8 @@ private float motionTime
 ```csharp
 private bool moveAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +178,8 @@ private bool moveAnim
 ```csharp
 private bool moveZ
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +190,8 @@ private bool moveZ
 ```csharp
 private Vector3 reference
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +202,8 @@ private Vector3 reference
 ```csharp
 private bool scaling
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +214,8 @@ private bool scaling
 ```csharp
 private bool small
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +226,8 @@ private bool small
 ```csharp
 private bool startReturnAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -199,6 +238,8 @@ private bool startReturnAction
 ```csharp
 private bool startSpecialAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -209,6 +250,8 @@ private bool startSpecialAction
 ```csharp
 private float unitScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -221,18 +264,24 @@ private float unitScale
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### Loop()
 
 ```csharp
 private void Loop()
 ```
+#INC
+
 
 ### MannualMoving(Vector3, bool, bool, bool, bool)
 
 ```csharp
 private void MannualMoving(Vector3 pos, bool moveZ, bool moveAnim, bool scaling, bool small)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,12 +298,17 @@ private void MannualMoving(Vector3 pos, bool moveZ, bool moveAnim, bool scaling,
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -267,9 +321,13 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

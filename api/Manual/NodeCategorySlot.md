@@ -12,6 +12,11 @@ canonical_path: /api/Manual/NodeCategorySlot
 public class NodeCategorySlot : CategorySlot
 ```
 
+Has a selected prefix
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CategorySlot](/api/Manual/CategorySlot) → NodeCategorySlot
 
@@ -33,6 +38,8 @@ public NodeCategorySlot()
 ```csharp
 private string originalTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private string originalTitle
 ```csharp
 public Outline outline
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Outline outline
 ```csharp
 private const string prefix = "▶ "
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,9 @@ private const string prefix = "▶ "
 ```csharp
 public override void Init(Category category)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,9 +91,13 @@ public override void Init(Category category)
 ```csharp
 public override void SetNormal()
 ```
+#INC
+
 
 ### SetSelected()
 
 ```csharp
 public override void SetSelected()
 ```
+#INC
+

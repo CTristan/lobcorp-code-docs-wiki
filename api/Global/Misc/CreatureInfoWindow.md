@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/CreatureInfoWindow
 public class CreatureInfoWindow : MonoBehaviour
 ```
 
+GUI for displaying abnormality information
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoWindow
 
@@ -33,6 +37,8 @@ public CreatureInfoWindow()
 ```csharp
 private List<CreatureInfoController> _controllers
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private List<CreatureInfoController> _controllers
 ```csharp
 private Dictionary<CreatureInfoController, int> _costTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private Dictionary<CreatureInfoController, int> _costTable
 ```csharp
 private long _currentCreatureMetaId
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private long _currentCreatureMetaId
 ```csharp
 private CreatureModel _currentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private CreatureModel _currentModel
 ```csharp
 private static CreatureInfoWindow _currentWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private static CreatureInfoWindow _currentWindow
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private bool _isEnabled
 ```csharp
 private CreatureTypeInfo _metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private CreatureTypeInfo _metaInfo
 ```csharp
 private CreatureObserveInfoModel _observeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private CreatureObserveInfoModel _observeInfo
 ```csharp
 private int _oldLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ public AudioClipPlayer audioClipPlayer
 ```csharp
 public Color BrightColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ public Color BrightColor
 ```csharp
 public CreatureInfoCaretakingRoot caretakingRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public CreatureInfoCaretakingRoot caretakingRoot
 ```csharp
 public Text ChallangeModeAsterisk
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ public Text ChallangeModeAsterisk
 ```csharp
 public Text ChallangeModeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +227,8 @@ public CreatureInfoCodex codex
 ```csharp
 public Image CodexFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +239,8 @@ public Image CodexFrame
 ```csharp
 public Text CurrentCumlativeCube_Cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +251,8 @@ public Text CurrentCumlativeCube_Cost
 ```csharp
 public Text CurrentPayedCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +263,8 @@ public Text CurrentPayedCost
 ```csharp
 public Text CurrentUsableCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +275,8 @@ public Text CurrentUsableCost
 ```csharp
 public Button DescButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,6 +287,8 @@ public Button DescButton
 ```csharp
 public List<Text> descList
 ```
+#INC
+
 
 #### Field Value
 
@@ -268,6 +310,8 @@ public RectTransform DescriptionPanel
 ```csharp
 public GameObject descUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -289,6 +333,8 @@ public Sprite DisabledCubeImage
 ```csharp
 public Color DisabledTextColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -299,6 +345,8 @@ public Color DisabledTextColor
 ```csharp
 public const long EmptyId = -1
 ```
+#INC
+
 
 #### Field Value
 
@@ -309,6 +357,8 @@ public const long EmptyId = -1
 ```csharp
 public Sprite EnabledCubeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -319,6 +369,8 @@ public Sprite EnabledCubeImage
 ```csharp
 public Color EnabledTextColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -329,6 +381,8 @@ public Color EnabledTextColor
 ```csharp
 public CreatureInfoEquipmentRoot equipmentRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -339,6 +393,8 @@ public CreatureInfoEquipmentRoot equipmentRoot
 ```csharp
 public CreatureInfoEscapeRoot escapeRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -349,6 +405,8 @@ public CreatureInfoEscapeRoot escapeRoot
 ```csharp
 public Button InfoButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -359,6 +417,8 @@ public Button InfoButton
 ```csharp
 public GameObject InfoCodexArrowRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -369,6 +429,8 @@ public GameObject InfoCodexArrowRoot
 ```csharp
 public GameObject InfoPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -379,6 +441,8 @@ public GameObject InfoPanel
 ```csharp
 public GameObject kitCreatureArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -389,6 +453,8 @@ public GameObject kitCreatureArea
 ```csharp
 public CreatureInfoKitLayoutController kitLayerController
 ```
+#INC
+
 
 #### Field Value
 
@@ -399,6 +465,8 @@ public CreatureInfoKitLayoutController kitLayerController
 ```csharp
 public List<CreatureInfoKitObserveLevelEffectSlot> kitObserveLevelSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -409,6 +477,8 @@ public List<CreatureInfoKitObserveLevelEffectSlot> kitObserveLevelSlot
 ```csharp
 public Text kitObserveLevelText
 ```
+#INC
+
 
 #### Field Value
 
@@ -441,6 +511,8 @@ public RectTransform listParent
 ```csharp
 public float LowerSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -451,6 +523,8 @@ public float LowerSpacing
 ```csharp
 public Button NextCodex
 ```
+#INC
+
 
 #### Field Value
 
@@ -472,6 +546,8 @@ public GameObject normalCreatureArea
 ```csharp
 public Image ObserveLevelImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +569,8 @@ public List<CreatureInfoObserveLevelEffectSlot> observeLevelSlot
 ```csharp
 public Sprite[] ObserveLevelSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +581,8 @@ public Sprite[] ObserveLevelSprite
 ```csharp
 public Color OrangeColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +593,8 @@ public Color OrangeColor
 ```csharp
 public Animator PaymentAnimCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +605,8 @@ public Animator PaymentAnimCTRL
 ```csharp
 public Button PrevCodex
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +617,8 @@ public Button PrevCodex
 ```csharp
 public Color RedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -554,6 +640,8 @@ public Canvas RootCanvas
 ```csharp
 public float Spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -575,6 +663,8 @@ public CreatureInfoStatRoot statRoot
 ```csharp
 private static string[] tableName
 ```
+#INC
+
 
 #### Field Value
 
@@ -585,6 +675,8 @@ private static string[] tableName
 ```csharp
 public Text TitleText
 ```
+#INC
+
 
 #### Field Value
 
@@ -595,6 +687,8 @@ public Text TitleText
 ```csharp
 public UIController WindowAnimCTRL
 ```
+#INC
+
 
 #### Field Value
 
@@ -605,6 +699,8 @@ public UIController WindowAnimCTRL
 ```csharp
 public CreatureInfoWorkRoot workRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -615,6 +711,8 @@ public CreatureInfoWorkRoot workRoot
 ```csharp
 public List<CreatureInfoWorkSlot> workSlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -667,6 +765,8 @@ public static CreatureInfoWindow CurrentWindow { get; private set; }
 ```csharp
 public bool IsCodex { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -709,18 +809,24 @@ public CreatureObserveInfoModel ObserveInfo { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CloseWindow()
 
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### CreateCodexWindow()
 
 ```csharp
 public static CreatureInfoWindow CreateCodexWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -731,6 +837,9 @@ public static CreatureInfoWindow CreateCodexWindow()
 ```csharp
 public static CreatureInfoWindow CreateWindow(long metaId)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -747,6 +856,8 @@ public static CreatureInfoWindow CreateWindow(long metaId)
 ```csharp
 public bool GetCost(CreatureInfoController ctrl, out int cost)
 ```
+#INC
+
 
 #### Parameters
 
@@ -764,6 +875,8 @@ public bool GetCost(CreatureInfoController ctrl, out int cost)
 ```csharp
 private int GetObservationLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -774,6 +887,8 @@ private int GetObservationLevel()
 ```csharp
 public static bool IsCurrentMetaNull()
 ```
+#INC
+
 
 #### Returns
 
@@ -784,6 +899,8 @@ public static bool IsCurrentMetaNull()
 ```csharp
 public static bool IsCurrentModelNull()
 ```
+#INC
+
 
 #### Returns
 
@@ -794,30 +911,40 @@ public static bool IsCurrentModelNull()
 ```csharp
 public void OnBinahAbilityChanged()
 ```
+#INC
+
 
 ### OnChangeCreature()
 
 ```csharp
 private void OnChangeCreature()
 ```
+#INC
+
 
 ### OnClickDescButton()
 
 ```csharp
 public void OnClickDescButton()
 ```
+#INC
+
 
 ### OnClickInfoButton()
 
 ```csharp
 public void OnClickInfoButton()
 ```
+#INC
+
 
 ### OnObserveLevelChanged(int)
 
 ```csharp
 private void OnObserveLevelChanged(int observeLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -830,6 +957,8 @@ private void OnObserveLevelChanged(int observeLevel)
 ```csharp
 private void OnObserveLevelChanged_kit(int observeLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -842,6 +971,8 @@ private void OnObserveLevelChanged_kit(int observeLevel)
 ```csharp
 public bool OnTryPurchase(CreatureInfoController controller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -858,6 +989,8 @@ public bool OnTryPurchase(CreatureInfoController controller)
 ```csharp
 public void OpenCodexCreatureInfo(CreatureTypeInfo metaInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -870,6 +1003,8 @@ public void OpenCodexCreatureInfo(CreatureTypeInfo metaInfo)
 ```csharp
 public void OpenCodexCreatureInfo(long metaId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -882,12 +1017,16 @@ public void OpenCodexCreatureInfo(long metaId)
 ```csharp
 private void OpenEffect()
 ```
+#INC
+
 
 ### PurchaseAnim(int)
 
 ```csharp
 public void PurchaseAnim(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -900,6 +1039,8 @@ public void PurchaseAnim(int value)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -912,12 +1053,16 @@ public void SetActive(bool state)
 ```csharp
 private void SetCost()
 ```
+#INC
+
 
 ### SetDesc(int)
 
 ```csharp
 public void SetDesc(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -930,6 +1075,8 @@ public void SetDesc(int level)
 ```csharp
 public void SetWindowType(bool isCodex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -942,9 +1089,13 @@ public void SetWindowType(bool isCodex)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

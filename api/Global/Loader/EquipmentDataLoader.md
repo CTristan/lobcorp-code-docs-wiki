@@ -11,6 +11,10 @@ canonical_path: /api/Global/Loader/EquipmentDataLoader
 ```csharp
 public class EquipmentDataLoader
 ```
+Class which loads static data about [EGO](/api/Global/Model/EquipmentModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentDataLoader
@@ -98,6 +102,9 @@ public static WeaponClassType ConvertToWeaponClassType(string text)
 ```csharp
 public void Load()
 ```
+#INC
+#code-generated
+
 
 ### LoadArmor(EquipmentTypeInfo, XmlNode)
 

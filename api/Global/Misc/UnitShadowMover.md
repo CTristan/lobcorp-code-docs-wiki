@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/UnitShadowMover
 public class UnitShadowMover : MonoBehaviour
 ```
 
+Script for moving shadows under units... mostly for animation controllers.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitShadowMover
 
@@ -33,6 +37,8 @@ public UnitShadowMover()
 ```csharp
 public GameObject moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public GameObject moveTarget
 ```csharp
 private Vector3 relativeVec
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private Vector3 relativeVec
 ```csharp
 public bool shouldMoveRelatively
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,15 +107,22 @@ private Vector3 thisPos { get; }
 ```csharp
 public void LateUpdate()
 ```
+#INC
+
 
 ### SetRelativeVec()
 
 ```csharp
 public void SetRelativeVec()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

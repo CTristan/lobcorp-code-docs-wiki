@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ArmorCreatureWorkerAnim
 ```csharp
 public class ArmorCreatureWorkerAnim : MonoBehaviour
 ```
+Animation handler for working with [Crumbling Armor](/api/Global/IOBserver/ArmorCreature). Handles sound...
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ArmorCreatureWorkerAnim
@@ -33,6 +37,8 @@ public ArmorCreatureWorkerAnim()
 ```csharp
 public SpriteRenderer deadHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public SpriteRenderer deadHair
 ```csharp
 public SpriteRenderer hair
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,21 +63,30 @@ public SpriteRenderer hair
 ```csharp
 public void PlayArmorCutSound()
 ```
+#INC
+
 
 ### PlayArmorDownSound()
 
 ```csharp
 public void PlayArmorDownSound()
 ```
+#INC
+
 
 ### PlayArmorHeadOffSound()
 
 ```csharp
 public void PlayArmorHeadOffSound()
 ```
+#INC
+
 
 ### SetDeadHair()
 
 ```csharp
 public void SetDeadHair()
 ```
+#INC
+#code-generated
+

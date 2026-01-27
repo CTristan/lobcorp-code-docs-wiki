@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/BossGateWayAnim
 public class BossGateWayAnim : CreatureAnimScript
 ```
 
+Animation handler for [Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BossGateWayAnim
 
@@ -33,6 +38,9 @@ public BossGateWayAnim()
 ```csharp
 private BossGateWay script
 ```
+[Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
+
+
 
 #### Field Value
 
@@ -45,6 +53,8 @@ private BossGateWay script
 ```csharp
 public override bool HasDeadMotion()
 ```
+Returns true if Entrance isn't at max level, otherwise returns false.
+
 
 #### Returns
 
@@ -55,18 +65,26 @@ public override bool HasDeadMotion()
 ```csharp
 public void OnEnterBird()
 ```
+If Entrance is at max level, deactivates the game object; otherwise, tells the animator the level has increased.
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+Calls base and tells the animator Entrance is dead.
+#INC
+#code-generated
+
 
 ### SetScript(BossGateWay)
 
 ```csharp
 public void SetScript(BossGateWay script)
 ```
+Registers Entrance to the Black Forest with this animator.
+
 
 #### Parameters
 

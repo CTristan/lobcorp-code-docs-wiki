@@ -11,6 +11,8 @@ canonical_path: /api/Global/Action/PanicAction
 ```csharp
 public class PanicAction
 ```
+Parent class for panicking [worker](/api/Global/Unit/WorkerUnit) behaviour.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PanicAction
@@ -36,12 +38,16 @@ public PanicAction()
 ```csharp
 public virtual void Execute()
 ```
+#INC
+
 
 ### GetAttackSpeedMultiplier()
 
 ```csharp
 public virtual float GetAttackSpeedMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -52,6 +58,8 @@ public virtual float GetAttackSpeedMultiplier()
 ```csharp
 public virtual float GetDefenseMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -62,6 +70,8 @@ public virtual float GetDefenseMultiplier()
 ```csharp
 public virtual float GetMovementMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -72,15 +82,22 @@ public virtual float GetMovementMultiplier()
 ```csharp
 public virtual void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnDie()
 
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### PanicEnd()
 
 ```csharp
 public virtual void PanicEnd()
 ```
+#INC
+

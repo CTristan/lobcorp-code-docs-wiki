@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahOverloadClearParticle
 ```csharp
 public class BinahOverloadClearParticle : MonoBehaviour
 ```
+Clears overload blizzard particle effects, maybe? #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BinahOverloadClearParticle
@@ -33,6 +35,8 @@ public BinahOverloadClearParticle()
 ```csharp
 private UnscaledTimer _lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private UnscaledTimer _lifeTime
 ```csharp
 public float arriveTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public float arriveTime
 ```csharp
 public BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public BinahCoreScript binah
 ```csharp
 public AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public AnimationCurve curve
 ```csharp
 public CreatureModel invokedCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public CreatureModel invokedCreature
 ```csharp
 public OverloadType overloadType
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public OverloadType overloadType
 ```csharp
 public Vector3 startPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +133,9 @@ private Vector3 DestPos { get; }
 ```csharp
 public void Init(BinahCoreScript binah, Vector3 start, OverloadType overloadType)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,3 +150,5 @@ public void Init(BinahCoreScript binah, Vector3 start, OverloadType overloadType
 ```csharp
 public void Update()
 ```
+#INC
+

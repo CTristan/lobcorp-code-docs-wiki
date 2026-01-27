@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effecter/BlurBloomEffecter
 ```csharp
 public class BlurBloomEffecter : MonoBehaviour
 ```
+Uses 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BlurBloomEffecter
@@ -33,6 +35,8 @@ public BlurBloomEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float _elapsedTime
 ```csharp
 public CameraFilterPack_Blur_Bloom target
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,3 +61,6 @@ public CameraFilterPack_Blur_Bloom target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

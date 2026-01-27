@@ -12,6 +12,13 @@ canonical_path: /api/Inventory/InventoryUI
 public class InventoryUI : MonoBehaviour, IObserver
 ```
 
+The UI for the E.G.O List screen.
+
+The main components are the [InventoryItemController](/api/Inventory/InventoryItemController) (list of EGO to equip), [InventoryAgentController](/api/Inventory/InventoryAgentController) (currently selected agent), and [InventorySefiraController](/api/Inventory/InventorySefiraController) (departments).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryUI
 
@@ -36,6 +43,8 @@ public InventoryUI()
 ```csharp
 private static InventoryUI _currentWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +55,8 @@ private static InventoryUI _currentWindow
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +67,8 @@ private bool _isEnabled
 ```csharp
 public InventoryAgentController AgentController
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +79,8 @@ public InventoryAgentController AgentController
 ```csharp
 public AudioClipPlayer audioClipPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +91,8 @@ public AudioClipPlayer audioClipPlayer
 ```csharp
 public InventoryItemController ItemController
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +103,8 @@ public InventoryItemController ItemController
 ```csharp
 public InventorySefiraController SefiraController
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,18 +149,25 @@ public bool IsEnabled { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CloseWindow()
 
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### CreateWindow()
 
 ```csharp
 public static InventoryUI CreateWindow()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -152,6 +178,8 @@ public static InventoryUI CreateWindow()
 ```csharp
 public void OnClickEquipment(EquipmentModel equipment)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,12 +192,16 @@ public void OnClickEquipment(EquipmentModel equipment)
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +215,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void ReleaseEquipment(EquipmentModel equipment, AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,9 +230,13 @@ public void ReleaseEquipment(EquipmentModel equipment, AgentModel agent)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

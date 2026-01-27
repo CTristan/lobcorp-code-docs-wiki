@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/WandApostleAnim
 public class WandApostleAnim : DeathAngelApostleAnim, IAnimatorEventCalled
 ```
 
+Animation handler for [Wand Apostle](/api/WhiteNightSpace/WandApostle).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → [DeathAngelApostleAnim](/api/WhiteNightSpace/DeathAngelApostleAnim) → WandApostleAnim
 
@@ -36,6 +39,8 @@ public WandApostleAnim()
 ```csharp
 public ApostleLaser laser
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,12 +65,17 @@ public WandApostle WandApostle { get; }
 ```csharp
 public void OnAttackDurationEnd()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -78,18 +88,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### SetScript(DeathAngelApostle)
 
 ```csharp
 public override void SetScript(DeathAngelApostle apostle)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/ViscusSnakeArmor
 public class ViscusSnakeArmor : EquipmentScriptBase
 ```
 
+Script for [The Naked Nest](/api/Global/Misc/ViscusSnake)'s EGO Suit: Exuviae. No script, just a debug log.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ViscusSnakeArmor
 
@@ -33,6 +38,8 @@ public ViscusSnakeArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

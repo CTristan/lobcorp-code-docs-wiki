@@ -11,6 +11,10 @@ canonical_path: /api/CommandWindow/CommandWindowRegion
 ```csharp
 public class CommandWindowRegion
 ```
+Parent class for command regions
+
+#parent
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CommandWindowRegion
@@ -36,6 +40,8 @@ public CommandWindowRegion()
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public GameObject ActiveControl
 ```csharp
 public Image TargetImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public Image TargetImage
 ```csharp
 public Text TargetName
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +78,9 @@ public Text TargetName
 ```csharp
 public virtual void SetData(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

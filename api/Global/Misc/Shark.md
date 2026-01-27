@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Shark
 public class Shark : CreatureBase
 ```
 
+The Dreaming Current.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Shark
 
@@ -33,6 +38,8 @@ public Shark()
 ```csharp
 private SharkAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SharkAnim _animScript
 ```csharp
 private const string _filterName = "SharkDrugFilter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const string _filterName = "SharkDrugFilter"
 ```csharp
 private const int _qliphothCounterMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _qliphothCounterMax = 2
 ```csharp
 private List<UnitModel> attacked
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private List<UnitModel> attacked
 ```csharp
 private const float attackRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float attackRange = 3
 ```csharp
 private const float castingTime = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float castingTime = 8
 ```csharp
 private Timer castingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private Timer castingTimer
 ```csharp
 private const int chargeDmgMax = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int chargeDmgMax = 150
 ```csharp
 private const int chargeDmgMin = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const int chargeDmgMin = 150
 ```csharp
 public SoundEffectPlayer dashSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public SoundEffectPlayer dashSound
 ```csharp
 private SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private SoundEffectPlayer defaultSound
 ```csharp
 public SoundEffectPlayer delaySound
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public SoundEffectPlayer delaySound
 ```csharp
 private const float delayTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float delayTime = 10
 ```csharp
 private Timer delayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private Timer delayTimer
 ```csharp
 private MapNode entranceNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private MapNode entranceNode
 ```csharp
 private MapNode exitNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private MapNode exitNode
 ```csharp
 private const float movement = 24
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private List<Shark.PassageDrugged> passagesDrugged
 ```csharp
 private const string sound_attack = "attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const string sound_attack = "attack"
 ```csharp
 private const string sound_cast = "cast"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const string sound_cast = "cast"
 ```csharp
 public const string sound_dash = "dash"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ public const string sound_dash = "dash"
 ```csharp
 private const string sound_dashStart = "dash_start"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const string sound_dashStart = "dash_start"
 ```csharp
 private const string sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private const string sound_dead = "dead"
 ```csharp
 private const string sound_default = "default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const string sound_default = "default"
 ```csharp
 public const string sound_delay = "delay"
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,30 +360,40 @@ private static int chargeDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Charge()
 
 ```csharp
 private void Charge()
 ```
+#INC
+
 
 ### EndCasting()
 
 ```csharp
 private void EndCasting()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,6 +410,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private bool IsInRange(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,6 +428,8 @@ private bool IsInRange(MovableObjectNode mov)
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,6 +444,8 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -393,6 +462,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,6 +480,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 private bool NodeSelection()
 ```
+#INC
+
 
 #### Returns
 
@@ -419,6 +492,8 @@ private bool NodeSelection()
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -429,6 +504,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -441,6 +518,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -453,24 +532,33 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -483,33 +571,45 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### PassageSelection()
 
 ```csharp
 private void PassageSelection()
 ```
+#INC
+
 
 ### PrevEscape()
 
 ```csharp
 private void PrevEscape()
 ```
+#INC
+
 
 ### StartCasting()
 
 ```csharp
 private void StartCasting()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 private void Teleport()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

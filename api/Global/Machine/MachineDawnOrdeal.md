@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineDawnOrdeal
 public class MachineDawnOrdeal : MachineOrdeal
 ```
 
+Dawn of Green ordeal, Doubt. Spawns a bunch of [MachineDawn](/api/Global/Machine/MachineDawn).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [MachineOrdeal](/api/Global/Misc/MachineOrdeal) → MachineDawnOrdeal
 
@@ -25,6 +30,8 @@ public class MachineDawnOrdeal : MachineOrdeal
 ```csharp
 public MachineDawnOrdeal()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,9 +40,14 @@ public MachineDawnOrdeal()
 ```csharp
 public override void OnGameInit()
 ```
+#INC
+#code-generated
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/WorkAllocateTutorial
 public class WorkAllocateTutorial : Tutorial
 ```
 
+Ends when a worker is assigned to work. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → WorkAllocateTutorial
 
@@ -33,6 +36,8 @@ public WorkAllocateTutorial()
 ```csharp
 private List<AgentModel> agents
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +50,14 @@ private List<AgentModel> agents
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

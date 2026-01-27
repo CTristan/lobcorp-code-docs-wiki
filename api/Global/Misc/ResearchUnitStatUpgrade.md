@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResearchUnitStatUpgrade
 ```csharp
 public class ResearchUnitStatUpgrade
 ```
+Research for Netzach's 'Regenerator Mk2' (increased HP healing) and 'Mental Corruption Neutralizing Gas' (increased SP healing).
+
+See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchUnitStatUpgrade
@@ -33,6 +37,9 @@ public ResearchUnitStatUpgrade()
 ```csharp
 public int hp
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public int hp
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public int mental
 ```csharp
 public int mentalDefense
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int mentalDefense
 ```csharp
 public float movement
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public float movement
 ```csharp
 public int physicalDefense
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public int physicalDefense
 ```csharp
 public int regeneration
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public int regeneration
 ```csharp
 public float regenerationDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public float regenerationDelay
 ```csharp
 public int regenerationMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public int regenerationMental
 ```csharp
 public float regenerationMentalDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public float regenerationMentalDelay
 ```csharp
 public int resistHorror
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public int resistHorror
 ```csharp
 public float workEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public float workEnergy
 ```csharp
 public float workProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public float workProb
 ```csharp
 public float workSpeed
 ```
+#INC
+
 
 #### Field Value
 

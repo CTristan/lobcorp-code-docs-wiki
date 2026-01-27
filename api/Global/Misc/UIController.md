@@ -39,6 +39,8 @@ public UIController()
 ```csharp
 private Animator m_Animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +51,8 @@ private Animator m_Animator
 ```csharp
 private UnityEvent m_DisposableOnHide
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +63,8 @@ private UnityEvent m_DisposableOnHide
 ```csharp
 private UnityEvent m_DisposableOnShow
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,6 +97,8 @@ private UnityEvent m_OnShow
 ```csharp
 private Vector3 m_TempSaveScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,12 +173,16 @@ public UnityEvent onShow { get; private set; }
 ```csharp
 public virtual void Hide()
 ```
+#INC
+
 
 ### Hide(UnityAction)
 
 ```csharp
 public void Hide(UnityAction onHide)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,24 +195,33 @@ public void Hide(UnityAction onHide)
 ```csharp
 protected virtual void OnHide()
 ```
+#INC
+
 
 ### OnShow()
 
 ```csharp
 protected virtual void OnShow()
 ```
+#INC
+
 
 ### Show()
 
 ```csharp
 public virtual void Show()
 ```
+#INC
+#code-generated
+
 
 ### Show(UnityAction)
 
 ```csharp
 public void Show(UnityAction onShow)
 ```
+#INC
+
 
 #### Parameters
 
@@ -213,6 +234,8 @@ public void Show(UnityAction onShow)
 ```csharp
 private void ShowHideWithAction(bool isShowAction, UnityAction onAction, UnityEvent onActionEvent, Action action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -228,6 +251,8 @@ private void ShowHideWithAction(bool isShowAction, UnityAction onAction, UnityEv
 ```csharp
 private IEnumerator TryRevertScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -238,3 +263,5 @@ private IEnumerator TryRevertScale()
 ```csharp
 private void TrySaveScale()
 ```
+#INC
+

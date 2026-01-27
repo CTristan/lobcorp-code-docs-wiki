@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/AudioSlider
 public class AudioSlider : MonoBehaviour, IEnableMessage
 ```
 
+Slider for audio volume in the [options menu](/api/Global/UI/OptionUI).
+
+Seems to be used for master volume and BGM.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AudioSlider
 
@@ -36,6 +41,8 @@ public AudioSlider()
 ```csharp
 public Slider slider
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public Slider slider
 ```csharp
 public AudioSliderType sliderType
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,3 +67,6 @@ public AudioSliderType sliderType
 ```csharp
 public void Enable()
 ```
+#INC
+#code-generated
+

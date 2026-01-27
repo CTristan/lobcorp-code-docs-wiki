@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/EffectLayer
 ```csharp
 public class EffectLayer : MonoBehaviour
 ```
+Manages the effects that need to be performed. Also apparently loads the [advent clock UI](/api/WhiteNightSpace/AdventClockUI).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EffectLayer
@@ -33,6 +37,8 @@ public EffectLayer()
 ```csharp
 public AdventClockUI _adventUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +123,8 @@ private int _unscaledCount { get; }
 ```csharp
 public static EffectLayer currentLayer { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -129,6 +137,8 @@ public static EffectLayer currentLayer { get; private set; }
 ```csharp
 public void Apply(EffectInvoker script, EffectLifetimeType type, float lifeTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,18 +153,25 @@ public void Apply(EffectInvoker script, EffectLifetimeType type, float lifeTime)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Delete()
 
 ```csharp
 private void Delete()
 ```
+#INC
+
 
 ### GenAdventUI()
 
 ```csharp
 public AdventClockUI GenAdventUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -165,12 +182,16 @@ public AdventClockUI GenAdventUI()
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### Process(float, float)
 
 ```csharp
 private void Process(float delta, float u_delta)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,3 +205,5 @@ private void Process(float delta, float u_delta)
 ```csharp
 private void Update()
 ```
+#INC
+

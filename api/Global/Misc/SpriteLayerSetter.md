@@ -38,6 +38,8 @@ public SpriteLayerSetter()
 ```csharp
 public bool Change
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +64,8 @@ public SpriteRenderer renderer { get; }
 ```csharp
 private void ChangeSpriteOrder(Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -74,15 +78,22 @@ private void ChangeSpriteOrder(Transform t)
 ```csharp
 public void OnClickButton()
 ```
+#INC
+#code-generated
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

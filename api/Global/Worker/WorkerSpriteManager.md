@@ -12,6 +12,10 @@ canonical_path: /api/Global/Worker/WorkerSpriteManager
 public class WorkerSpriteManager : MonoBehaviour
 ```
 
+Manages worker sprites. #INC 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerSpriteManager
 
@@ -33,6 +37,8 @@ public WorkerSpriteManager()
 ```csharp
 private static WorkerSpriteManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static WorkerSpriteManager _instance
 ```csharp
 private Dictionary<string, UniqueWeaponSpriteUnit> _uniqueWeaponDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +72,8 @@ public WorkerBasicSpriteController basicData
 ```csharp
 public const string bothHairPath = "Sprites/Agent/Hair/Both"
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +84,8 @@ public const string bothHairPath = "Sprites/Agent/Hair/Both"
 ```csharp
 private static float custom_128
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +96,8 @@ private static float custom_128
 ```csharp
 private static float custom_256
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +108,8 @@ private static float custom_256
 ```csharp
 private static float custom_512
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +120,8 @@ private static float custom_512
 ```csharp
 private const float custom_x_std_face = 256
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +132,8 @@ private const float custom_x_std_face = 256
 ```csharp
 private const float custom_x_std_hair = 256
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +144,8 @@ private const float custom_x_std_hair = 256
 ```csharp
 public WorkerEquipmentSpriteController equipData
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +156,8 @@ public WorkerEquipmentSpriteController equipData
 ```csharp
 public const string facePath = "Sprites/Agent/Face"
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +168,8 @@ public const string facePath = "Sprites/Agent/Face"
 ```csharp
 public const string femaleHairPath = "Sprites/Agent/Hair/Female"
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +180,8 @@ public const string femaleHairPath = "Sprites/Agent/Hair/Female"
 ```csharp
 public const string maleHairPath = "Sprites/Agent/Hair/Male"
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +212,8 @@ public List<int> Modifys
 ```csharp
 public List<Sprite> PanicShadow
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +224,8 @@ public List<Sprite> PanicShadow
 ```csharp
 private static Vector2 pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +236,8 @@ private static Vector2 pivot
 ```csharp
 public Sprite righthand
 ```
+#INC
+
 
 #### Field Value
 
@@ -214,6 +248,8 @@ public Sprite righthand
 ```csharp
 public List<Sprite> SefiraSymbol
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +260,8 @@ public List<Sprite> SefiraSymbol
 ```csharp
 public List<Sprite> SefiraSymbol2
 ```
+#INC
+
 
 #### Field Value
 
@@ -234,6 +272,8 @@ public List<Sprite> SefiraSymbol2
 ```csharp
 public List<Sprite> SefiraSymbol3
 ```
+#INC
+
 
 #### Field Value
 
@@ -244,6 +284,8 @@ public List<Sprite> SefiraSymbol3
 ```csharp
 public List<Sprite> SefiraSymbol4
 ```
+#INC
+
 
 #### Field Value
 
@@ -264,6 +306,8 @@ public static Sprite Special_Basic
 ```csharp
 public List<Sprite> UniqueWeapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +329,8 @@ public List<UniqueWeaponSpriteUnit> uniqueWeaponSprites
 ```csharp
 public List<WorkerColorPreset> workerColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,6 +341,8 @@ public List<WorkerColorPreset> workerColor
 ```csharp
 public List<Sprite> WorkNote
 ```
+#INC
+
 
 #### Field Value
 
@@ -449,6 +497,9 @@ public static WorkerSpriteManager instance { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetAgentArmor(ref WorkerSprite)
 
@@ -480,6 +531,8 @@ public void GetArmorData(int id, ref WorkerSprite set)
 ```csharp
 public Sprite GetAttachmentSprite(EGOgiftAttachRegion region, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -497,6 +550,8 @@ public Sprite GetAttachmentSprite(EGOgiftAttachRegion region, string name)
 ```csharp
 public SpriteResourceLoadData GetClothesSet(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,6 +568,8 @@ public SpriteResourceLoadData GetClothesSet(int id)
 ```csharp
 public Sprite[] GetFistSprite(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -529,6 +586,8 @@ public Sprite[] GetFistSprite(int id)
 ```csharp
 private int GetOfficerArmor(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -558,6 +617,8 @@ public void GetOfficerArmror(ref WorkerSprite set, SefiraEnum sefira)
 ```csharp
 public Sprite GetPanicShadow(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -587,6 +648,8 @@ public void GetRandomBasicData(WorkerSprite set, bool containCustoms = true)
 ```csharp
 public Color GetRandomColor()
 ```
+#INC
+
 
 #### Returns
 
@@ -597,6 +660,8 @@ public Color GetRandomColor()
 ```csharp
 public Sprite GetSefiraSymbol(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -613,6 +678,8 @@ public Sprite GetSefiraSymbol(AgentModel agent)
 ```csharp
 public Sprite GetSefiraSymbol(SefiraEnum sefira, int level = 1)
 ```
+#INC
+
 
 #### Parameters
 
@@ -643,6 +710,8 @@ public void GetUniqueBasicData(WorkerSprite set, UniqueCreditAgentInfo info)
 ```csharp
 public bool GetUniqueWeaponSpriteInfo(string name, out UniqueWeaponSpriteUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -660,6 +729,8 @@ public bool GetUniqueWeaponSpriteInfo(string name, out UniqueWeaponSpriteUnit un
 ```csharp
 public Sprite GetWeaponSprite(WeaponClassType type, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -677,6 +748,8 @@ public Sprite GetWeaponSprite(WeaponClassType type, string name)
 ```csharp
 public Sprite GetWorkNoteSprite(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -693,6 +766,8 @@ public Sprite GetWorkNoteSprite(int id)
 ```csharp
 public Sprite LoadBasicData(BasicSpriteRegion region, WorkerSpriteSaveData.Pair pair)
 ```
+#INC
+
 
 #### Parameters
 
@@ -724,12 +799,16 @@ public void LoadCustomSprite(DirectoryInfo di, BasicSpriteRegion region, WorkerS
 ```csharp
 public void LoadCustomSprites()
 ```
+#INC
+
 
 ### LoadSpineData()
 
 ```csharp
 private void LoadSpineData()
 ```
+#INC
+
 
 ### LoadWorkerSpriteSetBySaveData(WorkerSprite)
 
@@ -764,6 +843,8 @@ public void MakeNewUniqueWeaponSpriteUnit(string name, UniqueWeaponSpriteUnit un
 ```csharp
 public static Texture2D ScaleTexture(Texture2D source, int targetWidth, int targetHeight, bool mipmap = true)
 ```
+#INC
+
 
 #### Parameters
 

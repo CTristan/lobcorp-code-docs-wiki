@@ -12,6 +12,13 @@ canonical_path: /api/Global/UnitBuf/YoungPrinceSporeBuf
 public class YoungPrinceSporeBuf : UnitBuf
 ```
 
+Buff applied by [The Little Prince](/api/Global/IOBserver/YoungPrince) which causes a worker to take between 1 and 4 white damage every 2 seconds.
+
+On panic, attracts the worker to The Little Prince's containment unit. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → YoungPrinceSporeBuf
 
@@ -25,6 +32,8 @@ public class YoungPrinceSporeBuf : UnitBuf
 ```csharp
 public YoungPrinceSporeBuf(YoungPrince yp)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +48,8 @@ public YoungPrinceSporeBuf(YoungPrince yp)
 ```csharp
 private const int _tickDamageMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +60,8 @@ private const int _tickDamageMax = 3
 ```csharp
 private const int _tickDamageMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +72,8 @@ private const int _tickDamageMin = 1
 ```csharp
 private Timer damageTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +84,8 @@ private Timer damageTickTimer
 ```csharp
 private const float defaultRemain = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +96,8 @@ private const float defaultRemain = 10
 ```csharp
 private YoungPrince prince
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +108,8 @@ private YoungPrince prince
 ```csharp
 private GameObject spore
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +120,8 @@ private GameObject spore
 ```csharp
 private const float tickTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +132,8 @@ private const float tickTime = 2
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private static int tickDamage { get; }
 ```csharp
 public void AttachEffect(Transform head)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,18 +172,25 @@ public void AttachEffect(Transform head)
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -169,15 +203,21 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### OnUnitPanic()
 
 ```csharp
 public override void OnUnitPanic()
 ```
+#INC
+
 
 ### RemoveSpore()
 
 ```csharp
 public void RemoveSpore()
 ```
+#INC
+

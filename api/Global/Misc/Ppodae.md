@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Ppodae
 public class Ppodae : CreatureBase
 ```
 
+Ppodae.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Ppodae
 
@@ -33,6 +38,8 @@ public Ppodae()
 ```csharp
 private float _accumulatedDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _accumulatedDmg
 ```csharp
 private PpodaeAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private PpodaeAnim _animScript
 ```csharp
 private const float _ATK_RANGE = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _ATK_RANGE = 4
 ```csharp
 private WorkerModel _attackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Ppodae.PpodaeState _curState
 ```csharp
 private const float _DMG_MAX = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _DMG_MAX = 4
 ```csharp
 private const float _DMG_MIN = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _DMG_MIN = 3
 ```csharp
 private const RwbpType _DMG_TYPE = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const RwbpType _DMG_TYPE = R
 ```csharp
 private bool _gainFood
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private bool _gainFood
 ```csharp
 private const float _SPEED_MOVEMENT = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float _SPEED_MOVEMENT = 3
 ```csharp
 private const float _TIME_TRANSFORM = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _TIME_TRANSFORM = 1
 ```csharp
 private Timer _transformTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,30 +204,40 @@ private bool _targetChangeCondition { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### DecideStep()
 
 ```csharp
 private void DecideStep()
 ```
+#INC
+
 
 ### EndAttack()
 
 ```csharp
 private void EndAttack()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDamageFactor(UnitModel, DamageInfo)
 
 ```csharp
 public override float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,12 +255,16 @@ public override float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```csharp
 private void GiveDamage()
 ```
+#INC
+
 
 ### IsInRange(WorkerModel, UnitDirection, float)
 
 ```csharp
 private bool IsInRange(WorkerModel wm, UnitDirection direction, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,12 +283,16 @@ private bool IsInRange(WorkerModel wm, UnitDirection direction, float range)
 ```csharp
 private void Move()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,6 +305,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -272,6 +319,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,30 +333,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,6 +381,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -334,12 +395,17 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ReturnHome()
 
 ```csharp
 private void ReturnHome()
 ```
+#INC
+
 
 ### SetState(PpodaeState)
 
@@ -358,9 +424,13 @@ private void SetState(Ppodae.PpodaeState state)
 ```csharp
 private void Stop()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/EquipmentTypeInfo
 ```csharp
 public class EquipmentTypeInfo
 ```
+Holds information about whether an [EGO](/api/Global/Model/EquipmentModel) is a weapon, suit, or something special, as well as a mix of information for all types of EGO.
+
+Holds defense information, weapon class type, weapon damage information, gift stat bonuses, name, description, special effect description, grade, and max amount craftable.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentTypeInfo
@@ -33,6 +39,8 @@ public EquipmentTypeInfo()
 ```csharp
 public string[] animationNames
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public string[] animationNames
 ```csharp
 public int armorId
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public int armorId
 ```csharp
 public string attachPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public string attachPos
 ```csharp
 public EGOgiftAttachType attachType
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public EGOgiftAttachType attachType
 ```csharp
 public float attackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ public float attackSpeed
 ```csharp
 public EGObonusInfo bonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ public EGObonusInfo bonus
 ```csharp
 public DamageInfo[] damageInfos
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public DamageInfo[] damageInfos
 ```csharp
 public DefenseInfo defenseInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public DefenseInfo defenseInfo
 ```csharp
 public string no
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ public string no
 ```csharp
 public string grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ public string grade
 ```csharp
 public string icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +171,8 @@ public string icon
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +183,8 @@ public int id
 ```csharp
 public Dictionary<string, string> localizeData
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +195,8 @@ public Dictionary<string, string> localizeData
 ```csharp
 public int maxNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +207,8 @@ public int maxNum
 ```csharp
 public float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +219,8 @@ public float range
 ```csharp
 public List<EgoRequire> requires
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +231,8 @@ public List<EgoRequire> requires
 ```csharp
 public string script
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +243,8 @@ public string script
 ```csharp
 public string specialWeaponAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +255,8 @@ public string specialWeaponAnim
 ```csharp
 public SplashInfo splashInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +267,8 @@ public SplashInfo splashInfo
 ```csharp
 public string sprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +289,8 @@ public EquipmentTypeInfo.EquipmentType type
 ```csharp
 public WeaponClassType weaponClassType
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +301,8 @@ public WeaponClassType weaponClassType
 ```csharp
 public int weaponId
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +397,8 @@ public string SpecialDesc { get; }
 ```csharp
 public static EquipmentTypeInfo GetDummyArmorInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -357,6 +409,8 @@ public static EquipmentTypeInfo GetDummyArmorInfo()
 ```csharp
 public static EquipmentTypeInfo GetDummyGiftInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -367,6 +421,9 @@ public static EquipmentTypeInfo GetDummyGiftInfo()
 ```csharp
 public static EquipmentTypeInfo GetDummyInfo()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -377,6 +434,8 @@ public static EquipmentTypeInfo GetDummyInfo()
 ```csharp
 public bool GetLocalizedText(string region, out string output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -394,6 +453,8 @@ public bool GetLocalizedText(string region, out string output)
 ```csharp
 public static EquipmentTypeInfo MakeWeaponInfoByDamageInfo(DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

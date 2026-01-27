@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSpine/WorkerColorPreset
 ```csharp
 public class WorkerColorPreset
 ```
+A color, id, and name...............?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerColorPreset
@@ -33,6 +37,9 @@ public WorkerColorPreset()
 ```csharp
 public Color color
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Color color
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public int id
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 

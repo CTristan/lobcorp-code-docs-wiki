@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Porccu
 public class Porccu : CreatureBase
 ```
 
+Porccubus.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Porccu
 
@@ -33,6 +38,8 @@ public Porccu()
 ```csharp
 private PorccuAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private PorccuAnim _animScript
 ```csharp
 private const int _attackDmgMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _attackDmgMax = 8
 ```csharp
 private const int _attackDmgMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _attackDmgMin = 3
 ```csharp
 private const float _attackRangeFar = 5.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _attackRangeFar = 5.5
 ```csharp
 private const float _attackRangeNear = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _attackRangeNear = 3
 ```csharp
 private Queue<WorkerModel> _deadScene_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private Queue<WorkerModel> _deadScene_1
 ```csharp
 private Queue<WorkerModel> _deadScene_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private Queue<WorkerModel> _deadScene_2
 ```csharp
 private Queue<WorkerModel> _deadScene_3
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private Queue<WorkerModel> _deadScene_3
 ```csharp
 private AgentModel _dieInIsolate
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private AgentModel _dieInIsolate
 ```csharp
 private const string _effect_boom = "PorccuAgentDeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const string _effect_boom = "PorccuAgentDeadEffect"
 ```csharp
 private const string _effect_fountain = "PorccuBloodFountain"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const string _effect_fountain = "PorccuBloodFountain"
 ```csharp
 private const string _effect_src = "Effect/Creature/Porccu/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string _effect_src = "Effect/Creature/Porccu/"
 ```csharp
 private const float _motionDelayTimeMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _motionDelayTimeMax = 1
 ```csharp
 private const float _motionDelayTimeMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _motionDelayTimeMin = 0.5
 ```csharp
 private const int _qliphothMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const int _qliphothMax = 2
 ```csharp
 private const float _rangeMaxFar = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const float _rangeMaxFar = 6
 ```csharp
 private const float _rangeMaxNear = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _rangeMaxNear = 4
 ```csharp
 private const float _rangeMinFar = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float _rangeMinFar = 3.5
 ```csharp
 private const float _rangeMinNear = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const float _rangeMinNear = 0
 ```csharp
 private const string _sound_Atk1 = "Atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const string _sound_Atk1 = "Atk1"
 ```csharp
 private const string _sound_Atk2 = "Atk2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private const string _sound_Atk2 = "Atk2"
 ```csharp
 private const string _sound_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const string _sound_Dead = "Dead"
 ```csharp
 private const string _sound_DScene1 = "DScene1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private const string _sound_DScene1 = "DScene1"
 ```csharp
 private const string _sound_DScene2 = "DScene2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private const string _sound_DScene2 = "DScene2"
 ```csharp
 private const string _sound_Special = "Special"
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private const string _sound_Special = "Special"
 ```csharp
 private const int _specialDmgMax = 24
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private const int _specialDmgMax = 24
 ```csharp
 private const int _specialDmgMin = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +362,8 @@ private const int _specialDmgMin = 9
 ```csharp
 private const int _temperCondInSkill = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +374,8 @@ private const int _temperCondInSkill = 3
 ```csharp
 private const int _temperCondMaxInBattle = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +386,8 @@ private const int _temperCondMaxInBattle = 5
 ```csharp
 private const int _temperCondMinInBattle = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +398,8 @@ private const int _temperCondMinInBattle = 3
 ```csharp
 private RwbpType attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +410,8 @@ private RwbpType attackType
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +422,8 @@ private Timer motionDelayTimer
 ```csharp
 private RwbpType specialType
 ```
+#INC
+
 
 #### Field Value
 
@@ -407,30 +478,41 @@ private static int specialDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+#code-generated
+
 
 ### AgentDeadSceneEffect()
 
 ```csharp
 private void AgentDeadSceneEffect()
 ```
+#INC
+
 
 ### AgentDeadSceneSound_1st()
 
 ```csharp
 private void AgentDeadSceneSound_1st()
 ```
+#INC
+
 
 ### AgentDeadSceneSound_2nd()
 
 ```csharp
 private void AgentDeadSceneSound_2nd()
 ```
+#INC
+
 
 ### AttachEffectToWorker(WorkerModel, string)
 
 ```csharp
 private GameObject AttachEffectToWorker(WorkerModel worker, string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,6 +530,8 @@ private GameObject AttachEffectToWorker(WorkerModel worker, string src)
 ```csharp
 private void AttackStart(bool near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -460,6 +544,8 @@ private void AttackStart(bool near)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -477,12 +563,16 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -499,6 +589,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private WorkerModel GetFarTarget(float rangeMax, float rangeMin, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -517,6 +609,8 @@ private WorkerModel GetFarTarget(float rangeMax, float rangeMin, bool needDir = 
 ```csharp
 private WorkerModel GetNearest(float rangeMax, float rangeMin, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -535,6 +629,8 @@ private WorkerModel GetNearest(float rangeMax, float rangeMin, bool needDir = tr
 ```csharp
 private List<MapNode> GetNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -545,6 +641,8 @@ private List<MapNode> GetNodes()
 ```csharp
 private List<PassageObjectModel> GetPassages()
 ```
+#INC
+
 
 #### Returns
 
@@ -555,6 +653,8 @@ private List<PassageObjectModel> GetPassages()
 ```csharp
 private WorkerModel GetRandomTarget(float rangeMax, float rangeMin, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -573,6 +673,8 @@ private WorkerModel GetRandomTarget(float rangeMax, float rangeMin, bool needDir
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -589,6 +691,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private UnitDirection GetTargetDirection(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -605,6 +709,8 @@ private UnitDirection GetTargetDirection(WorkerModel target)
 ```csharp
 private List<WorkerModel> GetTargets(float rangeMax, float rangeMin, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -623,6 +729,8 @@ private List<WorkerModel> GetTargets(float rangeMax, float rangeMin, bool needDi
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -633,6 +741,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsAttackingNear()
 ```
+#INC
+
 
 #### Returns
 
@@ -643,6 +753,8 @@ private bool IsAttackingNear()
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -659,6 +771,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -669,6 +783,8 @@ private bool IsInDeadScene()
 ```csharp
 private bool IsInRange(WorkerModel target, float rangeMax, float rangeMin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -687,6 +803,8 @@ private bool IsInRange(WorkerModel target, float rangeMax, float rangeMin)
 ```csharp
 private bool IsInView(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -703,12 +821,16 @@ private bool IsInView(WorkerModel target)
 ```csharp
 private void KillWorkerInIsolate()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -725,6 +847,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public SoundEffectPlayer MakeWorkerSound(WorkerModel worker, string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -742,6 +866,8 @@ public SoundEffectPlayer MakeWorkerSound(WorkerModel worker, string src)
 ```csharp
 private MapNode NodeSelection()
 ```
+#INC
+
 
 #### Returns
 
@@ -752,6 +878,8 @@ private MapNode NodeSelection()
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -762,6 +890,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAgentAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -774,42 +904,56 @@ public void OnAgentAnimCalled(int i)
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDeadSceneEnd()
 
 ```csharp
 public void OnDeadSceneEnd()
 ```
+#INC
+
 
 ### OnEscapeSuccess()
 
 ```csharp
 public void OnEscapeSuccess()
 ```
+#INC
+
 
 ### OnMakeDeadSceneSound()
 
 ```csharp
 public void OnMakeDeadSceneSound()
 ```
+#INC
+
 
 ### OnMakeDeadSound()
 
 ```csharp
 public void OnMakeDeadSound()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -822,12 +966,16 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -840,18 +988,24 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -864,12 +1018,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SetDeadScene(bool)
 
 ```csharp
 private void SetDeadScene(bool near = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -882,6 +1040,8 @@ private void SetDeadScene(bool near = false)
 ```csharp
 private void SetWorkerDeadScene(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -894,9 +1054,13 @@ private void SetWorkerDeadScene(WorkerModel target)
 ```csharp
 private void Teleport()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

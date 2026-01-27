@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/PorccuWeapon
 public class PorccuWeapon : EquipmentScriptBase
 ```
 
+Script for [Porccubus](/api/Global/Misc/Porccu)'s EGO Weapon: Pleasure.
+
+Plays a sound when the attack starts.
+After doing damage, gives the target the [PorccuWeaponDebuf](/api/Global/UnitBuf/PorccuWeaponDebuf) debuff for one second.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → PorccuWeapon
 
@@ -33,6 +39,8 @@ public PorccuWeapon()
 ```csharp
 private const string _sound_AtkStart = "creature/Porccu/Porccu_Atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private const string _sound_AtkStart = "creature/Porccu/Porccu_Atk1"
 ```csharp
 private const float volume = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +82,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

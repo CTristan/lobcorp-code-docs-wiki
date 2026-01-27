@@ -12,6 +12,13 @@ canonical_path: /api/GeburahBoss/MovementBuf
 public class MovementBuf : UnitBuf
 ```
 
+Buff that scales a unit's speed.
+
+Used on [The Red Mist](/api/Global/Script/GeburahCoreScript) for her [chase attack](/api/GeburahBoss/ChaseAction) and [Gold Rush attack](/api/GeburahBoss/GreedyTelepeort) (including the [phase 4 version](/api/GeburahBoss/GreedyThrow)).
+
+Also used to apply a slowing debuff to agents hit by projectile of the Phase 4 Gold Rush attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → MovementBuf
 
@@ -25,6 +32,8 @@ public class MovementBuf : UnitBuf
 ```csharp
 public MovementBuf(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +46,8 @@ public MovementBuf(float factor)
 ```csharp
 public MovementBuf(float factor, float lifeTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,6 +63,8 @@ public MovementBuf(float factor, float lifeTime)
 ```csharp
 private Timer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +75,8 @@ private Timer _timer
 ```csharp
 private float factor
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +87,8 @@ private float factor
 ```csharp
 private float lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,12 +101,17 @@ private float lifeTime
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### MovementScale()
 
 ```csharp
 public override float MovementScale()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/ChildCreatureData
 ```csharp
 public class ChildCreatureData
 ```
+Name and id for a [ChildCreatureModel](/api/Global/Creature/ChildCreatureModel)?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ChildCreatureData
@@ -33,6 +36,8 @@ public ChildCreatureData()
 ```csharp
 public string codeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,9 @@ public string codeId
 ```csharp
 public string name
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CensoredChildAnim
 public class CensoredChildAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [CENSORED's spawn](/api/Global/Misc/CensoredChild).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CensoredChildAnim
 
@@ -36,6 +39,8 @@ public CensoredChildAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public GameObject center
 ```csharp
 private CensoredChild script
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,24 +77,33 @@ private CensoredChild script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+#code-generated
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### Born()
 
 ```csharp
 private void Born()
 ```
+#INC
+
 
 ### IsMovable()
 
 ```csharp
 public bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -96,12 +114,16 @@ public bool IsMovable()
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,18 +136,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### SetScript(CensoredChild)
 
 ```csharp
 public void SetScript(CensoredChild script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,3 +166,5 @@ public void SetScript(CensoredChild script)
 ```csharp
 private void Update()
 ```
+#INC
+

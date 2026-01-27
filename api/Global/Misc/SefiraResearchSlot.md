@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SefiraResearchSlot
 ```csharp
 public class SefiraResearchSlot
 ```
+A spot for a [SefiraResearchPanel](/api/Global/Misc/SefiraResearchPanel) on the research tab on the deployment screen.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraResearchSlot
@@ -33,6 +37,8 @@ public SefiraResearchSlot()
 ```csharp
 public string desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public string desc
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Image Frame
 ```csharp
 public Image Icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Image Icon
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public int index
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public string name
 ```csharp
 public GameObject RootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public GameObject RootObject
 ```csharp
 public Image Texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,9 +123,14 @@ public Image Texture
 ```csharp
 public void OnDePicked()
 ```
+#INC
+
 
 ### OnPicked()
 
 ```csharp
 public void OnPicked()
 ```
+#INC
+#code-generated
+

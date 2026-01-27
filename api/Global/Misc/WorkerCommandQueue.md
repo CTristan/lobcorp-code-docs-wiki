@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/WorkerCommandQueue
 ```csharp
 public class WorkerCommandQueue
 ```
+Holds a list of [worker commands](/api/Global/Misc/WorkerCommand) to be completed.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerCommandQueue
@@ -25,6 +29,9 @@ public class WorkerCommandQueue
 ```csharp
 public WorkerCommandQueue(WorkerModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public WorkerCommandQueue(WorkerModel actor)
 ```csharp
 private WorkerModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private WorkerModel actor
 ```csharp
 private LinkedList<WorkerCommand> queue
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ private LinkedList<WorkerCommand> queue
 ```csharp
 public void AddFirst(WorkerCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +86,8 @@ public void AddFirst(WorkerCommand cmd)
 ```csharp
 public void AddLast(WorkerCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,12 +100,16 @@ public void AddLast(WorkerCommand cmd)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### ClearQueue(List<WorkerCommand>)
 
 ```csharp
 private void ClearQueue(List<WorkerCommand> copied)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +122,8 @@ private void ClearQueue(List<WorkerCommand> copied)
 ```csharp
 public void Execute(WorkerModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +136,8 @@ public void Execute(WorkerModel agent)
 ```csharp
 public WorkerCommand GetCurrentCmd()
 ```
+#INC
+
 
 #### Returns
 
@@ -125,6 +148,8 @@ public WorkerCommand GetCurrentCmd()
 ```csharp
 public void SetAgentCommand(WorkerCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 

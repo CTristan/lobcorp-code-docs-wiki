@@ -11,6 +11,10 @@ canonical_path: /api/CreatureCameraUtil/CreatureCameraUtil
 ```csharp
 public class CreatureCameraUtil
 ```
+Contains a target (unused) and an [inspector](/api/CreatureCameraUtil/CreatureCameraUtil_Inspector), which apparently can tell if something is being rendered. It also has a check for being enabled, and modes for ignoring the orthogonal view mode.
+
+[LookAtMe](/api/Global/Misc/LookAtMe) uses it, but I can't find where the inspectors are actually assigned values...
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureCameraUtil
@@ -25,6 +29,9 @@ public class CreatureCameraUtil
 ```csharp
 public CreatureCameraUtil(UnitModel target, CreatureCameraUtil_Inspector inspector)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public CreatureCameraUtil(UnitModel target, CreatureCameraUtil_Inspector inspect
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ private bool _isEnabled
 ```csharp
 public CreatureCameraUtil_Inspector inspector
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ public CreatureCameraUtil_Inspector inspector
 ```csharp
 public UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ public bool IsEnabled { get; }
 ```csharp
 public bool CheckCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -94,6 +109,8 @@ public bool CheckCamera()
 ```csharp
 public bool CheckIgnoreOrtho()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +121,8 @@ public bool CheckIgnoreOrtho()
 ```csharp
 public static Camera GetCamera()
 ```
+#INC
+
 
 #### Returns
 

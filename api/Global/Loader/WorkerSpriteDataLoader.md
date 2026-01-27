@@ -12,6 +12,11 @@ canonical_path: /api/Global/Loader/WorkerSpriteDataLoader
 public class WorkerSpriteDataLoader
 ```
 
+Loads in the sprite data from the XML file.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpriteDataLoader
 
@@ -25,6 +30,9 @@ public class WorkerSpriteDataLoader
 ```csharp
 private WorkerSpriteDataLoader()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ private WorkerSpriteDataLoader()
 ```csharp
 private static WorkerSpriteDataLoader _loader
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private static WorkerSpriteDataLoader _loader
 ```csharp
 public WorkerBasicSpriteController basic
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ public WorkerBasicSpriteController basic
 ```csharp
 public List<WorkerColorPreset> colorLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ public List<WorkerColorPreset> colorLoaded
 ```csharp
 public WorkerEquipmentSpriteController equip
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,21 +103,29 @@ public static WorkerSpriteDataLoader Loader { get; }
 ```csharp
 private void LoadBasicData()
 ```
+#INC
+
 
 ### LoadColorPreset()
 
 ```csharp
 private void LoadColorPreset()
 ```
+#INC
+
 
 ### LoadEquipmentData()
 
 ```csharp
 private void LoadEquipmentData()
 ```
+#INC
+
 
 ### LoadnPrint()
 
 ```csharp
 public void LoadnPrint()
 ```
+#INC
+

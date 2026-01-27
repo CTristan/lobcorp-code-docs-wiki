@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/DeathAngelWeaponSlow
 public class DeathAngelWeaponSlow : UnitBuf
 ```
 
+Buff which slows a target for half a section to 0.4x speed when hit by [Paradise Lost (weapon)](/api/Global/Weapon/DeathAngelWeapon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → DeathAngelWeaponSlow
 
@@ -25,6 +28,8 @@ public class DeathAngelWeaponSlow : UnitBuf
 ```csharp
 public DeathAngelWeaponSlow()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public DeathAngelWeaponSlow()
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel creature
 ```csharp
 private const float defaultLifeTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float defaultLifeTime = 0.5
 ```csharp
 private const float speedFactor = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,9 @@ private const float speedFactor = 0.4
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,6 +91,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -87,9 +103,13 @@ public override float MovementScale()
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

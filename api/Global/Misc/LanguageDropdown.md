@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/LanguageDropdown
 public class LanguageDropdown : MonoBehaviour
 ```
 
+The dropdown for selecting the language in the [options menu](/api/Global/UI/OptionUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LanguageDropdown
 
@@ -33,6 +36,8 @@ public LanguageDropdown()
 ```csharp
 public Dropdown dropDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Dropdown dropDown
 ```csharp
 public Dictionary<string, string> language
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +62,16 @@ public Dictionary<string, string> language
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnChanged(int)
 
 ```csharp
 public void OnChanged(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,9 +84,14 @@ public void OnChanged(int i)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

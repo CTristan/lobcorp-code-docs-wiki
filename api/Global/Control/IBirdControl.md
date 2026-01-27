@@ -11,6 +11,15 @@ canonical_path: /api/Global/Control/IBirdControl
 ```csharp
 public interface IBirdControl
 ```
+Interface for birds which are called by [Apocalypse Bird](/api/Global/Misc/BossBird)'s [event](/api/Global/Event/BossBirdEvent).
+
+#### Methods
+	MakeMoveToGate(MapNode dest)
+	OnArrivedAndHide
+	OnBossActivate
+	OnBossSuppressed
+	OnGateSuppressed
+
 
 ## Methods
 
@@ -19,6 +28,9 @@ public interface IBirdControl
 ```csharp
 void MakeMoveToGate(MapNode dest)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -31,21 +43,29 @@ void MakeMoveToGate(MapNode dest)
 ```csharp
 void OnArrivedAndHide()
 ```
+#INC
+
 
 ### OnBossActivate()
 
 ```csharp
 void OnBossActivate()
 ```
+#INC
+
 
 ### OnBossSuppressed()
 
 ```csharp
 void OnBossSuppressed()
 ```
+#INC
+
 
 ### OnGateSuppressed()
 
 ```csharp
 void OnGateSuppressed()
 ```
+#INC
+

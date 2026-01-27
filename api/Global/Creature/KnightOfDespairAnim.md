@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/KnightOfDespairAnim
 public class KnightOfDespairAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Knight of Despair](/api/Global/Misc/KnightOfDespair). #Inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → KnightOfDespairAnim
 
@@ -36,6 +39,8 @@ public KnightOfDespairAnim()
 ```csharp
 public BufRenderer bufUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public BufRenderer bufUnit
 ```csharp
 public AnimatorEventHandler eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public AnimatorEventHandler eventHandler
 ```csharp
 private KnightOfDespair script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private KnightOfDespair script
 ```csharp
 private SkeletonAnimator skeletonAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SkeletonAnimator skeletonAnimator
 ```csharp
 private static string sowrdAttachmentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private static string sowrdAttachmentName
 ```csharp
 private static string[] sowrdSlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +122,8 @@ public ParticleSystem[] Spades
 ```csharp
 public KnightOfDespairSword[] Swords
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +134,8 @@ public KnightOfDespairSword[] Swords
 ```csharp
 public GameObject Throwed
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +146,8 @@ public GameObject Throwed
 ```csharp
 public Sprite Transparent
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +160,8 @@ public Sprite Transparent
 ```csharp
 public void EvalulateParticleSize(float currentScale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +174,8 @@ public void EvalulateParticleSize(float currentScale)
 ```csharp
 public int GetSwordIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -161,6 +186,8 @@ public int GetSwordIndex()
 ```csharp
 private void MakeTeleportEffect(string src, Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,6 +201,8 @@ private void MakeTeleportEffect(string src, Vector3 pos)
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,24 +215,32 @@ public void OnAnimCalled(int i)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamage()
 
 ```csharp
 public void OnDamage()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### SetAttackAnim(int)
 
 ```csharp
 public void SetAttackAnim(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,6 +253,8 @@ public void SetAttackAnim(int type)
 ```csharp
 private void SetInitialSpineState()
 ```
+#INC
+
 
 ### SetNormalAnim(AnimKey)
 
@@ -234,6 +273,9 @@ public void SetNormalAnim(KnightOfDespairAnim.AnimKey key)
 ```csharp
 public void SetScript(KnightOfDespair script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -246,3 +288,5 @@ public void SetScript(KnightOfDespair script)
 ```csharp
 public void TurnOnSwords()
 ```
+#INC
+

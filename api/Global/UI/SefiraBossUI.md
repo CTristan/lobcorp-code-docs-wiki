@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/SefiraBossUI
 public class SefiraBossUI : MonoBehaviour
 ```
 
+Displays effects and maybe some other things during a [core suppression](/api/Global/Misc/SefiraBossBase)?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraBossUI
 
@@ -33,6 +38,8 @@ public SefiraBossUI()
 ```csharp
 private const float _enterEffectTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _enterEffectTime = 1
 ```csharp
 private UnscaledTimer _enterEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private UnscaledTimer _enterEffectTimer
 ```csharp
 private const float _filterFormulaMax = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _filterFormulaMax = 0.8
 ```csharp
 private const float _filterFormulaMin = -1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _filterFormulaMin = -1
 ```csharp
 private static SefiraBossUI _instnace
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private static SefiraBossUI _instnace
 ```csharp
 public Camera bossUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Camera bossUI
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Canvas canvas
 ```csharp
 public ChesedBossUI chesedBossUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public List<SefiraBossUI.TextColorSet> colorList
 ```csharp
 public AnimationCurve defaultCloseShockWaveCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ public static SefiraBossUI.PositionRatio DefaultRatio
 ```csharp
 public Canvas finishCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ public Canvas finishCanvas
 ```csharp
 public AnimationCurve ketherLowerRotationCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ public AnimationCurve ketherLowerRotationCurve
 ```csharp
 public AnimationCurve ketherWhiteGlowCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +222,8 @@ public List<SefiraBossUI.TutorialElement> tutorialSpriteSet
 ```csharp
 public Canvas uiCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +268,9 @@ public Camera UiCamera { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetColor(SefiraEnum)
 
@@ -269,6 +303,8 @@ public SefiraBossUI.PositionRatio GetRatio()
 ```csharp
 public CameraFilterPack_AAA_SuperComputer GetUICamFilter(bool makeIfNotExist = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,27 +321,37 @@ public CameraFilterPack_AAA_SuperComputer GetUICamFilter(bool makeIfNotExist = t
 ```csharp
 public void OnEnterSefiraBossSession()
 ```
+#INC
+
 
 ### OnExitSefiraBossSession()
 
 ```csharp
 public void OnExitSefiraBossSession()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

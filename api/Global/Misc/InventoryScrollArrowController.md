@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/InventoryScrollArrowController
 public class InventoryScrollArrowController : MonoBehaviour
 ```
 
+extends 
+
+Controls scrolling in certain UI elements.
+
+Used in the [managerial tips UI](/api/CreatureInfo/CreatureInfoCaretakingRoot), the [tool abnormality observation section](/api/CreatureInfo/CreatureInfoKitLayoutController), the descriptions of EGO in the E.G.O List, and the gift area in the E.G.O list (see [InventoryItemController](/api/Inventory/InventoryItemController)).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryScrollArrowController
 
@@ -33,6 +40,8 @@ public InventoryScrollArrowController()
 ```csharp
 public GameObject LowerArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public GameObject LowerArrow
 ```csharp
 public RectTransform ScrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public RectTransform ScrollRect
 ```csharp
 public float spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public float spacing
 ```csharp
 public GameObject UpperArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,3 +102,6 @@ public RectTransform RectTr { get; }
 ```csharp
 public void Update()
 ```
+#INC
+#code-generated
+

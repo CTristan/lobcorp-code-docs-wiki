@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/IronMaiden
 public class IronMaiden : CreatureBase
 ```
 
+We Can Change Anything.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → IronMaiden
 
@@ -33,6 +38,8 @@ public IronMaiden()
 ```csharp
 private IronMaidenAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private IronMaidenAnim _anim
 ```csharp
 private Timer _genEnergyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _genEnergyTimer
 ```csharp
 private const float _RATIO_HP_LV1 = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _RATIO_HP_LV1 = 0.8
 ```csharp
 private const float _RATIO_HP_LV2 = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _RATIO_HP_LV2 = 0.5
 ```csharp
 private int _tickCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private int _tickCount
 ```csharp
 private AgentModel lockupAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +144,8 @@ private float _frequency { get; }
 ```csharp
 private int CheckGeneratingLevel(float hpRatio)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +162,8 @@ private int CheckGeneratingLevel(float hpRatio)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,6 +176,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +190,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,12 +204,16 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +226,9 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override bool PermitCancelCurrentWork()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

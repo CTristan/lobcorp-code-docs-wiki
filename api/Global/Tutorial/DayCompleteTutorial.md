@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/DayCompleteTutorial
 internal class DayCompleteTutorial : Tutorial
 ```
 
+Tutorial for ending the day?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → DayCompleteTutorial
 
@@ -33,9 +38,14 @@ public DayCompleteTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

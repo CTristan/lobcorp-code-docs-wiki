@@ -36,6 +36,8 @@ public WorkerPortraitSetter()
 ```csharp
 private EquipmentTypeInfo _armor
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private EquipmentTypeInfo _armor
 ```csharp
 private UniqueWeaponSpriteUnit _currentUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private UniqueWeaponSpriteUnit _currentUnit
 ```csharp
 private bool _handReplace
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private bool _handReplace
 ```csharp
 private bool _mouthReplace
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private bool _mouthReplace
 ```csharp
 private List<EGOgiftModel> attachedGifts
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ private List<EGOgiftModel> attachedGifts
 ```csharp
 private Dictionary<long, WorkerPortraitAttachment> attachments
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private Dictionary<long, WorkerPortraitAttachment> attachments
 ```csharp
 private const string attachSrc = "UIComponent/WorkerPortraitAttachment"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ private const string attachSrc = "UIComponent/WorkerPortraitAttachment"
 ```csharp
 public Image Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ public Image Body
 ```csharp
 public Image CoatBack
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public Image CoatBack
 ```csharp
 public Image CoatLeft
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ public Image CoatLeft
 ```csharp
 public Image CoatRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ public Image CoatRight
 ```csharp
 public Image Eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ public Image Eye
 ```csharp
 public Image Eyebrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public Image Eyebrow
 ```csharp
 public Image FistRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ public Image FistRenderer
 ```csharp
 public Image FrontHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +216,8 @@ public Image FrontHair
 ```csharp
 public Image Head
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +228,8 @@ public Image Head
 ```csharp
 public Image LeftDownArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +240,8 @@ public Image LeftDownArm
 ```csharp
 public Image LeftDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +252,8 @@ public Image LeftDownLeg
 ```csharp
 public Image LeftHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +264,8 @@ public Image LeftHand
 ```csharp
 public Image LeftUpArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +276,8 @@ public Image LeftUpArm
 ```csharp
 public Image LeftUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +288,8 @@ public Image LeftUpLeg
 ```csharp
 public bool log
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +300,8 @@ public bool log
 ```csharp
 private WorkerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +312,8 @@ private WorkerModel model
 ```csharp
 public Image Mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +324,8 @@ public Image Mouth
 ```csharp
 public Image OneHandedRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +336,8 @@ public Image OneHandedRenderer
 ```csharp
 private static Vector2 PositionFix_Eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +348,8 @@ private static Vector2 PositionFix_Eye
 ```csharp
 private static Vector2 PositionFix_Head
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +360,8 @@ private static Vector2 PositionFix_Head
 ```csharp
 private static Vector2 PositionFix_HeadBack
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +372,8 @@ private static Vector2 PositionFix_HeadBack
 ```csharp
 public Image RearHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +384,8 @@ public Image RearHair
 ```csharp
 public Image RightDownArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +396,8 @@ public Image RightDownArm
 ```csharp
 public Image RightDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +408,8 @@ public Image RightDownLeg
 ```csharp
 public Image RightHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +420,8 @@ public Image RightHand
 ```csharp
 public Image RightUpArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +432,8 @@ public Image RightUpArm
 ```csharp
 public Image RightUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +444,8 @@ public Image RightUpLeg
 ```csharp
 public Image Symbol
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +456,8 @@ public Image Symbol
 ```csharp
 private static Color transparentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +468,8 @@ private static Color transparentColor
 ```csharp
 public Image TwoHandedRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +480,8 @@ public Image TwoHandedRenderer
 ```csharp
 private List<GameObject> weaponAdded
 ```
+#INC
+
 
 #### Field Value
 
@@ -416,6 +492,8 @@ private List<GameObject> weaponAdded
 ```csharp
 public GameObject[] WeaponMask
 ```
+#INC
+
 
 #### Field Value
 
@@ -426,6 +504,8 @@ public GameObject[] WeaponMask
 ```csharp
 public bool WeaponSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +516,8 @@ public bool WeaponSet
 ```csharp
 private const string weaponUnit = "UIComponent/PortraitWeapon"
 ```
+#INC
+
 
 #### Field Value
 
@@ -460,6 +542,8 @@ public CanvasGroup CanvasGroup { get; }
 ```csharp
 private void AddNewAttach(EGOgiftModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -472,18 +556,24 @@ private void AddNewAttach(EGOgiftModel model)
 ```csharp
 private void CheckGifts()
 ```
+#INC
+
 
 ### ClearAddedWeapon()
 
 ```csharp
 private void ClearAddedWeapon()
 ```
+#INC
+
 
 ### ContainsGift(EGOgiftModel)
 
 ```csharp
 private bool ContainsGift(EGOgiftModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -500,12 +590,16 @@ private bool ContainsGift(EGOgiftModel model)
 ```csharp
 private void DestroyGifts()
 ```
+#INC
+
 
 ### GetUniqueWeaponParent(UniqueWeaponPos)
 
 ```csharp
 private RectTransform GetUniqueWeaponParent(UniqueWeaponPos pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -522,6 +616,8 @@ private RectTransform GetUniqueWeaponParent(UniqueWeaponPos pos)
 ```csharp
 private void InitGifts(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -534,12 +630,16 @@ private void InitGifts(WorkerModel worker)
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### OnSetAmror(EquipmentTypeInfo)
 
 ```csharp
 private void OnSetAmror(EquipmentTypeInfo model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -552,6 +652,8 @@ private void OnSetAmror(EquipmentTypeInfo model)
 ```csharp
 private void RemoveDisabled(EGOgiftModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -564,6 +666,8 @@ private void RemoveDisabled(EGOgiftModel model)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -576,12 +680,16 @@ public void SetActive(bool state)
 ```csharp
 public void SetAgentArmor()
 ```
+#INC
+
 
 ### SetArmor(EquipmentTypeInfo)
 
 ```csharp
 public void SetArmor(EquipmentTypeInfo armor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -594,6 +702,8 @@ public void SetArmor(EquipmentTypeInfo armor)
 ```csharp
 public void SetCustomizing(AgentData data, WorkerFaceType face = WorkerFaceType.DEFAULT)
 ```
+#INC
+
 
 #### Parameters
 
@@ -607,6 +717,8 @@ public void SetCustomizing(AgentData data, WorkerFaceType face = WorkerFaceType.
 ```csharp
 public void SetSprite(Image region, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -620,6 +732,8 @@ public void SetSprite(Image region, Sprite sprite)
 ```csharp
 public void SetUniqueWeapon(UniqueWeaponSpriteUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -632,6 +746,8 @@ public void SetUniqueWeapon(UniqueWeaponSpriteUnit unit)
 ```csharp
 public void SetWeapon(WeaponModel weapon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -644,6 +760,8 @@ public void SetWeapon(WeaponModel weapon)
 ```csharp
 public void SetWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -656,3 +774,6 @@ public void SetWorker(WorkerModel worker)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

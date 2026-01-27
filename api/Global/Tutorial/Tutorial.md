@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/Tutorial
 public class Tutorial : MonoBehaviour
 ```
 
+Parent class for sections of the tutorial.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → Tutorial
 
@@ -36,6 +40,8 @@ public Tutorial()
 ```csharp
 public ArrowDirection[] ArrowDirections
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public ArrowDirection[] ArrowDirections
 ```csharp
 public GameObject[] ArrowTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public GameObject[] ArrowTargets
 ```csharp
 public bool blockCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public bool blockCanvas
 ```csharp
 public bool conversationPosUp
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public bool conversationPosUp
 ```csharp
 public bool highLight
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public bool highLight
 ```csharp
 public Canvas[] highlightedCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ public Canvas[] highlightedCanvas
 ```csharp
 public int Order
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ public int Order
 ```csharp
 public float pauseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ private List<Tutorial.DefaultState> states
 ```csharp
 public Canvas[] targetCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,30 +160,41 @@ public Canvas[] targetCanvas
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckIfHappening()
 
 ```csharp
 public virtual void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public virtual void CompleteTutorial()
 ```
+#INC
+
 
 ### Pause()
 
 ```csharp
 private void Pause()
 ```
+#INC
+
 
 ### RefreshArrow(int)
 
 ```csharp
 private void RefreshArrow(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,12 +207,16 @@ private void RefreshArrow(int i)
 ```csharp
 private void Resume()
 ```
+#INC
+
 
 ### SaveCanvas(Canvas, bool)
 
 ```csharp
 private void SaveCanvas(Canvas parent, bool isHighLight)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,3 +230,5 @@ private void SaveCanvas(Canvas parent, bool isHighLight)
 ```csharp
 public virtual void StartTutorial()
 ```
+#INC
+

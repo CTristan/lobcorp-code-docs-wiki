@@ -11,6 +11,14 @@ canonical_path: /api/Global/Model/ElevatorPassageModel
 ```csharp
 public class ElevatorPassageModel
 ```
+Represents an elevator passage, which holds information about how it connects to other [rooms](/api/Global/Model/PassageObjectModel) in the facility.
+
+Also, holds the GameObject that actually is the elevator room, which is one of two Prefabs:
+- Map/Passage/Elevator/ElevatorShort
+- Map/Passage/Elevator/ElevatorLong
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ElevatorPassageModel
@@ -25,6 +33,9 @@ public class ElevatorPassageModel
 ```csharp
 public ElevatorPassageModel(MapNode elevatorNode, PassageObjectModel basePassage, string elevatorPrefabPath)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +52,8 @@ public ElevatorPassageModel(MapNode elevatorNode, PassageObjectModel basePassage
 ```csharp
 private PassageObjectModel basePassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +64,8 @@ private PassageObjectModel basePassage
 ```csharp
 private List<bool> buttonClicked
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +86,8 @@ private ElevatorPassageModel.ElevatorDirection currentDirection
 ```csharp
 private float currentPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,6 +98,8 @@ private float currentPos
 ```csharp
 private int destinationFloor
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,6 +110,8 @@ private int destinationFloor
 ```csharp
 private MapNode elevatorNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,6 +122,8 @@ private MapNode elevatorNode
 ```csharp
 private GameObject elevatorPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,6 +134,8 @@ private GameObject elevatorPrefab
 ```csharp
 private string elevatorPrefabPath
 ```
+#INC
+
 
 #### Field Value
 
@@ -141,6 +166,8 @@ private List<ElevatorPassageModel.FloorInfo> floorList
 ```csharp
 private List<MapNode> innerNodes
 ```
+#INC
+
 
 #### Field Value
 
@@ -151,6 +178,8 @@ private List<MapNode> innerNodes
 ```csharp
 private List<Vector3> nodeOrigin
 ```
+#INC
+
 
 #### Field Value
 
@@ -161,6 +190,8 @@ private List<Vector3> nodeOrigin
 ```csharp
 private ElevatorType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -171,6 +202,8 @@ private ElevatorType type
 ```csharp
 private float waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private float waitTimer
 ```csharp
 public void AddFloorInfo(MapNode[] node, Vector3 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,6 +231,8 @@ public void AddFloorInfo(MapNode[] node, Vector3 position)
 ```csharp
 public void AddNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -208,6 +245,8 @@ public void AddNode(MapNode node)
 ```csharp
 public void ClickButton(MapNode callNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,6 +259,8 @@ public void ClickButton(MapNode callNode)
 ```csharp
 public void FinishMove(int floor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,6 +273,8 @@ public void FinishMove(int floor)
 ```csharp
 public MapNode[] GetCurrentFloorNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -242,6 +285,8 @@ public MapNode[] GetCurrentFloorNodes()
 ```csharp
 public float GetCurrentPos()
 ```
+#INC
+
 
 #### Returns
 
@@ -252,6 +297,8 @@ public float GetCurrentPos()
 ```csharp
 public Vector3 GetElevatorPosition()
 ```
+#INC
+
 
 #### Returns
 
@@ -262,6 +309,8 @@ public Vector3 GetElevatorPosition()
 ```csharp
 public GameObject GetElevatorPrefab()
 ```
+#INC
+
 
 #### Returns
 
@@ -272,6 +321,8 @@ public GameObject GetElevatorPrefab()
 ```csharp
 public ElevatorType GetElevatorType()
 ```
+#INC
+
 
 #### Returns
 
@@ -282,6 +333,8 @@ public ElevatorType GetElevatorType()
 ```csharp
 public MapNode GetNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -292,12 +345,16 @@ public MapNode GetNode()
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnUnitEnter(MovableObjectNode, MapNode)
 
 ```csharp
 public void OnUnitEnter(MovableObjectNode unit, MapNode destination)
 ```
+#INC
+
 
 #### Parameters
 
@@ -311,6 +368,8 @@ public void OnUnitEnter(MovableObjectNode unit, MapNode destination)
 ```csharp
 public void OnUnitExit(MovableObjectNode unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,9 +382,13 @@ public void OnUnitExit(MovableObjectNode unit)
 ```csharp
 public void StartMove()
 ```
+#INC
+
 
 ### UpdateMapNodePosition()
 
 ```csharp
 private void UpdateMapNodePosition()
 ```
+#INC
+

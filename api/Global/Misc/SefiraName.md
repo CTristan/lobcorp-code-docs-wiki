@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SefiraName
 ```csharp
 public class SefiraName
 ```
+Holds a list of the names of Sephirot.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraName
@@ -33,6 +37,8 @@ public SefiraName()
 ```csharp
 public const string Binah = "Binah"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public const string Binah = "Binah"
 ```csharp
 public const string Chesed = "Chesed"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public const string Chesed = "Chesed"
 ```csharp
 public const string Chokhmah = "Chokhmah"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public const string Chokhmah = "Chokhmah"
 ```csharp
 public const string cv_Chesed = "Chesed"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public const string cv_Chesed = "Chesed"
 ```csharp
 public const string cv_Geburah = "Geburah"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public const string cv_Geburah = "Geburah"
 ```csharp
 public const string cv_Hod = "Hod"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public const string cv_Hod = "Hod"
 ```csharp
 public const string cv_Malkut = "Malkuth"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public const string cv_Malkut = "Malkuth"
 ```csharp
 public const string cv_Netzach = "Netzach"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ public const string cv_Netzach = "Netzach"
 ```csharp
 public const string cv_Tiphereth = "Tiphereths"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public const string cv_Tiphereth = "Tiphereths"
 ```csharp
 public const string cv_Yesod = "Yesod"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public const string cv_Yesod = "Yesod"
 ```csharp
 public const string Daat = "Daat"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ public const string Daat = "Daat"
 ```csharp
 public const string Dummy = "Dummy"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ public const string Dummy = "Dummy"
 ```csharp
 public const string Geburah = "Geburah"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ public const string Geburah = "Geburah"
 ```csharp
 public const string Hod = "Hod"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ public const string Hod = "Hod"
 ```csharp
 public const string Kether = "Kether"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ public const string Kether = "Kether"
 ```csharp
 public const string Malkut = "Malkut"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ public const string Malkut = "Malkut"
 ```csharp
 public const string Netzach = "Netzach"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ public const string Netzach = "Netzach"
 ```csharp
 public const string Tiphereth = "Tiphereth"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ public const string Tiphereth = "Tiphereth"
 ```csharp
 public const string Tiphereth1 = "Tiphereth1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ public const string Tiphereth1 = "Tiphereth1"
 ```csharp
 public const string Tiphereth2 = "Tiphereth2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ public const string Tiphereth2 = "Tiphereth2"
 ```csharp
 public const string Yesod = "Yesod"
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +291,8 @@ public const string Yesod = "Yesod"
 ```csharp
 public static string GetLocalizingSefiraName(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -261,6 +309,8 @@ public static string GetLocalizingSefiraName(SefiraEnum sefira)
 ```csharp
 public static string GetSefiraByEnum(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,6 +327,9 @@ public static string GetSefiraByEnum(SefiraEnum sefira)
 ```csharp
 public static string GetSefiraCharacter(SefiraEnum sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -293,6 +346,8 @@ public static string GetSefiraCharacter(SefiraEnum sefira)
 ```csharp
 public static string GetSefiraCharName(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,6 +364,8 @@ public static string GetSefiraCharName(SefiraEnum sefira)
 ```csharp
 public static SefiraEnum GetSefiraEnum(string name)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineNoon
 public class MachineNoon : MachineOrdealCreature
 ```
 
+[Green Noon](/api/Global/Machine/MachineNoonOrdeal) creature.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [MachineOrdealCreature](/api/Global/Creature/MachineOrdealCreature) → MachineNoon
 
@@ -33,6 +38,8 @@ public MachineNoon()
 ```csharp
 private MachineNoonAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private MachineNoonAnim _animScript
 ```csharp
 private const float _atkDmgRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _atkDmgRange = 4
 ```csharp
 private const int _attackDmgMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _attackDmgMax = 2
 ```csharp
 private const int _attackDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _attackDmgMin = 1
 ```csharp
 private const float _attackRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _attackRange = 3.5
 ```csharp
 private const float _coolDownCoolTimeMax = 13.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _coolDownCoolTimeMax = 13.5
 ```csharp
 private const float _coolDownCoolTimeMin = 9.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _coolDownCoolTimeMin = 9.5
 ```csharp
 private const float _coolDownTimeMax = 6.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _coolDownTimeMax = 6.5
 ```csharp
 private const float _coolDownTimeMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _coolDownTimeMin = 4
 ```csharp
 private const string _effect_dead = "MachineNoon_DeadEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const string _effect_dead = "MachineNoon_DeadEffect"
 ```csharp
 private const string _effect_gun = "MachineNoon_GunFire"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const string _effect_gun = "MachineNoon_GunFire"
 ```csharp
 private const string _effect_wall = "MachineNoon_WallEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string _effect_wall = "MachineNoon_WallEffect"
 ```csharp
 private const string _effectSrc = "Effect/Creature/MachineNoon/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const string _effectSrc = "Effect/Creature/MachineNoon/"
 ```csharp
 private const float _motionDelayTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _motionDelayTime = 1
 ```csharp
 private const int _movingDmgMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const int _movingDmgMax = 1
 ```csharp
 private const int _movingDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const int _movingDmgMin = 1
 ```csharp
 private const float _movingDmgRange = 3.4028235E+38
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _movingDmgRange = 3.4028235E+38
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const float _wallEffectScale = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const float _wallEffectScale = 0.25
 ```csharp
 private Timer coolDownCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private Timer coolDownCoolTimer
 ```csharp
 private Timer coolDownTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private Timer coolDownTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,24 +356,32 @@ private static int movingDmg { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CoolDownEnd()
 
 ```csharp
 private void CoolDownEnd()
 ```
+#INC
+
 
 ### CoolDownStart()
 
 ```csharp
 private void CoolDownStart()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,6 +398,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private UnitModel GetNearestInRange(float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -358,6 +417,8 @@ private UnitModel GetNearestInRange(float range, bool hasDir = true)
 ```csharp
 private List<UnitModel> GetTargetsInRange(float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -375,6 +436,8 @@ private List<UnitModel> GetTargetsInRange(float range, bool hasDir = true)
 ```csharp
 private bool IsInRange(UnitModel target, float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -393,6 +456,8 @@ private bool IsInRange(UnitModel target, float range, bool hasDir = true)
 ```csharp
 public void MakeDeadEffect()
 ```
+#INC
+
 
 ### MakeEffect(string, Vector3, float, bool)
 
@@ -418,24 +483,32 @@ private GameObject MakeEffect(string src, Vector3 position, float scaleForEffect
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAttackDamageTimeCalled()
 
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,12 +521,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnMovingDamageTimeCalled()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -466,3 +544,5 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void StopMovement()
 ```
+#INC
+

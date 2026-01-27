@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/MachineDuskAnim
 public class MachineDuskAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Where We Must Reach](/api/Global/Machine/MachineDusk).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MachineDuskAnim
 
@@ -36,6 +39,8 @@ public MachineDuskAnim()
 ```csharp
 private const string _effect_dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const string _effect_dead = "Dead"
 ```csharp
 private const string _effect_spawn = "Spawn"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _effect_spawn = "Spawn"
 ```csharp
 private const string _effectSrc = "Effect/Creature/MachineDusk/MachineDusk_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string _effectSrc = "Effect/Creature/MachineDusk/MachineDusk_"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_1 = "sound_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const string _sound_1 = "sound_1"
 ```csharp
 private const string _sound_2 = "sound_2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const string _sound_2 = "sound_2"
 ```csharp
 private const string _sound_3 = "sound_3"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private const string _sound_3 = "sound_3"
 ```csharp
 private const string _sound_dead = "sound_dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private const string _sound_dead = "sound_dead"
 ```csharp
 public ParticleSystem[] creating
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public ParticleSystem[] creating
 ```csharp
 private MachineDusk script
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +161,8 @@ private MachineDusk script
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,6 +179,9 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -164,6 +192,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsSpawning()
 ```
+#INC
+
 
 #### Returns
 
@@ -174,6 +204,8 @@ public bool IsSpawning()
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,12 +239,16 @@ public SoundEffectPlayer MakeSound(string src, float volume = 1)
 ```csharp
 public void MakeSpawnEffect()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,18 +261,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCreateStart()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetCreateEffect(bool)
 
 ```csharp
 private void SetCreateEffect(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,6 +291,8 @@ private void SetCreateEffect(bool active)
 ```csharp
 public void SetScript(MachineDusk script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -261,21 +305,29 @@ public void SetScript(MachineDusk script)
 ```csharp
 private void Spawn()
 ```
+#INC
+
 
 ### SpawnEnd()
 
 ```csharp
 private void SpawnEnd()
 ```
+#INC
+
 
 ### SpawnStart()
 
 ```csharp
 private void SpawnStart()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

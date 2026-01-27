@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/SkillTriggerCheck
 ```csharp
 public class SkillTriggerCheck
 ```
+Activates [SkillTrigger](/api/Global/Misc/SkillTrigger)s on entering a room.
+
+Seems like they intended to have it check on room exit as well, but since this whole system is only "used" by [Beauty and the Beast](/api/Global/Misc/BeautyBeast), I guess they never implemented that. #weird 
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkillTriggerCheck
@@ -25,6 +30,9 @@ public class SkillTriggerCheck
 ```csharp
 public SkillTriggerCheck()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ public SkillTriggerCheck()
 ```csharp
 private Type creatureBaseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private Type creatureBaseType
 ```csharp
 public List<SkillTrigger> onEnterRoom
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ public List<SkillTrigger> onEnterRoom
 ```csharp
 public List<SkillTrigger> onExitRoom
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ public List<SkillTrigger> onExitRoom
 ```csharp
 private CreatureBase script
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ private CreatureBase script
 ```csharp
 public List<SkillTrigger> total
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,12 +103,16 @@ public List<SkillTrigger> total
 ```csharp
 public void OnActivated()
 ```
+#INC
+
 
 ### roomEnterCheck(UseSkill)
 
 ```csharp
 public void roomEnterCheck(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +125,8 @@ public void roomEnterCheck(UseSkill skill)
 ```csharp
 public void SetScript(CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 

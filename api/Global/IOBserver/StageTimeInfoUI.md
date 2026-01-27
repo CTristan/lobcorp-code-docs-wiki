@@ -11,6 +11,8 @@ canonical_path: /api/Global/IOBserver/StageTimeInfoUI
 ```csharp
 public class StageTimeInfoUI : MonoBehaviour, IObserver
 ```
+Shows the time information for the day #verify 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StageTimeInfoUI
@@ -36,6 +38,8 @@ public StageTimeInfoUI()
 ```csharp
 public GameObject clockHour
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ public GameObject clockHour
 ```csharp
 public GameObject clockMinute
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public GameObject clockMinute
 ```csharp
 public Text dayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public Text dayText
 ```csharp
 private GameManager gameManager
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ private GameManager gameManager
 ```csharp
 private float goalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ private float goalTime
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ private bool init
 ```csharp
 private float limitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +122,8 @@ private float limitTime
 ```csharp
 private bool pause
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +134,8 @@ private bool pause
 ```csharp
 private float pauseTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ private float pauseTime
 ```csharp
 public Text timerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,18 +160,24 @@ public Text timerText
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,30 +191,41 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public void OnUpdateDayUI()
 ```
+#INC
+
 
 ### Pause()
 
 ```csharp
 public void Pause()
 ```
+#INC
+
 
 ### Resume()
 
 ```csharp
 public void Resume()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### StartTimer(float, GameManager)
 
 ```csharp
 public void StartTimer(float goal, GameManager gameManager)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,12 +239,16 @@ public void StartTimer(float goal, GameManager gameManager)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateTimer()
 
 ```csharp
 private IEnumerator UpdateTimer()
 ```
+#INC
+
 
 #### Returns
 

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Effect/BloodyEffect
 public class BloodyEffect : ScreenEffectModule
 ```
 
+Presumably displays blood on the screen
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [ScreenEffectModule](/api/Global/Misc/ScreenEffectModule) → BloodyEffect
 
@@ -33,3 +37,6 @@ public BloodyEffect()
 ```csharp
 public override void Update()
 ```
+#INC
+#code-generated
+

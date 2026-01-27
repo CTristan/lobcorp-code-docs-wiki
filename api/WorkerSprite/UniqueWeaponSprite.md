@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/UniqueWeaponSprite
 ```csharp
 public class UniqueWeaponSprite
 ```
+Sprite and position for rendering unique weapons?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UniqueWeaponSprite
@@ -44,6 +48,8 @@ public UniqueWeaponSpritePortraitTransformInfo portraitInfo
 ```csharp
 public UniqueWeaponPos pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +60,9 @@ public UniqueWeaponPos pos
 ```csharp
 public Sprite sprite
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

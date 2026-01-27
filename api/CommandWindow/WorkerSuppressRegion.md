@@ -12,6 +12,13 @@ canonical_path: /api/CommandWindow/WorkerSuppressRegion
 public class WorkerSuppressRegion : CommandWindowRegion
 ```
 
+UI element for displaying the targeted [agent](/api/Global/Worker/AgentUnit) during agent suppression.
+
+See [CommandWindow](/api/CommandWindow)
+
+!
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → WorkerSuppressRegion
 
@@ -33,6 +40,8 @@ public WorkerSuppressRegion()
 ```csharp
 public Text AgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Text AgentName
 ```csharp
 public Text ArmorGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public Text ArmorGrade
 ```csharp
 public Text ArmorName
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public Text ArmorName
 ```csharp
 public Text[] DefenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public Text[] DefenseFactor
 ```csharp
 public Image[] DefenseFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public Image[] DefenseFill
 ```csharp
 public Text[] DefenseInner
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public Text[] DefenseInner
 ```csharp
 public Text[] DefenseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ public Text[] DefenseType
 ```csharp
 public Image GradeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ public Image GradeImage
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ public WorkerPortraitSetter portrait
 ```csharp
 public AgentInfoWindow.StatObject Stat_B
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ public AgentInfoWindow.StatObject Stat_B
 ```csharp
 public AgentInfoWindow.StatObject Stat_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ public AgentInfoWindow.StatObject Stat_P
 ```csharp
 public AgentInfoWindow.StatObject Stat_R
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ public AgentInfoWindow.StatObject Stat_R
 ```csharp
 public AgentInfoWindow.StatObject Stat_W
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ public AgentInfoWindow.StatObject Stat_W
 ```csharp
 public Text Title
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ public Text Title
 ```csharp
 public AgentInfoWindow.StatObject Weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ public AgentInfoWindow.StatObject Weapon
 ```csharp
 public Text WeaponGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +234,9 @@ public Text WeaponGrade
 ```csharp
 public override void SetData(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -207,6 +249,8 @@ public override void SetData(UnitModel target)
 ```csharp
 public void SetData(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 

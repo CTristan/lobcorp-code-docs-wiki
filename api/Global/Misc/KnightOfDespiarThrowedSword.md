@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/KnightOfDespiarThrowedSword
 public class KnightOfDespiarThrowedSword : ProjectileUnit
 ```
 
+[The Knight of Despair](/api/Global/Misc/KnightOfDespair)'s thrown sword attack.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [ProjectileUnit](/api/Global/Unit/ProjectileUnit) → KnightOfDespiarThrowedSword
 
@@ -33,6 +38,8 @@ public KnightOfDespiarThrowedSword()
 ```csharp
 private Vector2 destPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Vector2 destPos
 ```csharp
 public bool IsArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public bool IsArrived
 ```csharp
 public GameObject Masked
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public GameObject Masked
 ```csharp
 public Transform positionPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Transform positionPivot
 ```csharp
 private Vector2 startPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Vector2 startPos
 ```csharp
 public UnitModel Target
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public UnitModel Target
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private Timer timer
 ```csharp
 public GameObject Unmasked
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,12 +136,16 @@ public GameObject Unmasked
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### SetTarget(UnitModel)
 
 ```csharp
 public void SetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,3 +158,6 @@ public void SetTarget(UnitModel target)
 ```csharp
 public override void UpdateViewPosition()
 ```
+#INC
+#code-generated
+

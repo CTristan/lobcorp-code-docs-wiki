@@ -11,6 +11,23 @@ canonical_path: /api/Global/Misc/IAnimatorEventCalled
 ```csharp
 public interface IAnimatorEventCalled
 ```
+Interface representing something which should be animated when certain events are called.
+
+Used *mainly* by abnormality animation handlers, but also by [agents](/api/Global/Misc/AgentAnim) and (frustratingly) some UI elements.
+
+#### Methods
+	OnCalled
+	OnCalled(int i)
+	AgentReset
+	SimpleReset
+	AnimatorEventInit
+	CreatureAnimCall(int i, CreatureBase script)
+	AttackCalled(int i)
+	AttackDamageTimeCalled
+	SoundMake(string src)
+
+#INC (Say what each of these do. AttackCalled is when this thing attacks. (??))
+
 
 ## Methods
 
@@ -19,18 +36,24 @@ public interface IAnimatorEventCalled
 ```csharp
 void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -43,12 +66,16 @@ void AttackCalled(int i)
 ```csharp
 void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -62,12 +89,17 @@ void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 void OnCalled()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled(int)
 
 ```csharp
 void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -80,12 +112,16 @@ void OnCalled(int i)
 ```csharp
 void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

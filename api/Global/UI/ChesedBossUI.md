@@ -11,6 +11,8 @@ canonical_path: /api/Global/UI/ChesedBossUI
 ```csharp
 public class ChesedBossUI : MonoBehaviour
 ```
+The little thing at the top of [Chesed's core suppression](/api/Global/Misc/ChesedBossBase) which shows which damage is multiplied.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ChesedBossUI
@@ -45,18 +47,25 @@ public ChesedBossUI.RWBPUnit[] units
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateDamageType(List<RwbpType>)
 
 ```csharp
 public void UpdateDamageType(List<RwbpType> list)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,11 @@ canonical_path: /api/Global/Script/CreatureFeelingPreferScript
 ```csharp
 public class CreatureFeelingPreferScript : MenuScript
 ```
+Seems to store information about an abnormality's feeling state, but unused...
+
+See [CreatureFeelingState](/api/Global/State/CreatureFeelingState)
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [MenuScript](/api/Global/Script/MenuScript) → CreatureFeelingPreferScript
@@ -33,6 +38,8 @@ public CreatureFeelingPreferScript()
 ```csharp
 private CreatureModel _currentCreatureTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel _currentCreatureTarget
 ```csharp
 public Color ClickedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Color ClickedColor
 ```csharp
 private CreatureFeelingState currentState
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private CreatureFeelingState currentState
 ```csharp
 public Color disabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Color disabledColor
 ```csharp
 private Color downColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Color downColor
 ```csharp
 public Image[] EnergyGenIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Image[] EnergyGenIcon
 ```csharp
 private string energyGenSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private string energyGenSrc
 ```csharp
 private long[] id
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private long[] id
 ```csharp
 private Color normalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Color normalColor
 ```csharp
 public Color NormalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public Color NormalColor
 ```csharp
 public RectTransform[] PreferParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public RectTransform[] PreferParent
 ```csharp
 private Color upColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private Color upColor
 ```csharp
 public RectTransform[] WorkIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +208,8 @@ public CreatureModel currentCreatureTarget { get; set; }
 ```csharp
 public static int GetFeelingIndex(CreatureFeelingState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +226,8 @@ public static int GetFeelingIndex(CreatureFeelingState state)
 ```csharp
 public static CreatureFeelingState GetIndexOfFeeling(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,24 +260,33 @@ public static CreatureFeelingPreferScript.FeelingPrefer GetWorkEfficientSection(
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LengthThreeCreature()
 
 ```csharp
 private void LengthThreeCreature()
 ```
+#INC
+
 
 ### LengthTwoCreature()
 
 ```csharp
 private void LengthTwoCreature()
 ```
+#INC
+
 
 ### OnClick(Button)
 
 ```csharp
 public override void OnClick(Button target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -255,6 +299,8 @@ public override void OnClick(Button target)
 ```csharp
 public void SetButtonColor(int index, bool isDisabled)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,6 +314,8 @@ public void SetButtonColor(int index, bool isDisabled)
 ```csharp
 public void SetChart(CreatureFeelingState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -280,6 +328,8 @@ public void SetChart(CreatureFeelingState state)
 ```csharp
 public void SetCreature(CreatureModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +342,8 @@ public void SetCreature(CreatureModel target)
 ```csharp
 public void SetEnergyGenSprite(Image targetRenderer, float val, CreatureFeelingState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -306,3 +358,5 @@ public void SetEnergyGenSprite(Image targetRenderer, float val, CreatureFeelingS
 ```csharp
 public void StartInit()
 ```
+#INC
+

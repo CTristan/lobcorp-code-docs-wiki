@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/EnergyModel
 public class EnergyModel : IObserver
 ```
 
+Manager for energy collection during the day.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EnergyModel
 
@@ -28,6 +33,9 @@ public class EnergyModel : IObserver
 ```csharp
 public EnergyModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -36,6 +44,8 @@ public EnergyModel()
 ```csharp
 private bool _fillBlock
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +56,8 @@ private bool _fillBlock
 ```csharp
 private static EnergyModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +68,8 @@ private static EnergyModel _instance
 ```csharp
 private float energy
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +80,8 @@ private float energy
 ```csharp
 private int finishCounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +92,8 @@ private int finishCounter
 ```csharp
 private float finishTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +104,8 @@ private float finishTimer
 ```csharp
 private bool fullSay
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +116,8 @@ private bool fullSay
 ```csharp
 private bool halfSay
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +152,8 @@ public static EnergyModel instance { get; }
 ```csharp
 public void AddEnergy(float added)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +166,8 @@ public void AddEnergy(float added)
 ```csharp
 public float GetEnergy()
 ```
+#INC
+
 
 #### Returns
 
@@ -152,6 +178,8 @@ public float GetEnergy()
 ```csharp
 public int GetFinishCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,6 +190,8 @@ public int GetFinishCounter()
 ```csharp
 public void ManualAdd(CreatureModel creature, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,12 +205,16 @@ public void ManualAdd(CreatureModel creature, float value)
 ```csharp
 private void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,12 +228,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### SubEnergy(float)
 
 ```csharp
 public void SubEnergy(float sub)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,3 +250,5 @@ public void SubEnergy(float sub)
 ```csharp
 private void UpdateEnergy()
 ```
+#INC
+

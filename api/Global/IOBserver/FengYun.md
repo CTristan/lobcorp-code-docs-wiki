@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/FengYun
 public class FengYun : CreatureBase, IObserver
 ```
 
+Clouded Monk.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → FengYun
 
@@ -36,6 +41,8 @@ public FengYun()
 ```csharp
 private float _accumulatedDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private float _accumulatedDmg
 ```csharp
 private FengYunAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private FengYunAnim _animScript
 ```csharp
 private const float _ATTACK_DELAY = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const float _ATTACK_DELAY = 1.5
 ```csharp
 private UnitModel _attackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private UnitModel _attackTarget
 ```csharp
 private Timer _attackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Timer _attackTimer
 ```csharp
 private const float _CASTING_DELAY = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const float _CASTING_DELAY = 6
 ```csharp
 private Timer _castingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private Timer _castingTimer
 ```csharp
 private const float _CHARGE_COOLDOWN = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private const float _CHARGE_COOLDOWN = 15
 ```csharp
 private Timer _chargeCooldownTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private Timer _chargeCooldownTimer
 ```csharp
 private List<WorkerModel> _deadWorkers
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private List<WorkerModel> _deadWorkers
 ```csharp
 private const float _DISTANCE_YIN_YANG = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private const float _DISTANCE_YIN_YANG = 15
 ```csharp
 private const float _DMG_AMOUNT = 23
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private const float _DMG_AMOUNT = 23
 ```csharp
 private const RwbpType _DMG_TYPE = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private const RwbpType _DMG_TYPE = R
 ```csharp
 private const float _GROGGY_DELAY = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private const float _GROGGY_DELAY = 6
 ```csharp
 private Timer _groggyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private Timer _groggyTimer
 ```csharp
 private const int _MAX_QLIPHOTH = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private const int _MAX_QLIPHOTH = 3
 ```csharp
 private const float _MAXIMUM_ACCUMULATE_DMG = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ private const float _MAXIMUM_ACCUMULATE_DMG = 100
 ```csharp
 private const int _NUM_WORKER_DEAD = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ private const int _NUM_WORKER_DEAD = 10
 ```csharp
 private Sefira _openedGeburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ private Sefira _openedGeburah
 ```csharp
 private const int _PROB_SUB_QLIPHOTH = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +281,8 @@ private const int _PROB_SUB_QLIPHOTH = 30
 ```csharp
 private const float _RECOVERY_GHOUL_HP = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +293,8 @@ private const float _RECOVERY_GHOUL_HP = 0.1
 ```csharp
 private const float _RECOVERY_MENTAL = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +305,8 @@ private const float _RECOVERY_MENTAL = 15
 ```csharp
 private YinAndYangBase _targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +317,8 @@ private YinAndYangBase _targetCreature
 ```csharp
 private int _workerDeadCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +329,8 @@ private int _workerDeadCount
 ```csharp
 private Yang _yang
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +341,8 @@ private Yang _yang
 ```csharp
 private Yin _yin
 ```
+#INC
+
 
 #### Field Value
 
@@ -298,18 +355,24 @@ private Yin _yin
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Charge()
 
 ```csharp
 public void Charge()
 ```
+#INC
+
 
 ### CheckNearByRoom(YinAndYangBase)
 
 ```csharp
 private bool CheckNearByRoom(YinAndYangBase y)
 ```
+#INC
+
 
 #### Parameters
 
@@ -342,24 +405,32 @@ private bool CheckTargetCreatureInAtkRange(float range = 1)
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### EndEating()
 
 ```csharp
 public void EndEating()
 ```
+#INC
+
 
 ### EndTransformEvent()
 
 ```csharp
 private void EndTransformEvent()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetAttackTargetInRange(float)
 
@@ -382,12 +453,16 @@ private WorkerModel GetAttackTargetInRange(float range = 3)
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### IObserver.OnNotice(string, params object[])
 
 ```csharp
 void IObserver.OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,6 +476,8 @@ void IObserver.OnNotice(string notice, params object[] param)
 ```csharp
 private void MoveTo(MapNode node, CreatureCommand.OnCommandEnd func)
 ```
+#INC
+
 
 #### Parameters
 
@@ -414,6 +491,8 @@ private void MoveTo(MapNode node, CreatureCommand.OnCommandEnd func)
 ```csharp
 private void MoveTo(MovableObjectNode movableNode, CreatureCommand.OnCommandEnd func)
 ```
+#INC
+
 
 #### Parameters
 
@@ -427,6 +506,8 @@ private void MoveTo(MovableObjectNode movableNode, CreatureCommand.OnCommandEnd 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -439,6 +520,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -451,6 +534,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -463,30 +548,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -501,6 +596,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,24 +610,33 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### ResetChargeCooldown()
 
 ```csharp
 private void ResetChargeCooldown()
 ```
+#INC
+
 
 ### SetDst()
 
 ```csharp
 private void SetDst()
 ```
+#INC
+
 
 ### SetObserver(bool)
 
 ```csharp
 private void SetObserver(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -543,6 +649,8 @@ private void SetObserver(bool b)
 ```csharp
 private bool SuccessCharge()
 ```
+#INC
+
 
 #### Returns
 
@@ -553,3 +661,5 @@ private bool SuccessCharge()
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

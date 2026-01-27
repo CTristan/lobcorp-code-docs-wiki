@@ -12,6 +12,9 @@ canonical_path: /api/Global/Standing/TastyBugAnim
 public class TastyBugAnim : StandingItemAnim, IAnimatorEventCalled, IOverlapOnclick
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → TastyBugAnim
 
@@ -36,6 +39,8 @@ public TastyBugAnim()
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public GameObject center
 ```csharp
 public GameObject click
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public GameObject click
 ```csharp
 public TastyBug script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public TastyBug script
 ```csharp
 public SpineSpriteChanger spriteChanger
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public SpineSpriteChanger spriteChanger
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,24 +113,32 @@ public TastyBug.BugType Type { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,12 +151,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,18 +174,24 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -173,24 +204,33 @@ public void OnCalled(int i)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetScript(TastyBug)
 
 ```csharp
 public void SetScript(TastyBug script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -203,12 +243,16 @@ public void SetScript(TastyBug script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/List/EquipmentTypeList
 ```csharp
 public class EquipmentTypeList
 ```
+List of all [EGO](/api/Global/List/EquipmentTypeList). Loaded by [EquipmentDataLoader](/api/Global/Loader/EquipmentDataLoader).
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentTypeList
@@ -25,6 +28,9 @@ public class EquipmentTypeList
 ```csharp
 private EquipmentTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ private EquipmentTypeList()
 ```csharp
 private Dictionary<int, EquipmentTypeInfo> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private Dictionary<int, EquipmentTypeInfo> _dic
 ```csharp
 private static EquipmentTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private static EquipmentTypeList _instance
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +99,8 @@ public bool loaded { get; }
 ```csharp
 public List<EquipmentTypeInfo> GetAllData()
 ```
+#INC
+
 
 #### Returns
 
@@ -97,6 +111,8 @@ public List<EquipmentTypeInfo> GetAllData()
 ```csharp
 public EquipmentTypeInfo GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +129,8 @@ public EquipmentTypeInfo GetData(int id)
 ```csharp
 public void Init(Dictionary<int, EquipmentTypeInfo> info)
 ```
+#INC
+
 
 #### Parameters
 

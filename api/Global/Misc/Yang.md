@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Yang
 public class Yang : YinAndYangBase
 ```
 
+Yang. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [YinAndYangBase](/api/Global/Misc/YinAndYangBase) → Yang
 
@@ -33,6 +36,8 @@ public Yang()
 ```csharp
 private const float _AMOUNT_RECOVERY = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _AMOUNT_RECOVERY = 20
 ```csharp
 private YangAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private YangAnim _animScript
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float _elapsedTime
 ```csharp
 private const float _FREQ_RECOVERY = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _FREQ_RECOVERY = 3
 ```csharp
 private bool _isEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private bool _isEscaped
 ```csharp
 private Timer _reviveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Timer _reviveTimer
 ```csharp
 private const float _TIME_REVIVAL = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _TIME_REVIVAL = 30
 ```csharp
 private Yin _yinBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private Yin _yinBase
 ```csharp
 internal AgentModel equipAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ internal AgentModel equipAgent
 ```csharp
 internal bool hasYin
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,12 +158,16 @@ internal bool hasYin
 ```csharp
 protected override void Arrive()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,18 +185,24 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 internal void DecreaseYinQliphoth()
 ```
+#INC
+
 
 ### Die()
 
 ```csharp
 public void Die()
 ```
+#INC
+
 
 ### Escape(MapNode)
 
 ```csharp
 public void Escape(MapNode dst)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,12 +215,16 @@ public void Escape(MapNode dst)
 ```csharp
 private void HealingUnits()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -198,6 +235,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -210,30 +249,40 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -248,6 +297,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,24 +311,32 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 protected override void ProcessCollision()
 ```
+#INC
+
 
 ### ResetFields()
 
 ```csharp
 protected override void ResetFields()
 ```
+#INC
+
 
 ### Revive()
 
 ```csharp
 public override void Revive()
 ```
+#INC
+
 
 ### UniqueMoveControl()
 
 ```csharp
 public override bool UniqueMoveControl()
 ```
+#INC
+
 
 #### Returns
 
@@ -288,3 +347,6 @@ public override bool UniqueMoveControl()
 ```csharp
 public override void Unite()
 ```
+#INC
+#code-generated
+

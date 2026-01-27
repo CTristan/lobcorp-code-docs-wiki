@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/HellTrainDeparture
 public class HellTrainDeparture : MonoBehaviour
 ```
 
+[Express Train to Hell](/api/Global/Misc/HellTrain)'s train, for when the train comes chugging.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → HellTrainDeparture
 
@@ -33,6 +37,8 @@ public HellTrainDeparture()
 ```csharp
 private Vector3 _dstPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private Vector3 _dstPos
 ```csharp
 private Vector3 _moveDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private Vector3 _moveDirection
 ```csharp
 private SoundEffectPlayer _moveSound1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private SoundEffectPlayer _moveSound1
 ```csharp
 private SoundEffectPlayer _moveSound2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private Object _portalEffectPrefab
 ```csharp
 private const string _SOUND_SRC = "creature/HellTrain/Train_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private const string _SOUND_SRC = "creature/HellTrain/Train_"
 ```csharp
 private AutoTimer _soundFadeOutTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private AutoTimer _soundFadeOutTimer
 ```csharp
 private Vector3 _srcPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private Vector3 _srcPos
 ```csharp
 private DamageInfo _trainDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private DamageInfo _trainDmg
 ```csharp
 private float _trainSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private float _trainSpeed
 ```csharp
 public Transform leftGate
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public Transform leftGate
 ```csharp
 public Transform rightGate
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public Transform rightGate
 ```csharp
 public SkeletonAnimator skelAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +202,8 @@ public string[] slots
 ```csharp
 public Transform train
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +216,8 @@ public Transform train
 ```csharp
 public CreatureModel Model { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -198,6 +230,8 @@ public CreatureModel Model { get; set; }
 ```csharp
 private IEnumerator Accelerate()
 ```
+#INC
+
 
 #### Returns
 
@@ -208,6 +242,9 @@ private IEnumerator Accelerate()
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CollisionCheck(Collider2D)
 
@@ -226,18 +263,24 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 private void FadeOutSound()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### SetSoundSrc(AudioSource, float, AudioRolloffMode, Transform)
 
 ```csharp
 private void SetSoundSrc(AudioSource src, float d, AudioRolloffMode ar, Transform p)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,3 +296,5 @@ private void SetSoundSrc(AudioSource src, float d, AudioRolloffMode ar, Transfor
 ```csharp
 private void Start()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Machine/MachineMidnightOrdeal
 public class MachineMidnightOrdeal : MachineOrdeal
 ```
 
+Midnight of Green, Helix of the End. Spawns one [MachineMidnight](/api/Global/Machine/MachineMidnight) in the information team main room.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [MachineOrdeal](/api/Global/Misc/MachineOrdeal) → MachineMidnightOrdeal
 
@@ -25,6 +28,8 @@ public class MachineMidnightOrdeal : MachineOrdeal
 ```csharp
 public MachineMidnightOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public MachineMidnightOrdeal()
 ```csharp
 protected OrdealCreatureModel _ordealCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +52,6 @@ protected OrdealCreatureModel _ordealCreature
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlimeGirlWeaponProjectile
 public class SlimeGirlWeaponProjectile : MonoBehaviour
 ```
 
+Script for [Adoration (weapon)](/api/Global/Weapon/SlimeGirlWeapon)'s projectile. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SlimeGirlWeaponProjectile
 
@@ -33,6 +38,8 @@ public SlimeGirlWeaponProjectile()
 ```csharp
 public Transform _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Transform _effect
 ```csharp
 private const float _effectSpeed = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _effectSpeed = 5
 ```csharp
 public float dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public float dir
 ```csharp
 private List<UnitModel> done
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private List<UnitModel> done
 ```csharp
 public bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool isEnabled
 ```csharp
 public Vector3 target
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ public Vector3 target
 ```csharp
 public SlimeGirlWeapon script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -107,12 +126,17 @@ public SlimeGirlWeapon script { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckUnit(UnitModel)
 
 ```csharp
 private void CheckUnit(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +149,8 @@ private void CheckUnit(UnitModel unit)
 ```csharp
 public void CollisionCheck(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,6 +163,8 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 public void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 

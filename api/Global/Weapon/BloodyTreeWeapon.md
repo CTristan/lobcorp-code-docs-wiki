@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/BloodyTreeWeapon
 public class BloodyTreeWeapon : EquipmentScriptBase
 ```
 
+Script for [The Burrowing Heaven](/api/Global/Misc/BloodyTree)'s EGO Weapon: Heaven. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BloodyTreeWeapon
 

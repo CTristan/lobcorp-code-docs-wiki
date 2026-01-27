@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusDusk
 public class CircusDusk : CircusOrdealCreature
 ```
 
+Crimson Dusk creature.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [CircusOrdealCreature](/api/Global/Creature/CircusOrdealCreature) → CircusDusk
 
@@ -33,6 +36,8 @@ public CircusDusk()
 ```csharp
 private CircusDuskAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CircusDuskAnim _animScript
 ```csharp
 private const int _attackDmgMax = 14
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const int _attackDmgMax = 14
 ```csharp
 private const int _attackDmgMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int _attackDmgMin = 12
 ```csharp
 private const float _attackDmgRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _attackDmgRange = 4
 ```csharp
 private const float _attackRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float _attackRange = 3.5
 ```csharp
 private const int _defaultMoveProb = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const int _defaultMoveProb = 10
 ```csharp
 private const int _defaultSpecialProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const int _defaultSpecialProb = 30
 ```csharp
 private const float _groggyDelayMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const float _groggyDelayMax = 8
 ```csharp
 private const float _groggyDelayMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private const float _groggyDelayMin = 5
 ```csharp
 private const float _motionDelayMax = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float _motionDelayMax = 1.2
 ```csharp
 private const float _motionDelayMin = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _motionDelayMin = 0.8
 ```csharp
 private const float _moveCoolTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float _moveCoolTimeMax = 30
 ```csharp
 private const float _moveCoolTimeMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const float _moveCoolTimeMin = 20
 ```csharp
 private const float _moveDmgDelayMax = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const float _moveDmgDelayMax = 1.5
 ```csharp
 private const float _moveDmgDelayMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const float _moveDmgDelayMin = 1
 ```csharp
 private const int _moveDmgMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const int _moveDmgMax = 20
 ```csharp
 private const int _moveDmgMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private const int _moveDmgMin = 20
 ```csharp
 private const float _moveDmgRange = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private const float _moveDmgRange = 2.5
 ```csharp
 private const int _moveProbPerAttackStack = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const int _moveProbPerAttackStack = 15
 ```csharp
 private const string _sound_Atk1 = "Atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const string _sound_Atk1 = "Atk1"
 ```csharp
 private const string _sound_Atk2 = "Atk2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private const string _sound_Atk2 = "Atk2"
 ```csharp
 private const string _sound_Bleed1 = "Bleed1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const string _sound_Bleed1 = "Bleed1"
 ```csharp
 private const string _sound_Bleed2 = "Bleed2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private const string _sound_Bleed2 = "Bleed2"
 ```csharp
 private const string _sound_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const string _sound_Dead = "Dead"
 ```csharp
 private const string _sound_Move = "Move"
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private const string _sound_Move = "Move"
 ```csharp
 private const float _specialCoolTimeMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private const float _specialCoolTimeMax = 12
 ```csharp
 private const float _specialCoolTimeMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private const float _specialCoolTimeMin = 8
 ```csharp
 private const int _specialDmgMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +372,8 @@ private const int _specialDmgMax = 30
 ```csharp
 private const int _specialDmgMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +384,8 @@ private const int _specialDmgMin = 20
 ```csharp
 private const int _specialProbPerAttackStack = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +396,8 @@ private const int _specialProbPerAttackStack = 15
 ```csharp
 private PassageObjectModel _targetPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private List<CircusDusk.AttackDelay> attackDelays
 ```csharp
 private RwbpType attackDmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private RwbpType attackDmgType
 ```csharp
 private int attackStackForMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private int attackStackForMove
 ```csharp
 private int attackStackForSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private int attackStackForSpecial
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private Timer motionDelayTimer
 ```csharp
 private Timer moveCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private Timer moveCoolTimer
 ```csharp
 private RwbpType moveDmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ private RwbpType moveDmgType
 ```csharp
 private Timer specialCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ private Timer specialCoolTimer
 ```csharp
 private RwbpType specialDmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -527,12 +608,16 @@ private static int specialDmg { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CheckInElevator()
 
 ```csharp
 private bool CheckInElevator()
 ```
+#INC
+
 
 #### Returns
 
@@ -543,6 +628,8 @@ private bool CheckInElevator()
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -559,6 +646,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private int GetMoveProb()
 ```
+#INC
+
 
 #### Returns
 
@@ -569,6 +658,8 @@ private int GetMoveProb()
 ```csharp
 private UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -586,6 +677,8 @@ private UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 private PassageObjectModel GetPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -596,6 +689,8 @@ private PassageObjectModel GetPassage()
 ```csharp
 private List<PassageObjectModel> GetPassages()
 ```
+#INC
+
 
 #### Returns
 
@@ -606,6 +701,8 @@ private List<PassageObjectModel> GetPassages()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -622,6 +719,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private int GetSpecialProb()
 ```
+#INC
+
 
 #### Returns
 
@@ -632,6 +731,8 @@ private int GetSpecialProb()
 ```csharp
 private UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -648,6 +749,8 @@ private UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 private MapNode GetTargetNode(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -664,6 +767,8 @@ private MapNode GetTargetNode(PassageObjectModel passage)
 ```csharp
 private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -681,12 +786,16 @@ private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 private void GiveMoveDamage()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -697,6 +806,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -713,6 +824,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -730,6 +843,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 private bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -746,6 +861,8 @@ private bool IsInView(UnitModel target)
 ```csharp
 private bool IsMoving()
 ```
+#INC
+
 
 #### Returns
 
@@ -756,12 +873,16 @@ private bool IsMoving()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -778,6 +899,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -788,36 +911,48 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnArrive()
 ```
+#INC
+
 
 ### OnAttackDamage()
 
 ```csharp
 public void OnAttackDamage()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnBreakDown()
 
 ```csharp
 public void OnBreakDown()
 ```
+#INC
+
 
 ### OnDeadEffect()
 
 ```csharp
 public void OnDeadEffect()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -830,6 +965,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSpecialDamage(bool isFront)
 ```
+#INC
+
 
 #### Parameters
 
@@ -842,6 +979,9 @@ public void OnSpecialDamage(bool isFront)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -854,9 +994,13 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void StartMoveInPassage()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+

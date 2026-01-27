@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSpine/WorkerWeaponChanger
 ```csharp
 public class WorkerWeaponChanger : MonoBehaviour
 ```
+Changes the weapon a worker is holding?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerWeaponChanger
@@ -33,6 +37,8 @@ public WorkerWeaponChanger()
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Animator animator
 ```csharp
 public Sprite CurrentWeapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Sprite CurrentWeapon
 ```csharp
 public WeaponChangeData left
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public WeaponChangeData left
 ```csharp
 public WeaponChangeData right
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public WeaponChangeData right
 ```csharp
 public SkeletonAnimator skeletonAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,15 +99,22 @@ public SkeletonAnimator skeletonAnimator
 ```csharp
 public void Apply()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

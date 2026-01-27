@@ -11,6 +11,11 @@ canonical_path: /api/Global/Story/StoryScriptCommandData
 ```csharp
 public class StoryScriptCommandData
 ```
+Parent class for story commands, for doing actions from the script.
+
+#INC 
+#code-generated
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryScriptCommandData

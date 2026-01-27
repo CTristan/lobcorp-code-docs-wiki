@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/LanguagePositionSet
 ```csharp
 public class LanguagePositionSet : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LanguagePositionSet
@@ -53,6 +55,8 @@ public List<LanguagePositionSet.LanguageData> list
 ```csharp
 private Transform positionTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +69,14 @@ private Transform positionTarget
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

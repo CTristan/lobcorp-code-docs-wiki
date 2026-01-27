@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/DragExchanger
 ```csharp
 public class DragExchanger : MonoBehaviour, IDropHandler, IEventSystemHandler
 ```
+Appears unused.
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DragExchanger
@@ -36,6 +39,8 @@ public DragExchanger()
 ```csharp
 public Drop dropScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +53,9 @@ public Drop dropScript
 ```csharp
 public void OnDrop(PointerEventData eventData)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

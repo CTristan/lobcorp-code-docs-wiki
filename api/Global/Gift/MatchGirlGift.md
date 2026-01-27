@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/MatchGirlGift
 public class MatchGirlGift : EquipmentScriptBase
 ```
 
+Script for [Scorched Girl](/api/Global/Misc/MatchGirl)'s EGO Gift: Fourth Match Flame. No script.
+
+#unused
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → MatchGirlGift
 

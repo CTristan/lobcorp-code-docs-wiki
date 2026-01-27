@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/YinGift
 public class YinGift : EquipmentScriptBase
 ```
 
+Script for [Yin](/api/Global/Misc/Yin)'s EGO Gift: Discord.
+
+When hit, at an 8% chance, recover all damage taken.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → YinGift
 
@@ -33,6 +38,9 @@ public YinGift()
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -50,6 +58,8 @@ public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 public override bool OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/SefiraAbilityValueInfo
 ```csharp
 public class SefiraAbilityValueInfo
 ```
+Stores lists of values for clerk benefits and continued service benefits for each [department](/api/Global/Misc/Sefira).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraAbilityValueInfo
@@ -33,6 +35,8 @@ public SefiraAbilityValueInfo()
 ```csharp
 public static readonly int[] binahContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public static readonly int[] binahContinuousServiceValues
 ```csharp
 public static readonly int[] binahOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public static readonly int[] binahOfficerAliveValues
 ```csharp
 public static readonly int[] chesedContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public static readonly int[] chesedContinuousServiceValues
 ```csharp
 public static readonly int[] chesedOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public static readonly int[] chesedOfficerAliveValues
 ```csharp
 public static readonly int[] geburahContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public static readonly int[] geburahContinuousServiceValues
 ```csharp
 public static readonly int[] geburahOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public static readonly int[] geburahOfficerAliveValues
 ```csharp
 public static readonly int[] hodContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public static readonly int[] hodContinuousServiceValues
 ```csharp
 public static readonly int[] hodOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public static readonly int[] hodOfficerAliveValues
 ```csharp
 public static readonly int[] hokmaContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public static readonly int[] hokmaContinuousServiceValues
 ```csharp
 public static readonly int[] hokmaOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public static readonly int[] hokmaOfficerAliveValues
 ```csharp
 public static readonly int[] ketherContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public static readonly int[] ketherContinuousServiceValues
 ```csharp
 public static readonly int[] malkuthContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public static readonly int[] malkuthContinuousServiceValues
 ```csharp
 public static readonly int[] malkuthOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ public static readonly int[] malkuthOfficerAliveValues
 ```csharp
 public static readonly int[] netzachContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +203,8 @@ public static readonly int[] netzachContinuousServiceValues
 ```csharp
 public static readonly int[] netzachOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +215,8 @@ public static readonly int[] netzachOfficerAliveValues
 ```csharp
 public static readonly int[] tipherethContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +227,8 @@ public static readonly int[] tipherethContinuousServiceValues
 ```csharp
 public static readonly int[] tipherethOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +239,8 @@ public static readonly int[] tipherethOfficerAliveValues
 ```csharp
 public static readonly int[] yesodContinuousServiceValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +251,8 @@ public static readonly int[] yesodContinuousServiceValues
 ```csharp
 public static readonly int[] yesodOfficerAliveValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +265,8 @@ public static readonly int[] yesodOfficerAliveValues
 ```csharp
 public static int[] GetContinuousServiceValues(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,6 +283,9 @@ public static int[] GetContinuousServiceValues(SefiraEnum sefira)
 ```csharp
 public static int[] GetOfficerAliveValues(SefiraEnum sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

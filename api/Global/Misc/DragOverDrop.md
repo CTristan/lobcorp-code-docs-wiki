@@ -39,6 +39,8 @@ public DragOverDrop()
 ```csharp
 public Drop dropScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +53,9 @@ public Drop dropScript
 ```csharp
 public void OnDrop(PointerEventData eventData)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

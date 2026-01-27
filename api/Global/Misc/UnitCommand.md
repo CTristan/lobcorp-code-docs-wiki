@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/UnitCommand
 ```csharp
 public class UnitCommand
 ```
+A behaviour for a unit (agent, clerk, abnormality, rabbit) to use.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UnitCommand
@@ -36,6 +40,8 @@ public UnitCommand()
 ```csharp
 public UnitModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public UnitModel actor
 ```csharp
 public bool isFinished
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public bool isFinished
 ```csharp
 public bool isRemoved
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,24 +78,32 @@ public bool isRemoved
 ```csharp
 public virtual void Execute()
 ```
+#INC
+
 
 ### Finish()
 
 ```csharp
 public void Finish()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(StandingItemModel)
 
 ```csharp
 public virtual void OnInit(StandingItemModel standing)
 ```
+#INC
+
 
 #### Parameters
 
@@ -98,6 +116,8 @@ public virtual void OnInit(StandingItemModel standing)
 ```csharp
 public virtual void OnInit(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,6 +130,9 @@ public virtual void OnInit(UnitModel actor)
 ```csharp
 public virtual void OnInit(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -122,9 +145,13 @@ public virtual void OnInit(WorkerModel worker)
 ```csharp
 public virtual void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public virtual void OnStop()
 ```
+#INC
+

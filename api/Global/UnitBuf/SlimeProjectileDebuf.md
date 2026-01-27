@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/SlimeProjectileDebuf
 public class SlimeProjectileDebuf : UnitBuf
 ```
 
+DOT debuff applied by [Melting Love's projectile](/api/Global/Misc/SlimeGirlProjectile).
+
+Does 2-3 black damage every 2 seconds for 10 seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlimeProjectileDebuf
 
@@ -25,6 +30,8 @@ public class SlimeProjectileDebuf : UnitBuf
 ```csharp
 public SlimeProjectileDebuf(WorkerModel worker, SlimeGirl script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public SlimeProjectileDebuf(WorkerModel worker, SlimeGirl script)
 ```csharp
 private const int _dmgMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ private const int _dmgMax = 3
 ```csharp
 private const int _dmgMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ private const int _dmgMin = 2
 ```csharp
 private const float _dmgTickTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +83,8 @@ private const float _dmgTickTime = 2
 ```csharp
 private const RwbpType _dmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +95,8 @@ private const RwbpType _dmgType = B
 ```csharp
 private const float _remainTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +107,8 @@ private const float _remainTime = 10
 ```csharp
 private Timer dmgTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +119,8 @@ private Timer dmgTickTimer
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +131,8 @@ private GameObject effect
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +143,8 @@ private SlimeGirl script
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,12 +169,16 @@ private static DamageInfo Dmg { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,9 +191,14 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+#code-generated
+

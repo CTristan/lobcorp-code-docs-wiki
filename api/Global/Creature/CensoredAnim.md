@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CensoredAnim
 public class CensoredAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [CENSORED](/api/Global/Misc/Censored).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CensoredAnim
 
@@ -36,6 +39,8 @@ public CensoredAnim()
 ```csharp
 private const string _effect_eat = "CensoredEatEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const string _effect_eat = "CensoredEatEffect"
 ```csharp
 private const string _effect_heal = "CensoredHealEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _effect_heal = "CensoredHealEffect"
 ```csharp
 private const string _effect_src = "Effect/Creature/Censored/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string _effect_src = "Effect/Creature/Censored/"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Censored script
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,60 +101,81 @@ private Censored script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+#code-generated
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### DeadSceneEnd()
 
 ```csharp
 private void DeadSceneEnd()
 ```
+#INC
+
 
 ### DeadSceneStart()
 
 ```csharp
 private void DeadSceneStart()
 ```
+#INC
+
 
 ### ExplodeDead()
 
 ```csharp
 private void ExplodeDead()
 ```
+#INC
+
 
 ### FirstHeal()
 
 ```csharp
 private void FirstHeal()
 ```
+#INC
+
 
 ### GiveDeadSceneDmg()
 
 ```csharp
 private void GiveDeadSceneDmg()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsInDeadScene()
 
 ```csharp
 public bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -152,6 +186,8 @@ public bool IsInDeadScene()
 ```csharp
 public bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,18 +198,24 @@ public bool IsMovable()
 ```csharp
 private void MakeChildCreature()
 ```
+#INC
+
 
 ### MakeEatEffect()
 
 ```csharp
 private void MakeEatEffect()
 ```
+#INC
+
 
 ### MakeEffect(string)
 
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,18 +232,24 @@ private GameObject MakeEffect(string src)
 ```csharp
 private void MakeHealEffect()
 ```
+#INC
+
 
 ### OnAttackStart()
 
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,48 +262,64 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSetDeadScene()
 
 ```csharp
 public void OnSetDeadScene()
 ```
+#INC
+
 
 ### OnSpecialStart()
 
 ```csharp
 public void OnSpecialStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### Sacrifice()
 
 ```csharp
 private void Sacrifice()
 ```
+#INC
+
 
 ### SacrificeEnd()
 
 ```csharp
 private void SacrificeEnd()
 ```
+#INC
+
 
 ### SetScript(Censored)
 
 ```csharp
 public void SetScript(Censored script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,15 +332,21 @@ public void SetScript(Censored script)
 ```csharp
 private void SpecialEnd()
 ```
+#INC
+
 
 ### StartSacrifice()
 
 ```csharp
 public void StartSacrifice()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

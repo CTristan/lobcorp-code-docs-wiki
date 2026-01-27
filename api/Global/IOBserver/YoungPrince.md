@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/YoungPrince
 public class YoungPrince : CreatureBase, IObserver
 ```
 
+The Little Prince.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → YoungPrince
 
@@ -36,6 +39,8 @@ public YoungPrince()
 ```csharp
 private const int _addedStack = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const int _addedStack = 20
 ```csharp
 private YoungPrinceAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +73,8 @@ private YoungPrince.YoungPricePhase _phase
 ```csharp
 private const int _qliphothMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +85,8 @@ private const int _qliphothMax = 2
 ```csharp
 private const int _removedStack = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ private const int _removedStack = 20
 ```csharp
 private const long _targetSkill = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ private const long _targetSkill = 2
 ```csharp
 private const int _transformStack = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ private const int _transformStack = 100
 ```csharp
 private WorkerModel arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private WorkerModel arrived
 ```csharp
 private List<WorkerModel> attracted
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private List<WorkerModel> attracted
 ```csharp
 private float filterAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private float filterAlpha
 ```csharp
 private const float filterBlinkTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private const float filterBlinkTime = 10
 ```csharp
 private Timer filterBlinkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ private Timer filterBlinkTimer
 ```csharp
 private const float filterDecreaseTime = 2.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ private const float filterDecreaseTime = 2.4
 ```csharp
 private Timer filterDecreaseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ private Timer filterDecreaseTimer
 ```csharp
 private const float filterIncreaseTime = 2.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ private const float filterIncreaseTime = 2.8
 ```csharp
 private Timer filterIncreaseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ private Timer filterIncreaseTimer
 ```csharp
 private Text filterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ private Text filterText
 ```csharp
 private bool gonnaSub
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ private bool gonnaSub
 ```csharp
 private long oldOldWorkId
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ private long oldOldWorkId
 ```csharp
 private long oldWorkId
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ private long oldWorkId
 ```csharp
 private bool skillInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ private bool skillInit
 ```csharp
 private const string sound_Act1 = "Active1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +301,8 @@ private const string sound_Act1 = "Active1"
 ```csharp
 private const string sound_Act2 = "Active2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +313,8 @@ private const string sound_Act2 = "Active2"
 ```csharp
 private const string sound_Change = "Change"
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +325,8 @@ private const string sound_Change = "Change"
 ```csharp
 private const string sound_Default = "Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +337,8 @@ private const string sound_Default = "Default"
 ```csharp
 private SoundEffectPlayer[] soundList
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +349,8 @@ private SoundEffectPlayer[] soundList
 ```csharp
 public IsolateFilter sporeFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +361,8 @@ public IsolateFilter sporeFilter
 ```csharp
 private float subAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +373,8 @@ private float subAlpha
 ```csharp
 private const float transformDelayTime = 8.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +385,8 @@ private const float transformDelayTime = 8.5
 ```csharp
 private Timer transformDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +397,8 @@ private Timer transformDelayTimer
 ```csharp
 private const float transformTime = 10.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +409,8 @@ private const float transformTime = 10.5
 ```csharp
 private Timer transformTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +421,8 @@ private Timer transformTimer
 ```csharp
 private Dictionary<WorkerModel, int> workStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -380,18 +447,24 @@ public YoungPrinceAnim animScript { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### Attract(WorkerModel)
 
 ```csharp
 public void Attract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -404,12 +477,16 @@ public void Attract(WorkerModel worker)
 ```csharp
 public void CancelAttract()
 ```
+#INC
+
 
 ### CancelAttract(WorkerModel)
 
 ```csharp
 public void CancelAttract(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -422,18 +499,24 @@ public void CancelAttract(WorkerModel worker)
 ```csharp
 private void Cast1st()
 ```
+#INC
+
 
 ### Cast2nd()
 
 ```csharp
 private void Cast2nd()
 ```
+#INC
+
 
 ### ChangeState(bool)
 
 ```csharp
 private void ChangeState(bool isCasting)
 ```
+#INC
+
 
 #### Parameters
 
@@ -446,6 +529,8 @@ private void ChangeState(bool isCasting)
 ```csharp
 private bool CheckAttractCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -462,6 +547,8 @@ private bool CheckAttractCondition(WorkerModel worker)
 ```csharp
 public string GetFriendName()
 ```
+#INC
+
 
 #### Returns
 
@@ -482,6 +569,8 @@ public YoungPrince.YoungPricePhase GetPhase()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -498,6 +587,9 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -508,6 +600,8 @@ public override bool HasRoomCounter()
 ```csharp
 private bool IsTransformed()
 ```
+#INC
+
 
 #### Returns
 
@@ -518,6 +612,8 @@ private bool IsTransformed()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -528,6 +624,8 @@ public override bool IsWorkable()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -544,6 +642,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -560,6 +660,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnArrive(WorkerModel arrived)
 ```
+#INC
+
 
 #### Parameters
 
@@ -572,6 +674,8 @@ public void OnArrive(WorkerModel arrived)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -584,6 +688,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -597,6 +703,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -607,6 +715,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -619,18 +729,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -643,6 +759,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -655,42 +773,56 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### RefreshFilter()
 
 ```csharp
 private void RefreshFilter()
 ```
+#INC
+
 
 ### RemoveSound()
 
 ```csharp
 private void RemoveSound()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 private void Reset()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetDefault()
 
 ```csharp
 private void SetDefault()
 ```
+#INC
+
 
 ### SetPhase(bool, int)
 
 ```csharp
 private void SetPhase(bool casting, int phase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -704,9 +836,13 @@ private void SetPhase(bool casting, int phase)
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+
 
 ### TransformStart()
 
 ```csharp
 private void TransformStart()
 ```
+#INC
+

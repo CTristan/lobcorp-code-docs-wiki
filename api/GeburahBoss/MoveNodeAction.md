@@ -11,6 +11,8 @@ canonical_path: /api/GeburahBoss/MoveNodeAction
 ```csharp
 public class MoveNodeAction : GeburahAction
 ```
+Action where [The Red Mist](/api/Global/Script/GeburahCoreScript) moves.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → MoveNodeAction
@@ -25,6 +27,8 @@ public class MoveNodeAction : GeburahAction
 ```csharp
 public MoveNodeAction(GeburahCoreScript geburah, MapNode destNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +44,8 @@ public MoveNodeAction(GeburahCoreScript geburah, MapNode destNode)
 ```csharp
 private bool _isSamePassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +56,8 @@ private bool _isSamePassage
 ```csharp
 private GeburahAction _nearTargetDetected
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +68,8 @@ private GeburahAction _nearTargetDetected
 ```csharp
 private MapNode destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +80,8 @@ private MapNode destNode
 ```csharp
 private bool ignoreNearTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,24 +94,33 @@ private bool ignoreNearTargets
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### SetNearTargetDetected(GeburahAction)
 
 ```csharp
 public void SetNearTargetDetected(GeburahAction action)
 ```
+#INC
+
 
 #### Parameters
 

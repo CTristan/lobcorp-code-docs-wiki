@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/SpriteInfo
 ```csharp
 public class SpriteInfo
 ```
+Holds information about a sprite. Used only by workers (see [WorkerSpriteManager](/api/Global/Worker/WorkerSpriteManager) #verify ).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteInfo
@@ -25,6 +29,9 @@ public class SpriteInfo
 ```csharp
 public SpriteInfo(string path, Sprite sprite)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public SpriteInfo(string path, Sprite sprite)
 ```csharp
 public bool isCustom
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ public bool isCustom
 ```csharp
 public string path
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ public string path
 ```csharp
 public Sprite sprite
 ```
+#INC
+
 
 #### Field Value
 

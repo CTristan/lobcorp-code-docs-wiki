@@ -12,6 +12,11 @@ canonical_path: /api/Global/Collider/SlimeGirlProjectileCollider
 public class SlimeGirlProjectileCollider : MonoBehaviour
 ```
 
+Collider for Melting Love's projectile attack. 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SlimeGirlProjectileCollider
 
@@ -33,6 +38,8 @@ public SlimeGirlProjectileCollider()
 ```csharp
 public SlimeGirlProjectile root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public SlimeGirlProjectile root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +67,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,6 +81,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

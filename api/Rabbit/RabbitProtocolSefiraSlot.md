@@ -12,6 +12,11 @@ canonical_path: /api/Rabbit/RabbitProtocolSefiraSlot
 public class RabbitProtocolSefiraSlot : MonoBehaviour
 ```
 
+UI element representing an [operation area](/api/Global/Misc/RabbitOperationArea) / department, for its selection on the [Rabbit Protocol UI](/api/Rabbit/RabbitProtocolWindow).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RabbitProtocolSefiraSlot
 
@@ -33,6 +38,8 @@ public RabbitProtocolSefiraSlot()
 ```csharp
 public Image _defaultFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Image _defaultFrame
 ```csharp
 private bool _isSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool _isSelected
 ```csharp
 public Text _notAvailableText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Text _notAvailableText
 ```csharp
 public Image _selectedFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Image _selectedFrame
 ```csharp
 public Text agents
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text agents
 ```csharp
 public Text areaName
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Text areaName
 ```csharp
 public Text enermys
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Text enermys
 ```csharp
 public Text officers
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public Text officers
 ```csharp
 public SefiraEnum sefiraEnum
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public SefiraEnum sefiraEnum
 ```csharp
 public GameObject selectedObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public GameObject selectedObject
 ```csharp
 public SlotState state
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +194,8 @@ public Sefira Sefira { get; }
 ```csharp
 public void Init(SlotState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,30 +208,41 @@ public void Init(SlotState state)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnOpenWindow()
 
 ```csharp
 public void OnOpenWindow()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateData(SefiraInfo)
 
 ```csharp
 public void UpdateData(RabbitProtocolWindow.SefiraInfo list)
 ```
+#INC
+
 
 #### Parameters
 

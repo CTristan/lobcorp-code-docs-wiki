@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/DesireHeart
 public class DesireHeart : CreatureBase
 ```
 
+The Heart of Aspiration.
+
+Gives a buff which increases max HP and attack speed by 10 points. Also panics you if you return it before 30 seconds have passed or before you fail to suppress something.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DesireHeart
 
@@ -33,6 +38,8 @@ public DesireHeart()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,12 +52,17 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

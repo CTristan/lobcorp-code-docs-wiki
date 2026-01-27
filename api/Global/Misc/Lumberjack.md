@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Lumberjack
 public class Lumberjack : CreatureBase
 ```
 
+Warm-Hearted Woodsman.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Lumberjack
 
@@ -33,6 +38,8 @@ public Lumberjack()
 ```csharp
 private LumberjackAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private LumberjackAnim _animScript
 ```csharp
 private const float _atkDmgRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _atkDmgRange = 4.5
 ```csharp
 private const int _attackDmgMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _attackDmgMax = 10
 ```csharp
 private const int _attackDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _attackDmgMin = 5
 ```csharp
 private const float _attackRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _attackRange = 4
 ```csharp
 private const int _defaultSpecialAtkProb = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _defaultSpecialAtkProb = 20
 ```csharp
 private const float _escapeTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _escapeTime = 5
 ```csharp
 private static float _filterReadyTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private static float _filterReadyTime
 ```csharp
 private static float _filterTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private static float _filterTime
 ```csharp
 private const int _healMax = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const int _healMax = 35
 ```csharp
 private const int _healMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int _healMin = 25
 ```csharp
 private const float _lootRange = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float _lootRange = 1.5
 ```csharp
 private const float _motionDelayTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _motionDelayTime = 1
 ```csharp
 private const int _qliphothMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const int _qliphothMax = 1
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const int _skillProbPerAttackStack = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const int _skillProbPerAttackStack = 25
 ```csharp
 private const float _smashDmgRange = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _smashDmgRange = 5
 ```csharp
 private const string _sound_atk1 = "atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const string _sound_atk1 = "atk1"
 ```csharp
 private const string _sound_atk2 = "atk2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const string _sound_atk2 = "atk2"
 ```csharp
 public const string _sound_dead1 = "dead1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ public const string _sound_dead1 = "dead1"
 ```csharp
 public const string _sound_dead2 = "dead2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ public const string _sound_dead2 = "dead2"
 ```csharp
 private const string _sound_default = "default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const string _sound_default = "default"
 ```csharp
 private const string _sound_escape = "escape"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private const string _sound_escape = "escape"
 ```csharp
 public const string _sound_special = "special"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ public const string _sound_special = "special"
 ```csharp
 private const float _specialCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private const float _specialCoolTimeMax = 15
 ```csharp
 private const float _specialCoolTimeMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private const float _specialCoolTimeMin = 8
 ```csharp
 private const int _specialDmgMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +362,8 @@ private const int _specialDmgMax = 4
 ```csharp
 private const int _specialDmgMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +374,8 @@ private const int _specialDmgMin = 3
 ```csharp
 private const float _specialDmgRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +386,8 @@ private const float _specialDmgRange = 4.5
 ```csharp
 private const int _specialSmashMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +398,8 @@ private const int _specialSmashMax = 20
 ```csharp
 private const int _specialSmashMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +410,8 @@ private const int _specialSmashMin = 15
 ```csharp
 private const int _temperanceCondition = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +422,8 @@ private const int _temperanceCondition = 3
 ```csharp
 private int attackStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +434,8 @@ private int attackStack
 ```csharp
 private WorkerModel dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +446,8 @@ private WorkerModel dead
 ```csharp
 private SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +458,8 @@ private SoundEffectPlayer defaultSound
 ```csharp
 private Timer escapeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +470,8 @@ private Timer escapeTimer
 ```csharp
 private Timer filterReadyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +482,8 @@ private Timer filterReadyTimer
 ```csharp
 private Timer filterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +494,8 @@ private Timer filterTimer
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +506,8 @@ private Timer motionDelayTimer
 ```csharp
 private Timer specialCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +518,8 @@ private Timer specialCoolTimer
 ```csharp
 private AgentModel victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -507,6 +594,8 @@ private static int specialSmash { get; }
 ```csharp
 private void AttackStart(int pattern)
 ```
+#INC
+
 
 #### Parameters
 
@@ -519,12 +608,16 @@ private void AttackStart(int pattern)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetDeads()
 
 ```csharp
 private List<WorkerModel> GetDeads()
 ```
+#INC
+
 
 #### Returns
 
@@ -535,6 +628,8 @@ private List<WorkerModel> GetDeads()
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -551,6 +646,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private UnitModel GetNearestInRange(float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -568,6 +665,8 @@ private UnitModel GetNearestInRange(float range, bool hasDir = true)
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -584,6 +683,8 @@ private string GetSoundSrc(string key)
 ```csharp
 private List<UnitModel> GetTargetsInRange(float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -601,12 +702,16 @@ private List<UnitModel> GetTargetsInRange(float range, bool hasDir = true)
 ```csharp
 public void Heal()
 ```
+#INC
+
 
 ### IsInRange(UnitModel, float, bool)
 
 ```csharp
 private bool IsInRange(UnitModel target, float range, bool hasDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -625,24 +730,32 @@ private bool IsInRange(UnitModel target, float range, bool hasDir = true)
 ```csharp
 public void KillAgentInRoom()
 ```
+#INC
+
 
 ### Loot()
 
 ```csharp
 public void Loot()
 ```
+#INC
+
 
 ### LootStart()
 
 ```csharp
 private void LootStart()
 ```
+#INC
+
 
 ### MakeExplodeEffect(WorkerModel, float)
 
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -656,12 +769,16 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -678,6 +795,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -688,12 +807,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd(int)
 
 ```csharp
 public void OnAttackEnd(int pattern)
 ```
+#INC
+
 
 #### Parameters
 
@@ -706,6 +829,8 @@ public void OnAttackEnd(int pattern)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -718,6 +843,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -730,12 +857,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnLootingEnd()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -748,36 +879,48 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSpecialDamageTimeCalled()
 
 ```csharp
 public void OnSpecialDamageTimeCalled()
 ```
+#INC
+
 
 ### OnSpecialSmashTimeCalled()
 
 ```csharp
 public void OnSpecialSmashTimeCalled()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -790,21 +933,30 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### RemoveDefaultSound()
 
 ```csharp
 private void RemoveDefaultSound()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

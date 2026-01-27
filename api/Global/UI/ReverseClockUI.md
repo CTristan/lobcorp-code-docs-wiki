@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/ReverseClockUI
 public class ReverseClockUI : MonoBehaviour
 ```
 
+UI that displays when [Backwards Clock](/api/Global/Misc/ReverseClock) is activated.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ReverseClockUI
 
@@ -43,6 +48,8 @@ private ReverseClockUI.HideUIEvent _hideEvent
 ```csharp
 private SoundEffectPlayer _soundRouletteStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private ReverseClockUI.DisplayNumberEvent _viewEvent
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ public Animator anim
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ public Canvas canvas
 ```csharp
 public GameObject destroyParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ public GameObject destroyParticle
 ```csharp
 public SpriteRenderer flashSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ public SpriteRenderer flashSprite
 ```csharp
 public SpriteRenderer[] numSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ public SpriteRenderer[] numSprites
 ```csharp
 public GameObject root
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +144,8 @@ public GameObject root
 ```csharp
 public void DisplayNumber(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,6 +158,8 @@ public void DisplayNumber(int i)
 ```csharp
 private IEnumerator Flash()
 ```
+#INC
+
 
 #### Returns
 
@@ -147,18 +170,24 @@ private IEnumerator Flash()
 ```csharp
 public void HideUI()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### PlaySkillFinishSound()
 
 ```csharp
 public void PlaySkillFinishSound()
 ```
+#INC
+
 
 ### SetHidingEvent(HideUIEvent)
 
@@ -177,6 +206,9 @@ public void SetHidingEvent(ReverseClockUI.HideUIEvent e)
 ```csharp
 public void SetSprites(int idx, Sprite s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -202,3 +234,5 @@ public void SetViewingEvent(ReverseClockUI.DisplayNumberEvent e)
 ```csharp
 private void Start()
 ```
+#INC
+

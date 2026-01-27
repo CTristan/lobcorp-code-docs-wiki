@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BlackLoveBuf
 public class BlackLoveBuf : UnitBuf, IObserver
 ```
 
+Buff which makes a level 3 or lower employee uncontrollable during [Army in Black's breach](/api/Global/Misc/BlackCorps).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BlackLoveBuf
 
@@ -28,6 +31,8 @@ public class BlackLoveBuf : UnitBuf, IObserver
 ```csharp
 public BlackLoveBuf(WorkerModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public BlackLoveBuf(WorkerModel actor)
 ```csharp
 private WorkerModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ private WorkerModel actor
 ```csharp
 private SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,18 +73,25 @@ private SpriteRenderer renderer
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetControl()
 
 ```csharp
 private void GetControl()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -88,18 +104,24 @@ public override void Init(UnitModel model)
 ```csharp
 public void MakeHeart()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

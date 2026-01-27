@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/BeautyBeastGift
 public class BeautyBeastGift : EquipmentScriptBase
 ```
 
+Script for [Beauty and the Beast](/api/Global/Misc/BeautyBeast)'s EGO Gift: Horn. No script.
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BeautyBeastGift
 

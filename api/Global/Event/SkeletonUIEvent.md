@@ -49,6 +49,8 @@ public string anim
 ```csharp
 public string currentAnimation
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +61,8 @@ public string currentAnimation
 ```csharp
 public bool loop
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,24 +107,33 @@ public SkeletonDataAsset SkeletonDataAsset { get; }
 ```csharp
 public void SetUpPos()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateAnimation(string)
 
 ```csharp
 public void UpdateAnimation(string animation)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +146,8 @@ public void UpdateAnimation(string animation)
 ```csharp
 public void UpdateAnimation(string animation, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,6 +161,8 @@ public void UpdateAnimation(string animation, bool loop)
 ```csharp
 public void UpdateAnimationOnce(string animation)
 ```
+#INC
+
 
 #### Parameters
 

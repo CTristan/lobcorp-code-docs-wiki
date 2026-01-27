@@ -12,6 +12,12 @@ canonical_path: /api/Global/Animator/DangoCreatureEventHandler
 public class DangoCreatureEventHandler : AnimatorEventHandler
 ```
 
+Empty animation event handler. Hm. #INC 
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → DangoCreatureEventHandler
 

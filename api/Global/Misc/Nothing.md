@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Nothing
 public class Nothing : CreatureBase
 ```
 
+Nothing There.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Nothing
 
@@ -33,6 +36,8 @@ public Nothing()
 ```csharp
 private NothingAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private NothingAnim _animScript
 ```csharp
 private AgentModel _currentMovementTargetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private AgentModel _currentMovementTargetAgent
 ```csharp
 private const string _healEffectSrc = "Effect/RecoverHP"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const string _healEffectSrc = "Effect/RecoverHP"
 ```csharp
 private const float _healValueMax_1st = 17
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _healValueMax_1st = 17
 ```csharp
 private const float _healValueMax_2nd = 33
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float _healValueMax_2nd = 33
 ```csharp
 private const float _healValueMin_1st = 17
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _healValueMin_1st = 17
 ```csharp
 private const float _healValueMin_2nd = 33
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _healValueMin_2nd = 33
 ```csharp
 private const float attackDelay = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const float attackDelay = 2.5
 ```csharp
 public const float attackRange_lv1 = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public const float attackRange_lv1 = 2
 ```csharp
 public const float attackRange_lv2 = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public const float attackRange_lv2 = 2
 ```csharp
 private UnitModel attackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private UnitModel attackTarget
 ```csharp
 private const float changeWorkerEscapeTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float changeWorkerEscapeTime = 3
 ```csharp
 private Timer changeWorkerEscapeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private Timer changeWorkerEscapeTimer
 ```csharp
 private const float changeWorkerRoomTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const float changeWorkerRoomTime = 2
 ```csharp
 private Timer changeWorkerRoomTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private Timer changeWorkerRoomTimer
 ```csharp
 public WorkerModel copiedWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ public WorkerModel copiedWorker
 ```csharp
 private AgentModel currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private AgentModel currentAgent
 ```csharp
 private float currentDefSoundFrq
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private float currentDefSoundFrq
 ```csharp
 private string currentDefSoundKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ public Nothing.NothingForm currentForm
 ```csharp
 private const float defaultSkillProb = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ private const float defaultSkillProb = 0.4
 ```csharp
 public Timer defSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ public Timer defSound
 ```csharp
 private const float evolveTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +310,8 @@ private const float evolveTime = 30
 ```csharp
 private Timer evolveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +322,8 @@ private Timer evolveTimer
 ```csharp
 private bool gonnaEscape
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +334,8 @@ private bool gonnaEscape
 ```csharp
 private const float hatchTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +346,8 @@ private const float hatchTime = 30
 ```csharp
 private Timer hatchTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +358,8 @@ private Timer hatchTimer
 ```csharp
 private float heartBeatElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +370,8 @@ private float heartBeatElap
 ```csharp
 private float heartBeatFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ private float heartBeatFreq
 ```csharp
 private const float heartBeatMax = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private const float heartBeatMax = 2.5
 ```csharp
 private const float humanDefFrq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private const float humanDefFrq = 5
 ```csharp
 private const float level1DefFrq = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private const float level1DefFrq = 12
 ```csharp
 private const float level2DefFrq = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private const float level2DefFrq = 25
 ```csharp
 private const int maxHp_egg = 2000
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private const int maxHp_egg = 2000
 ```csharp
 private const int maxHp_lv1 = 2000
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private const int maxHp_lv1 = 2000
 ```csharp
 private const int maxHp_lv2 = 2000
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private const int maxHp_lv2 = 2000
 ```csharp
 private const float movement_lv1 = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private const float movement_lv1 = 2
 ```csharp
 private const float movement_lv2 = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ private const float movement_lv2 = 1.2
 ```csharp
 public Timer moveWaitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ public Timer moveWaitTimer
 ```csharp
 private int normalAttackStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +514,8 @@ private int normalAttackStack
 ```csharp
 private const int normalDamageMax_Lv2 = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +526,8 @@ private const int normalDamageMax_Lv2 = 35
 ```csharp
 private const int normalDamageMin_Lv2 = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +538,8 @@ private const int normalDamageMin_Lv2 = 25
 ```csharp
 private NothingWorker nothingWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +550,8 @@ private NothingWorker nothingWorker
 ```csharp
 private const float passiveCancelDmg = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +562,8 @@ private const float passiveCancelDmg = 1
 ```csharp
 private const float passiveCoolTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +574,8 @@ private const float passiveCoolTime = 10
 ```csharp
 private Timer passiveCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +586,8 @@ private Timer passiveCoolTimer
 ```csharp
 private const float passivePhaseOver = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +598,8 @@ private const float passivePhaseOver = 0.3
 ```csharp
 private float remainAttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +610,8 @@ private float remainAttackDelay
 ```csharp
 private const float skillProbPerNormalAttackStack = 0.15
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +622,8 @@ private const float skillProbPerNormalAttackStack = 0.15
 ```csharp
 private NothingSnipingUI snipe
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +634,8 @@ private NothingSnipingUI snipe
 ```csharp
 private const float snipingTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +646,8 @@ private const float snipingTime = 1
 ```csharp
 private Timer snipingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +658,8 @@ private Timer snipingTimer
 ```csharp
 private bool spearAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -563,6 +670,8 @@ private bool spearAttack
 ```csharp
 private List<UnitModel> spearBindTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -573,6 +682,8 @@ private List<UnitModel> spearBindTargets
 ```csharp
 private const float spearCastingTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -583,6 +694,8 @@ private const float spearCastingTime = 2
 ```csharp
 private Timer spearCastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -593,6 +706,8 @@ private Timer spearCastingTimer
 ```csharp
 private const int spearDamageMax = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -603,6 +718,8 @@ private const int spearDamageMax = 60
 ```csharp
 private const int spearDamageMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -613,6 +730,8 @@ private const int spearDamageMin = 50
 ```csharp
 private const int strikeDamageMax = 300
 ```
+#INC
+
 
 #### Field Value
 
@@ -623,6 +742,8 @@ private const int strikeDamageMax = 300
 ```csharp
 private const int strikeDamageMin = 300
 ```
+#INC
+
 
 #### Field Value
 
@@ -633,6 +754,8 @@ private const int strikeDamageMin = 300
 ```csharp
 private const float strikeProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -643,6 +766,8 @@ private const float strikeProb = 0.3
 ```csharp
 private WorkerModel targetChangeWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -653,6 +778,8 @@ private WorkerModel targetChangeWorker
 ```csharp
 private float waitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -727,54 +854,72 @@ private static int strikeDamage { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CancelPassive()
 
 ```csharp
 private void CancelPassive()
 ```
+#INC
+
 
 ### CastSpearAttack()
 
 ```csharp
 private void CastSpearAttack()
 ```
+#INC
+
 
 ### EndSpearAttack()
 
 ```csharp
 public void EndSpearAttack()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### EscapeLv1()
 
 ```csharp
 private void EscapeLv1()
 ```
+#INC
+
 
 ### EscapeWorkerForm()
 
 ```csharp
 private void EscapeWorkerForm()
 ```
+#INC
+
 
 ### FinishSniping()
 
 ```csharp
 public void FinishSniping()
 ```
+#INC
+
 
 ### GetAttackTargets(List<UnitModel>, List<UnitModel>, List<UnitModel>)
 
 ```csharp
 private void GetAttackTargets(List<UnitModel> outTargetsInPassage, List<UnitModel> outAttackTargets, List<UnitModel> outSpearTargets)
 ```
+#INC
+
 
 #### Parameters
 
@@ -789,36 +934,48 @@ private void GetAttackTargets(List<UnitModel> outTargetsInPassage, List<UnitMode
 ```csharp
 private void GetPassive()
 ```
+#INC
+
 
 ### GiveDamageLv2NormalAttack()
 
 ```csharp
 public void GiveDamageLv2NormalAttack()
 ```
+#INC
+
 
 ### GiveDamageLv2SpearAttack()
 
 ```csharp
 public void GiveDamageLv2SpearAttack()
 ```
+#INC
+
 
 ### GiveDamageLv2StrikeAttack()
 
 ```csharp
 public void GiveDamageLv2StrikeAttack()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 public void Heal()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -829,6 +986,8 @@ public bool IsAttacking()
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -845,6 +1004,8 @@ private GameObject MakeEffect(string src)
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -859,6 +1020,8 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -871,6 +1034,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -883,12 +1048,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -901,30 +1071,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -939,6 +1119,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -951,48 +1133,64 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ProcessLv1()
 
 ```csharp
 private void ProcessLv1()
 ```
+#INC
+
 
 ### ProcessLv2()
 
 ```csharp
 private void ProcessLv2()
 ```
+#INC
+
 
 ### SetDefenseType()
 
 ```csharp
 private void SetDefenseType()
 ```
+#INC
+
 
 ### SetLv2SpearBindTargets()
 
 ```csharp
 public void SetLv2SpearBindTargets()
 ```
+#INC
+
 
 ### StartEvolve()
 
 ```csharp
 private void StartEvolve()
 ```
+#INC
+
 
 ### StartSpearAttack()
 
 ```csharp
 private void StartSpearAttack()
 ```
+#INC
+
 
 ### TranformWorkProb(float)
 
 ```csharp
 public override float TranformWorkProb(float originWorkProb)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1021,12 +1219,16 @@ private void Transform(Nothing.NothingForm form)
 ```csharp
 private void TransformToLv1Escape()
 ```
+#INC
+
 
 ### TransformToWorker(WorkerModel)
 
 ```csharp
 private void TransformToWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1039,6 +1241,8 @@ private void TransformToWorker(WorkerModel worker)
 ```csharp
 private void TransformToWorkerEscape(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1051,6 +1255,8 @@ private void TransformToWorkerEscape(WorkerModel worker)
 ```csharp
 private void TransformToWorkerRoom(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1063,3 +1269,5 @@ private void TransformToWorkerRoom(WorkerModel worker)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StoryViewer
 public class StoryViewer : MonoBehaviour
 ```
 
+UI allowing playback of old stories.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryViewer
 
@@ -33,6 +36,8 @@ public StoryViewer()
 ```csharp
 public RectTransform _dayArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public RectTransform _dayArea
 ```csharp
 public Button _dayButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +71,8 @@ public RectTransform _sefiraArea
 ```csharp
 public Button _sefiraButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +83,8 @@ public Button _sefiraButton
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +95,8 @@ public GameObject ActiveControl
 ```csharp
 public AudioClipPlayer AudioCilp
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +107,8 @@ public AudioClipPlayer AudioCilp
 ```csharp
 public GameObject bgm
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +119,8 @@ public GameObject bgm
 ```csharp
 private Dictionary<string, int> dayCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +131,8 @@ private Dictionary<string, int> dayCount
 ```csharp
 public Text DayCountText
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +143,8 @@ public Text DayCountText
 ```csharp
 public RectTransform DayLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +155,8 @@ public RectTransform DayLayout
 ```csharp
 public List<string> dayStories
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +167,8 @@ public List<string> dayStories
 ```csharp
 public GameObject DayTextUnit_Day
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +179,8 @@ public GameObject DayTextUnit_Day
 ```csharp
 public GameObject DayTextUnit_Sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +202,8 @@ private List<DayUnitButton> dayUnits
 ```csharp
 public Button[] EndingButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +214,8 @@ public Button[] EndingButton
 ```csharp
 public RectTransform EndingPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +226,8 @@ public RectTransform EndingPanel
 ```csharp
 public List<string> endingStories
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +238,8 @@ public List<string> endingStories
 ```csharp
 private static string[] endingText
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +250,8 @@ private static string[] endingText
 ```csharp
 public Button[] SeedButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +262,8 @@ public Button[] SeedButton
 ```csharp
 public RectTransform SeedPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +274,8 @@ public RectTransform SeedPanel
 ```csharp
 public List<string> seedStories
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +297,8 @@ public List<StoryViewerSefiraPanel> sefiraPanels
 ```csharp
 public StoryUI storyUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -268,6 +311,8 @@ public StoryUI storyUI
 ```csharp
 public static StoryViewer Controller { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -286,18 +331,24 @@ private void Awake()
 ```csharp
 private void ClearDayUnits()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### OnClickStory(string)
 
 ```csharp
 public void OnClickStory(string storyId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -310,24 +361,32 @@ public void OnClickStory(string storyId)
 ```csharp
 public void OnEndStory()
 ```
+#INC
+
 
 ### ReturnToTitle()
 
 ```csharp
 public void ReturnToTitle()
 ```
+#INC
+
 
 ### SetDay()
 
 ```csharp
 public void SetDay()
 ```
+#INC
+
 
 ### SetDay(string)
 
 ```csharp
 private void SetDay(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,21 +399,30 @@ private void SetDay(string key)
 ```csharp
 public void SetSefira()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### StoryInit()
 
 ```csharp
 private void StoryInit()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

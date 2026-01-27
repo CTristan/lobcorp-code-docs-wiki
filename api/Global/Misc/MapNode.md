@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/MapNode
 ```csharp
 public class MapNode
 ```
+A place in a [room](/api/Global/Model/PassageObjectModel).
+
+May also represent an [elevator](/api/Global/Model/ElevatorPassageModel) or a [door](/api/Global/Model/DoorObjectModel).
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapNode
@@ -25,6 +30,9 @@ public class MapNode
 ```csharp
 public MapNode(string id, Vector3 pos, string areaName)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +47,8 @@ public MapNode(string id, Vector3 pos, string areaName)
 ```csharp
 public MapNode(string id, Vector3 pos, string areaName, PassageObjectModel attachedPassage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -56,6 +66,8 @@ public MapNode(string id, Vector3 pos, string areaName, PassageObjectModel attac
 ```csharp
 private bool _activate
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +78,8 @@ private bool _activate
 ```csharp
 private UnitDirection _teleportDirectionCondition
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +90,8 @@ private UnitDirection _teleportDirectionCondition
 ```csharp
 private List<MapNode> _teleportTo
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +102,8 @@ private List<MapNode> _teleportTo
 ```csharp
 private string areaName
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +114,8 @@ private string areaName
 ```csharp
 private ElevatorPassageModel attachedElevator
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +126,8 @@ private ElevatorPassageModel attachedElevator
 ```csharp
 private PassageObjectModel attachedPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +138,8 @@ private PassageObjectModel attachedPassage
 ```csharp
 public bool closed
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +150,8 @@ public bool closed
 ```csharp
 public CreatureModel connectedCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +162,8 @@ public CreatureModel connectedCreature
 ```csharp
 private DoorObjectModel door
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +174,8 @@ private DoorObjectModel door
 ```csharp
 private List<MapEdge> edges
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +186,8 @@ private List<MapEdge> edges
 ```csharp
 private string id
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +198,8 @@ private string id
 ```csharp
 public bool isTemporary
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +210,8 @@ public bool isTemporary
 ```csharp
 private Vector3 pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +222,8 @@ private Vector3 pos
 ```csharp
 public bool rabbitUnpassable
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +234,8 @@ public bool rabbitUnpassable
 ```csharp
 private List<MapNode> zNodes
 ```
+#INC
+
 
 #### Field Value
 
@@ -220,6 +260,8 @@ public bool activate { get; set; }
 ```csharp
 public void AddEdge(MapEdge edge)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,6 +274,8 @@ public void AddEdge(MapEdge edge)
 ```csharp
 public void AddZNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -244,6 +288,8 @@ public void AddZNode(MapNode node)
 ```csharp
 public void AttachElevator(ElevatorPassageModel elevator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -256,12 +302,16 @@ public void AttachElevator(ElevatorPassageModel elevator)
 ```csharp
 public void ClearTeleportNode()
 ```
+#INC
+
 
 ### CompareByX(MapNode, MapNode)
 
 ```csharp
 public static int CompareByX(MapNode a, MapNode b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +329,8 @@ public static int CompareByX(MapNode a, MapNode b)
 ```csharp
 public string GetAreaName()
 ```
+#INC
+
 
 #### Returns
 
@@ -289,6 +341,8 @@ public string GetAreaName()
 ```csharp
 public PassageObjectModel GetAttachedPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -299,6 +353,8 @@ public PassageObjectModel GetAttachedPassage()
 ```csharp
 public DoorObjectModel GetDoor()
 ```
+#INC
+
 
 #### Returns
 
@@ -309,6 +365,8 @@ public DoorObjectModel GetDoor()
 ```csharp
 public MapEdge GetEdgeByNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,6 +383,8 @@ public MapEdge GetEdgeByNode(MapNode node)
 ```csharp
 public MapEdge[] GetEdges()
 ```
+#INC
+
 
 #### Returns
 
@@ -335,6 +395,8 @@ public MapEdge[] GetEdges()
 ```csharp
 public ElevatorPassageModel GetElevator()
 ```
+#INC
+
 
 #### Returns
 
@@ -345,6 +407,8 @@ public ElevatorPassageModel GetElevator()
 ```csharp
 public string GetId()
 ```
+#INC
+
 
 #### Returns
 
@@ -355,6 +419,8 @@ public string GetId()
 ```csharp
 public Vector3 GetPosition()
 ```
+#INC
+
 
 #### Returns
 
@@ -365,6 +431,8 @@ public Vector3 GetPosition()
 ```csharp
 public MapNode GetTeleportNode(MapNode next, bool elevatorEnter = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +450,8 @@ public MapNode GetTeleportNode(MapNode next, bool elevatorEnter = false)
 ```csharp
 public MapNode GetTeleportNode(MovableObjectNode mv, bool elevatorEnter = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -399,6 +469,8 @@ public MapNode GetTeleportNode(MovableObjectNode mv, bool elevatorEnter = false)
 ```csharp
 public MapNode[] GetTeleportNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -409,6 +481,8 @@ public MapNode[] GetTeleportNodes()
 ```csharp
 public MapNode[] GetZNodes()
 ```
+#INC
+
 
 #### Returns
 
@@ -419,6 +493,8 @@ public MapNode[] GetZNodes()
 ```csharp
 public void RemoveEdge(MapEdge edge)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,6 +507,8 @@ public void RemoveEdge(MapEdge edge)
 ```csharp
 public void SetDoor(DoorObjectModel door)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +521,8 @@ public void SetDoor(DoorObjectModel door)
 ```csharp
 public void SetPosition(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,6 +535,8 @@ public void SetPosition(Vector3 pos)
 ```csharp
 public void SetTeleport(List<MapNode> teleportTo, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 

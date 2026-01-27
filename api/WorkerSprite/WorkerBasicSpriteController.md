@@ -12,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerBasicSpriteController
 public class WorkerBasicSpriteController : WorkerSpriteData
 ```
 
+Stores a sprite for each region, and provides a getter
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerSpriteData](/api/WorkerSprite/WorkerSpriteData) → WorkerBasicSpriteController
 
@@ -33,6 +36,8 @@ public WorkerBasicSpriteController()
 ```csharp
 private SpriteRegionType _regionType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private SpriteRegionType _regionType
 ```csharp
 public Dictionary<BasicSpriteRegion, WorkerBasicSprite> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Dictionary<BasicSpriteRegion, WorkerBasicSprite> lib
 ```csharp
 public List<WorkerBasicSprite> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +86,8 @@ public override SpriteRegionType RegionType { get; }
 ```csharp
 public bool GetData(BasicSpriteRegion region, out WorkerBasicSprite output)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BloodBath
 public class BloodBath : CreatureBase
 ```
 
+Blood Bath.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BloodBath
 
@@ -33,6 +36,8 @@ public BloodBath()
 ```csharp
 private readonly int _CONDITION_FORTITUDE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private readonly int _CONDITION_FORTITUDE_LEVEL
 ```csharp
 private readonly int _CONDITION_TEMPARENCE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private readonly int _CONDITION_TEMPARENCE_LEVEL
 ```csharp
 private BloodBathAnim bathAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +84,8 @@ private BloodBath.BloodHandState currentHandState
 ```csharp
 public void FinishKilling(AgentUnit targetUnit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +98,8 @@ public void FinishKilling(AgentUnit targetUnit)
 ```csharp
 private void KillAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,6 +112,8 @@ private void KillAgent(AgentModel agent)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,6 +126,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +140,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,18 +154,25 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

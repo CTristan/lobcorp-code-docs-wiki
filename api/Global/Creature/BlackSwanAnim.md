@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BlackSwanAnim
 public class BlackSwanAnim : CreatureAnimScript
 ```
 
+Animation handler for [Dream of a Black Swan](/api/Global/IOBserver/BlackSwan).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BlackSwanAnim
 
@@ -33,6 +36,8 @@ public BlackSwanAnim()
 ```csharp
 private List<SpineOptimizerModule> _modules
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private List<SpineOptimizerModule> _modules
 ```csharp
 private Timer animSpeedChageTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer animSpeedChageTimer
 ```csharp
 private const float animSpeedChangeTime = 11
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float animSpeedChangeTime = 11
 ```csharp
 public GameObject[] brothers
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public GameObject[] brothers
 ```csharp
 private BlackSwan script
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,18 +98,25 @@ private BlackSwan script
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsTransformed(int)
 
 ```csharp
 public bool IsTransformed(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,12 +133,16 @@ public bool IsTransformed(int i)
 ```csharp
 private void RandomizeSpeed()
 ```
+#INC
+
 
 ### SetScript(BlackSwan)
 
 ```csharp
 public void SetScript(BlackSwan script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +155,8 @@ public void SetScript(BlackSwan script)
 ```csharp
 public void TransformBrother(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,3 +169,5 @@ public void TransformBrother(int i)
 ```csharp
 private void Update()
 ```
+#INC
+

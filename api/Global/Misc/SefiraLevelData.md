@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/SefiraLevelData
 ```csharp
 public static class SefiraLevelData
 ```
+Holds arrays of which departments are in which layer.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraLevelData
@@ -25,6 +28,8 @@ public static class SefiraLevelData
 ```csharp
 public static SefiraEnum[] Lower
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +40,8 @@ public static SefiraEnum[] Lower
 ```csharp
 public static SefiraEnum[] Middle
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public static SefiraEnum[] Middle
 ```csharp
 public static SefiraEnum[] Upper
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherLowerBossBase
 ```csharp
 public class KetherLowerBossBase : KetherBossBase
 ```
+Day 49 suppression
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → [KetherBossBase](/api/KetherBoss/KetherBossBase) → KetherLowerBossBase
@@ -25,6 +27,8 @@ public class KetherLowerBossBase : KetherBossBase
 ```csharp
 public KetherLowerBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +37,8 @@ public KetherLowerBossBase()
 ```csharp
 private BinahBossBase _binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private BinahBossBase _binah
 ```csharp
 private ChokhmahBossBase _chokhmah
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private ChokhmahBossBase _chokhmah
 ```csharp
 private bool _clearConfirm
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _clearConfirm
 ```csharp
 private float _clearEnergyValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private float _clearEnergyValue
 ```csharp
 private GameObject _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private GameObject _effect
 ```csharp
 private bool _levelReached
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private bool _levelReached
 ```csharp
 private float _rotationCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private float _rotationCurve
 ```csharp
 private UnscaledTimer _rotationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private UnscaledTimer _rotationTimer
 ```csharp
 private MinMax _rotationValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private MinMax _rotationValue
 ```csharp
 private const string bgm0 = "Sounds/BGM/Boss/Event/49/1_Tilarids - 090909090"
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ private const string bgm0 = "Sounds/BGM/Boss/Event/49/1_Tilarids - 090909090"
 ```csharp
 private const string bgm1 = "Sounds/BGM/Boss/Event/49/2_Haunted Streets_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private const string bgm1 = "Sounds/BGM/Boss/Event/49/2_Haunted Streets_1"
 ```csharp
 private const string bgm2 = "Sounds/BGM/Boss/Event/49/3_Tilarids - circle-rombed oxygen"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private const string bgm2 = "Sounds/BGM/Boss/Event/49/3_Tilarids - circle-rombed
 ```csharp
 private const int ClearQliphothLevel = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private const int ClearQliphothLevel = 10
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ private AnimationCurve curve
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```csharp
 private const float rotationValue = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ private const float rotationValue = 18
 ```csharp
 private CameraFilterPack_AAA_SuperComputer superComputer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ private CameraFilterPack_AAA_SuperComputer superComputer
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +267,8 @@ private CameraFilterPack_TV_Vignetting vignetting
 ```csharp
 public void EffectInit()
 ```
+#INC
+
 
 ### GetDescType(float)
 
@@ -247,6 +291,8 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -257,6 +303,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsStartEmergencyBgm()
 ```
+#INC
+
 
 #### Returns
 
@@ -267,6 +315,8 @@ public override bool IsStartEmergencyBgm()
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,18 +329,25 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### RotationUpdate()
 
 ```csharp
 private void RotationUpdate()
 ```
+#INC
+
 
 ### SetCameraRotation(float)
 
 ```csharp
 public void SetCameraRotation(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,6 +360,8 @@ public void SetCameraRotation(float value)
 ```csharp
 public void StartRotation(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,3 +374,5 @@ public void StartRotation(int level)
 ```csharp
 public override void Update()
 ```
+#INC
+

@@ -11,6 +11,15 @@ canonical_path: /api/BinahBoss/BinahProjectile
 ```csharp
 public class BinahProjectile : MonoBehaviour
 ```
+Class for [An Arbiter](/api/Global/Script/BinahCoreScript)'s attacks (initialized by the actions)
+
+See also:
+[BlackThron](/api/BinahBoss/BlackThron)
+[BladeWaveThrow](/api/BinahBoss/BladeWaveThrow)
+[ColumnThrow](/api/BinahBoss/ColumnThrow)
+[EightColumn](/api/BinahBoss/EightColumn)
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BinahProjectile
@@ -33,6 +42,8 @@ public BinahProjectile()
 ```csharp
 private bool _damageActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ private bool _damageActivated
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +66,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private float _initialSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +78,8 @@ private float _initialSpeed
 ```csharp
 private bool _isArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +90,8 @@ private bool _isArrived
 ```csharp
 private bool _recordActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +102,8 @@ private bool _recordActivated
 ```csharp
 private AnimationCurve _speedCruve
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +114,8 @@ private AnimationCurve _speedCruve
 ```csharp
 private const float _speedFix = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +126,8 @@ private const float _speedFix = 0.1
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +138,8 @@ public Animator animator
 ```csharp
 public BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +150,8 @@ public BinahCoreScript binah
 ```csharp
 public BoxCollider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +162,8 @@ public BoxCollider2D collider
 ```csharp
 public DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +174,8 @@ public DamageInfo damageInfo
 ```csharp
 public Vector3 dest
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +186,8 @@ public Vector3 dest
 ```csharp
 public Timer destroyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +198,8 @@ public Timer destroyTimer
 ```csharp
 private List<UnitModel> entered
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +210,8 @@ private List<UnitModel> entered
 ```csharp
 public float lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +222,8 @@ public float lifeTime
 ```csharp
 public Vector3 origin
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +234,8 @@ public Vector3 origin
 ```csharp
 public float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +246,8 @@ public float speed
 ```csharp
 public BinahProjectileType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +258,8 @@ public BinahProjectileType type
 ```csharp
 public Vector3 velocityInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +284,8 @@ public Vector2 Size { get; set; }
 ```csharp
 public UnitModel CollisionCheck(Collider2D collider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,18 +302,24 @@ public UnitModel CollisionCheck(Collider2D collider)
 ```csharp
 public void DestroyThis()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetEntered()
 
 ```csharp
 public List<UnitModel> GetEntered()
 ```
+#INC
+
 
 #### Returns
 
@@ -275,6 +330,8 @@ public List<UnitModel> GetEntered()
 ```csharp
 public static float GetSpeedByTime(float width, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +349,8 @@ public static float GetSpeedByTime(float width, float time)
 ```csharp
 public void Init(Vector3 origin, Vector3 dest, float speed, float lifeTime, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,12 +367,16 @@ public void Init(Vector3 origin, Vector3 dest, float speed, float lifeTime, Dama
 ```csharp
 private void OnArrived()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,6 +389,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -338,6 +403,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 public void SetArrived(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -350,6 +417,8 @@ public void SetArrived(bool state)
 ```csharp
 public void SetDamageState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -362,6 +431,8 @@ public void SetDamageState(bool state)
 ```csharp
 public void SetGiveDamage(BinahVoidAction damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +445,8 @@ public void SetGiveDamage(BinahVoidAction damage)
 ```csharp
 public void SetRecordState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -386,6 +459,9 @@ public void SetRecordState(bool state)
 ```csharp
 public void SetSpeedCurve(AnimationCurve curve)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -398,3 +474,5 @@ public void SetSpeedCurve(AnimationCurve curve)
 ```csharp
 public void ThronGiveDamage()
 ```
+#INC
+

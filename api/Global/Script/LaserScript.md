@@ -39,6 +39,8 @@ public LaserScript()
 ```csharp
 private bool __isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +51,8 @@ private bool __isEnabled
 ```csharp
 protected bool animChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +63,8 @@ protected bool animChanged
 ```csharp
 public float animDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +75,8 @@ public float animDelay
 ```csharp
 public Vector2 attackEndItemSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +87,8 @@ public Vector2 attackEndItemSpacing
 ```csharp
 protected UnitModel casterModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +99,8 @@ protected UnitModel casterModel
 ```csharp
 protected UnitModel currentAttackMainTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +111,8 @@ protected UnitModel currentAttackMainTarget
 ```csharp
 protected UnitDirection currentDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +123,8 @@ protected UnitDirection currentDirection
 ```csharp
 public float delayAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +135,8 @@ public float delayAttack
 ```csharp
 protected float elap
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +157,8 @@ public LaserScript.EndCall endCall
 ```csharp
 protected MapNode endNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +169,8 @@ protected MapNode endNode
 ```csharp
 protected bool endNodeAttacked
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +181,8 @@ protected bool endNodeAttacked
 ```csharp
 public SpriteRenderer endSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,6 +204,8 @@ public int fps
 ```csharp
 protected bool isAttackSuccessed
 ```
+#INC
+
 
 #### Field Value
 
@@ -190,6 +216,8 @@ protected bool isAttackSuccessed
 ```csharp
 public float laserDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -200,6 +228,8 @@ public float laserDisplay
 ```csharp
 private DamageInfo laserDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -231,6 +261,8 @@ protected LineRenderer line
 ```csharp
 protected float prewarmElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -241,6 +273,8 @@ protected float prewarmElap
 ```csharp
 protected bool prewarmEnded
 ```
+#INC
+
 
 #### Field Value
 
@@ -251,6 +285,8 @@ protected bool prewarmEnded
 ```csharp
 public float prewarmTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -261,6 +297,8 @@ public float prewarmTime
 ```csharp
 protected List<UnitModel> rangedTargetList
 ```
+#INC
+
 
 #### Field Value
 
@@ -271,6 +309,8 @@ protected List<UnitModel> rangedTargetList
 ```csharp
 protected SpriteRenderer referenceSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -281,6 +321,8 @@ protected SpriteRenderer referenceSpriteRenderer
 ```csharp
 protected float sameTargetElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -291,6 +333,8 @@ protected float sameTargetElap
 ```csharp
 public float sameTargetTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -301,6 +345,8 @@ public float sameTargetTimer
 ```csharp
 protected float spriteElap
 ```
+#INC
+
 
 #### Field Value
 
@@ -311,6 +357,8 @@ protected float spriteElap
 ```csharp
 protected int spriteIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -321,6 +369,8 @@ protected int spriteIndex
 ```csharp
 public GameObject startEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -331,6 +381,8 @@ public GameObject startEffect
 ```csharp
 public SpriteRenderer startSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -415,12 +467,17 @@ protected Transform startPos { get; }
 ```csharp
 public virtual void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckRange(MovableObjectNode, float, UnitDirection, ref List<UnitModel>, out bool)
 
 ```csharp
 public virtual bool CheckRange(MovableObjectNode movable, float hitStd, UnitDirection dir, ref List<UnitModel> targetSaved, out bool innerBlock)
 ```
+#INC
+
 
 #### Parameters
 
@@ -454,12 +511,16 @@ public virtual void DelegateInit(LaserScript.EndCall endCall, LaserScript.Target
 ```csharp
 public virtual void DisableLaser()
 ```
+#INC
+
 
 ### EnableLaser(List<UnitModel>)
 
 ```csharp
 public virtual bool EnableLaser(List<UnitModel> targetList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,6 +537,8 @@ public virtual bool EnableLaser(List<UnitModel> targetList)
 ```csharp
 public UnitModel HitScan(out bool hasInner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -492,6 +555,8 @@ public UnitModel HitScan(out bool hasInner)
 ```csharp
 public virtual void Init(UnitModel caster)
 ```
+#INC
+
 
 #### Parameters
 
@@ -504,12 +569,16 @@ public virtual void Init(UnitModel caster)
 ```csharp
 public virtual void InitSprite()
 ```
+#INC
+
 
 ### IsEnabled()
 
 ```csharp
 public bool IsEnabled()
 ```
+#INC
+
 
 #### Returns
 
@@ -520,6 +589,8 @@ public bool IsEnabled()
 ```csharp
 public virtual void OnCreatureTargetSuppressed(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -532,6 +603,8 @@ public virtual void OnCreatureTargetSuppressed(CreatureModel creature)
 ```csharp
 public virtual void OnWorkerTargetDead(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -544,12 +617,16 @@ public virtual void OnWorkerTargetDead(WorkerModel worker)
 ```csharp
 public virtual void ReadyLine()
 ```
+#INC
+
 
 ### SetItemPos(Vector3, Vector2)
 
 ```csharp
 public virtual void SetItemPos(Vector3 end, Vector2 endSpace)
 ```
+#INC
+
 
 #### Parameters
 
@@ -563,12 +640,16 @@ public virtual void SetItemPos(Vector3 end, Vector2 endSpace)
 ```csharp
 public virtual void SetLaserSprite()
 ```
+#INC
+
 
 ### SetSprite(int)
 
 ```csharp
 public virtual void SetSprite(int spriteIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -581,6 +662,8 @@ public virtual void SetSprite(int spriteIndex)
 ```csharp
 public virtual void SetStartParent(Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -593,6 +676,8 @@ public virtual void SetStartParent(Transform t)
 ```csharp
 public virtual void Shoot(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -605,3 +690,5 @@ public virtual void Shoot(UnitModel target)
 ```csharp
 public virtual void Update()
 ```
+#INC
+

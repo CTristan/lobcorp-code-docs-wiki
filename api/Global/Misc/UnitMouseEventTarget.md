@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/UnitMouseEventTarget
 public class UnitMouseEventTarget : MonoBehaviour
 ```
 
+Script for things which can interact with the mouse, probably... 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitMouseEventTarget
 
@@ -33,6 +38,8 @@ public UnitMouseEventTarget()
 ```csharp
 public MonoBehaviour target
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ public MonoBehaviour target
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -55,6 +64,9 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public bool HasPointListener()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -65,6 +77,8 @@ public bool HasPointListener()
 ```csharp
 public bool IsDragSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -75,6 +89,8 @@ public bool IsDragSelectable()
 ```csharp
 public bool IsSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,33 +101,45 @@ public bool IsSelectable()
 ```csharp
 public void OnEnterDragArea()
 ```
+#INC
+
 
 ### OnExitDragArea()
 
 ```csharp
 public void OnExitDragArea()
 ```
+#INC
+
 
 ### OnPointEnter()
 
 ```csharp
 public void OnPointEnter()
 ```
+#INC
+
 
 ### OnPointExit()
 
 ```csharp
 public void OnPointExit()
 ```
+#INC
+
 
 ### OnSelect()
 
 ```csharp
 public void OnSelect()
 ```
+#INC
+
 
 ### OnUnselect()
 
 ```csharp
 public void OnUnselect()
 ```
+#INC
+

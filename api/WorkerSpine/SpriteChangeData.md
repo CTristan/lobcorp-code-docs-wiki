@@ -11,6 +11,9 @@ canonical_path: /api/WorkerSpine/SpriteChangeData
 ```csharp
 public class SpriteChangeData
 ```
+stores data to modify a sprite, maybe?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteChangeData
@@ -44,6 +47,8 @@ public string attachmentName
 ```csharp
 public bool calculateRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +59,8 @@ public bool calculateRate
 ```csharp
 public Color color
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +93,8 @@ public bool isSetOffset
 ```csharp
 public Vector2 position
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +105,8 @@ public Vector2 position
 ```csharp
 public float rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +117,8 @@ public float rotation
 ```csharp
 public Vector2 scale
 ```
+#INC
+
 
 #### Field Value
 

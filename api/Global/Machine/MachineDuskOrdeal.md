@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineDuskOrdeal
 public class MachineDuskOrdeal : MachineOrdeal
 ```
 
+Dusk of Green, Where We Must Reach. Spawns four [MachineDusks](/api/Global/Machine/MachineDusk).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [MachineOrdeal](/api/Global/Misc/MachineOrdeal) → MachineDuskOrdeal
 
@@ -25,6 +30,8 @@ public class MachineDuskOrdeal : MachineOrdeal
 ```csharp
 public MachineDuskOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public MachineDuskOrdeal()
 ```csharp
 private const int _duskMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const int _duskMax = 4
 ```csharp
 private const int _spawnMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const int _spawnMax = 15
 ```csharp
 private List<MachineDusk> dusks
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private List<MachineDusk> dusks
 ```csharp
 private int spawning
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private int spawning
 ```csharp
 private List<MachineOrdealCreature> spawns
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +124,16 @@ private int spawnCount { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetNode(Sefira)
 
 ```csharp
 private MapNode GetNode(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +150,8 @@ private MapNode GetNode(Sefira sefira)
 ```csharp
 private PassageObjectModel GetPassage(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,12 +168,16 @@ private PassageObjectModel GetPassage(Sefira sefira)
 ```csharp
 private void MakeDusks()
 ```
+#INC
+
 
 ### MakeOrdealCreature(OrdealLevel, MapNode)
 
 ```csharp
 public override MachineOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -168,3 +195,6 @@ public override MachineOrdealCreature MakeOrdealCreature(OrdealLevel level, MapN
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

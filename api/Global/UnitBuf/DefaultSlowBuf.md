@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/DefaultSlowBuf
 public class DefaultSlowBuf : UnitBuf
 ```
 
+Slows down a unit by a given amount.
+
+... But this is only ever used by [Singing Machine](/api/Global/Machine/SingingMachine).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → DefaultSlowBuf
 
@@ -25,6 +30,8 @@ public class DefaultSlowBuf : UnitBuf
 ```csharp
 public DefaultSlowBuf(float movementScale, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -38,6 +45,8 @@ public DefaultSlowBuf(float movementScale, float time)
 ```csharp
 public DefaultSlowBuf(float movementScale, float time, UnitBufType t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -54,6 +63,8 @@ public DefaultSlowBuf(float movementScale, float time, UnitBufType t)
 ```csharp
 private float _movemnetScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +75,8 @@ private float _movemnetScale
 ```csharp
 private float _time
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,9 @@ private float _time
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -88,6 +104,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

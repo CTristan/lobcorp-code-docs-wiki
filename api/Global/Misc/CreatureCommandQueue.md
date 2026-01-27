@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CreatureCommandQueue
 ```csharp
 public class CreatureCommandQueue
 ```
+Maintains a queue of [CreatureCommands](/api/Global/Misc/CreatureCommand) to execute.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureCommandQueue
@@ -25,6 +27,9 @@ public class CreatureCommandQueue
 ```csharp
 public CreatureCommandQueue(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public CreatureCommandQueue(CreatureModel creature)
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private CreatureModel creature
 ```csharp
 private LinkedList<CreatureCommand> queue
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ private LinkedList<CreatureCommand> queue
 ```csharp
 public void AddFirst(CreatureCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +84,8 @@ public void AddFirst(CreatureCommand cmd)
 ```csharp
 public void AddLast(CreatureCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,12 +98,16 @@ public void AddLast(CreatureCommand cmd)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### Execute(CreatureModel)
 
 ```csharp
 public void Execute(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +120,8 @@ public void Execute(CreatureModel creature)
 ```csharp
 public CreatureCommand GetCurrentCmd()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +132,8 @@ public CreatureCommand GetCurrentCmd()
 ```csharp
 public void SetAgentCommand(CreatureCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 

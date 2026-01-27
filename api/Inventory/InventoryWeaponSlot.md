@@ -12,6 +12,13 @@ canonical_path: /api/Inventory/InventoryWeaponSlot
 public class InventoryWeaponSlot : InventorySlot
 ```
 
+Entry for an EGO weapon.
+
+See [InventoryItemController](/api/Inventory/InventoryItemController)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [InventorySlot](/api/Inventory/InventorySlot) → InventoryWeaponSlot
 
@@ -33,6 +40,8 @@ public InventoryWeaponSlot()
 ```csharp
 public Text AttackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Text AttackSpeed
 ```csharp
 public Text DamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public Text DamageRange
 ```csharp
 public Image DamageTypeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public Image DamageTypeImage
 ```csharp
 public static string Newline
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public static string Newline
 ```csharp
 private string oldText
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private string oldText
 ```csharp
 public Text Range
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public Text Range
 ```csharp
 public Text Type
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,12 +126,16 @@ public Text Type
 ```csharp
 public override void ApplyPortrait()
 ```
+#INC
+
 
 ### CheckTransformRaycast(Transform)
 
 ```csharp
 private void CheckTransformRaycast(Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,60 +148,80 @@ private void CheckTransformRaycast(Transform t)
 ```csharp
 public void InitScroll()
 ```
+#INC
+
 
 ### OnCheckOwner()
 
 ```csharp
 public void OnCheckOwner()
 ```
+#INC
+
 
 ### OnClickEquipment()
 
 ```csharp
 public void OnClickEquipment()
 ```
+#INC
+
 
 ### OnClickToolTip()
 
 ```csharp
 public void OnClickToolTip()
 ```
+#INC
+
 
 ### OnDisabledClick()
 
 ```csharp
 public void OnDisabledClick()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnEnterEquip()
 
 ```csharp
 public void OnEnterEquip()
 ```
+#INC
+
 
 ### OnExitEquip()
 
 ```csharp
 public void OnExitEquip()
 ```
+#INC
+
 
 ### SetEquipmentText()
 
 ```csharp
 public void SetEquipmentText()
 ```
+#INC
+
 
 ### SetWeapon(WeaponModel)
 
 ```csharp
 public void SetWeapon(WeaponModel weapon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,9 +234,14 @@ public void SetWeapon(WeaponModel weapon)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateUI()
 
 ```csharp
 public override void UpdateUI()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/ZoomTutorial
 public class ZoomTutorial : Tutorial
 ```
 
+Ends when the mouse is scrolled.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → ZoomTutorial
 
@@ -33,15 +38,22 @@ public ZoomTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

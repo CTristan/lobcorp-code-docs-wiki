@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FontSetter
 public class FontSetter : MonoBehaviour
 ```
 
+Sets the font of an object if the game is in Korean (which uses a different font from other language).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FontSetter
 
@@ -33,6 +38,8 @@ public FontSetter()
 ```csharp
 public Font font
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +52,14 @@ public Font font
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CensoredChild
 public class CensoredChild : CensoredCreatureBase
 ```
 
+[CENSORED](/api/Global/Misc/Censored) spawn.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [CensoredCreatureBase](/api/Global/Misc/CensoredCreatureBase) → CensoredChild
 
@@ -33,6 +36,8 @@ public CensoredChild()
 ```csharp
 private CensoredChildAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CensoredChildAnim _animScript
 ```csharp
 private const int _attackDmgMax = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const int _attackDmgMax = 16
 ```csharp
 private const int _attackDmgMin = 13
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int _attackDmgMin = 13
 ```csharp
 private const float _attackDmgRange = 1.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const float _attackDmgRange = 1.7
 ```csharp
 private const float _attackRange = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const float _attackRange = 1.2
 ```csharp
 private const float _recognizeRange = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _recognizeRange = 30
 ```csharp
 private const string _sound_atk = "attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const string _sound_atk = "attack"
 ```csharp
 private const string _sound_born = "born"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const string _sound_born = "born"
 ```csharp
 private RwbpType attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private RwbpType attackType
 ```csharp
 private Censored script
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,12 +180,16 @@ private static int attackDmg { get; }
 ```csharp
 protected override void AttackStart()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,12 +206,16 @@ public string GetSoundSrc(string key)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### IsMovable()
 
 ```csharp
 protected override bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -195,12 +226,16 @@ protected override bool IsMovable()
 ```csharp
 protected override void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,24 +252,33 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnBorn()
 
 ```csharp
 public void OnBorn()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -247,6 +291,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,3 +305,5 @@ public override void SetModel(CreatureModel model)
 ```csharp
 protected override void StopMovement()
 ```
+#INC
+

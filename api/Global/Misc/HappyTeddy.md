@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/HappyTeddy
 public class HappyTeddy : CreatureBase
 ```
 
+Happy Teddy Bear.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → HappyTeddy
 
@@ -33,6 +37,8 @@ public HappyTeddy()
 ```csharp
 private TeddyAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private TeddyAnim _animScript
 ```csharp
 private const float hugRange = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private const float hugRange = 0.4
 ```csharp
 private bool isKilling
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool isKilling
 ```csharp
 public AgentModel lastAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public AgentModel lastAgent
 ```csharp
 private const string speech_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private const string speech_dead = "dead"
 ```csharp
 private const float zFix = -1.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +123,8 @@ public TeddyAnim animScript { get; }
 ```csharp
 public void ActivateSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,12 +137,16 @@ public void ActivateSkill(UseSkill skill)
 ```csharp
 public void KillMoment()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,6 +159,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,18 +173,25 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -173,3 +204,5 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+

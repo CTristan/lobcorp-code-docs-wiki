@@ -11,6 +11,9 @@ canonical_path: /api/Global/Loader/ExternalFontDataLoader
 ```csharp
 public class ExternalFontDataLoader
 ```
+Loads fonts.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ExternalFontDataLoader
@@ -33,3 +36,6 @@ public ExternalFontDataLoader()
 ```csharp
 public void Load()
 ```
+#INC
+#code-generated
+

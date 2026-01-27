@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/ViscusInfestedWeapon
 public class ViscusInfestedWeapon : EquipmentScriptBase
 ```
 
+Equipment for [The Naked Nest](/api/Global/Misc/ViscusSnake)'s minions. #verify #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ViscusInfestedWeapon
 

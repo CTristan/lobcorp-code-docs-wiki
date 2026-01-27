@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/MapObjectTypeList
 ```csharp
 public class MapObjectTypeList
 ```
+Manager for a list with one item: a [MapObject](/api/Global/Object/MapObject) prefab.
+
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapObjectTypeList
@@ -25,6 +29,9 @@ public class MapObjectTypeList
 ```csharp
 private MapObjectTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private MapObjectTypeList()
 ```csharp
 private static MapObjectTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static MapObjectTypeList _instance
 ```csharp
 private List<MapObjectTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private List<MapObjectTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public bool loaded { get; }
 ```csharp
 public MapObjectTypeInfo GetData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +118,8 @@ public MapObjectTypeInfo GetData(long id)
 ```csharp
 public MapObjectTypeInfo[] GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +130,8 @@ public MapObjectTypeInfo[] GetList()
 ```csharp
 public void Init(MapObjectTypeInfo[] list)
 ```
+#INC
+
 
 #### Parameters
 

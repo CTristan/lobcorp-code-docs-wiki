@@ -11,6 +11,8 @@ canonical_path: /api/Global/UI/BossMissionAppearUI
 ```csharp
 public class BossMissionAppearUI : MonoBehaviour
 ```
+UI element announcing a Sephirah meltdown at the end of some story cutscenes. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BossMissionAppearUI
@@ -33,6 +35,8 @@ public BossMissionAppearUI()
 ```csharp
 public CheckPointUI checkPointUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public CheckPointUI checkPointUI
 ```csharp
 public AudioClipPlayer player
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +61,17 @@ public AudioClipPlayer player
 ```csharp
 public void Hide()
 ```
+#INC
+#code-generated
+
 
 ### Show(EndEvnet)
 
 ```csharp
 public void Show(CheckPointUI.EndEvnet e)
 ```
+#INC
+
 
 #### Parameters
 

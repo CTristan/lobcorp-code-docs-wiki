@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ScrollExchanger
 public class ScrollExchanger : MonoBehaviour, IScrollHandler, IEventSystemHandler
 ```
 
+Manages OnScroll events, called when the user scrolls the mouse wheel.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ScrollExchanger
 
@@ -36,6 +41,8 @@ public ScrollExchanger()
 ```csharp
 private IScrollMessageReciever _reciever
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private IScrollMessageReciever _reciever
 ```csharp
 private bool _sendMessage
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool _sendMessage
 ```csharp
 public bool InitOnStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public bool InitOnStart
 ```csharp
 public MonoBehaviour messageReceiver
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public MonoBehaviour messageReceiver
 ```csharp
 public ScrollRect scrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +103,8 @@ public ScrollRect scrollRect
 ```csharp
 private bool CheckMessage(out IScrollMessageReciever receiver)
 ```
+#INC
+
 
 #### Parameters
 
@@ -104,12 +121,17 @@ private bool CheckMessage(out IScrollMessageReciever receiver)
 ```csharp
 public void MessageRecieveInit()
 ```
+#INC
+#code-generated
+
 
 ### OnScroll(PointerEventData)
 
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -122,9 +144,13 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

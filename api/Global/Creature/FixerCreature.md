@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/FixerCreature
 public class FixerCreature : CreatureBase
 ```
 
+Parent class for creatures in White Ordeals.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → FixerCreature
 
@@ -36,6 +39,8 @@ public FixerCreature()
 ```csharp
 protected string _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected string _name
 ```csharp
 protected FixerOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected FixerOrdeal _ordealScript
 ```csharp
 protected RiskLevel _risk
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +89,8 @@ public RiskLevel Risk { get; }
 ```csharp
 protected virtual float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -96,6 +107,8 @@ protected virtual float GetDistance(UnitModel target)
 ```csharp
 protected virtual UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +126,9 @@ protected virtual UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 public virtual string GetOrdealName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -123,6 +139,8 @@ public virtual string GetOrdealName()
 ```csharp
 protected virtual UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,6 +157,8 @@ protected virtual UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 protected virtual List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -156,6 +176,8 @@ protected virtual List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 protected virtual bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,6 +194,8 @@ protected virtual bool IsHostile(MovableObjectNode mov)
 ```csharp
 protected virtual bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +213,8 @@ protected virtual bool IsInRange(UnitModel target, float range)
 ```csharp
 protected virtual bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,12 +231,16 @@ protected virtual bool IsInView(UnitModel target)
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### SetOrdeal(FixerOrdeal, RiskLevel, string)
 
 ```csharp
 public virtual void SetOrdeal(FixerOrdeal ordealScript, RiskLevel risk, string name)
 ```
+#INC
+
 
 #### Parameters
 

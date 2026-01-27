@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahWaveDebuf
 ```csharp
 public class BinahWaveDebuf : UnitBuf
 ```
+Slowdown effect from wave attack? #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BinahWaveDebuf
@@ -25,6 +27,8 @@ public class BinahWaveDebuf : UnitBuf
 ```csharp
 public BinahWaveDebuf(float speedMult, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +44,8 @@ public BinahWaveDebuf(float speedMult, float time)
 ```csharp
 private float speedMult
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +58,9 @@ private float speedMult
 ```csharp
 public override float MovementScale()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

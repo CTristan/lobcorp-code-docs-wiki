@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/CreatureObserveInfoModel
 ```csharp
 public class CreatureObserveInfoModel
 ```
+Represents the information known about an abnormality.
+
+Provides methods to see what has been observed and the costs of buying info sections.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureObserveInfoModel
@@ -25,6 +29,9 @@ public class CreatureObserveInfoModel
 ```csharp
 public CreatureObserveInfoModel(long creatureTypeId)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public CreatureObserveInfoModel(long creatureTypeId)
 ```csharp
 private CreatureTypeInfo _metaInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private CreatureTypeInfo _metaInfo
 ```csharp
 public long creatureTypeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ public long creatureTypeId
 ```csharp
 public int cubeNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ public int cubeNum
 ```csharp
 public int observeProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ public int observeProgress
 ```csharp
 private Dictionary<string, ObserveRegion> observeRegions
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private Dictionary<string, ObserveRegion> observeRegions
 ```csharp
 public int totalKitUseCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ public int totalKitUseCount
 ```csharp
 public float totalKitUseTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,6 +132,8 @@ public float totalKitUseTime
 ```csharp
 private void AddObserveRegionData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +146,8 @@ private void AddObserveRegionData(Dictionary<string, object> dic)
 ```csharp
 public int GetObservationLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -133,6 +158,8 @@ public int GetObservationLevel()
 ```csharp
 public int GetObserveCost(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +176,8 @@ public int GetObserveCost(string key)
 ```csharp
 public bool GetObserveRegion(string key, out ObserveRegion output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,6 +195,8 @@ public bool GetObserveRegion(string key, out ObserveRegion output)
 ```csharp
 private void GetObserveRegionData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,6 +209,8 @@ private void GetObserveRegionData(Dictionary<string, object> dic)
 ```csharp
 public bool GetObserveState(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,6 +227,8 @@ public bool GetObserveState(string key)
 ```csharp
 public bool GetRegion(string key, out ObserveRegion region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +246,8 @@ public bool GetRegion(string key, out ObserveRegion region)
 ```csharp
 public Dictionary<string, object> GetSaveGlobalData()
 ```
+#INC
+
 
 #### Returns
 
@@ -221,12 +258,16 @@ public Dictionary<string, object> GetSaveGlobalData()
 ```csharp
 public void InitData()
 ```
+#INC
+
 
 ### InitObserveRegion(List<ObserveInfoData>)
 
 ```csharp
 public void InitObserveRegion(List<ObserveInfoData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +280,8 @@ public void InitObserveRegion(List<ObserveInfoData> data)
 ```csharp
 public bool IsMaxObserved()
 ```
+#INC
+
 
 #### Returns
 
@@ -249,6 +292,8 @@ public bool IsMaxObserved()
 ```csharp
 public void LoadGlobalData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -261,6 +306,8 @@ public void LoadGlobalData(Dictionary<string, object> dic)
 ```csharp
 public void ObserveAll(params string[] ignore)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +320,8 @@ public void ObserveAll(params string[] ignore)
 ```csharp
 public void OnObserveRegion(string region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,12 +334,16 @@ public void OnObserveRegion(string region)
 ```csharp
 public void OnResetObserve()
 ```
+#INC
+
 
 ### Transaction(int)
 
 ```csharp
 public void Transaction(int trans)
 ```
+#INC
+
 
 #### Parameters
 

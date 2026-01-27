@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MachineAnim
 public class MachineAnim : CreatureAnimScript
 ```
 
+Animation handler for [Singing Machine](/api/Global/Machine/SingingMachine).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → MachineAnim
 
@@ -33,6 +38,8 @@ public MachineAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 public Transform NotePos
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Transform NotePos
 ```csharp
 public MachineAnimReciever reciever
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public MachineAnimReciever reciever
 ```csharp
 private SingingMachine script
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private SingingMachine script
 ```csharp
 public Transform workingPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,12 +100,16 @@ public Transform workingPos
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### Init(SingingMachine)
 
 ```csharp
 public void Init(SingingMachine script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,27 +122,38 @@ public void Init(SingingMachine script)
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### PlayAttackEffect()
 
 ```csharp
 public void PlayAttackEffect()
 ```
+#INC
+
 
 ### PlayOpenAnim()
 
 ```csharp
 public void PlayOpenAnim()
 ```
+#INC
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

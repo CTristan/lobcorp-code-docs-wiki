@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ArrowManager
 ```csharp
 public class ArrowManager : MonoBehaviour
 ```
+For making arrows to point at things
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ArrowManager
@@ -33,6 +35,8 @@ public ArrowManager()
 ```csharp
 public Arrow[] Arrows
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +49,14 @@ public Arrow[] Arrows
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+

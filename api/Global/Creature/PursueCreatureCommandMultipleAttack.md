@@ -12,6 +12,13 @@ canonical_path: /api/Global/Creature/PursueCreatureCommandMultipleAttack
 public class PursueCreatureCommandMultipleAttack : CreatureCommand
 ```
 
+Command to an abnormality to chase a target, attack, and then never move again I guess? #INC 
+
+Doesn't seem used.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureCommand](/api/Global/Misc/CreatureCommand) → PursueCreatureCommandMultipleAttack
 
@@ -25,6 +32,8 @@ public class PursueCreatureCommandMultipleAttack : CreatureCommand
 ```csharp
 public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +46,8 @@ public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget)
 ```csharp
 public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -50,6 +61,8 @@ public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget, float damage)
 ```csharp
 public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget, float damage, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -66,6 +79,8 @@ public PursueCreatureCommandMultipleAttack(WorkerModel mainTarget, float damage,
 ```csharp
 private Timer attackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +91,8 @@ private Timer attackDelay
 ```csharp
 private bool canMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +103,8 @@ private bool canMove
 ```csharp
 private float damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +115,8 @@ private float damage
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +127,8 @@ private float elapsedTime
 ```csharp
 private const float maxWaitTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +139,8 @@ private const float maxWaitTime = 10
 ```csharp
 private float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +151,8 @@ private float range
 ```csharp
 private WorkerModel targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +163,8 @@ private WorkerModel targetWorker
 ```csharp
 private float waitingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,18 +177,24 @@ private float waitingTime
 ```csharp
 private void CheckPursueTarget()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetTargetsInRange()
 
 ```csharp
 public List<UnitModel> GetTargetsInRange()
 ```
+#INC
+
 
 #### Returns
 
@@ -170,24 +205,33 @@ public List<UnitModel> GetTargetsInRange()
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### SetRange(float)
 
 ```csharp
 public void SetRange(float range)
 ```
+#INC
+
 
 #### Parameters
 

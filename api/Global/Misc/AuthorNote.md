@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AuthorNote
 ```csharp
 public class AuthorNote : CreatureBase
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → AuthorNote
@@ -33,6 +35,8 @@ public AuthorNote()
 ```csharp
 private string[] attackDescList
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private string[] attackDescList
 ```csharp
 private AuthorNoteAnim authorNoteAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private AuthorNoteAnim authorNoteAnim
 ```csharp
 private Queue<int> characterSpriteIds
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private Queue<int> characterSpriteIds
 ```csharp
 public const string effectDust = "Effect/Creature/AuthorNote/AuthorNoteWorkerDust"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public const string effectDust = "Effect/Creature/AuthorNote/AuthorNoteWorkerDus
 ```csharp
 public const string effectFlash = "Effect/Creature/AuthorNote/AuthorNoteFlash"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public const string effectFlash = "Effect/Creature/AuthorNote/AuthorNoteFlash"
 ```csharp
 public const string effectWall = "Effect/Creature/AuthorNote/AuthorNoteWall"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public const string effectWall = "Effect/Creature/AuthorNote/AuthorNoteWall"
 ```csharp
 private Timer finaleStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private Timer finaleStartTimer
 ```csharp
 private AuthorNoteFinaleUI finaleUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private AuthorNoteFinaleUI finaleUI
 ```csharp
 public int killCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public int killCount
 ```csharp
 private string[] killDescList
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private string[] killDescList
 ```csharp
 private WorkerModel mainCharacter
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ private WorkerModel mainCharacter
 ```csharp
 private int mustSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ private int mustSkill
 ```csharp
 private int observeSelection
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ private int observeSelection
 ```csharp
 private List<WorkerModel> otherCharacters
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +203,8 @@ private List<WorkerModel> otherCharacters
 ```csharp
 private float specialAbilityStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +215,8 @@ private float specialAbilityStack
 ```csharp
 private bool startedPlay
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +227,8 @@ private bool startedPlay
 ```csharp
 private CreatureUnit unitView
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +239,8 @@ private CreatureUnit unitView
 ```csharp
 public const string workerBalloonPrefab = "Unit/CreatureAnimator/AuthorNote/AuthorNoteAgentBalloon"
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +253,8 @@ public const string workerBalloonPrefab = "Unit/CreatureAnimator/AuthorNote/Auth
 ```csharp
 private WorkerModel AddPlayCharacter()
 ```
+#INC
+
 
 #### Returns
 
@@ -225,42 +265,56 @@ private WorkerModel AddPlayCharacter()
 ```csharp
 private void ChangeRandomSkill()
 ```
+#INC
+
 
 ### FailToPlay()
 
 ```csharp
 public void FailToPlay()
 ```
+#INC
+
 
 ### FinalAgelaDesc()
 
 ```csharp
 public void FinalAgelaDesc()
 ```
+#INC
+
 
 ### Finale()
 
 ```csharp
 public void Finale()
 ```
+#INC
+
 
 ### FinishPlay()
 
 ```csharp
 public void FinishPlay()
 ```
+#INC
+
 
 ### FinishSniping()
 
 ```csharp
 public void FinishSniping()
 ```
+#INC
+
 
 ### GetNextKillTarget()
 
 ```csharp
 public WorkerModel GetNextKillTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -271,6 +325,8 @@ public WorkerModel GetNextKillTarget()
 ```csharp
 private List<WorkerModel> GetPlayableCharacters(AgentModel mainCharacter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -287,6 +343,8 @@ private List<WorkerModel> GetPlayableCharacters(AgentModel mainCharacter)
 ```csharp
 public override Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -297,6 +355,8 @@ public override Dictionary<string, object> GetSaveData()
 ```csharp
 public bool IsEnoughNumberOfCharacters()
 ```
+#INC
+
 
 #### Returns
 
@@ -307,6 +367,8 @@ public bool IsEnoughNumberOfCharacters()
 ```csharp
 public override void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,12 +381,16 @@ public override void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void NormalEnding()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,6 +403,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,12 +417,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnKillCharacter(WorkerModel)
 
 ```csharp
 public void OnKillCharacter(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +440,8 @@ public void OnKillCharacter(WorkerModel target)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,6 +454,8 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnSelectMaxObservation(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -391,12 +468,16 @@ public override void OnSelectMaxObservation(int index)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,24 +490,32 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SnipingTimeout()
 
 ```csharp
 public void SnipingTimeout()
 ```
+#INC
+
 
 ### StartKilling()
 
 ```csharp
 public void StartKilling()
 ```
+#INC
+
 
 ### StartPlay(AgentModel)
 
 ```csharp
 public bool StartPlay(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +532,8 @@ public bool StartPlay(AgentModel target)
 ```csharp
 public void TrueEnding(int playSelection)
 ```
+#INC
+
 
 #### Parameters
 

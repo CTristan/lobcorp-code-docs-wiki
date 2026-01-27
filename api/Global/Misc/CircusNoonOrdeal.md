@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusNoonOrdeal
 public class CircusNoonOrdeal : CircusOrdeal
 ```
 
+The Noon of Crimson ordeal, The Harmony of Skin. Spawns a [CircusNoon](/api/Global/Misc/CircusNoon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [CircusOrdeal](/api/Global/Misc/CircusOrdeal) → CircusNoonOrdeal
 
@@ -25,6 +28,8 @@ public class CircusNoonOrdeal : CircusOrdeal
 ```csharp
 public CircusNoonOrdeal()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,9 +38,14 @@ public CircusNoonOrdeal()
 ```csharp
 private void MakeTents()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

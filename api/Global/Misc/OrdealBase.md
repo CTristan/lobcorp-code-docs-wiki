@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/OrdealBase
 ```csharp
 public class OrdealBase
 ```
+Base class for ordeals.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OrdealBase
@@ -36,6 +40,8 @@ public OrdealBase()
 ```csharp
 private bool _canTakeRewards
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private bool _canTakeRewards
 ```csharp
 private string _ordeal_name
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private string _ordeal_name
 ```csharp
 public bool isStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public bool isStarted
 ```csharp
 public OrdealLevel level
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public OrdealLevel level
 ```csharp
 public Color OrdealColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public Color OrdealColor
 ```csharp
 public readonly int[] ordealRewards
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ public readonly int[] ordealRewards
 ```csharp
 private RiskLevel riskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ private RiskLevel riskLevel
 ```csharp
 public int startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,12 +160,16 @@ public virtual string OrdealTypeText { get; }
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetRiskLevel(OrdealCreatureModel)
 
 ```csharp
 public virtual RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,6 +186,8 @@ public virtual RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```csharp
 public virtual bool IsStartable()
 ```
+#INC
+
 
 #### Returns
 
@@ -172,30 +198,41 @@ public virtual bool IsStartable()
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnGameInit()
 
 ```csharp
 public virtual void OnGameInit()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public virtual void OnOrdealStart()
 ```
+#INC
+
 
 ### OrdealEnd()
 
 ```csharp
 public virtual void OrdealEnd()
 ```
+#INC
+
 
 ### OrdealNameText(OrdealCreatureModel)
 
 ```csharp
 public virtual string OrdealNameText(OrdealCreatureModel ordeal)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -212,6 +249,8 @@ public virtual string OrdealNameText(OrdealCreatureModel ordeal)
 ```csharp
 public virtual void OrdealTypo(string ordealName, Color color, bool isStart = true, int reward = 0)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +266,8 @@ public virtual void OrdealTypo(string ordealName, Color color, bool isStart = tr
 ```csharp
 public void SetRiskLevel(RiskLevel value)
 ```
+#INC
+
 
 #### Parameters
 

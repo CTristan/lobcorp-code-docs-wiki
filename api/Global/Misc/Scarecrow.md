@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Scarecrow
 public class Scarecrow : CreatureBase
 ```
 
+Scarecrow Searching for Wisdom.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Scarecrow
 
@@ -33,6 +38,8 @@ public Scarecrow()
 ```csharp
 private ScarecrowAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private ScarecrowAnim _animScript
 ```csharp
 private const int _attackDmgMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _attackDmgMax = 7
 ```csharp
 private const int _attackDmgMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _attackDmgMin = 3
 ```csharp
 private const float _attackRange = 2.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _attackRange = 2.8
 ```csharp
 private const float _damageRange = 3.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _damageRange = 3.2
 ```csharp
 private const float _deadSceneRange = 2.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _deadSceneRange = 2.8
 ```csharp
 private const float _deadSceneTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _deadSceneTime = 5
 ```csharp
 private const float _deadWorkerSpeed = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _deadWorkerSpeed = 3
 ```csharp
 private const string _effect_blood = "ScarecrowBloodEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string _effect_blood = "ScarecrowBloodEffect"
 ```csharp
 private const float _effect_height = 1.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _effect_height = 1.7
 ```csharp
 private const string _effect_wind = "ScarecrowEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const string _effect_wind = "ScarecrowEffect"
 ```csharp
 private const string _effectSrc = "Effect/Creature/Scarecrow/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string _effectSrc = "Effect/Creature/Scarecrow/"
 ```csharp
 private const float _heal = 13
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _heal = 13
 ```csharp
 private const float _motionDelayTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _motionDelayTime = 0.5
 ```csharp
 private const int _prudenceCondition = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const int _prudenceCondition = 3
 ```csharp
 private const int _qliphothMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const int _qliphothMax = 1
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _recognizeRange = 15
 ```csharp
 private Timer deadSceneTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private Timer deadSceneTimer
 ```csharp
 private WorkerModel deadWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private WorkerModel deadWorker
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private Timer motionDelayTimer
 ```csharp
 private int qliphothSub
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,24 +314,33 @@ private static int attackDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+#code-generated
+
 
 ### AttackDamage()
 
 ```csharp
 public void AttackDamage()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -302,24 +358,32 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private void DeadSceneStart()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FinishDeadScene()
 
 ```csharp
 private void FinishDeadScene()
 ```
+#INC
+
 
 ### GetNearest(float, bool)
 
 ```csharp
 private WorkerModel GetNearest(float range, bool hasDir = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,12 +401,16 @@ private WorkerModel GetNearest(float range, bool hasDir = false)
 ```csharp
 public void Heal()
 ```
+#INC
+
 
 ### MakeEffect(string)
 
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -359,24 +427,32 @@ private GameObject MakeEffect(string src)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDeadSceneEnd()
 
 ```csharp
 public void OnDeadSceneEnd()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,6 +465,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,18 +479,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -425,6 +509,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -437,15 +523,21 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

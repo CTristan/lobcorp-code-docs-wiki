@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/UIUtil
 ```csharp
 public class UIUtil
 ```
+Provides some common methods for UI elements, like displaying defense factors, text, icons, and changing alpha. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UIUtil
@@ -33,6 +35,8 @@ public UIUtil()
 ```csharp
 public const float full = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public const float full = 1
 ```csharp
 public const float half = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public const float half = 0.5
 ```csharp
 public const float quater = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public const float quater = 0.25
 ```csharp
 public const float quaterHalf = 0.75
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +85,8 @@ public const float quaterHalf = 0.75
 ```csharp
 public static void DefenseSetFactor(DefenseInfo defenseInfo, Text[] text, bool bracket = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +101,8 @@ public static void DefenseSetFactor(DefenseInfo defenseInfo, Text[] text, bool b
 ```csharp
 public static void DefenseSetFull(DefenseInfo defenseInfo, Text[] text, string divider = "")
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +117,8 @@ public static void DefenseSetFull(DefenseInfo defenseInfo, Text[] text, string d
 ```csharp
 public static void DefenseSetOnlyText(DefenseInfo defenseInfo, Text[] text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +132,8 @@ public static void DefenseSetOnlyText(DefenseInfo defenseInfo, Text[] text)
 ```csharp
 public static string GetDefenseText(DefenseInfo.Type type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +150,8 @@ public static string GetDefenseText(DefenseInfo.Type type)
 ```csharp
 public static void SetDefenseTypeIcon(DefenseInfo defenseInfo, Image[] renderer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +165,9 @@ public static void SetDefenseTypeIcon(DefenseInfo defenseInfo, Image[] renderer)
 ```csharp
 public static void SetUIAlpha(Image image, float value)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -158,6 +181,8 @@ public static void SetUIAlpha(Image image, float value)
 ```csharp
 public static void SetUIAlpha(Text text, float value)
 ```
+#INC
+
 
 #### Parameters
 

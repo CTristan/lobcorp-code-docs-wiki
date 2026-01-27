@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/StageRewardTypeInfo
 ```csharp
 public class StageRewardTypeInfo
 ```
+Stores the LOB reward for the day and which agents were promoted #verify .
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StageRewardTypeInfo
@@ -25,6 +27,9 @@ public class StageRewardTypeInfo
 ```csharp
 public StageRewardTypeInfo()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -43,6 +48,8 @@ public List<StageRewardTypeInfo.AgentRewardInfo> agentList
 ```csharp
 public int day
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public int day
 ```csharp
 public int money
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public int money
 ```csharp
 public int rankLimit
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,12 +86,16 @@ public int rankLimit
 ```csharp
 public void GenerateRankLimit()
 ```
+#INC
+
 
 ### GetLimitTime(StageRank)
 
 ```csharp
 public float GetLimitTime(StageRank rank)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,6 +112,8 @@ public float GetLimitTime(StageRank rank)
 ```csharp
 public int GetRewardMoney(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +130,8 @@ public int GetRewardMoney(float time)
 ```csharp
 public StageRank GetStageRank(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +148,8 @@ public StageRank GetStageRank(float time)
 ```csharp
 public static StageRewardTypeInfo MakeChallengeModeReward()
 ```
+#INC
+
 
 #### Returns
 

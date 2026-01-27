@@ -11,6 +11,8 @@ canonical_path: /api/Global/Script/BossBirdGutScript
 ```csharp
 public class BossBirdGutScript : MonoBehaviour
 ```
+Probably [Apocalypse Bird](/api/Global/Misc/BossBird)'s red attack. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BossBirdGutScript
@@ -33,6 +35,8 @@ public BossBirdGutScript()
 ```csharp
 private float defaultScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float defaultScaleFactor
 ```csharp
 private Vector3 destDist
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private Vector3 destDist
 ```csharp
 private Vector3 destPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private Vector3 destPos
 ```csharp
 public Transform endPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Transform endPos
 ```csharp
 public Transform gut
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Transform gut
 ```csharp
 private Timer gutTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private Timer gutTimer
 ```csharp
 private bool halfArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ private BossBirdGutScript.HalfEvent halfEvent
 ```csharp
 public Animator Mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +141,8 @@ public Animator Mouth
 ```csharp
 public GameObject rootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +153,8 @@ public GameObject rootObject
 ```csharp
 private float rootScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +165,8 @@ private float rootScale
 ```csharp
 private bool shoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +188,8 @@ public float shootingStdPos
 ```csharp
 public float startDist
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +200,8 @@ public float startDist
 ```csharp
 public Transform startPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -198,12 +226,16 @@ private float invertStd { get; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetFactor(float)
 
 ```csharp
 private float GetFactor(float dist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,18 +252,25 @@ private float GetFactor(float dist)
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnHalfArrived()
 
 ```csharp
 public void OnHalfArrived()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -256,6 +295,8 @@ public void SetHalfArrived(BossBirdGutScript.HalfEvent h)
 ```csharp
 private void SetRate(float current, float total)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,12 +310,16 @@ private void SetRate(float current, float total)
 ```csharp
 private void SetScale()
 ```
+#INC
+
 
 ### Shoot(Vector3, float)
 
 ```csharp
 public void Shoot(Vector3 globalPosition, float duration)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,3 +333,5 @@ public void Shoot(Vector3 globalPosition, float duration)
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Action/ActionClassBase
 ```csharp
 public class ActionClassBase : MonoBehaviour
 ```
+#unused 
+#code-generated
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ActionClassBase

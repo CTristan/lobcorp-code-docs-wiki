@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effect/DeathAngelWeaponEffect
 ```csharp
 public class DeathAngelWeaponEffect : MonoBehaviour
 ```
+I think this is the visual effect for [Paradise Lost](/api/Global/Weapon/DeathAngelWeapon)'s crazy attacks.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeathAngelWeaponEffect
@@ -33,6 +35,8 @@ public DeathAngelWeaponEffect()
 ```csharp
 private List<Animator> notSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private List<Animator> notSelected
 ```csharp
 private List<Animator> selected
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private List<Animator> selected
 ```csharp
 public Animator[] weapons
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +73,17 @@ public Animator[] weapons
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### RandSelect()
 
 ```csharp
 private bool RandSelect()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,6 +94,8 @@ private bool RandSelect()
 ```csharp
 public void SetActive(int num)
 ```
+#INC
+
 
 #### Parameters
 

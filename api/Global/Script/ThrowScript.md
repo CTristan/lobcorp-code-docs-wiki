@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/ThrowScript
 public class ThrowScript : MonoBehaviour
 ```
 
+Used by the RudoltaThrow prefab which maybe isn't used?
+
+#unused #maybe_unused #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ThrowScript
 
@@ -33,6 +38,8 @@ public ThrowScript()
 ```csharp
 private float elap
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public ThrowScript.ThrowEnded endEvent
 ```csharp
 public float forceMult
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public float forceMult
 ```csharp
 public float gravitiy
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public float gravitiy
 ```csharp
 public float journeyScaleTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public float journeyScaleTime
 ```csharp
 private bool shooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private bool shooted
 ```csharp
 public float startSpeed_y
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public float startSpeed_y
 ```csharp
 public Transform startTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Transform startTransform
 ```csharp
 private MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private MovableObjectNode targetMovable
 ```csharp
 public ThrowItem throwed
 ```
+#INC
+
 
 #### Field Value
 
@@ -182,3 +205,5 @@ public void Init(Transform start, MovableObjectNode movable, float scale, ThrowS
 ```csharp
 public void Update()
 ```
+#INC
+

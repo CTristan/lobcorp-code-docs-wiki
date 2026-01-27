@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoWorkRoot
 ```csharp
 public class CreatureInfoWorkRoot : CreatureInfoController
 ```
+Section for work chance boxes
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoWorkRoot
@@ -33,6 +35,8 @@ public CreatureInfoWorkRoot()
 ```csharp
 public List<CreatureInfoWorkSlot> workSlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +49,17 @@ public List<CreatureInfoWorkSlot> workSlots
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,6 +72,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool IsOpened()
 ```
+#INC
+
 
 #### Returns
 
@@ -73,6 +84,8 @@ public override bool IsOpened()
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -83,15 +96,21 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 private void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 private void SetEnabled()
 ```
+#INC
+

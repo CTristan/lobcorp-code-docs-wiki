@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/MissionUI
 public class MissionUI : MonoBehaviour, IObserver
 ```
 
+The UI displayed in the top right during management which lists the missions and their status.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MissionUI
 
@@ -36,6 +41,8 @@ public MissionUI()
 ```csharp
 private static MissionUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private static MissionUI _instance
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public Animator anim
 ```csharp
 public Vector2 DefaultPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Vector2 DefaultPos
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public RectTransform listParent
 ```csharp
 private List<MissionSlot> missions
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private List<MissionSlot> missions
 ```csharp
 private const string MIssionSlotSrc = "UIComponent/MissionSlot_List"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const string MIssionSlotSrc = "UIComponent/MissionSlot_List"
 ```csharp
 private const float oneSecond = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const float oneSecond = 1
 ```csharp
 private AutoTimer perSecondTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private AutoTimer perSecondTimer
 ```csharp
 public Vector2 Spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,54 +163,73 @@ public static MissionUI instance { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OncePerSecond()
 
 ```csharp
 public void OncePerSecond()
 ```
+#INC
+
 
 ### OnClickButton()
 
 ```csharp
 public void OnClickButton()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 public void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnEnterButton()
 
 ```csharp
 public void OnEnterButton()
 ```
+#INC
+
 
 ### OnExitButton()
 
 ```csharp
 public void OnExitButton()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,3 +243,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetList()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/OutterGodDawnAnim
 public class OutterGodDawnAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Fruit of Understanding](/api/Global/OutterGodMidnight/OutterGodDawn).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → OutterGodDawnAnim
 
@@ -36,6 +39,8 @@ public OutterGodDawnAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_boom = "boom"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _sound_boom = "boom"
 ```csharp
 private const string _sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string _sound_dead = "dead"
 ```csharp
 private const string _sound_walk = "walk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const string _sound_walk = "walk"
 ```csharp
 public GameObject attackEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public GameObject attackEffect
 ```csharp
 private OutterGodDawn script
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,24 +113,33 @@ private OutterGodDawn script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+#code-generated
+
 
 ### Boom()
 
 ```csharp
 private void Boom()
 ```
+#INC
+
 
 ### BoomEnd()
 
 ```csharp
 private void BoomEnd()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +156,8 @@ private string GetSoundSrc(string key)
 ```csharp
 public bool GonnaBoom()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,6 +168,8 @@ public bool GonnaBoom()
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -152,12 +180,16 @@ public override bool HasDeadMotion()
 ```csharp
 private void MakeBoomSound()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,12 +206,16 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnBoomStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -192,18 +228,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### SetAttackEffect()
 
 ```csharp
 private void SetAttackEffect()
 ```
+#INC
+
 
 ### SetScript(OutterGodDawn)
 
 ```csharp
 public void SetScript(OutterGodDawn script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,3 +258,5 @@ public void SetScript(OutterGodDawn script)
 ```csharp
 private void Update()
 ```
+#INC
+

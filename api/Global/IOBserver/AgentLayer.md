@@ -11,6 +11,8 @@ canonical_path: /api/Global/IOBserver/AgentLayer
 ```csharp
 public class AgentLayer : MonoBehaviour, IObserver
 ```
+Game layer which holds agents ([AgentUnit](/api/Global/Worker/AgentUnit)s)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentLayer
@@ -36,6 +38,8 @@ public AgentLayer()
 ```csharp
 private List<AgentUnit> agentList
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private List<AgentUnit> agentList
 ```csharp
 public float cooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public float cooltime
 ```csharp
 public float frequency
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public float frequency
 ```csharp
 public const int MAX_LEVEL = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public const int MAX_LEVEL = 5
 ```csharp
 public int percentage
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ public int percentage
 ```csharp
 private int zCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +112,8 @@ private int zCount
 ```csharp
 public static AgentLayer currentLayer { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -110,6 +126,8 @@ public static AgentLayer currentLayer { get; private set; }
 ```csharp
 public void AddAgent(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,12 +146,16 @@ private void Awake()
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### GetAgent(long)
 
 ```csharp
 public AgentUnit GetAgent(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,6 +172,8 @@ public AgentUnit GetAgent(long id)
 ```csharp
 public List<AgentUnit> GetAgentList()
 ```
+#INC
+
 
 #### Returns
 
@@ -160,30 +184,41 @@ public List<AgentUnit> GetAgentList()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,12 +232,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### RemoveAgent(AgentModel)
 
 ```csharp
 public void RemoveAgent(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,9 +254,13 @@ public void RemoveAgent(AgentModel model)
 ```csharp
 public void TurnOffUI()
 ```
+#INC
+
 
 ### TurnOnUI()
 
 ```csharp
 public void TurnOnUI()
 ```
+#INC
+

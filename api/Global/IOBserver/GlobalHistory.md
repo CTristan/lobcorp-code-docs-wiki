@@ -12,6 +12,17 @@ canonical_path: /api/Global/IOBserver/GlobalHistory
 public class GlobalHistory : IObserver
 ```
 
+Keeps track of events during the day:
+- Worker panic
+- Worker death
+- Abnormality escape
+- Ordeal start
+- Trumpets
+- Time elapsed
+
+For the [results screen](/api/Global/IANimatorEventCalled/ResultScreen) and some missions.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GlobalHistory
 
@@ -28,6 +39,9 @@ public class GlobalHistory : IObserver
 ```csharp
 public GlobalHistory()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -36,6 +50,8 @@ public GlobalHistory()
 ```csharp
 private List<AgentModel> _deadAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +62,8 @@ private List<AgentModel> _deadAgents
 ```csharp
 private float _endTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +74,8 @@ private float _endTime
 ```csharp
 private float _firstQuarter
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +86,8 @@ private float _firstQuarter
 ```csharp
 private List<History> _histories
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +98,8 @@ private List<History> _histories
 ```csharp
 private static GlobalHistory _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +110,8 @@ private static GlobalHistory _instance
 ```csharp
 private List<History> _ordsAndEmers
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +122,8 @@ private List<History> _ordsAndEmers
 ```csharp
 private float _secondQuarter
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +134,8 @@ private float _secondQuarter
 ```csharp
 private float _startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +146,8 @@ private float _startTime
 ```csharp
 private float _thirdQuarter
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +172,8 @@ public static GlobalHistory instance { get; }
 ```csharp
 public void AddOrdsAndEmers(History history)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,6 +186,8 @@ public void AddOrdsAndEmers(History history)
 ```csharp
 public float GetCurrentTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,6 +198,8 @@ public float GetCurrentTime()
 ```csharp
 public List<History> GetHistory()
 ```
+#INC
+
 
 #### Returns
 
@@ -172,6 +210,8 @@ public List<History> GetHistory()
 ```csharp
 public List<History> GetOrdsAndEmers()
 ```
+#INC
+
 
 #### Returns
 
@@ -182,6 +222,8 @@ public List<History> GetOrdsAndEmers()
 ```csharp
 public List<Result> GetResults()
 ```
+#INC
+
 
 #### Returns
 
@@ -192,6 +234,8 @@ public List<Result> GetResults()
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,3 +249,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+

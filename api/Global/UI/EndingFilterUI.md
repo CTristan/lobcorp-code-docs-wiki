@@ -11,6 +11,9 @@ canonical_path: /api/Global/UI/EndingFilterUI
 ```csharp
 public class EndingFilterUI : MonoBehaviour
 ```
+Visual effect for the end, I guess?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EndingFilterUI
@@ -33,6 +36,8 @@ public EndingFilterUI()
 ```csharp
 private bool _fadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _fadeOut
 ```csharp
 private float _fadeProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float _fadeProgress
 ```csharp
 private static EndingFilterUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private static EndingFilterUI _instance
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Canvas canvas
 ```csharp
 public Image image
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,27 +110,38 @@ public static EndingFilterUI instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FadeOut()
 
 ```csharp
 public void FadeOut()
 ```
+#INC
+
 
 ### Hide()
 
 ```csharp
 public void Hide()
 ```
+#INC
+
 
 ### Show()
 
 ```csharp
 public void Show()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,9 @@ canonical_path: /api/WorkerSpine/WorkerColorTest
 ```csharp
 public class WorkerColorTest : MonoBehaviour
 ```
+sets an image and hair and eye color?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerColorTest
@@ -33,6 +36,8 @@ public WorkerColorTest()
 ```csharp
 public Image image
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Image image
 ```csharp
 public WorkerSpriteSetter setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public WorkerSpriteSetter setter
 ```csharp
 public void SetEvent(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -67,3 +76,6 @@ public void SetEvent(BaseEventData bData)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

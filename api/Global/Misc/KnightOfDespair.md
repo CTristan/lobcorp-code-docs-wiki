@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/KnightOfDespair
 public class KnightOfDespair : CreatureBase
 ```
 
+Knight of Despair. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → KnightOfDespair
 
@@ -33,6 +36,8 @@ public KnightOfDespair()
 ```csharp
 private const float _attackDelayMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _attackDelayMax = 3
 ```csharp
 private const float _attackDelayMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float _attackDelayMin = 2
 ```csharp
 private Timer _attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _attackDelayTimer
 ```csharp
 private WorkerModel _blessedWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private WorkerModel _blessedWorker
 ```csharp
 private Queue<int> _currentAttackAnimIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Queue<int> _currentAttackAnimIndex
 ```csharp
 private MapNode _currentDestNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private MapNode _currentDestNode
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private UnitModel _currentTarget
 ```csharp
 private MapNode _currentTeleportNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private MapNode _currentTeleportNode
 ```csharp
 private SoundEffectPlayer _escapeDefaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private SoundEffectPlayer _escapeDefaultSound
 ```csharp
 private const float _escapeSoundFreqMax = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float _escapeSoundFreqMax = 40
 ```csharp
 private const float _escapeSoundFreqMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _escapeSoundFreqMin = 30
 ```csharp
 private Timer _escapeSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private Timer _escapeSoundTimer
 ```csharp
 private bool _isAtttackig
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private bool _isAtttackig
 ```csharp
 private bool _isBlessing
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private bool _isBlessing
 ```csharp
 private bool _isMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private bool _isMoving
 ```csharp
 private bool _isTeleporting
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private bool _isTeleporting
 ```csharp
 private bool _readyForTeleport
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private bool _readyForTeleport
 ```csharp
 private Timer _teleportAfterDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private Timer _teleportAfterDelay
 ```csharp
 private const float _teleportDelayMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const float _teleportDelayMax = 30
 ```csharp
 private const float _teleportDelayMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const float _teleportDelayMin = 15
 ```csharp
 private Timer _teleportTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private Timer _teleportTimer
 ```csharp
 private GameObject blessEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private GameObject blessEffect
 ```csharp
 public const string blessEffectSrc = "Effect/Creature/KnightOfDespair/KnightBufAurora"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ public const string blessEffectSrc = "Effect/Creature/KnightOfDespair/KnightBufA
 ```csharp
 public const string damageEffectSrc = "Effect/Creature/KnightOfDespair/Spade"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ public const string damageEffectSrc = "Effect/Creature/KnightOfDespair/Spade"
 ```csharp
 private static DamageInfo Damageinfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private static DamageInfo Damageinfo
 ```csharp
 private static int[] DefaultAttackIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private static int[] DefaultAttackIndex
 ```csharp
 private static string LogPrefix
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +370,8 @@ private List<KnightOfDespair.SwordRenable> renableList
 ```csharp
 public const string SoundKey_Attack = "Attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ public const string SoundKey_Attack = "Attack"
 ```csharp
 public const string SoundKey_Aura = "Aura"
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ public const string SoundKey_Aura = "Aura"
 ```csharp
 public const string SoundKey_Bless = "Bless"
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ public const string SoundKey_Bless = "Bless"
 ```csharp
 public const string SoundKey_Blink_1 = "Blink_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ public const string SoundKey_Blink_1 = "Blink_1"
 ```csharp
 public const string SoundKey_Blink_2 = "Blink_2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ public const string SoundKey_Blink_2 = "Blink_2"
 ```csharp
 public const string SoundKey_Change_1 = "Change_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ public const string SoundKey_Change_1 = "Change_1"
 ```csharp
 public const string SoundKey_Change_2 = "Change_2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ public const string SoundKey_Change_2 = "Change_2"
 ```csharp
 public const string SoundKey_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ public const string SoundKey_Dead = "Dead"
 ```csharp
 public const string SoundKey_Default = "Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ public const string SoundKey_Default = "Default"
 ```csharp
 public const string TeleportAppearEffect = "Effect/Creature/MagicalGirl/Appear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ public const string TeleportAppearEffect = "Effect/Creature/MagicalGirl/Appear"
 ```csharp
 public const string TeleportDisappearEffect = "Effect/Creature/MagicalGirl/Disappear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -477,6 +556,8 @@ private float TeleportDelay { get; }
 ```csharp
 private void ActivateBless(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -489,12 +570,16 @@ private void ActivateBless(WorkerModel target)
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### CheckBless(UseSkill)
 
 ```csharp
 private bool CheckBless(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,24 +596,32 @@ private bool CheckBless(UseSkill skill)
 ```csharp
 private void CheckSword()
 ```
+#INC
+
 
 ### ClearBlessed()
 
 ```csharp
 public void ClearBlessed()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetAttackIndex()
 
 ```csharp
 private List<int> GetAttackIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -539,6 +632,8 @@ private List<int> GetAttackIndex()
 ```csharp
 private List<UnitModel> GetNearTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -549,6 +644,8 @@ private List<UnitModel> GetNearTargets()
 ```csharp
 private MapNode GetRandomDestination()
 ```
+#INC
+
 
 #### Returns
 
@@ -559,6 +656,8 @@ private MapNode GetRandomDestination()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -575,6 +674,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -585,6 +686,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool IsActivatedWorkDesc()
 ```
+#INC
+
 
 #### Returns
 
@@ -595,6 +698,8 @@ public override bool IsActivatedWorkDesc()
 ```csharp
 private bool IsTeleportable()
 ```
+#INC
+
 
 #### Returns
 
@@ -605,6 +710,8 @@ private bool IsTeleportable()
 ```csharp
 public static void Log(string log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -617,30 +724,40 @@ public static void Log(string log)
 ```csharp
 public void MakeBlessSound()
 ```
+#INC
+
 
 ### MakeDeadSound()
 
 ```csharp
 public void MakeDeadSound()
 ```
+#INC
+
 
 ### MakeDefaultSound()
 
 ```csharp
 private void MakeDefaultSound()
 ```
+#INC
+
 
 ### MakeRandomMovement()
 
 ```csharp
 private void MakeRandomMovement()
 ```
+#INC
+
 
 ### MakeSound(string, Vector3)
 
 ```csharp
 public SoundEffectPlayer MakeSound(string key, Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -658,6 +775,8 @@ public SoundEffectPlayer MakeSound(string key, Vector3 pos)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -668,24 +787,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnBlessAnimEnded()
 ```
+#INC
+
 
 ### OnBlessedWorkerEndangered()
 
 ```csharp
 public void OnBlessedWorkerEndangered()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -698,24 +825,32 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnSwordArrived(ProjectileModel)
 
 ```csharp
 public void OnSwordArrived(ProjectileModel proj)
 ```
+#INC
+
 
 #### Parameters
 
@@ -728,12 +863,16 @@ public void OnSwordArrived(ProjectileModel proj)
 ```csharp
 public void OnTeleport()
 ```
+#INC
+
 
 ### OnThrowSword(KnightOfDespairSword)
 
 ```csharp
 public void OnThrowSword(KnightOfDespairSword sword)
 ```
+#INC
+
 
 #### Parameters
 
@@ -746,12 +885,17 @@ public void OnThrowSword(KnightOfDespairSword sword)
 ```csharp
 public void OnTransformEnded()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -764,18 +908,24 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ResetState()
 
 ```csharp
 private void ResetState()
 ```
+#INC
+
 
 ### StartAttack(UnitModel)
 
 ```csharp
 public void StartAttack(UnitModel mainTarget)
 ```
+#INC
+
 
 #### Parameters
 
@@ -788,18 +938,24 @@ public void StartAttack(UnitModel mainTarget)
 ```csharp
 private void StartTeleport()
 ```
+#INC
+
 
 ### StopAttack()
 
 ```csharp
 private void StopAttack()
 ```
+#INC
+
 
 ### StopMovement(bool)
 
 ```csharp
 private void StopMovement(bool clearDest = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -812,3 +968,5 @@ private void StopMovement(bool clearDest = false)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

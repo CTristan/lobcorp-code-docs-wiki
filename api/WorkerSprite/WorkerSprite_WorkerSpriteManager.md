@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/WorkerSprite_WorkerSpriteManager
 ```csharp
 public class WorkerSprite_WorkerSpriteManager
 ```
+Holds sprite data for workers and allows getting clothes sets and other things maybe i dont know
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSprite_WorkerSpriteManager
@@ -25,6 +29,9 @@ public class WorkerSprite_WorkerSpriteManager
 ```csharp
 private WorkerSprite_WorkerSpriteManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private WorkerSprite_WorkerSpriteManager()
 ```csharp
 private static WorkerSprite_WorkerSpriteManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static WorkerSprite_WorkerSpriteManager _instance
 ```csharp
 public WorkerBasicSpriteController basicData
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public WorkerBasicSpriteController basicData
 ```csharp
 public WorkerEquipmentSpriteController equipData
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +90,8 @@ public static WorkerSprite_WorkerSpriteManager instance { get; }
 ```csharp
 public SpriteResourceLoadData GetClothesSet(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,6 +108,8 @@ public SpriteResourceLoadData GetClothesSet(int id)
 ```csharp
 public Sprite[] GetFistSprite()
 ```
+#INC
+
 
 #### Returns
 
@@ -103,6 +120,8 @@ public Sprite[] GetFistSprite()
 ```csharp
 public Sprite[] GetFistSprite(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +138,8 @@ public Sprite[] GetFistSprite(int id)
 ```csharp
 public Sprite GetRandomWeaponSprite(WeaponClassType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,18 +156,24 @@ public Sprite GetRandomWeaponSprite(WeaponClassType type)
 ```csharp
 public void LoadCommand()
 ```
+#INC
+
 
 ### Print()
 
 ```csharp
 public void Print()
 ```
+#INC
+
 
 ### SetBasicData(WorkerBasicSpriteController)
 
 ```csharp
 public void SetBasicData(WorkerBasicSpriteController d)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +186,8 @@ public void SetBasicData(WorkerBasicSpriteController d)
 ```csharp
 public void SetEquipmentData(WorkerEquipmentSpriteController d)
 ```
+#INC
+
 
 #### Parameters
 

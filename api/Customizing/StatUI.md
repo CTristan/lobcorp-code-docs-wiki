@@ -11,6 +11,8 @@ canonical_path: /api/Customizing/StatUI
 ```csharp
 public class StatUI : MonoBehaviour
 ```
+UI for customizing hired agent stats. Holds the cost of upgrading each stat, the max levels, and logic for buying them.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StatUI
@@ -33,6 +35,8 @@ public StatUI()
 ```csharp
 private AgentData _currentData
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private AgentData _currentData
 ```csharp
 public static int[] BCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +69,8 @@ public StatUI.StatController BStat
 ```csharp
 public int CurrentAdditionalCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +81,8 @@ public int CurrentAdditionalCost
 ```csharp
 public static int[] PCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +103,8 @@ public StatUI.StatController PStat
 ```csharp
 public static int[] RCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +125,8 @@ public StatUI.StatController RStat
 ```csharp
 public static int[] WCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,12 +171,16 @@ public static int MaxStatLevel { get; }
 ```csharp
 private void CheckCost()
 ```
+#INC
+
 
 ### GetBonus()
 
 ```csharp
 public StatBonus GetBonus()
 ```
+#INC
+
 
 #### Returns
 
@@ -173,12 +191,17 @@ public StatBonus GetBonus()
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### Init(AgentData, bool)
 
 ```csharp
 public void Init(AgentData data, bool generate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -192,3 +215,5 @@ public void Init(AgentData data, bool generate)
 ```csharp
 private void Update()
 ```
+#INC
+

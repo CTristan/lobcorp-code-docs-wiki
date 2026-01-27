@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/DayUnitButton
 ```csharp
 public class DayUnitButton : MonoBehaviour
 ```
+UI element for day story selection.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DayUnitButton
@@ -43,6 +47,8 @@ private DayUnitButton.ButtonState _currentState
 ```csharp
 public bool _interactable
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public bool _interactable
 ```csharp
 private bool _isEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _isEntered
 ```csharp
 private bool _isInteractable
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private bool _isInteractable
 ```csharp
 private UnscaledTimer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +116,8 @@ public float _transTime
 ```csharp
 public Text dayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +128,8 @@ public Text dayText
 ```csharp
 public Color disabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +140,8 @@ public Color disabled
 ```csharp
 public Image frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +173,8 @@ public Color highlighted
 ```csharp
 public UnityEvent onClick
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +185,8 @@ public UnityEvent onClick
 ```csharp
 public Color pressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +197,8 @@ public Color pressed
 ```csharp
 public string textId
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +211,9 @@ public string textId
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetTargetColor(ButtonState)
 
@@ -209,42 +236,56 @@ private Color GetTargetColor(DayUnitButton.ButtonState state)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnPointerEnter()
 
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### OnPointerPressed()
 
 ```csharp
 public void OnPointerPressed()
 ```
+#INC
+
 
 ### OnPointerUp()
 
 ```csharp
 public void OnPointerUp()
 ```
+#INC
+
 
 ### OnRunTimer()
 
 ```csharp
 private void OnRunTimer()
 ```
+#INC
+
 
 ### OnSetInteractable(bool)
 
 ```csharp
 public void OnSetInteractable(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,18 +298,24 @@ public void OnSetInteractable(bool state)
 ```csharp
 private void OnStartTransition()
 ```
+#INC
+
 
 ### ReadGraphics()
 
 ```csharp
 public void ReadGraphics()
 ```
+#INC
+
 
 ### ReadGraphics(Transform)
 
 ```csharp
 private void ReadGraphics(Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,6 +328,8 @@ private void ReadGraphics(Transform t)
 ```csharp
 private void SetColor(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,6 +342,8 @@ private void SetColor(float rate)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Transition(ButtonState)
 
@@ -311,3 +362,5 @@ private void Transition(DayUnitButton.ButtonState state)
 ```csharp
 private void Update()
 ```
+#INC
+

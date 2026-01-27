@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/IntroPlayer
 public class IntroPlayer : MonoBehaviour
 ```
 
+Plays the intro. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IntroPlayer
 
@@ -33,6 +36,8 @@ public IntroPlayer()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float _elapsedTime
 ```csharp
 public AnimationCurve alphacurve1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public AnimationCurve alphacurve1
 ```csharp
 public AnimationCurve alphacurve2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public AnimationCurve alphacurve2
 ```csharp
 public RawImage intro1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public RawImage intro1
 ```csharp
 public RawImage intro2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public RawImage intro2
 ```csharp
 public List<MaskableGraphic> intro2Texts
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public List<MaskableGraphic> intro2Texts
 ```csharp
 private bool introEnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private bool introEnd
 ```csharp
 private MovieTexture mt1
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private MovieTexture mt1
 ```csharp
 private MovieTexture mt2
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,27 +146,38 @@ private MovieTexture mt2
 ```csharp
 private void _Lagacy()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### PAXINIT()
 
 ```csharp
 public void PAXINIT()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

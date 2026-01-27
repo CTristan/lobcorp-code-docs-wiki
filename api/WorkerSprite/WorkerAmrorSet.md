@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/WorkerAmrorSet
 ```csharp
 public class WorkerAmrorSet
 ```
+Holds a sprite for each body part. Allows setting with an Atlas through AtlasLoadData.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerAmrorSet
@@ -33,6 +35,8 @@ public WorkerAmrorSet()
 ```csharp
 public Sprite Arm_Left_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Sprite Arm_Left_Down
 ```csharp
 public Sprite Arm_Left_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Sprite Arm_Left_Up
 ```csharp
 public Sprite Arm_Right_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Sprite Arm_Right_Down
 ```csharp
 public Sprite Arm_Right_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Sprite Arm_Right_Up
 ```csharp
 public Sprite Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Sprite Body
 ```csharp
 public Sprite Coat_Back
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public Sprite Coat_Back
 ```csharp
 public Sprite Coat_Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public Sprite Coat_Left
 ```csharp
 public Sprite Coat_Right
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public Sprite Coat_Right
 ```csharp
 public Sprite Left_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Sprite Left_Hand
 ```csharp
 public Sprite Leg_Left_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public Sprite Leg_Left_Down
 ```csharp
 public Sprite Leg_Left_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public Sprite Leg_Left_Up
 ```csharp
 public Sprite Leg_Right_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public Sprite Leg_Right_Down
 ```csharp
 public Sprite Leg_Right_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ public Sprite Leg_Right_Up
 ```csharp
 public Sprite Right_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +205,9 @@ public Sprite Right_Hand
 ```csharp
 public void SetSprite(SpriteResourceLoadData data)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

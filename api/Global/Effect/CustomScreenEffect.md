@@ -11,6 +11,10 @@ canonical_path: /api/Global/Effect/CustomScreenEffect
 ```csharp
 public class CustomScreenEffect : MonoBehaviour
 ```
+Presumably displays a bunch of sprites. Not sure.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CustomScreenEffect
@@ -33,6 +37,8 @@ public CustomScreenEffect()
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private int currentIndex
 ```csharp
 private Callback destroyCallback
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private Callback destroyCallback
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private float elapsedTime
 ```csharp
 private int fps
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private int fps
 ```csharp
 public Image image
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Image image
 ```csharp
 private Sprite[] spriteList
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private Sprite[] spriteList
 ```csharp
 private float spriteTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,12 +123,17 @@ private float spriteTime
 ```csharp
 private void EndEffect()
 ```
+#INC
+
 
 ### Init(int, Sprite[])
 
 ```csharp
 public void Init(int fps, Sprite[] spriteList)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -124,6 +147,8 @@ public void Init(int fps, Sprite[] spriteList)
 ```csharp
 public void Init(int fps, Sprite[] spriteList, Callback destroyCallback)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,3 +163,5 @@ public void Init(int fps, Sprite[] spriteList, Callback destroyCallback)
 ```csharp
 private void Update()
 ```
+#INC
+

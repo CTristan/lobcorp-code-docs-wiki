@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/NothingSnipingUI
 public class NothingSnipingUI : MonoBehaviour
 ```
 
+UI for [Nothing There](/api/Global/Misc/Nothing)'s sniping interface during its special breach.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NothingSnipingUI
 
@@ -33,6 +36,8 @@ public NothingSnipingUI()
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Canvas canvas
 ```csharp
 private float countDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float countDown
 ```csharp
 private int countDown_integer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private int countDown_integer
 ```csharp
 public Text countDownText
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Text countDownText
 ```csharp
 private Nothing nothingScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Nothing nothingScript
 ```csharp
 public Image snipingFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,18 +110,24 @@ public Image snipingFilter
 ```csharp
 public void FinishSniping()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### Shot(List<UnitModel>)
 
 ```csharp
 public void Shot(List<UnitModel> _list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +140,9 @@ public void Shot(List<UnitModel> _list)
 ```csharp
 public void StartSnipe(Nothing nothingScript)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,3 +155,5 @@ public void StartSnipe(Nothing nothingScript)
 ```csharp
 private void Update()
 ```
+#INC
+

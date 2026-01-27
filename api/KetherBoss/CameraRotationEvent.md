@@ -12,6 +12,11 @@ canonical_path: /api/KetherBoss/CameraRotationEvent
 public class CameraRotationEvent : KetherLastEffectBase
 ```
 
+effect that rotates the camera during day 50. I assume
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → CameraRotationEvent
 
@@ -25,6 +30,8 @@ public class CameraRotationEvent : KetherLastEffectBase
 ```csharp
 public CameraRotationEvent(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public CameraRotationEvent(KetherLastBossBase bossBase)
 ```csharp
 private GameObject _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private GameObject _effect
 ```csharp
 private float _rotationTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private float _rotationTime
 ```csharp
 private UnscaledTimer _rotationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private UnscaledTimer _rotationTimer
 ```csharp
 private MinMax _rotationValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private MinMax _rotationValue
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private AnimationCurve curve
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 private const string effectName = "CameraDust"
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +130,8 @@ private const string effectName = "CameraDust"
 ```csharp
 private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +142,8 @@ private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```csharp
 private const float rotationValue = 36
 ```
+#INC
+
 
 #### Field Value
 
@@ -131,12 +156,17 @@ private const float rotationValue = 36
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### SetCameraRotation(float)
 
 ```csharp
 public void SetCameraRotation(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +179,8 @@ public void SetCameraRotation(float value)
 ```csharp
 public void StartRotation(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,3 +193,5 @@ public void StartRotation(int level)
 ```csharp
 public override void Update()
 ```
+#INC
+

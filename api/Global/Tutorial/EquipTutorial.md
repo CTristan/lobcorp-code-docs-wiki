@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/EquipTutorial
 public class EquipTutorial : Tutorial
 ```
 
+Tutorial which ends once the [E.G.O List](/api/Inventory/InventoryUI) is opened.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EquipTutorial
 
@@ -33,6 +38,8 @@ public EquipTutorial()
 ```csharp
 public EquipmentTypeInfo.EquipmentType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +52,6 @@ public EquipmentTypeInfo.EquipmentType type
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

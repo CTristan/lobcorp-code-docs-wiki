@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/LoadingScreen
 public class LoadingScreen : MonoBehaviour
 ```
 
+Holds all of the loading scenes, for loading. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LoadingScreen
 
@@ -33,6 +36,8 @@ public LoadingScreen()
 ```csharp
 public ContinueLoadingScene continueLoadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public ContinueLoadingScene continueLoadingScene
 ```csharp
 public CreditLoadingScene creditLoadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public CreditLoadingScene creditLoadingScene
 ```csharp
 public LoadingScene currentLoadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public LoadingScene currentLoadingScene
 ```csharp
 public DayEndScene dayEndScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public DayEndScene dayEndScene
 ```csharp
 public DefaultEndScene defaultEndScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public DefaultEndScene defaultEndScene
 ```csharp
 public CreditLoadingScene endingLoadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public CreditLoadingScene endingLoadingScene
 ```csharp
 private List<string> loadingScenes
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private List<string> loadingScenes
 ```csharp
 private bool nowLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private bool nowLoading
 ```csharp
 public StoryEndScene storyEndScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public StoryEndScene storyEndScene
 ```csharp
 public TitleEndScene titleEndScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,12 +170,16 @@ public bool isLoading { get; }
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### Load(string)
 
 ```csharp
 private IEnumerator Load(string sceneName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +196,8 @@ private IEnumerator Load(string sceneName)
 ```csharp
 public void LoadScene(string sceneName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,9 +210,14 @@ public void LoadScene(string sceneName)
 ```csharp
 public void LoadTitleScene()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

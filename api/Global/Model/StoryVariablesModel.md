@@ -11,6 +11,8 @@ canonical_path: /api/Global/Model/StoryVariablesModel
 ```csharp
 public class StoryVariablesModel
 ```
+Holds variables used in the story. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryVariablesModel
@@ -25,6 +27,9 @@ public class StoryVariablesModel
 ```csharp
 private StoryVariablesModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ private StoryVariablesModel()
 ```csharp
 private Dictionary<string, int> _globalVariables
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Dictionary<string, int> _globalVariables
 ```csharp
 private static StoryVariablesModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private static StoryVariablesModel _instance
 ```csharp
 private Dictionary<string, int> _localVariables
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Dictionary<string, StoryVariablesModel.PredefinedVar> _predefinedVariabl
 ```csharp
 public const string AGENT_DIE_COUNT = "AgentDieCount"
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ public static StoryVariablesModel instance { get; }
 ```csharp
 public void AddVariable(string id, int operand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,12 +125,16 @@ public void AddVariable(string id, int operand)
 ```csharp
 public void ClearLocalVariables()
 ```
+#INC
+
 
 ### GetVariable(string)
 
 ```csharp
 public int GetVariable(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,18 +151,24 @@ public int GetVariable(string id)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LoadData()
 
 ```csharp
 public void LoadData()
 ```
+#INC
+
 
 ### SaveData()
 
 ```csharp
 public Dictionary<string, object> SaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -154,6 +179,8 @@ public Dictionary<string, object> SaveData()
 ```csharp
 public void SetLocalVariable(string id, int val)
 ```
+#INC
+
 
 #### Parameters
 

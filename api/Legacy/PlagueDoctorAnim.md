@@ -12,6 +12,9 @@ canonical_path: /api/Legacy/PlagueDoctorAnim
 public class PlagueDoctorAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animations for Plague Doctor and the advent clock
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → PlagueDoctorAnim
 
@@ -305,3 +308,5 @@ public override void Stop()
 ```csharp
 private void Update()
 ```
+#INC
+

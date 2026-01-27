@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ResearchPanel
 public class ResearchPanel : MonoBehaviour, IDraggableObject
 ```
 
+Draggable research panel in the [ResearchWindow](/api/Global/IANimatorEventCalled/ResearchWindow).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResearchPanel
 
@@ -36,6 +41,8 @@ public ResearchPanel()
 ```csharp
 private Color _currentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private Color _currentColor
 ```csharp
 private ResearchItemModel _currentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private ResearchItemModel _currentModel
 ```csharp
 private DraggedObject _dragged
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private DraggedObject _dragged
 ```csharp
 private bool _dropped
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private bool _dropped
 ```csharp
 private bool _isDragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private bool _isDragging
 ```csharp
 private bool _isSelectedPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private bool _isSelectedPanel
 ```csharp
 private bool _panelDropped
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private bool _panelDropped
 ```csharp
 private bool _remove
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private bool _remove
 ```csharp
 private ResearchWindow _window
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private ResearchWindow _window
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public GameObject ActiveControl
 ```csharp
 public Animator Anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public Animator Anim
 ```csharp
 public List<MaskableGraphic> coloredTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public List<MaskableGraphic> coloredTarget
 ```csharp
 private const string draggedPanelSrc = "UIComponent/FloatingResearch"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private const string draggedPanelSrc = "UIComponent/FloatingResearch"
 ```csharp
 public Drag dragScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public Drag dragScript
 ```csharp
 private const float heightMove = 65
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private const float heightMove = 65
 ```csharp
 private const string iconDefSrc = "Sprites/UI/Icons/Research/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private const string iconDefSrc = "Sprites/UI/Icons/Research/"
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ public int index
 ```csharp
 public Text PanelName
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ public Text PanelName
 ```csharp
 public RectTransform PanelRectTr
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ public RectTransform PanelRectTr
 ```csharp
 public Image ResearchIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +281,8 @@ public Image ResearchIcon
 ```csharp
 public Text ResearchLongDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +293,8 @@ public Text ResearchLongDesc
 ```csharp
 public Text ResearchName
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +305,8 @@ public Text ResearchName
 ```csharp
 public Text ResearchShortDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +317,8 @@ public Text ResearchShortDesc
 ```csharp
 public AudioClipPlayer ResearchSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -310,6 +363,8 @@ public RectTransform RectTransform { get; }
 ```csharp
 public GameObject GenDraggedObject(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,6 +381,8 @@ public GameObject GenDraggedObject(string name)
 ```csharp
 public DraggedObject GetDraggingObject()
 ```
+#INC
+
 
 #### Returns
 
@@ -336,18 +393,24 @@ public DraggedObject GetDraggingObject()
 ```csharp
 public void OnCanceled()
 ```
+#INC
+
 
 ### OnDragStart()
 
 ```csharp
 public void OnDragStart()
 ```
+#INC
+
 
 ### OnDropEnd(Drop, bool)
 
 ```csharp
 public void OnDropEnd(Drop drop, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -361,36 +424,48 @@ public void OnDropEnd(Drop drop, bool state)
 ```csharp
 public void OnEndDrag()
 ```
+#INC
+
 
 ### OnPointerClick()
 
 ```csharp
 public void OnPointerClick()
 ```
+#INC
+
 
 ### OnPointerEnter()
 
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### PanelReset()
 
 ```csharp
 public void PanelReset()
 ```
+#INC
+
 
 ### SetColor(Color)
 
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -403,6 +478,8 @@ public void SetColor(Color c)
 ```csharp
 public void SetData(ResearchItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -415,6 +492,8 @@ public void SetData(ResearchItemModel model)
 ```csharp
 public void SetIndex(int index, int maxIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -428,12 +507,17 @@ public void SetIndex(int index, int maxIndex)
 ```csharp
 public void SetSelectedPanel()
 ```
+#INC
+#code-generated
+
 
 ### SetTextureAlpha(float)
 
 ```csharp
 public void SetTextureAlpha(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -446,12 +530,16 @@ public void SetTextureAlpha(float alpha)
 ```csharp
 private void SetUI()
 ```
+#INC
+
 
 ### SetWindow(ResearchWindow)
 
 ```csharp
 public void SetWindow(ResearchWindow window)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,3 +552,5 @@ public void SetWindow(ResearchWindow window)
 ```csharp
 private void Start()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditSection
 ```csharp
 public class CreditSection
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreditSection
@@ -33,6 +35,8 @@ public CreditSection()
 ```csharp
 public List<CreditItem> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public List<CreditItem> list
 ```csharp
 public string SectionName
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public string SectionName
 ```csharp
 public CreditSectionType sectionType
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,9 @@ public CreditSectionType sectionType
 ```csharp
 public void BuildText(ref StringBuilder builder)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

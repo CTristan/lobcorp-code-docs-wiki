@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BossGateWay
 public class BossGateWay : BirdCreatureBase
 ```
 
+Entrance to the Black Forest, as seen in [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → BossGateWay
 
@@ -43,6 +48,8 @@ private BossGateWay.GateWayState __GatewayState
 ```csharp
 private BossGateWayAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private BossGateWayAnim _animScript
 ```csharp
 private BigBird bigBird
 ```
+[Big Bird](/api/Global/Misc/BigBird)'s instance.
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private BigBird bigBird
 ```csharp
 private BossBird bossBird
 ```
+[Apocalypse Bird](/api/Global/Misc/BossBird)'s instance.
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private BossBird bossBird
 ```csharp
 private LongBird longBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private LongBird longBird
 ```csharp
 private SmallBird smallBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private SmallBird smallBird
 ```csharp
 private Timer stateChecker
 ```
+Counts down to the next time Entrance reminds the birds to move to this node.
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private Timer stateChecker
 ```csharp
 private const float stateCheckFreq = 5
 ```
+
+
 
 #### Field Value
 
@@ -137,12 +156,17 @@ public BossGateWay.GateWayState gateWayState { get; }
 ```csharp
 private void BirdsCheck()
 ```
+Tells all birds to move to Entrance's location.
+
 
 ### GetRadius()
 
 ```csharp
 public override float GetRadius()
 ```
+Returns 1.
+#code-generated
+
 
 #### Returns
 
@@ -153,6 +177,8 @@ public override float GetRadius()
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+If not all birds have reached Entrance, tells Apocalypse Bird that the gateway has been suppressed. Returns false either way.
+
 
 #### Returns
 
@@ -163,12 +189,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnEnterBird()
 ```
+If this isn't the last bird, increases Entrance's level, restores all health, and tells the animator a bird has entered. If the last bird enters, instead increases the level, sets its HP to 0, and suppresses itself.
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel model)
 ```
+Every 5 seconds tells the breached birds to move to Entrance (unless Entrance is dead or in an invalid location).
+
 
 #### Parameters
 
@@ -181,18 +211,24 @@ public override void OnFixedUpdate(CreatureModel model)
 ```csharp
 public override void OnInit()
 ```
+Calls base and starts a 5 second timer to remind the birds to go to Entrance.
+
 
 ### OnSetState()
 
 ```csharp
 private void OnSetState()
 ```
+Restores all health and tells the animator a bird has entered.
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+Calls base and registers Entrance with its animation script. Also, reveals its defenses and basic info.
+
 
 #### Parameters
 
@@ -205,6 +241,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void SetBirds(BigBird big, SmallBird small, LongBird @long, BossBird boss)
 ```
+Registers all bird instances with the given birds, including Apocalypse Bird.
+
 
 #### Parameters
 

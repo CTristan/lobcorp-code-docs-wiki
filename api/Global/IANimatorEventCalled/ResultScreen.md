@@ -12,6 +12,11 @@ canonical_path: /api/Global/IANimatorEventCalled/ResultScreen
 public class ResultScreen : MonoBehaviour, IAnimatorEventCalled
 ```
 
+UI showing the results of the day at the end of the management phase.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResultScreen
 
@@ -36,6 +41,8 @@ public ResultScreen()
 ```csharp
 private static ResultScreen _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private static ResultScreen _instance
 ```csharp
 private const string AgentSlotSrc = "UIComponent/ResultScreenAgentSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string AgentSlotSrc = "UIComponent/ResultScreenAgentSlot"
 ```csharp
 public Image bg
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Image bg
 ```csharp
 public UIController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public UIController controller
 ```csharp
 public Image graph
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Image graph
 ```csharp
 public bool isInited
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public bool isInited
 ```csharp
 public ScrollExchanger missionScroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public ScrollExchanger missionScroll
 ```csharp
 private const string MissionSlotSrc = "UIComponent/MissionSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private const string MissionSlotSrc = "UIComponent/MissionSlot"
 ```csharp
 public Animator nextScneAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Animator nextScneAnim
 ```csharp
 public ScrollExchanger promotedScroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public ResultScreen.Report report
 ```csharp
 public GameObject root
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,18 +197,24 @@ public static ResultScreen instance { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,18 +227,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,12 +258,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,24 +280,32 @@ public void OnCalled(int i)
 ```csharp
 public void OnClickContinueGame()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnMoveNextStage()
 
 ```csharp
 public void OnMoveNextStage()
 ```
+#INC
+
 
 ### OnPointerClicK(int)
 
 ```csharp
 public void OnPointerClicK(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +318,8 @@ public void OnPointerClicK(int i)
 ```csharp
 public void OnPointerEnter(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +332,8 @@ public void OnPointerEnter(int i)
 ```csharp
 public void OnPointerExit(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,18 +346,25 @@ public void OnPointerExit(int i)
 ```csharp
 public void OnSuccessManagement()
 ```
+#INC
+#code-generated
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,3 +377,5 @@ public void SoundMake(string src)
 ```csharp
 public void Update()
 ```
+#INC
+

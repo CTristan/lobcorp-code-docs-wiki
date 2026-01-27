@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ResultScreenAgentSlot
 public class ResultScreenAgentSlot : MonoBehaviour
 ```
 
+Displays an agent for the promotion window of the [ResultScreen](/api/Global/IANimatorEventCalled/ResultScreen).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResultScreenAgentSlot
 
@@ -33,6 +38,8 @@ public ResultScreenAgentSlot()
 ```csharp
 public Text AgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Text AgentName
 ```csharp
 public GameObject levelUpedArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public GameObject levelUpedArrow
 ```csharp
 public Image newGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Image newGrade
 ```csharp
 public Text[] newStatTxt
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Text[] newStatTxt
 ```csharp
 public Image oldGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Image oldGrade
 ```csharp
 public Text[] oldStatTxt
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Text[] oldStatTxt
 ```csharp
 public Image onlyGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Image onlyGrade
 ```csharp
 public WorkerPortraitSetter setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public WorkerPortraitSetter setter
 ```csharp
 public GameObject[] statChangedArrows
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +160,9 @@ public RectTransform rect { get; }
 ```csharp
 public void Init(AgentModel agent, WorkerPrimaryStatBonus oldStat, int[] oldStatLevels, int oldLevel)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -152,6 +178,8 @@ public void Init(AgentModel agent, WorkerPrimaryStatBonus oldStat, int[] oldStat
 ```csharp
 public void StatChanged(int i)
 ```
+#INC
+
 
 #### Parameters
 

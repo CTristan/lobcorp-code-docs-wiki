@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/PinkCorpsGift
 public class PinkCorpsGift : EquipmentScriptBase
 ```
 
+Script for [Army in Black](/api/Global/IOBserver/PinkCorps)'s EGO Gift: Pink. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → PinkCorpsGift
 

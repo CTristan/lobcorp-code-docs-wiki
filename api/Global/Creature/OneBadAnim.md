@@ -12,6 +12,13 @@ canonical_path: /api/Global/Creature/OneBadAnim
 public class OneBadAnim : CreatureAnimScript
 ```
 
+Animation handler for [One Sin and Thousands of Good Deeds](/api/Global/Misc/OneBadManyGood). No script.
+
+(Well, it's loaded into the game, it just doesn't do anything...)
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → OneBadAnim
 
@@ -33,9 +40,14 @@ public OneBadAnim()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

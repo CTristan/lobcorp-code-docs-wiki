@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/IsolateOverload
 public class IsolateOverload : MonoBehaviour
 ```
 
+Qliphoth Meltdown on a [containment unit](/api/Global/IOBserver/IsolateRoom).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateOverload
 
@@ -33,6 +36,8 @@ public IsolateOverload()
 ```csharp
 private bool _isActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _isActivated
 ```csharp
 public List<Image> alarms
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public List<Image> alarms
 ```csharp
 private float alarmValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float alarmValue
 ```csharp
 private float originPositionY
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private float originPositionY
 ```csharp
 public Image timerBar
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Image timerBar
 ```csharp
 public Text timerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public Text timerText
 ```csharp
 private float yAdder
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,12 +144,17 @@ public float OriginPositionY { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +167,8 @@ public void SetActive(bool b)
 ```csharp
 public void SetTimer(float t, float max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,3 +182,5 @@ public void SetTimer(float t, float max)
 ```csharp
 private void Update()
 ```
+#INC
+

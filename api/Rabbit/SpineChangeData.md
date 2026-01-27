@@ -11,6 +11,8 @@ canonical_path: /api/Rabbit/SpineChangeData
 ```csharp
 public class SpineChangeData
 ```
+information for updating a positioning and color with Spine
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpineChangeData

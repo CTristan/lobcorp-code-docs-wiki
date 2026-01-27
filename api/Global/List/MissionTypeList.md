@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/MissionTypeList
 ```csharp
 public class MissionTypeList
 ```
+Holds the list and information about all missions.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MissionTypeList
@@ -25,6 +29,9 @@ public class MissionTypeList
 ```csharp
 private MissionTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private MissionTypeList()
 ```csharp
 private static MissionTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static MissionTypeList _instance
 ```csharp
 private List<MissionTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +78,8 @@ public static MissionTypeList instance { get; }
 ```csharp
 public MissionTypeInfo GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +96,8 @@ public MissionTypeInfo GetData(int id)
 ```csharp
 public IList<MissionTypeInfo> GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -93,3 +108,5 @@ public IList<MissionTypeInfo> GetList()
 ```csharp
 public void LoadData()
 ```
+#INC
+

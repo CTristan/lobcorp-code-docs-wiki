@@ -11,6 +11,14 @@ canonical_path: /api/Global/Misc/IEventReceiver
 ```csharp
 public interface IEventReceiver
 ```
+Interface with one method. Presumably to be called for... observers... which wouldn't fit this pattern...
+Unused.
+
+#unused 
+
+#### Method
+OnEvent(object param)
+
 
 ## Methods
 
@@ -19,6 +27,9 @@ public interface IEventReceiver
 ```csharp
 void OnEvent(object param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

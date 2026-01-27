@@ -11,6 +11,8 @@ canonical_path: /api/Global/IANimatorEventCalled/ExpandUI
 ```csharp
 public class ExpandUI : MonoBehaviour, IAnimatorEventCalled
 ```
+UI for expanding departments.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ExpandUI
@@ -36,6 +38,8 @@ public ExpandUI()
 ```csharp
 public GameObject _binahConnection
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ public GameObject _binahConnection
 ```csharp
 public GameObject _chokhmahConnection
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public GameObject _chokhmahConnection
 ```csharp
 private ExpandSefiraPanel _currentPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ private ExpandSefiraPanel _currentPanel
 ```csharp
 private static ExpandUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ private static ExpandUI _instance
 ```csharp
 private bool _isLoadNextScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private ExpandUI.OnOpenEvent _openEvent
 ```csharp
 private SefiraEnum _selectedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ private SefiraEnum _selectedSefira
 ```csharp
 public GameObject ActiveContorl
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ public GameObject ActiveContorl
 ```csharp
 public Animator appearAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public Animator appearAnim
 ```csharp
 public Transform BlockLayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ public Transform BlockLayer
 ```csharp
 public ColorMultiplier[] buttonColorMultiplier
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +178,8 @@ public List<ExpandUI.ExpandCondition> conditions
 ```csharp
 public GameObject currentCharacter
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +190,8 @@ public GameObject currentCharacter
 ```csharp
 public Text dayCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +202,8 @@ public Text dayCount
 ```csharp
 public Color Deco_DisabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +214,8 @@ public Color Deco_DisabledColor
 ```csharp
 public Color[] Deco_LayerColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +226,8 @@ public Color[] Deco_LayerColor
 ```csharp
 public Color Deco_OpenableColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +238,8 @@ public Color Deco_OpenableColor
 ```csharp
 public StoryDialogueUI diaglogUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +271,8 @@ public List<GameObject> lowerConnection
 ```csharp
 public CanvasGroup LowerLayerBlockedEFfect
 ```
+#INC
+
 
 #### Field Value
 
@@ -258,6 +294,8 @@ public List<GameObject> middleConnection
 ```csharp
 public CanvasGroup MiddleLayerBlockedEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -268,6 +306,8 @@ public CanvasGroup MiddleLayerBlockedEffect
 ```csharp
 public Sprite PanelLevelFill_Filled
 ```
+#INC
+
 
 #### Field Value
 
@@ -278,6 +318,8 @@ public Sprite PanelLevelFill_Filled
 ```csharp
 public Sprite PanelLevelFill_Normal
 ```
+#INC
+
 
 #### Field Value
 
@@ -298,6 +340,8 @@ public List<ExpandUI.ExpandPanelData> panels
 ```csharp
 public Animator SceneLoadAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -308,6 +352,8 @@ public Animator SceneLoadAnim
 ```csharp
 public GameObject SelectControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -318,6 +364,8 @@ public GameObject SelectControl
 ```csharp
 public StoryStandingCGRootUI standingCGRootUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +376,8 @@ public StoryStandingCGRootUI standingCGRootUI
 ```csharp
 private Transform tempParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -338,6 +388,8 @@ private Transform tempParent
 ```csharp
 public UIController uiContorller
 ```
+#INC
+
 
 #### Field Value
 
@@ -392,18 +444,24 @@ public SefiraEnum SelectedSefira { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -416,30 +474,41 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckLowerLayer()
 
 ```csharp
 public void CheckLowerLayer()
 ```
+#INC
+
 
 ### CheckMiddleLayer()
 
 ```csharp
 public void CheckMiddleLayer()
 ```
+#INC
+
 
 ### CheckSefiraExpandAvailable()
 
 ```csharp
 public bool CheckSefiraExpandAvailable()
 ```
+#INC
+
 
 #### Returns
 
@@ -450,18 +519,24 @@ public bool CheckSefiraExpandAvailable()
 ```csharp
 private void CloseSelectWindow()
 ```
+#INC
+
 
 ### ConditionInit()
 
 ```csharp
 private void ConditionInit()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,6 +566,8 @@ public ExpandUI.ExpandCondition GetCondition(SefiraEnum sefira)
 ```csharp
 public Color GetEnabledColor(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -507,6 +584,8 @@ public Color GetEnabledColor(SefiraEnum sefira)
 ```csharp
 public SefiraLevel GetLevel(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -535,6 +614,8 @@ public void Init(ExpandUI.OnOpenEvent e)
 ```csharp
 public bool LevelCondtionCheck(SefiraLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -551,12 +632,16 @@ public bool LevelCondtionCheck(SefiraLevel level)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -569,54 +654,72 @@ public void OnCalled(int i)
 ```csharp
 public void OnClickCancel()
 ```
+#INC
+
 
 ### OnClickConfirm()
 
 ```csharp
 public void OnClickConfirm()
 ```
+#INC
+
 
 ### OnDebugClick()
 
 ```csharp
 public void OnDebugClick()
 ```
+#INC
+
 
 ### OnOpen()
 
 ```csharp
 private void OnOpen()
 ```
+#INC
+
 
 ### OnPanelInput()
 
 ```csharp
 public void OnPanelInput()
 ```
+#INC
+
 
 ### OnStartSceneAnim()
 
 ```csharp
 public void OnStartSceneAnim()
 ```
+#INC
+
 
 ### OpenSelectWindow()
 
 ```csharp
 private void OpenSelectWindow()
 ```
+#INC
+
 
 ### SimpleReset()
 
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -629,6 +732,8 @@ public void SoundMake(string src)
 ```csharp
 public void TryOpenSefira(ExpandSefiraPanel panel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -641,6 +746,8 @@ public void TryOpenSefira(ExpandSefiraPanel panel)
 ```csharp
 public void TryOpenSefira(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 

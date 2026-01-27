@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SefiraBossCreatureModel
 public class SefiraBossCreatureModel : CreatureModel, IObserver, ISerializablePlayData, IMouseCommandTargetModel
 ```
 
+Represents a sephirah's physical model during their [core suppression](/api/Global/Misc/SefiraBossBase). #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → [CreatureModel](/api/Global/Model/CreatureModel) → SefiraBossCreatureModel
 
@@ -28,6 +33,8 @@ public class SefiraBossCreatureModel : CreatureModel, IObserver, ISerializablePl
 ```csharp
 public SefiraBossCreatureModel(long instanceId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public SefiraBossCreatureModel(long instanceId)
 ```csharp
 private SefiraBossBase _sefiraBoss
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +61,8 @@ private SefiraBossBase _sefiraBoss
 ```csharp
 public float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public SefiraBossBase SefiraBoss { get; private set; }
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,18 +105,25 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public void OnDestroy()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### SetSefiraBoss(SefiraBossBase)
 
 ```csharp
 public void SetSefiraBoss(SefiraBossBase sefiraBoss)
 ```
+#INC
+
 
 #### Parameters
 

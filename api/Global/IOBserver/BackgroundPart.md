@@ -11,6 +11,9 @@ canonical_path: /api/Global/IOBserver/BackgroundPart
 ```csharp
 public class BackgroundPart : MonoBehaviour, IObserver
 ```
+Represents department backgrounds? Or maybe just Architecture...?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BackgroundPart
@@ -36,6 +39,8 @@ public BackgroundPart()
 ```csharp
 private bool activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool activated
 ```csharp
 private Vector3 basePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private Vector3 basePosition
 ```csharp
 private bool blocked
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +86,8 @@ public float cameraDistance
 ```csharp
 protected int maskingId
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +98,8 @@ protected int maskingId
 ```csharp
 private int noticeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ private int noticeId
 ```csharp
 public SefiraEnum sephira
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,24 +124,33 @@ public SefiraEnum sephira
 ```csharp
 public virtual void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDisable()
 
 ```csharp
 public void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnLateUpdateCamera(params object[])
 
 ```csharp
 private void OnLateUpdateCamera(params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,6 +163,8 @@ private void OnLateUpdateCamera(params object[] param)
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,15 +178,21 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### ReadBase()
 
 ```csharp
 public void ReadBase()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+

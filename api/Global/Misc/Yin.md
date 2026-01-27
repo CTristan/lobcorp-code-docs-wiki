@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Yin
 public class Yin : YinAndYangBase
 ```
 
+Yin.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [YinAndYangBase](/api/Global/Misc/YinAndYangBase) → Yin
 
@@ -33,6 +38,8 @@ public Yin()
 ```csharp
 private YinAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private YinAnim _animScript
 ```csharp
 private readonly DamageInfo _auraDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly DamageInfo _auraDmg
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private float _elapsedTime
 ```csharp
 private const float _FREQ_AURA_DMG = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _FREQ_AURA_DMG = 3
 ```csharp
 private const float _FREQ_CASING_LASER = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _FREQ_CASING_LASER = 60
 ```csharp
 private bool _isEnterYang
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private bool _isEnterYang
 ```csharp
 private Timer _laserTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private Timer _laserTimer
 ```csharp
 private const int _MAX_QLIPHOTH = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _MAX_QLIPHOTH = 2
 ```csharp
 private Timer _reviveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer _reviveTimer
 ```csharp
 private const float _TIME_REVIVAL = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _TIME_REVIVAL = 30
 ```csharp
 private Yang _yangBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private Yang _yangBase
 ```csharp
 public readonly DamageInfo laserExplosionDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public readonly DamageInfo laserExplosionDmg
 ```csharp
 public readonly float MULTIPLIER_MOVEMENT
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,36 +196,48 @@ public readonly float MULTIPLIER_MOVEMENT
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Arrive()
 
 ```csharp
 protected override void Arrive()
 ```
+#INC
+
 
 ### DamageToUnits()
 
 ```csharp
 private void DamageToUnits()
 ```
+#INC
+
 
 ### Die()
 
 ```csharp
 public void Die()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -205,6 +248,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,6 +262,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -229,12 +276,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -247,30 +298,40 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -283,6 +344,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -295,24 +358,32 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 protected override void ProcessCollision()
 ```
+#INC
+
 
 ### ResetFields()
 
 ```csharp
 protected override void ResetFields()
 ```
+#INC
+
 
 ### Revive()
 
 ```csharp
 public override void Revive()
 ```
+#INC
+
 
 ### SetDestination()
 
 ```csharp
 private MapNode SetDestination()
 ```
+#INC
+
 
 #### Returns
 
@@ -323,6 +394,8 @@ private MapNode SetDestination()
 ```csharp
 public override bool UniqueMoveControl()
 ```
+#INC
+
 
 #### Returns
 
@@ -333,9 +406,14 @@ public override bool UniqueMoveControl()
 ```csharp
 public override void Unite()
 ```
+#INC
+#code-generated
+
 
 ### UniteYinAngYang()
 
 ```csharp
 private void UniteYinAngYang()
 ```
+#INC
+

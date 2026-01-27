@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BloodyTree
 public class BloodyTree : CreatureBase
 ```
 
+The Burrowing Heaven.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BloodyTree
 
@@ -33,6 +36,8 @@ public BloodyTree()
 ```csharp
 private const float _attackDelay = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _attackDelay = 3
 ```csharp
 private Timer _attackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _attackTimer
 ```csharp
 private Timer _counterSubTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _counterSubTimer
 ```csharp
 private const int _damageMax = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const int _damageMax = 150
 ```csharp
 private const int _damageMin = 150
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const int _damageMin = 150
 ```csharp
 private bool _prevCameraState_NonEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private bool _prevCameraState_NonEscaped
 ```csharp
 private bool _shouldAddQliphothCounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private bool _shouldAddQliphothCounter
 ```csharp
 private bool _shouldMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private bool _shouldMove
 ```csharp
 private DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private DamageInfo damageInfo
 ```csharp
 private const string DebugPrefix = "<color=#AA0000>[BloodyTree]</color> "
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private CreatureCameraUtil escapedUtil
 ```csharp
 private const int MaxQliphothCount = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +188,8 @@ private CreatureCameraUtil nonEscapedUtil
 ```csharp
 private const float QliphothCounterSubDelay = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,12 +224,16 @@ private int MaxWork { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,6 +251,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckTeleportState(out PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,12 +269,16 @@ private bool CheckTeleportState(out PassageObjectModel passage)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetRandomNode(PassageObjectModel)
 
 ```csharp
 private MapNode GetRandomNode(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +295,8 @@ private MapNode GetRandomNode(PassageObjectModel passage)
 ```csharp
 public string GetSkillSoundSrc()
 ```
+#INC
+
 
 #### Returns
 
@@ -268,6 +307,8 @@ public string GetSkillSoundSrc()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,6 +325,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public void KillWorker(WorkerModel target, bool makeEffect = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,6 +340,8 @@ public void KillWorker(WorkerModel target, bool makeEffect = false)
 ```csharp
 public static void Log(string log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,6 +354,8 @@ public static void Log(string log)
 ```csharp
 private void MakeDamage(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,6 +368,8 @@ private void MakeDamage(PassageObjectModel passage)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,6 +386,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src, AudioRolloffMode mode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,6 +405,8 @@ public override SoundEffectPlayer MakeSound(string src, AudioRolloffMode mode)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -364,6 +417,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -376,6 +431,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -388,6 +445,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -400,12 +459,16 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -418,6 +481,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkClosed(UseSkill skill, int successCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,6 +496,8 @@ public override void OnWorkClosed(UseSkill skill, int successCount)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,12 +510,17 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### SetUtilInspector(CreatureCameraUtil_Inspector, CreatureCameraUtil_Inspector)
 
 ```csharp
 public void SetUtilInspector(CreatureCameraUtil_Inspector nonEscaped, CreatureCameraUtil_Inspector escaped)
 ```
+#INC
+
 
 #### Parameters
 
@@ -462,6 +534,8 @@ public void SetUtilInspector(CreatureCameraUtil_Inspector nonEscaped, CreatureCa
 ```csharp
 private void Teleport(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -474,6 +548,8 @@ private void Teleport(PassageObjectModel passage)
 ```csharp
 public override float TranformWorkProb(float originWorkProb)
 ```
+#INC
+
 
 #### Parameters
 
@@ -490,3 +566,5 @@ public override float TranformWorkProb(float originWorkProb)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

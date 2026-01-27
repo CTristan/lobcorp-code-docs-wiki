@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/ChesedBossBuf
 public class ChesedBossBuf : UnitBuf
 ```
 
+Buff for [Chesed's core suppression](/api/Global/UnitBuf/ChesedBossBuf). Increases damage taken.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → ChesedBossBuf
 
@@ -25,6 +28,8 @@ public class ChesedBossBuf : UnitBuf
 ```csharp
 public ChesedBossBuf(ChesedBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public ChesedBossBuf(ChesedBossBase bossBase)
 ```csharp
 private ChesedBossBase _bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private ChesedBossBase _bossBase
 ```csharp
 private const float _damageFactor = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,12 +70,17 @@ private const float _damageFactor = 5
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Tutorial/ClickTutorial
 ```csharp
 public class ClickTutorial : Tutorial
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → ClickTutorial
@@ -33,6 +35,8 @@ public ClickTutorial()
 ```csharp
 public float blockTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public float blockTime
 ```csharp
 private bool clicked
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private bool clicked
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +73,17 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+
 
 ### SetArrow(int)
 
 ```csharp
 private void SetArrow(int step)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,21 +96,29 @@ private void SetArrow(int step)
 ```csharp
 private void SetArrow_FirstStep()
 ```
+#INC
+
 
 ### SetArrow_SecondStep()
 
 ```csharp
 private void SetArrow_SecondStep()
 ```
+#INC
+
 
 ### SetArrow_ThirdStep()
 
 ```csharp
 private void SetArrow_ThirdStep()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/DefenseInfo
 ```csharp
 public class DefenseInfo
 ```
+Calculates and stores multipliers for each damage type, and provides some helper functions for getting them.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DefenseInfo
@@ -33,6 +35,8 @@ public DefenseInfo()
 ```csharp
 public float B
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public float B
 ```csharp
 public float P
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public float P
 ```csharp
 public float R
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public float R
 ```csharp
 public float W
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +97,9 @@ public static DefenseInfo zero { get; }
 ```csharp
 public DefenseInfo Copy()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -129,6 +142,8 @@ public DefenseInfo.Type GetDefenseType(RwbpType type)
 ```csharp
 public float GetMultiplier(RwbpType rwbpType)
 ```
+#INC
+
 
 #### Parameters
 

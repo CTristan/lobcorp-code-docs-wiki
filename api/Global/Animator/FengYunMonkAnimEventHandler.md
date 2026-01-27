@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/FengYunMonkAnimEventHandler
 public class FengYunMonkAnimEventHandler : AnimatorEventHandler
 ```
 
+Animation handler for [Clouded Monk](/api/Global/IOBserver/FengYun)'s normal form.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → FengYunMonkAnimEventHandler
 
@@ -33,6 +38,8 @@ public FengYunMonkAnimEventHandler()
 ```csharp
 private const string _SOUND_TRANSFORM = "creature/FengYun/Templer_Transform"
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ private AnimatorEventHandler.EventDelegate _transEndEvent
 ```csharp
 public void PlayTransformSound()
 ```
+#INC
+
 
 ### SetTransEndEvent(EventDelegate)
 
@@ -73,3 +82,5 @@ public void SetTransEndEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void TransEndEvent()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/Prefab
 ```csharp
 public class Prefab
 ```
+Helper for loading prefabs. (Note: Please use [ResourceCache](/api/Global/Misc/ResourceCache) instead of this.)
+#INC 
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Prefab
@@ -33,6 +37,8 @@ public Prefab()
 ```csharp
 public static GameObject LoadPrefab(string name)
 ```
+Loads the prefab with the given name from the prefabs folder and instantiates the game object.
+
 
 #### Parameters
 

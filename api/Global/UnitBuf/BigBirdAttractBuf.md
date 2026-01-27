@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BigBirdAttractBuf
 public class BigBirdAttractBuf : UnitBuf
 ```
 
+Attract effect for [Big Bird](/api/Global/Misc/BigBird) during breach. Three phases, take half damage in first and none in the second and third. Marks for instakill when Big Bird is reached.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BigBirdAttractBuf
 
@@ -25,6 +28,8 @@ public class BigBirdAttractBuf : UnitBuf
 ```csharp
 public BigBirdAttractBuf(BigBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public BigBirdAttractBuf(BigBird script)
 ```csharp
 private const float _dmgRatio_First = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private const float _dmgRatio_First = 0.5
 ```csharp
 private const float _dmgRatio_Second = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private const float _dmgRatio_Second = 0
 ```csharp
 private const float _dmgRatio_Third = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private const float _dmgRatio_Third = 0
 ```csharp
 private const float _elapsedCondition2nd = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private const float _elapsedCondition2nd = 15
 ```csharp
 private const float _elapsedCondition3rd = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +114,8 @@ private BigBirdAttractBuf.Phase _phase
 ```csharp
 private const float _remainTime = Infinity
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +126,8 @@ private const float _remainTime = Infinity
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +138,8 @@ private GameObject effect
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +150,8 @@ private float elapsedTime
 ```csharp
 private BigBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +162,8 @@ private BigBird script
 ```csharp
 private const string src = "Effect/Creature/BigBird/BigBirdAttractEffect_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +174,8 @@ private const string src = "Effect/Creature/BigBird/BigBirdAttractEffect_"
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +216,8 @@ private GameObject AttachEffect(BigBirdAttractBuf.Phase p)
 ```csharp
 private bool CheckAvailable()
 ```
+#INC
+
 
 #### Returns
 
@@ -199,30 +228,41 @@ private bool CheckAvailable()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### FixedUpdate_First()
 
 ```csharp
 private void FixedUpdate_First()
 ```
+#INC
+
 
 ### FixedUpdate_Second()
 
 ```csharp
 private void FixedUpdate_Second()
 ```
+#INC
+
 
 ### FixedUpdate_Third()
 
 ```csharp
 private void FixedUpdate_Third()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -235,12 +275,16 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,9 +302,13 @@ public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### RemoveEffect()
 
 ```csharp
 private void RemoveEffect()
 ```
+#INC
+

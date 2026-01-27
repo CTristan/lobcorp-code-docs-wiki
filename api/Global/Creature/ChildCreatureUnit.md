@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/ChildCreatureUnit
 public class ChildCreatureUnit : CreatureUnit, IMouseOnSelectListener, IMouseCommandTarget
 ```
 
+A child creature, as it appears in-game.
+
+See also [ChildCreatureModel](/api/Global/Creature/ChildCreatureModel).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureUnit](/api/Global/Unit/CreatureUnit) → ChildCreatureUnit
 
@@ -36,6 +41,8 @@ public ChildCreatureUnit()
 ```csharp
 public bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,69 +67,94 @@ public ChildCreatureModel Model { get; }
 ```csharp
 public override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 public override void LateUpdate()
 ```
+#INC
+
 
 ### OnChangeState()
 
 ```csharp
 public override void OnChangeState()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public override void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+
 
 ### UpdateDirection()
 
 ```csharp
 protected override void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateScale()
 
 ```csharp
 protected override void UpdateScale()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 protected override void UpdateViewPosition()
 ```
+#INC
+

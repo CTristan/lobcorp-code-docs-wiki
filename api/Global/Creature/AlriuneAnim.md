@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/AlriuneAnim
 public class AlriuneAnim : CreatureAnimScript
 ```
 
+Animation handler for [Alriune](/api/Global/Misc/Alriune).
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → AlriuneAnim
 
@@ -33,6 +38,8 @@ public AlriuneAnim()
 ```csharp
 private static float alphaValue
 ```
+Holds the transparency change of Alriune's petals when progressed. Set to 0.004285714f.
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private static float alphaValue
 ```csharp
 public SpriteRenderer[] petals
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public SpriteRenderer[] petals
 ```csharp
 private Alriune script
 ```
+Alriune.
+
 
 #### Field Value
 
@@ -65,24 +76,33 @@ private Alriune script
 ```csharp
 public void PlayEscapeMotion()
 ```
+Sets the animator to play the escape animation.
+#code-generated
+
 
 ### ProgressCasting()
 
 ```csharp
 public void ProgressCasting()
 ```
+When called, increases the opacity of next non-opaque petal.
+
 
 ### ResetPetals()
 
 ```csharp
 public void ResetPetals()
 ```
+Sets the alpha of all petals to 0, making them fully transparent.
+
 
 ### SetScript(Alriune)
 
 ```csharp
 public void SetScript(Alriune script)
 ```
+Registers Alriune's instance.
+
 
 #### Parameters
 

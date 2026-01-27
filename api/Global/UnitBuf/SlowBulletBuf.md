@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/SlowBulletBuf
 public class SlowBulletBuf : UnitBuf
 ```
 
+Slowing effect applied by the slow bullet.
+
+Slows to 0.5x speed.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlowBulletBuf
 
@@ -25,6 +30,8 @@ public class SlowBulletBuf : UnitBuf
 ```csharp
 public SlowBulletBuf(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public SlowBulletBuf(float time)
 ```csharp
 private EffectInvoker slowEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private EffectInvoker slowEffect
 ```csharp
 private const string slowEffectSrc = "SlowEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,9 @@ private const string slowEffectSrc = "SlowEffect"
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -73,6 +87,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -83,3 +99,5 @@ public override float MovementScale()
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/GameStatusUI/BinahPlaySpeedBlockUI
 public class BinahPlaySpeedBlockUI : PlaySpeedSettingBlockedUI
 ```
 
+For displaying text indicated that you cannot change the play speed during the third phase of Binah's Sephirah meltdown.
+
+See [BinahBossBase](/api/Global/Misc/BinahBossBase)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PlaySpeedSettingBlockedUI](/api/GameStatusUI/PlaySpeedSettingBlockedUI) → BinahPlaySpeedBlockUI
 
@@ -33,6 +38,8 @@ public BinahPlaySpeedBlockUI()
 ```csharp
 private BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private BinahCoreScript binah
 ```csharp
 public AudioClip clip
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public AudioClip clip
 ```csharp
 public AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public AnimationCurve curve
 ```csharp
 public CanvasGroup group
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public CanvasGroup group
 ```csharp
 public Text textDisplayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text textDisplayed
 ```csharp
 private List<string> textList
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ private List<string> textList
 ```csharp
 public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,18 +130,25 @@ public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```csharp
 public override void OnShow()
 ```
+#INC
+#code-generated
+
 
 ### OnTryTimeStop()
 
 ```csharp
 public void OnTryTimeStop()
 ```
+#INC
+
 
 ### SetBinah(BinahCoreScript)
 
 ```csharp
 public void SetBinah(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +161,8 @@ public void SetBinah(BinahCoreScript binah)
 ```csharp
 public void SetText(params string[] texts)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,3 +175,5 @@ public void SetText(params string[] texts)
 ```csharp
 public override void Update()
 ```
+#INC
+

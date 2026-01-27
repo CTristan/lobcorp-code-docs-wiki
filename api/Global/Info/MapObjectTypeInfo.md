@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/MapObjectTypeInfo
 ```csharp
 public class MapObjectTypeInfo
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapObjectTypeInfo
@@ -33,6 +35,8 @@ public MapObjectTypeInfo()
 ```csharp
 public int horrorPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public int horrorPoint
 ```csharp
 public long id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public long id
 ```csharp
 public string src
 ```
+#INC
+
 
 #### Field Value
 

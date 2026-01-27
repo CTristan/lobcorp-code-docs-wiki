@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StartController
 public class StartController : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StartController
 
@@ -33,6 +36,8 @@ public StartController()
 ```csharp
 public static bool Check
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public static bool Check
 ```csharp
 public Image loadingImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Image loadingImage
 ```csharp
 public GameObject player
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public GameObject player
 ```csharp
 private void OnTriggerStay2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,9 +88,14 @@ private void OnTriggerStay2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

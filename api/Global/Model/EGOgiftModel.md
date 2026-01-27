@@ -12,6 +12,9 @@ canonical_path: /api/Global/Model/EGOgiftModel
 public class EGOgiftModel : EquipmentModel
 ```
 
+An EGO Gift.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentModel](/api/Global/Model/EquipmentModel) → EGOgiftModel
 
@@ -33,6 +36,8 @@ public EGOgiftModel()
 ```csharp
 public static EGOgiftModel GetDummyGift()
 ```
+#INC
+
 
 #### Returns
 
@@ -43,6 +48,9 @@ public static EGOgiftModel GetDummyGift()
 ```csharp
 public static EGOgiftModel MakeGift(EquipmentTypeInfo info)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

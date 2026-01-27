@@ -12,6 +12,9 @@ canonical_path: /api/Global/Animator/FreischutzAnimEventHandler
 public class FreischutzAnimEventHandler : AnimatorEventHandler
 ```
 
+Holds events for [Der Freischütz's animations](/api/Global/Creature/FreischutzAnim).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → FreischutzAnimEventHandler
 
@@ -85,6 +88,8 @@ private AnimatorEventHandler.EventDelegate _waitAndShootEvent
 ```csharp
 public void Create()
 ```
+#INC
+
 
 ### SetContinuousEvent(EventDelegate)
 
@@ -151,9 +156,13 @@ public void SetShootEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void Shoot()
 ```
+#INC
+
 
 ### WaitAndShoot()
 
 ```csharp
 public void WaitAndShoot()
 ```
+#INC
+

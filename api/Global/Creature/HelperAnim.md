@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/HelperAnim
 public class HelperAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [All-Around Helper](/api/Global/Misc/Helper).
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → HelperAnim
 
@@ -36,6 +40,8 @@ public HelperAnim()
 ```csharp
 private Helper script
 ```
+All-Around Helper.
+
 
 #### Field Value
 
@@ -48,24 +54,32 @@ private Helper script
 ```csharp
 public void AfterAttack()
 ```
+Sets the animator to the spinning dash animations. #verify
+
 
 ### AgentReset()
 
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+Plays an attack sound.
+
 
 #### Parameters
 
@@ -78,24 +92,32 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+Sets the animator to attract.
+
 
 ### CheckAlterIdle()
 
 ```csharp
 public void CheckAlterIdle()
 ```
+Randomly decides to play an alternate idle animations at a 1 in 3 chance.
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,12 +131,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void IdleAlterAnim()
 ```
+Sets the animator to do an alternative idle animation. #verify
+
 
 ### IsReadyToAttack()
 
 ```csharp
 public bool IsReadyToAttack()
 ```
+Returns the animator's 'ReadyToAttack' value.
+
 
 #### Returns
 
@@ -125,6 +151,8 @@ public bool IsReadyToAttack()
 ```csharp
 public bool IsTransform()
 ```
+Returns the animator's 'IsTransform' value.
+
 
 #### Returns
 
@@ -135,24 +163,32 @@ public bool IsTransform()
 ```csharp
 private void Kill()
 ```
+Sets the animator to kill.
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+Sets the animator to move.
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+Calls Helper's AfterDown function, for after the attack cooldown #verify .
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+Either checks if an alternative idle animation is needed, or calls Helper's OnWakeUpEnded, for after waking up.
+
 
 #### Parameters
 
@@ -165,18 +201,24 @@ public void OnCalled(int i)
 ```csharp
 public void PrepareAttack()
 ```
+Sets the animator to the charge up animation. #verify
+
 
 ### ResetAnimator()
 
 ```csharp
 public override void ResetAnimator()
 ```
+Activates the trigger to reset the animator.
+
 
 ### SetDirection(bool)
 
 ```csharp
 public void SetDirection(bool isRight)
 ```
+Sets the direction to $\pm 1$, where +1 is right.
+
 
 #### Parameters
 
@@ -189,12 +231,16 @@ public void SetDirection(bool isRight)
 ```csharp
 public void SetReadyToAttackFalse()
 ```
+Sets the animator's 'ReadyToAttack' value to false.
+
 
 ### SetScript(Helper)
 
 ```csharp
 public void SetScript(Helper script)
 ```
+Stores the Helper instance.
+
 
 #### Parameters
 
@@ -207,12 +253,16 @@ public void SetScript(Helper script)
 ```csharp
 public void SetSpinSpeed()
 ```
+Sets the spin speed to $\pm 0.1$.
+
 
 ### SetSpinSpeed(float)
 
 ```csharp
 public void SetSpinSpeed(float val)
 ```
+Sets the spin speed variable to the provided value.
+
 
 #### Parameters
 
@@ -225,12 +275,20 @@ public void SetSpinSpeed(float val)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+Plays the given sound.
+###### more details
+For 'spark', calls Helper's MakeSparkSound.
+
+Otherwise, grabs the sound key from Helper's HelperSoundKey internal class and plays the sound.
+
 
 #### Parameters
 
@@ -243,12 +301,16 @@ public void SoundMake(string src)
 ```csharp
 public override void Stop()
 ```
+Sets the animator to not move.
+
 
 ### TransformState(int)
 
 ```csharp
 public void TransformState(int state)
 ```
+Sets the animator to start transforming to the given state.
+
 
 #### Parameters
 
@@ -261,3 +323,5 @@ public void TransformState(int state)
 ```csharp
 public void WakeUp()
 ```
+Sets the animator to the waking up animation.
+

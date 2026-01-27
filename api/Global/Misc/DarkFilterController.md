@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/DarkFilterController
 ```csharp
 public class DarkFilterController : MonoBehaviour
 ```
+Applies a darkness filter. I think unused.
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DarkFilterController
@@ -33,6 +37,8 @@ public DarkFilterController()
 ```csharp
 private int _darkCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private int _darkCount
 ```csharp
 private static DarkFilterController _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,21 +75,30 @@ public static DarkFilterController instance { get; }
 ```csharp
 public void AddDarkness()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ReleaseDarkness()
 
 ```csharp
 public void ReleaseDarkness()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

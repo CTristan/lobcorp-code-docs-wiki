@@ -12,6 +12,13 @@ canonical_path: /api/Global/UnitBuf/SlimeTransformBuf
 public class SlimeTransformBuf : UnitBuf
 ```
 
+Applied by [SlimePawnBuf](/api/Global/UnitBuf/SlimePawnBuf) for [Melting Love](/api/Global/Misc/SlimeGirl)'s infection.
+
+Kills the worker and turns them into a slime. Also, if this worker will be a [SlimePawn](/api/Global/Misc/SlimePawn), spawns the SlimePawn.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlimeTransformBuf
 
@@ -25,6 +32,9 @@ public class SlimeTransformBuf : UnitBuf
 ```csharp
 public SlimeTransformBuf(WorkerModel worker, SlimeGirl script, bool gonnaBeLover = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +51,8 @@ public SlimeTransformBuf(WorkerModel worker, SlimeGirl script, bool gonnaBeLover
 ```csharp
 private bool gonnaBeLover
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +63,8 @@ private bool gonnaBeLover
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +75,8 @@ private SlimeGirl script
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ private WorkerModel worker
 ```csharp
 public void OnWorkerAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 

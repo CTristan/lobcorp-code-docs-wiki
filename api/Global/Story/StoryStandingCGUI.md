@@ -12,6 +12,9 @@ canonical_path: /api/Global/Story/StoryStandingCGUI
 public class StoryStandingCGUI : MonoBehaviour
 ```
 
+Holds a particular character in a given spot #verify #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryStandingCGUI
 
@@ -33,6 +36,8 @@ public StoryStandingCGUI()
 ```csharp
 private StoryUI.CharacterVar _charVar
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private StoryUI.CharacterVar _charVar
 ```csharp
 private bool _isLock
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _isLock
 ```csharp
 private bool _isRemoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private bool _isRemoving
 ```csharp
 public Image curFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Image curFace
 ```csharp
 private Dictionary<string, Image> faces
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Dictionary<string, Image> faces
 ```csharp
 public Image imgBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public Image imgBody
 ```csharp
 public float posYadder
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public float posYadder
 ```csharp
 private float posYadderByScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,12 +156,17 @@ public bool isRemoving { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetCharacterVar()
 
 ```csharp
 public StoryUI.CharacterVar GetCharacterVar()
 ```
+#INC
+
 
 #### Returns
 
@@ -153,6 +177,8 @@ public StoryUI.CharacterVar GetCharacterVar()
 ```csharp
 public string GetId()
 ```
+#INC
+
 
 #### Returns
 
@@ -163,6 +189,8 @@ public string GetId()
 ```csharp
 public Vector3 GetPosition()
 ```
+#INC
+
 
 #### Returns
 
@@ -173,12 +201,16 @@ public Vector3 GetPosition()
 ```csharp
 public void Lock()
 ```
+#INC
+
 
 ### SetAlpha(float)
 
 ```csharp
 public void SetAlpha(float a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,6 +223,8 @@ public void SetAlpha(float a)
 ```csharp
 public void SetAnimation(string anim)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,6 +237,8 @@ public void SetAnimation(string anim)
 ```csharp
 public void SetCharacterVar(StoryUI.CharacterVar charVar)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +251,8 @@ public void SetCharacterVar(StoryUI.CharacterVar charVar)
 ```csharp
 public void SetColor(Color color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +265,8 @@ public void SetColor(Color color)
 ```csharp
 public void SetPosition(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,12 +279,16 @@ public void SetPosition(Vector3 pos)
 ```csharp
 public void SetRemoveing()
 ```
+#INC
+
 
 ### SetYAdderByScript(float)
 
 ```csharp
 public void SetYAdderByScript(float y)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,3 +301,5 @@ public void SetYAdderByScript(float y)
 ```csharp
 public void UnLock()
 ```
+#INC
+

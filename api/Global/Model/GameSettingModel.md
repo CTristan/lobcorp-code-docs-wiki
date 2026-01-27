@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/GameSettingModel
 ```csharp
 public class GameSettingModel
 ```
+Holds game graphics settings options, like resolution, texture quality, and fullscreen mode.
+
+Used by [OptionUI](/api/Global/UI/OptionUI) probably #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GameSettingModel
@@ -33,6 +37,8 @@ public GameSettingModel()
 ```csharp
 private static GameSettingModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,12 +63,16 @@ public static GameSettingModel instance { get; }
 ```csharp
 public void FixInvalidResolution()
 ```
+#INC
+
 
 ### GetCurrentFullScreenMode()
 
 ```csharp
 public GameFullScreenMode GetCurrentFullScreenMode()
 ```
+#INC
+
 
 #### Returns
 
@@ -73,6 +83,8 @@ public GameFullScreenMode GetCurrentFullScreenMode()
 ```csharp
 public int GetCurrentTextureQuality()
 ```
+#INC
+
 
 #### Returns
 
@@ -83,18 +95,25 @@ public int GetCurrentTextureQuality()
 ```csharp
 public void GetResolutionList()
 ```
+#INC
+
 
 ### InitResolution()
 
 ```csharp
 public void InitResolution()
 ```
+#INC
+#code-generated
+
 
 ### SetCurrentTextureQuality(int)
 
 ```csharp
 public void SetCurrentTextureQuality(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,6 +126,8 @@ public void SetCurrentTextureQuality(int level)
 ```csharp
 public void SetResolution(int width, int height, GameFullScreenMode mode)
 ```
+#INC
+
 
 #### Parameters
 

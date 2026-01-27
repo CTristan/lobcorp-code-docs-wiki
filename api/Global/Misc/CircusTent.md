@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/CircusTent
 ```csharp
 public class CircusTent : BoomerCircusScript
 ```
+old tent ordeal thing
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → [BoomerCircusScript](/api/Global/Script/BoomerCircusScript) → CircusTent
@@ -43,6 +46,8 @@ private CircusTent.TentState _tState
 ```csharp
 public CircusTentAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ public CircusTentAnim animScript
 ```csharp
 private bool appearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private bool appearEffectMake
 ```csharp
 public SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ public SoundEffectPlayer defaultSound
 ```csharp
 public Timer enableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ public Timer enableDelay
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,12 +108,16 @@ public Text textUI
 ```csharp
 private void AppearEffect()
 ```
+#INC
+
 
 ### CanRangeInCamera()
 
 ```csharp
 public bool CanRangeInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -111,6 +128,8 @@ public bool CanRangeInCamera()
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,12 +146,16 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public void CreateBoomer()
 ```
+#INC
+
 
 ### DelayedEnable(float)
 
 ```csharp
 public void DelayedEnable(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,12 +168,16 @@ public void DelayedEnable(float delay)
 ```csharp
 public override void Init()
 ```
+#INC
+
 
 ### IsActive()
 
 ```csharp
 public override bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -161,6 +188,8 @@ public override bool IsActive()
 ```csharp
 public override bool IsAttackable()
 ```
+#INC
+
 
 #### Returns
 
@@ -171,12 +200,16 @@ public override bool IsAttackable()
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +222,8 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public override void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,6 +236,9 @@ public override void SetActive(bool state)
 ```csharp
 public override void SetEvent(BoomerCircusEvent bce)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

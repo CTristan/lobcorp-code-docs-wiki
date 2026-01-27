@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/Timer
 ```csharp
 public class Timer
 ```
+Runs for a certain amount of time. Used for all kinds of timed events, including cooldowns and duration times.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Timer
@@ -36,6 +40,8 @@ public Timer()
 ```csharp
 public bool autoStop
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public bool autoStop
 ```csharp
 public float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public Timer.OnTimerRunningEnd endCmd
 ```csharp
 public float maxTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public float maxTime
 ```csharp
 public bool started
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +112,8 @@ public float Rate { get; }
 ```csharp
 public virtual float GetRate()
 ```
+#INC
+
 
 #### Returns
 
@@ -110,6 +124,8 @@ public virtual float GetRate()
 ```csharp
 public virtual bool RunTimer()
 ```
+#INC
+
 
 #### Returns
 
@@ -132,12 +148,16 @@ public virtual void SetEndCmd(Timer.OnTimerRunningEnd cmd)
 ```csharp
 public virtual void StartTimer()
 ```
+#INC
+
 
 ### StartTimer(float)
 
 ```csharp
 public virtual void StartTimer(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,12 +170,17 @@ public virtual void StartTimer(float time)
 ```csharp
 public virtual void StopTimer()
 ```
+#INC
+
 
 ### ToString()
 
 ```csharp
 public override string ToString()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

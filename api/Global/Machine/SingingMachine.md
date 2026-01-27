@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/SingingMachine
 public class SingingMachine : CreatureBase
 ```
 
+Singing Machine.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SingingMachine
 
@@ -33,6 +38,8 @@ public SingingMachine()
 ```csharp
 private int _index
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private int _index
 ```csharp
 private Timer _killCooltimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _killCooltimer
 ```csharp
 private List<PassageObjectModel> _passagesInSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private List<PassageObjectModel> _passagesInSefira
 ```csharp
 private Timer _singingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer _singingTimer
 ```csharp
 private MachineAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private MachineAnim animScript
 ```csharp
 public const int MaxQliphothCounter = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public const int MaxQliphothCounter = 1
 ```csharp
 public List<Sprite> roomRenderSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,12 +136,16 @@ public int index { get; set; }
 ```csharp
 public void ActivateMachine()
 ```
+#INC
+
 
 ### AttractWorker(WorkerModel)
 
 ```csharp
 public void AttractWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +158,8 @@ public void AttractWorker(WorkerModel target)
 ```csharp
 public bool CanSing()
 ```
+#INC
+
 
 #### Returns
 
@@ -145,6 +170,9 @@ public bool CanSing()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -155,6 +183,8 @@ public override bool HasRoomCounter()
 ```csharp
 private void InsertWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +197,8 @@ private void InsertWorker(WorkerModel target)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,6 +211,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,12 +225,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,18 +247,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -233,12 +277,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void PlayAttackEffect()
 ```
+#INC
+
 
 ### PlaySound(int)
 
 ```csharp
 public void PlaySound(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,15 +299,21 @@ public void PlaySound(int i)
 ```csharp
 public override void RoomSkillSpriteOn()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### StartSing()
 
 ```csharp
 public void StartSing()
 ```
+#INC
+

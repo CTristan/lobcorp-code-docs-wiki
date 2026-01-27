@@ -36,6 +36,8 @@ public SteamManager()
 ```csharp
 private bool m_bInitialized
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool m_bInitialized
 ```csharp
 private SteamAPIWarningMessageHook_t m_SteamAPIWarningMessageHook
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private SteamAPIWarningMessageHook_t m_SteamAPIWarningMessageHook
 ```csharp
 private static bool s_EverInialized
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private static bool s_EverInialized
 ```csharp
 private static SteamManager s_instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,24 +108,33 @@ private static SteamManager Instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### SteamAPIDebugTextHook(int, StringBuilder)
 
 ```csharp
 private static void SteamAPIDebugTextHook(int nSeverity, StringBuilder pchDebugText)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,3 +148,5 @@ private static void SteamAPIDebugTextHook(int nSeverity, StringBuilder pchDebugT
 ```csharp
 private void Update()
 ```
+#INC
+

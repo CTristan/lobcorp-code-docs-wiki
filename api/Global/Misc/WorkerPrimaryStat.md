@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/WorkerPrimaryStat
 ```csharp
 public class WorkerPrimaryStat
 ```
+Holds the stats for a [worker](/api/Global/Model/WorkerModel).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerPrimaryStat
@@ -33,6 +35,8 @@ public WorkerPrimaryStat()
 ```csharp
 public int battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int battle
 ```csharp
 public int hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public int hp
 ```csharp
 public int mental
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public int mental
 ```csharp
 public int work
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +147,9 @@ public int workProb { get; }
 ```csharp
 public WorkerPrimaryStat GetAddedStat(WorkerPrimaryStatExp expAdd)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -153,6 +166,8 @@ public WorkerPrimaryStat GetAddedStat(WorkerPrimaryStatExp expAdd)
 ```csharp
 public static int MaxStatB()
 ```
+#INC
+
 
 #### Returns
 
@@ -163,6 +178,8 @@ public static int MaxStatB()
 ```csharp
 public static int MaxStatP()
 ```
+#INC
+
 
 #### Returns
 
@@ -173,6 +190,8 @@ public static int MaxStatP()
 ```csharp
 public static int MaxStatR()
 ```
+#INC
+
 
 #### Returns
 
@@ -183,6 +202,8 @@ public static int MaxStatR()
 ```csharp
 public static int MaxStatW()
 ```
+#INC
+
 
 #### Returns
 
@@ -193,6 +214,8 @@ public static int MaxStatW()
 ```csharp
 public void UpdateStat(WorkerPrimaryStatExp exp)
 ```
+#INC
+
 
 #### Parameters
 

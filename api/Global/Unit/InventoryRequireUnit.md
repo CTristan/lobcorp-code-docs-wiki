@@ -12,6 +12,15 @@ canonical_path: /api/Global/Unit/InventoryRequireUnit
 public class InventoryRequireUnit : MonoBehaviour
 ```
 
+extends 
+
+UI element which displays text for EGO requirements.
+
+See [InventoryRequireLayout](/api/Inventory/InventoryRequireLayout)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryRequireUnit
 
@@ -33,6 +42,8 @@ public InventoryRequireUnit()
 ```csharp
 public Text Grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ public Text Grade
 ```csharp
 public Text StatType
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +68,8 @@ public Text StatType
 ```csharp
 public void SetText(string statType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -67,6 +82,9 @@ public void SetText(string statType)
 ```csharp
 public void SetText(string statType, string grade, int gradeFontSize = 30)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

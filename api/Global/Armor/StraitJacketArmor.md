@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/StraitJacketArmor
 public class StraitJacketArmor : EquipmentScriptBase
 ```
 
+Script for [Forsaken Murderer](/api/Global/Misc/StraitJacket)'s EGO Suit: Regret. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → StraitJacketArmor
 
@@ -33,6 +38,8 @@ public StraitJacketArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

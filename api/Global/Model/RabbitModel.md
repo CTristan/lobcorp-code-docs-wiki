@@ -12,6 +12,11 @@ canonical_path: /api/Global/Model/RabbitModel
 public class RabbitModel : UnitModel, IMouseCommandTargetModel
 ```
 
+A rabbit, abstractly. Managed by [RabbitManager](/api/Global/Misc/RabbitManager).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → RabbitModel
 
@@ -28,6 +33,8 @@ public class RabbitModel : UnitModel, IMouseCommandTargetModel
 ```csharp
 public RabbitModel(RwbpType rwbpType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public RabbitModel(RwbpType rwbpType)
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +61,8 @@ private bool _activated
 ```csharp
 private RabbitCommandQueue _commandQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +73,8 @@ private RabbitCommandQueue _commandQueue
 ```csharp
 private RabbitWeaponEnum _currentWeapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +85,8 @@ private RabbitWeaponEnum _currentWeapon
 ```csharp
 private Timer _encounterClearTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +97,8 @@ private Timer _encounterClearTimer
 ```csharp
 private bool _isDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -92,6 +109,8 @@ private bool _isDead
 ```csharp
 private float _remainFireDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +121,8 @@ private float _remainFireDelay
 ```csharp
 private RwbpType _rwbpType
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,6 +133,8 @@ private RwbpType _rwbpType
 ```csharp
 private RabbitUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,6 +145,8 @@ private RabbitUnit _unit
 ```csharp
 private float encountClearFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -132,6 +157,8 @@ private float encountClearFreq
 ```csharp
 private List<UnitModel> encountered
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +203,8 @@ public RabbitUnit Unit { get; }
 ```csharp
 public override void Attack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -188,24 +217,32 @@ public override void Attack(UnitModel target)
 ```csharp
 public void CheckNear()
 ```
+#INC
+
 
 ### ClearOperation()
 
 ```csharp
 public void ClearOperation()
 ```
+#INC
+
 
 ### Fire()
 
 ```csharp
 public void Fire()
 ```
+#INC
+
 
 ### GetAttackLevel()
 
 ```csharp
 public override int GetAttackLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -216,6 +253,8 @@ public override int GetAttackLevel()
 ```csharp
 public UnitCommand GetCurrentCommand()
 ```
+#INC
+
 
 #### Returns
 
@@ -226,6 +265,8 @@ public UnitCommand GetCurrentCommand()
 ```csharp
 public override int GetDefenseLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -236,6 +277,8 @@ public override int GetDefenseLevel()
 ```csharp
 public override int GetRiskLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -246,6 +289,9 @@ public override int GetRiskLevel()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -256,6 +302,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public bool IsDead()
 ```
+#INC
+
 
 #### Returns
 
@@ -266,6 +314,8 @@ public bool IsDead()
 ```csharp
 public bool IsFireState()
 ```
+#INC
+
 
 #### Returns
 
@@ -276,6 +326,8 @@ public bool IsFireState()
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +344,8 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,6 +362,8 @@ public SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -320,48 +376,64 @@ public void OnAnimEventCalled(int index)
 ```csharp
 public void OnClearProtocol()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnDieByMental()
 
 ```csharp
 public void OnDieByMental()
 ```
+#INC
+
 
 ### OnEndCycle()
 
 ```csharp
 public void OnEndCycle()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public void OnGiveDamage()
 ```
+#INC
+
 
 ### OnGiveDamageByRifle()
 
 ```csharp
 private void OnGiveDamageByRifle()
 ```
+#INC
+
 
 ### PlayAttackAnimation(string)
 
 ```csharp
 protected override void PlayAttackAnimation(string animationName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +446,8 @@ protected override void PlayAttackAnimation(string animationName)
 ```csharp
 public void SetCommand(UnitCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -386,6 +460,8 @@ public void SetCommand(UnitCommand cmd)
 ```csharp
 public void SetUnit(RabbitUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -398,6 +474,8 @@ public void SetUnit(RabbitUnit unit)
 ```csharp
 public void SetUnitState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -410,6 +488,8 @@ public void SetUnitState(bool state)
 ```csharp
 public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,6 +503,8 @@ public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```csharp
 public override void TakeDamageWithoutEffect(UnitModel actor, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

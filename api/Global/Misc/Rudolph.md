@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Rudolph
 public class Rudolph : CreatureBase
 ```
 
+Rudolta of the Sleigh.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Rudolph
 
@@ -33,6 +36,8 @@ public Rudolph()
 ```csharp
 private RudolphAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private RudolphAnim _animScript
 ```csharp
 private MapNode _sefiraNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private MapNode _sefiraNode
 ```csharp
 private const float attackFreq = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float attackFreq = 3
 ```csharp
 private Timer attackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Timer attackTimer
 ```csharp
 private bool audioChange
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private bool audioChange
 ```csharp
 private MapNode currentTargetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private MapNode currentTargetNode
 ```csharp
 private const int dmgMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const int dmgMax = 7
 ```csharp
 private const int dmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const int dmgMin = 5
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private RwbpType dmgType
 ```csharp
 private List<WorkerModel> encounterWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private List<WorkerModel> encounterWorker
 ```csharp
 private SoundEffectPlayer escapeLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private SoundEffectPlayer escapeLoop
 ```csharp
 private const string escapeSoundLoopSrc = "creature/rudolph/escape"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const string escapeSoundLoopSrc = "creature/rudolph/escape"
 ```csharp
 private bool sefiraArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,12 +266,16 @@ private Camera sensor { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CheckNearWorker()
 
 ```csharp
 private List<WorkerModel> CheckNearWorker()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,18 +286,24 @@ private List<WorkerModel> CheckNearWorker()
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### NearDamage(List<WorkerModel>)
 
 ```csharp
 private void NearDamage(List<WorkerModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,30 +316,40 @@ private void NearDamage(List<WorkerModel> near)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,15 +362,22 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

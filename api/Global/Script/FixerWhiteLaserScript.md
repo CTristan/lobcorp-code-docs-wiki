@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/FixerWhiteLaserScript
 public class FixerWhiteLaserScript : MonoBehaviour
 ```
 
+Script for [White Fixer](/api/Global/Misc/FixerWhite)'s laser attack.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FixerWhiteLaserScript
 
@@ -33,6 +38,8 @@ public FixerWhiteLaserScript()
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private List<UnitModel> damaged
 ```csharp
 private bool isActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private List<FixerWhiteLaserScript.EffectMaker> makers
 ```csharp
 public GameObject[] pivots
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +106,8 @@ public CreatureModel Model { get; }
 ```csharp
 public FixerWhite script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -107,12 +120,17 @@ public FixerWhite script { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCollision(Collider2D)
 
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +143,8 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,12 +161,16 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel)
 
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +183,8 @@ private void GiveDamage(UnitModel unit)
 ```csharp
 public void SetActive(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 

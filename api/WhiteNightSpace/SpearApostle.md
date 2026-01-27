@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/SpearApostle
 public class SpearApostle : DeathAngelApostle
 ```
 
+Spear apostle.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [DeathAngelApostle](/api/WhiteNightSpace/DeathAngelApostle) → SpearApostle
 
@@ -33,6 +36,8 @@ public SpearApostle()
 ```csharp
 private static float _attackAfterDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static float _attackAfterDelay
 ```csharp
 private Timer _attackCastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _attackCastingTimer
 ```csharp
 private Timer _attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _attackDelayTimer
 ```csharp
 private static float _castingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private static float _castingTime
 ```csharp
 private MapNode _currentDestNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private MapNode _currentDestNode
 ```csharp
 private WorkerModel _currentPickTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private WorkerModel _currentPickTarget
 ```csharp
 private List<UnitModel> _damageGived
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private List<UnitModel> _damageGived
 ```csharp
 private const float _endFix = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const float _endFix = 2
 ```csharp
 private bool _isArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private bool _isArrived
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private bool _isAttacking
 ```csharp
 private const float _senseRange = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const float _senseRange = 30
 ```csharp
 private static DamageInfo _spearDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private static DamageInfo _spearDamage
 ```csharp
 private const float _speedValue = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,24 +206,32 @@ public SpearAposlteAnim SpearApostleAnim { get; }
 ```csharp
 public override void ClearParams()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### Execution()
 
 ```csharp
 public override void Execution()
 ```
+#INC
+
 
 ### GetCurrentEndNode()
 
 ```csharp
 public MapNode GetCurrentEndNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -205,6 +242,8 @@ public MapNode GetCurrentEndNode()
 ```csharp
 public List<UnitModel> GetFarTarget(List<UnitModel> list, float range, out UnitModel farest, bool careDirectoin = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -224,48 +263,65 @@ public List<UnitModel> GetFarTarget(List<UnitModel> list, float range, out UnitM
 ```csharp
 public override void GiveDamage()
 ```
+#INC
+
 
 ### GiveNearDamage()
 
 ```csharp
 private void GiveNearDamage()
 ```
+#INC
+
 
 ### MakeMovement()
 
 ```csharp
 public override void MakeMovement()
 ```
+#INC
+
 
 ### OnArrived()
 
 ```csharp
 public void OnArrived()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnPrevSupressed()
 
 ```csharp
 public override void OnPrevSupressed()
 ```
+#INC
+
 
 ### OnStartAttack(UnitModel, MapNode)
 
 ```csharp
 public void OnStartAttack(UnitModel target, MapNode destNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +335,8 @@ public void OnStartAttack(UnitModel target, MapNode destNode)
 ```csharp
 public void PickWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,9 +349,13 @@ public void PickWorker(WorkerModel worker)
 ```csharp
 public void StartAttackAfterDelay()
 ```
+#INC
+
 
 ### StartMove()
 
 ```csharp
 public void StartMove()
 ```
+#INC
+

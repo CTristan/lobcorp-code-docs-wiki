@@ -11,6 +11,8 @@ canonical_path: /api/Global/Event/FallingLegEvent
 ```csharp
 public class FallingLegEvent : RandomEventBase
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [RandomEventBase](/api/Global/Misc/RandomEventBase) → FallingLegEvent
@@ -33,6 +35,8 @@ public FallingLegEvent()
 ```csharp
 private const string animSrc = "StandingItem/ChopLeg"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private const string animSrc = "StandingItem/ChopLeg"
 ```csharp
 private const string animSrcA = "StandingItem/ChopLegA"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private const string animSrcA = "StandingItem/ChopLegA"
 ```csharp
 private const string animSrcB = "StandingItem/ChopLegB"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private const string animSrcB = "StandingItem/ChopLegB"
 ```csharp
 private const string animSrcC = "StandingItem/ChopLegC"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private const string animSrcC = "StandingItem/ChopLegC"
 ```csharp
 public const float AttackFreq = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public const float AttackFreq = 3
 ```csharp
 private bool disableCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private bool disableCheck
 ```csharp
 private const float disableTime = 120
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private const float disableTime = 120
 ```csharp
 public Timer disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public Timer disableTimer
 ```csharp
 private const long legId = 1002
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private const long legId = 1002
 ```csharp
 private List<StandingItemModel> legs
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,12 +167,16 @@ public List<FallingLegEvent.SefiraManagement> management
 ```csharp
 private void DelayedDisable()
 ```
+#INC
+
 
 ### DisableLeb(string)
 
 ```csharp
 public void DisableLeb(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,6 +189,8 @@ public void DisableLeb(string sefira)
 ```csharp
 public void EnableLeg(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,6 +203,8 @@ public void EnableLeg(string sefira)
 ```csharp
 public ChopLeg.LegType GetLegType()
 ```
+#INC
+
 
 #### Returns
 
@@ -201,6 +231,8 @@ public FallingLegEvent.SefiraManagement GetSefiraManagement(string sefira)
 ```csharp
 public GameObject LoadLeg(out ChopLeg leg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,21 +249,30 @@ public GameObject LoadLeg(out ChopLeg leg)
 ```csharp
 public override void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public override void OnEnable()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+

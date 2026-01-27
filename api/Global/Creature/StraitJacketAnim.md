@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/StraitJacketAnim
 public class StraitJacketAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Forsaken Murderer](/api/Global/Misc/StraitJacket).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → StraitJacketAnim
 
@@ -36,6 +41,8 @@ public StraitJacketAnim()
 ```csharp
 public GameObject attackHitPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject attackHitPos
 ```csharp
 private StraitJacket script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,12 +67,17 @@ private StraitJacket script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -76,24 +90,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### OnTransformEnd()
 
 ```csharp
 public void OnTransformEnd()
 ```
+#INC
+
 
 ### OnTransformReturnEnd()
 
 ```csharp
 public void OnTransformReturnEnd()
 ```
+#INC
+
 
 ### SetScript(StraitJacket)
 
 ```csharp
 public void SetScript(StraitJacket script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -106,6 +128,8 @@ public void SetScript(StraitJacket script)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,9 +142,13 @@ public override void SoundMake(string src)
 ```csharp
 public void StartReturnTransform()
 ```
+#INC
+
 
 ### StartTransform()
 
 ```csharp
 public void StartTransform()
 ```
+#INC
+

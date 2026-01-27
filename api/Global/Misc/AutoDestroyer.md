@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AutoDestroyer
 ```csharp
 public class AutoDestroyer : MonoBehaviour
 ```
+Destroys an object after a fixed time.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AutoDestroyer
@@ -43,6 +45,8 @@ private AutoDestroyer.OnDestroyEvent destroyEvent
 ```csharp
 public float destroyTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +57,8 @@ public float destroyTime
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +71,16 @@ private float elapsedTime
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public void OnDestroy()
 ```
+#INC
+
 
 ### SetDestroyEvent(OnDestroyEvent)
 

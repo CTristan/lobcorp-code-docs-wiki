@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/YoungPrinceWeapon
 public class YoungPrinceWeapon : EquipmentScriptBase
 ```
 
+Script for [The Little Prince](/api/Global/IOBserver/YoungPrince)'s EGO Weapon: Spore.
+
+After damage, at a 25% chance, applies [a debuff](/api/Global/UnitBuf/YoungPrinceWeaponDebuf) which increase white damage taken by 50% for 3 seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → YoungPrinceWeapon
 
@@ -33,6 +38,8 @@ public YoungPrinceWeapon()
 ```csharp
 private const float _debuf_prob = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private const float _debuf_prob = 0.25
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

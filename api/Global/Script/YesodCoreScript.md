@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/YesodCoreScript
 public class YesodCoreScript : CreatureBase
 ```
 
+Yesod, as he appears in [his core suppression](/api/Global/Misc/YesodBossBase).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → YesodCoreScript
 
@@ -33,6 +38,8 @@ public YesodCoreScript()
 ```csharp
 public YesodCoreAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public YesodCoreAnim _animScript
 ```csharp
 public YesodBossBase bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +76,8 @@ public YesodCoreAnim AnimScript { get; }
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -84,6 +95,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -94,6 +107,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +119,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -114,6 +131,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -124,6 +143,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -134,6 +155,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -144,6 +167,9 @@ public override bool IsSuppressable()
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -156,6 +182,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override bool SetHpSlider(Slider slider)
 ```
+#INC
+
 
 #### Parameters
 

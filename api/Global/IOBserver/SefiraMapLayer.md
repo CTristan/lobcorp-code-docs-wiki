@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/SefiraMapLayer
 public class SefiraMapLayer : MonoBehaviour, IObserver
 ```
 
+Game layer which holds and manages the rooms and doors.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraMapLayer
 
@@ -36,6 +41,8 @@ public SefiraMapLayer()
 ```csharp
 private static SefiraMapLayer _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private static SefiraMapLayer _instance
 ```csharp
 private Dictionary<string, GameObject> _teleportDoorObjects
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private Dictionary<string, GameObject> _teleportDoorObjects
 ```csharp
 public GameObject bloodNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject bloodNode
 ```csharp
 public bool nowLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public bool nowLoading
 ```csharp
 private Dictionary<string, SefiraObject> sefiraDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Dictionary<string, SefiraObject> sefiraDic
 ```csharp
 public SefiraObject[] sefiras
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public SefiraObject[] sefiras
 ```csharp
 public GameObject teleportRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public GameObject teleportRoot
 ```csharp
 private List<PassageObjectModel> waitingForLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +151,8 @@ public static SefiraMapLayer instance { get; }
 ```csharp
 private void AddBloodMapObject(BloodMapObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +165,8 @@ private void AddBloodMapObject(BloodMapObjectModel model)
 ```csharp
 private void AddPassageDoor(PassageObjectModel model, DoorObjectModel doorModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,6 +180,8 @@ private void AddPassageDoor(PassageObjectModel model, DoorObjectModel doorModel)
 ```csharp
 private void AddPassageObject(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +194,8 @@ private void AddPassageObject(PassageObjectModel model)
 ```csharp
 private void AddRabbitTeleport(MapNode node, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -180,24 +209,33 @@ private void AddRabbitTeleport(MapNode node, UnitDirection dir)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DisableMapLayer()
 
 ```csharp
 private void DisableMapLayer()
 ```
+#INC
+
 
 ### EnableMapLayer()
 
 ```csharp
 private void EnableMapLayer()
 ```
+#INC
+
 
 ### GetPassageObject(PassageObjectModel)
 
 ```csharp
 public PassageObject GetPassageObject(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,6 +252,8 @@ public PassageObject GetPassageObject(PassageObjectModel model)
 ```csharp
 public SefiraObject GetSefiraObject(string sefiraName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,24 +270,32 @@ public SefiraObject GetSefiraObject(string sefiraName)
 ```csharp
 private void InitAreaActivate()
 ```
+#INC
+
 
 ### LoadLayer()
 
 ```csharp
 private void LoadLayer()
 ```
+#INC
+
 
 ### LoadLayerAsync()
 
 ```csharp
 public void LoadLayerAsync()
 ```
+#INC
+
 
 ### LoadLayerCoroutine()
 
 ```csharp
 private IEnumerator LoadLayerCoroutine()
 ```
+#INC
+
 
 #### Returns
 
@@ -258,24 +306,32 @@ private IEnumerator LoadLayerCoroutine()
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnInitGameManager()
 
 ```csharp
 private void OnInitGameManager()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,24 +345,32 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### RemoveBlood()
 
 ```csharp
 private void RemoveBlood()
 ```
+#INC
+
 
 ### RemoveDynamicPassages()
 
 ```csharp
 private void RemoveDynamicPassages()
 ```
+#INC
+
 
 ### RemoveRabbitTeleport(MapNode)
 
 ```csharp
 private void RemoveRabbitTeleport(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,12 +383,16 @@ private void RemoveRabbitTeleport(MapNode node)
 ```csharp
 private void RemoveRabbitTeleportAll()
 ```
+#INC
+
 
 ### SetAreaActive(string, string, bool)
 
 ```csharp
 public void SetAreaActive(string sefiraName, string groupName, bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,6 +407,8 @@ public void SetAreaActive(string sefiraName, string groupName, bool b)
 ```csharp
 private void SetPassageAlpha(PassageObjectModel model, int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,6 +422,8 @@ private void SetPassageAlpha(PassageObjectModel model, int value)
 ```csharp
 private void SetPassageBlackOut(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -364,12 +436,16 @@ private void SetPassageBlackOut(PassageObjectModel model)
 ```csharp
 public void SetPassageWhite()
 ```
+#INC
+
 
 ### SetPassageWhite(PassageObjectModel)
 
 ```csharp
 private void SetPassageWhite(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +458,8 @@ private void SetPassageWhite(PassageObjectModel model)
 ```csharp
 public void SetSefiraActive(string sefiraName, bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -395,9 +473,13 @@ public void SetSefiraActive(string sefiraName, bool b)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

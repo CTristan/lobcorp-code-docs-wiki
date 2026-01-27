@@ -12,6 +12,10 @@ canonical_path: /api/Global/UnitStatBuf/SingingMachineGiftBuf
 public class SingingMachineGiftBuf : UnitStatBuf
 ```
 
+Gives an attack speed bonus of 10 for 5 seconds. Given by [SingingMachineGift](/api/Global/Gift/SingingMachineGift).
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → SingingMachineGiftBuf
 
@@ -25,6 +29,8 @@ public class SingingMachineGiftBuf : UnitStatBuf
 ```csharp
 public SingingMachineGiftBuf()
 ```
+Constructs this buff, setting its [UnitBufType](/api/Global/Type/UnitBufType) to SINGING_MACHINE_GIFT_BUF and specifying that only one of this buff can exist at a time on the user.
+
 
 ## Fields
 
@@ -33,6 +39,9 @@ public SingingMachineGiftBuf()
 ```csharp
 private AgentModel agent
 ```
+The user of the gift.
+
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private AgentModel agent
 ```csharp
 private const int ATTACK_SPEED_BUF = 10
 ```
+10
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const int ATTACK_SPEED_BUF = 10
 ```csharp
 private static float REMAIN
 ```
+The time to have the attack speed bonus. Set to 5f.
+
 
 #### Field Value
 
@@ -65,6 +78,8 @@ private static float REMAIN
 ```csharp
 public override void Init(UnitModel model)
 ```
+Gives the attack speed buff and sets the remain time, if the user exists.
+
 
 #### Parameters
 
@@ -77,3 +92,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
+Destroys the buff.
+

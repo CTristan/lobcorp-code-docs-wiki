@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SharkAnim
 public class SharkAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [The Dreaming Current](/api/Global/Misc/Shark).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → SharkAnim
 
@@ -36,6 +41,8 @@ public SharkAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject[] bubbles_default
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject[] bubbles_default
 ```csharp
 public GameObject[] bubbles_swimming
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject[] bubbles_swimming
 ```csharp
 public GameObject defaultAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public GameObject defaultAnim
 ```csharp
 public GameObject escapeAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public GameObject escapeAnim
 ```csharp
 private Shark script
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,24 +115,32 @@ private Shark script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### Attack()
 
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,24 +153,32 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### BubblesDefault()
 
 ```csharp
 private void BubblesDefault()
 ```
+#INC
+
 
 ### BubblesSwimming()
 
 ```csharp
 private void BubblesSwimming()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,18 +192,25 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void EndCasting()
 ```
+#INC
+
 
 ### EndDelay()
 
 ```csharp
 public void EndDelay()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -181,18 +221,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -205,30 +251,40 @@ public void OnCalled(int i)
 ```csharp
 public void OnCasting()
 ```
+#INC
+
 
 ### OnDelay()
 
 ```csharp
 public void OnDelay()
 ```
+#INC
+
 
 ### OnEscape()
 
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(Shark)
 
 ```csharp
 public void SetScript(Shark script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,12 +297,16 @@ public void SetScript(Shark script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,3 +319,5 @@ public void SoundMake(string src)
 ```csharp
 private void Update()
 ```
+#INC
+

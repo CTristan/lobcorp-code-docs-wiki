@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/NarrationDiagDisplay
 public class NarrationDiagDisplay : MonoBehaviour
 ```
 
+Script for the dialogue box during the story.
+
+(Diag is short for diaglogue!)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NarrationDiagDisplay
 
@@ -33,6 +40,8 @@ public NarrationDiagDisplay()
 ```csharp
 private bool _existsNextStr
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private bool _existsNextStr
 ```csharp
 private bool _fadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private bool _fadeIn
 ```csharp
 private string _nextStr
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private string _nextStr
 ```csharp
 private float _t
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private float _t
 ```csharp
 private Text _textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +114,17 @@ public bool nowProccessing { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ShowText(string)
 
 ```csharp
 public void ShowText(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,9 +137,13 @@ public void ShowText(string str)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateFade()
 
 ```csharp
 private void UpdateFade()
 ```
+#INC
+

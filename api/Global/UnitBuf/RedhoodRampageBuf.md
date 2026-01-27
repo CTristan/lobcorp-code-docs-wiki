@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/RedhoodRampageBuf
 public class RedhoodRampageBuf : UnitBuf
 ```
 
+Buff for [Little Red](/api/Global/IOBserver/RedHood) to rampage.
+
+Restores all health and reduces damage taken to 0.9x. Sets the movement scale to... 1.0x. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → RedhoodRampageBuf
 
@@ -25,6 +30,8 @@ public class RedhoodRampageBuf : UnitBuf
 ```csharp
 public RedhoodRampageBuf(RedHood redHood)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public RedhoodRampageBuf(RedHood redHood)
 ```csharp
 private const float _damageFactor = 0.9
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private const float _damageFactor = 0.9
 ```csharp
 private const float _movementScaleFactor = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private const float _movementScaleFactor = 1
 ```csharp
 public RedHood redHood
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +84,9 @@ public RedHood redHood
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -83,6 +99,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -93,6 +111,8 @@ public override float MovementScale()
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 

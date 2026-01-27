@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineDawn
 public class MachineDawn : MachineOrdealCreature
 ```
 
+[Green Dawn](/api/Global/Machine/MachineDawnOrdeal) creature.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [MachineOrdealCreature](/api/Global/Creature/MachineOrdealCreature) → MachineDawn
 
@@ -33,6 +38,8 @@ public MachineDawn()
 ```csharp
 private UnitModel _killMotionTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private UnitModel _killMotionTarget
 ```csharp
 private MachineDawnAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private MachineDawnAnim anim
 ```csharp
 private float killMotionAfterDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private float killMotionAfterDelay
 ```csharp
 private Timer killMotionAfterDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,18 +88,24 @@ private Timer killMotionAfterDelayTimer
 ```csharp
 public void BloodEffect()
 ```
+#INC
+
 
 ### FinishEffect()
 
 ```csharp
 public void FinishEffect()
 ```
+#INC
+
 
 ### GetNearTargetUnit()
 
 ```csharp
 private UnitModel GetNearTargetUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -97,6 +116,8 @@ private UnitModel GetNearTargetUnit()
 ```csharp
 public void KillMotion(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +130,8 @@ public void KillMotion(UnitModel target)
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -122,12 +145,16 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -138,6 +165,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,12 +179,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

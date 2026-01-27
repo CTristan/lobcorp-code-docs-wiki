@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/WolfDefenseBuf
 public class WolfDefenseBuf : UnitBuf
 ```
 
+#INC #unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → WolfDefenseBuf
 
@@ -25,6 +28,8 @@ public class WolfDefenseBuf : UnitBuf
 ```csharp
 public WolfDefenseBuf(float defenseFactor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +42,8 @@ public WolfDefenseBuf(float defenseFactor)
 ```csharp
 public WolfDefenseBuf(float defenseFactor, float lifeTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,6 +59,8 @@ public WolfDefenseBuf(float defenseFactor, float lifeTime)
 ```csharp
 private float _defenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,9 @@ private float _defenseFactor
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -81,6 +93,8 @@ public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```csharp
 public void SetFactor(float factor)
 ```
+#INC
+
 
 #### Parameters
 

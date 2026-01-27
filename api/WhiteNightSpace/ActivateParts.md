@@ -11,6 +11,8 @@ canonical_path: /api/WhiteNightSpace/ActivateParts
 ```csharp
 public class ActivateParts
 ```
+Parts of [Plague Doctor](/api/Legacy/PlagueDoctor) that are enabled as the [advent clock](/api/WhiteNightSpace/AdventClockUI) progresses
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ActivateParts
@@ -33,6 +35,8 @@ public ActivateParts()
 ```csharp
 public bool defaultState
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public bool defaultState
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public int index
 ```csharp
 public List<GameObject> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public List<GameObject> list
 ```csharp
 public PlagueDocAnimPart part
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,12 +85,17 @@ public PlagueDocAnimPart part
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### SetState(bool)
 
 ```csharp
 public void SetState(bool state)
 ```
+#INC
+
 
 #### Parameters
 

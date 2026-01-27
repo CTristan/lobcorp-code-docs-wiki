@@ -12,6 +12,9 @@ canonical_path: /api/Global/IANimatorEventCalled/ResearchWindow
 public class ResearchWindow : MonoBehaviour, IAnimatorEventCalled
 ```
 
+The researching UI. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResearchWindow
 
@@ -36,6 +39,8 @@ public ResearchWindow()
 ```csharp
 private bool _bossState
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool _bossState
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private Sefira _currentSefira
 ```csharp
 private bool _isDragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _isDragging
 ```csharp
 private const int _researchMaxPerArea = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const int _researchMaxPerArea = 4
 ```csharp
 private SefiraUIColor _uiColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private SefiraUIColor _uiColor
 ```csharp
 public Text Areaname
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public Text Areaname
 ```csharp
 public Image backGround
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public Image backGround
 ```csharp
 public RectTransform ButtonArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public RectTransform ButtonArea
 ```csharp
 public ColorMultiplier[] buttonColorMultiplier
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public ColorMultiplier[] buttonColorMultiplier
 ```csharp
 public List<MaskableGraphic> coloredTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 public UIController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public UIController controller
 ```csharp
 public Text Conversation
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public Text Conversation
 ```csharp
 public RectTransform disableParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ public RectTransform disableParent
 ```csharp
 public Image dropArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ public Image dropArea
 ```csharp
 public RectTransform DropFeildPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ public RectTransform DropFeildPivot
 ```csharp
 public Drop dropHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ public Drop dropHandler
 ```csharp
 private bool gray
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private bool gray
 ```csharp
 public float grayFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ public float grayFactor
 ```csharp
 public RectTransform HelpArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ public RectTransform HelpArea
 ```csharp
 public ColorMultiplier[] instructions
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ public ColorMultiplier[] instructions
 ```csharp
 public float instTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ public float instTime
 ```csharp
 private UnscaledTimer instTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ private UnscaledTimer instTimer
 ```csharp
 public RectTransform layoutParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ public RectTransform layoutParent
 ```csharp
 public RectTransform LowerArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ public RectTransform LowerArea
 ```csharp
 public List<ResearchPanel> panels
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +339,8 @@ public List<ResearchPanel> panels
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +351,8 @@ public Image Portrait
 ```csharp
 public static float[,] positionFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -317,6 +374,8 @@ public GameObject researchPanelArea
 ```csharp
 public AudioClipPlayer ResearchSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +386,8 @@ public AudioClipPlayer ResearchSound
 ```csharp
 public GameObject rootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,6 +398,8 @@ public GameObject rootObject
 ```csharp
 public RectTransform sefiraBoss_ListParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +410,8 @@ public RectTransform sefiraBoss_ListParent
 ```csharp
 public Text sefiraBoss_Prefix
 ```
+#INC
+
 
 #### Field Value
 
@@ -357,6 +422,8 @@ public Text sefiraBoss_Prefix
 ```csharp
 public GameObject sefiraBossButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,6 +434,8 @@ public GameObject sefiraBossButton
 ```csharp
 public GameObject sefiraBossRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -377,6 +446,8 @@ public GameObject sefiraBossRoot
 ```csharp
 public GameObject sefiraTextUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -387,6 +458,8 @@ public GameObject sefiraTextUnit
 ```csharp
 public Image selectedEffectImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -397,6 +470,8 @@ public Image selectedEffectImage
 ```csharp
 public ResearchPanel selectedPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -407,6 +482,8 @@ public ResearchPanel selectedPanel
 ```csharp
 public Text title
 ```
+#INC
+
 
 #### Field Value
 
@@ -471,18 +548,24 @@ public SefiraUIColor UIColor { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -495,12 +578,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -514,6 +601,9 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Init(Sefira sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -526,6 +616,8 @@ public void Init(Sefira sefira)
 ```csharp
 public void MakeSefiraBossReward(SefiraEnum sefiraEnum)
 ```
+#INC
+
 
 #### Parameters
 
@@ -538,6 +630,8 @@ public void MakeSefiraBossReward(SefiraEnum sefiraEnum)
 ```csharp
 public void OnBeginDrag(ResearchPanel panel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -550,12 +644,16 @@ public void OnBeginDrag(ResearchPanel panel)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -568,18 +666,24 @@ public void OnCalled(int i)
 ```csharp
 public void OnConfirm()
 ```
+#INC
+
 
 ### OnDiscard()
 
 ```csharp
 public void OnDiscard()
 ```
+#INC
+
 
 ### OnDropEvent(params object[])
 
 ```csharp
 public bool OnDropEvent(params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,12 +700,16 @@ public bool OnDropEvent(params object[] param)
 ```csharp
 public void OnEndDrag()
 ```
+#INC
+
 
 ### OnEnter(BaseEventData)
 
 ```csharp
 public void OnEnter(BaseEventData bpData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -614,6 +722,8 @@ public void OnEnter(BaseEventData bpData)
 ```csharp
 public void OnExit(BaseEventData pData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -626,18 +736,24 @@ public void OnExit(BaseEventData pData)
 ```csharp
 public void OnPanelEnter()
 ```
+#INC
+
 
 ### OnPanelExit()
 
 ```csharp
 public void OnPanelExit()
 ```
+#INC
+
 
 ### OnSetPanel(bool)
 
 ```csharp
 public void OnSetPanel(bool isSet)
 ```
+#INC
+
 
 #### Parameters
 
@@ -650,6 +766,8 @@ public void OnSetPanel(bool isSet)
 ```csharp
 private int ResearchDataInit()
 ```
+#INC
+
 
 #### Returns
 
@@ -660,6 +778,8 @@ private int ResearchDataInit()
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -672,12 +792,16 @@ public void SetActive(bool state)
 ```csharp
 private void SetColor()
 ```
+#INC
+
 
 ### SetInst(float)
 
 ```csharp
 public void SetInst(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -690,6 +814,8 @@ public void SetInst(float factor)
 ```csharp
 public void SetPanelActivate(ResearchPanel panel, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -703,6 +829,8 @@ public void SetPanelActivate(ResearchPanel panel, bool state)
 ```csharp
 private void SetPanelController(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -715,6 +843,8 @@ private void SetPanelController(bool state)
 ```csharp
 private void SetPanelPosition(int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -727,12 +857,16 @@ private void SetPanelPosition(int max)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -745,12 +879,16 @@ public void SoundMake(string src)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### Upgrade(ResearchItemModel)
 
 ```csharp
 private void Upgrade(ResearchItemModel data)
 ```
+#INC
+
 
 #### Parameters
 

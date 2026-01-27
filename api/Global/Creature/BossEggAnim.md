@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/BossEggAnim
 public class BossEggAnim : CreatureAnimScript
 ```
 
+Animation script for the eggs during [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BossEggAnim
 
@@ -33,6 +38,8 @@ public BossEggAnim()
 ```csharp
 public override bool HasDeadMotion()
 ```
+Returns true.
+
 
 #### Returns
 
@@ -43,15 +50,22 @@ public override bool HasDeadMotion()
 ```csharp
 public void OnDead()
 ```
+Tells the animator to set this egg to broken, called when an egg is suppressed.
+
 
 ### OnHalf()
 
 ```csharp
 public void OnHalf()
 ```
+Tells the animator to set the egg to cracked, called when an egg reaches half health.
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+Calls base and then OnDead.
+#code-generated
+

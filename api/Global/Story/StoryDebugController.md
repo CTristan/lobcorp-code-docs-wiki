@@ -12,6 +12,9 @@ canonical_path: /api/Global/Story/StoryDebugController
 public class StoryDebugController : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryDebugController
 
@@ -33,6 +36,8 @@ public StoryDebugController()
 ```csharp
 public Transform layout
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Transform layout
 ```csharp
 public GameObject prefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject prefab
 ```csharp
 public StoryUI storyUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public StoryUI storyUI
 ```csharp
 public void OnClick(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,21 +88,30 @@ public void OnClick(string id)
 ```csharp
 public void OnEndStory()
 ```
+#INC
+
 
 ### ReturnToTitle()
 
 ```csharp
 public void ReturnToTitle()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

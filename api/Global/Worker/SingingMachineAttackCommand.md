@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/SingingMachineAttackCommand
 public class SingingMachineAttackCommand : WorkerCommand
 ```
 
+Behaviour for an uncontrollable employee attracted by [Singing Machine](/api/Global/Machine/SingingMachine). Used by  #verify .
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → SingingMachineAttackCommand
 
@@ -25,6 +30,8 @@ public class SingingMachineAttackCommand : WorkerCommand
 ```csharp
 public SingingMachineAttackCommand(WorkerModel target, SingingMachine ownerMachine, SpriteRenderer deadBackHairRenderer, SpriteRenderer deadFrontHairRenderer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public SingingMachineAttackCommand(WorkerModel target, SingingMachine ownerMachi
 ```csharp
 private Timer _attackPreCooltimeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +61,8 @@ private Timer _attackPreCooltimeTimer
 ```csharp
 private SpriteRenderer _deadBackHairRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +73,8 @@ private SpriteRenderer _deadBackHairRenderer
 ```csharp
 private SpriteRenderer _deadFrontHairRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +85,8 @@ private SpriteRenderer _deadFrontHairRenderer
 ```csharp
 private bool _drag
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +97,8 @@ private bool _drag
 ```csharp
 private Timer _dragStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -92,6 +109,8 @@ private Timer _dragStartTimer
 ```csharp
 private Timer _finishTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +121,8 @@ private Timer _finishTimer
 ```csharp
 private Timer _insertingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,6 +133,8 @@ private Timer _insertingTimer
 ```csharp
 private float _remainAttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,6 +145,8 @@ private float _remainAttackDelay
 ```csharp
 private SingingMachine _singingMachine
 ```
+#INC
+
 
 #### Field Value
 
@@ -132,6 +157,8 @@ private SingingMachine _singingMachine
 ```csharp
 private WorkerModel _target
 ```
+#INC
+
 
 #### Field Value
 
@@ -142,6 +169,8 @@ private WorkerModel _target
 ```csharp
 private const float defaultDamage = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -152,6 +181,8 @@ private const float defaultDamage = 16
 ```csharp
 private const float range = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -162,6 +193,8 @@ private const float range = 3
 ```csharp
 private const float statDamageBonus = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,24 +207,32 @@ private const float statDamageBonus = 3
 ```csharp
 private void DefaultAction()
 ```
+#INC
+
 
 ### DragAction()
 
 ```csharp
 private void DragAction()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetTarget()
 
 ```csharp
 public UnitModel GetTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -202,18 +243,24 @@ public UnitModel GetTarget()
 ```csharp
 public virtual void GiveDamage()
 ```
+#INC
+
 
 ### MoveOrAttack()
 
 ```csharp
 private void MoveOrAttack()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -226,9 +273,14 @@ public void OnAnimCalled(int i)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

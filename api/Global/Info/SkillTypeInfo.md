@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/SkillTypeInfo
 ```csharp
 public class SkillTypeInfo
 ```
+Holds information about work type.
+
+Has some legacy work constants, but most of the time things just check the [RwbpType](/api/Global/Type/RwbpType) or the id.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkillTypeInfo
@@ -25,6 +29,9 @@ public class SkillTypeInfo
 ```csharp
 public SkillTypeInfo()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public SkillTypeInfo()
 ```csharp
 public const long Amusements = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public const long Amusements = 4
 ```csharp
 public string calledName
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public string calledName
 ```csharp
 public const long Cleanliness = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public const long Cleanliness = 2
 ```csharp
 public const long Consensus = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public const long Consensus = 3
 ```csharp
 public long id
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public long id
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public string name
 ```csharp
 public const long Nutrition = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ public const long Nutrition = 1
 ```csharp
 public const long Violence = 5
 ```
+#INC
+
 
 #### Field Value
 

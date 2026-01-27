@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/AlriuneWeapon
 public class AlriuneWeapon : EquipmentScriptBase
 ```
 
+Script for [Alriune](/api/Global/Misc/Alriune)'s EGO Weapon: Faint Aroma. No script.
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → AlriuneWeapon
 

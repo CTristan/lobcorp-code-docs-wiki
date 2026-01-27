@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/LaserParticleEffect
 public class LaserParticleEffect : MonoBehaviour
 ```
 
+Effect for [Apocalypse Bird](/api/Global/Misc/BossBird)'s ranged attack. See [BossBirdAnim](/api/Global/Creature/BossBirdAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LaserParticleEffect
 
@@ -43,6 +48,8 @@ private LaserParticleEffect.OnArrivedEvent arrivedEvent
 ```csharp
 private BossBird.LaserAttackTargetData arrivedEventDataSave
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private BossBird.LaserAttackTargetData arrivedEventDataSave
 ```csharp
 private Vector2 currentDest
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Vector2 currentDest
 ```csharp
 private Vector2 currentStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Vector2 currentStart
 ```csharp
 private Vector2 dist
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Vector2 dist
 ```csharp
 private float lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private float lifeTime
 ```csharp
 private bool shooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private bool shooted
 ```csharp
 private Timer shootingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private Timer shootingTimer
 ```csharp
 private Vector2 startLocalPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private Vector2 startLocalPos
 ```csharp
 public AnimationCurve xCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public AnimationCurve xCurve
 ```csharp
 private AnimationCurve yCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,18 +170,25 @@ private AnimationCurve yCurve
 ```csharp
 private void Explode()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(Vector2)
 
 ```csharp
 public void Init(Vector2 localPos)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -169,6 +201,8 @@ public void Init(Vector2 localPos)
 ```csharp
 private void Process(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +215,8 @@ private void Process(float rate)
 ```csharp
 public void ResetPos()
 ```
+#INC
+
 
 ### SetArrivedEvent(OnArrivedEvent, LaserAttackTargetData)
 
@@ -200,6 +236,8 @@ public void SetArrivedEvent(LaserParticleEffect.OnArrivedEvent arrivedEvent, Bos
 ```csharp
 public void Shoot(float lifeTime, Vector2 destGlobalPos, AnimationCurve curve)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,3 +252,5 @@ public void Shoot(float lifeTime, Vector2 destGlobalPos, AnimationCurve curve)
 ```csharp
 public void Start()
 ```
+#INC
+

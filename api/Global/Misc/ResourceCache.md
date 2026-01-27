@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResourceCache
 ```csharp
 public class ResourceCache
 ```
+Loads and caches textures, sprites, prefabs, and sprite arrays.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResourceCache
@@ -33,6 +37,8 @@ public ResourceCache()
 ```csharp
 private static ResourceCache _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static ResourceCache _instance
 ```csharp
 private int loadingCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private int loadingCount
 ```csharp
 private Dictionary<string, Sprite[]> multipleSpriteCache
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private Dictionary<string, Sprite[]> multipleSpriteCache
 ```csharp
 private Dictionary<string, GameObject> prefabCache
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private Dictionary<string, GameObject> prefabCache
 ```csharp
 private Dictionary<string, Sprite> spriteCache
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private Dictionary<string, Sprite> spriteCache
 ```csharp
 private Dictionary<string, Texture2D> textureCache
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +133,8 @@ public bool isLoadingDone { get; }
 ```csharp
 public Sprite[] GetMultipleSprite(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +151,8 @@ public Sprite[] GetMultipleSprite(string name)
 ```csharp
 public Sprite GetSprite(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +169,8 @@ public Sprite GetSprite(string name)
 ```csharp
 public Texture2D GetTexture(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,12 +187,17 @@ public Texture2D GetTexture(string name)
 ```csharp
 private void Init()
 ```
+#INC
+#code-generated
+
 
 ### InsertSpriteCache(string, Sprite)
 
 ```csharp
 public void InsertSpriteCache(string name, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,6 +211,8 @@ public void InsertSpriteCache(string name, Sprite sprite)
 ```csharp
 public void InsertSpriteCache(string name, Sprite[] sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +226,8 @@ public void InsertSpriteCache(string name, Sprite[] sprite)
 ```csharp
 public GameObject LoadPrefab(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -213,6 +244,8 @@ public GameObject LoadPrefab(string name)
 ```csharp
 public IEnumerator LoadSprites(string[] spriteNameList, Callback finishCallback)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FixerPaleSlowBuf
 public class FixerPaleSlowBuf : UnitBuf
 ```
 
+Buff which stops movement, for the target of the [Pale Fixer](/api/Global/Misc/FixerPale)'s teleport attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FixerPaleSlowBuf
 
@@ -25,6 +28,8 @@ public class FixerPaleSlowBuf : UnitBuf
 ```csharp
 public FixerPaleSlowBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public FixerPaleSlowBuf()
 ```csharp
 private const float _movementScale = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _movementScale = 0
 ```csharp
 private const float _remainMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _remainMax = 2
 ```csharp
 private const float _remainMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +88,9 @@ private static float remain { get; }
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -89,6 +103,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

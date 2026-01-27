@@ -11,6 +11,8 @@ canonical_path: /api/Global/List/AgentTitleTypeList
 ```csharp
 public class AgentTitleTypeList
 ```
+Maintains titles for [agents](/api/Global/Worker/AgentModel).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentTitleTypeList
@@ -33,6 +35,8 @@ public AgentTitleTypeList()
 ```csharp
 private static AgentTitleTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static AgentTitleTypeList _instance
 ```csharp
 private List<AgentTitleTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +73,8 @@ public static AgentTitleTypeList instance { get; }
 ```csharp
 private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool randomly = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -86,6 +94,8 @@ private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool
 ```csharp
 public AgentTitleTypeInfo GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,6 +112,8 @@ public AgentTitleTypeInfo GetData(int id)
 ```csharp
 public AgentTitleTypeInfo GetDataPrefix(AgentModel agent, int level, bool randomly = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -120,6 +132,8 @@ public AgentTitleTypeInfo GetDataPrefix(AgentModel agent, int level, bool random
 ```csharp
 public AgentTitleTypeInfo GetDataSuffix(AgentModel agent, int level, bool randomly = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,6 +152,9 @@ public AgentTitleTypeInfo GetDataSuffix(AgentModel agent, int level, bool random
 ```csharp
 public void Init(List<AgentTitleTypeInfo> list)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

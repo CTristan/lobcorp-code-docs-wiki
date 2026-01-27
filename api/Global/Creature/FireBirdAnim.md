@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/FireBirdAnim
 public class FireBirdAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Firebird](/api/Global/IOBserver/FireBird)
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FireBirdAnim
 
@@ -36,6 +40,8 @@ public FireBirdAnim()
 ```csharp
 private SpineOptimizerModule _module1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private SpineOptimizerModule _module1
 ```csharp
 private SpineOptimizerModule _module2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private SpineOptimizerModule _module2
 ```csharp
 private const string _sound_atk = "atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ private const string _sound_atk = "atk"
 ```csharp
 private const string _sound_atkEnd = "atkEnd"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ private const string _sound_atkEnd = "atkEnd"
 ```csharp
 private const string _sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ private const string _sound_dead = "dead"
 ```csharp
 private const string _sound_heal = "heal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ private const string _sound_heal = "heal"
 ```csharp
 private const string _sound_hit = "hit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ private const string _sound_hit = "hit"
 ```csharp
 private const string _sound_loop = "loop"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +136,8 @@ private const string _sound_loop = "loop"
 ```csharp
 private const string _sound_shout = "shout"
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +148,8 @@ private const string _sound_shout = "shout"
 ```csharp
 public GameObject burning
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +160,8 @@ public GameObject burning
 ```csharp
 public GameObject burnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +172,8 @@ public GameObject burnt
 ```csharp
 private SoundEffectPlayer loop
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +184,8 @@ private SoundEffectPlayer loop
 ```csharp
 private FireBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -190,18 +220,24 @@ private Animator animator_burnt { get; }
 ```csharp
 private void CastEnd()
 ```
+#INC
+
 
 ### DelayEnd()
 
 ```csharp
 private void DelayEnd()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,6 +254,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -228,18 +267,24 @@ public override bool HasDeadMotion()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### MakeHitSound()
 
 ```csharp
 public void MakeHitSound()
 ```
+#INC
+
 
 ### MakeLoop(string, float)
 
@@ -280,18 +325,24 @@ public SoundEffectPlayer MakeSound(string src, float vol = 1)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnAttackStart()
 
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,48 +355,64 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnHealEnd()
 
 ```csharp
 private void OnHealEnd()
 ```
+#INC
+
 
 ### OnHealStart()
 
 ```csharp
 public void OnHealStart()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### RemoveLoop()
 
 ```csharp
 private void RemoveLoop()
 ```
+#INC
+
 
 ### SetScript(FireBird)
 
 ```csharp
 public void SetScript(FireBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -358,3 +425,5 @@ public void SetScript(FireBird script)
 ```csharp
 private void Update()
 ```
+#INC
+

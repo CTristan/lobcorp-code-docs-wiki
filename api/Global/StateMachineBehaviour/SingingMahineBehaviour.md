@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/SingingMahineBehaviour
 public class SingingMahineBehaviour : StateMachineBehaviour
 ```
 
+Part of [Singing Machine](/api/Global/Machine/SingingMachine)'s animator.
+
+When this state is entered, sets "Kill" to false. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → SingingMahineBehaviour
 
@@ -33,6 +38,9 @@ public SingingMahineBehaviour()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

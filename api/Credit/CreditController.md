@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditController
 ```csharp
 public class CreditController : MonoBehaviour
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditController
@@ -33,6 +35,8 @@ public CreditController()
 ```csharp
 private Timer _closeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private Timer _closeTimer
 ```csharp
 private CreditSection _currentMainSection
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private CreditSection _currentMainSection
 ```csharp
 private CreditSection _currentSection
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private CreditSection _currentSection
 ```csharp
 private Timer _endTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private Timer _endTimer
 ```csharp
 private Timer _initialRevelDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private Timer _initialRevelDelayTimer
 ```csharp
 private bool _isMovedScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private bool _isMovedScene
 ```csharp
 private Queue<CreditItem> _items
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private Queue<CreditItem> _items
 ```csharp
 private Timer _lastTextDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private Timer _lastTextDelayTimer
 ```csharp
 private Queue<CreditItem> _mainItems
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private Queue<CreditItem> _mainItems
 ```csharp
 private Timer _mainRevealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ private Timer _mainRevealTimer
 ```csharp
 private Queue<CreditSection> _mainSections
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ private Queue<CreditSection> _mainSections
 ```csharp
 private bool _makeSectionName
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ private bool _makeSectionName
 ```csharp
 private static float _poolWaitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +191,8 @@ private static float _poolWaitTime
 ```csharp
 private bool _readyForEnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +203,8 @@ private bool _readyForEnd
 ```csharp
 private Timer _revealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +215,8 @@ private Timer _revealTimer
 ```csharp
 private Queue<CreditSection> _sections
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +227,8 @@ private Queue<CreditSection> _sections
 ```csharp
 private bool _startImageHalfMoved
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +239,8 @@ private bool _startImageHalfMoved
 ```csharp
 private bool _startImageMoved
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +251,8 @@ private bool _startImageMoved
 ```csharp
 private Timer _waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +263,8 @@ private Timer _waitTimer
 ```csharp
 public Image CloseBlackImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +275,8 @@ public Image CloseBlackImage
 ```csharp
 public float CloseTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +287,8 @@ public float CloseTime
 ```csharp
 public GameObject CreditParticleUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +299,8 @@ public GameObject CreditParticleUnit
 ```csharp
 public RectTransform CreditTextLayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -274,6 +322,8 @@ public GameObject CreditTextUnit
 ```csharp
 public Text CurrentRegionDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -284,6 +334,8 @@ public Text CurrentRegionDisplay
 ```csharp
 public float EndingDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -294,6 +346,8 @@ public float EndingDelay
 ```csharp
 public float InitialDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -304,6 +358,8 @@ public float InitialDelay
 ```csharp
 public float LastTextDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -314,6 +370,8 @@ public float LastTextDelay
 ```csharp
 private CreditTextUnit lastTextUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -324,6 +382,8 @@ private CreditTextUnit lastTextUnit
 ```csharp
 public Image Logo
 ```
+#INC
+
 
 #### Field Value
 
@@ -334,6 +394,8 @@ public Image Logo
 ```csharp
 public float LogoMoveFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -344,6 +406,8 @@ public float LogoMoveFactor
 ```csharp
 public float MainAscendSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -354,6 +418,8 @@ public float MainAscendSpeed
 ```csharp
 public float MainExecutionDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -364,6 +430,8 @@ public float MainExecutionDelay
 ```csharp
 public float MainRevelFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -374,6 +442,8 @@ public float MainRevelFreq
 ```csharp
 public float MainStartDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -384,6 +454,8 @@ public float MainStartDelay
 ```csharp
 public MinMax MainTypeVerticalAppearRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -394,6 +466,8 @@ public MinMax MainTypeVerticalAppearRange
 ```csharp
 private List<CreditTextUnit> pool
 ```
+#INC
+
 
 #### Field Value
 
@@ -415,6 +489,8 @@ public AnimationCurve RegionAlphaCurve
 ```csharp
 public MinMax TextLifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +512,8 @@ public MinMax TextRevealFreq
 ```csharp
 public MinMax TextSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -446,6 +524,8 @@ public MinMax TextSpeed
 ```csharp
 public int TextUnitPoolCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +536,8 @@ public int TextUnitPoolCount
 ```csharp
 private List<CreditTextUnit> textUnits
 ```
+#INC
+
 
 #### Field Value
 
@@ -466,6 +548,8 @@ private List<CreditTextUnit> textUnits
 ```csharp
 public List<MinMax> TextVerticalAppearList
 ```
+#INC
+
 
 #### Field Value
 
@@ -478,6 +562,8 @@ public List<MinMax> TextVerticalAppearList
 ```csharp
 public static CreditController Controller { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -496,36 +582,48 @@ private void Awake()
 ```csharp
 private void EndCredit()
 ```
+#INC
+
 
 ### ExecuteItem()
 
 ```csharp
 private void ExecuteItem()
 ```
+#INC
+
 
 ### ExecuteMainItem()
 
 ```csharp
 private void ExecuteMainItem()
 ```
+#INC
+
 
 ### ExecuteMainSection()
 
 ```csharp
 private void ExecuteMainSection()
 ```
+#INC
+
 
 ### ExecuteSection()
 
 ```csharp
 private void ExecuteSection()
 ```
+#INC
+
 
 ### FailureAction(int)
 
 ```csharp
 private void FailureAction(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -538,12 +636,16 @@ private void FailureAction(int type)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetPool()
 
 ```csharp
 public CreditTextUnit GetPool()
 ```
+#INC
+
 
 #### Returns
 
@@ -554,6 +656,9 @@ public CreditTextUnit GetPool()
 ```csharp
 public float GetVerticalAppearPosition()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -583,12 +688,16 @@ private CreditTextUnit MakeAscendText(string text, float nextTime, int font = 40
 ```csharp
 private void MakeLastText()
 ```
+#INC
+
 
 ### ReturnPooledObject(CreditTextUnit)
 
 ```csharp
 public void ReturnPooledObject(CreditTextUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -601,6 +710,8 @@ public void ReturnPooledObject(CreditTextUnit unit)
 ```csharp
 private void SetBlackFadeAlpha(float a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -613,15 +724,21 @@ private void SetBlackFadeAlpha(float a)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### Wait()
 
 ```csharp
 private void Wait()
 ```
+#INC
+

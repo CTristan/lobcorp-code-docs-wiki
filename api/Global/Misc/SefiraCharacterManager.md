@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SefiraCharacterManager
 ```csharp
 public class SefiraCharacterManager
 ```
+Manages [SefiraCharacterModel](/api/Global/Model/SefiraCharacterModel)s, which represent departments opened to a certain level. #verify 
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraCharacterManager
@@ -25,6 +29,9 @@ public class SefiraCharacterManager
 ```csharp
 private SefiraCharacterManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private SefiraCharacterManager()
 ```csharp
 private Dictionary<SefiraEnum, SefiraCharacterModel> _characters
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private Dictionary<SefiraEnum, SefiraCharacterModel> _characters
 ```csharp
 private List<SefiraCharacterModel> _charactersList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private List<SefiraCharacterModel> _charactersList
 ```csharp
 private static SefiraCharacterManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +90,8 @@ public static SefiraCharacterManager instance { get; }
 ```csharp
 private void AddSefiraInfo(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +104,8 @@ private void AddSefiraInfo(SefiraEnum sefira)
 ```csharp
 public IList<SefiraCharacterModel> GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -99,6 +116,8 @@ public IList<SefiraCharacterModel> GetList()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -109,6 +128,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public SefiraCharacterModel GetSefiraCharacter(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,12 +146,16 @@ public SefiraCharacterModel GetSefiraCharacter(SefiraEnum sefira)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LoadData(Dictionary<string, object>)
 
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +168,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnOpenSefira(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 

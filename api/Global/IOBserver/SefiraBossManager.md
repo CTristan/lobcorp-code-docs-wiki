@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/SefiraBossManager
 public class SefiraBossManager : IObserver
 ```
 
+Manages [core suppressions](/api/Global/Misc/SefiraBossBase).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraBossManager
 
@@ -28,6 +33,9 @@ public class SefiraBossManager : IObserver
 ```csharp
 private SefiraBossManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -36,6 +44,8 @@ private SefiraBossManager()
 ```csharp
 private Dictionary<int, string> _bossBgmDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +56,8 @@ private Dictionary<int, string> _bossBgmDic
 ```csharp
 private Dictionary<string, bool> _clearState
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +68,8 @@ private Dictionary<string, bool> _clearState
 ```csharp
 private SefiraBossBase _currentBossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +80,8 @@ private SefiraBossBase _currentBossBase
 ```csharp
 private static SefiraBossManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +92,8 @@ private static SefiraBossManager _instance
 ```csharp
 private bool _isCleared
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +104,8 @@ private bool _isCleared
 ```csharp
 private bool _isRecoverBlocked
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +116,8 @@ private bool _isRecoverBlocked
 ```csharp
 private bool _isWorkCancelable
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +128,8 @@ private bool _isWorkCancelable
 ```csharp
 private bool _tutorial
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +140,8 @@ private bool _tutorial
 ```csharp
 private bool _tutorialPlayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +152,8 @@ private bool _tutorialPlayed
 ```csharp
 private YesodBossCameraScript cameraScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +164,8 @@ private YesodBossCameraScript cameraScript
 ```csharp
 private SefiraEnum currentActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +176,8 @@ private SefiraEnum currentActivated
 ```csharp
 public const int EndingStartDay = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +188,8 @@ public const int EndingStartDay = 45
 ```csharp
 private const string ketherKeyFormat = "boss_{0}_{2}_{1}_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +200,8 @@ private const string ketherKeyFormat = "boss_{0}_{2}_{1}_"
 ```csharp
 public static string[] ketherSaveRegions
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +212,8 @@ public static string[] ketherSaveRegions
 ```csharp
 private Dictionary<string, int> keyCountDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +224,8 @@ private Dictionary<string, int> keyCountDic
 ```csharp
 private const string keyFormat = "boss_{0}_{1}_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +236,8 @@ private const string keyFormat = "boss_{0}_{1}_"
 ```csharp
 private const int keyTravelMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +248,8 @@ private const int keyTravelMax = 15
 ```csharp
 public static string[] keyValues
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +260,8 @@ public static string[] keyValues
 ```csharp
 private int nextInstId
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +272,8 @@ private int nextInstId
 ```csharp
 private int[] workId
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +284,8 @@ private int[] workId
 ```csharp
 private const string yesodCamera = "Effect/SefiraBoss/YesodBossRenderCamera"
 ```
+#INC
+
 
 #### Field Value
 
@@ -340,6 +390,8 @@ public bool TutorialPlayed { get; set; }
 ```csharp
 public void AddBossBgm(params string[] bgmSrc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -372,6 +424,8 @@ public SefiraBossCreatureModel AddCreature(MapNode pos, SefiraBossBase sefiraBos
 ```csharp
 private void BuildCreature(SefiraBossCreatureModel model, long metadataid, string scriptName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -386,6 +440,8 @@ private void BuildCreature(SefiraBossCreatureModel model, long metadataid, strin
 ```csharp
 public bool CheckBossActivation(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -402,6 +458,8 @@ public bool CheckBossActivation(SefiraEnum sefira)
 ```csharp
 public bool DisplayTutorial()
 ```
+#INC
+
 
 #### Returns
 
@@ -412,12 +470,16 @@ public bool DisplayTutorial()
 ```csharp
 public void ForcelyClear()
 ```
+#INC
+
 
 ### GenBossBase()
 
 ```csharp
 private SefiraBossBase GenBossBase()
 ```
+#INC
+
 
 #### Returns
 
@@ -428,18 +490,24 @@ private SefiraBossBase GenBossBase()
 ```csharp
 public void GenerateHodBuf()
 ```
+#INC
+
 
 ### GenYesodBossSetting()
 
 ```csharp
 public void GenYesodBossSetting()
 ```
+#INC
+
 
 ### GetKetherBossType()
 
 ```csharp
 public KetherBossType GetKetherBossType()
 ```
+#INC
+
 
 #### Returns
 
@@ -450,6 +518,8 @@ public KetherBossType GetKetherBossType()
 ```csharp
 public int GetWorkId(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -466,12 +536,16 @@ public int GetWorkId(int id)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAnyBossSessionActivated()
 
 ```csharp
 public bool IsAnyBossSessionActivated()
 ```
+#INC
+
 
 #### Returns
 
@@ -482,6 +556,8 @@ public bool IsAnyBossSessionActivated()
 ```csharp
 public bool IsBossReady(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -498,6 +574,8 @@ public bool IsBossReady(SefiraEnum sefira)
 ```csharp
 public bool IsBossStartable(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -514,6 +592,8 @@ public bool IsBossStartable(SefiraEnum sefira)
 ```csharp
 public bool IsBossStartable(SefiraEnum sefira, out List<string> require)
 ```
+#INC
+
 
 #### Parameters
 
@@ -531,6 +611,8 @@ public bool IsBossStartable(SefiraEnum sefira, out List<string> require)
 ```csharp
 public bool IsClearedDay()
 ```
+#INC
+
 
 #### Returns
 
@@ -541,6 +623,8 @@ public bool IsClearedDay()
 ```csharp
 public bool IsKetherBoss()
 ```
+#INC
+
 
 #### Returns
 
@@ -551,6 +635,8 @@ public bool IsKetherBoss()
 ```csharp
 public bool IsKetherBoss(KetherBossType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -567,6 +653,8 @@ public bool IsKetherBoss(KetherBossType type)
 ```csharp
 public void LoadSaveData(Dictionary<string, object> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -579,18 +667,24 @@ public void LoadSaveData(Dictionary<string, object> data)
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -604,6 +698,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnOverloadActivated(int currentValue)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,18 +712,24 @@ public void OnOverloadActivated(int currentValue)
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### OnStartBossSession(SefiraEnum)
 
 ```csharp
 public bool OnStartBossSession(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -644,18 +746,24 @@ public bool OnStartBossSession(SefiraEnum sefira)
 ```csharp
 public void OnTutorialEnd()
 ```
+#INC
+
 
 ### OnUpdate()
 
 ```csharp
 public void OnUpdate()
 ```
+#INC
+
 
 ### PlayBossBgm(int)
 
 ```csharp
 public void PlayBossBgm(int index = -1)
 ```
+#INC
+
 
 #### Parameters
 
@@ -668,18 +776,24 @@ public void PlayBossBgm(int index = -1)
 ```csharp
 public void RandomizeWorkId()
 ```
+#INC
+
 
 ### ResetYesodBossSetting()
 
 ```csharp
 public void ResetYesodBossSetting()
 ```
+#INC
+
 
 ### SaveBossSessionData(Dictionary<string, object>)
 
 ```csharp
 public void SaveBossSessionData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -692,6 +806,8 @@ public void SaveBossSessionData(Dictionary<string, object> dic)
 ```csharp
 public void SetActivatedBoss(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -704,12 +820,16 @@ public void SetActivatedBoss(SefiraEnum sefira)
 ```csharp
 private void SetKeyCounts()
 ```
+#INC
+
 
 ### SetRecoverBlockState(bool)
 
 ```csharp
 public void SetRecoverBlockState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -722,6 +842,8 @@ public void SetRecoverBlockState(bool state)
 ```csharp
 public void SetWorkCancelableState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -734,6 +856,8 @@ public void SetWorkCancelableState(bool state)
 ```csharp
 public bool TryGetBossDesc(SefiraEnum sefira, SefiraBossDescType type, int index, out string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -753,6 +877,8 @@ public bool TryGetBossDesc(SefiraEnum sefira, SefiraBossDescType type, int index
 ```csharp
 public bool TryGetBossDesc(SefiraEnum sefira, SefiraBossDescType type, out string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -771,6 +897,8 @@ public bool TryGetBossDesc(SefiraEnum sefira, SefiraBossDescType type, out strin
 ```csharp
 public bool TryGetBossDescCount(SefiraEnum sefira, SefiraBossDescType type, out int max)
 ```
+#INC
+
 
 #### Parameters
 

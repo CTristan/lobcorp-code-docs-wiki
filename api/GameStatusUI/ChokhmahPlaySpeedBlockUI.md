@@ -12,6 +12,11 @@ canonical_path: /api/GameStatusUI/ChokhmahPlaySpeedBlockUI
 public class ChokhmahPlaySpeedBlockUI : PlaySpeedSettingBlockedUI
 ```
 
+For messing with the time controls and displaying text when you try to pause or slow down during Hokma's suppression. Also, calls Hokma's death-on-pause code.
+
+See also [ChokhmahBossBase](/api/Global/Misc/ChokhmahBossBase)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PlaySpeedSettingBlockedUI](/api/GameStatusUI/PlaySpeedSettingBlockedUI) → ChokhmahPlaySpeedBlockUI
 
@@ -33,6 +38,8 @@ public ChokhmahPlaySpeedBlockUI()
 ```csharp
 private ChokhmahBossBase _chokhmah
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private ChokhmahBossBase _chokhmah
 ```csharp
 public AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public AnimationCurve curve
 ```csharp
 public CanvasGroup group
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public CanvasGroup group
 ```csharp
 public Text textDisplayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public ChokhmahBossBase Chokhmah { get; }
 ```csharp
 public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,12 +118,17 @@ public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```csharp
 public override void OnShow()
 ```
+#INC
+#code-generated
+
 
 ### OnTryDisplay(PlaySpeedSettingBlockFunction)
 
 ```csharp
 public override bool OnTryDisplay(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +145,8 @@ public override bool OnTryDisplay(PlaySpeedSettingBlockFunction function)
 ```csharp
 public override void OnTryFunction(PlaySpeedSettingBlockFunction function, bool isOnCheck = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,12 +160,16 @@ public override void OnTryFunction(PlaySpeedSettingBlockFunction function, bool 
 ```csharp
 public void OnTryTimePause()
 ```
+#INC
+
 
 ### SetChokhmaBossBase(ChokhmahBossBase)
 
 ```csharp
 public void SetChokhmaBossBase(ChokhmahBossBase chokhmah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -156,6 +182,8 @@ public void SetChokhmaBossBase(ChokhmahBossBase chokhmah)
 ```csharp
 public void SetText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -168,3 +196,5 @@ public void SetText(string text)
 ```csharp
 public override void Update()
 ```
+#INC
+

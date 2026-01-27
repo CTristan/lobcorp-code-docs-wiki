@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/SnowQueenWeapon
 public class SnowQueenWeapon : EquipmentScriptBase
 ```
 
+Script for [The Snow Queen](/api/Global/Misc/SnowQueen)'s EGO Weapon: Frost Splinter.
+
+[Slows](/api/Global/UnitBuf/SnowQueenSlow)... specifically [SefiraBossCreatureModel](/api/Global/Creature/SefiraBossCreatureModel), of which only [The Red Mist](/api/Global/Script/GeburahCoreScript) and [An Arbiter](/api/Global/Script/BinahCoreScript) are targetable? And only if they have less health after taking damage. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SnowQueenWeapon
 
@@ -33,6 +40,8 @@ public SnowQueenWeapon()
 ```csharp
 private float hpOld
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private float hpOld
 ```csharp
 private bool slow
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private bool slow
 ```csharp
 public const float slowRatio = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public const float slowRatio = 0.5
 ```csharp
 public const float slowTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -92,6 +107,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,6 +127,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

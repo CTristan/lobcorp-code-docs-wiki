@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FixerBlack
 public class FixerBlack : FixerCreature
 ```
 
+Black Fixer.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [FixerCreature](/api/Global/Creature/FixerCreature) → FixerBlack
 
@@ -33,6 +38,8 @@ public FixerBlack()
 ```csharp
 private FixerBlackAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FixerBlackAnim _animScript
 ```csharp
 private const int _atkDmgMax = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 16
 ```csharp
 private const int _atkDmgMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 8
 ```csharp
 private const float _atkDmgRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _atkDmgRange = 3.5
 ```csharp
 private const RwbpType _atkType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const RwbpType _atkType = B
 ```csharp
 private const float _attackRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _attackRange = 3
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _motionDelayMin = 0.5
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const float _skillCoolTimeMax = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _skillCoolTimeMax = 60
 ```csharp
 private const float _skillCoolTimeMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float _skillCoolTimeMin = 50
 ```csharp
 private const int _skillDmgMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const int _skillDmgMax = 12
 ```csharp
 private const int _skillDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const int _skillDmgMin = 10
 ```csharp
 private const float _skillInitCoolTimeMax = 31
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _skillInitCoolTimeMax = 31
 ```csharp
 private const float _skillInitCoolTimeMin = 29
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _skillInitCoolTimeMin = 29
 ```csharp
 private const RwbpType _skillType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const RwbpType _skillType = B
 ```csharp
 private const int _specialAtkProb = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const int _specialAtkProb = 25
 ```csharp
 private const int _specialDmgMax_1st = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const int _specialDmgMax_1st = 25
 ```csharp
 private const int _specialDmgMax_2nd = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const int _specialDmgMax_2nd = 5
 ```csharp
 private const int _specialDmgMax_3rd = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const int _specialDmgMax_3rd = 7
 ```csharp
 private const int _specialDmgMin_1st = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private const int _specialDmgMin_1st = 20
 ```csharp
 private const int _specialDmgMin_2nd = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const int _specialDmgMin_2nd = 4
 ```csharp
 private const int _specialDmgMin_3rd = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private const int _specialDmgMin_3rd = 5
 ```csharp
 private const float _specialDmgRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private const float _specialDmgRange = 4
 ```csharp
 private const RwbpType _specialType_1st = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private const RwbpType _specialType_1st = B
 ```csharp
 private const RwbpType _specialType_2nd = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private const RwbpType _specialType_2nd = B
 ```csharp
 private const RwbpType _specialType_3rd = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +362,8 @@ private const RwbpType _specialType_3rd = B
 ```csharp
 private Sefira currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +374,8 @@ private Sefira currentSefira
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +386,8 @@ private Timer motionDelayTimer
 ```csharp
 private UnitModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +398,8 @@ private UnitModel moveTarget
 ```csharp
 private PassageObjectModel oldPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +410,8 @@ private PassageObjectModel oldPassage
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -447,12 +516,16 @@ private static DamageInfo specialDmg_3rd { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### GetCreaturesInPassage()
 
 ```csharp
 private List<CreatureModel> GetCreaturesInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -463,6 +536,8 @@ private List<CreatureModel> GetCreaturesInPassage()
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -473,6 +548,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -483,6 +560,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -493,12 +572,16 @@ private bool IsMovable()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -509,24 +592,32 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDeadSceneEffect()
 
 ```csharp
 public void OnDeadSceneEffect()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -539,18 +630,24 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSkillDamage()
 ```
+#INC
+
 
 ### OnSkillEnd()
 
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnSpecialDamageTimeCalled(int)
 
 ```csharp
 public void OnSpecialDamageTimeCalled(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -563,6 +660,9 @@ public void OnSpecialDamageTimeCalled(int type)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -575,9 +675,13 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SkillStart()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+

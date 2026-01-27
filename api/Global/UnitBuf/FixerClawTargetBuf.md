@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FixerClawTargetBuf
 public class FixerClawTargetBuf : UnitBuf
 ```
 
+Buff denoting targets of [The Claw](/api/Global/Misc/FixerClaw)'s three-serum attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FixerClawTargetBuf
 
@@ -25,6 +28,8 @@ public class FixerClawTargetBuf : UnitBuf
 ```csharp
 public FixerClawTargetBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public FixerClawTargetBuf()
 ```csharp
 private const float _remainTime = Infinity
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _remainTime = Infinity
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private GameObject effect
 ```csharp
 private const string src = "Effect/Creature/FixerClaw/FixerClawMark"
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +76,17 @@ private const string src = "Effect/Creature/FixerClaw/FixerClawMark"
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -83,15 +99,21 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### RemoveEffect()
 
 ```csharp
 private void RemoveEffect()
 ```
+#INC
+

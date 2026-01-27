@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/SpearAposlteAnim
 public class SpearAposlteAnim : DeathAngelApostleAnim, IAnimatorEventCalled
 ```
 
+Animation handler for [Spear Apostle](/api/WhiteNightSpace/SpearApostle).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → [DeathAngelApostleAnim](/api/WhiteNightSpace/DeathAngelApostleAnim) → SpearAposlteAnim
 
@@ -36,6 +39,8 @@ public SpearAposlteAnim()
 ```csharp
 private WorkerUnit _currentPickUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private WorkerUnit _currentPickUnit
 ```csharp
 public Transform PickPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public Transform PickPos
 ```csharp
 public GameObject Spear_Default
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public GameObject Spear_Default
 ```csharp
 public GameObject Spear_Killed
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,24 +101,33 @@ private SpearApostle SpearApostle { get; }
 ```csharp
 public void ClearCurrentPick()
 ```
+#INC
+
 
 ### OnArrived()
 
 ```csharp
 public void OnArrived()
 ```
+#INC
+
 
 ### OnAttackDelayEnd()
 
 ```csharp
 public void OnAttackDelayEnd()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -120,30 +140,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnPickWorker()
 
 ```csharp
 public void OnPickWorker()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### ResetParam()
 
 ```csharp
 public override void ResetParam()
 ```
+#INC
+
 
 ### SetCurrentPick(WorkerUnit)
 
 ```csharp
 public void SetCurrentPick(WorkerUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -156,3 +186,5 @@ public void SetCurrentPick(WorkerUnit unit)
 ```csharp
 private void Update()
 ```
+#INC
+

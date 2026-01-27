@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/UnitStatBuf
 public class UnitStatBuf : UnitBuf
 ```
 
+Buff which increases stats.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → UnitStatBuf
 
@@ -28,6 +31,9 @@ public class UnitStatBuf : UnitBuf
 ```csharp
 public UnitStatBuf(float time)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +46,8 @@ public UnitStatBuf(float time)
 ```csharp
 public UnitStatBuf(float time, UnitBufType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -55,6 +63,8 @@ public UnitStatBuf(float time, UnitBufType type)
 ```csharp
 public float attackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public float attackSpeed
 ```csharp
 public int cubeSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public int cubeSpeed
 ```csharp
 public int maxHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public int maxHp
 ```csharp
 public int maxMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public int maxMental
 ```csharp
 public float movementSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public float movementSpeed
 ```csharp
 public WorkerPrimaryStatBonus primaryStat
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,8 @@ public WorkerPrimaryStatBonus primaryStat
 ```csharp
 public int workProb
 ```
+#INC
+
 
 #### Field Value
 

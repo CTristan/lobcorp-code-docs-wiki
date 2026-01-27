@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/GalaxyBoyWeapon
 public class GalaxyBoyWeapon : EquipmentScriptBase
 ```
 
+Script for [Child of the Galaxy](/api/Global/IOBserver/GalaxyBoy)'s EGO Weapon: Our Galaxy. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → GalaxyBoyWeapon
 

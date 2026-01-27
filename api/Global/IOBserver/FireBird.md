@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/FireBird
 public class FireBird : CreatureBase, IObserver
 ```
 
+The Firebird.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → FireBird
 
@@ -36,6 +41,8 @@ public FireBird()
 ```csharp
 private FireBirdAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private FireBirdAnim _animScript
 ```csharp
 private const float _ARRIVE_RANGE = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const float _ARRIVE_RANGE = 0.5
 ```csharp
 private const int _ATTACK_DMG_MAX = 110
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const int _ATTACK_DMG_MAX = 110
 ```csharp
 private const int _ATTACK_DMG_MIN = 90
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const int _ATTACK_DMG_MIN = 90
 ```csharp
 private const float _ATTACK_DMG_RANGE = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const float _ATTACK_DMG_RANGE = 0.5
 ```csharp
 private const RwbpType _ATTACK_DMG_TYPE = W
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const RwbpType _ATTACK_DMG_TYPE = W
 ```csharp
 private const float _comeBackTimeMax = 90
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const float _comeBackTimeMax = 90
 ```csharp
 private const float _comeBackTimeMin = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private const float _comeBackTimeMin = 45
 ```csharp
 private const int _EQUIPMENT_ID = 200061
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private const int _EQUIPMENT_ID = 200061
 ```csharp
 private readonly float[] _FILTER_ALPHA
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private readonly float[] _FILTER_ALPHA
 ```csharp
 private const string _FILTER_NAME = "FireBirdBurningFilter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private const string _FILTER_NAME = "FireBirdBurningFilter"
 ```csharp
 private const string _FILTER_SRC = "Sprites/CreatureSprite/FireBird/PassageFilter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private const string _FILTER_SRC = "Sprites/CreatureSprite/FireBird/PassageFilte
 ```csharp
 private const int _HEAL_CONDITION_QLIPHOTH = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private const int _HEAL_CONDITION_QLIPHOTH = 1
 ```csharp
 private const float _HEAL_HP_CONDITION = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private const float _HEAL_HP_CONDITION = 0.2
 ```csharp
 private const float _MOVEMENT_ATTACK = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private const float _MOVEMENT_ATTACK = 20
 ```csharp
 private const int _PASSAGE_DMG_MAX = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private const int _PASSAGE_DMG_MAX = 5
 ```csharp
 private const int _PASSAGE_DMG_MIN = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ private const int _PASSAGE_DMG_MIN = 5
 ```csharp
 private const RwbpType _PASSAGE_DMG_TYPE = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private FireBird.Phase _phase
 ```csharp
 private const int _QLIPHOTH_MAX = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private const int _QLIPHOTH_MAX = 3
 ```csharp
 private const float _RECOGNIZE_RANGE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private const float _RECOGNIZE_RANGE = 15
 ```csharp
 private const float _skillCoolTimeMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ private const float _skillCoolTimeMax = 10
 ```csharp
 private const float _skillCoolTimeMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ private const float _skillCoolTimeMin = 8
 ```csharp
 private const float _SUB_PROB_NORM = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ private const float _SUB_PROB_NORM = 0.3
 ```csharp
 private const string _TREE_SRC = "Unit/ETC/FireBirdTree"
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +339,8 @@ private const string _TREE_SRC = "Unit/ETC/FireBirdTree"
 ```csharp
 private readonly float[] _WORK_DMG_RATIO
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +351,8 @@ private readonly float[] _WORK_DMG_RATIO
 ```csharp
 private bool annoyed
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +373,8 @@ private FireBird.BurningPassage burningPassage
 ```csharp
 private Timer comeBackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +385,8 @@ private Timer comeBackTimer
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +397,8 @@ private List<UnitModel> damaged
 ```csharp
 private WorkerModel healTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +409,8 @@ private WorkerModel healTarget
 ```csharp
 private bool isSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +421,8 @@ private bool isSuppressed
 ```csharp
 private WorkerModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +433,8 @@ private WorkerModel moveTarget
 ```csharp
 private PassageObjectModel oldPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +445,8 @@ private PassageObjectModel oldPassage
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +457,8 @@ private Timer skillCoolTimer
 ```csharp
 private bool speedUp
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +469,8 @@ private bool speedUp
 ```csharp
 private MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +481,8 @@ private MapNode targetNode
 ```csharp
 private GameObject tree
 ```
+#INC
+
 
 #### Field Value
 
@@ -480,12 +557,16 @@ private static float SkillCoolTime { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AddBurningPassage(PassageObjectModel)
 
 ```csharp
 private void AddBurningPassage(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -498,18 +579,24 @@ private void AddBurningPassage(PassageObjectModel passage)
 ```csharp
 public override void AddedQliphothCounter()
 ```
+#INC
+
 
 ### AddQliphothCounter()
 
 ```csharp
 private void AddQliphothCounter()
 ```
+#INC
+
 
 ### AttackDamage(UnitModel)
 
 ```csharp
 private void AttackDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -522,12 +609,16 @@ private void AttackDamage(UnitModel target)
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### AttackStart(UnitDirection)
 
 ```csharp
 private void AttackStart(UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -540,6 +631,8 @@ private void AttackStart(UnitDirection dir)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -557,6 +650,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckHeal(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -573,6 +668,8 @@ private bool CheckHeal(UseSkill skill)
 ```csharp
 private bool CheckMoveCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -589,36 +686,48 @@ private bool CheckMoveCondition(WorkerModel worker)
 ```csharp
 private void CheckPassage()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FixedUpdate_Attacking()
 
 ```csharp
 private void FixedUpdate_Attacking()
 ```
+#INC
+
 
 ### FixedUpdate_ComeBack()
 
 ```csharp
 private void FixedUpdate_ComeBack()
 ```
+#INC
+
 
 ### FixedUpdate_Default()
 
 ```csharp
 private void FixedUpdate_Default()
 ```
+#INC
+
 
 ### GetDamageMultiplierInWork(UseSkill)
 
 ```csharp
 public override float GetDamageMultiplierInWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -635,6 +744,8 @@ public override float GetDamageMultiplierInWork(UseSkill skill)
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -651,6 +762,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -668,6 +781,8 @@ private UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 private UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -684,6 +799,8 @@ private UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 private WorkerModel GetTargetInAll()
 ```
+#INC
+
 
 #### Returns
 
@@ -694,6 +811,8 @@ private WorkerModel GetTargetInAll()
 ```csharp
 private WorkerModel GetTargetInSefira(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -710,6 +829,8 @@ private WorkerModel GetTargetInSefira(Sefira sefira)
 ```csharp
 public List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -727,6 +848,8 @@ public List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 private List<WorkerModel> GetWorkersInAll()
 ```
+#INC
+
 
 #### Returns
 
@@ -737,6 +860,8 @@ private List<WorkerModel> GetWorkersInAll()
 ```csharp
 private List<WorkerModel> GetWorkersInSefira(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -753,6 +878,8 @@ private List<WorkerModel> GetWorkersInSefira(Sefira sefira)
 ```csharp
 private void HealStart(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -765,6 +892,8 @@ private void HealStart(AgentModel target)
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -775,6 +904,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -785,6 +916,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -801,6 +934,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -818,6 +953,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 private bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -834,6 +971,8 @@ private bool IsInView(UnitModel target)
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -844,6 +983,8 @@ public override bool IsSuppressable()
 ```csharp
 private void MakeMovement(bool init = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -856,24 +997,32 @@ private void MakeMovement(bool init = false)
 ```csharp
 private void MakeMovement_Back()
 ```
+#INC
+
 
 ### OnCastEnd()
 
 ```csharp
 public void OnCastEnd()
 ```
+#INC
+
 
 ### OnDelayEnd()
 
 ```csharp
 public void OnDelayEnd()
 ```
+#INC
+
 
 ### OnFinishWork(UseSkill)
 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -886,18 +1035,24 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public void OnHeal()
 ```
+#INC
+
 
 ### OnHealEnd()
 
 ```csharp
 public void OnHealEnd()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -911,6 +1066,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -923,12 +1080,16 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -941,30 +1102,40 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -979,6 +1150,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -991,81 +1165,109 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### Present()
 
 ```csharp
 private void Present()
 ```
+#INC
+
 
 ### ReducedQliphothCounter()
 
 ```csharp
 public override void ReducedQliphothCounter()
 ```
+#INC
+
 
 ### RemoveBurningPassage()
 
 ```csharp
 private void RemoveBurningPassage()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetFilterAlpha()
 
 ```csharp
 private void SetFilterAlpha()
 ```
+#INC
+
 
 ### Shoot()
 
 ```csharp
 private void Shoot()
 ```
+#INC
+
 
 ### SpeedDown()
 
 ```csharp
 private void SpeedDown()
 ```
+#INC
+
 
 ### SpeedUp()
 
 ```csharp
 private void SpeedUp()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### SubQliphothCounter()
 
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+
 
 ### TreeOff()
 
 ```csharp
 private void TreeOff()
 ```
+#INC
+
 
 ### TreeOn()
 
 ```csharp
 private void TreeOn()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

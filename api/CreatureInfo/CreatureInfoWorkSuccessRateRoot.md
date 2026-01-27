@@ -12,6 +12,9 @@ canonical_path: /api/CreatureInfo/CreatureInfoWorkSuccessRateRoot
 public class CreatureInfoWorkSuccessRateRoot : MonoBehaviour
 ```
 
+Root for the box for work success rate at a given level. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoWorkSuccessRateRoot
 
@@ -33,6 +36,8 @@ public CreatureInfoWorkSuccessRateRoot()
 ```csharp
 public RectTransform rectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public RectTransform rectTransform
 ```csharp
 public Text[] SuccessRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Text[] SuccessRate
 ```csharp
 public Text WorkTypeName
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public Text WorkTypeName
 ```csharp
 public void SetData(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,9 +88,14 @@ public void SetData(CreatureModel creature)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

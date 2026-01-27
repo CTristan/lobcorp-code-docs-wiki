@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahJusticeDebuf
 ```csharp
 public class BinahJusticeDebuf : UnitStatBuf
 ```
+Binah slowing debuf
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → BinahJusticeDebuf
@@ -25,6 +27,8 @@ public class BinahJusticeDebuf : UnitStatBuf
 ```csharp
 public BinahJusticeDebuf(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public BinahJusticeDebuf(float time)
 ```csharp
 private float _reduceVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private float _reduceVal
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private AgentModel agent
 ```csharp
 private GameObject attach
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private GameObject attach
 ```csharp
 private bool lateInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private bool lateInit
 ```csharp
 private const float P_min = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private const float P_min = 10
 ```csharp
 private const string unitEffectSrc = "Effect/SefiraBoss/BinahBoss/Effect/BinahAgentSlow"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,12 +129,17 @@ private float P_buf { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,24 +152,32 @@ public override void Init(UnitModel model)
 ```csharp
 private void LateInit()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### SetReduceValue(float)
 
 ```csharp
 public void SetReduceValue(float val)
 ```
+#INC
+
 
 #### Parameters
 

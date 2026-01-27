@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/StoryScriptValue
 ```csharp
 public class StoryScriptValue
 ```
+A variable to be used in the story script.
+
+Can be VARIABLE or CONSTANT.
+
+Used with .
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryScriptValue
@@ -25,6 +31,8 @@ public class StoryScriptValue
 ```csharp
 public StoryScriptValue(int value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +45,9 @@ public StoryScriptValue(int value)
 ```csharp
 public StoryScriptValue(string id)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -51,6 +62,8 @@ public StoryScriptValue(string id)
 ```csharp
 public string id
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +74,8 @@ public string id
 ```csharp
 public int value
 ```
+#INC
+
 
 #### Field Value
 

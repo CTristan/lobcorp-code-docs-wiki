@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/CheckPointUI
 public class CheckPointUI : MonoBehaviour, IObserver
 ```
 
+The UI that displays the day and Memory Repository Imprinted message before loading in.
+
+#TODO add picture to clarify
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CheckPointUI
 
@@ -36,6 +41,8 @@ public CheckPointUI()
 ```csharp
 private UnscaledTimer _autoDisableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private CheckPointUI.EndEvnet _endEvent
 ```csharp
 private bool _interactable
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _interactable
 ```csharp
 public bool AutoDisable
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public bool AutoDisable
 ```csharp
 public float autoDisableTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public float autoDisableTime
 ```csharp
 public bool CanClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public bool CanClose
 ```csharp
 public UIController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public UIController controller
 ```csharp
 public float effectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public float effectTime
 ```csharp
 private UnscaledTimer effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private UnscaledTimer effectTimer
 ```csharp
 public UIContentMover lowerMover
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public UIContentMover lowerMover
 ```csharp
 public bool ObserveNotice
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public bool ObserveNotice
 ```csharp
 public UIContentMover upperMover
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +185,8 @@ public UIContentMover upperMover
 ```csharp
 public void OnCheckpointUpdate(int day)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,18 +199,24 @@ public void OnCheckpointUpdate(int day)
 ```csharp
 private void OnClose()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +242,8 @@ public void SetEndEvent(CheckPointUI.EndEvnet e)
 ```csharp
 private void SetText(int day)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,15 +256,22 @@ private void SetText(int day)
 ```csharp
 public void Show()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

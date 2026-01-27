@@ -11,6 +11,9 @@ canonical_path: /api/Manual/ManualLabel
 ```csharp
 public class ManualLabel : MonoBehaviour
 ```
+Labels for selection?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ManualLabel
@@ -33,6 +36,8 @@ public ManualLabel()
 ```csharp
 public LabelData labelData
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public LabelData labelData
 ```csharp
 private const string unitSrc = "UIComponent/Manual/ManualLabelText"
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +84,9 @@ public VerticalLayoutGroup verticalLayout { get; }
 ```csharp
 public void Init(LabelData labelData)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SilentOrchestra
 public class SilentOrchestra : CreatureBase
 ```
 
+The Silent Orchestra.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SilentOrchestra
 
@@ -33,6 +38,8 @@ public SilentOrchestra()
 ```csharp
 private SilentOrchestraAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SilentOrchestraAnim _animScript
 ```csharp
 private const float _appearDelayTime = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _appearDelayTime = 6
 ```csharp
 private Timer _appearDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer _appearDelayTimer
 ```csharp
 private bool _audioChange
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private SilentOrchestra.Movement _currentMovement
 ```csharp
 private bool _curtainReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private bool _curtainReady
 ```csharp
 private const float _damageTick = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ private const float _damageTick = 5
 ```csharp
 private bool _dayFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ private bool _dayFlag
 ```csharp
 private const float _deadSceneDelayMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ private const float _deadSceneDelayMax = 3
 ```csharp
 private const float _deadSceneDelayMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private const float _deadSceneDelayMin = 2
 ```csharp
 private bool _escapeReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ private bool _escapeReady
 ```csharp
 private bool _executeDeadCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ private bool _executeDeadCommand
 ```csharp
 private bool _finaleActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ private bool _finaleActivated
 ```csharp
 private bool _finaleStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ private bool _finaleStarted
 ```csharp
 private List<WorkerModel> _finaleTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ private List<WorkerModel> _finaleTargets
 ```csharp
 private Timer _finaleTimmingCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ private Timer _finaleTimmingCheck
 ```csharp
 private bool _isEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ private bool _isEscaped
 ```csharp
 private SoundEffectPlayer _loop
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ private SoundEffectPlayer _loop
 ```csharp
 private bool _suppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ private bool _suppressed
 ```csharp
 public Timer DamageTick
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ public Timer DamageTick
 ```csharp
 public static float[,] dmgAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ public static float[,] dmgAry
 ```csharp
 public static float[] effectRadius
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +310,8 @@ public static float[] effectRadius
 ```csharp
 public const string FactionCode = "10"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +322,8 @@ public const string FactionCode = "10"
 ```csharp
 public Timer FinaleTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +334,8 @@ public Timer FinaleTimer
 ```csharp
 public static float[] movementTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +346,8 @@ public static float[] movementTime
 ```csharp
 public Timer MovementTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,24 +422,32 @@ private float randDeadSceneDealy { get; }
 ```csharp
 private void ActivateFinale()
 ```
+#INC
+
 
 ### ActivateQliphothCounter()
 
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CheckCamera()
 
 ```csharp
 private void CheckCamera()
 ```
+#INC
+
 
 ### DamageCalc(float)
 
 ```csharp
 public DamageInfo DamageCalc(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,24 +464,32 @@ public DamageInfo DamageCalc(float factor)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### ForcelyReturn()
 
 ```csharp
 private void ForcelyReturn()
 ```
+#INC
+
 
 ### ForcelySuppressed()
 
 ```csharp
 private void ForcelySuppressed()
 ```
+#INC
+
 
 ### GetAllWorkers()
 
 ```csharp
 private List<WorkerModel> GetAllWorkers()
 ```
+#INC
+
 
 #### Returns
 
@@ -446,6 +517,8 @@ public static float GetDamage(SilentOrchestra.Movement currentMovement, SilentOr
 ```csharp
 public CreatureStaticData.ParameterData GetDesc(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -462,6 +535,8 @@ public CreatureStaticData.ParameterData GetDesc(int index)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -478,6 +553,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private MapNode GetTeleportNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -488,6 +565,8 @@ private MapNode GetTeleportNode()
 ```csharp
 public override bool HasUniqueFaction()
 ```
+#INC
+
 
 #### Returns
 
@@ -515,6 +594,8 @@ private bool IsInArea(MovableObjectNode mov, out SilentOrchestra.Movement type)
 ```csharp
 private bool IsInRange(float rad, MovableObjectNode target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -532,6 +613,8 @@ private bool IsInRange(float rad, MovableObjectNode target)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,42 +631,56 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnConductorReady()
 ```
+#INC
+
 
 ### OnCurtainAppear()
 
 ```csharp
 public void OnCurtainAppear()
 ```
+#INC
+
 
 ### OnCurtainStartOpen()
 
 ```csharp
 public void OnCurtainStartOpen()
 ```
+#INC
+
 
 ### OnFinale()
 
 ```csharp
 private void OnFinale()
 ```
+#INC
+
 
 ### OnFinaleEnd()
 
 ```csharp
 public void OnFinaleEnd()
 ```
+#INC
+
 
 ### OnFinaleStartDead()
 
 ```csharp
 public void OnFinaleStartDead()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,18 +693,24 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### OnMovementEnd()
 
 ```csharp
 public void OnMovementEnd()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -620,36 +723,48 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -662,6 +777,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -674,18 +791,25 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetBackGroundLoop(string)
 
 ```csharp
 public void SetBackGroundLoop(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -698,12 +822,16 @@ public void SetBackGroundLoop(string key)
 ```csharp
 private void SetDefenseType()
 ```
+#INC
+
 
 ### SetSpaceState(bool)
 
 ```csharp
 public void SetSpaceState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -716,21 +844,29 @@ public void SetSpaceState(bool state)
 ```csharp
 private void StartFinaleEffect()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 private void Teleport()
 ```
+#INC
+
 
 ### TerminateAudio()
 
 ```csharp
 private void TerminateAudio()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

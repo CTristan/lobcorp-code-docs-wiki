@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/DesireHeartAnim
 public class DesireHeartAnim : CreatureAnimScript
 ```
 
+Animation handler for [The Heart of Aspiration](/api/Global/Misc/DesireHeart). No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → DesireHeartAnim
 
@@ -33,9 +38,14 @@ public DesireHeartAnim()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/OldLady
 public class OldLady : CreatureBase, IObserver
 ```
 
+Old Lady.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → OldLady
 
@@ -36,6 +41,8 @@ public OldLady()
 ```csharp
 private OldLadyAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private OldLadyAnim _animScript
 ```csharp
 public const string debufSound = "debuf"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public const string debufSound = "debuf"
 ```csharp
 public string[] effectSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public string[] effectSound
 ```csharp
 private const int qliphothCounterMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,12 +113,16 @@ private IsolateFilter stateFilter { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### HasRoomCounter()
 
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -116,6 +133,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,6 +147,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,6 +162,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,18 +176,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -177,6 +207,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,12 +221,16 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SetObserver(bool)
 
 ```csharp
 public void SetObserver(bool activate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +243,8 @@ public void SetObserver(bool activate)
 ```csharp
 private void SpecialSkill(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 

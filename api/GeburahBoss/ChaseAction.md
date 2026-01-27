@@ -12,6 +12,9 @@ canonical_path: /api/GeburahBoss/ChaseAction
 public class ChaseAction : GeburahAction
 ```
 
+Action for when [The Red Mist](/api/Global/Script/GeburahCoreScript) chases down an agent at 4x speed.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → ChaseAction
 
@@ -25,6 +28,8 @@ public class ChaseAction : GeburahAction
 ```csharp
 public ChaseAction(GeburahCoreScript geburah, float approachDist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -38,6 +43,8 @@ public ChaseAction(GeburahCoreScript geburah, float approachDist)
 ```csharp
 public ChaseAction(GeburahCoreScript geburah, MovableObjectNode movable, float approachDist, bool missEnabed = false, bool autoAttack = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -56,6 +63,8 @@ public ChaseAction(GeburahCoreScript geburah, MovableObjectNode movable, float a
 ```csharp
 private bool _arriveAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool _arriveAttack
 ```csharp
 private Timer _cancelTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private Timer _cancelTimer
 ```csharp
 private bool _fail
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private bool _fail
 ```csharp
 private bool _isArriveAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private bool _isArriveAttacking
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private bool _isAttacking
 ```csharp
 private bool _missWhenOtherPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private bool _missWhenOtherPassage
 ```csharp
 private float approachDist
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private float approachDist
 ```csharp
 private bool autoAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private bool autoAttack
 ```csharp
 private GeburahChaseBuf buf
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private GeburahChaseBuf buf
 ```csharp
 private List<UnitModel> currentDamageTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private List<UnitModel> currentDamageTargets
 ```csharp
 private MovementBuf movementBuf
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private MovementBuf movementBuf
 ```csharp
 private float speedFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private float speedFactor
 ```csharp
 private MovableObjectNode target
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private MovableObjectNode target
 ```csharp
 private AgentModel targetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private AgentModel targetAgent
 ```csharp
 private MapNode targetOldNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private MapNode targetOldNode
 ```csharp
 private bool tracking
 ```
+#INC
+
 
 #### Field Value
 
@@ -218,6 +257,8 @@ private bool tracking
 ```csharp
 public void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,33 +271,46 @@ public void OnAnimEventCalled(int index)
 ```csharp
 public void OnArriveAttack()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public void OnGiveDamage()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

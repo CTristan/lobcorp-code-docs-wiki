@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoKitOpenArea
 ```csharp
 public class CreatureInfoKitOpenArea : MonoBehaviour
 ```
+hover-over for tool abnos with cost???????????????
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoKitOpenArea
@@ -33,6 +35,8 @@ public CreatureInfoKitOpenArea()
 ```csharp
 public Text costText
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Text costText
 ```csharp
 public Text costTypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +61,17 @@ public Text costTypeText
 ```csharp
 public void Hide()
 ```
+#INC
+
 
 ### Show(string, string)
 
 ```csharp
 public void Show(string costType, string cost)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlimeLover
 public class SlimeLover : SlimeCreature
 ```
 
+[Melting Love](/api/Global/Misc/SlimeGirl)'s big minion.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [SlimeCreature](/api/Global/Creature/SlimeCreature) → SlimeLover
 
@@ -33,6 +38,8 @@ public SlimeLover()
 ```csharp
 private SlimeLoverAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SlimeLoverAnim _animScript
 ```csharp
 private const int _atkDmgMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 20
 ```csharp
 private const int _atkDmgMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 12
 ```csharp
 private const RwbpType _atkDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const RwbpType _atkDmgType = B
 ```csharp
 private UnitModel _attackTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private UnitModel _attackTarget
 ```csharp
 private const float ATK_DMG_RANGE = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float ATK_DMG_RANGE = 2.5
 ```csharp
 private const float ATTACK_RANGE = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float ATTACK_RANGE = 2
 ```csharp
 private const string CODE_ID = "D-01-106-1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const string CODE_ID = "D-01-106-1"
 ```csharp
 private const string DEFENSE_ID = "2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string DEFENSE_ID = "2"
 ```csharp
 private bool join
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool join
 ```csharp
 private const int MAX_HP = 800
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int MAX_HP = 800
 ```csharp
 private const float RECOGNIZE_RANGE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float RECOGNIZE_RANGE = 15
 ```csharp
 private const string RISK_LEVEL = "WAW"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const string RISK_LEVEL = "WAW"
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private SlimeGirl script
 ```csharp
 private const float SPEED = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,12 +262,16 @@ private ChildCreatureModel Model { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### GetRiskLevel()
 
 ```csharp
 public override string GetRiskLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -243,6 +282,8 @@ public override string GetRiskLevel()
 ```csharp
 public override string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -259,6 +300,8 @@ public override string GetSoundSrc(string key)
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -269,6 +312,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -279,12 +324,16 @@ private bool IsMovable()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -295,24 +344,33 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnSlimeDie()
 
 ```csharp
 public void OnSlimeDie()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -325,9 +383,13 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 protected override void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

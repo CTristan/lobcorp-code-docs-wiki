@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/GalaxyBoyAnim
 public class GalaxyBoyAnim : CreatureAnimScript
 ```
 
+Animation handler for [Child of the Galaxy](/api/Global/IOBserver/GalaxyBoy).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → GalaxyBoyAnim
 
@@ -33,6 +36,8 @@ public GalaxyBoyAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private SpineOptimizerModule _module
 ```csharp
 public Sprite bufSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Sprite bufSprite
 ```csharp
 public AnimatorEventHandler eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public AnimatorEventHandler eventHandler
 ```csharp
 private GalaxyBoy script
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,12 +86,16 @@ private GalaxyBoy script
 ```csharp
 public void GiveStone()
 ```
+#INC
+
 
 ### IsDefaultState()
 
 ```csharp
 public bool IsDefaultState()
 ```
+#INC
+
 
 #### Returns
 
@@ -91,6 +106,8 @@ public bool IsDefaultState()
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +120,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetCryState(bool cry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +134,9 @@ public void SetCryState(bool cry)
 ```csharp
 public void SetScript(GalaxyBoy script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -127,3 +149,5 @@ public void SetScript(GalaxyBoy script)
 ```csharp
 private void Update()
 ```
+#INC
+

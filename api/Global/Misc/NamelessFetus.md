@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/NamelessFetus
 public class NamelessFetus : CreatureBase, IRouletteWindowMessage
 ```
 
+Nameless Fetus.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → NamelessFetus
 
@@ -36,6 +41,8 @@ public NamelessFetus()
 ```csharp
 private NamelessFetusAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private NamelessFetusAnim _animScript
 ```csharp
 private WorkerModel _currentVictim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private WorkerModel _currentVictim
 ```csharp
 private bool audioChange
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private bool audioChange
 ```csharp
 private const float cryDamageFreq = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const float cryDamageFreq = 10
 ```csharp
 private const float cryDamageMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const float cryDamageMax = 12
 ```csharp
 private const float cryDamageMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const float cryDamageMin = 8
 ```csharp
 private Timer cryDamageTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private Timer cryDamageTimer
 ```csharp
 private SoundEffectPlayer cryingLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private SoundEffectPlayer cryingLoop
 ```csharp
 public const string crySound01 = "cry2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public const string crySound01 = "cry2"
 ```csharp
 public const string crySound02 = "cry1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public const string crySound02 = "cry1"
 ```csharp
 private SoundEffectPlayer defaultLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private SoundEffectPlayer defaultLoop
 ```csharp
 public const string defaultSound = "default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public const string defaultSound = "default"
 ```csharp
 public const string eatSound01 = "eat1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public const string eatSound01 = "eat1"
 ```csharp
 public const string eatSound02 = "eat2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public const string eatSound02 = "eat2"
 ```csharp
 public const string fetusBiteEffect = "Effect/Creature/NamelessFetus/FetusBiteEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ public const string fetusBiteEffect = "Effect/Creature/NamelessFetus/FetusBiteEf
 ```csharp
 private const string fetusCreatureAttatched = "Effect/Creature/NamelessFetus/FetusCreatureAttatched"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private const string fetusCreatureAttatched = "Effect/Creature/NamelessFetus/Fet
 ```csharp
 private const string fetusCryEffectSrc = "Effect/Creature/NamelessFetus/FetusCryEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ private const string fetusCryEffectSrc = "Effect/Creature/NamelessFetus/FetusCry
 ```csharp
 public const string fetusVictimEffect = "Effect/Creature/NamelessFetus/FetusVictimEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ public const string fetusVictimEffect = "Effect/Creature/NamelessFetus/FetusVict
 ```csharp
 private const float filterGlowFreq = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ private const float filterGlowFreq = 3
 ```csharp
 private const float filterHigherAlpha = 0.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +281,8 @@ private const float filterHigherAlpha = 0.7
 ```csharp
 private const float filterLowerAlpha = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +293,8 @@ private const float filterLowerAlpha = 0.1
 ```csharp
 private Timer filterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +305,8 @@ private Timer filterTimer
 ```csharp
 private const float initSubQliphothFreq = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +317,8 @@ private const float initSubQliphothFreq = 10
 ```csharp
 private bool isCrying
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +329,8 @@ private bool isCrying
 ```csharp
 private const int sacrificeEyebrowCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +341,8 @@ private const int sacrificeEyebrowCount = 5
 ```csharp
 private const string sacrificeEyebrowSrc = "Sprites/CreatureSprite/NamelessFetus/Eyebrow/fetus_eyebrow_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +353,8 @@ private const string sacrificeEyebrowSrc = "Sprites/CreatureSprite/NamelessFetus
 ```csharp
 private const int sacrificeEyeCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +365,8 @@ private const int sacrificeEyeCount = 5
 ```csharp
 private const string sacrificeEyeSrc = "Sprites/CreatureSprite/NamelessFetus/Eye/fetus_eye_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +377,8 @@ private const string sacrificeEyeSrc = "Sprites/CreatureSprite/NamelessFetus/Eye
 ```csharp
 private const int sacrificeFaceCount = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +389,8 @@ private const int sacrificeFaceCount = 2
 ```csharp
 private const string sacrificeFaceSrc = "Sprites/CreatureSprite/NamelessFetus/Face/fetus_face_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +401,8 @@ private const string sacrificeFaceSrc = "Sprites/CreatureSprite/NamelessFetus/Fa
 ```csharp
 private const int sacrificeMouthCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +413,8 @@ private const int sacrificeMouthCount = 5
 ```csharp
 private const string sacrificeMouthSrc = "Sprites/CreatureSprite/NamelessFetus/Mouth/fetus_mouth_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +435,8 @@ private CreatureBase.SensingModule sensingModule
 ```csharp
 private const float subQliphothFreq = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +447,8 @@ private const float subQliphothFreq = 40
 ```csharp
 private Timer subQliphothTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -430,24 +503,33 @@ private Camera sensor { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CryDamage()
 
 ```csharp
 private void CryDamage()
 ```
+#INC
+
 
 ### FinishEating()
 
 ```csharp
 public void FinishEating()
 ```
+#INC
+
 
 ### HasRoomCounter()
 
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -458,6 +540,8 @@ public override bool HasRoomCounter()
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -471,6 +555,8 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -483,18 +569,24 @@ public void OnAnimCalled(int i)
 ```csharp
 public void OnAnimReseted()
 ```
+#INC
+
 
 ### OnCameraMoveEnd()
 
 ```csharp
 public void OnCameraMoveEnd()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -507,6 +599,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -517,42 +611,56 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public void OnPrevEat()
 ```
+#INC
+
 
 ### OnSacrificeFail()
 
 ```csharp
 public void OnSacrificeFail()
 ```
+#INC
+
 
 ### OnSacrificeSuccess()
 
 ```csharp
 public void OnSacrificeSuccess()
 ```
+#INC
+
 
 ### OnSacrificeVictimArrived()
 
 ```csharp
 public void OnSacrificeVictimArrived()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -565,6 +673,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -577,6 +687,8 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public void OnWorkerAllocated(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -589,57 +701,77 @@ public void OnWorkerAllocated(WorkerModel worker)
 ```csharp
 private void OpenRouletteWindow()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### PrepareCrying()
 
 ```csharp
 private void PrepareCrying()
 ```
+#INC
+
 
 ### ReturnDefAudio()
 
 ```csharp
 private void ReturnDefAudio()
 ```
+#INC
+
 
 ### RouletteCancel()
 
 ```csharp
 public void RouletteCancel()
 ```
+#INC
+
 
 ### RouletteOpen()
 
 ```csharp
 public void RouletteOpen()
 ```
+#INC
+
 
 ### SoundDestroy()
 
 ```csharp
 private void SoundDestroy()
 ```
+#INC
+
 
 ### StartCrying()
 
 ```csharp
 private void StartCrying()
 ```
+#INC
+
 
 ### SubAllQliphothCounters()
 
 ```csharp
 private void SubAllQliphothCounters()
 ```
+#INC
+
 
 ### VictimAllocated()
 
 ```csharp
 private void VictimAllocated()
 ```
+#INC
+

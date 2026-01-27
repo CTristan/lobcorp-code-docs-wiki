@@ -36,6 +36,8 @@ public YinAndYangCollisionChecker()
 ```csharp
 private YinAndYangBase _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +50,8 @@ private YinAndYangBase _script
 ```csharp
 public void EnableCollider(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -60,6 +64,8 @@ public void EnableCollider(bool state)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -72,6 +78,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -84,6 +92,9 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 public void SetScript(YinAndYangBase s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

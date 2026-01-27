@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/UniqueCreditAgentInfo
 ```csharp
 public class UniqueCreditAgentInfo
 ```
+Holds backer information (like appearances). #verify #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UniqueCreditAgentInfo
@@ -33,6 +35,8 @@ public UniqueCreditAgentInfo()
 ```csharp
 public int appearanceId
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public int appearanceId
 ```csharp
 public int creditIndex
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public int creditIndex
 ```csharp
 public int rearHairId
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public int rearHairId
 ```csharp
 public int scriptId
 ```
+#INC
+
 
 #### Field Value
 

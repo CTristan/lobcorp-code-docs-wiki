@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Fairy
 public class Fairy : CreatureBase
 ```
 
+Fairy Festival.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Fairy
 
@@ -33,6 +36,8 @@ public Fairy()
 ```csharp
 private FairyAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private FairyAnim _animScript
 ```csharp
 private const string _sound_special = "special"
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +74,8 @@ public FairyAnim animScript { get; }
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +92,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,6 +110,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,6 +124,9 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

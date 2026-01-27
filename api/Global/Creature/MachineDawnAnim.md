@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MachineDawnAnim
 public class MachineDawnAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Doubt](/api/Global/Machine/MachineDawn).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MachineDawnAnim
 
@@ -36,6 +41,8 @@ public MachineDawnAnim()
 ```csharp
 private SoundEffectPlayer _defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SoundEffectPlayer _defaultSound
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module
 ```csharp
 public MachineDawnAnimEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public MachineDawnAnimEventHandler animEventHandler
 ```csharp
 private MachineDawn script
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,42 +91,57 @@ private MachineDawn script
 ```csharp
 public override void Attack()
 ```
+#INC
+
 
 ### AttackDamageTimeCalled()
 
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Blood()
 
 ```csharp
 public void Blood()
 ```
+#INC
+
 
 ### Finish()
 
 ```csharp
 public void Finish()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -124,18 +152,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void KillMotion()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(MachineDawn)
 
 ```csharp
 public void SetScript(MachineDawn script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,3 +182,5 @@ public void SetScript(MachineDawn script)
 ```csharp
 private void Update()
 ```
+#INC
+

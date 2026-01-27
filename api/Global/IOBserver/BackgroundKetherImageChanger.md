@@ -11,6 +11,9 @@ canonical_path: /api/Global/IOBserver/BackgroundKetherImageChanger
 ```csharp
 public class BackgroundKetherImageChanger : MonoBehaviour, IObserver
 ```
+Changes the background of the Architecture department, I think.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BackgroundKetherImageChanger
@@ -36,6 +39,8 @@ public BackgroundKetherImageChanger()
 ```csharp
 public SpriteRenderer back1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public SpriteRenderer back1
 ```csharp
 public SpriteRenderer back2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public SpriteRenderer back2
 ```csharp
 public SpriteRenderer back3
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public SpriteRenderer back3
 ```csharp
 public SpriteRenderer back4
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public SpriteRenderer back4
 ```csharp
 public SpriteRenderer back5
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public SpriteRenderer back5
 ```csharp
 private string passageImageDir
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +113,9 @@ private string passageImageDir
 ```csharp
 public void InitKetherImage(int level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -110,18 +128,24 @@ public void InitKetherImage(int level)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

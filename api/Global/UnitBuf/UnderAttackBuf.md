@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/UnderAttackBuf
 public class UnderAttackBuf : UnitBuf
 ```
 
+Buff which slows employees to 0.1x when hit, for one second.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → UnderAttackBuf
 
@@ -25,6 +28,8 @@ public class UnderAttackBuf : UnitBuf
 ```csharp
 public UnderAttackBuf()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,6 +38,9 @@ public UnderAttackBuf()
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -45,6 +53,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

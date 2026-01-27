@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/BossEggBase
 public class BossEggBase : BirdCreatureBase
 ```
 
+Eggs for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
+
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → BossEggBase
 
@@ -33,6 +39,8 @@ public BossEggBase()
 ```csharp
 private BossEggAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private BossEggAnim _animScript
 ```csharp
 private const int _qliphothOverloadIsolateNum = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +64,8 @@ private const int _qliphothOverloadIsolateNum = 4
 private const float _reflectFactor = 2
 ```
 
+
+
 #### Field Value
 
 **Type:** System.Single
@@ -63,6 +75,8 @@ private const float _reflectFactor = 2
 ```csharp
 private const float _skillTimeMax = 120
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private const float _skillTimeMax = 120
 ```csharp
 private const float _skillTimeMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private const float _skillTimeMin = 60
 ```csharp
 private bool breakDown
 ```
+Flag for if this egg has been reached 0 HP and been broken yet.
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ private bool breakDown
 ```csharp
 private HashSet<SefiraEnum> clearedBossMissions
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ private HashSet<SefiraEnum> clearedBossMissions
 ```csharp
 private bool halfActivated
 ```
+Flag for if this egg has reached half health and become cracked yet.
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ private bool halfActivated
 ```csharp
 private BossBird script
 ```
+[Apocalypse Bird](/api/Global/Misc/BossBird).
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ private BossBird script
 ```csharp
 private SoundEffectPlayer sep
 ```
+I don't think this is used, but it's destroyed by OnSuppressed if it exists.
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ private SoundEffectPlayer sep
 ```csharp
 private Timer skillTimer
 ```
+Timer that counts down until the next set of Qliphoth meltdowns from this egg.
+
 
 #### Field Value
 
@@ -143,6 +171,8 @@ private Timer skillTimer
 ```csharp
 private int teleportCnt
 ```
+Keeps track of the next HP threshold for teleporting Apocalypse Bird. 0 corresponds to the 70% threshold, 1 to 40%, and 2 to 10%.
+
 
 #### Field Value
 
@@ -187,24 +217,32 @@ private static float skillTime { get; }
 ```csharp
 public void ActivateAnimHalf()
 ```
+Tells the animation script to change to the cracked form.
+
 
 ### ActivateScript()
 
 ```csharp
 public void ActivateScript()
 ```
+Tells Apocalypse Bird to teleport to this egg and changes the HP threshold for the next teleport.
+
 
 ### ActivateSkill()
 
 ```csharp
 private void ActivateSkill()
 ```
+Causes Qliphoth overloads on four random abnormalities, except in the current Core Suppression department (if one exists).
+
 
 ### IsEnabled()
 
 ```csharp
 public bool IsEnabled()
 ```
+Returns true if this has more than 0 HP (i.e., the egg isn't broken).
+
 
 #### Returns
 
@@ -215,6 +253,8 @@ public bool IsEnabled()
 ```csharp
 private bool IsHostile(UnitModel unit)
 ```
+If the unit is null, this egg, another bird or part of Apocalypse Bird, or isn't targetable, returns false. Otherwise, returns true.
+
 
 #### Parameters
 
@@ -231,6 +271,8 @@ private bool IsHostile(UnitModel unit)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+Returns false. (This is also the default behaviour... #weird )
+
 
 #### Returns
 
@@ -241,6 +283,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+While enabled (HP > 0), and when not on cooldown, activates the Qliphoth overloads from this egg and resets the cooldown timer.
+
 
 #### Parameters
 
@@ -253,12 +297,19 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnSuppressed()
 ```
+When suppressed for the first time #verify , breaks down the egg and destroys the sound effect player. Also, tells Apocalypse Bird (OnEggBreakDown) this egg has been destroyed so it can update accordingly.
+#code-generated
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+Calls base. If at half health for the first time, changes the animation state to be cracked.
+
+When at 70%, 40%, and 10% HP for the first time, tells [Apocalypse Bird](/api/Global/Misc/BossBird) to teleport to this egg.
+
 
 #### Parameters
 
@@ -273,6 +324,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+Stores the list of completed Core Suppressions #verify and makes the damage and defenses visible on the eggs.
+
 
 #### Parameters
 
@@ -285,6 +338,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void SetBoss(BossBird script)
 ```
+Sets the Apocalypse Bird instance and starts the cooldown for making Qliphoth overloads.
+
 
 #### Parameters
 

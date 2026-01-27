@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/FloodTentacle
 public class FloodTentacle : StandingItemScriptBase
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → FloodTentacle
 
@@ -63,6 +66,8 @@ private FloodTentacle.TentacleType _type
 ```csharp
 public string allocatedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +78,8 @@ public string allocatedSefira
 ```csharp
 public FloodRestTentacleAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +90,8 @@ public FloodRestTentacleAnim animScript
 ```csharp
 public const string appearEffect = "Effect/RandomEvent/TentacleAppear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +102,8 @@ public const string appearEffect = "Effect/RandomEvent/TentacleAppear"
 ```csharp
 private bool appearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +114,8 @@ private bool appearEffectMake
 ```csharp
 public Timer attackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +126,8 @@ public Timer attackDelay
 ```csharp
 public float attackDelayTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +138,8 @@ public float attackDelayTime
 ```csharp
 public float attackRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +150,8 @@ public float attackRange
 ```csharp
 public const string AtypeHit = "Effect/RandomEvent/ATypeHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +162,8 @@ public const string AtypeHit = "Effect/RandomEvent/ATypeHit"
 ```csharp
 public const string BtypeHit = "Effect/RandomEvent/BTypeHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +174,8 @@ public const string BtypeHit = "Effect/RandomEvent/BTypeHit"
 ```csharp
 public const string CtypeHit = "Effect/RandomEvent/CTypeHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +186,8 @@ public const string CtypeHit = "Effect/RandomEvent/CTypeHit"
 ```csharp
 public float damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +198,8 @@ public float damage
 ```csharp
 public Timer enableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +210,8 @@ public Timer enableDelay
 ```csharp
 public const float initialRange = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +222,8 @@ public const float initialRange = 2.5
 ```csharp
 public const float initialScale = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +234,8 @@ public const float initialScale = 0.5
 ```csharp
 public FloodRestArmEvent randomEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +246,8 @@ public FloodRestArmEvent randomEvent
 ```csharp
 public const string rootEffect = "Effect/RandomEvent/RootNear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +258,8 @@ public const string rootEffect = "Effect/RandomEvent/RootNear"
 ```csharp
 public float ScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +270,8 @@ public float ScaleFactor
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,12 +296,16 @@ private float current { get; }
 ```csharp
 private void AppearEffect()
 ```
+#INC
+
 
 ### CheckInRange(UnitModel, float)
 
 ```csharp
 public bool CheckInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -280,6 +323,8 @@ public bool CheckInRange(UnitModel target, float range)
 ```csharp
 public void DelayedEnable(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +337,8 @@ public void DelayedEnable(float delay)
 ```csharp
 private List<UnitModel> GetDirectionTarget(List<UnitModel> targets)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,6 +355,8 @@ private List<UnitModel> GetDirectionTarget(List<UnitModel> targets)
 ```csharp
 public List<UnitModel> GetNearUnitInRange()
 ```
+#INC
+
 
 #### Returns
 
@@ -328,12 +377,16 @@ public FloodTentacle.TentaclePhase GetPhase()
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel, float)
 
 ```csharp
 private void GiveDamage(UnitModel target, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,12 +400,17 @@ private void GiveDamage(UnitModel target, float damage)
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### IsActive()
 
 ```csharp
 public bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -363,6 +421,8 @@ public bool IsActive()
 ```csharp
 public GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,6 +439,8 @@ public GameObject MakeEffect(string src)
 ```csharp
 public GameObject MakeEffect(string src, Vector2 positionSet)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +458,8 @@ public GameObject MakeEffect(string src, Vector2 positionSet)
 ```csharp
 public void MakeEffect(string src, Vector2 positionSet, Vector3 targetPos, Vector3 rotEuler)
 ```
+#INC
+
 
 #### Parameters
 
@@ -424,24 +488,32 @@ private void Multiple(List<UnitModel> targets, FloodTentacle.DamageEvent e)
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnBreakDown()
 
 ```csharp
 public override void OnBreakDown()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -467,6 +539,8 @@ private void OnlyOne(List<UnitModel> targets, FloodTentacle.DamageEvent e)
 ```csharp
 public void OnStartAttack(UnitModel mainTarget)
 ```
+#INC
+
 
 #### Parameters
 
@@ -479,6 +553,8 @@ public void OnStartAttack(UnitModel mainTarget)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,6 +567,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetEvent(FloodRestArmEvent fra)
 ```
+#INC
+
 
 #### Parameters
 
@@ -503,6 +581,8 @@ public void SetEvent(FloodRestArmEvent fra)
 ```csharp
 public void SetScaleFactor(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -527,6 +607,8 @@ public void SetType(FloodTentacle.TentacleType type)
 ```csharp
 public bool TentalceGiveDamage(UnitModel target, float damage)
 ```
+#INC
+
 
 #### Parameters
 

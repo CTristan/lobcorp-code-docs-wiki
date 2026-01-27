@@ -12,6 +12,10 @@ canonical_path: /api/Global/IOBserver/GalaxyBoy
 public class GalaxyBoy : CreatureBase, IObserver
 ```
 
+Child of the Galaxy.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → GalaxyBoy
 
@@ -36,6 +40,8 @@ public GalaxyBoy()
 ```csharp
 private bool _crying
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private bool _crying
 ```csharp
 private SoundEffectPlayer _crySound
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private SoundEffectPlayer _crySound
 ```csharp
 private Timer _cryTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ private Timer _cryTimer
 ```csharp
 private GalaxyBoyAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ private GalaxyBoyAnim anim
 ```csharp
 private AgentModel currentBufTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ private AgentModel currentBufTarget
 ```csharp
 private int energyLoseCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ private int energyLoseCount
 ```csharp
 private Timer energyLoseDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ private Timer energyLoseDelay
 ```csharp
 private const float energyLoseValue = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +136,8 @@ private const float energyLoseValue = 0.2
 ```csharp
 private const int InitialQliphothCounter = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +148,8 @@ private const int InitialQliphothCounter = 1
 ```csharp
 private float lonelyStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +160,8 @@ private float lonelyStack
 ```csharp
 private const int MaxQliphothCounter = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +172,8 @@ private const int MaxQliphothCounter = 5
 ```csharp
 private const float qliphothSubEnergy = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +194,8 @@ private CreatureBase.CreatureTimer speechTimer
 ```csharp
 private const float stackIncreaseSpeed = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +206,8 @@ private const float stackIncreaseSpeed = 10
 ```csharp
 private CreatureUnit unitView
 ```
+#INC
+
 
 #### Field Value
 
@@ -210,18 +242,24 @@ public bool QliphothActivated { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AddedQliphothCounter()
 
 ```csharp
 public override void AddedQliphothCounter()
 ```
+#INC
+
 
 ### CheckAgentHasBuf(AgentModel)
 
 ```csharp
 private bool CheckAgentHasBuf(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,12 +276,16 @@ private bool CheckAgentHasBuf(AgentModel agent)
 ```csharp
 public void GiveBuf()
 ```
+#INC
+
 
 ### HasRoomCounter()
 
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -254,6 +296,8 @@ public override bool HasRoomCounter()
 ```csharp
 public bool IsMaxStack()
 ```
+#INC
+
 
 #### Returns
 
@@ -264,24 +308,32 @@ public bool IsMaxStack()
 ```csharp
 private void LoseEnergy()
 ```
+#INC
+
 
 ### MakeCrySound()
 
 ```csharp
 private void MakeCrySound()
 ```
+#INC
+
 
 ### MakeEnergyDownEffect()
 
 ```csharp
 private void MakeEnergyDownEffect()
 ```
+#INC
+
 
 ### OnFinishWork(UseSkill)
 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,6 +346,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -306,6 +360,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,6 +375,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void OnOtherCreatureReleaseWork(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,18 +389,25 @@ private void OnOtherCreatureReleaseWork(CreatureModel creature)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -355,27 +420,37 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ResetQliphothCounter()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### ShowSpeech()
 
 ```csharp
 private void ShowSpeech()
 ```
+#INC
+
 
 ### SoundClear()
 
 ```csharp
 private void SoundClear()
 ```
+#INC
+
 
 ### StopCrying()
 
 ```csharp
 private void StopCrying()
 ```
+#INC
+

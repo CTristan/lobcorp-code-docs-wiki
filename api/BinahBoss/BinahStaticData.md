@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahStaticData
 ```csharp
 public static class BinahStaticData
 ```
+A bunch of static variables for [Binah's core suppression](/api/Global/Misc/BinahBossBase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahStaticData
@@ -25,6 +27,8 @@ public static class BinahStaticData
 ```csharp
 public static MinMax AttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +39,8 @@ public static MinMax AttackDelay
 ```csharp
 public static MinMax BinahGroggyTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public static MinMax BinahGroggyTime
 ```csharp
 public static MinMax EightColumnDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static MinMax EightColumnDelay
 ```csharp
 public static float EightColumnProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public static float EightColumnProb
 ```csharp
 public static DamageInfo First_Blade_B
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public static DamageInfo First_Blade_B
 ```csharp
 public static DamageInfo First_Blade_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public static DamageInfo First_Blade_P
 ```csharp
 public static DamageInfo First_Blade_R
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public static DamageInfo First_Blade_R
 ```csharp
 public static DamageInfo First_Blade_W
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public static DamageInfo First_Blade_W
 ```csharp
 public static int ID_BlackOverload_Failure
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,8 @@ public static int ID_BlackOverload_Failure
 ```csharp
 public static int ID_BlackOverload_Success
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +147,8 @@ public static int ID_BlackOverload_Success
 ```csharp
 public static int ID_BladeThrow_End
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +159,8 @@ public static int ID_BladeThrow_End
 ```csharp
 public static int[] ID_BladeThrow_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +171,8 @@ public static int[] ID_BladeThrow_Start
 ```csharp
 public static int ID_ColumnOverload_Failure
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +183,8 @@ public static int ID_ColumnOverload_Failure
 ```csharp
 public static int ID_ColumnOverload_Success
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +195,8 @@ public static int ID_ColumnOverload_Success
 ```csharp
 public static int[] ID_ColumnThrow_End
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +207,8 @@ public static int[] ID_ColumnThrow_End
 ```csharp
 public static int[] ID_ColumnThrow_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +219,8 @@ public static int[] ID_ColumnThrow_Start
 ```csharp
 public static int[] ID_EightColumn_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +231,8 @@ public static int[] ID_EightColumn_Start
 ```csharp
 public static int ID_GoldenOverload_Failure
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +243,8 @@ public static int ID_GoldenOverload_Failure
 ```csharp
 public static int ID_GoldenOverload_Success
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +255,8 @@ public static int ID_GoldenOverload_Success
 ```csharp
 public static int[] ID_Thorn_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +267,8 @@ public static int[] ID_Thorn_Start
 ```csharp
 public static int ID_WaveOverload_Failure
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +279,8 @@ public static int ID_WaveOverload_Failure
 ```csharp
 public static int ID_WaveOverload_Success
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +291,8 @@ public static int ID_WaveOverload_Success
 ```csharp
 private static MinMax RwbpRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,6 +303,8 @@ private static MinMax RwbpRange
 ```csharp
 public static DamageInfo Second_BlackThron
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +315,8 @@ public static DamageInfo Second_BlackThron
 ```csharp
 public static DamageInfo Third_Column_B
 ```
+#INC
+
 
 #### Field Value
 
@@ -275,6 +327,8 @@ public static DamageInfo Third_Column_B
 ```csharp
 public static DamageInfo Third_Column_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +339,8 @@ public static DamageInfo Third_Column_P
 ```csharp
 public static DamageInfo Third_Column_R
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,6 +351,8 @@ public static DamageInfo Third_Column_R
 ```csharp
 public static DamageInfo Third_Column_W
 ```
+#INC
+
 
 #### Field Value
 
@@ -305,6 +363,8 @@ public static DamageInfo Third_Column_W
 ```csharp
 public static DamageInfo Wave_Damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -329,6 +389,9 @@ public static RwbpType RandType { get; }
 ```csharp
 public static RwbpType GetRwbpTypeRandom(MinMax range)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -345,6 +408,8 @@ public static RwbpType GetRwbpTypeRandom(MinMax range)
 ```csharp
 public static int SelectRandomID(params int[] ary)
 ```
+#INC
+
 
 #### Parameters
 

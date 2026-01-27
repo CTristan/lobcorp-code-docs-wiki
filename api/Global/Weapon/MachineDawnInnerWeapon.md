@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/MachineDawnInnerWeapon
 public class MachineDawnInnerWeapon : EquipmentScriptBase
 ```
 
+The 'weapon' wielded by [Doubt](/api/Global/Machine/MachineDawn).
+
+Causes the special attack on kill.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → MachineDawnInnerWeapon
 
@@ -33,6 +40,9 @@ public MachineDawnInnerWeapon()
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -51,6 +61,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnKillMainTarget(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 

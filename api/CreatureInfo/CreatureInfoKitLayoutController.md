@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoKitLayoutController
 ```csharp
 public class CreatureInfoKitLayoutController : MonoBehaviour
 ```
+Possibly used to determine the layout?? (e.g., time tools and use tools?)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoKitLayoutController
@@ -33,6 +35,8 @@ public CreatureInfoKitLayoutController()
 ```csharp
 private int currentLastIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private int currentLastIndex
 ```csharp
 public GameObject LowerArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public GameObject LowerArrow
 ```csharp
 public RectTransform scrollParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public RectTransform scrollParent
 ```csharp
 public ScrollRect scrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public ScrollRect scrollRect
 ```csharp
 public RectTransform scrollReference
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public RectTransform scrollReference
 ```csharp
 public GameObject slot
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public GameObject slot
 ```csharp
 public float SlotDefaultY
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public float SlotDefaultY
 ```csharp
 public float Spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public float Spacing
 ```csharp
 public GameObject UpperArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,18 +145,24 @@ public GameObject UpperArrow
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### DebugMake()
 
 ```csharp
 public void DebugMake()
 ```
+#INC
+
 
 ### MakeEmptySlot()
 
 ```csharp
 public CreatureInfoKitDataSlot MakeEmptySlot()
 ```
+#INC
+
 
 #### Returns
 
@@ -147,6 +173,9 @@ public CreatureInfoKitDataSlot MakeEmptySlot()
 ```csharp
 public void SetDataList(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -159,6 +188,8 @@ public void SetDataList(CreatureModel creature)
 ```csharp
 public void SetDataList(CreatureTypeInfo metaInfo, CreatureObserveInfoModel observeInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,9 +203,13 @@ public void SetDataList(CreatureTypeInfo metaInfo, CreatureObserveInfoModel obse
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

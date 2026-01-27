@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/StandingCommandQueue
 ```csharp
 public class StandingCommandQueue
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StandingCommandQueue
@@ -25,6 +27,9 @@ public class StandingCommandQueue
 ```csharp
 public StandingCommandQueue(StandingItemModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public StandingCommandQueue(StandingItemModel actor)
 ```csharp
 private StandingItemModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private StandingItemModel actor
 ```csharp
 private LinkedList<StandingCommand> queue
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ private LinkedList<StandingCommand> queue
 ```csharp
 public void AddFirst(StandingCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +84,8 @@ public void AddFirst(StandingCommand cmd)
 ```csharp
 public void AddLast(StandingCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,18 +98,24 @@ public void AddLast(StandingCommand cmd)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### ClearQueue()
 
 ```csharp
 private void ClearQueue()
 ```
+#INC
+
 
 ### Execute(StandingItemModel)
 
 ```csharp
 public void Execute(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +128,8 @@ public void Execute(StandingItemModel model)
 ```csharp
 public StandingCommand GetCurrentCmd()
 ```
+#INC
+
 
 #### Returns
 
@@ -119,6 +140,8 @@ public StandingCommand GetCurrentCmd()
 ```csharp
 public void SetCommand(StandingCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/MoneyModel
 ```csharp
 public class MoneyModel
 ```
+Keeps track of LOB points.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MoneyModel
@@ -25,6 +29,9 @@ public class MoneyModel
 ```csharp
 private MoneyModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private MoneyModel()
 ```csharp
 private static MoneyModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static MoneyModel _instance
 ```csharp
 public int money
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +78,8 @@ public static MoneyModel instance { get; }
 ```csharp
 public void Add(int added)
 ```
+#INC
+
 
 #### Parameters
 
@@ -79,6 +92,8 @@ public void Add(int added)
 ```csharp
 public bool EnoughCheck(int cost)
 ```
+#INC
+
 
 #### Parameters
 
@@ -95,6 +110,8 @@ public bool EnoughCheck(int cost)
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -105,12 +122,16 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LoadData(Dictionary<string, object>)
 
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +144,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public bool Pay(int cost)
 ```
+#INC
+
 
 #### Parameters
 

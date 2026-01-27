@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CreatureAnimEventCalled
 public class CreatureAnimEventCalled : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Parent for abnormality animation handlers, presumably to play certain animations when various events happen.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → CreatureAnimEventCalled
 
@@ -39,24 +42,32 @@ public CreatureAnimEventCalled()
 ```csharp
 public virtual void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public virtual void AnimatorEventInit()
 ```
+#INC
+
 
 ### Attack()
 
 ```csharp
 public virtual void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public virtual void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,18 +80,24 @@ public virtual void AttackCalled(int i)
 ```csharp
 public virtual void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 public virtual void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public virtual void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -94,24 +111,33 @@ public virtual void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public virtual void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public virtual void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public virtual void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,12 +150,16 @@ public virtual void OnCalled(int i)
 ```csharp
 public virtual void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public virtual void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,9 +172,13 @@ public virtual void SoundMake(string src)
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### StopMoving()
 
 ```csharp
 public override void StopMoving()
 ```
+#INC
+

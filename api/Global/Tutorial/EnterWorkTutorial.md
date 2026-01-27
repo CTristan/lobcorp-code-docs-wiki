@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/EnterWorkTutorial
 public class EnterWorkTutorial : Tutorial, IObserver
 ```
 
+Tutorial that ends when a worker enters a containment unit.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EnterWorkTutorial
 
@@ -36,6 +41,8 @@ public EnterWorkTutorial()
 ```csharp
 private bool entered
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool entered
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,24 +67,33 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,3 +107,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+

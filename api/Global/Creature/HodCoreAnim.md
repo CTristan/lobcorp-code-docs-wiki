@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/HodCoreAnim
 public class HodCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Hod](/api/Global/Creature/HodCoreAnim) during [her core suppression](/api/Global/Misc/HodBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → HodCoreAnim
 
@@ -36,6 +39,8 @@ public HodCoreAnim()
 ```csharp
 public AnimationCurve destroyCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimationCurve destroyCurve
 ```csharp
 public Transform middlePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public Transform middlePivot
 ```csharp
 private HodCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,18 +89,25 @@ private UnscaledTimer closeTimer { get; }
 ```csharp
 public void OnChange()
 ```
+#INC
+
 
 ### OnClear()
 
 ```csharp
 public void OnClear()
 ```
+#INC
+
 
 ### SetScript(HodCoreScript)
 
 ```csharp
 public void SetScript(HodCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -104,3 +120,5 @@ public void SetScript(HodCoreScript script)
 ```csharp
 public void Update()
 ```
+#INC
+

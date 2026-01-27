@@ -12,6 +12,17 @@ canonical_path: /api/Global/Worker/AgentUnit
 public class AgentUnit : WorkerUnit, IOverlapOnclick, IMouseOnSelectListener, IMouseOnPointListener, IMouseOnDragListener, IMouseCommandTarget
 ```
 
+An agent, as they appear in-game. Managed by [AgentLayer](/api/Global/IOBserver/AgentLayer).
+
+Can be clicked on, renders the agent, controls panicking behavior, controls yapping, sets some animation things, controls shadows, weapon draw and sheathe, movement, sounds, death, some effects, and work notes(?). #inc
+
+See also [AgentModel](/api/Global/Worker/AgentModel) for how agents are stored more internally.
+
+
+### Unused
+SpeechSet #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerUnit](/api/Global/Unit/WorkerUnit) → AgentUnit
 
@@ -36,6 +47,8 @@ public AgentUnit()
 ```csharp
 private bool _selected
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +59,8 @@ private bool _selected
 ```csharp
 public AgentUI agentUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +71,8 @@ public AgentUI agentUI
 ```csharp
 public AgentSpriteChanger changer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +83,8 @@ public AgentSpriteChanger changer
 ```csharp
 public bool clicked
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +105,8 @@ public AgentUnit.SelectedColors colors
 ```csharp
 public AgentContinueUI continueUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +117,8 @@ public AgentContinueUI continueUI
 ```csharp
 private bool dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +129,8 @@ private bool dead
 ```csharp
 private bool isModifiedPuppetScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +141,8 @@ private bool isModifiedPuppetScale
 ```csharp
 public bool isMovingByMannually
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +153,8 @@ public bool isMovingByMannually
 ```csharp
 private bool isMovingStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +165,8 @@ private bool isMovingStarted
 ```csharp
 private bool lateInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +177,8 @@ private bool lateInit
 ```csharp
 private bool managing
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +189,8 @@ private bool managing
 ```csharp
 public AgentModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +201,8 @@ public AgentModel model
 ```csharp
 private RuntimeAnimatorController oldPuppetAnimController
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +213,8 @@ private RuntimeAnimatorController oldPuppetAnimController
 ```csharp
 private bool puppetAnimHasMoveCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +225,8 @@ private bool puppetAnimHasMoveCheck
 ```csharp
 public SpriteRenderer selectedIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +237,8 @@ public SpriteRenderer selectedIcon
 ```csharp
 private bool selectIconState
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +249,8 @@ private bool selectIconState
 ```csharp
 public float speech_cooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +261,8 @@ public float speech_cooltime
 ```csharp
 private float speech_ealpsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +273,8 @@ private float speech_ealpsed
 ```csharp
 private bool speech_enable
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +285,8 @@ private bool speech_enable
 ```csharp
 private bool speech_force
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +297,8 @@ private bool speech_force
 ```csharp
 private float speech_force_elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +309,8 @@ private float speech_force_elapsed
 ```csharp
 public float speech_frequency
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +321,8 @@ public float speech_frequency
 ```csharp
 public int speech_percentage
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +333,8 @@ public int speech_percentage
 ```csharp
 public Text speechText
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +345,8 @@ public Text speechText
 ```csharp
 public AgentUnitUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -298,30 +359,40 @@ public AgentUnitUI ui
 ```csharp
 public void AppearNote()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### BlockMove()
 
 ```csharp
 public void BlockMove()
 ```
+#INC
+
 
 ### CancelWeapon()
 
 ```csharp
 public void CancelWeapon()
 ```
+#INC
+
 
 ### CharRecoil(Queue<Vector3>, RecoilEffect)
 
 ```csharp
 private IEnumerator CharRecoil(Queue<Vector3> queue, RecoilEffect recoil)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,6 +410,8 @@ private IEnumerator CharRecoil(Queue<Vector3> queue, RecoilEffect recoil)
 ```csharp
 public void CharRecoilInput(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,30 +424,41 @@ public void CharRecoilInput(int level)
 ```csharp
 public void ClearEffect()
 ```
+#INC
+
 
 ### DisappearNote()
 
 ```csharp
 public void DisappearNote()
 ```
+#INC
+
 
 ### EndWork()
 
 ```csharp
 public void EndWork()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### FlipPuppetNode(bool)
 
 ```csharp
 public void FlipPuppetNode(bool isLeft)
 ```
+#INC
+
 
 #### Parameters
 
@@ -387,6 +471,8 @@ public void FlipPuppetNode(bool isLeft)
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -397,6 +483,8 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public bool HasPointListener()
 ```
+#INC
+
 
 #### Returns
 
@@ -407,6 +495,8 @@ public bool HasPointListener()
 ```csharp
 public bool IsDragSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -417,6 +507,8 @@ public bool IsDragSelectable()
 ```csharp
 public bool IsSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -427,6 +519,8 @@ public bool IsSelectable()
 ```csharp
 public GameObject MakeCreatureEffect(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +537,8 @@ public GameObject MakeCreatureEffect(CreatureModel model)
 ```csharp
 public GameObject MakeCreatureEffect(CreatureModel model, bool addlist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -460,6 +556,8 @@ public GameObject MakeCreatureEffect(CreatureModel model, bool addlist)
 ```csharp
 public GameObject MakeCreatureEffect(long modelID)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,6 +574,8 @@ public GameObject MakeCreatureEffect(long modelID)
 ```csharp
 public GameObject MakeEffectAttach(string src, Transform pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -493,6 +593,8 @@ public GameObject MakeEffectAttach(string src, Transform pos)
 ```csharp
 public GameObject MakeEffectAttach(string src, Transform pos, bool addedList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,12 +613,16 @@ public GameObject MakeEffectAttach(string src, Transform pos, bool addedList)
 ```csharp
 public void ManagingCreature()
 ```
+#INC
+
 
 ### MannualMoving(Vector3, bool)
 
 ```csharp
 private IEnumerator MannualMoving(Vector3 pos, bool blockMoving)
 ```
+#INC
+
 
 #### Parameters
 
@@ -534,6 +640,8 @@ private IEnumerator MannualMoving(Vector3 pos, bool blockMoving)
 ```csharp
 private IEnumerator MannualMoving(Vector3 pos, bool blockMoving, float unitWaitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -552,6 +660,8 @@ private IEnumerator MannualMoving(Vector3 pos, bool blockMoving, float unitWaitT
 ```csharp
 public bool MannualMovingCall(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -568,6 +678,8 @@ public bool MannualMovingCall(Vector3 pos)
 ```csharp
 public bool MannualMovingCall(Vector3 pos, float unitWaitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -585,6 +697,8 @@ public bool MannualMovingCall(Vector3 pos, float unitWaitTime)
 ```csharp
 public bool MannualMovingCallWithTime(Vector3 pos, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -602,6 +716,8 @@ public bool MannualMovingCallWithTime(Vector3 pos, float time)
 ```csharp
 private IEnumerator MannualMovingWithTime(Vector3 pos, bool blockMoving, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -620,120 +736,160 @@ private IEnumerator MannualMovingWithTime(Vector3 pos, bool blockMoving, float t
 ```csharp
 public void OnChangeArmor()
 ```
+#INC
+
 
 ### OnChangeKitCreature()
 
 ```csharp
 public void OnChangeKitCreature()
 ```
+#INC
+
 
 ### OnChangeWeapon()
 
 ```csharp
 public void OnChangeWeapon()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnEnterDragArea()
 
 ```csharp
 public void OnEnterDragArea()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### OnExitDragArea()
 
 ```csharp
 public void OnExitDragArea()
 ```
+#INC
+
 
 ### OnLateInit()
 
 ```csharp
 public void OnLateInit()
 ```
+#INC
+
 
 ### OnOverlayDisabled()
 
 ```csharp
 public void OnOverlayDisabled()
 ```
+#INC
+
 
 ### OnOverlayEnabled()
 
 ```csharp
 public void OnOverlayEnabled()
 ```
+#INC
+
 
 ### OnPointEnter()
 
 ```csharp
 public void OnPointEnter()
 ```
+#INC
+
 
 ### OnPointExit()
 
 ```csharp
 public void OnPointExit()
 ```
+#INC
+
 
 ### OnResurrect()
 
 ```csharp
 public void OnResurrect()
 ```
+#INC
+
 
 ### OnSelect()
 
 ```csharp
 public void OnSelect()
 ```
+#INC
+
 
 ### OnSuicide()
 
 ```csharp
 public void OnSuicide()
 ```
+#INC
+
 
 ### OnUnselect()
 
 ```csharp
 public void OnUnselect()
 ```
+#INC
+
 
 ### OpenStatusWindow()
 
 ```csharp
 public void OpenStatusWindow()
 ```
+#INC
+
 
 ### PlaySound(string, string, bool)
 
 ```csharp
 public SoundEffectPlayer PlaySound(string src, string key, bool isLoop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -752,48 +908,64 @@ public SoundEffectPlayer PlaySound(string src, string key, bool isLoop)
 ```csharp
 public void PrepareWeapon()
 ```
+#INC
+
 
 ### ReleaseMove()
 
 ```csharp
 public void ReleaseMove()
 ```
+#INC
+
 
 ### RemoveShadow()
 
 ```csharp
 public override void RemoveShadow()
 ```
+#INC
+
 
 ### RevealShadow()
 
 ```csharp
 public void RevealShadow()
 ```
+#INC
+
 
 ### SelectIconDisable()
 
 ```csharp
 public void SelectIconDisable()
 ```
+#INC
+
 
 ### SelectIconForcelyEnable()
 
 ```csharp
 public void SelectIconForcelyEnable()
 ```
+#INC
+
 
 ### SetAgentAnimatorModel()
 
 ```csharp
 public void SetAgentAnimatorModel()
 ```
+#INC
+
 
 ### SetGiftModel(EGOgiftModel, bool)
 
 ```csharp
 public void SetGiftModel(EGOgiftModel model, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -807,18 +979,24 @@ public void SetGiftModel(EGOgiftModel model, bool state)
 ```csharp
 public void SetSelectIconColor()
 ```
+#INC
+
 
 ### SetSlider()
 
 ```csharp
 private void SetSlider()
 ```
+#INC
+
 
 ### SetWorkNote(int)
 
 ```csharp
 public void SetWorkNote(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -831,24 +1009,32 @@ public void SetWorkNote(int id)
 ```csharp
 public override void ShutUp()
 ```
+#INC
+
 
 ### SpeechDefaultLyric()
 
 ```csharp
 public void SpeechDefaultLyric()
 ```
+#INC
+
 
 ### SpeechDefaultLyricForce()
 
 ```csharp
 public void SpeechDefaultLyricForce()
 ```
+#INC
+
 
 ### SpeechHorrorLyric(int)
 
 ```csharp
 public void SpeechHorrorLyric(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -861,6 +1047,8 @@ public void SpeechHorrorLyric(int level)
 ```csharp
 public void SpeechOtherdeadLyric(int level, string param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -874,6 +1062,8 @@ public void SpeechOtherdeadLyric(int level, string param)
 ```csharp
 public void SpeechOtherpanicLyric(int level, string param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -887,6 +1077,8 @@ public void SpeechOtherpanicLyric(int level, string param)
 ```csharp
 public void SpeechSet(bool isClick)
 ```
+#INC
+
 
 #### Parameters
 
@@ -899,24 +1091,32 @@ public void SpeechSet(bool isClick)
 ```csharp
 public void StageStartCheck()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### StartWork()
 
 ```csharp
 public void StartWork()
 ```
+#INC
+
 
 ### UIRecoil(Queue<Vector3>, RecoilEffectUI)
 
 ```csharp
 private IEnumerator UIRecoil(Queue<Vector3> queue, RecoilEffectUI recoil)
 ```
+#INC
+
 
 #### Parameters
 
@@ -934,6 +1134,8 @@ private IEnumerator UIRecoil(Queue<Vector3> queue, RecoilEffectUI recoil)
 ```csharp
 public void UIRecoilInput(int level, int target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -947,21 +1149,29 @@ public void UIRecoilInput(int level, int target)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateAnimationQuality()
 
 ```csharp
 protected override void UpdateAnimationQuality()
 ```
+#INC
+
 
 ### UpdateGiftModel()
 
 ```csharp
 public void UpdateGiftModel()
 ```
+#INC
+
 
 ### UpdateHair()
 
 ```csharp
 public void UpdateHair()
 ```
+#INC
+

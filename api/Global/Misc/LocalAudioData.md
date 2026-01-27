@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/LocalAudioData
 ```csharp
 public class LocalAudioData
 ```
+Holds a sound clip, presumably to be played...
+
+Actually, I'm not totally sure? #INC 
+
+See [LocalAudioManager](/api/Global/Misc/LocalAudioManager)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LocalAudioData
@@ -33,6 +39,8 @@ public LocalAudioData()
 ```csharp
 public AudioClip clip
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,9 @@ public AudioClip clip
 ```csharp
 public string sourceName
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -12,6 +12,9 @@ canonical_path: /api/DeadEffect/HeadPartRenderer
 public class HeadPartRenderer : WorkerPartRenderer
 ```
 
+For rendering parts of agents' heads.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerPartRenderer](/api/DeadEffect/WorkerPartRenderer) → HeadPartRenderer
 
@@ -33,6 +36,8 @@ public HeadPartRenderer()
 ```csharp
 public SpriteRenderer Eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public SpriteRenderer Eye
 ```csharp
 public SpriteRenderer Eyebrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public SpriteRenderer Eyebrow
 ```csharp
 public SpriteRenderer FrontHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public SpriteRenderer FrontHair
 ```csharp
 public SpriteRenderer Mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public SpriteRenderer Mouth
 ```csharp
 public SpriteRenderer RearHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +98,9 @@ public SpriteRenderer RearHair
 ```csharp
 public override void SetWorker(WorkerModel worker, bool flag = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

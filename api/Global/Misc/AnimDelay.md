@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/AnimDelay
 ```csharp
 public class AnimDelay : MonoBehaviour
 ```
+Seems like it would tell animations to play when W is pressed...
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimDelay
@@ -33,6 +36,8 @@ public AnimDelay()
 ```csharp
 public Animator[] animList
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Animator[] animList
 ```csharp
 public bool started
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public bool started
 ```csharp
 private IEnumerator playDelay()
 ```
+#INC
+
 
 #### Returns
 
@@ -65,9 +74,14 @@ private IEnumerator playDelay()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

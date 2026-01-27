@@ -12,6 +12,10 @@ canonical_path: /api/Global/Script/ChesedCoreScript
 public class ChesedCoreScript : CreatureBase
 ```
 
+Chesed, as he appears in [his core suppression](/api/Global/Misc/ChesedBossBase).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ChesedCoreScript
 
@@ -33,6 +37,8 @@ public ChesedCoreScript()
 ```csharp
 private ChesedCoreAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private ChesedCoreAnim _animScript
 ```csharp
 public ChesedBossBase bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +75,8 @@ public ChesedCoreAnim AnimScript { get; }
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -84,6 +94,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public override bool HasEscapeUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -94,6 +106,8 @@ public override bool HasEscapeUI()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +118,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -114,6 +130,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -124,6 +142,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -134,6 +154,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -144,6 +166,9 @@ public override bool IsSuppressable()
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -156,6 +181,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override bool SetHpSlider(Slider slider)
 ```
+#INC
+
 
 #### Parameters
 

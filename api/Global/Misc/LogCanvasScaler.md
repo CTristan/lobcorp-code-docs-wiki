@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/LogCanvasScaler
 public class LogCanvasScaler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IEventSystemHandler
 ```
 
+UI element which sets the size of the [work log](/api/Global/Script/LoggingScript) when dragged.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LogCanvasScaler
 
@@ -36,6 +39,8 @@ public LogCanvasScaler()
 ```csharp
 private bool _clicked
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool _clicked
 ```csharp
 private bool _entered
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private bool _entered
 ```csharp
 public float _max
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public float _max
 ```csharp
 public float _min
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public float _min
 ```csharp
 public SystemLogScript logScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +113,8 @@ private RectTransform _rectTr { get; }
 ```csharp
 public void OnBeginDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,6 +127,8 @@ public void OnBeginDrag(PointerEventData eventData)
 ```csharp
 public void OnDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,6 +141,8 @@ public void OnDrag(PointerEventData eventData)
 ```csharp
 public void OnEndDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -136,6 +155,8 @@ public void OnEndDrag(PointerEventData eventData)
 ```csharp
 private void SetDraggedPosition(PointerEventData pData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -148,9 +169,14 @@ private void SetDraggedPosition(PointerEventData pData)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/MachineAnimReciever
 public class MachineAnimReciever : MonoBehaviour
 ```
 
+Helper which plays sounds and attack effects for [Singing Machine's animation handler](/api/Global/Creature/MachineAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MachineAnimReciever
 
@@ -33,6 +38,8 @@ public MachineAnimReciever()
 ```csharp
 private SingingMachine script
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +52,17 @@ private SingingMachine script
 ```csharp
 public void Effect()
 ```
+#INC
+
 
 ### Init(SingingMachine)
 
 ```csharp
 public void Init(SingingMachine script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,6 +75,8 @@ public void Init(SingingMachine script)
 ```csharp
 public void Sound(int i)
 ```
+#INC
+
 
 #### Parameters
 

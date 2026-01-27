@@ -11,6 +11,10 @@ canonical_path: /api/Global/Object/BufEffectObject
 ```csharp
 public class BufEffectObject : MonoBehaviour
 ```
+Holds a UnitBuf. What? This is just a UnitBuf with extra steps...
+
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BufEffectObject
@@ -33,6 +37,9 @@ public BufEffectObject()
 ```csharp
 public UnitBuf unitBuf
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

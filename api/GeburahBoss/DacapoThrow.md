@@ -12,6 +12,9 @@ canonical_path: /api/GeburahBoss/DacapoThrow
 public class DacapoThrow : GeburahAction
 ```
 
+Action for [The Red Mist](/api/Global/Script/GeburahCoreScript) to throw [Da Capo](/api/Global/Misc/SilentOrchestra).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → DacapoThrow
 
@@ -25,6 +28,8 @@ public class DacapoThrow : GeburahAction
 ```csharp
 public DacapoThrow(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public DacapoThrow(GeburahCoreScript geburah)
 ```csharp
 public static DamageInfo _damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ public static DamageInfo _damage
 ```csharp
 private Sefira targetSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,24 +70,32 @@ private Sefira targetSefira
 ```csharp
 private void MoveToDest()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnEventCalled(int)
 
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,15 +108,22 @@ public void OnEventCalled(int i)
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnThrowObject()
 
 ```csharp
 public void OnThrowObject()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

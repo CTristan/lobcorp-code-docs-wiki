@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoEscapePatternSlot
 ```csharp
 public class CreatureInfoEscapePatternSlot : MonoBehaviour
 ```
+Escape info box
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoEscapePatternSlot
@@ -33,6 +35,8 @@ public CreatureInfoEscapePatternSlot()
 ```csharp
 private DamageInfo _info
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private DamageInfo _info
 ```csharp
 public Text[] DamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Text[] DamageRange
 ```csharp
 public Text Label
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +85,8 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void SetData(DamageInfo damageinfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,9 +99,14 @@ public void SetData(DamageInfo damageinfo)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

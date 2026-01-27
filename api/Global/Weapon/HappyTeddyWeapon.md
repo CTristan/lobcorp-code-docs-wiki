@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/HappyTeddyWeapon
 public class HappyTeddyWeapon : EquipmentScriptBase
 ```
 
+Script for [Happy Teddy Bear](/api/Global/Misc/HappyTeddy)'s EGO Weapon: Bear Paws.
+
+Rolls damage twice when it hits.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → HappyTeddyWeapon
 
@@ -33,6 +38,8 @@ public HappyTeddyWeapon()
 ```csharp
 private int _COUNT_ATTACK_PER_ANIM
 ```
+#INC
+
 
 #### Field Value
 

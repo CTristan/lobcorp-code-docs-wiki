@@ -11,6 +11,10 @@ canonical_path: /api/Global/Loader/AgentTitleDataLoader
 ```csharp
 public class AgentTitleDataLoader
 ```
+Loads the list of [agent](/api/Global/Worker/AgentModel) titles. See [AgentTitleTypeList](/api/Global/List/AgentTitleTypeList).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentTitleDataLoader
@@ -33,3 +37,6 @@ public AgentTitleDataLoader()
 ```csharp
 public void Load()
 ```
+#INC
+#code-generated
+

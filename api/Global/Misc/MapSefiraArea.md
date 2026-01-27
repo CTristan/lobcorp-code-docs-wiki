@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/MapSefiraArea
 ```csharp
 public class MapSefiraArea
 ```
+A list of [rooms](/api/Global/Model/PassageObjectModel) and [nodes](/api/Global/Misc/MapNode) for a given department.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapSefiraArea
@@ -25,6 +29,9 @@ public class MapSefiraArea
 ```csharp
 public MapSefiraArea()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public MapSefiraArea()
 ```csharp
 private List<MapNode> nodeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private List<MapNode> nodeList
 ```csharp
 private List<PassageObjectModel> passageObjects
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private List<PassageObjectModel> passageObjects
 ```csharp
 public string sefiraName
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +78,16 @@ public string sefiraName
 ```csharp
 public void ActivateArea()
 ```
+#INC
+
 
 ### ActivateArea(string)
 
 ```csharp
 public void ActivateArea(string passageGroupName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +100,8 @@ public void ActivateArea(string passageGroupName)
 ```csharp
 public void AddNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -95,6 +114,8 @@ public void AddNode(MapNode node)
 ```csharp
 public void AddPassage(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,12 +128,16 @@ public void AddPassage(PassageObjectModel passage)
 ```csharp
 public void DeactivateArea()
 ```
+#INC
+
 
 ### GetActivatedAreas()
 
 ```csharp
 public List<string> GetActivatedAreas()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,6 +148,8 @@ public List<string> GetActivatedAreas()
 ```csharp
 public int GetHorror()
 ```
+#INC
+
 
 #### Returns
 
@@ -133,6 +160,8 @@ public int GetHorror()
 ```csharp
 public MapNode[] GetNodeList()
 ```
+#INC
+
 
 #### Returns
 
@@ -143,6 +172,8 @@ public MapNode[] GetNodeList()
 ```csharp
 public PassageObjectModel[] GetRoamingPassageList()
 ```
+#INC
+
 
 #### Returns
 
@@ -153,9 +184,13 @@ public PassageObjectModel[] GetRoamingPassageList()
 ```csharp
 public void InitActivates()
 ```
+#INC
+
 
 ### SetHorror()
 
 ```csharp
 public void SetHorror()
 ```
+#INC
+

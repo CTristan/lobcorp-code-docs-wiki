@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/OverlappedUIElement
 public class OverlappedUIElement : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OverlappedUIElement
 
@@ -33,6 +36,8 @@ public OverlappedUIElement()
 ```csharp
 public int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public int currentIndex
 ```csharp
 public bool hasSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public bool hasSelected
 ```csharp
 public bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public bool isEnabled
 ```csharp
 public MonoBehaviour scriptTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public MonoBehaviour scriptTarget
 ```csharp
 public IOverlapOnclick target
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +98,8 @@ public IOverlapOnclick target
 ```csharp
 public int GetCurrentIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -95,30 +110,40 @@ public int GetCurrentIndex()
 ```csharp
 public static void MakeGunShot()
 ```
+#INC
+
 
 ### OnCursorEnter()
 
 ```csharp
 public void OnCursorEnter()
 ```
+#INC
+
 
 ### OnCursorExit()
 
 ```csharp
 public void OnCursorExit()
 ```
+#INC
+
 
 ### OnSelected()
 
 ```csharp
 public void OnSelected()
 ```
+#INC
+
 
 ### OnSelectedEvent(BaseEventData)
 
 ```csharp
 public void OnSelectedEvent(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +156,8 @@ public void OnSelectedEvent(BaseEventData bData)
 ```csharp
 public void SetCurrentIndex(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,3 +170,6 @@ public void SetCurrentIndex(int index)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

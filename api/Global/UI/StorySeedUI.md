@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySeedUI
 public class StorySeedUI : MonoBehaviour
 ```
 
+Seed of Light UI. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySeedUI
 
@@ -43,6 +46,8 @@ private StorySeedUI.StorySeedEnd _callback
 ```csharp
 private bool _fadeIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ private bool _fadeIn
 ```csharp
 private float _fadeT
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private float _fadeT
 ```csharp
 private int _from
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private int _from
 ```csharp
 private bool _increasing
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ private bool _increasing
 ```csharp
 private string _nextAngelaStory
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +106,8 @@ private string _nextAngelaStory
 ```csharp
 private float _t
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +118,8 @@ private float _t
 ```csharp
 private int _to
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +130,8 @@ private int _to
 ```csharp
 public Image BackgroundImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ public Image BackgroundImage
 ```csharp
 public Text BottomText
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ public Text BottomText
 ```csharp
 public Text PercentText
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ public Text PercentText
 ```csharp
 public Text SefiraText
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +180,8 @@ public Text SefiraText
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### Show(string, int, int, StorySeedEnd, string)
 
@@ -177,15 +204,22 @@ public void Show(string sefiraText, int from, int to, StorySeedUI.StorySeedEnd e
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateFade()
 
 ```csharp
 private void UpdateFade()
 ```
+#INC
+

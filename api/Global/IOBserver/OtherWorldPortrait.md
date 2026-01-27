@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/OtherWorldPortrait
 public class OtherWorldPortrait : CreatureBase, IObserver
 ```
 
+Portrait of Another World. Tool abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → OtherWorldPortrait
 
@@ -36,6 +41,8 @@ public OtherWorldPortrait()
 ```csharp
 private float _accumulatedDmgValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private float _accumulatedDmgValue
 ```csharp
 private OtherWorldPortraitAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private OtherWorldPortraitAnim _anim
 ```csharp
 private const float _LIMIT_CHANGE_PORTRAIT_1 = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const float _LIMIT_CHANGE_PORTRAIT_1 = 100
 ```csharp
 private const float _LIMIT_CHANGE_PORTRAIT_2 = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const float _LIMIT_CHANGE_PORTRAIT_2 = 200
 ```csharp
 private const string _SOUND_SRC = "creature/OtherWorldPortrait/Portrait_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _SOUND_SRC = "creature/OtherWorldPortrait/Portrait_"
 ```csharp
 private AgentModel _targetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private AgentModel _targetAgent
 ```csharp
 private GameObject _targetEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private GameObject _targetEffect
 ```csharp
 private AgentModel _victimAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private AgentModel _victimAgent
 ```csharp
 private GameObject _victimEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private GameObject _victimEffect
 ```csharp
 private Transform deadEffectRef
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +175,8 @@ public float insteadDmgRatio { get; }
 ```csharp
 public void AccumulateDmg(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,6 +189,8 @@ public void AccumulateDmg(float value)
 ```csharp
 private AgentModel GetRandomAgent()
 ```
+#INC
+
 
 #### Returns
 
@@ -172,12 +201,16 @@ private AgentModel GetRandomAgent()
 ```csharp
 private void KillPortraitAgent()
 ```
+#INC
+
 
 ### OnAgentDeadAnimEvent(int)
 
 ```csharp
 private void OnAgentDeadAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +223,8 @@ private void OnAgentDeadAnimEvent(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +237,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnNotice(string notice, object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,18 +252,25 @@ public void OnNotice(string notice, object[] param)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -239,6 +283,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void ReleaseVictim(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 

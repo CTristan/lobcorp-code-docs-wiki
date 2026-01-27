@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FreischutzBulletCollision
 public class FreischutzBulletCollision : MonoBehaviour
 ```
 
+Collider for [Der Freischütz's bullet](/api/Global/Misc/FreischutzBullet).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FreischutzBulletCollision
 
@@ -33,6 +38,8 @@ public FreischutzBulletCollision()
 ```csharp
 public FreischutzBullet root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public FreischutzBullet root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/FixerRedAnim
 public class FixerRedAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for the [Red Fixer](/api/Global/Misc/FixerRed).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FixerRedAnim
 
@@ -36,6 +41,8 @@ public FixerRedAnim()
 ```csharp
 private const string _bladeTrailSrc = "Effect/Creature/FixerRed/FixerRedBladeTrail"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _bladeTrailSrc = "Effect/Creature/FixerRed/FixerRedBladeTra
 ```csharp
 private const string _deadBoomSrc = "Effect/Creature/FixerRed/FixerRedDeadBoom"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _deadBoomSrc = "Effect/Creature/FixerRed/FixerRedDeadBoom"
 ```csharp
 private const string _deadSparkSrc = "Effect/Creature/FixerRed/FixerRedDeadSpark"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _deadSparkSrc = "Effect/Creature/FixerRed/FixerRedDeadSpark
 ```csharp
 private const string _eyeTrailSrc = "Effect/Creature/FixerRed/FixerRedEyeTrail"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _eyeTrailSrc = "Effect/Creature/FixerRed/FixerRedEyeTrail"
 ```csharp
 private const string _GunFireSrc = "Effect/Creature/FixerRed/FixerRedGunFire"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _GunFireSrc = "Effect/Creature/FixerRed/FixerRedGunFire"
 ```csharp
 private GameObject _laser
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private GameObject _laser
 ```csharp
 private const float _laserRemainTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const float _laserRemainTime = 0.5
 ```csharp
 private const string _laserSrc = "Effect/Creature/FixerRed/FixerRedLaser"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private const string _laserSrc = "Effect/Creature/FixerRed/FixerRedLaser"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public GameObject eye
 ```csharp
 private FixerRed script
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private FixerRed script
 ```csharp
 public GameObject weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +187,8 @@ public GameObject weapon
 ```csharp
 private GameObject AttachLaser()
 ```
+#INC
+
 
 #### Returns
 
@@ -168,6 +199,8 @@ private GameObject AttachLaser()
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -180,18 +213,24 @@ public override void AttackCalled(int i)
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### BladeEffect()
 
 ```csharp
 private void BladeEffect()
 ```
+#INC
+
 
 ### DamageCalled(int)
 
 ```csharp
 private void DamageCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -204,18 +243,24 @@ private void DamageCalled(int i)
 ```csharp
 private void DeadBoomEffect()
 ```
+#INC
+
 
 ### DeadSparkEffect()
 
 ```csharp
 private void DeadSparkEffect()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,12 +277,17 @@ private string GetSoundSrc(string key)
 ```csharp
 private void GunFire()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -248,6 +298,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -258,6 +310,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -268,6 +322,8 @@ public bool IsInSkill()
 ```csharp
 public bool IsNear()
 ```
+#INC
+
 
 #### Returns
 
@@ -278,6 +334,8 @@ public bool IsNear()
 ```csharp
 private GameObject MakeLaser()
 ```
+#INC
+
 
 #### Returns
 
@@ -323,6 +381,8 @@ public SoundEffectPlayer MakeSound(string src, Vector3 position, float vol = 1)
 ```csharp
 public void OnAttackStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,6 +395,8 @@ public void OnAttackStart(bool isNear)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,12 +409,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart(bool)
 
 ```csharp
 public void OnSkillStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,24 +431,32 @@ public void OnSkillStart(bool isNear)
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### RemoveLaser()
 
 ```csharp
 private void RemoveLaser()
 ```
+#INC
+
 
 ### SetActiveLaser(GameObject, bool)
 
 ```csharp
 private void SetActiveLaser(GameObject laser, bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +470,8 @@ private void SetActiveLaser(GameObject laser, bool isActive)
 ```csharp
 public void SetScript(FixerRed script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,12 +484,16 @@ public void SetScript(FixerRed script)
 ```csharp
 private void ShootLaser()
 ```
+#INC
+
 
 ### SkillEnd(bool)
 
 ```csharp
 private void SkillEnd(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -426,3 +506,5 @@ private void SkillEnd(bool isNear)
 ```csharp
 private void Update()
 ```
+#INC
+

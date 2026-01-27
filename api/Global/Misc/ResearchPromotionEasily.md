@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ResearchPromotionEasily
 ```csharp
 public class ResearchPromotionEasily
 ```
+Hod's 'Supply Educational Manuals' research, which increases the rate at which agents gain stats by working.
+
+See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchPromotionEasily
@@ -33,6 +37,9 @@ public ResearchPromotionEasily()
 ```csharp
 public float value
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

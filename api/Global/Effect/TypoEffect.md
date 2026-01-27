@@ -12,6 +12,10 @@ canonical_path: /api/Global/Effect/TypoEffect
 public class TypoEffect : MonoBehaviour
 ```
 
+Script for a prefab called TypoEffect.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TypoEffect
 
@@ -33,6 +37,8 @@ public TypoEffect()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private float elapsedTime
 ```csharp
 private float goalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private float goalTime
 ```csharp
 private float startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ private float startTime
 ```csharp
 public static TypoEffect Create(CreatureUnit creature, string typoKey, float start, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -84,15 +96,22 @@ public static TypoEffect Create(CreatureUnit creature, string typoKey, float sta
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### UpdateState()
 
 ```csharp
 private void UpdateState()
 ```
+#INC
+

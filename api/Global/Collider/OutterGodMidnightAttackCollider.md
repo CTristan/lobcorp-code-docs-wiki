@@ -12,6 +12,11 @@ canonical_path: /api/Global/Collider/OutterGodMidnightAttackCollider
 public class OutterGodMidnightAttackCollider : MonoBehaviour
 ```
 
+Collider for [OutterGodMidnightAttack](/api/Global/IANimatorEventCalled/OutterGodMidnightAttack)s.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OutterGodMidnightAttackCollider
 
@@ -33,6 +38,8 @@ public OutterGodMidnightAttackCollider()
 ```csharp
 public OutterGodMidnightAttack root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public OutterGodMidnightAttack root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +67,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,6 +81,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

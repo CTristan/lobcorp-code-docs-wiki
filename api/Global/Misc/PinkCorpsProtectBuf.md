@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/PinkCorpsProtectBuf
 public class PinkCorpsProtectBuf : PinkCorpsBuf
 ```
 
+Reduces damage by a factor of 0.8x.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [PinkCorpsBuf](/api/Global/UnitBuf/PinkCorpsBuf) → PinkCorpsProtectBuf
 
@@ -25,6 +28,8 @@ public class PinkCorpsProtectBuf : PinkCorpsBuf
 ```csharp
 public PinkCorpsProtectBuf(UnitModel owner, PinkCorps pink)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,9 @@ public PinkCorpsProtectBuf(UnitModel owner, PinkCorps pink)
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

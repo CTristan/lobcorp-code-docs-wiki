@@ -12,6 +12,17 @@ canonical_path: /api/Global/Weapon/FreischutzWeapon
 public class FreischutzWeapon : EquipmentScriptBase
 ```
 
+Script for [Der Freischütz](/api/Global/Misc/Freischutz)'s EGO Weapon: Magic Bullet.
+
+Increases the minimum and maximum damage by 3 if the user has the corresponding EGO Gift.
+
+Increases the minimum and maximum damage by 3 if the user has the corresponding EGO Suit.
+
+Does friendly fire.
+
+Plays a cool special effect when fired.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FreischutzWeapon
 
@@ -33,6 +44,8 @@ public FreischutzWeapon()
 ```csharp
 private Vector3 fixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +56,8 @@ private Vector3 fixedPosition
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +68,8 @@ private bool init
 ```csharp
 private const string sound_src = "creature/Freischutz/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +82,9 @@ private const string sound_src = "creature/Freischutz/"
 ```csharp
 public override DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -81,6 +101,8 @@ public override DamageInfo GetDamage(UnitModel actor)
 ```csharp
 private void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,6 +115,8 @@ private void OnAnimCalled(int i)
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,6 +147,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

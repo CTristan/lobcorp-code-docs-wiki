@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BloodBathAnim
 public class BloodBathAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Blood Bath](/api/Global/Misc/BloodBath).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BloodBathAnim
 
@@ -36,6 +39,8 @@ public BloodBathAnim()
 ```csharp
 private AgentUnit attachedKillTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private AgentUnit attachedKillTarget
 ```csharp
 private BloodBath bloodBath
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private BloodBath bloodBath
 ```csharp
 public GameObject hand1
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public GameObject hand1
 ```csharp
 public GameObject hand2
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public GameObject hand2
 ```csharp
 public GameObject hand3
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public GameObject hand3
 ```csharp
 public Transform killTargetTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public Transform killTargetTransform
 ```csharp
 private SoundEffectPlayer old
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +125,8 @@ private SoundEffectPlayer old
 ```csharp
 public AgentUnit GetKillTargetUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -118,6 +137,8 @@ public AgentUnit GetKillTargetUnit()
 ```csharp
 public void Init(BloodBath bloodBath)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +151,9 @@ public void Init(BloodBath bloodBath)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -142,6 +166,8 @@ public override void OnCalled(int i)
 ```csharp
 public void PlayKillScene(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,6 +180,8 @@ public void PlayKillScene(AgentModel target)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,12 +194,16 @@ public override void SoundMake(string src)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateHandState(BloodHandState)
 
 ```csharp
 public void UpdateHandState(BloodBath.BloodHandState state)
 ```
+#INC
+
 
 #### Parameters
 

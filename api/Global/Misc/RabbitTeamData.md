@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RabbitTeamData
 ```csharp
 public class RabbitTeamData
 ```
+Holds the spawnpoint of a [rabbit team](/api/Global/Misc/RabbitTeam) and the group. The group determines which [rooms](/api/Global/Model/PassageObjectModel) this team should go to #verify .
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitTeamData
@@ -33,6 +35,8 @@ public RabbitTeamData()
 ```csharp
 public string group
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public string group
 ```csharp
 public string summonNode
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

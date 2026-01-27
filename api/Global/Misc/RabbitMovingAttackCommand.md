@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/RabbitMovingAttackCommand
 public class RabbitMovingAttackCommand : UnitCommand
 ```
 
+Rabbit AI.
+
+Attempts to fire at everything hostile in the room, prioritizing larger groups, then moves to a target node. If there is no target node, moves to the next moving target. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → RabbitMovingAttackCommand
 
@@ -25,6 +30,8 @@ public class RabbitMovingAttackCommand : UnitCommand
 ```csharp
 public RabbitMovingAttackCommand(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +44,8 @@ public RabbitMovingAttackCommand(MapNode targetNode)
 ```csharp
 public RabbitMovingAttackCommand(MovableObjectNode movableNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +60,8 @@ public RabbitMovingAttackCommand(MovableObjectNode movableNode)
 ```csharp
 public MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ public MovableObjectNode targetMovable
 ```csharp
 public MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,27 +86,38 @@ public MapNode targetNode
 ```csharp
 private void AttackOrMove()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+
 
 ### Shot()
 
 ```csharp
 private void Shot()
 ```
+#INC
+

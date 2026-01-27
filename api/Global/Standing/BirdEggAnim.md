@@ -12,6 +12,15 @@ canonical_path: /api/Global/Standing/BirdEggAnim
 public class BirdEggAnim : StandingItemAnim
 ```
 
+Unused animation handler for the [eggs](/api/Global/Object/BirdEggObject) during [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight...
+
+Used by BigBirdObject, LongBirdObject, and SmallBirdObject prefabs (NOT USED, hopefully #verify ).
+
+See [BossEggAnim](/api/Global/Creature/BossEggAnim) for the used version
+
+ #unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → BirdEggAnim
 
@@ -33,9 +42,14 @@ public BirdEggAnim()
 ```csharp
 public void OnDead()
 ```
+#INC
+
 
 ### OnHalf()
 
 ```csharp
 public void OnHalf()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Loader/LocalizeTextDataLoader
 ```csharp
 public class LocalizeTextDataLoader
 ```
+Loads language change information, and hence most text in the game.
+
+See also [LocalizeTextDataModel](/api/Global/Model/LocalizeTextDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LocalizeTextDataLoader
@@ -25,6 +29,9 @@ public class LocalizeTextDataLoader
 ```csharp
 public LocalizeTextDataLoader(string lang)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -64,6 +71,8 @@ public void CheckDirText(DirectoryInfo dir, Dictionary<string, string> dic)
 ```csharp
 private string[] GetLocalizeList()
 ```
+#INC
+
 
 #### Returns
 
@@ -74,6 +83,8 @@ private string[] GetLocalizeList()
 ```csharp
 public void LoadLocalizeTextData()
 ```
+#INC
+
 
 ### LoadText(XmlDocument)
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodNoon
 public class OutterGodNoon : OutterGodOrdealCreature
 ```
 
+Creature for [Violet Noon](/api/Global/OutterGodMidnight/OutterGodNoonOrdeal).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [OutterGodOrdealCreature](/api/Global/Creature/OutterGodOrdealCreature) → OutterGodNoon
 
@@ -33,6 +38,8 @@ public OutterGodNoon()
 ```csharp
 private OutterGodNoonAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private OutterGodNoonAnim _anim
 ```csharp
 private readonly float _castCoolTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly float _castCoolTime
 ```csharp
 private Timer _castTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Timer _castTimer
 ```csharp
 private MapNode _ceiling
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private MapNode _ceiling
 ```csharp
 private MapNode _floor
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,12 +100,16 @@ private MapNode _floor
 ```csharp
 public void DecreaseCreaturesQliphothCounter()
 ```
+#INC
+
 
 ### GiveAttackDmg(RwbpType, float, int, bool)
 
 ```csharp
 public void GiveAttackDmg(RwbpType dmgType, float range, int dmgAmount, bool isDownAtk = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -106,6 +125,8 @@ public void GiveAttackDmg(RwbpType dmgType, float range, int dmgAmount, bool isD
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +140,8 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,12 +154,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,6 +177,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void SetFallingPos(float height)
 ```
+#INC
+
 
 #### Parameters
 

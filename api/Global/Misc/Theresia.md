@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/Theresia
 public class Theresia : CreatureBase
 ```
 
+Theresia. Tool abnormality.
+
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Theresia
 
@@ -33,6 +39,8 @@ public Theresia()
 ```csharp
 private TheresiaAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private TheresiaAnim _anim
 ```csharp
 private SoundEffectPlayer _soundPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private SoundEffectPlayer _soundPlayer
 ```csharp
 private float mentalRecoverTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private float mentalRecoverTime
 ```csharp
 private Timer mentalRecoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private Timer mentalRecoverTimer
 ```csharp
 private float mentalRecovery
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +101,8 @@ private float mentalRecovery
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,6 +115,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +129,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +143,9 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

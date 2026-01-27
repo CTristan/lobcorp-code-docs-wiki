@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/Menu
 ```csharp
 public class Menu
 ```
+Has a button, a panel, and an overlay. For some legacy menus.
+
+#unused 
+
+See [MenuScript](/api/Global/Script/MenuScript)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Menu
@@ -33,6 +39,9 @@ public Menu()
 ```csharp
 public Button button
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Button button
 ```csharp
 public RectTransform menuOverlay
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public RectTransform menuOverlay
 ```csharp
 public RectTransform panel
 ```
+#INC
+
 
 #### Field Value
 

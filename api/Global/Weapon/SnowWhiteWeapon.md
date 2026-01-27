@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/SnowWhiteWeapon
 public class SnowWhiteWeapon : EquipmentScriptBase
 ```
 
+Script for [Snow White's Apple](/api/Global/Misc/SnowWhite)'s EGO Weapon: Green Stem.
+
+If the user has the corresponding EGO gift, increases the minimum and maximum damage by 5.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SnowWhiteWeapon
 
@@ -33,6 +38,9 @@ public SnowWhiteWeapon()
 ```csharp
 public override DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

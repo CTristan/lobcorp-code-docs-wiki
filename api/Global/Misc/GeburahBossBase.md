@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/GeburahBossBase
 public class GeburahBossBase : SefiraBossBase
 ```
 
+extends [SefiraBossBase](/api/Global/Misc/SefiraBossBase)
+
+Gebura's core suppression. Ends when [The Red Mist](/api/Global/Script/GeburahCoreScript) is defeated. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → GeburahBossBase
 
@@ -25,6 +30,8 @@ public class GeburahBossBase : SefiraBossBase
 ```csharp
 public GeburahBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public GeburahBossBase()
 ```csharp
 private UnscaledTimer _hexaEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private UnscaledTimer _hexaEffect
 ```csharp
 private const float _hexagonTime = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float _hexagonTime = 4
 ```csharp
 private bool _isInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private bool _isInit
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private int _phase
 ```csharp
 private const string animSrc = "GeburahCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private const string animSrc = "GeburahCoreAnim"
 ```csharp
 private const string bgm1 = "Geburah/1_Tilarids - Distorted Night"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private const string bgm1 = "Geburah/1_Tilarids - Distorted Night"
 ```csharp
 private const string bgm2 = "Geburah/2_Tilarids - Insignia Decay"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ private const string bgm2 = "Geburah/2_Tilarids - Insignia Decay"
 ```csharp
 private const string blackColor = "#350000FF"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ private const string blackColor = "#350000FF"
 ```csharp
 private const string geburahBase = "GeburahCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ private const string geburahBase = "GeburahCoreScript"
 ```csharp
 private Color hexa_black
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ private Color hexa_black
 ```csharp
 private Color hexa_red
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ private Color hexa_red
 ```csharp
 private CameraFilterPack_AAA_SuperHexagon hexagon
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ private CameraFilterPack_AAA_SuperHexagon hexagon
 ```csharp
 public SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ public SefiraBossCreatureModel model
 ```csharp
 private const string redColor = "#FF0000FF"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ private const string redColor = "#FF0000FF"
 ```csharp
 private const string startNode = "dept-geburah-4"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ private const string startNode = "dept-geburah-4"
 ```csharp
 private CameraFilterPack_AAA_SuperComputer superComputer
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +232,8 @@ private CameraFilterPack_AAA_SuperComputer superComputer
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +258,8 @@ private GeburahCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetDescType(float)
 
@@ -239,12 +282,16 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public void InitModel()
 ```
+#INC
+
 
 ### IsCleared()
 
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -255,39 +302,53 @@ public override bool IsCleared()
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### StartCameraMoveEndFirst()
 
 ```csharp
 private void StartCameraMoveEndFirst()
 ```
+#INC
+
 
 ### StartHexagonEffect()
 
 ```csharp
 public void StartHexagonEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

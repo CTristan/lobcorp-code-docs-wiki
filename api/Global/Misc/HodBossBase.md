@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/HodBossBase
 public class HodBossBase : SefiraBossBase
 ```
 
+Hod's core suppression. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → HodBossBase
 
@@ -25,6 +28,8 @@ public class HodBossBase : SefiraBossBase
 ```csharp
 public HodBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public HodBossBase()
 ```csharp
 private CameraFilterPack_TV_80 _80
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CameraFilterPack_TV_80 _80
 ```csharp
 public static float _firstReduce
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public static float _firstReduce
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private int _phase
 ```csharp
 public static float _secondReduce
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public static float _secondReduce
 ```csharp
 public static float _thirdReduce
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public static float _thirdReduce
 ```csharp
 private const string animSrc = "HodCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const string animSrc = "HodCoreAnim"
 ```csharp
 private const string bgm1 = "Hod/1_Theme_-_Retro_Time_ALT"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const string bgm1 = "Hod/1_Theme_-_Retro_Time_ALT"
 ```csharp
 private const string bgm2 = "Hod/2_Theme_-_Retro_Time_ALT(Mix)"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const string bgm2 = "Hod/2_Theme_-_Retro_Time_ALT(Mix)"
 ```csharp
 public List<HodBossBuf> bufList
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public List<HodBossBuf> bufList
 ```csharp
 private const int changeQliphothLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const int changeQliphothLevel = 3
 ```csharp
 private const int clearQliphothLevel = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int clearQliphothLevel = 6
 ```csharp
 private const float descDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float descDelay = 15
 ```csharp
 private const string hodBase = "HodCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const string hodBase = "HodCoreScript"
 ```csharp
 private SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private SefiraBossCreatureModel model
 ```csharp
 private const string phaseSound = "SefiraBoss/Boss_Nezach"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const string phaseSound = "SefiraBoss/Boss_Nezach"
 ```csharp
 private float totalEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_Real_VHS vhs
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private CameraFilterPack_Real_VHS vhs
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,12 +268,16 @@ private HodCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetDescFreq()
 
 ```csharp
 public override float GetDescFreq()
 ```
+#INC
+
 
 #### Returns
 
@@ -243,6 +288,8 @@ public override float GetDescFreq()
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,24 +300,32 @@ public override bool IsCleared()
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -283,3 +338,6 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

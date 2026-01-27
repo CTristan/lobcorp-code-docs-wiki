@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/Elevator
 ```csharp
 public class Elevator : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → Elevator
@@ -33,6 +35,8 @@ public Elevator()
 ```csharp
 public int current
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int current
 ```csharp
 public MoveDirection dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public MoveDirection dir
 ```csharp
 public bool isFull
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public bool isFull
 ```csharp
 public int limit
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public int limit
 ```csharp
 public List<ElevatorUsable> loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public List<ElevatorUsable> loaded
 ```csharp
 private int Max
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private int Max
 ```csharp
 private int Min
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ private int Min
 ```csharp
 private int moveLimit
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private int moveLimit
 ```csharp
 private List<int> moveList
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private List<int> moveList
 ```csharp
 public List<MapNode> nodeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public List<MapNode> nodeList
 ```csharp
 public List<ElevatorUsable>[] waitList
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public List<ElevatorUsable>[] waitList
 ```csharp
 private int weight
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +181,8 @@ private int weight
 ```csharp
 public void AddDest(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,12 +195,17 @@ public void AddDest(int i)
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Call(int, ElevatorUsable)
 
 ```csharp
 public void Call(int i, ElevatorUsable model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,27 +219,37 @@ public void Call(int i, ElevatorUsable model)
 ```csharp
 public void CheckMove()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LoadPassenger()
 
 ```csharp
 public void LoadPassenger()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public void Move()
 ```
+#INC
+
 
 ### UnloadPassenger()
 
 ```csharp
 public void UnloadPassenger()
 ```
+#INC
+

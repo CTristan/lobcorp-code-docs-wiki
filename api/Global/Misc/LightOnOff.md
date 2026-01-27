@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/LightOnOff
 public class LightOnOff : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LightOnOff
 
@@ -33,6 +36,8 @@ public LightOnOff()
 ```csharp
 public bool goOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +50,16 @@ public bool goOut
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -63,3 +72,6 @@ private void OnTriggerEnter2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

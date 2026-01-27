@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/KitCreatureObserveInfo
 ```csharp
 public class KitCreatureObserveInfo
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → KitCreatureObserveInfo
@@ -33,6 +35,8 @@ public KitCreatureObserveInfo()
 ```csharp
 public string desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public string desc
 ```csharp
 public string log
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,9 @@ public string log
 ```csharp
 public int need
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

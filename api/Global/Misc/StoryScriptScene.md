@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/StoryScriptScene
 ```csharp
 public class StoryScriptScene
 ```
+A story scene.
+
+Holds a list of story commands and an id.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryScriptScene
@@ -25,6 +29,9 @@ public class StoryScriptScene
 ```csharp
 public StoryScriptScene()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public StoryScriptScene()
 ```csharp
 public StoryScriptCommandList cmd
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public StoryScriptCommandList cmd
 ```csharp
 public string id
 ```
+#INC
+
 
 #### Field Value
 

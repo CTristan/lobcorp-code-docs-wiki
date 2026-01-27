@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BigTreeSap
 public class BigTreeSap : CreatureBase
 ```
 
+Giant Tree Sap. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BigTreeSap
 
@@ -33,6 +36,8 @@ public BigTreeSap()
 ```csharp
 private KitEquipCreatureAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private KitEquipCreatureAnim anim
 ```csharp
 private int explodeLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int explodeLevel
 ```csharp
 private float explodeProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ private float explodeProb
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +88,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +102,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,12 +116,17 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/LadyLookingAtWallWeapon
 public class LadyLookingAtWallWeapon : EquipmentScriptBase
 ```
 
+Script for [The Lady Facing the Wall](/api/Global/Misc/LadyLookingAtWall)'s EGO Weapon: Screaming Wedge.
+
+On attack, randomly damages the user for 5 SP at a 50% chance if their fortitude and prudence are both less than 3.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LadyLookingAtWallWeapon
 
@@ -33,6 +38,8 @@ public LadyLookingAtWallWeapon()
 ```csharp
 private readonly float _AMOUNT_DECREASE_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private readonly float _AMOUNT_DECREASE_MENTAL
 ```csharp
 private bool _backDmgState
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool _backDmgState
 ```csharp
 private readonly int _CONDITION_FORTITUDE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private readonly int _CONDITION_FORTITUDE_LEVEL
 ```csharp
 private readonly int _CONDITION_PRUDENCE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private readonly int _CONDITION_PRUDENCE_LEVEL
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private readonly bool _LOG_STATE
 ```csharp
 private readonly float _PROB_DECREASE_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ private readonly float _PROB_DECREASE_MENTAL
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -108,6 +127,9 @@ public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -120,6 +142,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -138,6 +162,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+
 
 #### Parameters
 

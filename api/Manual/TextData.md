@@ -11,6 +11,8 @@ canonical_path: /api/Manual/TextData
 ```csharp
 public class TextData
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TextData
@@ -33,6 +35,8 @@ public TextData()
 ```csharp
 public int fontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int fontSize
 ```csharp
 public Rect rect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Rect rect
 ```csharp
 public string textId
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public string textId
 ```csharp
 public TextType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +127,9 @@ public float y { get; set; }
 ```csharp
 public static TextData Parse(string idPrefix, XmlNode node)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

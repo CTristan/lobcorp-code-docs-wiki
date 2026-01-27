@@ -12,6 +12,12 @@ canonical_path: /api/Global/Worker/OfficerUnit
 public class OfficerUnit : WorkerUnit, IMouseOnSelectListener, IMouseCommandTarget
 ```
 
+Represents a [clerk](/api/Global/Worker/OfficerModel) in-game.
+
+Reminder that clerks don't matter. Mostly.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerUnit](/api/Global/Unit/WorkerUnit) → OfficerUnit
 
@@ -36,6 +42,8 @@ public OfficerUnit()
 ```csharp
 public const float backZVal = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +54,8 @@ public const float backZVal = 0
 ```csharp
 private bool changeState
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +66,8 @@ private bool changeState
 ```csharp
 private string currentBool
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +78,8 @@ private string currentBool
 ```csharp
 public bool isMovingByMannually
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +90,8 @@ public bool isMovingByMannually
 ```csharp
 private bool isMovingStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +102,8 @@ private bool isMovingStarted
 ```csharp
 public GameObject memoObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +114,8 @@ public GameObject memoObject
 ```csharp
 public OfficerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +126,8 @@ public OfficerModel model
 ```csharp
 public GameObject officerAttackedAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +138,8 @@ public GameObject officerAttackedAnimator
 ```csharp
 private RuntimeAnimatorController oldPuppetAnimController
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +150,8 @@ private RuntimeAnimatorController oldPuppetAnimController
 ```csharp
 private bool puppetAnimHasMoveCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +162,8 @@ private bool puppetAnimHasMoveCheck
 ```csharp
 public Dictionary<string, SoundEffectPlayer> sounds
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +174,8 @@ public Dictionary<string, SoundEffectPlayer> sounds
 ```csharp
 public float tempZval
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +186,8 @@ public float tempZval
 ```csharp
 public OfficerUnitUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +198,8 @@ public OfficerUnitUI ui
 ```csharp
 private bool uiOpened
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +210,8 @@ private bool uiOpened
 ```csharp
 private float waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,18 +224,24 @@ private float waitTimer
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CancelWeapon()
 
 ```csharp
 public void CancelWeapon()
 ```
+#INC
+
 
 ### CheckMannualMovingEnd()
 
 ```csharp
 public bool CheckMannualMovingEnd()
 ```
+#INC
+
 
 #### Returns
 
@@ -210,18 +252,25 @@ public bool CheckMannualMovingEnd()
 ```csharp
 public void ClearEffect()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetCommandTargetModel()
 
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -232,6 +281,8 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public bool IsSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -242,6 +293,8 @@ public bool IsSelectable()
 ```csharp
 public GameObject MakeCreatureEffect(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +311,8 @@ public GameObject MakeCreatureEffect(CreatureModel model)
 ```csharp
 public GameObject MakeCreatureEffect(CreatureModel model, bool attach)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +330,8 @@ public GameObject MakeCreatureEffect(CreatureModel model, bool attach)
 ```csharp
 public GameObject MakeCreatureEffect(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +348,8 @@ public GameObject MakeCreatureEffect(long id)
 ```csharp
 public void MakeEffectAttach(string src, Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,6 +363,8 @@ public void MakeEffectAttach(string src, Transform t)
 ```csharp
 private IEnumerator MannualMoving(Vector3 pos, bool block, bool moveZ, bool moveAnim, bool scaling, bool small, float unitWaitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,6 +387,8 @@ private IEnumerator MannualMoving(Vector3 pos, bool block, bool moveZ, bool move
 ```csharp
 public bool MannualMovingCall(Vector3 pos, bool blockMov, bool moveZ, bool moveAnim, bool scailing, bool small, float unitWaitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,6 +411,8 @@ public bool MannualMovingCall(Vector3 pos, bool blockMov, bool moveZ, bool moveA
 ```csharp
 public bool MannualMovingCallWithTime(Vector3 pos, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +430,8 @@ public bool MannualMovingCallWithTime(Vector3 pos, float time)
 ```csharp
 private IEnumerator MannualMovingWithTime(Vector3 pos, bool blockMoving, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -383,48 +450,64 @@ private IEnumerator MannualMovingWithTime(Vector3 pos, bool blockMoving, float t
 ```csharp
 public void OnChangeWeapon()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnResurrect()
 
 ```csharp
 public void OnResurrect()
 ```
+#INC
+
 
 ### OnSelect()
 
 ```csharp
 public void OnSelect()
 ```
+#INC
+
 
 ### OnSuicide()
 
 ```csharp
 public void OnSuicide()
 ```
+#INC
+
 
 ### OnUnselect()
 
 ```csharp
 public void OnUnselect()
 ```
+#INC
+
 
 ### PlaySound(string, string, bool)
 
 ```csharp
 public SoundEffectPlayer PlaySound(string src, string key, bool isLoop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,30 +526,40 @@ public SoundEffectPlayer PlaySound(string src, string key, bool isLoop)
 ```csharp
 public void PrepareWeapon()
 ```
+#INC
+
 
 ### ReleaseUpdatePosition()
 
 ```csharp
 public void ReleaseUpdatePosition()
 ```
+#INC
+
 
 ### RemoveShadow()
 
 ```csharp
 public override void RemoveShadow()
 ```
+#INC
+
 
 ### RevealShadow()
 
 ```csharp
 public void RevealShadow()
 ```
+#INC
+
 
 ### SetModel(OfficerModel)
 
 ```csharp
 public void SetModel(OfficerModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -479,6 +572,8 @@ public void SetModel(OfficerModel model)
 ```csharp
 public override void SetPanic(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,18 +586,24 @@ public override void SetPanic(bool b)
 ```csharp
 public override void ShutUp()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### StopSound(string)
 
 ```csharp
 public void StopSound(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -515,9 +616,13 @@ public void StopSound(string key)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateAnimationQuality()
 
 ```csharp
 protected override void UpdateAnimationQuality()
 ```
+#INC
+

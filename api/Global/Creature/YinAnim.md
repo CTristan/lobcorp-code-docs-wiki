@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YinAnim
 public class YinAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Yin](/api/Global/Misc/Yin).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → YinAnim
 
@@ -36,6 +41,8 @@ public YinAnim()
 ```csharp
 private const float _DELAY_LASER_EXPLOSION = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const float _DELAY_LASER_EXPLOSION = 3
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private float _elapsedTime
 ```csharp
 private bool _isCasting
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private bool _isCasting
 ```csharp
 private Timer _laserDestroyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private Timer _laserDestroyTimer
 ```csharp
 private Vector3 _laserFloorEndPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Vector3 _laserFloorEndPos
 ```csharp
 private GameObject _laserFloorObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private GameObject _laserFloorObj
 ```csharp
 private Vector3 _laserFloorStartPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private Vector3 _laserFloorStartPos
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Yin _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private Yin _script
 ```csharp
 public YinAnimEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public YinAnimEventHandler animEventHandler
 ```csharp
 public GameObject auraEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public GameObject auraEffect
 ```csharp
 public Collider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public Collider2D collider
 ```csharp
 public YinAndYangCollisionChecker collisionChecker
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public YinAndYangCollisionChecker collisionChecker
 ```csharp
 public Transform eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public Transform eye
 ```csharp
 public Transform laserDst
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ public Transform laserDst
 ```csharp
 public GameObject laserExplosionEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ public GameObject laserExplosionEffect
 ```csharp
 public GameObject laserFloorEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ public GameObject laserFloorEffect
 ```csharp
 public LineRenderer laserLineRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ public LineRenderer laserLineRenderer
 ```csharp
 public Transform laserSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ public Transform laserSrc
 ```csharp
 public GameObject UnionPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +281,8 @@ public GameObject UnionPrefab
 ```csharp
 public GameObject vanishEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -248,36 +295,49 @@ public GameObject vanishEffect
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CastLaser()
 
 ```csharp
 private void CastLaser()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### MakeAuraEffect()
 
 ```csharp
 public void MakeAuraEffect()
 ```
+#INC
+
 
 ### MoveYin()
 
 ```csharp
 private void MoveYin()
 ```
+#INC
+
 
 ### PlayAnimation(string)
 
 ```csharp
 public void PlayAnimation(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -290,6 +350,8 @@ public void PlayAnimation(string name)
 ```csharp
 public void SetScale(Vector3 v)
 ```
+#INC
+
 
 #### Parameters
 
@@ -302,6 +364,8 @@ public void SetScale(Vector3 v)
 ```csharp
 public void SetScript(Yin s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -314,30 +378,40 @@ public void SetScript(Yin s)
 ```csharp
 private void SuccessCasting()
 ```
+#INC
+
 
 ### SuccessRevival()
 
 ```csharp
 private void SuccessRevival()
 ```
+#INC
+
 
 ### SummonDragon()
 
 ```csharp
 private void SummonDragon()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### Vanish(Vector3, bool)
 
 ```csharp
 public void Vanish(Vector3 pos, bool rotate)
 ```
+#INC
+
 
 #### Parameters
 

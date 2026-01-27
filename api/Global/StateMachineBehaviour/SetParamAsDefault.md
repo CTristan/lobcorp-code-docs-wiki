@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/SetParamAsDefault
 public class SetParamAsDefault : StateMachineBehaviour
 ```
 
+Sets the given parameter to the default value on entry.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → SetParamAsDefault
 
@@ -45,6 +50,8 @@ private List<SetParamAsDefault.ParamItem> list
 ```csharp
 public void Init(Animator animator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,6 +64,9 @@ public void Init(Animator animator)
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

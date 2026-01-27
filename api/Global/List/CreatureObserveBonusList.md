@@ -11,6 +11,8 @@ canonical_path: /api/Global/List/CreatureObserveBonusList
 ```csharp
 public class CreatureObserveBonusList
 ```
+A list of the [observation bonuses](/api/Global/Creature/CreatureObserveBonusData). Provides methods for getting the sum of the bonuses.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureObserveBonusList
@@ -33,6 +35,8 @@ public CreatureObserveBonusList()
 ```csharp
 public List<CreatureObserveBonusData> bonusList
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +49,8 @@ public List<CreatureObserveBonusData> bonusList
 ```csharp
 public int GetProbBonus(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,6 +67,8 @@ public int GetProbBonus(int level)
 ```csharp
 public int GetSpeedBonus(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +85,9 @@ public int GetSpeedBonus(int level)
 ```csharp
 public void Init(List<CreatureObserveBonusData> list)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

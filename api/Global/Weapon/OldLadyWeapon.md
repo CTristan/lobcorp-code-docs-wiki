@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/OldLadyWeapon
 public class OldLadyWeapon : EquipmentScriptBase
 ```
 
+Script for [Old Lady](/api/Global/IOBserver/OldLady)'s EGO Weapon: Solitude. No script.
+
+#unused
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OldLadyWeapon
 

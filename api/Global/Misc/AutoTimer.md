@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AutoTimer
 ```csharp
 public class AutoTimer : Timer, IObserver
 ```
+Calls a target method after a certain amount of time.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Timer](/api/Global/Misc/Timer) → AutoTimer
@@ -46,6 +50,8 @@ private AutoTimer.TargetMethod del1
 ```csharp
 public bool isInitialized
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private AutoTimer.UpdateMode mode
 ```csharp
 private bool removeAfterRun
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +96,8 @@ private AutoTimer.TargetMethod updateCalled
 ```csharp
 public static void Destroy(AutoTimer timer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,24 +110,32 @@ public static void Destroy(AutoTimer timer)
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,6 +193,8 @@ public void StartTimer(float time, AutoTimer.TargetMethod method, AutoTimer.Upda
 ```csharp
 public bool UnscaledRunTimer()
 ```
+#INC
+
 
 #### Returns
 
@@ -185,3 +205,5 @@ public bool UnscaledRunTimer()
 ```csharp
 public void Update()
 ```
+#INC
+

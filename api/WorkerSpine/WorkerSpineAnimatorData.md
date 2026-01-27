@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSpine/WorkerSpineAnimatorData
 ```csharp
 public class WorkerSpineAnimatorData
 ```
+stores an animation source, and loads it?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpineAnimatorData
@@ -25,12 +29,17 @@ public class WorkerSpineAnimatorData
 ```csharp
 public WorkerSpineAnimatorData()
 ```
+#INC
+#code-generated
+
 
 ### WorkerSpineAnimatorData(int, string)
 
 ```csharp
 public WorkerSpineAnimatorData(int id, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -44,6 +53,8 @@ public WorkerSpineAnimatorData(int id, string name)
 ```csharp
 public WorkerSpineAnimatorData(int id, string name, string animatorSrc, string skeletonSrc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,6 +72,8 @@ public WorkerSpineAnimatorData(int id, string name, string animatorSrc, string s
 ```csharp
 private bool _isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +84,8 @@ private bool _isLoaded
 ```csharp
 public RuntimeAnimatorController animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,6 +96,8 @@ public RuntimeAnimatorController animator
 ```csharp
 public string animatorSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,6 +108,8 @@ public string animatorSrc
 ```csharp
 public int id
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,6 +120,8 @@ public int id
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,6 +132,8 @@ public string name
 ```csharp
 public SkeletonDataAsset skeletonData
 ```
+#INC
+
 
 #### Field Value
 
@@ -121,6 +144,8 @@ public SkeletonDataAsset skeletonData
 ```csharp
 public string skeletonSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,12 +170,16 @@ public bool IsLoaded { get; }
 ```csharp
 public void LoadData()
 ```
+#INC
+
 
 ### MakeDefault(RuntimeAnimatorController, SkeletonDataAsset)
 
 ```csharp
 public static WorkerSpineAnimatorData MakeDefault(RuntimeAnimatorController animator, SkeletonDataAsset dataAsset)
 ```
+#INC
+
 
 #### Parameters
 

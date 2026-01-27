@@ -11,6 +11,11 @@ canonical_path: /api/Global/Misc/ILanguageLinkedData
 ```csharp
 public interface ILanguageLinkedData
 ```
+Interface with one method, for things which need to be notified when the language changes.
+
+#### Method
+OnLanguageChanged
+
 
 ## Methods
 
@@ -19,3 +24,6 @@ public interface ILanguageLinkedData
 ```csharp
 void OnLanguageChanged()
 ```
+#INC
+#code-generated
+

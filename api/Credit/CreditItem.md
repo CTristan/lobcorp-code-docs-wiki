@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditItem
 ```csharp
 public class CreditItem
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreditItem
@@ -33,6 +35,8 @@ public CreditItem()
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public string name
 ```csharp
 public List<string> nameList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public List<string> nameList
 ```csharp
 public int num
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,9 @@ public int num
 ```csharp
 public static int Compare(CreditItem a, CreditItem b)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/EncounterEffect
 public class EncounterEffect : EffectInvoker
 ```
 
+Effect for displaying fear level.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [EffectInvoker](/api/Global/Effect/EffectInvoker) → EncounterEffect
 
@@ -33,6 +38,8 @@ public EncounterEffect()
 ```csharp
 public EncounterDamageLevel damageLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public EncounterDamageLevel damageLevel
 ```csharp
 public Image Icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Image Icon
 ```csharp
 public Color[] level_Color
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Color[] level_Color
 ```csharp
 public Sprite[] level_Exclams
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Sprite[] level_Exclams
 ```csharp
 public float Speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public Text StateText
 ```csharp
 public static EncounterEffect Invoker(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,6 +129,8 @@ public static EncounterEffect Invoker(MovableObjectNode mov)
 ```csharp
 public static EncounterEffect Invoker(MovableObjectNode mov, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +148,8 @@ public static EncounterEffect Invoker(MovableObjectNode mov, float time)
 ```csharp
 public static EncounterEffect Invoker(MovableObjectNode mov, int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,6 +167,8 @@ public static EncounterEffect Invoker(MovableObjectNode mov, int level)
 ```csharp
 public static EncounterEffect Invoker(MovableObjectNode mov, int level, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,6 +187,8 @@ public static EncounterEffect Invoker(MovableObjectNode mov, int level, float ti
 ```csharp
 private void SetData(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,3 +201,6 @@ private void SetData(int level)
 ```csharp
 protected override void Update()
 ```
+#INC
+#code-generated
+

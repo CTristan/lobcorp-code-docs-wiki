@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/OutterGodOrdeal
 public class OutterGodOrdeal : OrdealBase
 ```
 
+Parent class for ordeals of violet.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → OutterGodOrdeal
 
@@ -28,6 +33,8 @@ public class OutterGodOrdeal : OrdealBase
 ```csharp
 public OutterGodOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -36,6 +43,8 @@ public OutterGodOrdeal()
 ```csharp
 protected Color _color
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +55,8 @@ protected Color _color
 ```csharp
 protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +67,8 @@ protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```csharp
 protected string _ordealName
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +79,8 @@ protected string _ordealName
 ```csharp
 private static int[] ids
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +93,8 @@ private static int[] ids
 ```csharp
 protected virtual bool CheckCloseCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -88,12 +105,17 @@ protected virtual bool CheckCloseCondition()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MakeOrdealCreature(OrdealLevel, MapNode)
 
 ```csharp
 public virtual OutterGodOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,6 +133,8 @@ public virtual OutterGodOrdealCreature MakeOrdealCreature(OrdealLevel level, Map
 ```csharp
 public virtual void OnDie(OrdealCreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,15 +147,21 @@ public virtual void OnDie(OrdealCreatureModel model)
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+
 
 ### OrdealEnd()
 
 ```csharp
 public override void OrdealEnd()
 ```
+#INC
+
 
 ### SetColor()
 
 ```csharp
 protected void SetColor()
 ```
+#INC
+

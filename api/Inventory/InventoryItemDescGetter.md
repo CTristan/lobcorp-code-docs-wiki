@@ -11,6 +11,10 @@ canonical_path: /api/Inventory/InventoryItemDescGetter
 ```csharp
 public static class InventoryItemDescGetter
 ```
+Turns the attack speed and range into text (e.g., 'fast', 'slow', 'long', 'short'...)
+
+Used by the [abnormality information screen](/api/Global/Misc/CreatureInfoWindow) (see [WeaponSlot](/api/CreatureInfo/WeaponSlot)) and the [E.G.O List screen](/api/Inventory/InventoryUI) (see [InventoryWeaponSlot](/api/Inventory/InventoryWeaponSlot)).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → InventoryItemDescGetter
@@ -25,6 +29,8 @@ public static class InventoryItemDescGetter
 ```csharp
 public static string[] AttackRangeKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +41,8 @@ public static string[] AttackRangeKey
 ```csharp
 public static string[] AttackSpeedKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -47,6 +55,8 @@ public static string[] AttackSpeedKey
 ```csharp
 public static string GetText(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -63,6 +73,9 @@ public static string GetText(string key)
 ```csharp
 public static void GetWeaponDesc(EquipmentTypeInfo model, out string attackSpeed, out string attackRange)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,6 +90,8 @@ public static void GetWeaponDesc(EquipmentTypeInfo model, out string attackSpeed
 ```csharp
 public static void GetWeaponDesc(WeaponModel model, out string attackSpeed, out string attackRange)
 ```
+#INC
+
 
 #### Parameters
 

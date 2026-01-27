@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ChesedBossBase
 public class ChesedBossBase : SefiraBossBase
 ```
 
+Chesed's core suppression. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → ChesedBossBase
 
@@ -25,6 +28,8 @@ public class ChesedBossBase : SefiraBossBase
 ```csharp
 public ChesedBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public ChesedBossBase()
 ```csharp
 private const float _effectLifeTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _effectLifeTime = 3
 ```csharp
 private Timer _effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _effectTimer
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private int _phase
 ```csharp
 private const int _secondPhaseQliphothLevel = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _secondPhaseQliphothLevel = 2
 ```csharp
 private const int _thirdPhaseQliphothLevel = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _thirdPhaseQliphothLevel = 5
 ```csharp
 private const string animSrc = "ChesedCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const string animSrc = "ChesedCoreAnim"
 ```csharp
 private const string bgm1 = "Chesed/1_Theme_-_Blues_Man"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const string bgm1 = "Chesed/1_Theme_-_Blues_Man"
 ```csharp
 private const string bgm2 = "Chesed/2_Battle_-_Urgent_Encounter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const string bgm2 = "Chesed/2_Battle_-_Urgent_Encounter"
 ```csharp
 private const string chesedBase = "ChesedCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string chesedBase = "ChesedCoreScript"
 ```csharp
 private const int clearQliphothLevel = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const int clearQliphothLevel = 8
 ```csharp
 private List<RwbpType> currentDamageMultiplied
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private List<RwbpType> currentDamageMultiplied
 ```csharp
 private const float descDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float descDelay = 15
 ```csharp
 private SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private SefiraBossCreatureModel model
 ```csharp
 private const string node = "dept-chesed-4"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const string node = "dept-chesed-4"
 ```csharp
 private CameraFilterPack_Atmosphere_Rain_Pro rain
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private CameraFilterPack_Atmosphere_Rain_Pro rain
 ```csharp
 private static RwbpType[] rwbpTypes
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private static RwbpType[] rwbpTypes
 ```csharp
 private float totalEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,18 +268,24 @@ private ChesedCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GenBuf()
 
 ```csharp
 private void GenBuf()
 ```
+#INC
+
 
 ### GetDamageChangeTime()
 
 ```csharp
 private float GetDamageChangeTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -249,6 +296,8 @@ private float GetDamageChangeTime()
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -259,6 +308,8 @@ public override bool IsCleared()
 ```csharp
 public bool IsDamageMultiplied(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,24 +326,32 @@ public bool IsDamageMultiplied(RwbpType type)
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,24 +364,33 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetDamageMultiplied()
 
 ```csharp
 private void SetDamageMultiplied()
 ```
+#INC
+
 
 ### SetDamageMultiplied(int)
 
 ```csharp
 public void SetDamageMultiplied(int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,12 +403,16 @@ public void SetDamageMultiplied(int count)
 ```csharp
 public void StartEffect()
 ```
+#INC
+
 
 ### UpdateEffect(float)
 
 ```csharp
 public void UpdateEffect(float rate)
 ```
+#INC
+
 
 #### Parameters
 

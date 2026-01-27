@@ -12,6 +12,13 @@ canonical_path: /api/Global/Armor/YggdrasilArmor
 public class YggdrasilArmor : EquipmentScriptBase
 ```
 
+Script for [Parasite Tree](/api/Global/IOBserver/Yggdrasil)'s EGO Suit: Hypocrisy.
+
+If the user is controllable, heals 2.5 SP to all employees in the same room every 2.5 seconds.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → YggdrasilArmor
 
@@ -33,6 +40,8 @@ public YggdrasilArmor()
 ```csharp
 private const float _mpHealFreq = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _mpHealFreq = 2.5
 ```csharp
 private const float _mpHealValue = 2.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float _mpHealValue = 2.5
 ```csharp
 private Timer mpHealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private Timer mpHealTimer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +90,8 @@ private WorkerModel worker
 ```csharp
 private bool CheckCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,15 +102,22 @@ private bool CheckCondition()
 ```csharp
 private void MpHeal()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

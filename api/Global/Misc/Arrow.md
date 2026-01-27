@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/Arrow
 ```csharp
 public class Arrow : MonoBehaviour
 ```
+For pointing at things.
+(Seems abstract, though; it's a game object but I don't think it has a sprite...)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → Arrow
@@ -33,6 +36,8 @@ public Arrow()
 ```csharp
 private ArrowDirection dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private ArrowDirection dir
 ```csharp
 private Vector2 pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +94,8 @@ public Vector2 Position { get; set; }
 ```csharp
 public void Init(ArrowDirection dir, Vector2 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,6 +109,9 @@ public void Init(ArrowDirection dir, Vector2 pos)
 ```csharp
 public void SetActive(bool isActive)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -112,9 +124,13 @@ public void SetActive(bool isActive)
 ```csharp
 private void SetDir()
 ```
+#INC
+
 
 ### SetPos()
 
 ```csharp
 private void SetPos()
 ```
+#INC
+

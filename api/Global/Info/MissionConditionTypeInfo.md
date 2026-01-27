@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/MissionConditionTypeInfo
 ```csharp
 public class MissionConditionTypeInfo
 ```
+Holds all the information for a mission completion condition.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MissionConditionTypeInfo
@@ -33,6 +37,9 @@ public MissionConditionTypeInfo()
 ```csharp
 public ConditionCategory condition_Category
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public ConditionCategory condition_Category
 ```csharp
 public ConditionType condition_Type
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public ConditionType condition_Type
 ```csharp
 public int goal
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int goal
 ```csharp
 public GoalType goal_Type
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public GoalType goal_Type
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public int index
 ```csharp
 public int minimumSecond
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public int minimumSecond
 ```csharp
 public int stat
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public int stat
 ```csharp
 public float var1
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public float var1
 ```csharp
 public float var2
 ```
+#INC
+
 
 #### Field Value
 

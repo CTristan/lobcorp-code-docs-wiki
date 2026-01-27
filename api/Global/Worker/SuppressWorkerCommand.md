@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/SuppressWorkerCommand
 public class SuppressWorkerCommand : WorkerCommand
 ```
 
+Command to a work to suppress something.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → SuppressWorkerCommand
 
@@ -25,6 +30,8 @@ public class SuppressWorkerCommand : WorkerCommand
 ```csharp
 public SuppressWorkerCommand(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public SuppressWorkerCommand(UnitModel target)
 ```csharp
 private float movingRemainingCoolTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private float movingRemainingCoolTime
 ```csharp
 private float randomRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private float randomRange
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +84,8 @@ private UnitModel target
 ```csharp
 private bool CanRetreat()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,30 +96,41 @@ private bool CanRetreat()
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### MoveOrAttack()
 
 ```csharp
 private void MoveOrAttack()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -117,27 +143,37 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+
 
 ### Retreat()
 
 ```csharp
 private void Retreat()
 ```
+#INC
+
 
 ### StartReload()
 
 ```csharp
 private void StartReload()
 ```
+#INC
+
 
 ### SuccessSuppress()
 
 ```csharp
 private void SuccessSuppress()
 ```
+#INC
+

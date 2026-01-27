@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/LightsHammerAnim
 public class LightsHammerAnim : CreatureAnimScript
 ```
 
+Animation handler for [Hammer of Light](/api/Global/Misc/LightsHammer).
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → LightsHammerAnim
 
@@ -33,6 +38,8 @@ public LightsHammerAnim()
 ```csharp
 public GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public GameObject effect
 ```csharp
 public void SetState(int state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

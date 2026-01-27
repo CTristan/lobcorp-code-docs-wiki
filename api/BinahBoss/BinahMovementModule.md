@@ -11,6 +11,10 @@ canonical_path: /api/BinahBoss/BinahMovementModule
 ```csharp
 public class BinahMovementModule
 ```
+Handles [An Arbiter](/api/Global/Script/BinahCoreScript)'s pathing and meltdowns
+
+See also: [BinahMovement](/api/BinahBoss/BinahMovement)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahMovementModule
@@ -25,6 +29,9 @@ public class BinahMovementModule
 ```csharp
 public BinahMovementModule(BinahCoreScript coreScript)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public BinahMovementModule(BinahCoreScript coreScript)
 ```csharp
 private bool _actionBlocked
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private bool _actionBlocked
 ```csharp
 private BinahVoidAction _arrivedAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private BinahVoidAction _arrivedAction
 ```csharp
 private BinahCoreScript _coreScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private BinahCoreScript _coreScript
 ```csharp
 private BinahMoveState _currentMoveState
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private BinahMoveState _currentMoveState
 ```csharp
 private Timer _stopMovetimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private Timer _stopMovetimer
 ```csharp
 private SefiraEnum currentDestSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ private SefiraEnum currentDestSefira
 ```csharp
 private List<SefiraEnum> movableSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +130,8 @@ private List<SefiraEnum> movableSefira
 ```csharp
 private Queue<SefiraEnum> movementQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,12 +186,16 @@ private MovableObjectNode Movable { get; }
 ```csharp
 public void Arrived()
 ```
+#INC
+
 
 ### CheckArrived()
 
 ```csharp
 private bool CheckArrived()
 ```
+#INC
+
 
 #### Returns
 
@@ -179,12 +206,16 @@ private bool CheckArrived()
 ```csharp
 public void Execute()
 ```
+#INC
+
 
 ### GetCurrentDestNode()
 
 ```csharp
 private MapNode GetCurrentDestNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -195,36 +226,48 @@ private MapNode GetCurrentDestNode()
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public void Move()
 ```
+#INC
+
 
 ### RelaseMovement()
 
 ```csharp
 public void RelaseMovement()
 ```
+#INC
+
 
 ### Stop()
 
 ```csharp
 private void Stop()
 ```
+#INC
+
 
 ### StopByAction()
 
 ```csharp
 public void StopByAction()
 ```
+#INC
+
 
 ### StopByTime(float)
 
 ```csharp
 public void StopByTime(float stopTime)
 ```
+#INC
+
 
 #### Parameters
 

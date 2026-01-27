@@ -11,6 +11,10 @@ canonical_path: /api/CommandWindow/AgentSlot
 ```csharp
 public class AgentSlot : MonoBehaviour
 ```
+UI element for the [agent](/api/Global/Worker/AgentUnit) in the [suppression and management UIs](/api/CommandWindow). Extends to show equipment or defense information (see [SuppressSlot](/api/CommandWindow/SuppressSlot)) or work stats (see [ManagementSlot](/api/CommandWindow/ManagementSlot)).
+
+#parent 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentSlot
@@ -36,6 +40,8 @@ public AgentSlot()
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private AgentModel _currentAgent
 ```csharp
 private bool _overlayEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private bool _overlayEntered
 ```csharp
 private AgentState _state
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ private AgentState _state
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public GameObject ActiveControl
 ```csharp
 public Text AgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public Text AgentName
 ```csharp
 public List<MaskableGraphic> coloredTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +123,8 @@ public GameObject FilterControl
 ```csharp
 public Image FilterFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +135,8 @@ public Image FilterFill
 ```csharp
 public Text FilterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +147,8 @@ public Text FilterText
 ```csharp
 public Image Grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +159,8 @@ public Image Grade
 ```csharp
 public Image HealthFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +171,8 @@ public Image HealthFill
 ```csharp
 public Text HealthText
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +183,8 @@ public Text HealthText
 ```csharp
 public Image MentalFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +195,8 @@ public Image MentalFill
 ```csharp
 public Text MentalText
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +207,8 @@ public Text MentalText
 ```csharp
 public GameObject Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +219,8 @@ public GameObject Portrait
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +231,8 @@ public WorkerPortraitSetter portrait
 ```csharp
 public GameObject WorkFilterControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +243,8 @@ public GameObject WorkFilterControl
 ```csharp
 public Image WorkFilterFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +255,8 @@ public Image WorkFilterFill
 ```csharp
 public Text WorkFilterSubText
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +267,8 @@ public Text WorkFilterSubText
 ```csharp
 public Text WorkFilterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -281,12 +323,17 @@ public AgentState State { get; set; }
 ```csharp
 public virtual void CheckAgentState()
 ```
+#INC
+
 
 ### GetRate(float, float)
 
 ```csharp
 public static float GetRate(float value, float max)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -304,30 +351,40 @@ public static float GetRate(float value, float max)
 ```csharp
 public virtual void OnClick()
 ```
+#INC
+
 
 ### OnClickInfo()
 
 ```csharp
 public void OnClickInfo()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnOvelrayExit()
 
 ```csharp
 public virtual void OnOvelrayExit()
 ```
+#INC
+
 
 ### OnOvelrayExit(int)
 
 ```csharp
 public virtual void OnOvelrayExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,12 +397,16 @@ public virtual void OnOvelrayExit(int index)
 ```csharp
 public virtual void OnOverlayEnter()
 ```
+#INC
+
 
 ### OnOverlayEnter(int)
 
 ```csharp
 public virtual void OnOverlayEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -358,6 +419,8 @@ public virtual void OnOverlayEnter(int index)
 ```csharp
 public virtual void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -370,6 +433,8 @@ public virtual void SetColor(Color c)
 ```csharp
 public virtual void SetFilter(AgentState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +447,8 @@ public virtual void SetFilter(AgentState state)
 ```csharp
 public virtual void SetModel(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -394,6 +461,8 @@ public virtual void SetModel(AgentModel agent)
 ```csharp
 public virtual void SetUI(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,21 +475,29 @@ public virtual void SetUI(AgentModel agent)
 ```csharp
 public virtual void SetUIColor()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateUI()
 
 ```csharp
 public virtual void UpdateUI()
 ```
+#INC
+

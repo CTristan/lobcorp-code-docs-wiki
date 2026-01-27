@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SmallBird
 public class SmallBird : BirdCreatureBase, IObserver, IBirdControl
 ```
 
+Punishing Bird.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → SmallBird
 
@@ -36,6 +41,8 @@ public SmallBird()
 ```csharp
 private SmallBirdAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SmallBirdAnim _animScript
 ```csharp
 private BossBird.OtherBirdState _otherBirdState
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private SmallBird.AttackPattern attackPattern
 ```csharp
 private BossBird boss
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private BossBird boss
 ```csharp
 private bool boss_activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private bool boss_activated
 ```csharp
 private const float changeTargetFreq = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private const float changeTargetFreq = 3
 ```csharp
 private Timer changeTargetTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private Timer changeTargetTimer
 ```csharp
 private float currentAttackedDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private float currentAttackedDamage
 ```csharp
 private const float distanceRange = 1.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private const float distanceRange = 1.7
 ```csharp
 private const float elevatorBlockTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private const float elevatorBlockTime = 10
 ```csharp
 private Timer elevatorEscapeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private Timer elevatorEscapeTimer
 ```csharp
 private List<WorkerModel> encountered
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ private SmallBird.EscapePattern escapePattern
 ```csharp
 private const float escapeProb = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ private const float escapeProb = 0.2
 ```csharp
 private const string FactionCode = "11"
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ private const string FactionCode = "11"
 ```csharp
 private bool isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ private bool isAttacking
 ```csharp
 private const float madDmgMax = 1200
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ private const float madDmgMax = 1200
 ```csharp
 private const float madDmgMin = 800
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ private const float madDmgMin = 800
 ```csharp
 private bool madMode
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ private bool madMode
 ```csharp
 private const float mentalHealMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ private const float mentalHealMax = 5
 ```csharp
 private const float mentalHealMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ private const float mentalHealMin = 3
 ```csharp
 private MapNode oldTargetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +301,8 @@ private MapNode oldTargetNode
 ```csharp
 private const float redDmgMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +313,8 @@ private const float redDmgMax = 1
 ```csharp
 private const float redDmgMin = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +325,8 @@ private const float redDmgMin = 1
 ```csharp
 private bool returnCommandActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +337,8 @@ private bool returnCommandActivated
 ```csharp
 private AgentModel targetAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +349,8 @@ private AgentModel targetAgent
 ```csharp
 private const int totalDmgMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +361,8 @@ private const int totalDmgMax = 12
 ```csharp
 private const int totalDmgMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -400,12 +457,16 @@ private static int totalDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,6 +484,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckDistance()
 ```
+#INC
+
 
 #### Returns
 
@@ -433,6 +496,8 @@ private bool CheckDistance()
 ```csharp
 public List<AgentModel> CheckNearWorkerEncounting(out List<WorkerModel> nearWorkers)
 ```
+#INC
+
 
 #### Parameters
 
@@ -449,24 +514,33 @@ public List<AgentModel> CheckNearWorkerEncounting(out List<WorkerModel> nearWork
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### HasUniqueFaction()
 
 ```csharp
 public override bool HasUniqueFaction()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -477,6 +551,8 @@ public override bool HasUniqueFaction()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -487,6 +563,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -497,6 +575,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -507,12 +587,16 @@ public override bool IsSuppressable()
 ```csharp
 public void MadRelease()
 ```
+#INC
+
 
 ### MakeExplodeEffect(UnitDirection, WorkerModel, float)
 
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -527,12 +611,16 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeMoveToGate(MapNode)
 
 ```csharp
 public void MakeMoveToGate(MapNode dest)
 ```
+#INC
+
 
 #### Parameters
 
@@ -545,6 +633,8 @@ public void MakeMoveToGate(MapNode dest)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -561,24 +651,32 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnArrivedAndHide()
 ```
+#INC
+
 
 ### OnBossActivate()
 
 ```csharp
 public void OnBossActivate()
 ```
+#INC
+
 
 ### OnBossSuppressed()
 
 ```csharp
 public void OnBossSuppressed()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -591,18 +689,24 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnGateSuppressed()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,6 +720,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override bool OnOpenCollectionWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -626,24 +732,32 @@ public override bool OnOpenCollectionWindow()
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -656,6 +770,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -668,24 +784,32 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ReturnCommand()
 
 ```csharp
 private void ReturnCommand()
 ```
+#INC
+
 
 ### ReturnExecute()
 
 ```csharp
 private void ReturnExecute()
 ```
+#INC
+
 
 ### SetBoss(BossBird)
 
 ```csharp
 public void SetBoss(BossBird boss)
 ```
+#INC
+
 
 #### Parameters
 
@@ -698,6 +822,8 @@ public void SetBoss(BossBird boss)
 ```csharp
 private void SetDirection(MovableObjectNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -710,6 +836,8 @@ private void SetDirection(MovableObjectNode targetNode)
 ```csharp
 public void SetObserver(bool activate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -746,6 +874,8 @@ private void StartAttackProcess(SmallBird.AttackPattern pattern)
 ```csharp
 private void StartMadMode(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -758,9 +888,13 @@ private void StartMadMode(AgentModel target)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

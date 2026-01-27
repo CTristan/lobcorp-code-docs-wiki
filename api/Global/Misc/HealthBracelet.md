@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/HealthBracelet
 public class HealthBracelet : CreatureBase
 ```
 
+Luminous Bracelet. Tool abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → HealthBracelet
 
@@ -33,6 +38,8 @@ public HealthBracelet()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,12 +52,17 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

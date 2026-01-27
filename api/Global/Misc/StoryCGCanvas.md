@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StoryCGCanvas
 public class StoryCGCanvas : MonoBehaviour
 ```
 
+Holds a background in a story #verify .
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryCGCanvas
 
@@ -33,6 +36,8 @@ public StoryCGCanvas()
 ```csharp
 private float _fromY
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float _fromY
 ```csharp
 private float _moveT
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float _moveT
 ```csharp
 private bool _moving
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private bool _moving
 ```csharp
 private float _time
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private float _time
 ```csharp
 private float _toY
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private float _toY
 ```csharp
 public Transform background
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public Transform background
 ```csharp
 public Transform standing
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +122,8 @@ public Transform standing
 ```csharp
 public void MoveBackground(float time, float toY)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,3 +137,6 @@ public void MoveBackground(float time, float toY)
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

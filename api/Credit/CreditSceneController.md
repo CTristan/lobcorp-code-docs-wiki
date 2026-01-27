@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditSceneController
 ```csharp
 public class CreditSceneController : MonoBehaviour
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditSceneController
@@ -33,6 +35,8 @@ public CreditSceneController()
 ```csharp
 private bool _conv_activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private bool _conv_activated
 ```csharp
 public CreditConversationController conversationController
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public CreditController creditController
 ```csharp
 public static CreditSceneController Controller { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -84,30 +92,41 @@ private void Awake()
 ```csharp
 public void EndCreditScene()
 ```
+#INC
+#code-generated
+
 
 ### LateUpdate()
 
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### OnEndConversation()
 
 ```csharp
 public void OnEndConversation()
 ```
+#INC
+
 
 ### SetFastSpeed()
 
 ```csharp
 public void SetFastSpeed()
 ```
+#INC
+
 
 ### SetNormalSpeed()
 
 ```csharp
 public void SetNormalSpeed()
 ```
+#INC
+
 
 ### SetPlaySpeed(float)
 
@@ -126,9 +145,13 @@ private void SetPlaySpeed(float value = 1)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

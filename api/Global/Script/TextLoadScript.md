@@ -39,6 +39,8 @@ public TextLoadScript()
 ```csharp
 public string domain
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +51,8 @@ public string domain
 ```csharp
 public string key
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +63,8 @@ public string key
 ```csharp
 private string oldLanguage
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,30 +89,41 @@ private Text text { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### LoadText()
 
 ```csharp
 private void LoadText()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnLanguageChanged()
 
 ```csharp
 public void OnLanguageChanged()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -120,6 +137,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void ReLoadText(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,3 +151,5 @@ public void ReLoadText(string key)
 ```csharp
 private void Start()
 ```
+#INC
+

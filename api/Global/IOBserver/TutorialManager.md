@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/TutorialManager
 public class TutorialManager : MonoBehaviour, IObserver
 ```
 
+Manages the current tutorial and queues the next one maybe probably.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TutorialManager
 
@@ -36,6 +41,8 @@ public TutorialManager()
 ```csharp
 private static TutorialManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private static TutorialManager _instance
 ```csharp
 public ArrowManager ArrowManager
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public ArrowManager ArrowManager
 ```csharp
 public GameObject blackScreen
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject blackScreen
 ```csharp
 public Canvas clickBlockCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Canvas clickBlockCanvas
 ```csharp
 private Tutorial currentTutorial
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Tutorial currentTutorial
 ```csharp
 public GameObject DragCameraTutorialImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public GameObject DragCameraTutorialImage
 ```csharp
 public GameObject DragObjectTutorialImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public GameObject DragObjectTutorialImage
 ```csharp
 public GameObject escape
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public GameObject escape
 ```csharp
 public GameObject popUp
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public GameObject popUp
 ```csharp
 public GameObject ScrollTutorialImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public GameObject ScrollTutorialImage
 ```csharp
 public GameObject[] tutorialObjs
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public GameObject[] tutorialObjs
 ```csharp
 private List<Tutorial> tutorials
 ```
+#INC
+
 
 #### Field Value
 
@@ -190,6 +219,9 @@ public static TutorialManager instance { get; }
 ```csharp
 public void AddTutorial(Tutorial tutorial)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -202,18 +234,24 @@ public void AddTutorial(Tutorial tutorial)
 ```csharp
 public void CompletedAllTutorials()
 ```
+#INC
+
 
 ### CompleteTutoiral()
 
 ```csharp
 public void CompleteTutoiral()
 ```
+#INC
+
 
 ### GetTutorialByOrder(int)
 
 ```csharp
 public Tutorial GetTutorialByOrder(int order)
 ```
+#INC
+
 
 #### Parameters
 
@@ -230,6 +268,8 @@ public Tutorial GetTutorialByOrder(int order)
 ```csharp
 private bool HasNextTutotiralScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -240,48 +280,64 @@ private bool HasNextTutotiralScene()
 ```csharp
 private void NextTutorialScene()
 ```
+#INC
+
 
 ### OnClickNo_Escape()
 
 ```csharp
 public void OnClickNo_Escape()
 ```
+#INC
+
 
 ### OnClickNo_PopUp()
 
 ```csharp
 public void OnClickNo_PopUp()
 ```
+#INC
+
 
 ### OnClickYes_Escape()
 
 ```csharp
 public void OnClickYes_Escape()
 ```
+#INC
+
 
 ### OnClickYes_PopUp()
 
 ```csharp
 public void OnClickYes_PopUp()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -295,12 +351,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void ReturnToMenu()
 ```
+#INC
+
 
 ### SetEscape(bool)
 
 ```csharp
 private void SetEscape(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,6 +373,8 @@ private void SetEscape(bool isActive)
 ```csharp
 public void SetNextTutorial(int currentOrder)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,6 +387,8 @@ public void SetNextTutorial(int currentOrder)
 ```csharp
 private void SetPopUp(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,15 +401,21 @@ private void SetPopUp(bool isActive)
 ```csharp
 private void TutorialImagesOff()
 ```
+#INC
+
 
 ### TutorialStart()
 
 ```csharp
 private void TutorialStart()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,12 @@ canonical_path: /api/Global/Creature/HealthBraceletAnim
 public class HealthBraceletAnim : CreatureAnimScript
 ```
 
+Animation handler for [Luminous Bracelet](/api/Global/Misc/HealthBracelet). No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → HealthBraceletAnim
 

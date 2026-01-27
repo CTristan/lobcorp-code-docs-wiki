@@ -12,6 +12,14 @@ canonical_path: /api/Global/Model/ProjectileModel
 public class ProjectileModel : UnitModel
 ```
 
+Parent class for certain projectiles:
+- [An Arbiter](/api/Global/Script/BinahCoreScript)'s [wave](/api/Global/Misc/BinahWave) in Binah's core suppression
+- [Knight of Despair](/api/Global/Misc/KnightOfDespair)'s swords
+- [Laetitia](/api/Global/Misc/LittleWitch)'s heart gift
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → ProjectileModel
 
@@ -25,6 +33,9 @@ public class ProjectileModel : UnitModel
 ```csharp
 public ProjectileModel(UnitModel owner)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -37,6 +48,8 @@ public ProjectileModel(UnitModel owner)
 ```csharp
 public ProjectileModel(UnitModel owner, float speed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -52,6 +65,8 @@ public ProjectileModel(UnitModel owner, float speed)
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +77,8 @@ private List<UnitModel> damaged
 ```csharp
 private MovableObjectNode destMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +89,8 @@ private MovableObjectNode destMovable
 ```csharp
 private MapNode destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +121,8 @@ private ProjectileModel.FixedUpdateCommand fixedUpdateCmd
 ```csharp
 private bool isMoveEnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -122,6 +143,8 @@ private ProjectileModel.MoveCompeleteCommand moveCompeleteCmd
 ```csharp
 public UnitModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -132,6 +155,8 @@ public UnitModel owner
 ```csharp
 private float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -142,6 +167,8 @@ private float speed
 ```csharp
 public ProjectileUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +213,8 @@ public float range { get; set; }
 ```csharp
 public bool CheckRange(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,18 +231,24 @@ public bool CheckRange(UnitModel target)
 ```csharp
 private void CommonGenerator()
 ```
+#INC
+
 
 ### DestroyUnit()
 
 ```csharp
 public void DestroyUnit()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel, float)
 
 ```csharp
 public void GiveDamage(UnitModel actor, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +262,8 @@ public void GiveDamage(UnitModel actor, float damage)
 ```csharp
 public void MoveToMovable(MovableObjectNode movable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +276,8 @@ public void MoveToMovable(MovableObjectNode movable)
 ```csharp
 public void MoveToNode(MapNode mapNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,12 +290,16 @@ public void MoveToNode(MapNode mapNode)
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnMoveCompelete()
 
 ```csharp
 public void OnMoveCompelete()
 ```
+#INC
+
 
 ### SetFixedUpdateCommand(FixedUpdateCommand)
 
@@ -287,6 +330,8 @@ public void SetMoveCompeleteCommand(ProjectileModel.MoveCompeleteCommand cmd)
 ```csharp
 private void SetPosToOwner(UnitModel owner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,6 +344,8 @@ private void SetPosToOwner(UnitModel owner)
 ```csharp
 public void SetUnit(ProjectileUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

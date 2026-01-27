@@ -12,6 +12,14 @@ canonical_path: /api/Global/Armor/OneBadManyGoodArmor
 public class OneBadManyGoodArmor : EquipmentScriptBase
 ```
 
+Script for [One Sin and Thousands of Good Deeds](/api/Global/Misc/OneBadManyGood)'s EGO Suit: Penitence.
+
+Heals 10 SP at a 5% chance when taking red or black damage.
+
+
+Also, prints to the log if the agent takes damage ("Take HP damage", though this runs for all damage) and when they recover SP ("Recover mental by armor").
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OneBadManyGoodArmor
 
@@ -33,6 +41,8 @@ public OneBadManyGoodArmor()
 ```csharp
 private readonly float _AMOUNT_RECOVER_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private readonly float _AMOUNT_RECOVER_MENTAL
 ```csharp
 private readonly int _CONDITION_PRUDENCE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ private readonly int _CONDITION_PRUDENCE_LEVEL
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private readonly bool _LOG_STATE
 ```csharp
 private readonly float _PROB_RECOVER_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +91,9 @@ private readonly float _PROB_RECOVER_MENTAL
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -92,6 +111,8 @@ public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+
 
 #### Parameters
 

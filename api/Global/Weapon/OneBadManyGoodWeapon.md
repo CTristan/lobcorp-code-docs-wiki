@@ -12,6 +12,14 @@ canonical_path: /api/Global/Weapon/OneBadManyGoodWeapon
 public class OneBadManyGoodWeapon : EquipmentScriptBase
 ```
 
+Script for [One Sin and Thousands of Good Deeds](/api/Global/Misc/OneBadManyGood)'s EGO Weapon: Penitence.
+
+If the user has at least 2 fortitude, recovers 10 SP at a 5% chance on hit.
+
+
+Also, prints to log when equipped, when dealing damage, and when recovering SP.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OneBadManyGoodWeapon
 
@@ -33,6 +41,8 @@ public OneBadManyGoodWeapon()
 ```csharp
 private readonly float _AMOUNT_RECOVER_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private readonly float _AMOUNT_RECOVER_MENTAL
 ```csharp
 private readonly int _CONDITION_FORTITUDE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ private readonly int _CONDITION_FORTITUDE_LEVEL
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private readonly bool _LOG_STATE
 ```csharp
 private readonly float _PROB_RECOVERY_MENTAL
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +91,9 @@ private readonly float _PROB_RECOVERY_MENTAL
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -87,6 +106,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +126,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+
 
 #### Parameters
 

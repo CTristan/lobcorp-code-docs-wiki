@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/ElevatorUsable
 ```csharp
 public class ElevatorUsable
 ```
+Possibly handles where [elevators](/api/Global/Model/ElevatorPassageModel) go to?
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ElevatorUsable
@@ -25,6 +28,9 @@ public class ElevatorUsable
 ```csharp
 public ElevatorUsable(object model, MovableObjectNode movableItem)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -40,6 +46,8 @@ public ElevatorUsable(object model, MovableObjectNode movableItem)
 ```csharp
 public MapNode dest
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +58,8 @@ public MapNode dest
 ```csharp
 public MoveDirection dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +70,8 @@ public MoveDirection dir
 ```csharp
 public object model
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +82,8 @@ public object model
 ```csharp
 public MovableObjectNode movableObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +96,8 @@ public MovableObjectNode movableObject
 ```csharp
 public MovableObjectNode GetMovableObject()
 ```
+#INC
+
 
 #### Returns
 
@@ -92,6 +108,8 @@ public MovableObjectNode GetMovableObject()
 ```csharp
 public object GetTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -102,6 +120,8 @@ public object GetTarget()
 ```csharp
 public object GetTarget<T>()
 ```
+#INC
+
 
 #### Returns
 
@@ -112,9 +132,13 @@ public object GetTarget<T>()
 ```csharp
 public void ReStartMoving()
 ```
+#INC
+
 
 ### SetDestination()
 
 ```csharp
 public void SetDestination()
 ```
+#INC
+

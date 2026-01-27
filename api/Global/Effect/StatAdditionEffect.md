@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/StatAdditionEffect
 public class StatAdditionEffect : MonoBehaviour
 ```
 
+Allows the creation of the effect that appears around workers when their stats are increased.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StatAdditionEffect
 
@@ -46,6 +49,11 @@ private ParticleSystem ps
 ```csharp
 public static StatAdditionEffect MakeEffect(RwbpType type, Transform parent)
 ```
+Creates a new stat addition effect at the location of `parent` with the associated color of `type`.
+
+Loads the prefab "Effect/StatAddition".
+#loads-prefab
+
 
 #### Parameters
 

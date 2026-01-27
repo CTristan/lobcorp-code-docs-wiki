@@ -12,6 +12,27 @@ canonical_path: /api/Global/Info/CreatureGenerateInfo
 public class CreatureGenerateInfo : MonoBehaviour
 ```
 
+Has some hard-coded IDs for abnormalities. Frustratingly, some of these arrays are actually used:
+
+- all - List of all abnormalities
+- all_for_codex - List of all abnormalities required to complete the codex
+- all_except_creditCreatures - List of all non-backer abnormalities
+- creditCreatures - List of all backer abnormalities
+- kitCreature - List of tool abnormalities
+- r1 - Mostly unused, but r1\[0]\[0] is One Sin, and is called for day 1 and when the day is invalid
+- r2-6 - Unused; for debugging
+
+static long[] GetAll(bool removeTool) - Returns a list of all abnormalities except WhiteNight, and non-tool abnormalities if removeTool is true.
+
+static bool IsCreditCreature(long id) - Return true if this is a backer abnormality's id.
+
+
+
+
+
+This annoys me because these are all hard-coded and for what???
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureGenerateInfo
 
@@ -33,6 +54,8 @@ public CreatureGenerateInfo()
 ```csharp
 public static readonly long[] all
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +66,8 @@ public static readonly long[] all
 ```csharp
 public static readonly long[] all_for_codex
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +78,8 @@ public static readonly long[] all_for_codex
 ```csharp
 public static readonly long[] creditCreatures
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +90,8 @@ public static readonly long[] creditCreatures
 ```csharp
 public static readonly long[] kitCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +102,8 @@ public static readonly long[] kitCreature
 ```csharp
 public static readonly long[][] r1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +114,8 @@ public static readonly long[][] r1
 ```csharp
 public static readonly long[][] r2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +126,8 @@ public static readonly long[][] r2
 ```csharp
 public static readonly long[][] r3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +138,8 @@ public static readonly long[][] r3
 ```csharp
 public static readonly long[][] r4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +150,8 @@ public static readonly long[][] r4
 ```csharp
 public static readonly long[][] r5
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +162,8 @@ public static readonly long[][] r5
 ```csharp
 public static readonly long[][] r6
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +188,9 @@ public static long[] all_except_creditCreatures { get; }
 ```csharp
 public static long[] GetAll(bool removeTool = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -163,6 +207,8 @@ public static long[] GetAll(bool removeTool = false)
 ```csharp
 public static bool IsCreditCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/DeploySefiraAgentSlot
 public class DeploySefiraAgentSlot : MonoBehaviour, IDraggableObject
 ```
 
+Draggable slot representing an agent deployed to a department.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeploySefiraAgentSlot
 
@@ -36,6 +41,8 @@ public DeploySefiraAgentSlot()
 ```csharp
 private bool _activaed
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private DeploySefiraAgentSlot.PanelState _currentState
 ```csharp
 private DraggedObject _dragged
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private DraggedObject _dragged
 ```csharp
 private bool _isDragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private bool _isDragging
 ```csharp
 private AgentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private AgentModel _model
 ```csharp
 private bool _panelDropped
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private bool _panelDropped
 ```csharp
 private bool _remove
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private bool _remove
 ```csharp
 public RectTransform CharacterPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public RectTransform CharacterPanel
 ```csharp
 private string draggedPortraitSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private string draggedPortraitSrc
 ```csharp
 public Drag dragScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public Drag dragScript
 ```csharp
 private string emptyDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private string emptyDesc
 ```csharp
 public RectTransform EmptyPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public RectTransform EmptyPanel
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ public int index
 ```csharp
 private string lockDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private string lockDesc
 ```csharp
 public RectTransform LockedPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ public RectTransform LockedPanel
 ```csharp
 public SefiraPanel panel
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ public SefiraPanel panel
 ```csharp
 public AgentSlotUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -230,6 +267,8 @@ public AgentModel Model { get; }
 ```csharp
 public GameObject GenDraggedObject(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -246,6 +285,8 @@ public GameObject GenDraggedObject(string name)
 ```csharp
 public DraggedObject GetDraggingObject()
 ```
+#INC
+
 
 #### Returns
 
@@ -266,24 +307,32 @@ public DeploySefiraAgentSlot.PanelState GetPanelState()
 ```csharp
 public void OnCanceled()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDragStart()
 
 ```csharp
 public void OnDragStart()
 ```
+#INC
+
 
 ### OnDropEnd(Drop, bool)
 
 ```csharp
 public void OnDropEnd(Drop drop, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,12 +346,16 @@ public void OnDropEnd(Drop drop, bool state)
 ```csharp
 public void OnEndDrag()
 ```
+#INC
+
 
 ### OnPointerClick(BaseEventData)
 
 ```csharp
 public void OnPointerClick(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,24 +368,33 @@ public void OnPointerClick(BaseEventData bData)
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### ResetModel()
 
 ```csharp
 public void ResetModel()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -345,6 +407,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetModel(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -369,3 +433,5 @@ public void SetPanelState(DeploySefiraAgentSlot.PanelState state)
 ```csharp
 private void Start()
 ```
+#INC
+

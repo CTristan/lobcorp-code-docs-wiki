@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/FairyWeapon
 public class FairyWeapon : EquipmentScriptBase
 ```
 
+Script for [Fairy Festival](/api/Global/Misc/Fairy)'s EGO Weapon: Wingbeat. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FairyWeapon
 

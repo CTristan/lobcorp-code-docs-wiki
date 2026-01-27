@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/RedHoodAnim
 public class RedHoodAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Little Red Riding Hooded Mercenary](/api/Global/IOBserver/RedHood).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → RedHoodAnim
 
@@ -36,6 +41,8 @@ public RedHoodAnim()
 ```csharp
 public GameObject _angryParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject _angryParticle
 ```csharp
 public MeshRenderer _axeRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public MeshRenderer _axeRenderer
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private UnitModel _currentTarget
 ```csharp
 public SpriteRenderer _currentTargetMark
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public SpriteRenderer _currentTargetMark
 ```csharp
 public Transform _leftEffectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Transform _leftEffectPos
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject _rampageParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public GameObject _rampageParticle
 ```csharp
 private bool _releaseBlock
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private bool _releaseBlock
 ```csharp
 public Transform _rightEffectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Transform _rightEffectPos
 ```csharp
 private const float _targetEnableTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private const float _targetEnableTime = 2
 ```csharp
 private Timer _targetMarkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private Timer _targetMarkTimer
 ```csharp
 public Transform AxeRef
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public Transform AxeRef
 ```csharp
 public RedHoodThrowedAxe AxeScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public RedHoodThrowedAxe AxeScript
 ```csharp
 private const float default_insidePos = -0.9
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private const float default_insidePos = -0.9
 ```csharp
 private const float default_outsidePos = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private const float default_outsidePos = 0
 ```csharp
 public AnimatorEventHandler eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ public AnimatorEventHandler eventHandler
 ```csharp
 public RedHoodRequestUI requestUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ public RedHoodRequestUI requestUI
 ```csharp
 private RedHood script
 ```
+#INC
+
 
 #### Field Value
 
@@ -230,12 +271,17 @@ public RedHood RedHood { get; }
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -246,12 +292,16 @@ public override bool HasDeadMotion()
 ```csharp
 protected override void LateUpdate()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -264,12 +314,16 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCloseRequestUI()
 ```
+#INC
+
 
 ### OnStartAttack(AttackType)
 
 ```csharp
 public void OnStartAttack(RedHood.AttackType attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -282,30 +336,40 @@ public void OnStartAttack(RedHood.AttackType attackType)
 ```csharp
 public void OpenRequestUI()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### ReadyForRequest()
 
 ```csharp
 public void ReadyForRequest()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### SetScript(RedHood)
 
 ```csharp
 public void SetScript(RedHood redHood)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,6 +382,8 @@ public void SetScript(RedHood redHood)
 ```csharp
 public void SetTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -330,9 +396,13 @@ public void SetTarget(UnitModel target)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

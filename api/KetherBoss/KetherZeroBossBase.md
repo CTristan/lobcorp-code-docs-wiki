@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherZeroBossBase
 ```csharp
 public class KetherZeroBossBase : KetherBossBase, IObserver
 ```
+Day 46 suppression
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → [KetherBossBase](/api/KetherBoss/KetherBossBase) → KetherZeroBossBase
@@ -28,6 +30,8 @@ public class KetherZeroBossBase : KetherBossBase, IObserver
 ```csharp
 public KetherZeroBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -36,6 +40,8 @@ public KetherZeroBossBase()
 ```csharp
 private bool _clawAppeared
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private bool _clawAppeared
 ```csharp
 private bool _clawSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private bool _clawSuppressed
 ```csharp
 private const int clearQliphothLevel = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ private const int clearQliphothLevel = 10
 ```csharp
 private FixerClaw fixerClaw
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ private FixerClaw fixerClaw
 ```csharp
 private float max
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +102,8 @@ private float max
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -98,6 +114,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -108,18 +126,24 @@ public override bool IsReadyToClose()
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnFixerClawSuppressed()
 
 ```csharp
 public void OnFixerClawSuppressed()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,3 +157,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,10 @@ canonical_path: /api/BinahBoss/BinahMovement
 ```csharp
 public class BinahMovement : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s movement action
+
+See also: [BinahMovementModule](/api/BinahBoss/BinahMovementModule)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → BinahMovement
@@ -25,6 +29,8 @@ public class BinahMovement : BinahAction
 ```csharp
 public BinahMovement(BinahCoreScript binah, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +46,8 @@ public BinahMovement(BinahCoreScript binah, float time)
 ```csharp
 private Timer _durationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,9 +60,14 @@ private Timer _durationTimer
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

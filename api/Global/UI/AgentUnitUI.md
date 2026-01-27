@@ -11,6 +11,12 @@ canonical_path: /api/Global/UI/AgentUnitUI
 ```csharp
 public class AgentUnitUI
 ```
+UI element which displays the agent's name, rank, title, department, and tool status before Yesod's upgrade.
+
+See [AgentUI](/api/InGameUI/AgentUI) for after Yesod's upgrade.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentUnitUI
@@ -33,6 +39,8 @@ public AgentUnitUI()
 ```csharp
 public bool Activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public bool Activated
 ```csharp
 public Image kitCreatureIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public Image kitCreatureIcon
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public Text Name
 ```csharp
 public Text title
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +89,8 @@ public Text title
 ```csharp
 public void activateUI(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,12 +103,17 @@ public void activateUI(AgentModel model)
 ```csharp
 public void DeactivateAllUI()
 ```
+#INC
+
 
 ### Initial(AgentModel)
 
 ```csharp
 public void Initial(AgentModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -105,12 +126,16 @@ public void Initial(AgentModel model)
 ```csharp
 public void initUI()
 ```
+#INC
+
 
 ### setUIValue(AgentModel)
 
 ```csharp
 public void setUIValue(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 

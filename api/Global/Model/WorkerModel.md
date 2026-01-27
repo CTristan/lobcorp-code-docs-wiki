@@ -12,6 +12,11 @@ canonical_path: /api/Global/Model/WorkerModel
 public class WorkerModel : UnitModel, IObserver, IMouseCommandTargetModel
 ```
 
+Parent class for workers.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → WorkerModel
 
@@ -31,12 +36,16 @@ public class WorkerModel : UnitModel, IObserver, IMouseCommandTargetModel
 ```csharp
 public WorkerModel()
 ```
+#INC
+
 
 ### WorkerModel(int, Sefira)
 
 ```csharp
 public WorkerModel(int instanceId, Sefira area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -50,6 +59,8 @@ public WorkerModel(int instanceId, Sefira area)
 ```csharp
 public WorkerModel(int instanceId, string area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -65,6 +76,8 @@ public WorkerModel(int instanceId, string area)
 ```csharp
 private WorkerModel _attackTargetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ private WorkerModel _attackTargetWorker
 ```csharp
 private string _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,8 @@ private string _currentSefira
 ```csharp
 private DeadType _deadType
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ private DeadType _deadType
 ```csharp
 protected bool _isDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ protected bool _isDead
 ```csharp
 protected PanicData _panicData
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +136,8 @@ protected PanicData _panicData
 ```csharp
 private CreatureModel _recentlyAttacked
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ private CreatureModel _recentlyAttacked
 ```csharp
 protected bool _revivaledHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +160,8 @@ protected bool _revivaledHp
 ```csharp
 protected bool _revivaledMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +172,8 @@ protected bool _revivaledMental
 ```csharp
 protected bool _revivalHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +184,8 @@ protected bool _revivalHp
 ```csharp
 protected bool _revivalMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +196,8 @@ protected bool _revivalMental
 ```csharp
 private bool _specialDeadScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +208,8 @@ private bool _specialDeadScene
 ```csharp
 public CreatureBase animationMessageRecevied
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +220,8 @@ public CreatureBase animationMessageRecevied
 ```csharp
 public bool blockRecover
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +232,8 @@ public bool blockRecover
 ```csharp
 protected WorkerCommandQueue commandQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +244,8 @@ protected WorkerCommandQueue commandQueue
 ```csharp
 private PanicAction currentPanicAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +256,8 @@ private PanicAction currentPanicAction
 ```csharp
 public SefiraEnum currentSefiraEnum
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +268,8 @@ public SefiraEnum currentSefiraEnum
 ```csharp
 protected string deadSceneName
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +280,8 @@ protected string deadSceneName
 ```csharp
 public Sprite faceSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +292,8 @@ public Sprite faceSprite
 ```csharp
 public string gender
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,6 +304,8 @@ public string gender
 ```csharp
 public Sprite hairSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +316,8 @@ public Sprite hairSprite
 ```csharp
 public bool haltUpdate
 ```
+#INC
+
 
 #### Field Value
 
@@ -275,6 +328,8 @@ public bool haltUpdate
 ```csharp
 protected bool hasUniqueFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +340,8 @@ protected bool hasUniqueFace
 ```csharp
 public bool invincible
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,6 +352,8 @@ public bool invincible
 ```csharp
 public bool isChangeableAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -305,6 +364,8 @@ public bool isChangeableAnimator
 ```csharp
 public bool isRealWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -315,6 +376,8 @@ public bool isRealWorker
 ```csharp
 public MapNode lastestMoveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -325,6 +388,8 @@ public MapNode lastestMoveTarget
 ```csharp
 public float movementMul
 ```
+#INC
+
 
 #### Field Value
 
@@ -335,6 +400,8 @@ public float movementMul
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 
@@ -345,6 +412,8 @@ public string name
 ```csharp
 public bool OnWorkEndFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -355,6 +424,8 @@ public bool OnWorkEndFlag
 ```csharp
 public int panicValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -365,6 +436,8 @@ public int panicValue
 ```csharp
 public bool puppetChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -375,6 +448,8 @@ public bool puppetChanged
 ```csharp
 public bool returnPanic
 ```
+#INC
+
 
 #### Field Value
 
@@ -385,6 +460,8 @@ public bool returnPanic
 ```csharp
 private const float revivalProb = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -395,6 +472,8 @@ private const float revivalProb = 0.25
 ```csharp
 protected bool seperator
 ```
+#INC
+
 
 #### Field Value
 
@@ -405,6 +484,8 @@ protected bool seperator
 ```csharp
 public Dictionary<string, string> speechTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -425,6 +506,8 @@ public WorkerSprite spriteData
 ```csharp
 public GameObject stunEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -435,6 +518,8 @@ public GameObject stunEffect
 ```csharp
 public float stunTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -445,6 +530,8 @@ public float stunTime
 ```csharp
 public CreatureModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -455,6 +542,8 @@ public CreatureModel target
 ```csharp
 public StandingItemModel targetObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -465,6 +554,8 @@ public StandingItemModel targetObject
 ```csharp
 public WorkerModel targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -475,6 +566,8 @@ public WorkerModel targetWorker
 ```csharp
 public UncontrollableAction unconAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -485,6 +578,8 @@ public UncontrollableAction unconAction
 ```csharp
 public bool visible
 ```
+#INC
+
 
 #### Field Value
 
@@ -495,6 +590,8 @@ public bool visible
 ```csharp
 public float waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -505,6 +602,8 @@ public float waitTimer
 ```csharp
 public bool willDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -515,6 +614,8 @@ public bool willDead
 ```csharp
 public WorkerClass workerClass
 ```
+#INC
+
 
 #### Field Value
 
@@ -649,12 +750,16 @@ public Animator workerAnimator { get; }
 ```csharp
 public virtual void AfterDeadAnim()
 ```
+#INC
+
 
 ### CannotControll()
 
 ```csharp
 public virtual bool CannotControll()
 ```
+#INC
+
 
 #### Returns
 
@@ -665,6 +770,8 @@ public virtual bool CannotControll()
 ```csharp
 public virtual void ChangeHairSprite(SpriteInfo spriteInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -677,6 +784,8 @@ public virtual void ChangeHairSprite(SpriteInfo spriteInfo)
 ```csharp
 public virtual GameObject ChangePuppet(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -693,6 +802,8 @@ public virtual GameObject ChangePuppet(string src)
 ```csharp
 public virtual WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -709,6 +820,8 @@ public virtual WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```csharp
 public virtual void ChangePuppetAnimToUncon(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -721,24 +834,32 @@ public virtual void ChangePuppetAnimToUncon(string src)
 ```csharp
 public virtual void CheckEGOGift()
 ```
+#INC
+
 
 ### ClearEffect()
 
 ```csharp
 public virtual void ClearEffect()
 ```
+#INC
+
 
 ### ClearUnconCommand()
 
 ```csharp
 public virtual void ClearUnconCommand()
 ```
+#INC
+
 
 ### CompareByID(WorkerModel, WorkerModel)
 
 ```csharp
 public static int CompareByID(WorkerModel x, WorkerModel y)
 ```
+#INC
+
 
 #### Parameters
 
@@ -756,6 +877,8 @@ public static int CompareByID(WorkerModel x, WorkerModel y)
 ```csharp
 public static int CompareByName(WorkerModel x, WorkerModel y)
 ```
+#INC
+
 
 #### Parameters
 
@@ -773,6 +896,8 @@ public static int CompareByName(WorkerModel x, WorkerModel y)
 ```csharp
 public static int CompareBySefira(WorkerModel x, WorkerModel y)
 ```
+#INC
+
 
 #### Parameters
 
@@ -790,6 +915,8 @@ public static int CompareBySefira(WorkerModel x, WorkerModel y)
 ```csharp
 protected void CreateMentalDamagedEffect(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -802,6 +929,8 @@ protected void CreateMentalDamagedEffect(float value)
 ```csharp
 protected void CreatePhysicalDamagedEffect(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -814,12 +943,16 @@ protected void CreatePhysicalDamagedEffect(float value)
 ```csharp
 public virtual void Die()
 ```
+#INC
+
 
 ### EncounterCreature(UnitModel)
 
 ```csharp
 public virtual void EncounterCreature(UnitModel encounteredCreature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -832,6 +965,8 @@ public virtual void EncounterCreature(UnitModel encounteredCreature)
 ```csharp
 public virtual void EncounterStandingItem(StandingItemModel standing)
 ```
+#INC
+
 
 #### Parameters
 
@@ -844,6 +979,8 @@ public virtual void EncounterStandingItem(StandingItemModel standing)
 ```csharp
 public void FollowMovable(MovableObjectNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -856,6 +993,8 @@ public void FollowMovable(MovableObjectNode targetNode)
 ```csharp
 public MapNode GetConnectedNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -866,12 +1005,16 @@ public MapNode GetConnectedNode()
 ```csharp
 public virtual void GetControl()
 ```
+#INC
+
 
 ### GetCurrentCommand()
 
 ```csharp
 public WorkerCommand GetCurrentCommand()
 ```
+#INC
+
 
 #### Returns
 
@@ -882,6 +1025,8 @@ public WorkerCommand GetCurrentCommand()
 ```csharp
 public virtual MapEdge GetCurrentEdge()
 ```
+#INC
+
 
 #### Returns
 
@@ -892,6 +1037,8 @@ public virtual MapEdge GetCurrentEdge()
 ```csharp
 public virtual MapNode GetCurrentNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -902,6 +1049,8 @@ public virtual MapNode GetCurrentNode()
 ```csharp
 public virtual Sefira GetCurrentSefira()
 ```
+#INC
+
 
 #### Returns
 
@@ -912,6 +1061,8 @@ public virtual Sefira GetCurrentSefira()
 ```csharp
 public virtual EdgeDirection GetEdgeDirection()
 ```
+#INC
+
 
 #### Returns
 
@@ -922,6 +1073,8 @@ public virtual EdgeDirection GetEdgeDirection()
 ```csharp
 public virtual Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -932,6 +1085,8 @@ public virtual Dictionary<string, object> GetSaveData()
 ```csharp
 public override Sprite GetWeaponSprite()
 ```
+#INC
+
 
 #### Returns
 
@@ -942,6 +1097,8 @@ public override Sprite GetWeaponSprite()
 ```csharp
 public virtual WorkerUnit GetWorkerUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -952,12 +1109,16 @@ public virtual WorkerUnit GetWorkerUnit()
 ```csharp
 public virtual void HaltUpdate()
 ```
+#INC
+
 
 ### InitialEncounteredCreature(RiskLevel)
 
 ```csharp
 public virtual void InitialEncounteredCreature(RiskLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -970,6 +1131,8 @@ public virtual void InitialEncounteredCreature(RiskLevel level)
 ```csharp
 public virtual void InitialEncounteredCreature(UnitModel encountered)
 ```
+#INC
+
 
 #### Parameters
 
@@ -982,6 +1145,8 @@ public virtual void InitialEncounteredCreature(UnitModel encountered)
 ```csharp
 public override void InteractWithDoor(DoorObjectModel door)
 ```
+#INC
+
 
 #### Parameters
 
@@ -994,6 +1159,8 @@ public override void InteractWithDoor(DoorObjectModel door)
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -1004,6 +1171,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public virtual bool IsCrazy()
 ```
+#INC
+
 
 #### Returns
 
@@ -1014,6 +1183,8 @@ public virtual bool IsCrazy()
 ```csharp
 public virtual bool IsDead()
 ```
+#INC
+
 
 #### Returns
 
@@ -1024,6 +1195,8 @@ public virtual bool IsDead()
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1040,6 +1213,8 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public virtual bool IsInSefira()
 ```
+#INC
+
 
 #### Returns
 
@@ -1050,6 +1225,8 @@ public virtual bool IsInSefira()
 ```csharp
 public virtual bool IsPanic()
 ```
+#INC
+
 
 #### Returns
 
@@ -1060,6 +1237,8 @@ public virtual bool IsPanic()
 ```csharp
 public virtual bool IsSuppable()
 ```
+#INC
+
 
 #### Returns
 
@@ -1070,6 +1249,8 @@ public virtual bool IsSuppable()
 ```csharp
 public virtual void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1082,12 +1263,16 @@ public virtual void LoadData(Dictionary<string, object> dic)
 ```csharp
 public virtual void LoseControl()
 ```
+#INC
+
 
 ### MakeCreatureEffect(CreatureModel)
 
 ```csharp
 public virtual GameObject MakeCreatureEffect(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1104,6 +1289,8 @@ public virtual GameObject MakeCreatureEffect(CreatureModel model)
 ```csharp
 public virtual GameObject MakeCreatureEffect(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1120,6 +1307,8 @@ public virtual GameObject MakeCreatureEffect(long id)
 ```csharp
 public virtual GameObject MakeCreatureEffectHead(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1136,6 +1325,8 @@ public virtual GameObject MakeCreatureEffectHead(CreatureModel creature)
 ```csharp
 public virtual GameObject MakeCreatureEffectHead(CreatureModel model, bool addlist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1153,18 +1344,24 @@ public virtual GameObject MakeCreatureEffectHead(CreatureModel model, bool addli
 ```csharp
 public void MakeSpatteredBlood()
 ```
+#INC
+
 
 ### MoveFromNullPassage()
 
 ```csharp
 public void MoveFromNullPassage()
 ```
+#INC
+
 
 ### MoveToMovable(MovableObjectNode)
 
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1177,6 +1374,8 @@ public void MoveToMovable(MovableObjectNode targetMovable)
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1190,6 +1389,8 @@ public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand)
 ```csharp
 public void MoveToNode(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1202,6 +1403,8 @@ public void MoveToNode(MapNode targetNode)
 ```csharp
 public void MoveToNode(MapNode targetNode, bool resetCommand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1215,6 +1418,8 @@ public void MoveToNode(MapNode targetNode, bool resetCommand)
 ```csharp
 public void MoveToNode(string targetNodeID)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1227,6 +1432,8 @@ public void MoveToNode(string targetNodeID)
 ```csharp
 public virtual void OnAttackWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1239,18 +1446,24 @@ public virtual void OnAttackWorker(WorkerModel target)
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public virtual void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public virtual void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1264,36 +1477,48 @@ public virtual void OnNotice(string notice, params object[] param)
 ```csharp
 public virtual void OnResurrect()
 ```
+#INC
+
 
 ### OnSetArmor()
 
 ```csharp
 protected override void OnSetArmor()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public virtual void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public virtual void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public virtual void OnStageStart()
 ```
+#INC
+
 
 ### OnStun(float)
 
 ```csharp
 public override void OnStun(float stunVal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1306,24 +1531,32 @@ public override void OnStun(float stunVal)
 ```csharp
 public void OnStunEffectDestroied()
 ```
+#INC
+
 
 ### Panic()
 
 ```csharp
 public virtual void Panic()
 ```
+#INC
+
 
 ### PanicReadyComplete()
 
 ```csharp
 public virtual void PanicReadyComplete()
 ```
+#INC
+
 
 ### PlayAttackAnimation(string)
 
 ```csharp
 protected override void PlayAttackAnimation(string animationName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1336,12 +1569,16 @@ protected override void PlayAttackAnimation(string animationName)
 ```csharp
 public virtual void ProcessAction()
 ```
+#INC
+
 
 ### PursueUnconAgent(UnitModel)
 
 ```csharp
 public virtual void PursueUnconAgent(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1354,6 +1591,8 @@ public virtual void PursueUnconAgent(UnitModel target)
 ```csharp
 public virtual void RecentlyAttackedCreature(CreatureModel creatureModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1366,6 +1605,8 @@ public virtual void RecentlyAttackedCreature(CreatureModel creatureModel)
 ```csharp
 public virtual void RecoverHP(float amount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1378,6 +1619,8 @@ public virtual void RecoverHP(float amount)
 ```csharp
 public virtual void RecoverMental(float amount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1390,36 +1633,48 @@ public virtual void RecoverMental(float amount)
 ```csharp
 public virtual void ReleaseUpdate()
 ```
+#INC
+
 
 ### ResetAnimator()
 
 ```csharp
 public virtual void ResetAnimator()
 ```
+#INC
+
 
 ### ResetSpecialDeadScene()
 
 ```csharp
 public void ResetSpecialDeadScene()
 ```
+#INC
+
 
 ### ResetSprite()
 
 ```csharp
 public virtual void ResetSprite()
 ```
+#INC
+
 
 ### ReturnToSefira()
 
 ```csharp
 public virtual void ReturnToSefira()
 ```
+#INC
+
 
 ### SetAgentCommand(WorkerCommand)
 
 ```csharp
 public void SetAgentCommand(WorkerCommand command)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1432,6 +1687,8 @@ public void SetAgentCommand(WorkerCommand command)
 ```csharp
 public virtual void SetCurrentNode(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1444,6 +1701,8 @@ public virtual void SetCurrentNode(MapNode node)
 ```csharp
 public virtual void SetCustsomCommand(WorkerCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1456,6 +1715,8 @@ public virtual void SetCustsomCommand(WorkerCommand cmd)
 ```csharp
 public void SetDeadType(DeadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1468,6 +1729,8 @@ public void SetDeadType(DeadType type)
 ```csharp
 public virtual void SetInvincible(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1480,6 +1743,8 @@ public virtual void SetInvincible(bool b)
 ```csharp
 public void SetPanicAnim(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1492,6 +1757,8 @@ public void SetPanicAnim(bool b)
 ```csharp
 public void SetSpecialDeadScene(string deadSceneName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1504,6 +1771,8 @@ public void SetSpecialDeadScene(string deadSceneName)
 ```csharp
 public void SetSpecialDeadScene(string deadSceneName, bool seperator)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1517,6 +1786,8 @@ public void SetSpecialDeadScene(string deadSceneName, bool seperator)
 ```csharp
 public void SetSpecialDeadScene(string deadSceneName, bool seperator, bool hasUniqueFace)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1531,6 +1802,8 @@ public void SetSpecialDeadScene(string deadSceneName, bool seperator, bool hasUn
 ```csharp
 public virtual void SetUncontrollableAction(UncontrollableAction uncon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1543,6 +1816,8 @@ public virtual void SetUncontrollableAction(UncontrollableAction uncon)
 ```csharp
 public void SetWorkerFaceType(WorkerFaceType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1555,6 +1830,8 @@ public void SetWorkerFaceType(WorkerFaceType type)
 ```csharp
 public virtual void ShowCreatureActionSpeech(long creatureID, string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1568,6 +1845,8 @@ public virtual void ShowCreatureActionSpeech(long creatureID, string key)
 ```csharp
 public virtual void ShowSpeech(string txt)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1580,6 +1859,8 @@ public virtual void ShowSpeech(string txt)
 ```csharp
 public virtual void ShowUnconSpeech(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1617,30 +1898,40 @@ public void SpecialAttackEnd(TrackEntry trackEntry)
 ```csharp
 public virtual void StopAction()
 ```
+#INC
+
 
 ### StopPanic()
 
 ```csharp
 public virtual void StopPanic()
 ```
+#INC
+
 
 ### StopPanicWithoutStun()
 
 ```csharp
 public virtual void StopPanicWithoutStun()
 ```
+#INC
+
 
 ### StopStun()
 
 ```csharp
 public virtual void StopStun()
 ```
+#INC
+
 
 ### Stun(float)
 
 ```csharp
 public virtual void Stun(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1653,6 +1944,8 @@ public virtual void Stun(float time)
 ```csharp
 public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1666,6 +1959,9 @@ public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```csharp
 public override void TakeDamageWithoutEffect(UnitModel actor, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -1679,6 +1975,8 @@ public override void TakeDamageWithoutEffect(UnitModel actor, DamageInfo dmg)
 ```csharp
 public void TakeMentalDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1691,6 +1989,8 @@ public void TakeMentalDamage(float damage)
 ```csharp
 public virtual void TakeMentalDamage(float damage, MentalDamageOption option)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1704,6 +2004,8 @@ public virtual void TakeMentalDamage(float damage, MentalDamageOption option)
 ```csharp
 public static bool TryGetValue<T>(Dictionary<string, object> dic, string name, ref T field)
 ```
+#INC
+
 
 #### Parameters
 

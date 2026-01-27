@@ -12,6 +12,13 @@ canonical_path: /api/Global/Gift/HappyTeddyGift
 public class HappyTeddyGift : EquipmentScriptBase
 ```
 
+Script for [Happy Teddy Bear](/api/Global/Misc/HappyTeddy)'s EGO Gift: Bear Paws.
+
+Adds 3 to success rate for attachment work.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → HappyTeddyGift
 
@@ -33,6 +40,9 @@ public HappyTeddyGift()
 ```csharp
 public override float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

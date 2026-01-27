@@ -11,6 +11,9 @@ canonical_path: /api/Global/StateMachineBehaviour/ElevatorState
 ```csharp
 public class ElevatorState : StateMachineBehaviour
 ```
+Probably unused.
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ElevatorState
@@ -33,6 +36,9 @@ public ElevatorState()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -47,6 +53,8 @@ public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 

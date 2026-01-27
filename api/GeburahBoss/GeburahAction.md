@@ -11,6 +11,9 @@ canonical_path: /api/GeburahBoss/GeburahAction
 ```csharp
 public class GeburahAction
 ```
+Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s actions
+#parent 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahAction
@@ -28,6 +31,9 @@ public class GeburahAction
 ```csharp
 public GeburahAction(GeburahCoreScript geburah)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +48,8 @@ public GeburahAction(GeburahCoreScript geburah)
 ```csharp
 private GeburahAction _interrupt
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +60,8 @@ private GeburahAction _interrupt
 ```csharp
 public GeburahActionState actionState
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +72,8 @@ public GeburahActionState actionState
 ```csharp
 public GeburahCoreScript geburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +128,8 @@ public MovableObjectNode Movable { get; }
 ```csharp
 public virtual bool CanTakeDamage()
 ```
+#INC
+
 
 #### Returns
 
@@ -126,42 +140,56 @@ public virtual bool CanTakeDamage()
 ```csharp
 public virtual void EndAction()
 ```
+#INC
+
 
 ### Interrupt()
 
 ```csharp
 public virtual void Interrupt()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public virtual void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public virtual void OnExecute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public virtual void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public virtual void ParamInit()
 ```
+#INC
+
 
 ### SetInterruptAction(GeburahAction)
 
 ```csharp
 public virtual void SetInterruptAction(GeburahAction action)
 ```
+#INC
+
 
 #### Parameters
 

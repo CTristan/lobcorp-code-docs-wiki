@@ -12,6 +12,9 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodMidnightOrdeal
 public class OutterGodMidnightOrdeal : OutterGodOrdeal
 ```
 
+Midnight of Violet ordeal, The God Delusion.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [OutterGodOrdeal](/api/Global/Misc/OutterGodOrdeal) → OutterGodMidnightOrdeal
 
@@ -25,6 +28,8 @@ public class OutterGodMidnightOrdeal : OutterGodOrdeal
 ```csharp
 public OutterGodMidnightOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public OutterGodMidnightOrdeal()
 ```csharp
 private static int[] ids
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ private static int[] ids
 ```csharp
 private MapNode GetNode(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,6 +70,8 @@ private MapNode GetNode(PassageObjectModel passage)
 ```csharp
 private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +88,8 @@ private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```csharp
 private Sefira GetSefira(ref List<Sefira> remain)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,12 +106,16 @@ private Sefira GetSefira(ref List<Sefira> remain)
 ```csharp
 private void MakeMidnight()
 ```
+#INC
+
 
 ### MakeTombStones(RwbpType, MapNode)
 
 ```csharp
 private OutterGodOrdealCreature MakeTombStones(RwbpType type, MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,3 +133,6 @@ private OutterGodOrdealCreature MakeTombStones(RwbpType type, MapNode node)
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

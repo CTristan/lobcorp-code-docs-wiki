@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/ReverseClockAnim
 public class ReverseClockAnim : CreatureAnimScript
 ```
 
+Animation handler for [Backwards Clock](/api/Global/Misc/ReverseClock).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → ReverseClockAnim
 
@@ -33,6 +38,8 @@ public ReverseClockAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 public const string _SOUND_SRC = "creature/ReverseClock/WarpClock_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public const string _SOUND_SRC = "creature/ReverseClock/WarpClock_"
 ```csharp
 public ReverseClockAnimEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public ReverseClockAnim.ClockLamp[] lampSlots
 ```csharp
 public Sprite[] numSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Sprite[] numSprites
 ```csharp
 public GameObject rouletteObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public GameObject rouletteObject
 ```csharp
 public ReverseClockUI rouletteUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public ReverseClockUI rouletteUI
 ```csharp
 public SkeletonAnimator skelAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +134,8 @@ public SkeletonAnimator skelAnimator
 ```csharp
 private void DisplayNumber(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,18 +148,25 @@ private void DisplayNumber(int i)
 ```csharp
 public void HideRoulette()
 ```
+#INC
+
 
 ### ResetLamp()
 
 ```csharp
 public void ResetLamp()
 ```
+#INC
+
 
 ### SetModel(UnitModel)
 
 ```csharp
 public void SetModel(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -151,6 +179,8 @@ public void SetModel(UnitModel model)
 ```csharp
 public bool TurnOnLamp()
 ```
+#INC
+
 
 #### Returns
 
@@ -161,9 +191,13 @@ public bool TurnOnLamp()
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### ViewRoulette()
 
 ```csharp
 public void ViewRoulette()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusDawnOrdeal
 public class CircusDawnOrdeal : CircusOrdeal
 ```
 
+Dawn of Crimson ordeal, The Cheers for the Beginning. Spawns several [CircusDawns](/api/Global/Misc/CircusDawn).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [CircusOrdeal](/api/Global/Misc/CircusOrdeal) → CircusDawnOrdeal
 
@@ -25,6 +28,8 @@ public class CircusDawnOrdeal : CircusOrdeal
 ```csharp
 public CircusDawnOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public CircusDawnOrdeal()
 ```csharp
 private CreatureModel _currentWaitingCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ private CreatureModel _currentWaitingCreature
 ```csharp
 public CreatureModel GetTarget(out bool hasError)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,6 +70,8 @@ public CreatureModel GetTarget(out bool hasError)
 ```csharp
 public MapNode GetTeleportNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -71,6 +82,8 @@ public MapNode GetTeleportNode()
 ```csharp
 public override bool IsStartable()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,12 +94,17 @@ public override bool IsStartable()
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+
 
 ### ReadyForTeleport()
 
 ```csharp
 public bool ReadyForTeleport()
 ```
+#INC
+
 
 #### Returns
 

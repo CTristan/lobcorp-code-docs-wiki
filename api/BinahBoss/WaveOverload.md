@@ -11,6 +11,11 @@ canonical_path: /api/BinahBoss/WaveOverload
 ```csharp
 public class WaveOverload : BinahOverload, IObserver
 ```
+Class for the Meltdown of Waves Qliphoth meltdown (purple). On failure, does some kind of attack?
+Starts in [Phase 2](/api/BinahBoss/SecondPhase).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahOverload](/api/BinahBoss/BinahOverload) → WaveOverload
@@ -28,6 +33,8 @@ public class WaveOverload : BinahOverload, IObserver
 ```csharp
 public WaveOverload(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public WaveOverload(BinahCoreScript binah)
 ```csharp
 private Dictionary<long, ProjectileModel> dictionary
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,18 +63,25 @@ private Dictionary<long, ProjectileModel> dictionary
 ```csharp
 public override void CastOverload()
 ```
+#INC
+#code-generated
+
 
 ### OnFail()
 
 ```csharp
 public override void OnFail()
 ```
+#INC
+
 
 ### OnReducedCreature(CreatureModel)
 
 ```csharp
 public override void OnReducedCreature(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -78,3 +94,5 @@ public override void OnReducedCreature(CreatureModel creature)
 ```csharp
 public override void OnSuccess()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahSoundInfo
 ```csharp
 public static class BinahSoundInfo
 ```
+Sound locations for [Binah's core suppression](/api/Global/Misc/BinahBossBase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahSoundInfo
@@ -25,6 +27,8 @@ public static class BinahSoundInfo
 ```csharp
 public static string Attack1
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +39,8 @@ public static string Attack1
 ```csharp
 public static string Attack2
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public static string Attack2
 ```csharp
 public static string Attack3
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static string Attack3
 ```csharp
 public static string Attack3_Column
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public static string Attack3_Column
 ```csharp
 public static string Attack4_CastEnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public static string Attack4_CastEnd
 ```csharp
 public static string Attack4_CreateColumn
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public static string Attack4_CreateColumn
 ```csharp
 public static string Attack4_LastColumn
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public static string Attack4_LastColumn
 ```csharp
 public static string Attack4_Loop
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public static string Attack4_Loop
 ```csharp
 public static string Attack4_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,9 @@ public static string Attack4_Start
 ```csharp
 public static string BinahSoundFolder
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -125,6 +148,8 @@ public static string BinahSoundFolder
 ```csharp
 public static string DefaultOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +160,8 @@ public static string DefaultOverload
 ```csharp
 public static string OverloadClear
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +172,8 @@ public static string OverloadClear
 ```csharp
 public static string OverloadClearAll
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +184,8 @@ public static string OverloadClearAll
 ```csharp
 public static string Thorn_Create
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +196,8 @@ public static string Thorn_Create
 ```csharp
 public static string Thorn_Pin
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +208,8 @@ public static string Thorn_Pin
 ```csharp
 public static string Thron_Move
 ```
+#INC
+
 
 #### Field Value
 

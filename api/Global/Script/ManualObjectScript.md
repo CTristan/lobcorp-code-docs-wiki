@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/ManualObjectScript
 public class ManualObjectScript : MenuScript
 ```
 
+Legacy [TutorialController](/api/Legacy/TutorialController) script.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [MenuScript](/api/Global/Script/MenuScript) → ManualObjectScript
 
@@ -33,6 +36,8 @@ public ManualObjectScript()
 ```csharp
 private const float clickTerm = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float clickTerm = 0.2
 ```csharp
 private UnscaledTimer clickTermTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private UnscaledTimer clickTermTimer
 ```csharp
 public Text currentText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Text currentText
 ```csharp
 public GameObject left
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public GameObject left
 ```csharp
 public Animator menuAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Animator menuAnim
 ```csharp
 public bool menuExported
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public bool menuExported
 ```csharp
 private int minIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private int minIndex
 ```csharp
 public GameObject right
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +146,8 @@ private int maxIndex { get; }
 ```csharp
 public override void OnClick(Button target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,36 +160,48 @@ public override void OnClick(Button target)
 ```csharp
 public void OnClickLeft()
 ```
+#INC
+
 
 ### OnClickRight()
 
 ```csharp
 public void OnClickRight()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnSelectOverlayEnter()
 
 ```csharp
 public void OnSelectOverlayEnter()
 ```
+#INC
+
 
 ### OnSelectOverlayExit()
 
 ```csharp
 public void OnSelectOverlayExit()
 ```
+#INC
+
 
 ### SelectMenu(int)
 
 ```csharp
 public override void SelectMenu(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,15 +214,22 @@ public override void SelectMenu(int index)
 ```csharp
 public void SetFirst()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public override void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

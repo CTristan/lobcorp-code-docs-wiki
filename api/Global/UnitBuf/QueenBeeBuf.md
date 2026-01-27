@@ -12,6 +12,13 @@ canonical_path: /api/Global/UnitBuf/QueenBeeBuf
 public class QueenBeeBuf : UnitBuf
 ```
 
+Damage over time debuff from [Queen Bee](/api/Global/Misc/QueenBee).
+
+Halves speed and does 8 red damage every 2 seconds for 20 seconds. Also adds a visual effect.
+
+If the worker dies, spawns a [QueenBeeWorker](/api/Global/Worker/QueenBeeWorker).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → QueenBeeBuf
 
@@ -25,6 +32,8 @@ public class QueenBeeBuf : UnitBuf
 ```csharp
 public QueenBeeBuf(QueenBee queen, bool isDirect)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +49,8 @@ public QueenBeeBuf(QueenBee queen, bool isDirect)
 ```csharp
 private SoundEffectPlayer buzz
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +61,8 @@ private SoundEffectPlayer buzz
 ```csharp
 public const string buzzSrc = "creature/QueenBee/QueenBee_Infect_01"
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +73,8 @@ public const string buzzSrc = "creature/QueenBee/QueenBee_Infect_01"
 ```csharp
 private Timer damageTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +85,8 @@ private Timer damageTickTimer
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +97,8 @@ private GameObject effect
 ```csharp
 public const float effectTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +109,8 @@ public const float effectTime = 1
 ```csharp
 private AutoTimer effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +121,8 @@ private AutoTimer effectTimer
 ```csharp
 private const float fixedY = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +133,8 @@ private const float fixedY = 2
 ```csharp
 private bool isDirect
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +145,8 @@ private bool isDirect
 ```csharp
 private QueenBee queen
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +157,8 @@ private QueenBee queen
 ```csharp
 private const float speedFactor = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +169,8 @@ private const float speedFactor = 0.5
 ```csharp
 public const string src = "Effect/Creature/QueenBee/QueenBeeGenEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +181,8 @@ public const string src = "Effect/Creature/QueenBee/QueenBeeGenEffect"
 ```csharp
 private const float tickDamage = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +193,8 @@ private const float tickDamage = 8
 ```csharp
 private DamageInfo tickDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,6 +205,8 @@ private DamageInfo tickDmg
 ```csharp
 private const float tickTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -182,6 +219,8 @@ private const float tickTime = 2
 ```csharp
 public void AttachEffect(Transform head)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,18 +233,25 @@ public void AttachEffect(Transform head)
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -218,12 +264,16 @@ public override void Init(UnitModel model)
 ```csharp
 private void MakeChild()
 ```
+#INC
+
 
 ### MovementScale()
 
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -234,3 +284,5 @@ public override float MovementScale()
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

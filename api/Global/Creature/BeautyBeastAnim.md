@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BeautyBeastAnim
 public class BeautyBeastAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation script for [Beauty and the Beast](/api/Global/Misc/BeautyBeast).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BeautyBeastAnim
 
@@ -36,6 +39,8 @@ public BeautyBeastAnim()
 ```csharp
 private const string resurrect = "Resurrect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const string resurrect = "Resurrect"
 ```csharp
 private BeautyBeast script
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private BeautyBeast script
 ```csharp
 private const string state = "State"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string state = "State"
 ```csharp
 public GameObject TransformEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,18 +89,24 @@ public GameObject TransformEffect
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,18 +119,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,6 +150,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public int GetState()
 ```
+#INC
+
 
 #### Returns
 
@@ -137,24 +162,33 @@ public int GetState()
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,18 +201,24 @@ public void OnCalled(int i)
 ```csharp
 public void OnTransformEffectEnded()
 ```
+#INC
+
 
 ### Resurrrect()
 
 ```csharp
 public void Resurrrect()
 ```
+#INC
+
 
 ### SetScript(BeautyBeast)
 
 ```csharp
 public void SetScript(BeautyBeast script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,6 +231,8 @@ public void SetScript(BeautyBeast script)
 ```csharp
 public void SetState(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,12 +245,16 @@ public void SetState(int index)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,9 +267,13 @@ public void SoundMake(string src)
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### TransformEffectStart()
 
 ```csharp
 public void TransformEffectStart()
 ```
+#INC
+

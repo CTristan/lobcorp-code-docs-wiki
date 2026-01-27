@@ -11,6 +11,10 @@ canonical_path: /api/Global/Tutorial/FestivalTutorial
 ```csharp
 public class FestivalTutorial : MonoBehaviour
 ```
+Possibly a UI element during a tutorial, which allows going left and right through some pages?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FestivalTutorial
@@ -33,6 +37,8 @@ public FestivalTutorial()
 ```csharp
 public Image imgRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Image imgRenderer
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public int index
 ```csharp
 public Sprite[] sprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Sprite[] sprites
 ```csharp
 public Text text
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,27 +87,38 @@ public Text text
 ```csharp
 public void Close()
 ```
+#INC
+
 
 ### MoveNext()
 
 ```csharp
 public void MoveNext()
 ```
+#INC
+
 
 ### MovePrev()
 
 ```csharp
 public void MovePrev()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

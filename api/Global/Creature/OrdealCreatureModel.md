@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/OrdealCreatureModel
 public class OrdealCreatureModel : CreatureModel, IObserver, ISerializablePlayData, IMouseCommandTargetModel
 ```
 
+Base class for [ordeal](/api/Global/Misc/OrdealBase) spawns.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → [CreatureModel](/api/Global/Model/CreatureModel) → OrdealCreatureModel
 
@@ -28,6 +33,8 @@ public class OrdealCreatureModel : CreatureModel, IObserver, ISerializablePlayDa
 ```csharp
 public OrdealCreatureModel(long instanceId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public OrdealCreatureModel(long instanceId)
 ```csharp
 private OrdealBase _ordealBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,12 +75,17 @@ public OrdealBase OrdealBase { get; private set; }
 ```csharp
 public override void Escape()
 ```
+#INC
+#code-generated
+
 
 ### IsHostile(UnitModel)
 
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -88,30 +102,40 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public void OnDestroy()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### SetOrdealBase(OrdealBase)
 
 ```csharp
 public void SetOrdealBase(OrdealBase ordeal)
 ```
+#INC
+
 
 #### Parameters
 

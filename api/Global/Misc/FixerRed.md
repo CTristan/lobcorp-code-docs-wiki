@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FixerRed
 public class FixerRed : FixerCreature
 ```
 
+Red Fixer.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [FixerCreature](/api/Global/Creature/FixerCreature) → FixerRed
 
@@ -33,6 +38,8 @@ public FixerRed()
 ```csharp
 private FixerRedAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FixerRedAnim _animScript
 ```csharp
 private const float _atkFarDmgRange = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _atkFarDmgRange = 9
 ```csharp
 private const float _atkFarRange = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _atkFarRange = 8
 ```csharp
 private const float _atkNearDmgRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _atkNearDmgRange = 3.5
 ```csharp
 private const float _atkNearRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _atkNearRange = 3
 ```csharp
 private static int[] _dmgMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private static int[] _dmgMax
 ```csharp
 private static int[] _dmgMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private static int[] _dmgMin
 ```csharp
 private static RwbpType[] _dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private static RwbpType[] _dmgType
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _motionDelayMin = 0.5
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const float _skillCoolTimeMax_Far = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float _skillCoolTimeMax_Far = 60
 ```csharp
 private const float _skillCoolTimeMax_Near = 21
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _skillCoolTimeMax_Near = 21
 ```csharp
 private const float _skillCoolTimeMin_Far = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _skillCoolTimeMin_Far = 45
 ```csharp
 private const float _skillCoolTimeMin_Near = 19
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _skillCoolTimeMin_Near = 19
 ```csharp
 private const float _skillInitCoolTimeMax_Far = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const float _skillInitCoolTimeMax_Far = 30
 ```csharp
 private const float _skillInitCoolTimeMax_Near = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private const float _skillInitCoolTimeMax_Near = 15
 ```csharp
 private const float _skillInitCoolTimeMin_Far = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float _skillInitCoolTimeMin_Far = 25
 ```csharp
 private const float _skillInitCoolTimeMin_Near = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const float _skillInitCoolTimeMin_Near = 12
 ```csharp
 private const float _skillNearDmgRange = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const float _skillNearDmgRange = 5
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private Timer motionDelayTimer
 ```csharp
 private UnitModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private UnitModel moveTarget
 ```csharp
 private Timer skillCoolTimer_Far
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private Timer skillCoolTimer_Far
 ```csharp
 private Timer skillCoolTimer_Near
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,6 +400,8 @@ private static float skillInitCoolTime_Near { get; }
 ```csharp
 private void AttackStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -359,6 +414,8 @@ private void AttackStart(bool isNear)
 ```csharp
 private DamageInfo GetDamage(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -375,6 +432,8 @@ private DamageInfo GetDamage(int i)
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -385,6 +444,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -395,6 +456,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -405,12 +468,16 @@ private bool IsMovable()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -421,12 +488,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDamageTimeCalled(int)
 
 ```csharp
 public void OnDamageTimeCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -439,6 +510,8 @@ public void OnDamageTimeCalled(int i)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -451,6 +524,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSkillEnd(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -463,6 +538,9 @@ public void OnSkillEnd(bool isNear)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -475,6 +553,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void PrepareAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -487,6 +567,8 @@ private void PrepareAttack(UnitModel target)
 ```csharp
 private void SkillStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -499,3 +581,5 @@ private void SkillStart(bool isNear)
 ```csharp
 private void StopMovement()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Creature/AuthorNoteAnim
 ```csharp
 public class AuthorNoteAnim : CreatureAnimScript
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → AuthorNoteAnim
@@ -33,6 +35,8 @@ public AuthorNoteAnim()
 ```csharp
 public GameObject contUIPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public GameObject contUIPrefab
 ```csharp
 private GameObject currentPlayUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private GameObject currentPlayUI
 ```csharp
 public GameObject finaleUIPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public GameObject finaleUIPrefab
 ```csharp
 public GameObject finUIPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public GameObject finUIPrefab
 ```csharp
 public SpriteRenderer iconRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public SpriteRenderer iconRenderer
 ```csharp
 public GameObject playUIPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +109,9 @@ public GameObject playUIPrefab
 ```csharp
 public void ChangeSkillIcon(int skillTypeId)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -107,12 +124,16 @@ public void ChangeSkillIcon(int skillTypeId)
 ```csharp
 public void HidePlayUI()
 ```
+#INC
+
 
 ### ShowFinaleUI()
 
 ```csharp
 public AuthorNoteFinaleUI ShowFinaleUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,15 +144,21 @@ public AuthorNoteFinaleUI ShowFinaleUI()
 ```csharp
 public void ShowOtherEndingFinUI()
 ```
+#INC
+
 
 ### ShowPlayUI()
 
 ```csharp
 public void ShowPlayUI()
 ```
+#INC
+
 
 ### ShowTrueEndingFinUI()
 
 ```csharp
 public void ShowTrueEndingFinUI()
 ```
+#INC
+

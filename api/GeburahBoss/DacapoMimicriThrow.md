@@ -12,6 +12,9 @@ canonical_path: /api/GeburahBoss/DacapoMimicriThrow
 public class DacapoMimicriThrow : GeburahAction
 ```
 
+Action for when [The Red Mist](/api/Global/Script/GeburahCoreScript) throws [Da Capo](/api/Global/Misc/SilentOrchestra) and [Mimicry](/api/Global/Weapon/NothingWeapon) at the start of phase 3.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → DacapoMimicriThrow
 
@@ -25,6 +28,8 @@ public class DacapoMimicriThrow : GeburahAction
 ```csharp
 public DacapoMimicriThrow(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public DacapoMimicriThrow(GeburahCoreScript geburah)
 ```csharp
 public static DamageInfo _r_damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ public static DamageInfo _r_damage
 ```csharp
 public static DamageInfo _w_damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ public static DamageInfo _w_damage
 ```csharp
 public override bool CanTakeDamage()
 ```
+#INC
+
 
 #### Returns
 
@@ -71,6 +82,8 @@ public override bool CanTakeDamage()
 ```csharp
 private void MakeProjectile(ProjectileType type, Transform tr, UnitDirection direction, DamageInfo damage, Vector2 size, Vector3 rotation)
 ```
+#INC
+
 
 #### Parameters
 
@@ -88,12 +101,16 @@ private void MakeProjectile(ProjectileType type, Transform tr, UnitDirection dir
 ```csharp
 private void MakeWeaponAppear()
 ```
+#INC
+
 
 ### OnAnimEventCalled(int)
 
 ```csharp
 public void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -106,15 +123,22 @@ public void OnAnimEventCalled(int index)
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnThrow()
 
 ```csharp
 public void OnThrow()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

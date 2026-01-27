@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ObserveInfoManager
 ```csharp
 public class ObserveInfoManager
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObserveInfoManager
@@ -25,6 +27,9 @@ public class ObserveInfoManager
 ```csharp
 private ObserveInfoManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ private ObserveInfoManager()
 ```csharp
 private static ObserveInfoManager _instance
 ```
+#INC
+
 
 #### Field Value
 

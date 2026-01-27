@@ -12,6 +12,9 @@ canonical_path: /api/Global/Unit/InventoryAttachmentUnit
 public class InventoryAttachmentUnit : MonoBehaviour
 ```
 
+UI element which displays an individual EGO Gift underneath an agent's equipment, only in the [E.G.O List](/api/Inventory/InventoryUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryAttachmentUnit
 
@@ -33,6 +36,9 @@ public InventoryAttachmentUnit()
 ```csharp
 public Text text
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

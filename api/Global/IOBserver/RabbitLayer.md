@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/RabbitLayer
 public class RabbitLayer : MonoBehaviour, IObserver
 ```
 
+Layer holding all the [rabbits](/api/Global/Unit/RabbitUnit).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RabbitLayer
 
@@ -36,6 +41,8 @@ public RabbitLayer()
 ```csharp
 private List<RabbitUnit> rabbitList
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private List<RabbitUnit> rabbitList
 ```csharp
 public RabbitRwbpSet[] rwbpSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public RabbitRwbpSet[] rwbpSet
 ```csharp
 private int zCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +79,8 @@ private int zCount
 ```csharp
 public void AddRabbit(RabbitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -80,18 +93,25 @@ public void AddRabbit(RabbitModel model)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Clear()
 
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### GetRwbpSet(RwbpType)
 
 ```csharp
 public RabbitRwbpSet GetRwbpSet(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -108,18 +128,24 @@ public RabbitRwbpSet GetRwbpSet(RwbpType type)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +159,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void RemoveAgent(RabbitModel rabbit)
 ```
+#INC
+
 
 #### Parameters
 

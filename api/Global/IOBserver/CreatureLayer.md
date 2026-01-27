@@ -11,6 +11,8 @@ canonical_path: /api/Global/IOBserver/CreatureLayer
 ```csharp
 public class CreatureLayer : MonoBehaviour, IObserver
 ```
+Layer which has all the creatures in it, including abnormalities, ordeal creatures, and sephirah bosses.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureLayer
@@ -36,6 +38,8 @@ public CreatureLayer()
 ```csharp
 private Dictionary<long, CreatureUnit> creatureDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private Dictionary<long, CreatureUnit> creatureDic
 ```csharp
 private List<CreatureUnit> creatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ private List<CreatureUnit> creatureList
 ```csharp
 private string dark
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ private string dark
 ```csharp
 private string directory
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ private string directory
 ```csharp
 private Dictionary<long, EtcUnit> etcDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ private Dictionary<long, EtcUnit> etcDic
 ```csharp
 private List<EtcUnit> etcList
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ private List<EtcUnit> etcList
 ```csharp
 private List<CreatureUnit> eventCreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ public CreatureLayer.IsolateRoomUI isolateRoomUI
 ```csharp
 private List<CreatureUnit> ordealCreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ private List<CreatureUnit> ordealCreatureList
 ```csharp
 private List<CreatureUnit> sefiraBossList
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ private List<CreatureUnit> sefiraBossList
 ```csharp
 private List<int> tempIntforSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +170,8 @@ private List<int> tempIntforSprite
 ```csharp
 public static CreatureLayer currentLayer { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -170,6 +194,8 @@ public static CreatureLayer.IsolateRoomUI IsolateRoomUIData { get; }
 ```csharp
 private void AddCreature(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,6 +208,8 @@ private void AddCreature(CreatureModel model)
 ```csharp
 public EtcUnit AddEtcUnit(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,6 +226,8 @@ public EtcUnit AddEtcUnit(UnitModel model)
 ```csharp
 private void AddEventCreature(EventCreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -210,6 +240,8 @@ private void AddEventCreature(EventCreatureModel model)
 ```csharp
 private void AddOrdealCreature(OrdealCreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -222,6 +254,8 @@ private void AddOrdealCreature(OrdealCreatureModel model)
 ```csharp
 private void AddSefiraBossCreature(SefiraBossCreatureModel model, string animSrc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -235,12 +269,17 @@ private void AddSefiraBossCreature(SefiraBossCreatureModel model, string animSrc
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeCreaturePos(CreatureModel, CreatureModel)
 
 ```csharp
 public void ChangeCreaturePos(CreatureModel caller, CreatureModel changed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -254,30 +293,40 @@ public void ChangeCreaturePos(CreatureModel caller, CreatureModel changed)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### ClearEventCreature()
 
 ```csharp
 public void ClearEventCreature()
 ```
+#INC
+
 
 ### ClearOrdealCreature()
 
 ```csharp
 public void ClearOrdealCreature()
 ```
+#INC
+
 
 ### ClearSefiraBossCreature()
 
 ```csharp
 public void ClearSefiraBossCreature()
 ```
+#INC
+
 
 ### GetCreature(long)
 
 ```csharp
 public CreatureUnit GetCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,6 +343,8 @@ public CreatureUnit GetCreature(long id)
 ```csharp
 public EtcUnit GetEtcUnit(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -310,24 +361,32 @@ public EtcUnit GetEtcUnit(long id)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,6 +400,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnSpriteButtonClick(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,6 +414,8 @@ public void OnSpriteButtonClick(bool state)
 ```csharp
 public void RemoveCreature(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +428,8 @@ public void RemoveCreature(CreatureModel model)
 ```csharp
 public void RemoveEtcUnit(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 

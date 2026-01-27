@@ -12,6 +12,13 @@ canonical_path: /api/Global/UnitBuf/PinkCorpsBuf
 public class PinkCorpsBuf : UnitBuf
 ```
 
+Parent class for buffs of employees affected by [Army in Black](/api/Global/IOBserver/PinkCorps)'s special work type.
+
+See:
+- [PinkCorpsProtectBuf](/api/Global/Misc/PinkCorpsProtectBuf) (defense up also?) #Inc
+- [PinkCorpsLoveBuf](/api/Global/Misc/PinkCorpsLoveBuf) (defense up) #inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → PinkCorpsBuf
 
@@ -28,6 +35,8 @@ public class PinkCorpsBuf : UnitBuf
 ```csharp
 public PinkCorpsBuf(UnitModel target, PinkCorps pink)
 ```
+#INC
+
 
 #### Parameters
 
@@ -43,6 +52,8 @@ public PinkCorpsBuf(UnitModel target, PinkCorps pink)
 ```csharp
 public float DamageFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public float DamageFactor
 ```csharp
 public PinkCorps pink
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +78,14 @@ public PinkCorps pink
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

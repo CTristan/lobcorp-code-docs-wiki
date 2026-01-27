@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FixerWhiteCloudDebuf
 public class FixerWhiteCloudDebuf : UnitBuf
 ```
 
+Buff which slows down employees in the [White Fixer](/api/Global/Misc/FixerWhite)'s cloud attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FixerWhiteCloudDebuf
 
@@ -25,6 +28,8 @@ public class FixerWhiteCloudDebuf : UnitBuf
 ```csharp
 public FixerWhiteCloudDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public FixerWhiteCloudDebuf()
 ```csharp
 private const float remain = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float remain = 0.5
 ```csharp
 private const float speedFactor = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +64,9 @@ private const float speedFactor = 0.5
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -67,6 +79,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

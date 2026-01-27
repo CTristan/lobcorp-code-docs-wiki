@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/UnscaledTimer
 public class UnscaledTimer : Timer
 ```
 
+Uses unscaled time (i.e., real time, not affected by time speed changes or frame drops).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Timer](/api/Global/Misc/Timer) → UnscaledTimer
 
@@ -33,6 +36,9 @@ public UnscaledTimer()
 ```csharp
 public override bool RunTimer()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

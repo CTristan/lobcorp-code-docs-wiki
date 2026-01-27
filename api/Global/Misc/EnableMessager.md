@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/EnableMessager
 ```csharp
 public class EnableMessager : MonoBehaviour
 ```
+Seems to enable [IEnableMessage](/api/Global/Misc/IEnableMessage) objects, like [AudioSlider](/api/Global/Misc/AudioSlider).
+
+... That's the only one. Does this even run?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EnableMessager
@@ -33,6 +37,8 @@ public EnableMessager()
 ```csharp
 public List<MonoBehaviour> reciever
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,15 +51,22 @@ public List<MonoBehaviour> reciever
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

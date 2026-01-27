@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SlimePawnAnim
 public class SlimePawnAnim : SlimeCreatureAnim, IAnimatorEventCalled
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → [SlimeCreatureAnim](/api/Global/Creature/SlimeCreatureAnim) → SlimePawnAnim
 

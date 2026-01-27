@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/PinkCorpsRequestUI
 public class PinkCorpsRequestUI : MonoBehaviour
 ```
 
+UI for [Army in Black](/api/Global/IOBserver/PinkCorps)'s special work type.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PinkCorpsRequestUI
 
@@ -33,6 +36,8 @@ public PinkCorpsRequestUI()
 ```csharp
 private AgentModel _currentOverlayAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private AgentModel _currentOverlayAgent
 ```csharp
 private Color _enableColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Color _enableColor
 ```csharp
 public SpriteRenderer cursorRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public SpriteRenderer cursorRenderer
 ```csharp
 public GameObject cursorSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +96,8 @@ public AgentModel CurrentOverlayAgent { get; set; }
 ```csharp
 public PinkCorpsAnim PinkCorpsAnim { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -97,24 +110,32 @@ public PinkCorpsAnim PinkCorpsAnim { get; private set; }
 ```csharp
 private void CheckRaycasts()
 ```
+#INC
+
 
 ### CloseRequest()
 
 ```csharp
 public void CloseRequest()
 ```
+#INC
+
 
 ### CursorUpdate()
 
 ```csharp
 private void CursorUpdate()
 ```
+#INC
+
 
 ### GetFactor()
 
 ```csharp
 private float GetFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -125,6 +146,8 @@ private float GetFactor()
 ```csharp
 private void OnSetOverlayAgent(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,18 +160,25 @@ private void OnSetOverlayAgent(AgentModel target)
 ```csharp
 private void OnTryRequest()
 ```
+#INC
+
 
 ### OpenRequest()
 
 ```csharp
 public void OpenRequest()
 ```
+#INC
+
 
 ### SetPinkCorpsAnim(PinkCorpsAnim)
 
 ```csharp
 public void SetPinkCorpsAnim(PinkCorpsAnim anim)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -161,9 +191,13 @@ public void SetPinkCorpsAnim(PinkCorpsAnim anim)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/GlobalBullet/GlobalBulletUISlot
 ```csharp
 public class GlobalBulletUISlot : MonoBehaviour
 ```
+UI element for bullet slots.
+
+See [GlobalBulletWindow](/api/GlobalBullet/GlobalBulletWindow)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalBulletUISlot
@@ -33,6 +37,8 @@ public GlobalBulletUISlot()
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private bool _isEnabled
 ```csharp
 private bool _isPointerEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _isPointerEntered
 ```csharp
 private bool _isSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _isSelected
 ```csharp
 public Color AlterColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Color AlterColor
 ```csharp
 public Color AlterDisabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Color AlterDisabledColor
 ```csharp
 public List<MaskableGraphic> ColoredGraphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public List<MaskableGraphic> ColoredGraphics
 ```csharp
 public List<MaskableGraphic> ColoredGraphics_Alter
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public List<MaskableGraphic> ColoredGraphics_Alter
 ```csharp
 public GameObject DisbaledBlockObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ public GameObject DisbaledBlockObject
 ```csharp
 public GlobalBulletType SlotType
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,24 +179,32 @@ public bool IsSelected { get; }
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnterPointer()
 
 ```csharp
 public void OnEnterPointer()
 ```
+#INC
+
 
 ### OnExitPointer()
 
 ```csharp
 public void OnExitPointer()
 ```
+#INC
+
 
 ### SetAcitve(bool)
 
 ```csharp
 public void SetAcitve(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +217,8 @@ public void SetAcitve(bool state)
 ```csharp
 public void SetGraphicsColor(bool isSelected)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +231,8 @@ public void SetGraphicsColor(bool isSelected)
 ```csharp
 public void SetGraphicsColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +245,8 @@ public void SetGraphicsColor(Color c)
 ```csharp
 public void SetSelected(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -223,9 +259,14 @@ public void SetSelected(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

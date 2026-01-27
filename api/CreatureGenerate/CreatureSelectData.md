@@ -11,6 +11,8 @@ canonical_path: /api/CreatureGenerate/CreatureSelectData
 ```csharp
 public class CreatureSelectData
 ```
+Holds the data for a given day of abnormality selection, including the probabilities of each risk level and the action of to allow/ban abnormalities.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSelectData
@@ -39,6 +41,8 @@ public CreatureSelectData(int day)
 ```csharp
 private List<long> actionParam
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +53,8 @@ private List<long> actionParam
 ```csharp
 private GenerateCommonAction actionType
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +65,8 @@ private GenerateCommonAction actionType
 ```csharp
 private float[] d1
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +77,8 @@ private float[] d1
 ```csharp
 private float[] d2
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +89,8 @@ private float[] d2
 ```csharp
 private float[] d3
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +101,8 @@ private float[] d3
 ```csharp
 public static float[] zeroAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,6 +115,8 @@ public static float[] zeroAry
 ```csharp
 public int Day { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -113,6 +129,8 @@ public int Day { get; private set; }
 ```csharp
 public List<long> GetCreature()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,6 +141,8 @@ public List<long> GetCreature()
 ```csharp
 private bool GetRiskLevel(float[] d, out RiskLevel level, params RiskLevel[] reduced)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,6 +161,9 @@ private bool GetRiskLevel(float[] d, out RiskLevel level, params RiskLevel[] red
 ```csharp
 private long PickCreature(RiskLevel risk)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -157,6 +180,8 @@ private long PickCreature(RiskLevel risk)
 ```csharp
 public void SetActionType(GenerateCommonAction action, params long[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,6 +195,8 @@ public void SetActionType(GenerateCommonAction action, params long[] ids)
 ```csharp
 public void SetProb(List<float> d1, List<float> d2, List<float> d3)
 ```
+#INC
+
 
 #### Parameters
 

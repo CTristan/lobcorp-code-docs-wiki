@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ButterflyAnim
 public class ButterflyAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [The Funeral of the Dead Butterflies](/api/Global/Misc/Butterfly).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → ButterflyAnim
 
@@ -36,6 +39,8 @@ public ButterflyAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject coffinShadow
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public GameObject coffinShadow
 ```csharp
 private Butterfly script
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,18 +77,24 @@ private Butterfly script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,18 +107,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,18 +138,25 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void EndSkill()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 private void GiveDamage()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -139,6 +167,8 @@ public override bool HasDeadMotion()
 ```csharp
 private bool InDefault()
 ```
+#INC
+
 
 #### Returns
 
@@ -149,12 +179,16 @@ private bool InDefault()
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,12 +201,16 @@ public void OnCalled(int i)
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(Butterfly)
 
 ```csharp
 public void SetScript(Butterfly script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,12 +223,16 @@ public void SetScript(Butterfly script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,21 +245,29 @@ public void SoundMake(string src)
 ```csharp
 public void StartAttack()
 ```
+#INC
+
 
 ### StartShooting()
 
 ```csharp
 private void StartShooting()
 ```
+#INC
+
 
 ### StartSkill()
 
 ```csharp
 public void StartSkill()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

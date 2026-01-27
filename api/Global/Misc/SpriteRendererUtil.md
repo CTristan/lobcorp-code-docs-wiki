@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SpriteRendererUtil
 ```csharp
 public static class SpriteRendererUtil
 ```
+Has a method which changes the alpha of a Unity SpriteRenderer's color.
+
+Used only by [KnightOfDespairSword](/api/Global/Misc/KnightOfDespairSword). #verify 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteRendererUtil
@@ -25,6 +29,9 @@ public static class SpriteRendererUtil
 ```csharp
 public static void SetRendererAlpha(SpriteRenderer renderer, float value)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

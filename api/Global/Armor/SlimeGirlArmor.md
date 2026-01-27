@@ -12,6 +12,16 @@ canonical_path: /api/Global/Armor/SlimeGirlArmor
 public class SlimeGirlArmor : EquipmentScriptBase
 ```
 
+Script for [Melting Love](/api/Global/Misc/SlimeGirl)'s EGO Suit: Adoration.
+
+When the user has the corresponding EGO Gift and is at $\leq$ 20% HP, isn't on cooldown, and takes more than 10 damage:
+- Give them a red shield (100 hp, 3 seconds)
+- Slow them to 30% movements speed for 3 seconds
+- Play a slime noise
+
+Has a 12 second cooldown.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SlimeGirlArmor
 
@@ -33,6 +43,8 @@ public SlimeGirlArmor()
 ```csharp
 private const float BARRIER_COOL_TIME = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +55,8 @@ private const float BARRIER_COOL_TIME = 12
 ```csharp
 private const float BARRIER_TIME = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +67,8 @@ private const float BARRIER_TIME = 3
 ```csharp
 private const float BARRIER_VALUE = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +79,8 @@ private const float BARRIER_VALUE = 100
 ```csharp
 private Timer barrierCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +91,8 @@ private Timer barrierCoolTimer
 ```csharp
 private const float DMG_CONDITION = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +103,8 @@ private const float DMG_CONDITION = 10
 ```csharp
 private const float HP_CONDITION = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +115,8 @@ private const float HP_CONDITION = 0.2
 ```csharp
 private const int SLIME_GIFT_ID = 400063
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +129,8 @@ private const int SLIME_GIFT_ID = 400063
 ```csharp
 private bool CheckCondition(WorkerModel owner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +147,8 @@ private bool CheckCondition(WorkerModel owner)
 ```csharp
 private void GiveBarrier(WorkerModel owner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,12 +161,17 @@ private void GiveBarrier(WorkerModel owner)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, ref DamageInfo)
 
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

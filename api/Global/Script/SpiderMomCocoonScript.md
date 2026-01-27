@@ -12,6 +12,10 @@ canonical_path: /api/Global/Script/SpiderMomCocoonScript
 public class SpiderMomCocoonScript : MonoBehaviour
 ```
 
+Controls [Spider Bud](/api/Global/Misc/SpiderMom)'s cocoons.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpiderMomCocoonScript
 
@@ -33,6 +37,8 @@ public SpiderMomCocoonScript()
 ```csharp
 public Sprite[] agentCocoonSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public SpiderMomCocoonScript.Cocoon[] cocoons
 ```csharp
 private List<int> notActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,8 @@ private List<int> notActivated
 ```csharp
 public int GetCurrentActivated()
 ```
+#INC
+
 
 #### Returns
 
@@ -75,15 +85,22 @@ public int GetCurrentActivated()
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### SendCocoon()
 
 ```csharp
 public void SendCocoon()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

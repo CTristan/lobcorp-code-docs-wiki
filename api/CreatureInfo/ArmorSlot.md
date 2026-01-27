@@ -12,6 +12,34 @@ canonical_path: /api/CreatureInfo/ArmorSlot
 public class ArmorSlot : EquipSlot
 ```
 
+Class for displaying the EGO Suit slot in the abnormality information screen.
+
+
+**Fields:**
+TooltipMouseOver MakeArmorTooltip: Tooltip for making? #INC
+Text GradeText: Class? #INC
+Text TypeText: #INC
+Text RWBP_Defense: RWBP damage multipliers
+Text MakeCount: How many are made out of how many possible? #INC
+WorkerPortraitSetter portrait: presumably, the sprite for displaying the armor
+Button BuildButton: button that makes the EGO
+int Cost: PE box cost for making EGO
+
+CreatureModel currentCreature: presumably, the parent abnormality
+
+
+**Methods:**
+void SetModel([EquipmentModel](/api/Global/Model/EquipmentModel) Model): Pseudo-constructor based on a more generic 'EquipmentModel'? #INC
+
+void SetModel([EquipmentTypeInfo](/api/Global/Info/EquipmentTypeInfo) info): Pseudo-constructor from EquipmentTypeInfo? #INC
+
+void CheckMakeCount(): Grabs and updates current count and max count from [InventoryModel](/api/Global/Model/InventoryModel).
+
+void OnEnter(): Changes the text to display buy message
+
+void OnExit(): Changes the text to display the cost
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipSlot](/api/CreatureInfo/EquipSlot) → ArmorSlot
 
@@ -33,6 +61,8 @@ public ArmorSlot()
 ```csharp
 public Button BuildButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +73,8 @@ public Button BuildButton
 ```csharp
 public int Cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +85,8 @@ public int Cost
 ```csharp
 private string cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +97,8 @@ private string cost
 ```csharp
 public CreatureModel currentCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +109,8 @@ public CreatureModel currentCreature
 ```csharp
 public Text GradeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +121,8 @@ public Text GradeText
 ```csharp
 public TooltipMouseOver MakeArmorTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +133,8 @@ public TooltipMouseOver MakeArmorTooltip
 ```csharp
 public Text MakeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +145,8 @@ public Text MakeCount
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +157,8 @@ public WorkerPortraitSetter portrait
 ```csharp
 public Text[] RWBP_Defense
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +169,8 @@ public Text[] RWBP_Defense
 ```csharp
 public Text[] TypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,24 +195,33 @@ private ArmorModel ArmorModel { get; }
 ```csharp
 public void CheckMakeCount()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetModel(EquipmentModel)
 
 ```csharp
 public override void SetModel(EquipmentModel Model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -177,6 +234,8 @@ public override void SetModel(EquipmentModel Model)
 ```csharp
 public override void SetModel(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 

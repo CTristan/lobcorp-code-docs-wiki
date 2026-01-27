@@ -11,6 +11,10 @@ canonical_path: /api/GeburahBoss/MovementInfo
 ```csharp
 public class MovementInfo
 ```
+Info for a leg of [The Red Mist](/api/Global/Misc/GeburahBossBase)'s [Gold Rush](/api/GeburahBoss/GreedyTelepeort) and [Phase 4 Gold Rush](/api/GeburahBoss/GreedyThrow) attacks.
+
+Contains start and end locations, the current passage #inc, animators for starting and ending, and whether this is the first or last leg #inc.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MovementInfo
@@ -25,6 +29,9 @@ public class MovementInfo
 ```csharp
 public MovementInfo(PassageObjectModel passage)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public MovementInfo(PassageObjectModel passage)
 ```csharp
 public Animator _endAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ public Animator _endAnimator
 ```csharp
 public bool _isInitial
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ public bool _isInitial
 ```csharp
 public bool _isLast
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ public bool _isLast
 ```csharp
 public Animator _startAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ public Animator _startAnimator
 ```csharp
 public UnitDirection direction
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ public UnitDirection direction
 ```csharp
 public MapNode end
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ public MapNode end
 ```csharp
 public PassageObjectModel passage
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +130,8 @@ public PassageObjectModel passage
 ```csharp
 public MapNode start
 ```
+#INC
+
 
 #### Field Value
 

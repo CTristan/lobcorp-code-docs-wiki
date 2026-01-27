@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/SilentGirl
 public class SilentGirl : CreatureBase
 ```
 
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SilentGirl
 

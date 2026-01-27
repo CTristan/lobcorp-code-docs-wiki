@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/DontTouchMe
 public class DontTouchMe : CreatureBase
 ```
 
+Don't Touch Me. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DontTouchMe
 
@@ -33,6 +36,8 @@ public DontTouchMe()
 ```csharp
 private DontTouchMeAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private DontTouchMeAnim _animScript
 ```csharp
 private int _maxWorkCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int _maxWorkCount
 ```csharp
 private const int allocateClickMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const int allocateClickMax = 3
 ```csharp
 private List<MonoBehaviour> allocateFilters
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private List<MonoBehaviour> allocateFilters
 ```csharp
 private string[] deadSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private string[] deadSound
 ```csharp
 private const int dieProb = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const int dieProb = 50
 ```csharp
 private const float exitDelay = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float exitDelay = 4
 ```csharp
 private AutoTimer exitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private AutoTimer exitTimer
 ```csharp
 private const string filterDirectory = "Sprites/CreatureSprite/Isolate/Skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private const string filterDirectory = "Sprites/CreatureSprite/Isolate/Skill"
 ```csharp
 private const float filterTime = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float filterTime = 15
 ```csharp
 private Timer filterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private Timer filterTimer
 ```csharp
 private const string glassSound = "glass"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const string glassSound = "glass"
 ```csharp
 private CreatureAnimScript illusionCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private CreatureAnimScript illusionCreature
 ```csharp
 private long[] illusionCreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private long[] illusionCreatureList
 ```csharp
 private const int illusionProb = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const int illusionProb = 50
 ```csharp
 private const float illusionTime = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private const float illusionTime = 15
 ```csharp
 private Timer illusionTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private Timer illusionTimer
 ```csharp
 private Queue<float> isolateClicked
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private Queue<float> isolateClicked
 ```csharp
 private const int isolateClickMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const int isolateClickMax = 5
 ```csharp
 private const string offSound = "off"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const string offSound = "off"
 ```csharp
 private const string panicSound = "panic"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private const string panicSound = "panic"
 ```csharp
 private const string qliphothDownSound = "moodDown"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const string qliphothDownSound = "moodDown"
 ```csharp
 private List<Sprite> randomFilterList
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private List<Sprite> randomFilterList
 ```csharp
 private const string shoutSound = "shout"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const string shoutSound = "shout"
 ```csharp
 private const float skillCoolTime = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private const float skillCoolTime = 50
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private Timer skillCoolTimer
 ```csharp
 private Sprite[] touchKillSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private Sprite[] touchKillSprites
 ```csharp
 private Sprite[] touchWarningSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +386,8 @@ public DontTouchMeAnim animScript { get; }
 ```csharp
 private bool AddExitClickCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -337,24 +398,32 @@ private bool AddExitClickCount()
 ```csharp
 private void ClickOnAllocate()
 ```
+#INC
+
 
 ### ExitGame()
 
 ```csharp
 private void ExitGame()
 ```
+#INC
+
 
 ### ExitStart()
 
 ```csharp
 private void ExitStart()
 ```
+#INC
+
 
 ### GetMaxWorkCountView()
 
 ```csharp
 public override int GetMaxWorkCountView()
 ```
+#INC
+
 
 #### Returns
 
@@ -365,30 +434,40 @@ public override int GetMaxWorkCountView()
 ```csharp
 private void HideRandomFilter()
 ```
+#INC
+
 
 ### KillAllWorker()
 
 ```csharp
 private void KillAllWorker()
 ```
+#INC
+
 
 ### KillAllWorkerStart()
 
 ```csharp
 private void KillAllWorkerStart()
 ```
+#INC
+
 
 ### MakeIllusion()
 
 ```csharp
 private void MakeIllusion()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,12 +480,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnOpenCollectionWindow()
 
 ```csharp
 public override bool OnOpenCollectionWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -417,6 +501,8 @@ public override bool OnOpenCollectionWindow()
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -427,18 +513,24 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -451,27 +543,37 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void PanicAllWorker()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### RemoveIllusion()
 
 ```csharp
 private void RemoveIllusion()
 ```
+#INC
+
 
 ### SetAllQliphothCounter()
 
 ```csharp
 private void SetAllQliphothCounter()
 ```
+#INC
+
 
 ### ShowRandomFilter()
 
 ```csharp
 private void ShowRandomFilter()
 ```
+#INC
+

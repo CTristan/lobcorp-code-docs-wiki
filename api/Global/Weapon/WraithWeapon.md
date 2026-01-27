@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/WraithWeapon
 public class WraithWeapon : EquipmentScriptBase
 ```
 
+Script for [Dimensional Refraction Variant](/api/Global/Misc/Wraith)'s EGO Weapon: Diffraction.
+
+Randomly chooses to use one of two sounds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → WraithWeapon
 

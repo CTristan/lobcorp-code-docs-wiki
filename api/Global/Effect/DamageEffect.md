@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/DamageEffect
 public class DamageEffect : EffectInvoker
 ```
 
+Damage effect (modified) by Yesod's upgrade, displaying damage type and damage.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [EffectInvoker](/api/Global/Effect/EffectInvoker) → DamageEffect
 
@@ -33,6 +36,8 @@ public DamageEffect()
 ```csharp
 private static Vector2 BPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static Vector2 BPos
 ```csharp
 public Text DamageContext
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Text DamageContext
 ```csharp
 public Text DamageCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Text DamageCount
 ```csharp
 public Outline DamageCountOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Outline DamageCountOutline
 ```csharp
 public Sprite[] DamageFontTexture
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Sprite[] DamageFontTexture
 ```csharp
 public Sprite[] DamageIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public Sprite[] DamageIcon
 ```csharp
 public Sprite[] DamageIconOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public Sprite[] DamageIconOut
 ```csharp
 public Sprite[] DamageTextImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Sprite[] DamageTextImage
 ```csharp
 private static Vector2 DefaultPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private static Vector2 DefaultPos
 ```csharp
 public Image DefenseTypeInner
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public Image DefenseTypeInner
 ```csharp
 public Image DefenseTypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public Image DefenseTypeText
 ```csharp
 public Image Fill
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public Image Fill
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public Image Frame
 ```csharp
 public Image Icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public Image Icon
 ```csharp
 public Image IconOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public Image IconOut
 ```csharp
 private static Vector2 PPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private static Vector2 PPos
 ```csharp
 private static Vector2 RPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private static Vector2 RPos
 ```csharp
 public float Speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ public float Speed
 ```csharp
 private static Vector2 WPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private static Vector2 WPos
 ```csharp
 private const float xMax = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const float xMax = 0.5
 ```csharp
 private const float xMin = -0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +302,8 @@ private float randXPos { get; }
 ```csharp
 public static DamageEffect Invoker(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +320,8 @@ public static DamageEffect Invoker(MovableObjectNode mov)
 ```csharp
 public static DamageEffect Invoker(MovableObjectNode mov, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -290,6 +339,8 @@ public static DamageEffect Invoker(MovableObjectNode mov, float time)
 ```csharp
 public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Damage, string context)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,6 +360,8 @@ public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Dam
 ```csharp
 public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Damage, string context, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -329,6 +382,8 @@ public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Dam
 ```csharp
 public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Damage, DefenseInfo.Type defense, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,6 +404,8 @@ public static DamageEffect Invoker(MovableObjectNode mov, RwbpType type, int Dam
 ```csharp
 public static DamageEffect Invoker(Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +422,8 @@ public static DamageEffect Invoker(Vector3 pos)
 ```csharp
 public static DamageEffect Invoker(Vector3 pos, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,6 +441,8 @@ public static DamageEffect Invoker(Vector3 pos, float time)
 ```csharp
 public static DamageEffect Invoker(Vector3 pos, RwbpType type, int Damage, DefenseInfo.Type defense, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -402,6 +463,8 @@ public static DamageEffect Invoker(Vector3 pos, RwbpType type, int Damage, Defen
 ```csharp
 private void PositionSet(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -414,6 +477,8 @@ private void PositionSet(RwbpType type)
 ```csharp
 private void SetData(RwbpType type, int damage, string context)
 ```
+#INC
+
 
 #### Parameters
 
@@ -428,6 +493,8 @@ private void SetData(RwbpType type, int damage, string context)
 ```csharp
 private void SetData(RwbpType type, int damage, DefenseInfo.Type defense, UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,3 +510,6 @@ private void SetData(RwbpType type, int damage, DefenseInfo.Type defense, UnitMo
 ```csharp
 protected override void Update()
 ```
+#INC
+#code-generated
+

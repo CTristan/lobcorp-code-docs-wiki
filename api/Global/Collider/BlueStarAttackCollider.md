@@ -36,6 +36,8 @@ public BlueStarAttackCollider()
 ```csharp
 public BlueStar _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +50,8 @@ public BlueStar _script
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -60,6 +64,9 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

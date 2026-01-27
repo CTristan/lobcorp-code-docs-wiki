@@ -12,6 +12,13 @@ canonical_path: /api/Global/Creature/EventCreatureModel
 public class EventCreatureModel : CreatureModel, IObserver, ISerializablePlayData, IMouseCommandTargetModel
 ```
 
+Represents a creature spawned by an event.
+
+... Which is to say, by [Apocalypse Bird](/api/Global/Misc/BossBird).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → [CreatureModel](/api/Global/Model/CreatureModel) → EventCreatureModel
 
@@ -28,6 +35,8 @@ public class EventCreatureModel : CreatureModel, IObserver, ISerializablePlayDat
 ```csharp
 public EventCreatureModel(long instanceId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +51,8 @@ public EventCreatureModel(long instanceId)
 ```csharp
 private EventBase _eventBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,12 +77,17 @@ public EventBase eventBase { get; private set; }
 ```csharp
 public override void Escape()
 ```
+#INC
+#code-generated
+
 
 ### IsHostile(UnitModel)
 
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -88,30 +104,40 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public void OnDestroy()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### SetEventBase(EventBase)
 
 ```csharp
 public void SetEventBase(EventBase _event)
 ```
+#INC
+
 
 #### Parameters
 

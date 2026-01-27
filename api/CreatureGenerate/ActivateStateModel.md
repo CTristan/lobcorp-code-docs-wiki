@@ -11,6 +11,10 @@ canonical_path: /api/CreatureGenerate/ActivateStateModel
 ```csharp
 public class ActivateStateModel
 ```
+Stores the state of an abnormality for extraction (risk level, id, if it exists in the facility, if it has been removed (?), and if it's a tool abnormality).
+
+See [ActivateStateList](/api/CreatureGenerate/ActivateStateList)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ActivateStateModel
@@ -33,6 +37,8 @@ public ActivateStateModel()
 ```csharp
 public long id
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public long id
 ```csharp
 public bool isKit
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public bool isKit
 ```csharp
 public bool isRemoved
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public bool isRemoved
 ```csharp
 public bool isUsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,9 @@ public bool isUsed
 ```csharp
 public RiskLevel riskLevel
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

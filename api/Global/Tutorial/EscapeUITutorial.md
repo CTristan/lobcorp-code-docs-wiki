@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/EscapeUITutorial
 public class EscapeUITutorial : Tutorial
 ```
 
+Tutorial that ends when retry is clicked?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EscapeUITutorial
 
@@ -33,6 +38,8 @@ public EscapeUITutorial()
 ```csharp
 public float blockTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,15 +52,22 @@ public float blockTime
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

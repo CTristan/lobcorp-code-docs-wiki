@@ -11,6 +11,35 @@ canonical_path: /api/Global/Loader/GameStaticDataLoader
 ```csharp
 public class GameStaticDataLoader
 ```
+Loads a bunch of external static data, such as:
+
+- [Font](/api/Global/Loader/ExternalFontDataLoader)
+- [Localized text](/api/Global/Loader/LocalizeTextDataLoader)
+- [Story data](/api/Global/Loader/StoryDataLoader)
+- [Equipment data](/api/Global/Loader/EquipmentDataLoader)
+- [Agent titles](/api/Global/Loader/AgentTitleDataLoader)
+- [Missions](/api/Global/List/MissionTypeList)
+- [Skill data](/api/Global/List/SkillTypeList) #INC 
+- [Abnormality data](/api/Global/Loader/CreatureDataLoader)
+- [Rabbit data](/api/Global/Loader/RabbitDataLoader)
+- Lyrics (see [AgentLyrics](/api/Global/Misc/AgentLyrics), [CreatureLyrics](/api/Global/Misc/CreatureLyrics))
+- [Research data](/api/Global/List/ResearchItemTypeList)
+- [Sefira yapping](/api/Global/Misc/Conversation)
+- [Angela yapping](/api/Global/Misc/AngelaConversation)
+- [Clerk special actions](/api/Global/List/OfficerSpecialActionList) #inc
+- [Agent names](/api/Global/List/AgentNameList)
+- [Stage reward info](/api/Global/List/StageRewardTypeList)
+- Containment unit locations? See [SefiraManager](/api/Global/IOBserver/SefiraManager) #INC 
+- [Sprites](/api/Global/Misc/SpriteLoadManager)
+- [Panic Data](/api/Global/List/PanicDataList) #inc
+- [Hierarchical data](/api/Global/Misc/HierarchicalDataManager) #INC 
+- [Faction](/api/Global/List/FactionTypeList) membership
+- [Item objects](/api/Global/Misc/ItemObjectManager) (unused)
+- [Random events](/api/Global/IOBserver/RandomEventManager) (unused)
+- [Worker Spine data](/api/WorkerSpine/WorkerSpineAnimatorManager)
+
+#inc (double check that these don't need to be linked to more loaders)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GameStaticDataLoader
@@ -43,6 +72,8 @@ private static Comparison<CreditItem> __mg_cache0
 ```csharp
 private static string currentLn
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +86,8 @@ private static string currentLn
 ```csharp
 private AngelaMessage[] GetAngelaMessage(XmlNode root)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,6 +104,8 @@ private AngelaMessage[] GetAngelaMessage(XmlNode root)
 ```csharp
 private bool GetBooleanData(string b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +122,8 @@ private bool GetBooleanData(string b)
 ```csharp
 private LyricType GetLyricType(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +140,8 @@ private LyricType GetLyricType(int type)
 ```csharp
 private LOOKINGDIR GetOfficerLookingDir(string dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,12 +158,16 @@ private LOOKINGDIR GetOfficerLookingDir(string dir)
 ```csharp
 public void LoadAgentNameData()
 ```
+#INC
+
 
 ### LoadAgentNameInfoXml(string, bool)
 
 ```csharp
 private List<AgentNameTypeInfo> LoadAgentNameInfoXml(string xml, bool isExternal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +185,8 @@ private List<AgentNameTypeInfo> LoadAgentNameInfoXml(string xml, bool isExternal
 ```csharp
 private List<AgentName> LoadAgentNameXml(string xml, bool isExternal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,36 +204,48 @@ private List<AgentName> LoadAgentNameXml(string xml, bool isExternal)
 ```csharp
 public void LoadAngelaDescData()
 ```
+#INC
+
 
 ### LoadCreditData()
 
 ```csharp
 public static void LoadCreditData()
 ```
+#INC
+
 
 ### LoadFactionData()
 
 ```csharp
 public void LoadFactionData()
 ```
+#INC
+
 
 ### LoadHierarchicalData()
 
 ```csharp
 public void LoadHierarchicalData()
 ```
+#INC
+
 
 ### LoadItemObjectData()
 
 ```csharp
 private void LoadItemObjectData()
 ```
+#INC
+
 
 ### LoadLyricData()
 
 ```csharp
 public void LoadLyricData()
 ```
+#INC
+
 
 ### LoadModIsolate(Dictionary<string, XmlNode>)
 
@@ -233,30 +290,40 @@ public void LoadModIsolate_Replace(Dictionary<string, XmlNode> nodeRoot, XmlDocu
 ```csharp
 public void LoadNewLyricData()
 ```
+#INC
+
 
 ### LoadOfficerActionList()
 
 ```csharp
 private void LoadOfficerActionList()
 ```
+#INC
+
 
 ### LoadPanicData()
 
 ```csharp
 public void LoadPanicData()
 ```
+#INC
+
 
 ### LoadRandomEventInfo()
 
 ```csharp
 public void LoadRandomEventInfo()
 ```
+#INC
+
 
 ### LoadResearchDescData(List<ResearchItemTypeInfo>)
 
 ```csharp
 public void LoadResearchDescData(List<ResearchItemTypeInfo> research)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,54 +336,73 @@ public void LoadResearchDescData(List<ResearchItemTypeInfo> research)
 ```csharp
 public void LoadResearchItemData()
 ```
+#INC
+
 
 ### LoadSefiraDescData()
 
 ```csharp
 public void LoadSefiraDescData()
 ```
+#INC
+
 
 ### LoadSefiraIsolateData()
 
 ```csharp
 public void LoadSefiraIsolateData()
 ```
+#INC
+
 
 ### LoadSKillData()
 
 ```csharp
 public void LoadSKillData()
 ```
+#INC
+
 
 ### LoadSpriteLoadingData()
 
 ```csharp
 private void LoadSpriteLoadingData()
 ```
+#INC
+
 
 ### LoadStageRewardData()
 
 ```csharp
 public void LoadStageRewardData()
 ```
+#INC
+
 
 ### LoadStaticData()
 
 ```csharp
 public static void LoadStaticData()
 ```
+#INC
+#code-generated
+
 
 ### LoadTutorialData()
 
 ```csharp
 public void LoadTutorialData()
 ```
+#INC
+
 
 ### LoadTutorialNode(XmlNodeList, string)
 
 ```csharp
 private TutorialNode[] LoadTutorialNode(XmlNodeList list, string rootSrc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -334,6 +420,8 @@ private TutorialNode[] LoadTutorialNode(XmlNodeList list, string rootSrc)
 ```csharp
 private List<UniqueCreditAgentInfo> LoadUniqueCreditInfo(string xml)
 ```
+#INC
+
 
 #### Parameters
 
@@ -350,9 +438,13 @@ private List<UniqueCreditAgentInfo> LoadUniqueCreditInfo(string xml)
 ```csharp
 public void LoadWorkerSpineData()
 ```
+#INC
+
 
 ### ReloadData()
 
 ```csharp
 public static void ReloadData()
 ```
+#INC
+

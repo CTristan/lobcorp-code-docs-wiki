@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/EventGenInfo
 ```csharp
 public class EventGenInfo
 ```
+Information about which events can be generated.
+
+[Apocalypse Bird](/api/Global/Misc/BossBird) is banned from showing up until after day 20.
+
+See [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EventGenInfo
@@ -33,6 +39,8 @@ public EventGenInfo()
 ```csharp
 private const int _bossBirdAdditionDay = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +53,9 @@ private const int _bossBirdAdditionDay = 20
 ```csharp
 public static List<EventBase> GenerateEvents(int day)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

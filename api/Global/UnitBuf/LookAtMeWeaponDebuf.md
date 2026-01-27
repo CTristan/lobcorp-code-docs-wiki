@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/LookAtMeWeaponDebuf
 public class LookAtMeWeaponDebuf : UnitBuf
 ```
 
+Debuff for [Gaze](/api/Global/Weapon/LookAtMeWeapon).
+
+Applies 2 red damage every second for five seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → LookAtMeWeaponDebuf
 
@@ -25,6 +30,8 @@ public class LookAtMeWeaponDebuf : UnitBuf
 ```csharp
 public LookAtMeWeaponDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public LookAtMeWeaponDebuf()
 ```csharp
 private const float _dmg = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _dmg = 2
 ```csharp
 private RwbpType _dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private RwbpType _dmgType
 ```csharp
 private const float _remain = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const float _remain = 5
 ```csharp
 private const float _tickTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private const float _tickTime = 1
 ```csharp
 private Timer tickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,12 +102,17 @@ private Timer tickTimer
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -103,3 +125,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

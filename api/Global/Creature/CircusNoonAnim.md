@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CircusNoonAnim
 public class CircusNoonAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Harmony of Skin](/api/Global/Misc/CircusNoon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CircusNoonAnim
 
@@ -36,6 +39,8 @@ public CircusNoonAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject bleed
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public GameObject bleed
 ```csharp
 private CircusNoon script
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,24 +77,32 @@ private CircusNoon script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### GetAttackType()
 
 ```csharp
 public int GetAttackType()
 ```
+#INC
+
 
 #### Returns
 
@@ -96,6 +113,9 @@ public int GetAttackType()
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -106,6 +126,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -116,6 +138,8 @@ public bool IsAttacking()
 ```csharp
 public void OnAttack(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,6 +152,8 @@ public void OnAttack(int i)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,30 +166,40 @@ public override void OnCalled(int i)
 ```csharp
 private void OnDie()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(CircusNoon)
 
 ```csharp
 public void SetScript(CircusNoon script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,9 +212,13 @@ public void SetScript(CircusNoon script)
 ```csharp
 private void SkillDamage()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerEquipmentSpriteController
 public class WorkerEquipmentSpriteController : WorkerSpriteData
 ```
 
+Associates each region for equipment to a sprite, and provides a getter
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerSpriteData](/api/WorkerSprite/WorkerSpriteData) → WorkerEquipmentSpriteController
 
@@ -33,6 +36,8 @@ public WorkerEquipmentSpriteController()
 ```csharp
 private SpriteRegionType _regionType
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private SpriteRegionType _regionType
 ```csharp
 public Dictionary<EquipmentSpriteRegion, WorkerEquipmentSprite> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Dictionary<EquipmentSpriteRegion, WorkerEquipmentSprite> lib
 ```csharp
 public List<WorkerEquipmentSprite> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +86,8 @@ public override SpriteRegionType RegionType { get; }
 ```csharp
 public bool GetData(EquipmentSpriteRegion region, out WorkerEquipmentSprite output)
 ```
+#INC
+
 
 #### Parameters
 

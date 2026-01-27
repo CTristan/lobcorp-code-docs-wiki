@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/StoryChallengeModeUI
 public class StoryChallengeModeUI : MonoBehaviour
 ```
 
+Starts unlimited mode, maybe, but I don't think this is used...
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryChallengeModeUI
 
@@ -33,21 +38,30 @@ public StoryChallengeModeUI()
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnClickChallengeNo()
 
 ```csharp
 public void OnClickChallengeNo()
 ```
+#INC
+
 
 ### OnClickChallengeYes()
 
 ```csharp
 public void OnClickChallengeYes()
 ```
+#INC
+
 
 ### OpenChallengeMode()
 
 ```csharp
 public void OpenChallengeMode()
 ```
+#INC
+

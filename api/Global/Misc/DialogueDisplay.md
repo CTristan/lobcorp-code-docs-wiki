@@ -38,6 +38,8 @@ public DialogueDisplay()
 ```csharp
 private bool _blinkState
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +50,8 @@ private bool _blinkState
 ```csharp
 private int _charIdx
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +62,8 @@ private int _charIdx
 ```csharp
 private readonly string[] _delimeters
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +84,8 @@ private List<DialogueDisplay.Dialogue> _dialogue
 ```csharp
 private GameObject _nextGuide
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +96,8 @@ private GameObject _nextGuide
 ```csharp
 private Animator _nextGuideAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +108,8 @@ private Animator _nextGuideAnim
 ```csharp
 private RectTransform _nextGuideRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +120,8 @@ private RectTransform _nextGuideRect
 ```csharp
 private bool _nowProcessing
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +132,8 @@ private bool _nowProcessing
 ```csharp
 private bool _pause
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,6 +144,8 @@ private bool _pause
 ```csharp
 private int _sentenceIdx
 ```
+#INC
+
 
 #### Field Value
 
@@ -138,6 +156,8 @@ private int _sentenceIdx
 ```csharp
 private readonly string _tempDelimeters
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +168,8 @@ private readonly string _tempDelimeters
 ```csharp
 private Text _textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +180,8 @@ private Text _textUI
 ```csharp
 private float _textWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -168,6 +192,8 @@ private float _textWidth
 ```csharp
 private float _timeWait
 ```
+#INC
+
 
 #### Field Value
 
@@ -192,18 +218,24 @@ public bool nowProcessing { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### IsEnglish(char)
 
 ```csharp
 private bool IsEnglish(char c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,6 +252,9 @@ private bool IsEnglish(char c)
 ```csharp
 public bool OnClick()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -230,6 +265,8 @@ public bool OnClick()
 ```csharp
 public void OnOffBlink(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,6 +279,8 @@ public void OnOffBlink(bool state)
 ```csharp
 private IEnumerator ProcessText(float waitTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +297,8 @@ private IEnumerator ProcessText(float waitTime)
 ```csharp
 public void SetText(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,9 +311,13 @@ public void SetText(string str)
 ```csharp
 public void StopBlink()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

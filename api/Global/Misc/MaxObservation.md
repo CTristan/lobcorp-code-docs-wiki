@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/MaxObservation
 public class MaxObservation : MonoBehaviour
 ```
 
+UI for a legacy 'Final Observation' mechanic that never reached the main game.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MaxObservation
 
@@ -33,6 +36,8 @@ public MaxObservation()
 ```csharp
 private static MaxObservation _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static MaxObservation _instance
 ```csharp
 private CreatureMaxObserve _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private CreatureMaxObserve _module
 ```csharp
 private CreatureMaxObserve.Select _select
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private CreatureMaxObserve.Select _select
 ```csharp
 public GameObject arrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public GameObject arrow
 ```csharp
 public GameObject CheckSection
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public GameObject CheckSection
 ```csharp
 public float clickDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public float clickDelay
 ```csharp
 private UnscaledTimer clickDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private UnscaledTimer clickDelayTimer
 ```csharp
 public Text CreatureIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Text CreatureIndex
 ```csharp
 public Text CreatureSerialNumber
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public Text CreatureSerialNumber
 ```csharp
 private int currentDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private int currentDesc
 ```csharp
 public CreatureModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public CreatureModel currentTarget
 ```csharp
 public Text CurrentTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public Text CurrentTime
 ```csharp
 private List<string> descList
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private List<string> descList
 ```csharp
 private int descMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private int descMax
 ```csharp
 public Text descTextBox
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public Text descTextBox
 ```csharp
 private bool endAsFail
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private bool endAsFail
 ```csharp
 private bool endConversation
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private bool endConversation
 ```csharp
 public bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ public bool isEnabled
 ```csharp
 private CreatureMaxObserve.Desc lastSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private CreatureMaxObserve.Desc lastSelected
 ```csharp
 public GameObject NoiseArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ public GameObject NoiseArea
 ```csharp
 public Color nonOverlayedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ public Color nonOverlayedColor
 ```csharp
 public Color normalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ public Color normalColor
 ```csharp
 public Color overlayColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ public Color overlayColor
 ```csharp
 public Color overlayedHideColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ public Color overlayedHideColor
 ```csharp
 public Text[] OverlayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ public Text[] OverlayText
 ```csharp
 public GameObject pauseUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ public GameObject pauseUI
 ```csharp
 public GameObject ProcessSetion
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ public GameObject ProcessSetion
 ```csharp
 public GameObject Root
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +372,8 @@ public GameObject Root
 ```csharp
 private float saveOrtho
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +384,8 @@ private float saveOrtho
 ```csharp
 public List<Text> selectBox
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +396,8 @@ public List<Text> selectBox
 ```csharp
 private bool selectEnable
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +408,8 @@ private bool selectEnable
 ```csharp
 private int selectIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +420,8 @@ private int selectIndex
 ```csharp
 public Image[] SelectOverlay
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +432,8 @@ public Image[] SelectOverlay
 ```csharp
 private bool shortConversation
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +444,8 @@ private bool shortConversation
 ```csharp
 private bool timeDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -437,12 +510,17 @@ private CreatureMaxObserve.Select select { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeDesc(int)
 
 ```csharp
 public void ChangeDesc(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,54 +533,72 @@ public void ChangeDesc(int id)
 ```csharp
 private void CloseCheckOverlay()
 ```
+#INC
+
 
 ### CloseSelectOverlay()
 
 ```csharp
 private void CloseSelectOverlay()
 ```
+#INC
+
 
 ### ObserveFail()
 
 ```csharp
 private void ObserveFail()
 ```
+#INC
+
 
 ### ObserveSuccess()
 
 ```csharp
 private void ObserveSuccess()
 ```
+#INC
+
 
 ### OnCameraMoveEnd()
 
 ```csharp
 public void OnCameraMoveEnd()
 ```
+#INC
+
 
 ### OnCheck()
 
 ```csharp
 public void OnCheck()
 ```
+#INC
+
 
 ### OnCheckClose()
 
 ```csharp
 public void OnCheckClose()
 ```
+#INC
+
 
 ### OnCheckNo()
 
 ```csharp
 public void OnCheckNo()
 ```
+#INC
+
 
 ### OnCheckOverlayEnter(int)
 
 ```csharp
 public void OnCheckOverlayEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -515,6 +611,8 @@ public void OnCheckOverlayEnter(int index)
 ```csharp
 public void OnCheckOverlayExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -527,30 +625,40 @@ public void OnCheckOverlayExit(int index)
 ```csharp
 public void OnCheckYes()
 ```
+#INC
+
 
 ### OnClose()
 
 ```csharp
 public void OnClose()
 ```
+#INC
+
 
 ### OnObserveEnd()
 
 ```csharp
 private void OnObserveEnd()
 ```
+#INC
+
 
 ### OnProcessStart()
 
 ```csharp
 public void OnProcessStart()
 ```
+#INC
+
 
 ### OnSelectOverlayEnter(int)
 
 ```csharp
 public void OnSelectOverlayEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -563,6 +671,8 @@ public void OnSelectOverlayEnter(int index)
 ```csharp
 public void OnSelectOverlayExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -575,24 +685,32 @@ public void OnSelectOverlayExit(int index)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### ProcessDesc()
 
 ```csharp
 public void ProcessDesc()
 ```
+#INC
+
 
 ### ProcessSelect()
 
 ```csharp
 private void ProcessSelect()
 ```
+#INC
+
 
 ### Select(int)
 
 ```csharp
 public void Select(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -605,6 +723,8 @@ public void Select(int index)
 ```csharp
 private void SelectSetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -617,12 +737,16 @@ private void SelectSetActive(bool state)
 ```csharp
 public void SetColorAsDef()
 ```
+#INC
+
 
 ### StartObservation(CreatureModel)
 
 ```csharp
 public void StartObservation(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -635,3 +759,5 @@ public void StartObservation(CreatureModel model)
 ```csharp
 public void Update()
 ```
+#INC
+

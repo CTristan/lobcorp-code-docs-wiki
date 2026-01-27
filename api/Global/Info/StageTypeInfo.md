@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/StageTypeInfo
 ```csharp
 public class StageTypeInfo
 ```
+Stores information about this work day, including the energy value needed.
+
+Also stores how many agents can be allocated to a department of with a certain opened level... #verify 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StageTypeInfo
@@ -33,6 +37,8 @@ public StageTypeInfo()
 ```csharp
 private static StageTypeInfo _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static StageTypeInfo _instance
 ```csharp
 public int[] allocateAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public int[] allocateAgent
 ```csharp
 public int[] energyVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public int[] energyVal
 ```csharp
 public int goal
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public int goal
 ```csharp
 public int[] stageTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +111,8 @@ public static StageTypeInfo instnace { get; }
 ```csharp
 public int EndRank(int day, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,6 +130,9 @@ public int EndRank(int day, float time)
 ```csharp
 public float GetEnergyNeed(int day)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -130,6 +149,8 @@ public float GetEnergyNeed(int day)
 ```csharp
 private float GetEnergyNeedInUnlimitMode(int day)
 ```
+#INC
+
 
 #### Parameters
 

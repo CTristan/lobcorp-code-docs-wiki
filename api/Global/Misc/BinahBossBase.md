@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BinahBossBase
 public class BinahBossBase : SefiraBossBase
 ```
 
+extends [SefiraBossBase](/api/Global/Misc/SefiraBossBase)
+
+Binah's core suppression(s).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → BinahBossBase
 
@@ -25,6 +30,8 @@ public class BinahBossBase : SefiraBossBase
 ```csharp
 public BinahBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public BinahBossBase()
 ```csharp
 private bool _blizzard
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private bool _blizzard
 ```csharp
 private UnscaledTimer _blizzardTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private UnscaledTimer _blizzardTimer
 ```csharp
 private Timer _delayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +136,8 @@ private static BinahBossBase.MovieValue _endMovie
 ```csharp
 private UnscaledTimer _filterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +148,8 @@ private UnscaledTimer _filterTimer
 ```csharp
 private bool _isInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +160,8 @@ private bool _isInit
 ```csharp
 private bool _movie
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +172,8 @@ private bool _movie
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +204,8 @@ private static BinahBossBase.MovieValue _startMovie
 ```csharp
 private const string animSrc = "BinahCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +216,8 @@ private const string animSrc = "BinahCoreAnim"
 ```csharp
 private const string bgm1 = "Binah/1_Jukai"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +228,8 @@ private const string bgm1 = "Binah/1_Jukai"
 ```csharp
 private const string bgm2 = "Binah/2_Haunted Streets_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +240,8 @@ private const string bgm2 = "Binah/2_Haunted Streets_1"
 ```csharp
 private const string binahBase = "BinahCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +252,8 @@ private const string binahBase = "BinahCoreScript"
 ```csharp
 private CameraFilterPack_Blizzard blizzard
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +264,8 @@ private CameraFilterPack_Blizzard blizzard
 ```csharp
 private float blizzardTransTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +276,8 @@ private float blizzardTransTime
 ```csharp
 private float FilterTransTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +288,8 @@ private float FilterTransTime
 ```csharp
 private const long metaId = 400002
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +300,8 @@ private const long metaId = 400002
 ```csharp
 public SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +312,8 @@ public SefiraBossCreatureModel model
 ```csharp
 private CameraFilterPack_TV_Old_Movie_2 movie
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +324,8 @@ private CameraFilterPack_TV_Old_Movie_2 movie
 ```csharp
 private const string startNode = "sefira-binah-5"
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +336,8 @@ private const string startNode = "sefira-binah-5"
 ```csharp
 private static int[] textIds
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +348,8 @@ private static int[] textIds
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +374,8 @@ public BinahCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetDescType(float)
 
@@ -349,12 +398,16 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public void InitModel()
 ```
+#INC
+
 
 ### IsCleared()
 
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -365,6 +418,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -375,30 +430,41 @@ public override bool IsReadyToClose()
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### StartBlizzardEffect()
 
 ```csharp
 public void StartBlizzardEffect()
 ```
+#INC
+
 
 ### StartBlizzardEffect(BlizzardEffect)
 
@@ -417,15 +483,21 @@ public void StartBlizzardEffect(BinahBossBase.BlizzardEffect type)
 ```csharp
 private void StartCameraMoveEndFirst()
 ```
+#INC
+
 
 ### StartMovieEffect()
 
 ```csharp
 public void StartMovieEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

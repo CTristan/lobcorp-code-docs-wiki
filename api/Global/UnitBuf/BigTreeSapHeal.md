@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BigTreeSapHeal
 public class BigTreeSapHeal : UnitBuf
 ```
 
+Buff which heals agents when drinking from [Giant Tree Sap](/api/Global/Misc/BigTreeSap).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BigTreeSapHeal
 
@@ -25,6 +28,8 @@ public class BigTreeSapHeal : UnitBuf
 ```csharp
 public BigTreeSapHeal(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public BigTreeSapHeal(WorkerModel worker)
 ```csharp
 private const float _healTickValueMax = 11
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private const float _healTickValueMax = 11
 ```csharp
 private const float _healTickValueMin = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private const float _healTickValueMin = 9
 ```csharp
 private const float _remainTime = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private const float _remainTime = 60
 ```csharp
 private const float healTickTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private const float healTickTime = 1
 ```csharp
 private Timer healTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private Timer healTickTimer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,18 +130,25 @@ private static float healTickValue { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

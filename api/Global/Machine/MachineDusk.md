@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineDusk
 public class MachineDusk : MachineOrdealCreature
 ```
 
+[Green Dusk](/api/Global/Machine/MachineDuskOrdeal) creature.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [MachineOrdealCreature](/api/Global/Creature/MachineOrdealCreature) → MachineDusk
 
@@ -33,6 +38,8 @@ public MachineDusk()
 ```csharp
 private MachineDuskAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private MachineDuskAnim _animScript
 ```csharp
 private const float _createCoolTimeMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _createCoolTimeMax = 45
 ```csharp
 private const float _createCoolTimeMIn = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _createCoolTimeMIn = 60
 ```csharp
 private const float _createInitCoolTimeMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _createInitCoolTimeMax = 12
 ```csharp
 private const float _createInitCoolTimeMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _createInitCoolTimeMin = 6
 ```csharp
 private bool _isAvailable
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private bool _isAvailable
 ```csharp
 private const float _radius = 1.75
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _radius = 1.75
 ```csharp
 private const int _spawnDawnProb = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const int _spawnDawnProb = 50
 ```csharp
 private Timer spawnCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer spawnCoolTimer
 ```csharp
 private int spawnNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +202,8 @@ public bool IsAvailable { get; set; }
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,6 +221,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public void CreateStart(int spawnNum)
 ```
+#INC
+
 
 #### Parameters
 
@@ -206,6 +235,8 @@ public void CreateStart(int spawnNum)
 ```csharp
 public override float GetRadius()
 ```
+#INC
+
 
 #### Returns
 
@@ -216,6 +247,8 @@ public override float GetRadius()
 ```csharp
 private bool IsSpawning()
 ```
+#INC
+
 
 #### Returns
 
@@ -226,6 +259,8 @@ private bool IsSpawning()
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -236,6 +271,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -248,24 +285,33 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSpawn()
 ```
+#INC
+
 
 ### OnSpawnEnd()
 
 ```csharp
 public void OnSpawnEnd()
 ```
+#INC
+
 
 ### OnSpawnStart()
 
 ```csharp
 public void OnSpawnStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

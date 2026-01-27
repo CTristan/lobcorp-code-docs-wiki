@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effect/ExplodeGutEffect
 ```csharp
 public class ExplodeGutEffect : MonoBehaviour
 ```
+Effect for exploding into guts, like by [Scorched Girl](/api/Global/Misc/MatchGirl) or [Crimson Dawn](/api/Global/Misc/CircusDawn).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ExplodeGutEffect
@@ -33,6 +35,8 @@ public ExplodeGutEffect()
 ```csharp
 private PassageObjectModel _currentPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private PassageObjectModel _currentPassage
 ```csharp
 public const string arrivedPosPrefabSrc = "Effect/GutObject"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public const string arrivedPosPrefabSrc = "Effect/GutObject"
 ```csharp
 public static Vector3 centralControllerRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public static Vector3 centralControllerRotation
 ```csharp
 public bool CheckVerticalRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public bool CheckVerticalRange
 ```csharp
 public Gradient colorOverLifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Gradient colorOverLifetime
 ```csharp
 public UnitDirection currentDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +148,8 @@ public ExplodeGutEffect.Directional directionalType
 ```csharp
 public float forceFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +160,8 @@ public float forceFactor
 ```csharp
 public const float forceFactorDefault = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +194,8 @@ public float gravityFactor
 ```csharp
 public float ground
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +206,8 @@ public float ground
 ```csharp
 public int indexInList
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +218,8 @@ public int indexInList
 ```csharp
 public bool isUsing
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +230,8 @@ public bool isUsing
 ```csharp
 public float lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +242,8 @@ public float lifeTime
 ```csharp
 public bool makeTrace
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +254,8 @@ public bool makeTrace
 ```csharp
 private float minClickDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +266,8 @@ private float minClickDelay
 ```csharp
 public const float minimumelasticThreshold = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +278,8 @@ public const float minimumelasticThreshold = 0.1
 ```csharp
 private Timer minTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +290,8 @@ private Timer minTimer
 ```csharp
 public Transform particleController
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,6 +333,8 @@ public ExplodeGutEffect.PowerLevel powerLevel
 ```csharp
 public ParticleSystem rootParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -318,6 +356,8 @@ public Timer rootTimer
 ```csharp
 public static Vector3 unitDirection_Left_Rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +368,8 @@ public static Vector3 unitDirection_Left_Rotation
 ```csharp
 public static Vector2 unitDirection_Left_VectorStd
 ```
+#INC
+
 
 #### Field Value
 
@@ -338,6 +380,8 @@ public static Vector2 unitDirection_Left_VectorStd
 ```csharp
 public static Vector3 unitDirection_Right_Rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -348,6 +392,8 @@ public static Vector3 unitDirection_Right_Rotation
 ```csharp
 public static Vector2 unitDirection_Right_VectorStd
 ```
+#INC
+
 
 #### Field Value
 
@@ -358,6 +404,8 @@ public static Vector2 unitDirection_Right_VectorStd
 ```csharp
 public bool useCustomGradient
 ```
+#INC
+
 
 #### Field Value
 
@@ -368,6 +416,8 @@ public bool useCustomGradient
 ```csharp
 public bool useDefaultFade
 ```
+#INC
+
 
 #### Field Value
 
@@ -378,6 +428,8 @@ public bool useDefaultFade
 ```csharp
 public bool useGravity
 ```
+#INC
+
 
 #### Field Value
 
@@ -402,6 +454,8 @@ public PassageObjectModel CurrentPassage { get; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetRandomVector(Directional, object)
 
@@ -425,12 +479,16 @@ public Vector3 GetRandomVector(ExplodeGutEffect.Directional directionalType, obj
 ```csharp
 public void LoadGuts()
 ```
+#INC
+
 
 ### SetCurrentPassage(PassageObjectModel)
 
 ```csharp
 public void SetCurrentPassage(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +501,8 @@ public void SetCurrentPassage(PassageObjectModel passage)
 ```csharp
 public void SetCurrentPassageVerticalRange(float xMin, float xMax)
 ```
+#INC
+
 
 #### Parameters
 
@@ -456,12 +516,16 @@ public void SetCurrentPassageVerticalRange(float xMin, float xMax)
 ```csharp
 public void SetEffectDefault()
 ```
+#INC
+
 
 ### SetEffectSize(float)
 
 ```csharp
 public void SetEffectSize(float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -487,6 +551,8 @@ public void SetParticleControllerRotation(ExplodeGutEffect.Directional type, obj
 ```csharp
 private void SetParticleControlRotation(Vector3 euler)
 ```
+#INC
+
 
 #### Parameters
 
@@ -499,6 +565,8 @@ private void SetParticleControlRotation(Vector3 euler)
 ```csharp
 public void SetRootParticleAngle(float angle)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,6 +579,8 @@ public void SetRootParticleAngle(float angle)
 ```csharp
 public void SetUsingState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -523,6 +593,8 @@ public void SetUsingState(bool state)
 ```csharp
 public void Shoot()
 ```
+#INC
+
 
 ### Shoot(Directional, object)
 
@@ -542,9 +614,14 @@ public void Shoot(ExplodeGutEffect.Directional type, object param)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

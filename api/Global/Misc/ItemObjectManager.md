@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ItemObjectManager
 ```csharp
 public class ItemObjectManager
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ItemObjectManager
@@ -33,6 +35,8 @@ public ItemObjectManager()
 ```csharp
 private static ItemObjectManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static ItemObjectManager _instance
 ```csharp
 public List<ItemObjectData> dataList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public List<ItemObjectData> dataList
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +95,8 @@ public bool IsInit { get; }
 ```csharp
 public ItemObjectData GetData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +113,9 @@ public ItemObjectData GetData(long id)
 ```csharp
 public void Init(ItemObjectData[] data)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -115,6 +128,8 @@ public void Init(ItemObjectData[] data)
 ```csharp
 public void Init(ReadOnlyCollection<ItemObjectData> data)
 ```
+#INC
+
 
 #### Parameters
 

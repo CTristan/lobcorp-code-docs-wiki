@@ -12,6 +12,13 @@ canonical_path: /api/Global/StateMachineBehaviour/WorkerDeadBehavior
 public class WorkerDeadBehavior : StateMachineBehaviour
 ```
 
+For use with animators.
+
+On entry, randomly sets 'DeadType'.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → WorkerDeadBehavior
 
@@ -33,6 +40,9 @@ public WorkerDeadBehavior()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

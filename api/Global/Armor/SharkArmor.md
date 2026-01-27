@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/SharkArmor
 public class SharkArmor : EquipmentScriptBase
 ```
 
+Script for [The Dreaming Current](/api/Global/Misc/Shark)'s EGO Suit: Ecstasy. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SharkArmor
 
@@ -33,6 +38,8 @@ public SharkArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

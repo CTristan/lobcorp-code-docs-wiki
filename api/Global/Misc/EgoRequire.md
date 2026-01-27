@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/EgoRequire
 ```csharp
 public class EgoRequire
 ```
+A requirement for [EGO](/api/Global/Misc/EquipmentScriptBase).
+
+Basically, a type (either a stat or overall level) and the value required.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EgoRequire
@@ -33,6 +37,9 @@ public EgoRequire()
 ```csharp
 public EgoRequireType type
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public EgoRequireType type
 ```csharp
 public int value
 ```
+#INC
+
 
 #### Field Value
 

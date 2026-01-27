@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/AgentInfoWindow
 public class AgentInfoWindow : MonoBehaviour, IObserver, IDeployResetCalled
 ```
 
+Pop-up to display [agent](/api/Global/Worker/AgentUnit) information when selected. Presumably used when an [AgentUnit](/api/Global/Worker/AgentUnit) is clicked in-game, and on the [deployment screen](/api/Global/UI/DeployUI) when an agent is selected.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentInfoWindow
 
@@ -36,6 +41,8 @@ public AgentInfoWindow()
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private AgentModel _currentAgent
 ```csharp
 private static float[] _fillLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private static float[] _fillLevel
 ```csharp
 private const float _fillMax = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const float _fillMax = 0
 ```csharp
 private const float _fillMin = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const float _fillMin = 0
 ```csharp
 private bool _isEanbled
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private bool _isEanbled
 ```csharp
 private bool _isGiftAreaEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private bool _isGiftAreaEnabled
 ```csharp
 private AgentModel _pinnedAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private AgentModel _pinnedAgent
 ```csharp
 public string Additional_Minus_ValueColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public string Additional_Minus_ValueColor
 ```csharp
 public string Additional_Plus_ValueColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public string Additional_Plus_ValueColor
 ```csharp
 public GameObject AppearanceActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +172,8 @@ public static AgentInfoWindow currentWindow
 ```csharp
 public GameObject customizingBlock
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +184,8 @@ public GameObject customizingBlock
 ```csharp
 public CustomizingWindow customizingWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -178,6 +207,8 @@ public GameObject DeployActiveControl
 ```csharp
 public Button EnforcenButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,6 +219,8 @@ public Button EnforcenButton
 ```csharp
 public List<Button> GiftAreaActiveButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -209,6 +242,8 @@ public RectTransform GiftRoot
 ```csharp
 public GameObject GiftSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -219,6 +254,8 @@ public GameObject GiftSlot
 ```csharp
 public Text GiftSlot_EffectText
 ```
+#INC
+
 
 #### Field Value
 
@@ -229,6 +266,8 @@ public Text GiftSlot_EffectText
 ```csharp
 public Image GiftSlot_SymbolImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -239,6 +278,8 @@ public Image GiftSlot_SymbolImage
 ```csharp
 public Text GiftSlot_Title
 ```
+#INC
+
 
 #### Field Value
 
@@ -249,6 +290,8 @@ public Text GiftSlot_Title
 ```csharp
 public RectTransform GiftSlotParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -270,6 +313,8 @@ public AgentGiftWindow giftWindow
 ```csharp
 public GameObject IngameActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -291,6 +336,8 @@ public AgentInfoWindow.InGameModeComponent inGameModeComponent
 ```csharp
 public Sprite[] LevelImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -301,6 +348,8 @@ public Sprite[] LevelImage
 ```csharp
 public static Vector3 MainPivotPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -311,6 +360,8 @@ public static Vector3 MainPivotPos
 ```csharp
 public Canvas rootCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -321,6 +372,8 @@ public Canvas rootCanvas
 ```csharp
 public static Vector3 SubPivotPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,18 +449,24 @@ public AgentInfoWindow.AgentInfoWindowType WindowType { get; private set; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CloseWindow()
 
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### CreateWindow(AgentModel, bool)
 
 ```csharp
 public static AgentInfoWindow CreateWindow(AgentModel target, bool forcely = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -425,6 +484,8 @@ public static AgentInfoWindow CreateWindow(AgentModel target, bool forcely = fal
 ```csharp
 public void DeployColorSetted(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -437,12 +498,16 @@ public void DeployColorSetted(Color c)
 ```csharp
 public void DeployResetCalled()
 ```
+#INC
+
 
 ### EnforcementWindow()
 
 ```csharp
 public static AgentInfoWindow EnforcementWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -453,12 +518,17 @@ public static AgentInfoWindow EnforcementWindow()
 ```csharp
 public void EquipEvent()
 ```
+#INC
+
 
 ### GenerateWindow()
 
 ```csharp
 public static AgentInfoWindow GenerateWindow()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -469,6 +539,8 @@ public static AgentInfoWindow GenerateWindow()
 ```csharp
 private Color GetCurrentColor()
 ```
+#INC
+
 
 #### Returns
 
@@ -479,6 +551,8 @@ private Color GetCurrentColor()
 ```csharp
 public static int GetValueRate_FiveStep(float Max, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -496,18 +570,24 @@ public static int GetValueRate_FiveStep(float Max, float value)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### InitGiftArea()
 
 ```csharp
 private void InitGiftArea()
 ```
+#INC
+
 
 ### OnChangeAgent(AgentModel)
 
 ```csharp
 private void OnChangeAgent(AgentModel newAgent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -520,18 +600,24 @@ private void OnChangeAgent(AgentModel newAgent)
 ```csharp
 public void OnClearOverlay()
 ```
+#INC
+
 
 ### OnClickEnforceButton()
 
 ```csharp
 public void OnClickEnforceButton()
 ```
+#INC
+
 
 ### OnClickGiftArea(float)
 
 ```csharp
 public void OnClickGiftArea(float position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -544,24 +630,32 @@ public void OnClickGiftArea(float position)
 ```csharp
 public void OnClickPortrait()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -575,24 +669,32 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnUpdateAgent()
 ```
+#INC
+
 
 ### PinCurrentAgent()
 
 ```csharp
 public void PinCurrentAgent()
 ```
+#INC
+
 
 ### Registration()
 
 ```csharp
 public void Registration()
 ```
+#INC
+
 
 ### SetGiftAreaAgent(AgentModel)
 
 ```csharp
 private void SetGiftAreaAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -605,6 +707,8 @@ private void SetGiftAreaAgent(AgentModel agent)
 ```csharp
 public void SetGiftButtonInteractable(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -617,15 +721,21 @@ public void SetGiftButtonInteractable(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UnPinCurrentAgent()
 
 ```csharp
 public void UnPinCurrentAgent()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

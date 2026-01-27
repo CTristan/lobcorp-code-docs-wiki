@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/YangAnim
 public class YangAnim : KitEquipCreatureAnim
 ```
 
+Animation handler for [Yang](/api/Global/Misc/Yang).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [KitEquipCreatureAnim](/api/Global/Creature/KitEquipCreatureAnim) → YangAnim
 
@@ -33,6 +38,8 @@ public YangAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Yang _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Yang _script
 ```csharp
 public YangAnimEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public YangAnimEventHandler animEventHandler
 ```csharp
 public GameObject auraEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public GameObject auraEffect
 ```csharp
 public Collider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Collider2D collider
 ```csharp
 public YinAndYangCollisionChecker collisionChecker
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public YinAndYangCollisionChecker collisionChecker
 ```csharp
 public GameObject defaultBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public GameObject defaultBody
 ```csharp
 public GameObject escapeBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject escapeBody
 ```csharp
 public GameObject reflectionEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public GameObject reflectionEffect
 ```csharp
 public GameObject vanishEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +160,8 @@ public GameObject vanishEffect
 ```csharp
 public void ActivateObj(bool isEscape)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,24 +174,33 @@ public void ActivateObj(bool isEscape)
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### MakeAuraEffect()
 
 ```csharp
 public void MakeAuraEffect()
 ```
+#INC
+
 
 ### MakeReflectionEffect()
 
 ```csharp
 public void MakeReflectionEffect()
 ```
+#INC
+
 
 ### PlayAnimation(string)
 
 ```csharp
 public void PlayAnimation(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,6 +213,8 @@ public void PlayAnimation(string name)
 ```csharp
 public void SetScript(Yang s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,24 +227,32 @@ public void SetScript(Yang s)
 ```csharp
 private void SuccessRevive()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### Vanish()
 
 ```csharp
 public void Vanish()
 ```
+#INC
+
 
 ### Vanish(Transform)
 
 ```csharp
 public void Vanish(Transform t)
 ```
+#INC
+
 
 #### Parameters
 

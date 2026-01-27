@@ -12,6 +12,10 @@ canonical_path: /api/Global/Weapon/StraitJacketWeapon
 public class StraitJacketWeapon : EquipmentScriptBase
 ```
 
+Script for [Forsaken Murderer](/api/Global/Misc/StraitJacket)'s EGO Weapon: Regret. No script.
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → StraitJacketWeapon
 

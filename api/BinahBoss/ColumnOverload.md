@@ -11,6 +11,9 @@ canonical_path: /api/BinahBoss/ColumnOverload
 ```csharp
 public class ColumnOverload : BinahOverload, IObserver
 ```
+Class for the Meltdown of Pillars Qliphoth meltdown (light blue). Success cancels the [Eight Column](/api/BinahBoss/EightColumn) attack; failure fires it.
+Starts in [Phase 3](/api/BinahBoss/ThirdPhase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahOverload](/api/BinahBoss/BinahOverload) → ColumnOverload
@@ -28,6 +31,8 @@ public class ColumnOverload : BinahOverload, IObserver
 ```csharp
 public ColumnOverload(BinahCoreScript binah, EightColumn column)
 ```
+#INC
+
 
 #### Parameters
 
@@ -43,6 +48,8 @@ public ColumnOverload(BinahCoreScript binah, EightColumn column)
 ```csharp
 private EightColumn action
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,15 +62,22 @@ private EightColumn action
 ```csharp
 public override void OnExecute()
 ```
+#INC
+#code-generated
+
 
 ### OnFail()
 
 ```csharp
 public override void OnFail()
 ```
+#INC
+
 
 ### OnSuccess()
 
 ```csharp
 public override void OnSuccess()
 ```
+#INC
+

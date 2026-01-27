@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/ReturnCreatureWorkerCommand
 public class ReturnCreatureWorkerCommand : WorkerCommand
 ```
 
+Unused command for an agent to return an abnormality to its unit.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → ReturnCreatureWorkerCommand
 
@@ -25,6 +30,8 @@ public class ReturnCreatureWorkerCommand : WorkerCommand
 ```csharp
 public ReturnCreatureWorkerCommand(CreatureModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public ReturnCreatureWorkerCommand(CreatureModel target)
 ```csharp
 private bool creatureGet
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private bool creatureGet
 ```csharp
 private CreatureModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,24 +72,33 @@ private CreatureModel target
 ```csharp
 private void CheckRanage()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -91,3 +111,5 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+

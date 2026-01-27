@@ -12,6 +12,10 @@ canonical_path: /api/Global/UI/StoryDialogueUI
 public class StoryDialogueUI : MonoBehaviour
 ```
 
+Displays the dialogue box during the story. #verify 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryDialogueUI
 
@@ -33,6 +37,8 @@ public StoryDialogueUI()
 ```csharp
 private StoryDialogueBoxType _currentType
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +71,8 @@ public Text diaglogueText
 ```csharp
 public DialogueDisplay dialogueDisplay
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +94,8 @@ public Image dialogueFrameUI
 ```csharp
 public Text dialogueNameUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +106,8 @@ public Text dialogueNameUI
 ```csharp
 public GameObject dialogueSkipUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +118,8 @@ public GameObject dialogueSkipUI
 ```csharp
 public GameObject exDiag
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +141,8 @@ public Text exDiagText
 ```csharp
 public GameObject letterDiag
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +164,8 @@ public NarrationDiagDisplay narDiagDisplay
 ```csharp
 public GameObject narrationDiag
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,18 +201,24 @@ public bool dialogueNowProcessing { get; }
 ```csharp
 public void HideExDialogue()
 ```
+#INC
+
 
 ### HideSkipUI()
 
 ```csharp
 public void HideSkipUI()
 ```
+#INC
+
 
 ### OnOffBlink(bool)
 
 ```csharp
 public void OnOffBlink(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +231,9 @@ public void OnOffBlink(bool state)
 ```csharp
 public void SetDialogue(StoryDialogueBoxType type)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -219,6 +246,8 @@ public void SetDialogue(StoryDialogueBoxType type)
 ```csharp
 public void ShowExDialogue(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,18 +260,24 @@ public void ShowExDialogue(string text)
 ```csharp
 public void ShowSkipUI()
 ```
+#INC
+
 
 ### SkipSentence()
 
 ```csharp
 public void SkipSentence()
 ```
+#INC
+
 
 ### Speak(CharacterVar, string)
 
 ```csharp
 public void Speak(StoryUI.CharacterVar charVar, string text)
 ```
+#INC
+
 
 #### Parameters
 

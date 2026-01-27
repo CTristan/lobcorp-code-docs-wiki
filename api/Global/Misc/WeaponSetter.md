@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/WeaponSetter
 public class WeaponSetter : MonoBehaviour
 ```
 
+Sets the current weapon of a [worker](/api/Global/Unit/WorkerUnit).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WeaponSetter
 
@@ -33,6 +38,8 @@ public WeaponSetter()
 ```csharp
 private AgentSpriteChanger changer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private AgentSpriteChanger changer
 ```csharp
 public bool isTwohanded
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public bool isTwohanded
 ```csharp
 public SpriteRenderer MoveWeapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public SpriteRenderer MoveWeapon
 ```csharp
 private WorkerSpriteSetter setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private WorkerSpriteSetter setter
 ```csharp
 private bool uniqueMovement
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool uniqueMovement
 ```csharp
 public int weaponId
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +124,17 @@ private Animator animator { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### IsTwohanded(WeaponModel)
 
 ```csharp
 public static bool IsTwohanded(WeaponModel weapon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +151,8 @@ public static bool IsTwohanded(WeaponModel weapon)
 ```csharp
 public void SetAnimatorInfo(WeaponModel weapon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,6 +165,8 @@ public void SetAnimatorInfo(WeaponModel weapon)
 ```csharp
 public void SetWeapon(Sprite weaponSprite, WeaponClassType weaponType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,6 +180,8 @@ public void SetWeapon(Sprite weaponSprite, WeaponClassType weaponType)
 ```csharp
 public void SetWeapon(WeaponModel weapon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -166,6 +194,8 @@ public void SetWeapon(WeaponModel weapon)
 ```csharp
 public static void SetWeaponAnimParam(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 

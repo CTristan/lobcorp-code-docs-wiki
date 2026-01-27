@@ -11,6 +11,8 @@ canonical_path: /api/Global/Model/CharacterResourceDataModel
 ```csharp
 public class CharacterResourceDataModel
 ```
+I think this stores information about characters for the story, i.e. names, sprites, etc.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CharacterResourceDataModel
@@ -25,6 +27,9 @@ public class CharacterResourceDataModel
 ```csharp
 private CharacterResourceDataModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -43,6 +48,8 @@ private Dictionary<string, CharacterResourceDataModel.CharacterResourceInfo> _di
 ```csharp
 private static CharacterResourceDataModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +74,8 @@ public static CharacterResourceDataModel instance { get; }
 ```csharp
 public Color GetColor(string character)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +92,8 @@ public Color GetColor(string character)
 ```csharp
 public string GetName(string character)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,6 +110,8 @@ public string GetName(string character)
 ```csharp
 public Sprite GetPortrait(string character)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,6 +128,8 @@ public Sprite GetPortrait(string character)
 ```csharp
 public Sprite GetSefiraPortrait(SefiraEnum sefiraEnum, bool tipherethException = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,6 +147,8 @@ public Sprite GetSefiraPortrait(SefiraEnum sefiraEnum, bool tipherethException =
 ```csharp
 public GameObject GetSpine(string character)
 ```
+#INC
+
 
 #### Parameters
 

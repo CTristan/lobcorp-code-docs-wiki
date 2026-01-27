@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/BlackSwanWeapon
 public class BlackSwanWeapon : EquipmentScriptBase
 ```
 
+Script for [Dream of a Black Swan](/api/Global/IOBserver/BlackSwan)'s EGO Weapon: Black Swan.
+
+Causes damage to be reflected at a 10% chance.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BlackSwanWeapon
 
@@ -33,6 +38,8 @@ public BlackSwanWeapon()
 ```csharp
 private const float _effectSize = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _effectSize = 1.5
 ```csharp
 private const float _reflectProb = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _reflectProb = 0.1
 ```csharp
 private readonly Vector3 fixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private readonly Vector3 fixedPosition
 ```csharp
 private void MakeReflectEffect(UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -94,6 +107,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

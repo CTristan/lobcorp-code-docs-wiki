@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusDuskOrdeal
 public class CircusDuskOrdeal : CircusOrdeal
 ```
 
+Dusk of Crimson, The Struggle at the Climax. Spawns a couple [CircusDusks](/api/Global/Misc/CircusDusk).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [CircusOrdeal](/api/Global/Misc/CircusOrdeal) → CircusDuskOrdeal
 
@@ -25,6 +28,8 @@ public class CircusDuskOrdeal : CircusOrdeal
 ```csharp
 public CircusDuskOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public CircusDuskOrdeal()
 ```csharp
 private const int _spawnCnt = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +52,14 @@ private const int _spawnCnt = 2
 ```csharp
 private void MakeDusk()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

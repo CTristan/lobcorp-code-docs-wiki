@@ -12,6 +12,9 @@ canonical_path: /api/KetherBoss/FireLightEffect
 public class FireLightEffect : KetherLastEffectBase
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → FireLightEffect
 
@@ -25,6 +28,8 @@ public class FireLightEffect : KetherLastEffectBase
 ```csharp
 public FireLightEffect(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public FireLightEffect(KetherLastBossBase bossBase)
 ```csharp
 private static float[] _effectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private static float[] _effectTime
 ```csharp
 private GameObject _particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private GameObject _particle
 ```csharp
 private CameraFilterPack_Colors_Brightness brightness
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private CameraFilterPack_Colors_Brightness brightness
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +102,8 @@ private FireLightEffect.Execution execution
 ```csharp
 private CameraFilterPack_Glow_Glow_Color glow
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +114,8 @@ private CameraFilterPack_Glow_Glow_Color glow
 ```csharp
 private const string particleSrc = "Effect/SefiraBoss/Kether/KetherLightColumn"
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +126,8 @@ private const string particleSrc = "Effect/SefiraBoss/Kether/KetherLightColumn"
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -121,33 +140,46 @@ private Timer timer
 ```csharp
 private void ExecutionEnd()
 ```
+#INC
+
 
 ### ExecutionStart()
 
 ```csharp
 private void ExecutionStart()
 ```
+#INC
+
 
 ### ExecutionUpdate()
 
 ```csharp
 private void ExecutionUpdate()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### LoadLigthColumn()
 
 ```csharp
 private void LoadLigthColumn()
 ```
+#INC
+
 
 ### StartEffect()
 
 ```csharp
 public void StartEffect()
 ```
+#INC
+

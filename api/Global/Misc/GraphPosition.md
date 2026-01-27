@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/GraphPosition
 ```csharp
 public class GraphPosition
 ```
+Represents a position and edge on the [map](/api/Global/IOBserver/MapGraph).
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphPosition
@@ -25,6 +28,8 @@ public class GraphPosition
 ```csharp
 public GraphPosition(MapEdge currentEdge, int direction, float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,9 @@ public GraphPosition(MapEdge currentEdge, int direction, float rate)
 ```csharp
 public GraphPosition(MapNode currentNode)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -53,6 +61,8 @@ public GraphPosition(MapNode currentNode)
 ```csharp
 public MapEdge currentEdge
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public MapEdge currentEdge
 ```csharp
 public MapNode currentNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public MapNode currentNode
 ```csharp
 public int edgeDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public int edgeDirection
 ```csharp
 public float edgePosRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public float edgePosRate
 ```csharp
 public bool GetCurrentViewPosition(out Vector2 output)
 ```
+#INC
+
 
 #### Parameters
 

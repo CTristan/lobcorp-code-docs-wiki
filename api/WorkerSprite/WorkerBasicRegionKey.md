@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/WorkerBasicRegionKey
 ```csharp
 public static class WorkerBasicRegionKey
 ```
+Stores strings (keys) associated with each facial region, and a conversion from the enum to key
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerBasicRegionKey
@@ -25,6 +27,8 @@ public static class WorkerBasicRegionKey
 ```csharp
 public static string Eye
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +39,8 @@ public static string Eye
 ```csharp
 public static string EyeBrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public static string EyeBrow
 ```csharp
 public static string EyeClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static string EyeClose
 ```csharp
 public static string HairBack
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public static string HairBack
 ```csharp
 public static string HairFront
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public static string HairFront
 ```csharp
 public static string Head
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public static string Head
 ```csharp
 public static string[] keys
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public static string[] keys
 ```csharp
 public static string Mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +125,9 @@ public static string Mouth
 ```csharp
 public static bool GetKey(BasicSpriteRegion region, out string slot, out string attachment)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

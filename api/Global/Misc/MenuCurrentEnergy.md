@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/MenuCurrentEnergy
 public class MenuCurrentEnergy : MonoBehaviour
 ```
 
+Maybe an old version of the current energy thing?
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MenuCurrentEnergy
 
@@ -33,6 +38,8 @@ public MenuCurrentEnergy()
 ```csharp
 public Text CurEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Text CurEnergy
 ```csharp
 public int leftEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +64,14 @@ public int leftEnergy
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

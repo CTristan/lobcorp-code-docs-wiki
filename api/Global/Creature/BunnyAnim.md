@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/BunnyAnim
 public class BunnyAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Meat Lantern](/api/Global/Misc/Bunny).
+
+#Inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BunnyAnim
 
@@ -36,6 +41,8 @@ public BunnyAnim()
 ```csharp
 private const string _effect_blood = "BunnyBloodEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _effect_blood = "BunnyBloodEffect"
 ```csharp
 private const string _effect_dust = "BunnyDustEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _effect_dust = "BunnyDustEffect"
 ```csharp
 private const string _effectSrc = "Effect/Creature/Bunny/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _effectSrc = "Effect/Creature/Bunny/"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_attack = "attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _sound_attack = "attack"
 ```csharp
 private const string _sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const string _sound_dead = "dead"
 ```csharp
 private const string _sound_escape = "escape"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private const string _sound_escape = "escape"
 ```csharp
 public Animator animEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public Animator animEscaped
 ```csharp
 public SkeletonUIEvent animInRoom
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public SkeletonUIEvent animInRoom
 ```csharp
 private readonly string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private readonly string[] animString
 ```csharp
 public ParticleSystem bloodParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public ParticleSystem bloodParticle
 ```csharp
 public ParticleSystem gutParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public ParticleSystem gutParticle
 ```csharp
 private Bunny script
 ```
+#INC
+
 
 #### Field Value
 
@@ -168,24 +199,32 @@ private Bunny script
 ```csharp
 private void AttachHandler()
 ```
+#INC
+
 
 ### AttackDamageTimeCalled()
 
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +250,8 @@ private void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +268,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -237,12 +281,16 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,6 +301,8 @@ public bool IsAttacking()
 ```csharp
 private void MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,6 +315,8 @@ private void MakeEffect(string src)
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -281,12 +333,16 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,18 +355,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAnimation(string, bool)
 
 ```csharp
 private void SetAnimation(string state, bool loop = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -324,6 +386,8 @@ private void SetAnimation(string state, bool loop = false)
 ```csharp
 private void SetDeadEffect(bool active = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,6 +400,8 @@ private void SetDeadEffect(bool active = false)
 ```csharp
 public void SetScript(Bunny script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,6 +414,8 @@ public void SetScript(Bunny script)
 ```csharp
 public void SetState(bool escaped = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -360,3 +428,5 @@ public void SetState(bool escaped = false)
 ```csharp
 private void Update()
 ```
+#INC
+

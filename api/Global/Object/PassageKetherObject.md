@@ -12,6 +12,9 @@ canonical_path: /api/Global/Object/PassageKetherObject
 public class PassageKetherObject : PassageWayObject, IMouseCommandTarget, IMouseOnPointListener, IObserver
 ```
 
+Script for a hallway in Architecture. For changing the sprites on different days.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PassageObject](/api/Global/Object/PassageObject) → [PassageWayObject](/api/Global/Object/PassageWayObject) → PassageKetherObject
 
@@ -36,6 +39,8 @@ public PassageKetherObject()
 ```csharp
 public SpriteRenderer accessoryRenderer1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public SpriteRenderer accessoryRenderer1
 ```csharp
 public SpriteRenderer accessoryRenderer2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public SpriteRenderer accessoryRenderer2
 ```csharp
 public SpriteRenderer backRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public SpriteRenderer backRenderer
 ```csharp
 public SpriteRenderer[] floorRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public SpriteRenderer[] floorRenderer
 ```csharp
 public SpriteRenderer frameFilterRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public SpriteRenderer frameFilterRenderer
 ```csharp
 public Material overlayBlendMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public Material overlayBlendMat
 ```csharp
 private string passageImageDir
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private string passageImageDir
 ```csharp
 public Material spriteDefaultMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +137,8 @@ public Material spriteDefaultMat
 ```csharp
 public void InitKetherImage(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,18 +151,25 @@ public void InitKetherImage(int level)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public override void OnNotice(string notice, params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

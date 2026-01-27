@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LookAtMe
 public class LookAtMe : CreatureBase
 ```
 
+Schadenfreude.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → LookAtMe
 
@@ -33,6 +38,8 @@ public LookAtMe()
 ```csharp
 private LookAtMeAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private LookAtMeAnim _animScript
 ```csharp
 private const int _atkDmgMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 7
 ```csharp
 private const int _atkDmgMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 5
 ```csharp
 private const float _atkDmgRange = 6.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _atkDmgRange = 6.5
 ```csharp
 private const float _attackDelayTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _attackDelayTime = 1
 ```csharp
 private const float _attackRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _attackRange = 4.5
 ```csharp
 private const int _qliphothCounterMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int _qliphothCounterMax = 2
 ```csharp
 private const float _skillDmgRange = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _skillDmgRange = 4.5
 ```csharp
 private const int _skillProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const int _skillProb = 30
 ```csharp
 private const float _skillRemainTime = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _skillRemainTime = 4
 ```csharp
 private const int _sklDmgMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int _sklDmgMax = 3
 ```csharp
 private const int _sklDmgMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const int _sklDmgMin = 2
 ```csharp
 private const float _subQliphothTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _subQliphothTime = 5
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private Timer attackDelayTimer
 ```csharp
 private const float effectSizeFix = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ private CreatureCameraUtil nonEscapedUtil
 ```csharp
 private Timer skillRemainTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ private Timer skillRemainTimer
 ```csharp
 public const string sound_Attack = "Attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ public const string sound_Attack = "Attack"
 ```csharp
 public const string sound_Blood = "Blood"
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ public const string sound_Blood = "Blood"
 ```csharp
 public const string sound_Dead1 = "Dead1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ public const string sound_Dead1 = "Dead1"
 ```csharp
 public const string sound_Dead2 = "Attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ public const string sound_Dead2 = "Attack"
 ```csharp
 public const string sound_Skill = "Skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +310,8 @@ public const string sound_Skill = "Skill"
 ```csharp
 public const string sound_SkillEnd = "SkillEnd"
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +322,8 @@ public const string sound_SkillEnd = "SkillEnd"
 ```csharp
 public const string sound_SkillStart = "SkillStart"
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +334,8 @@ public const string sound_SkillStart = "SkillStart"
 ```csharp
 public const string sound_Transform = "Transform"
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +346,8 @@ public const string sound_Transform = "Transform"
 ```csharp
 private Timer subQliphothTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,12 +392,17 @@ private static int sklDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+#code-generated
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -360,12 +420,16 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,18 +446,24 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveAttackDamage()
 ```
+#INC
+
 
 ### GiveSkillDamage()
 
 ```csharp
 public void GiveSkillDamage()
 ```
+#INC
+
 
 ### IsInCamera()
 
 ```csharp
 public bool IsInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -404,6 +474,8 @@ public bool IsInCamera()
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -421,12 +493,16 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +519,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -459,6 +537,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -469,18 +549,24 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnEndAttack()
 ```
+#INC
+
 
 ### OnEndSkill()
 
 ```csharp
 public void OnEndSkill()
 ```
+#INC
+
 
 ### OnFixedUpdateInSkill(UseSkill)
 
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -493,6 +579,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -505,18 +593,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -529,12 +623,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SetUtilInspector(CreatureCameraUtil_Inspector, CreatureCameraUtil_Inspector)
 
 ```csharp
 public void SetUtilInspector(CreatureCameraUtil_Inspector nonEscaped, CreatureCameraUtil_Inspector escaped)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,24 +646,32 @@ public void SetUtilInspector(CreatureCameraUtil_Inspector nonEscaped, CreatureCa
 ```csharp
 private void StartAttack()
 ```
+#INC
+
 
 ### StartSkill()
 
 ```csharp
 private void StartSkill()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### TranformWorkProb(float)
 
 ```csharp
 public override float TranformWorkProb(float originWorkProb)
 ```
+#INC
+
 
 #### Parameters
 
@@ -582,3 +688,5 @@ public override float TranformWorkProb(float originWorkProb)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

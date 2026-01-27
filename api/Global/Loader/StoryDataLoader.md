@@ -11,6 +11,9 @@ canonical_path: /api/Global/Loader/StoryDataLoader
 ```csharp
 public class StoryDataLoader
 ```
+Loads the story data, including (especially) commands.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryDataLoader
@@ -33,6 +36,8 @@ public StoryDataLoader()
 ```csharp
 private Regex idRegex
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +60,8 @@ public static Dictionary<string, string> ModTextLib
 ```csharp
 private StoryScriptDirectionEnum ConvertToDirectionEnum(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,6 +78,8 @@ private StoryScriptDirectionEnum ConvertToDirectionEnum(string str)
 ```csharp
 private StoryScriptPosEnum ConvertToPosEnum(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +112,8 @@ public string GetModText(string str)
 ```csharp
 private string[] GetStoryList()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +124,8 @@ private string[] GetStoryList()
 ```csharp
 private bool IsValidId(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +142,8 @@ private bool IsValidId(string id)
 ```csharp
 private void LoadCommand_add_filter(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +157,8 @@ private void LoadCommand_add_filter(XmlNode cmdNode, StoryScriptCommandList cmdL
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Blur_Blurry(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +175,8 @@ private StoryFilterParameter LoadCommand_add_filter_Blur_Blurry(XmlNode cmdNode)
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Blur_Focus(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,6 +193,8 @@ private StoryFilterParameter LoadCommand_add_filter_Blur_Focus(XmlNode cmdNode)
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_BlurBloom(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +211,8 @@ private StoryFilterParameter LoadCommand_add_filter_BlurBloom(XmlNode cmdNode)
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Broken_Screen(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -206,6 +229,8 @@ private StoryFilterParameter LoadCommand_add_filter_Broken_Screen(XmlNode cmdNod
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Distortion_Dream2(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -222,6 +247,8 @@ private StoryFilterParameter LoadCommand_add_filter_Distortion_Dream2(XmlNode cm
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Distortion_Heat(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,6 +265,8 @@ private StoryFilterParameter LoadCommand_add_filter_Distortion_Heat(XmlNode cmdN
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Distortion_Noise(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -254,6 +283,8 @@ private StoryFilterParameter LoadCommand_add_filter_Distortion_Noise(XmlNode cmd
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Fire_Gradient(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,6 +301,8 @@ private StoryFilterParameter LoadCommand_add_filter_Fire_Gradient(XmlNode cmdNod
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_TV_Broken_Glass(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -286,6 +319,8 @@ private StoryFilterParameter LoadCommand_add_filter_TV_Broken_Glass(XmlNode cmdN
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_Tv_Noise(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -302,6 +337,8 @@ private StoryFilterParameter LoadCommand_add_filter_Tv_Noise(XmlNode cmdNode)
 ```csharp
 private StoryFilterParameter LoadCommand_add_filter_TvOldMovie2(XmlNode cmdNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,6 +355,8 @@ private StoryFilterParameter LoadCommand_add_filter_TvOldMovie2(XmlNode cmdNode)
 ```csharp
 private void LoadCommand_background(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +370,8 @@ private void LoadCommand_background(XmlNode cmdNode, StoryScriptCommandList cmdL
 ```csharp
 private void LoadCommand_bgm(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,6 +385,8 @@ private void LoadCommand_bgm(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_call(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -357,6 +400,8 @@ private void LoadCommand_call(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_camera_filter(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -370,6 +415,8 @@ private void LoadCommand_camera_filter(XmlNode cmdNode, StoryScriptCommandList c
 ```csharp
 private void LoadCommand_cg(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -383,6 +430,8 @@ private void LoadCommand_cg(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_character(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +445,8 @@ private void LoadCommand_character(XmlNode cmdNode, StoryScriptCommandList cmdLi
 ```csharp
 private void LoadCommand_dialogue(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,6 +460,8 @@ private void LoadCommand_dialogue(XmlNode cmdNode, StoryScriptCommandList cmdLis
 ```csharp
 private void LoadCommand_disappear(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -422,6 +475,8 @@ private void LoadCommand_disappear(XmlNode cmdNode, StoryScriptCommandList cmdLi
 ```csharp
 public void LoadCommand_ending(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -435,6 +490,8 @@ public void LoadCommand_ending(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 public void LoadCommand_hide_exdiag(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,6 +505,8 @@ public void LoadCommand_hide_exdiag(XmlNode cmdNode, StoryScriptCommandList cmdL
 ```csharp
 public void LoadCommand_hide_option(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -461,6 +520,8 @@ public void LoadCommand_hide_option(XmlNode cmdNode, StoryScriptCommandList cmdL
 ```csharp
 public void LoadCommand_hide_ui(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -474,6 +535,8 @@ public void LoadCommand_hide_ui(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_if(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -487,6 +550,8 @@ private void LoadCommand_if(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_move_background(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -500,6 +565,8 @@ private void LoadCommand_move_background(XmlNode cmdNode, StoryScriptCommandList
 ```csharp
 private void LoadCommand_position(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,6 +580,8 @@ private void LoadCommand_position(XmlNode cmdNode, StoryScriptCommandList cmdLis
 ```csharp
 private void LoadCommand_remove_cg(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -526,6 +595,8 @@ private void LoadCommand_remove_cg(XmlNode cmdNode, StoryScriptCommandList cmdLi
 ```csharp
 private void LoadCommand_remove_filter(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -539,6 +610,8 @@ private void LoadCommand_remove_filter(XmlNode cmdNode, StoryScriptCommandList c
 ```csharp
 public void LoadCommand_return_title(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -552,6 +625,8 @@ public void LoadCommand_return_title(XmlNode cmdNode, StoryScriptCommandList cmd
 ```csharp
 private void LoadCommand_select(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -565,6 +640,8 @@ private void LoadCommand_select(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_set_anim(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -578,6 +655,8 @@ private void LoadCommand_set_anim(XmlNode cmdNode, StoryScriptCommandList cmdLis
 ```csharp
 public void LoadCommand_show_exdiag(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -591,6 +670,8 @@ public void LoadCommand_show_exdiag(XmlNode cmdNode, StoryScriptCommandList cmdL
 ```csharp
 public void LoadCommand_show_ui(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -604,6 +685,8 @@ public void LoadCommand_show_ui(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_sound(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -617,6 +700,8 @@ private void LoadCommand_sound(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_speak(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -630,6 +715,8 @@ private void LoadCommand_speak(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```csharp
 private void LoadCommand_var_set(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -643,6 +730,8 @@ private void LoadCommand_var_set(XmlNode cmdNode, StoryScriptCommandList cmdList
 ```csharp
 private void LoadCommand_var_set_random(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -656,6 +745,8 @@ private void LoadCommand_var_set_random(XmlNode cmdNode, StoryScriptCommandList 
 ```csharp
 private void LoadCommand_wait(XmlNode cmdNode, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -688,6 +779,8 @@ public void LoadModStroyData()
 ```csharp
 private void LoadStoryCommands(XmlNode parent, StoryScriptCommandList cmdList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -701,12 +794,17 @@ private void LoadStoryCommands(XmlNode parent, StoryScriptCommandList cmdList)
 ```csharp
 public void LoadStoryData()
 ```
+#INC
+#code-generated
+
 
 ### TryGetStoryScriptValue(string, out StoryScriptValue)
 
 ```csharp
 private bool TryGetStoryScriptValue(string valueStr, out StoryScriptValue value)
 ```
+#INC
+
 
 #### Parameters
 

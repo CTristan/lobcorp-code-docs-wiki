@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/SlimeCreature
 public class SlimeCreature : CreatureBase
 ```
 
+Parent class for [Melting Love](/api/Global/Misc/SlimeGirl) and her spawn.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SlimeCreature
 
@@ -36,6 +39,8 @@ public SlimeCreature()
 ```csharp
 private const float _motionDelayTimeMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const float _motionDelayTimeMax = 1
 ```csharp
 private const float _motionDelayTimeMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const float _motionDelayTimeMin = 0.5
 ```csharp
 protected string _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ protected string _name
 ```csharp
 private const float _soundTermMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const float _soundTermMax = 10
 ```csharp
 private const float _soundTermMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const float _soundTermMin = 5
 ```csharp
 protected Timer defaultSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ protected Timer defaultSoundTimer
 ```csharp
 protected Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +157,8 @@ protected static float SoundTerm { get; }
 ```csharp
 protected float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -156,6 +175,9 @@ protected float GetDistance(UnitModel target)
 ```csharp
 public override string GetName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -166,6 +188,8 @@ public override string GetName()
 ```csharp
 protected UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +207,8 @@ protected UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 protected virtual UnitModel GetNearestTargetInGlobal()
 ```
+#INC
+
 
 #### Returns
 
@@ -193,6 +219,8 @@ protected virtual UnitModel GetNearestTargetInGlobal()
 ```csharp
 public virtual string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,6 +237,8 @@ public virtual string GetSoundSrc(string key)
 ```csharp
 protected UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,6 +255,8 @@ protected UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 protected List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,6 +274,8 @@ protected List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 protected virtual UnitModel[] GetTargetsInSefira(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +292,8 @@ protected virtual UnitModel[] GetTargetsInSefira(Sefira sefira)
 ```csharp
 protected float GetViewDist(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -274,6 +310,8 @@ protected float GetViewDist(UnitModel unit)
 ```csharp
 public virtual void GiveDamage(UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -287,6 +325,8 @@ public virtual void GiveDamage(UnitModel target, DamageInfo dmg)
 ```csharp
 protected virtual bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,6 +343,8 @@ protected virtual bool IsHostile(MovableObjectNode mov)
 ```csharp
 protected bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -320,6 +362,8 @@ protected bool IsInRange(UnitModel target, float range)
 ```csharp
 protected bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,24 +380,32 @@ protected bool IsInView(UnitModel target)
 ```csharp
 protected virtual void MoveToNearest()
 ```
+#INC
+
 
 ### OnAttackDamageTimeCalled()
 
 ```csharp
 public virtual void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public virtual void OnAttackEnd()
 ```
+#INC
+
 
 ### PrepareAttack(UnitModel)
 
 ```csharp
 protected virtual void PrepareAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,6 +418,8 @@ protected virtual void PrepareAttack(UnitModel target)
 ```csharp
 protected virtual void RandomMovement()
 ```
+#INC
+
 
 ### SoundMake(string, float)
 
@@ -424,9 +478,13 @@ public virtual SoundEffectPlayer SoundMakeLoop(string src, float vol = 1)
 ```csharp
 protected virtual void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Assets/Scripts/UI/Utils/EnumTextConverter
 ```csharp
 public static class EnumTextConverter
 ```
+Convert certain enums to readable text, and vice versa.
+
+Vulnerabilities -> text, damage types -> text, and damage type text -> damage type enum.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EnumTextConverter
@@ -25,6 +29,9 @@ public static class EnumTextConverter
 ```csharp
 public static string GetDefenseType(DefenseInfo.Type type)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +48,8 @@ public static string GetDefenseType(DefenseInfo.Type type)
 ```csharp
 public static string GetRwbpType(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,6 +66,8 @@ public static string GetRwbpType(RwbpType type)
 ```csharp
 public static RwbpType GetRwbpType(string type)
 ```
+#INC
+
 
 #### Parameters
 

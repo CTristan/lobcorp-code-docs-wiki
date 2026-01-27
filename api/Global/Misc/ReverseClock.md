@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ReverseClock
 public class ReverseClock : CreatureBase
 ```
 
+Backwards Clock. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ReverseClock
 
@@ -33,6 +36,8 @@ public ReverseClock()
 ```csharp
 private bool _allActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _allActivated
 ```csharp
 private ReverseClockAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private ReverseClockAnim _animScript
 ```csharp
 private const float _DEFAULT_WORK_TIME = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float _DEFAULT_WORK_TIME = 5
 ```csharp
 private float _maxEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private float _maxEnergy
 ```csharp
 private const int _NORMAL_AGENT_LEVEL = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const int _NORMAL_AGENT_LEVEL = 3
 ```csharp
 private Timer _rouleteStartTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Timer _rouleteStartTimer
 ```csharp
 private const float _ROULETTE_LASTING_TIME = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _ROULETTE_LASTING_TIME = 5
 ```csharp
 private const float _ROULETTE_START_DELAY_TIME = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private const float _ROULETTE_START_DELAY_TIME = 1.5
 ```csharp
 private Timer _rouletteLastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private Timer _rouletteLastingTimer
 ```csharp
 private const int _SPECIAL_AGENT_LEVEL = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const int _SPECIAL_AGENT_LEVEL = 5
 ```csharp
 private List<AgentModel> _specialAgentList
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private List<AgentModel> _specialAgentList
 ```csharp
 private IsolateFilter _specialFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private IsolateFilter _specialFilter
 ```csharp
 private Timer _specialWorkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private Timer _specialWorkTimer
 ```csharp
 private bool _successSpecialSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private bool _successSpecialSkill
 ```csharp
 private AgentModel _tempAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private AgentModel _tempAgent
 ```csharp
 private float _workTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +230,8 @@ private float _workTime
 ```csharp
 private bool CheckCreatureSkillTargetable(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +248,8 @@ private bool CheckCreatureSkillTargetable(CreatureModel creature)
 ```csharp
 public override float GetKitCreatureProcessTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -221,12 +260,16 @@ public override float GetKitCreatureProcessTime()
 ```csharp
 private void HideRouletteEvent()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +282,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,6 +296,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,6 +310,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -273,6 +322,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,18 +336,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -309,12 +366,17 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### Retrograde(bool)
 
 ```csharp
 private void Retrograde(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,9 +389,13 @@ private void Retrograde(bool b)
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### ViewRouletteEvent()
 
 ```csharp
 private void ViewRouletteEvent()
 ```
+#INC
+

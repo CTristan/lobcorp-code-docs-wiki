@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ResetSlide
 ```csharp
 public class ResetSlide : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResetSlide
@@ -33,6 +35,8 @@ public ResetSlide()
 ```csharp
 public OpenLeftDoor leftDoor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public OpenLeftDoor leftDoor
 ```csharp
 public OpenRightDoor rightDoor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public OpenRightDoor rightDoor
 ```csharp
 public SlideDoor slideDoor
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,8 @@ public SlideDoor slideDoor
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,9 +87,14 @@ private void OnTriggerEnter2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

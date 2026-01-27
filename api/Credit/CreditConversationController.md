@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditConversationController
 ```csharp
 public class CreditConversationController : MonoBehaviour
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditConversationController
@@ -33,6 +35,8 @@ public CreditConversationController()
 ```csharp
 public float _conv_displayTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public float _conv_displayTime
 ```csharp
 public float _conv_fadeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public float _conv_fadeTime
 ```csharp
 public float _conv_root_fadeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +91,8 @@ private CreditConversationController.FadeType _currentFadeType
 ```csharp
 private const string _defaultFormat = "day50_ayin_{0}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +103,8 @@ private const string _defaultFormat = "day50_ayin_{0}"
 ```csharp
 private Timer _displayTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +115,8 @@ private Timer _displayTime
 ```csharp
 public AnimationCurve _fadeInCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +127,8 @@ public AnimationCurve _fadeInCurve
 ```csharp
 public AnimationCurve _fadeOutCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +139,8 @@ public AnimationCurve _fadeOutCurve
 ```csharp
 private Timer _fadeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +151,8 @@ private Timer _fadeTimer
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +163,8 @@ private bool _isEnabled
 ```csharp
 private static int[] _post_format_index
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +175,8 @@ private static int[] _post_format_index
 ```csharp
 private StringBuilder _stringBuilder
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +187,8 @@ private StringBuilder _stringBuilder
 ```csharp
 private Queue<int> _textQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +199,8 @@ private Queue<int> _textQueue
 ```csharp
 public Text ConversationText
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +211,8 @@ public Text ConversationText
 ```csharp
 public CanvasGroup RootCanvasGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,30 +225,41 @@ public CanvasGroup RootCanvasGroup
 ```csharp
 public void EndConversation()
 ```
+#INC
+
 
 ### ExecuteText()
 
 ```csharp
 private void ExecuteText()
 ```
+#INC
+
 
 ### FadeUpdate()
 
 ```csharp
 private void FadeUpdate()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetFadeValue(float)
 
 ```csharp
 private float GetFadeValue(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -235,6 +276,8 @@ private float GetFadeValue(float rate)
 ```csharp
 private string GetText(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -251,12 +294,16 @@ private string GetText(int index)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### SetTextAlpha(float)
 
 ```csharp
 private void SetTextAlpha(float a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -269,15 +316,21 @@ private void SetTextAlpha(float a)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartConversation()
 
 ```csharp
 public void StartConversation()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

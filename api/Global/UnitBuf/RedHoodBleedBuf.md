@@ -12,6 +12,14 @@ canonical_path: /api/Global/UnitBuf/RedHoodBleedBuf
 public class RedHoodBleedBuf : UnitBuf
 ```
 
+Bleeding debuff from [Little Red](/api/Global/IOBserver/RedHood)'s attacks.
+
+Stacks up to three times, doing 5 red damage per stack every half second. Goes away when Red is suppressed.
+
+Also creates a bleeding prefab effect/particle system which gets more intense with more stacks of bleed.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → RedHoodBleedBuf
 
@@ -25,6 +33,8 @@ public class RedHoodBleedBuf : UnitBuf
 ```csharp
 public RedHoodBleedBuf(RedHood redHood)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +49,8 @@ public RedHoodBleedBuf(RedHood redHood)
 ```csharp
 public const string _additionalSrc = "Effect/Creature/RedHood/Redhood_AdditionalDamage"
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +61,8 @@ public const string _additionalSrc = "Effect/Creature/RedHood/Redhood_Additional
 ```csharp
 private const float _DamageDelay = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +73,8 @@ private const float _DamageDelay = 0.5
 ```csharp
 private Timer _delayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +85,8 @@ private Timer _delayTimer
 ```csharp
 public const string _effectSrc = "Effect/Creature/RedHood/Redhood_Bleed"
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +97,8 @@ public const string _effectSrc = "Effect/Creature/RedHood/Redhood_Bleed"
 ```csharp
 private ParticleSystem _particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +109,8 @@ private ParticleSystem _particle
 ```csharp
 public int CurrentStackCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +121,8 @@ public int CurrentStackCount
 ```csharp
 private float DamageFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +133,8 @@ private float DamageFactor
 ```csharp
 public GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +145,8 @@ public GameObject effect
 ```csharp
 public const int MaxStackCount = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +157,8 @@ public const int MaxStackCount = 3
 ```csharp
 public RedHood RedHood
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,18 +183,25 @@ private MovableObjectNode movable { get; }
 ```csharp
 private void EffectUpdate()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -177,12 +214,16 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnRedHoodAttacked(bool, int)
 
 ```csharp
 public void OnRedHoodAttacked(bool isRanged, int stackCount = 1)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,15 +237,21 @@ public void OnRedHoodAttacked(bool isRanged, int stackCount = 1)
 ```csharp
 public void OnSetCount()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### TakeAdditionalDamage()
 
 ```csharp
 public void TakeAdditionalDamage()
 ```
+#INC
+

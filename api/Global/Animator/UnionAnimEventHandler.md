@@ -12,6 +12,9 @@ canonical_path: /api/Global/Animator/UnionAnimEventHandler
 public class UnionAnimEventHandler : AnimatorEventHandler
 ```
 
+Used by [Yin](/api/Global/Misc/Yin) and [Yang](/api/Global/Misc/Yang)'s union prefab (YinAndYangUnion).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → UnionAnimEventHandler
 
@@ -57,3 +60,5 @@ public void SetSummonEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void Summon()
 ```
+#INC
+

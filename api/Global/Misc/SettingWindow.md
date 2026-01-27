@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SettingWindow
 public class SettingWindow : MonoBehaviour
 ```
 
+#unused #maybe_unused ?
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SettingWindow
 
@@ -33,6 +36,8 @@ public SettingWindow()
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _isEnabled
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject ActiveControl
 ```csharp
 public const float NormalSpeedMult = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public const float NormalSpeedMult = 1
 ```csharp
 public const float StopSpeedMult = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,12 +98,17 @@ public bool IsEnabled { get; private set; }
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### OnSetActive(bool)
 
 ```csharp
 private void OnSetActive(bool state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -105,12 +121,16 @@ private void OnSetActive(bool state)
 ```csharp
 public void OpenWindow()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,3 +143,5 @@ public void SetActive(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+

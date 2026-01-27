@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StoryEndScene
 public class StoryEndScene : LoadingScene
 ```
 
+Loading scene for transitioning out of the story #verify .
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → StoryEndScene
 
@@ -33,6 +36,8 @@ public StoryEndScene()
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private int currentIndex
 ```csharp
 private int dotProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +72,14 @@ public StoryEndScene.TextObject[] texts
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

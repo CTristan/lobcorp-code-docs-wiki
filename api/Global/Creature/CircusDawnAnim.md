@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CircusDawnAnim
 public class CircusDawnAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Cheers for the Beginning](/api/Global/Misc/CircusDawn).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → CircusDawnAnim
 
@@ -36,6 +39,8 @@ public CircusDawnAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const float _teleportCastTime = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const float _teleportCastTime = 0.5
 ```csharp
 private const string EffectSrc1 = "Ordeal/Clown_1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const string EffectSrc1 = "Ordeal/Clown_1"
 ```csharp
 private const string EffectSrc2 = "Ordeal/Clown_2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const string EffectSrc2 = "Ordeal/Clown_2"
 ```csharp
 public CircusMessageReciever messageReciever
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public CircusMessageReciever messageReciever
 ```csharp
 private CircusDawn script
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private CircusDawn script
 ```csharp
 private Timer TeleportCastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,24 +125,33 @@ private Timer TeleportCastingTimer
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+#code-generated
+
 
 ### EndTeleport()
 
 ```csharp
 public void EndTeleport()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### GetTeleportParam()
 
 ```csharp
 private int GetTeleportParam()
 ```
+#INC
+
 
 #### Returns
 
@@ -136,6 +162,8 @@ private int GetTeleportParam()
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -146,30 +174,40 @@ public override bool HasDeadMotion()
 ```csharp
 public void MakeAppearParticle()
 ```
+#INC
+
 
 ### OnExplosion()
 
 ```csharp
 public void OnExplosion()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### ResetAnim()
 
 ```csharp
 private void ResetAnim()
 ```
+#INC
+
 
 ### SetScript(CircusDawn)
 
 ```csharp
 public void SetScript(CircusDawn script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,33 +220,45 @@ public void SetScript(CircusDawn script)
 ```csharp
 public void StartTeleport()
 ```
+#INC
+
 
 ### StartTrick()
 
 ```csharp
 public void StartTrick()
 ```
+#INC
+
 
 ### StopTrick()
 
 ```csharp
 public void StopTrick()
 ```
+#INC
+
 
 ### TeleportEvent()
 
 ```csharp
 public void TeleportEvent()
 ```
+#INC
+
 
 ### Telport()
 
 ```csharp
 public void Telport()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

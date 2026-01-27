@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditTextUnit
 ```csharp
 public class CreditTextUnit : MonoBehaviour
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditTextUnit
@@ -33,6 +35,8 @@ public CreditTextUnit()
 ```csharp
 private AnimationCurve _curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private AnimationCurve _curve
 ```csharp
 private Timer _lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private Timer _lifeTime
 ```csharp
 private bool _particleGen
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _particleGen
 ```csharp
 public Text creditTextUi
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Text creditTextUi
 ```csharp
 public float SpeedFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public float SpeedFactor
 ```csharp
 private float speedValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private float speedValue
 ```csharp
 private CreditSectionType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +131,8 @@ public bool IsEnabled { get; }
 ```csharp
 public RectTransform RectTransform { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -127,6 +145,8 @@ public RectTransform RectTransform { get; private set; }
 ```csharp
 public void Activate(string creditName, float time, float speed, CreditSectionType type = CreditSectionType.SUPPORT, int fontsize = 40)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,30 +163,41 @@ public void Activate(string creditName, float time, float speed, CreditSectionTy
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### End()
 
 ```csharp
 private void End()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### MakeParticle()
 
 ```csharp
 private void MakeParticle()
 ```
+#INC
+
 
 ### SetAlpha(float)
 
 ```csharp
 private void SetAlpha(float a)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -179,3 +210,5 @@ private void SetAlpha(float a)
 ```csharp
 private void Start()
 ```
+#INC
+

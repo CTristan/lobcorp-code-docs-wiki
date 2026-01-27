@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/LoggingScript
 public class LoggingScript : MonoBehaviour
 ```
 
+Script for adding text to the work log.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LoggingScript
 
@@ -33,6 +38,8 @@ public LoggingScript()
 ```csharp
 public bool autoPositionSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public bool autoPositionSet
 ```csharp
 public float defaultY
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public float defaultY
 ```csharp
 public int fontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int fontSize
 ```csharp
 public float horizontalSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public float horizontalSpacing
 ```csharp
 public bool islineable
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool islineable
 ```csharp
 public GameObject item
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public GameObject item
 ```csharp
 public float leftSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public float leftSpacing
 ```csharp
 public GameObject line
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject line
 ```csharp
 private List<GameObject> lineSep
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private List<GameObject> lineSep
 ```csharp
 public float lineSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public float lineSpacing
 ```csharp
 private List<LogItemScript> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private List<LogItemScript> list
 ```csharp
 public RectTransform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public RectTransform parent
 ```csharp
 public float verticalSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,24 +196,33 @@ public float verticalSpacing
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DeleteAll()
 
 ```csharp
 public void DeleteAll()
 ```
+#INC
+
 
 ### DeleteLine()
 
 ```csharp
 public void DeleteLine()
 ```
+#INC
+
 
 ### MakeText(string)
 
 ```csharp
 public LogItemScript MakeText(string context)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,21 +239,29 @@ public LogItemScript MakeText(string context)
 ```csharp
 public void OnEnalbed()
 ```
+#INC
+
 
 ### SetPosToEnd()
 
 ```csharp
 public void SetPosToEnd()
 ```
+#INC
+
 
 ### Sort()
 
 ```csharp
 public void Sort()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+

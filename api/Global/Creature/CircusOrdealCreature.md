@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/CircusOrdealCreature
 public class CircusOrdealCreature : CreatureBase
 ```
 
+Parent class for [Crimson ordeal](/api/Global/Misc/CircusOrdeal) creatures.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → CircusOrdealCreature
 
@@ -36,6 +39,8 @@ public CircusOrdealCreature()
 ```csharp
 protected OrdealLevel _level
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected OrdealLevel _level
 ```csharp
 protected string _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected string _name
 ```csharp
 protected CircusOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ protected CircusOrdeal _ordealScript
 ```csharp
 protected RiskLevel _risk
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ protected RiskLevel _risk
 ```csharp
 protected readonly int[] _spawnDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +113,9 @@ public RiskLevel Risk { get; }
 ```csharp
 public virtual string GetOrdealName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -110,12 +126,16 @@ public virtual string GetOrdealName()
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### SetOrdeal(CircusOrdeal, OrdealLevel, RiskLevel, string)
 
 ```csharp
 public virtual void SetOrdeal(CircusOrdeal ordealScript, OrdealLevel level, RiskLevel risk, string name)
 ```
+#INC
+
 
 #### Parameters
 

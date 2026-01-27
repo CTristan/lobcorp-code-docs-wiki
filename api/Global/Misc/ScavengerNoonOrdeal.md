@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ScavengerNoonOrdeal
 internal class ScavengerNoonOrdeal : ScavengerOrdeal
 ```
 
+Noon of Indigo, The Sweepers. Spawns four groups of three [Sweepers](/api/Global/Misc/ScavengerNoon).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [ScavengerOrdeal](/api/Global/Misc/ScavengerOrdeal) → ScavengerNoonOrdeal
 
@@ -25,6 +30,8 @@ internal class ScavengerNoonOrdeal : ScavengerOrdeal
 ```csharp
 public ScavengerNoonOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public ScavengerNoonOrdeal()
 ```csharp
 private const float _centerDist = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _centerDist = 0
 ```csharp
 private const float _leftDist = -3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float _leftDist = -3
 ```csharp
 private const int _maxNumOfSefira = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const int _maxNumOfSefira = 4
 ```csharp
 private const float _rightDist = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private const float _rightDist = 3
 ```csharp
 private const int _spawnPerSefira = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +102,8 @@ private const int _spawnPerSefira = 3
 ```csharp
 private MapNode GetNode(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +120,8 @@ private MapNode GetNode(PassageObjectModel passage)
 ```csharp
 private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +138,8 @@ private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```csharp
 private Sefira GetSefira(ref List<Sefira> remain)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,12 +156,16 @@ private Sefira GetSefira(ref List<Sefira> remain)
 ```csharp
 private void MakeNoon()
 ```
+#INC
+
 
 ### MakeScavengers(MapNode)
 
 ```csharp
 private void MakeScavengers(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,3 +178,6 @@ private void MakeScavengers(MapNode node)
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

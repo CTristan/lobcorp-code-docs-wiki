@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/IScrollMessageReciever
 ```csharp
 public interface IScrollMessageReciever
 ```
+Interface for things which listen to mouse scroll events.
+
 
 ## Methods
 
@@ -19,6 +21,9 @@ public interface IScrollMessageReciever
 ```csharp
 void OnScroll(PointerEventData eventData)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

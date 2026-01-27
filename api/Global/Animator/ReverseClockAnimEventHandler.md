@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/ReverseClockAnimEventHandler
 public class ReverseClockAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper for [Backwards Clock's animation handler](/api/Global/Creature/ReverseClockAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → ReverseClockAnimEventHandler
 
@@ -33,6 +38,8 @@ public ReverseClockAnimEventHandler()
 ```csharp
 private const string _SOUND_SRC = "creature/ReverseClock/WarpClock_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const string _SOUND_SRC = "creature/ReverseClock/WarpClock_"
 ```csharp
 private SoundEffectPlayer _soundWorkLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,27 +64,38 @@ private SoundEffectPlayer _soundWorkLoop
 ```csharp
 public void PlayPutSound()
 ```
+#INC
+
 
 ### PlaySkillStartSound()
 
 ```csharp
 public void PlaySkillStartSound()
 ```
+#INC
+
 
 ### PlayWorkLoopSound()
 
 ```csharp
 public void PlayWorkLoopSound()
 ```
+#INC
+
 
 ### PlayWorkStartSound()
 
 ```csharp
 public void PlayWorkStartSound()
 ```
+#INC
+#code-generated
+
 
 ### StopWorkLoopSound()
 
 ```csharp
 public void StopWorkLoopSound()
 ```
+#INC
+

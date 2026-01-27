@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/GraphAstar
 ```csharp
 public class GraphAstar
 ```
+For finding the shortest path between two nodes on the [map](/api/Global/IOBserver/MapGraph).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphAstar
@@ -33,6 +35,9 @@ public GraphAstar()
 ```csharp
 public static float ComputeHeuristic(Vector2 a, Vector2 b)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -50,6 +55,8 @@ public static float ComputeHeuristic(Vector2 a, Vector2 b)
 ```csharp
 public static float Distance(MapNode startPoint, MapNode endPoint, float limit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -68,6 +75,8 @@ public static float Distance(MapNode startPoint, MapNode endPoint, float limit)
 ```csharp
 public static PathResult SearchPath(MapNode startPoint, MapNode endPoint, bool isRabbit = false)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Gift/LongBirdGift
 public class LongBirdGift : EquipmentScriptBase
 ```
 
+Script for [Judgement Bird](/api/Global/Misc/LongBird)'s EGO Gift: Justitia.
+
+Increases the success rate of repression work by 6.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LongBirdGift
 
@@ -33,6 +38,9 @@ public LongBirdGift()
 ```csharp
 public override float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,9 @@ canonical_path: /api/WorkerSpine/WeaponChangeData
 ```csharp
 public class WeaponChangeData
 ```
+Store the data to replace a weapon?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WeaponChangeData
@@ -55,6 +58,8 @@ public string slot
 ```csharp
 public Sprite sprite
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/OrchestraArmor
 public class OrchestraArmor : EquipmentScriptBase
 ```
 
+Script for [The Silent Orchestra](/api/Global/Misc/SilentOrchestra)'s EGO Suit: Da Capo.
+
+If the user has the matching EGO Gift, sets white defense to -1 (absorb).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OrchestraArmor
 
@@ -33,6 +38,9 @@ public OrchestraArmor()
 ```csharp
 public override DefenseInfo GetDefense(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

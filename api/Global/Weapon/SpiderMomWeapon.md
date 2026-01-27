@@ -12,6 +12,17 @@ canonical_path: /api/Global/Weapon/SpiderMomWeapon
 public class SpiderMomWeapon : EquipmentScriptBase
 ```
 
+Script for [Spider Bud](/api/Global/Misc/SpiderMom)'s EGO Weapon: Red Eyes.
+
+(Prints debug text on equip.)
+
+While held out, if the user has at least 4 fortitude #verify , gives a +2.5 movement speed buff for 30000 seconds or until put away.
+
+Note that the description says this is supposed to be at least 2 fortitude.
+
+(When put away, also prints a debug log.)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SpiderMomWeapon
 
@@ -33,6 +44,8 @@ public SpiderMomWeapon()
 ```csharp
 private readonly float _AMOUNT_MOVEMENT_SPEED
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +56,8 @@ private readonly float _AMOUNT_MOVEMENT_SPEED
 ```csharp
 private readonly int _CONDITION_FORTITUDE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +68,8 @@ private readonly int _CONDITION_FORTITUDE_LEVEL
 ```csharp
 private readonly float _DURATION_BUF
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +80,8 @@ private readonly float _DURATION_BUF
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +94,8 @@ private readonly bool _LOG_STATE
 ```csharp
 public override void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +108,9 @@ public override void OnCancelWeapon(UnitModel actor)
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -99,6 +123,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -111,6 +137,8 @@ public override void OnPrepareWeapon(UnitModel actor)
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+
 
 #### Parameters
 

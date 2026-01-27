@@ -12,6 +12,11 @@ canonical_path: /api/Manual/MainCategory
 public class MainCategory : Category
 ```
 
+Entries on the left with subcategories. Maybe.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Category](/api/Manual/Category) → MainCategory
 
@@ -25,6 +30,8 @@ public class MainCategory : Category
 ```csharp
 public MainCategory(string id, int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public MainCategory(string id, int index)
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ public int index
 ```csharp
 public const string localizeTextFormat = "Manual_MainCategory_{0}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ public const string localizeTextFormat = "Manual_MainCategory_{0}"
 ```csharp
 public List<SubCategory> subCategories
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,3 +85,6 @@ public List<SubCategory> subCategories
 ```csharp
 public override void LoadText()
 ```
+#INC
+#code-generated
+

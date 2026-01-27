@@ -11,6 +11,10 @@ canonical_path: /api/Global/Tutorial/TutorialData
 ```csharp
 public class TutorialData
 ```
+Holds a tutorial, as a list of steps.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TutorialData

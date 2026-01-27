@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/CreatureEscapeTutorial
 public class CreatureEscapeTutorial : Tutorial, IObserver
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → CreatureEscapeTutorial
 
@@ -36,6 +39,8 @@ public CreatureEscapeTutorial()
 ```csharp
 private bool arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool arrived
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,24 +65,33 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,3 +105,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+

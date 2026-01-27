@@ -11,6 +11,9 @@ canonical_path: /api/Global/Script/AnimScript
 ```csharp
 public class AnimScript : MonoBehaviour
 ```
+Parent class for most (maybe all) animations. Holds an animator, can set speed, and progresses the animation on update. Probably.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimScript
@@ -36,6 +39,8 @@ public AnimScript()
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public Animator animator
 ```csharp
 protected float defaultSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected float defaultSpeed
 ```csharp
 protected float motionDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,12 +77,17 @@ protected float motionDelay
 ```csharp
 protected virtual void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### SetSpeed(float)
 
 ```csharp
 public void SetSpeed(float speed)
 ```
+#INC
+
 
 #### Parameters
 

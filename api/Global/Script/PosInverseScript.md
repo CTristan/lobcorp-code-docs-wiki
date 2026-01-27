@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/PosInverseScript
 public class PosInverseScript : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PosInverseScript
 
@@ -33,9 +36,14 @@ public PosInverseScript()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

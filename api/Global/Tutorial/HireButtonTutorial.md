@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/HireButtonTutorial
 public class HireButtonTutorial : Tutorial
 ```
 
+Ends when the customizing window is opened (on [AgentInfoWindow](/api/Global/Misc/AgentInfoWindow)). #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → HireButtonTutorial
 
@@ -33,3 +36,6 @@ public HireButtonTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

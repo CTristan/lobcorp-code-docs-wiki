@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/TipherethRoomCurtainObject
 public class TipherethRoomCurtainObject : MonoBehaviour, IObserver
 ```
 
+Script for TipherethCurtain, a prefab that appears in Central. Maybe. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TipherethRoomCurtainObject
 
@@ -36,6 +39,8 @@ public TipherethRoomCurtainObject()
 ```csharp
 private SpriteRenderer r
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,24 +53,33 @@ private SpriteRenderer r
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -79,3 +93,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void UpdateCurtain()
 ```
+#INC
+

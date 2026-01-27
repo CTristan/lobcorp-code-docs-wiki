@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/LittleWitchAnim
 public class LittleWitchAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Laetitia](/api/Global/Misc/LittleWitch).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → LittleWitchAnim
 
@@ -36,6 +41,8 @@ public LittleWitchAnim()
 ```csharp
 private const string _idle = "Reset"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _idle = "Reset"
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _skill = "Skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private LittleWitchAnim.AnimationState _state
 ```csharp
 private const string _work = "Work"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const string _work = "Work"
 ```csharp
 public BufRenderer bufRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public BufRenderer bufRenderer
 ```csharp
 public LittleWitch script
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,18 +137,25 @@ public LittleWitchAnim.AnimationState State { get; set; }
 ```csharp
 public override void OnCalled()
 ```
+#INC
+#code-generated
+
 
 ### OnSetAnimState()
 
 ```csharp
 private void OnSetAnimState()
 ```
+#INC
+
 
 ### SetScript(LittleWitch)
 
 ```csharp
 public void SetScript(LittleWitch script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -144,9 +168,13 @@ public void SetScript(LittleWitch script)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

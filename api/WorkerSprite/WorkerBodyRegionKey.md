@@ -11,6 +11,8 @@ canonical_path: /api/WorkerSprite/WorkerBodyRegionKey
 ```csharp
 public static class WorkerBodyRegionKey
 ```
+Strings associated with each body region
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerBodyRegionKey
@@ -25,6 +27,8 @@ public static class WorkerBodyRegionKey
 ```csharp
 public static string Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +39,8 @@ public static string Body
 ```csharp
 public static string Body_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public static string Body_Down
 ```csharp
 public static string Body_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static string Body_Up
 ```csharp
 public static string Coat_Back
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public static string Coat_Back
 ```csharp
 public static string Coat_Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public static string Coat_Left
 ```csharp
 public static string Coat_Right
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public static string Coat_Right
 ```csharp
 public static string[] keys
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public static string[] keys
 ```csharp
 public static string L_Arm_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public static string L_Arm_Down
 ```csharp
 public static string L_Arm_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,8 @@ public static string L_Arm_Up
 ```csharp
 public static string L_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +147,8 @@ public static string L_Hand
 ```csharp
 public static string L_Leg_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +159,8 @@ public static string L_Leg_Down
 ```csharp
 public static string L_Leg_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +171,8 @@ public static string L_Leg_Up
 ```csharp
 public static string R_Arm_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +183,8 @@ public static string R_Arm_Down
 ```csharp
 public static string R_Arm_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +195,8 @@ public static string R_Arm_Up
 ```csharp
 public static string R_Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +207,8 @@ public static string R_Hand
 ```csharp
 public static string R_Leg_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +219,8 @@ public static string R_Leg_Down
 ```csharp
 public static string R_Leg_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +233,9 @@ public static string R_Leg_Up
 ```csharp
 public static bool GetKey(BodySpriteRegion region, out string slot, out string attach)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

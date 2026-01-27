@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/SingingMachineWeapon
 public class SingingMachineWeapon : EquipmentScriptBase
 ```
 
+Script for [Singing Machine's](/api/Global/Machine/SingingMachine) EGO Weapon: Harmony.
+
+If the user has more than 10% HP, reduces current HP by 10% and does a special attack. Special attack has 30% higher minimum and maximum damage.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SingingMachineWeapon
 
@@ -33,6 +38,8 @@ public SingingMachineWeapon()
 ```csharp
 private const float _buf_ratio = 1.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _buf_ratio = 1.3
 ```csharp
 private const float _hp_condition = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _hp_condition = 0.1
 ```csharp
 private const float _hp_cost = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _hp_cost = 0.1
 ```csharp
 private bool isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ private bool isSpecial
 ```csharp
 public override DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,6 +106,8 @@ public override DamageInfo GetDamage(UnitModel actor)
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,9 +138,14 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

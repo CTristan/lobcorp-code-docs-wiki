@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/NextDayTutorial
 public class NextDayTutorial : Tutorial
 ```
 
+Ends when the next day button is clicked.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → NextDayTutorial
 
@@ -33,3 +38,6 @@ public NextDayTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SuppressCreatureTutorial
 public class SuppressCreatureTutorial : Tutorial, IObserver
 ```
 
+Ends a certain amount of time after a creature is suppressed.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SuppressCreatureTutorial
 
@@ -36,6 +41,8 @@ public SuppressCreatureTutorial()
 ```csharp
 private bool suppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool suppressed
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,24 +67,32 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,3 +106,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

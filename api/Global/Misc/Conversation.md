@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/Conversation
 ```csharp
 public class Conversation
 ```
+Holds sephirah yapping messages, for displaying in-game (e.g. upon agent death, abnormality escape...).
+
+Loaded by [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) from ExternalData/xml/Language/en/SefiraDesc_en.xml, or the appropriate language xml.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Conversation
@@ -25,6 +29,9 @@ public class Conversation
 ```csharp
 private Conversation()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private Conversation()
 ```csharp
 public Dictionary<int, List<SefiraMessage>> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Dictionary<int, List<SefiraMessage>> _dic
 ```csharp
 private static Conversation _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private static Conversation _instance
 ```csharp
 private bool _isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public bool isLoaded { get; }
 ```csharp
 public SefiraMessage GetSefiraMessage(int key, int type, bool isRobot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +120,8 @@ public SefiraMessage GetSefiraMessage(int key, int type, bool isRobot)
 ```csharp
 public SefiraMessage GetSefiraMessage(int key, int type, int tiphType, bool isRobot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,6 +141,8 @@ public SefiraMessage GetSefiraMessage(int key, int type, int tiphType, bool isRo
 ```csharp
 public void Init(Dictionary<int, List<SefiraMessage>> dic)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/NothingScreenEffect
 public class NothingScreenEffect : MonoBehaviour
 ```
 
+? #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NothingScreenEffect
 
@@ -33,6 +36,8 @@ public NothingScreenEffect()
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public Canvas canvas
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+

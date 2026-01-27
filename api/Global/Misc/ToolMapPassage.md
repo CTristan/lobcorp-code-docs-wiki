@@ -36,6 +36,8 @@ public ToolMapPassage()
 ```csharp
 public List<string> connectedSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public List<string> connectedSefira
 ```csharp
 public ToolMapPassage_bloodPoint ground
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public ToolMapPassage_bloodPoint ground
 ```csharp
 public float height
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public float height
 ```csharp
 public string passageGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public string passageGroup
 ```csharp
 public PassageObject passageObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public PassageObject passageObject
 ```csharp
 public string passageType
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ public string passageType
 ```csharp
 public string rabbitTeamGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ public string rabbitTeamGroup
 ```csharp
 public float scaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ public float scaleFactor
 ```csharp
 public string src
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public string src
 ```csharp
 private string srcOld
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ private string srcOld
 ```csharp
 public ToolMapPassage_bloodPoint wall
 ```
+#INC
+
 
 #### Field Value
 
@@ -148,6 +170,8 @@ public ToolMapPassage_bloodPoint wall
 ```csharp
 public static ToolMapPassage AddPassage(ToolMapSefiraArea sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,9 +188,14 @@ public static ToolMapPassage AddPassage(ToolMapSefiraArea sefira)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

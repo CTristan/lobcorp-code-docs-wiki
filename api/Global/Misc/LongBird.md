@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/LongBird
 public class LongBird : BirdCreatureBase, IBirdControl
 ```
 
+Judgement Bird.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → LongBird
 
@@ -36,6 +40,8 @@ public LongBird()
 ```csharp
 private LongBirdAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private LongBirdAnim _animScript
 ```csharp
 private BossBird.OtherBirdState _otherBirdState
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private LongBird.BirdState _state
 ```csharp
 private BossBird boss
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ private BossBird boss
 ```csharp
 private bool boss_activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private bool boss_activated
 ```csharp
 private const float castingCoolTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ private const float castingCoolTime = 20
 ```csharp
 private Timer castingCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ private Timer castingCoolTimer
 ```csharp
 private const float castingDelay = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ private const float castingDelay = 5
 ```csharp
 private Timer castingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ private Timer castingTimer
 ```csharp
 private MapNode currentDestNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ private MapNode currentDestNode
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ private RwbpType dmgType
 ```csharp
 public const string handEffect = "Effect/Creature/LongBird/LongBirdLights"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public const string handEffect = "Effect/Creature/LongBird/LongBirdLights"
 ```csharp
 private const int probMax = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ private const int probMax = 40
 ```csharp
 private const int probMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +216,8 @@ private const int probMin = 30
 ```csharp
 public const string scaleEffect = "Effect/Creature/LongBird/Unbalanced_Scale"
 ```
+#INC
+
 
 #### Field Value
 
@@ -270,12 +302,16 @@ public LongBird.BirdState state { get; set; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateSkill(List<WorkerModel>)
 
 ```csharp
 private void ActivateSkill(List<WorkerModel> workers)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,6 +324,8 @@ private void ActivateSkill(List<WorkerModel> workers)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,18 +343,24 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private void CheckOtherBird()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GenerateBoss(LongBird, SmallBird, BigBird)
 
 ```csharp
 private void GenerateBoss(LongBird l, SmallBird s, BigBird b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +375,8 @@ private void GenerateBoss(LongBird l, SmallBird s, BigBird b)
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -341,6 +387,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -351,6 +399,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -361,6 +411,8 @@ public override bool IsSuppressable()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,12 +429,16 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public void MakeDefaultMovement()
 ```
+#INC
+
 
 ### MakeMoveToGate(MapNode)
 
 ```csharp
 public void MakeMoveToGate(MapNode dest)
 ```
+#INC
+
 
 #### Parameters
 
@@ -395,6 +451,8 @@ public void MakeMoveToGate(MapNode dest)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -411,6 +469,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void MoveToMapNode(MapNode dest)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,6 +483,8 @@ public void MoveToMapNode(MapNode dest)
 ```csharp
 public void MoveToMovable(MovableObjectNode movable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -435,36 +497,48 @@ public void MoveToMovable(MovableObjectNode movable)
 ```csharp
 public void OnArrivedAndHide()
 ```
+#INC
+
 
 ### OnBossActivate()
 
 ```csharp
 public void OnBossActivate()
 ```
+#INC
+
 
 ### OnBossSuppressed()
 
 ```csharp
 public void OnBossSuppressed()
 ```
+#INC
+
 
 ### OnCastingAnimEnd()
 
 ```csharp
 public void OnCastingAnimEnd()
 ```
+#INC
+
 
 ### OnGateSuppressed()
 
 ```csharp
 public void OnGateSuppressed()
 ```
+#INC
+
 
 ### OnOpenCollectionWindow()
 
 ```csharp
 public override bool OnOpenCollectionWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -475,30 +549,41 @@ public override bool OnOpenCollectionWindow()
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,6 +596,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -523,18 +610,24 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ResetCast()
 
 ```csharp
 private void ResetCast()
 ```
+#INC
+
 
 ### SetBoss(BossBird)
 
 ```csharp
 public void SetBoss(BossBird boss)
 ```
+#INC
+
 
 #### Parameters
 
@@ -547,6 +640,8 @@ public void SetBoss(BossBird boss)
 ```csharp
 public override bool SetCastingSlider(Slider castingSlider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -563,15 +658,21 @@ public override bool SetCastingSlider(Slider castingSlider)
 ```csharp
 private void StartCasting()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 public void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

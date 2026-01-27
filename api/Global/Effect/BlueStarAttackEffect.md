@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effect/BlueStarAttackEffect
 ```csharp
 public class BlueStarAttackEffect : MonoBehaviour
 ```
+Effect for [Blue Star](/api/Global/IOBserver/BlueStar)'s attack.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BlueStarAttackEffect
@@ -44,6 +46,8 @@ public BlueStarAnim _blueStarAnim
 ```csharp
 public BlueStarAttackCollider attackCollider
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +68,8 @@ private BlueStarAttackEffect.State currentState
 ```csharp
 private float currentTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +80,8 @@ private float currentTime
 ```csharp
 public Transform DamageQuad
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +92,8 @@ public Transform DamageQuad
 ```csharp
 public AnimationCurve DamageScaleCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +104,8 @@ public AnimationCurve DamageScaleCurve
 ```csharp
 public AnimationCurve DistortionCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +116,8 @@ public AnimationCurve DistortionCurve
 ```csharp
 public float ExplosionDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +128,8 @@ public float ExplosionDuration
 ```csharp
 public Material ExplosionMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +140,8 @@ public Material ExplosionMat
 ```csharp
 public Transform ExplosionQuad
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +152,8 @@ public Transform ExplosionQuad
 ```csharp
 public float ImplosionDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +164,8 @@ public float ImplosionDuration
 ```csharp
 public float PauseDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +176,8 @@ public float PauseDuration
 ```csharp
 public AnimationCurve ScaleCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +190,8 @@ public AnimationCurve ScaleCurve
 ```csharp
 private float GetStateDuration()
 ```
+#INC
+
 
 #### Returns
 
@@ -176,30 +202,41 @@ private float GetStateDuration()
 ```csharp
 private void NextState()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 public void Reset()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateExplosion(float)
 
 ```csharp
 private void UpdateExplosion(float fraction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,6 +249,8 @@ private void UpdateExplosion(float fraction)
 ```csharp
 private void UpdateImplosion(float fraction)
 ```
+#INC
+
 
 #### Parameters
 

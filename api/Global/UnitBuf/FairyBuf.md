@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FairyBuf
 public class FairyBuf : UnitBuf
 ```
 
+Effect given by [Fairy Festival](/api/Global/Misc/Fairy) which heals over time, and kills instantly if assigned to work another abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FairyBuf
 
@@ -25,6 +28,8 @@ public class FairyBuf : UnitBuf
 ```csharp
 public FairyBuf(Fairy script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public FairyBuf(Fairy script)
 ```csharp
 private const float _bufRemainTime = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private const float _bufRemainTime = 8
 ```csharp
 private const float _healRatio = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private const float _healRatio = 0.1
 ```csharp
 private const float _healTickTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private const float _healTickTime = 1
 ```csharp
 private const string _sound_dead = "creature/Fairy/Fairy_Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private const string _sound_dead = "creature/Fairy/Fairy_Dead"
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private AgentModel agent
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ private GameObject effect
 ```csharp
 private Timer healTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +128,8 @@ private Timer healTickTimer
 ```csharp
 private Fairy script
 ```
+#INC
+
 
 #### Field Value
 
@@ -121,24 +142,33 @@ private Fairy script
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### DestroyEffect()
 
 ```csharp
 private void DestroyEffect()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -151,6 +181,8 @@ public override void Init(UnitModel model)
 ```csharp
 private void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,3 +195,5 @@ private void OnAnimCalled(int i)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

@@ -12,6 +12,13 @@ canonical_path: /api/BinahBoss/ThirdPhase
 public class ThirdPhase : BinahPhaseExecution
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s third phase behavior.
+
+Binah gets a [Golden](/api/BinahBoss/GoldenOverload), [Black Fog](/api/BinahBoss/BlackFogOverload), [Wave](/api/BinahBoss/WaveOverload), and [|Column](/api/BinahBoss/EightColumn) overloads, then opens with the [Black Fog](/api/BinahBoss/BlackThron) attack, Column attack, and then begins moving. If she gets her overloads back, she will open with the Black Fog attack, then decide randomly to start the column attack (if she isn't doing it already), or otherwise queue an overload.
+
+If someone is near her, she will randomly choose to either use her [Blade Wave](/api/BinahBoss/BladeWaveThrow) or [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahPhaseExecution](/api/BinahBoss/BinahPhaseExecution) → ThirdPhase
 
@@ -25,6 +32,8 @@ public class ThirdPhase : BinahPhaseExecution
 ```csharp
 public ThirdPhase(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +48,8 @@ public ThirdPhase(BinahCoreScript binah)
 ```csharp
 private Timer columnTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +60,8 @@ private Timer columnTimer
 ```csharp
 private const float forcelyRunTime = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +72,8 @@ private const float forcelyRunTime = 70
 ```csharp
 private Timer forcelyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,12 +86,17 @@ private Timer forcelyTimer
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override BinahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,9 +113,13 @@ public override BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

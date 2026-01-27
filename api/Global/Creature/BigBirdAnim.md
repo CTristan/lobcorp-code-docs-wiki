@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BigBirdAnim
 public class BigBirdAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Big Bird](/api/Global/Misc/BigBird)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BigBirdAnim
 
@@ -36,6 +39,8 @@ public BigBirdAnim()
 ```csharp
 private BigBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,36 +53,49 @@ private BigBird script
 ```csharp
 private void AttractSound()
 ```
+#INC
+
 
 ### DeadSceneSound_1()
 
 ```csharp
 private void DeadSceneSound_1()
 ```
+#INC
+
 
 ### DeadSceneSound_2()
 
 ```csharp
 private void DeadSceneSound_2()
 ```
+#INC
+
 
 ### EndCast()
 
 ```csharp
 private void EndCast()
 ```
+#INC
+
 
 ### EndDeadScene()
 
 ```csharp
 private void EndDeadScene()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -88,12 +106,16 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsCasting()
 
 ```csharp
 public bool IsCasting()
 ```
+#INC
+
 
 #### Returns
 
@@ -104,6 +126,8 @@ public bool IsCasting()
 ```csharp
 public bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -114,6 +138,8 @@ public bool IsInDeadScene()
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -126,54 +152,72 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCancelCast()
 ```
+#INC
+
 
 ### OnEscape()
 
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStartCast()
 
 ```csharp
 public void OnStartCast()
 ```
+#INC
+
 
 ### OnStartDeadScene()
 
 ```csharp
 public void OnStartDeadScene()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### OnSuccessCast()
 
 ```csharp
 public void OnSuccessCast()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(BigBird)
 
 ```csharp
 public void SetScript(BigBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,3 +230,5 @@ public void SetScript(BigBird script)
 ```csharp
 private void Step()
 ```
+#INC
+

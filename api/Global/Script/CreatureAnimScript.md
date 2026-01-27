@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/CreatureAnimScript
 public class CreatureAnimScript : AnimScript
 ```
 
+Parent class for abnormality animation handlers.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → CreatureAnimScript
 
@@ -36,6 +39,8 @@ public CreatureAnimScript()
 ```csharp
 public GameObject head
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public GameObject head
 ```csharp
 public SuperArmorEffect superArmorEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public SuperArmorEffect superArmorEffect
 ```csharp
 public const string SuperArmorEffectSrc = "Effect/SuperArmorEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,18 +87,25 @@ private Stack<CreatureAnimScript.ParameterInfo> updatedParameters
 ```csharp
 protected virtual void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DeleteSuperArmorEffect()
 
 ```csharp
 public virtual void DeleteSuperArmorEffect()
 ```
+#INC
+
 
 ### FlipDirection(bool)
 
 ```csharp
 public void FlipDirection(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,6 +118,8 @@ public void FlipDirection(bool b)
 ```csharp
 public SuperArmorEffect GetSuperArmor()
 ```
+#INC
+
 
 #### Returns
 
@@ -112,6 +130,8 @@ public SuperArmorEffect GetSuperArmor()
 ```csharp
 public virtual bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -122,42 +142,56 @@ public virtual bool HasDeadMotion()
 ```csharp
 protected virtual void LateUpdate()
 ```
+#INC
+
 
 ### LoadSuperArmorEffect()
 
 ```csharp
 public virtual void LoadSuperArmorEffect()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public virtual void Move()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public virtual void PlayDeadMotion()
 ```
+#INC
+
 
 ### PlayRevivalMotion()
 
 ```csharp
 public virtual void PlayRevivalMotion()
 ```
+#INC
+
 
 ### ResetAnimator()
 
 ```csharp
 public virtual void ResetAnimator()
 ```
+#INC
+
 
 ### SetParameter(string, bool)
 
 ```csharp
 public void SetParameter(string pname, bool value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,9 +205,13 @@ public void SetParameter(string pname, bool value)
 ```csharp
 public virtual void Stop()
 ```
+#INC
+
 
 ### StopMoving()
 
 ```csharp
 public virtual void StopMoving()
 ```
+#INC
+

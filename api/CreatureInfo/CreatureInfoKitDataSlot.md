@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoKitDataSlot
 ```csharp
 public class CreatureInfoKitDataSlot : MonoBehaviour
 ```
+Tool abnormality data box
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoKitDataSlot
@@ -33,6 +35,8 @@ public CreatureInfoKitDataSlot()
 ```csharp
 private const float defHeightDeltaPivot = 82.75
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private const float defHeightDeltaPivot = 82.75
 ```csharp
 private const float defHeightValue = 0.02
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private const float defHeightValue = 0.02
 ```csharp
 private const float defWidth = 1229.7
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +82,8 @@ public GameObject disabled
 ```csharp
 public RectTransform left
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +105,8 @@ public Text Left_RecordText
 ```csharp
 public Text needCostText
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +128,8 @@ public RectTransform positionRef
 ```csharp
 public RectTransform right
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +140,8 @@ public RectTransform right
 ```csharp
 public Text Right_UseText
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +199,8 @@ private RectTransform rect { get; }
 ```csharp
 public float GetDiff()
 ```
+#INC
+
 
 #### Returns
 
@@ -193,6 +211,9 @@ public float GetDiff()
 ```csharp
 public void SetRect(RectTransform reference)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -205,6 +226,8 @@ public void SetRect(RectTransform reference)
 ```csharp
 public void SetWidth(float diff)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,9 +240,13 @@ public void SetWidth(float diff)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

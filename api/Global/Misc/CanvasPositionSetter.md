@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CanvasPositionSetter
 ```csharp
 public class CanvasPositionSetter : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CanvasPositionSetter
@@ -33,6 +35,8 @@ public CanvasPositionSetter()
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Canvas canvas
 ```csharp
 public Vector3 StartPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,3 +61,6 @@ public Vector3 StartPosition
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Object/SefiraObject
 public class SefiraObject : MonoBehaviour
 ```
 
+A department, maybe as it appears in-game?
+
+Managed by [SefiraMapLayer](/api/Global/IOBserver/SefiraMapLayer).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraObject
 
@@ -33,6 +40,8 @@ public SefiraObject()
 ```csharp
 private List<PassageObject> passageList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public SefiraObject.AreaRange range
 ```csharp
 public string sefiraName
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public string sefiraName
 ```csharp
 public void AddBloodMapObject(BloodMapObjectModel mapObjModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +90,8 @@ public void AddBloodMapObject(BloodMapObjectModel mapObjModel)
 ```csharp
 public void AddPassageDoor(PassageObjectModel model, DoorObjectModel doorModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,6 +105,8 @@ public void AddPassageDoor(PassageObjectModel model, DoorObjectModel doorModel)
 ```csharp
 public void AddPassageObject(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,18 +119,25 @@ public void AddPassageObject(PassageObjectModel model)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Clear()
 
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### GetPassageObject(string)
 
 ```csharp
 public PassageObject GetPassageObject(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +154,8 @@ public PassageObject GetPassageObject(string id)
 ```csharp
 public ReadOnlyCollection<PassageObject> GetPassageObjects()
 ```
+#INC
+
 
 #### Returns
 
@@ -140,12 +166,16 @@ public ReadOnlyCollection<PassageObject> GetPassageObjects()
 ```csharp
 public void InitAreaActivate()
 ```
+#INC
+
 
 ### InitPassageObject(PassageObjectModel)
 
 ```csharp
 public bool InitPassageObject(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,24 +192,32 @@ public bool InitPassageObject(PassageObjectModel model)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### RemoveDynamicPassages()
 
 ```csharp
 public void RemoveDynamicPassages()
 ```
+#INC
+
 
 ### SetAreaActivate(string, bool)
 
 ```csharp
 public void SetAreaActivate(string passageGroup, bool bActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +231,8 @@ public void SetAreaActivate(string passageGroup, bool bActive)
 ```csharp
 public void SetAreaActivateAll(bool bActive)
 ```
+#INC
+
 
 #### Parameters
 

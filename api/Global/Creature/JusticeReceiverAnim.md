@@ -12,6 +12,12 @@ canonical_path: /api/Global/Creature/JusticeReceiverAnim
 public class JusticeReceiverAnim : CreatureAnimScript
 ```
 
+Animation handler for [Behavior Adjustment](/api/Global/Misc/JusticeReceiver). No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → JusticeReceiverAnim
 

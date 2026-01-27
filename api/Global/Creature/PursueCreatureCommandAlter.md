@@ -12,6 +12,14 @@ canonical_path: /api/Global/Creature/PursueCreatureCommandAlter
 public class PursueCreatureCommandAlter : CreatureCommand
 ```
 
+Command to pursue a nearby worker.
+
+Attacks if close enough, and otherwise moves towards the target worker.
+Every second, checks if there is a valid target within 5 units, and switches targets to them (sort of randomly); otherwise, starts roaming.
+
+Ends when this creature is no longer breaching or the target is dead #verify.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureCommand](/api/Global/Misc/CreatureCommand) → PursueCreatureCommandAlter
 
@@ -25,6 +33,8 @@ public class PursueCreatureCommandAlter : CreatureCommand
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +47,8 @@ public PursueCreatureCommandAlter(WorkerModel target)
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -50,6 +62,8 @@ public PursueCreatureCommandAlter(WorkerModel target, float damage)
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target, RwbpType dmgType, int dmgMin, int dmgMax)
 ```
+#INC
+
 
 #### Parameters
 
@@ -67,6 +81,8 @@ public PursueCreatureCommandAlter(WorkerModel target, RwbpType dmgType, int dmgM
 ```csharp
 private Timer changeTargetTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +93,8 @@ private Timer changeTargetTimer
 ```csharp
 private float damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +105,8 @@ private float damage
 ```csharp
 private int dmgMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +117,8 @@ private int dmgMax
 ```csharp
 private int dmgMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +129,8 @@ private int dmgMin
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +141,8 @@ private RwbpType dmgType
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +153,8 @@ private float elapsedTime
 ```csharp
 private const float maxWaitTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +165,8 @@ private const float maxWaitTime = 10
 ```csharp
 private WorkerModel targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +177,8 @@ private WorkerModel targetWorker
 ```csharp
 private float waitingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,27 +191,38 @@ private float waitingTime
 ```csharp
 private void CheckPursueTarget()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

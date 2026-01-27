@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effecter/TVDistortedFadeEffecter
 public class TVDistortedFadeEffecter : MonoBehaviour
 ```
 
+Wrapper for CameraFilterPack_TV_Distorted.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TVDistortedFadeEffecter
 
@@ -33,6 +38,8 @@ public TVDistortedFadeEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _elapsedTime
 ```csharp
 public CameraFilterPack_TV_Distorted target
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,3 +64,6 @@ public CameraFilterPack_TV_Distorted target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

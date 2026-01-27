@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/Vector2Serializer
 ```csharp
 public class Vector2Serializer
 ```
+Tool for loading and saving 2D vectors to disk. Only used by [CreatureModel](/api/Global/Model/CreatureModel) for their "basePosition?" #INC 
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Vector2Serializer
@@ -25,12 +28,17 @@ public class Vector2Serializer
 ```csharp
 public Vector2Serializer()
 ```
+#INC
+#code-generated
+
 
 ### Vector2Serializer(Vector2)
 
 ```csharp
 public Vector2Serializer(Vector2 v2)
 ```
+#INC
+
 
 #### Parameters
 
@@ -45,6 +53,8 @@ public Vector2Serializer(Vector2 v2)
 ```csharp
 public float x
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +65,8 @@ public float x
 ```csharp
 public float y
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ public Vector3 V2 { get; set; }
 ```csharp
 public void Fill(Vector2 v2)
 ```
+#INC
+
 
 #### Parameters
 

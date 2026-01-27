@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SpecialEnding
 public class SpecialEnding : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpecialEnding
 
@@ -33,6 +36,8 @@ public SpecialEnding()
 ```csharp
 public AudioSource audio
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public AudioSource audio
 ```csharp
 public RawImage endingImg
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public RawImage endingImg
 ```csharp
 private MovieTexture mt1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private MovieTexture mt1
 ```csharp
 private bool nowLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,8 @@ private bool nowLoading
 ```csharp
 private IEnumerator Continue()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,12 +98,16 @@ private IEnumerator Continue()
 ```csharp
 public void LoadUnlimit()
 ```
+#INC
+
 
 ### Reload()
 
 ```csharp
 private IEnumerator Reload()
 ```
+#INC
+
 
 #### Returns
 
@@ -101,15 +118,22 @@ private IEnumerator Reload()
 ```csharp
 public void ReturnToIntro()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

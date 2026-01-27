@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/PlayerController
 public class PlayerController : MonoBehaviour
 ```
 
+A player? Seems like from a unity tutorial, to be honest, but I can't prove it yet... #INC 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlayerController
 
@@ -33,6 +37,8 @@ public PlayerController()
 ```csharp
 public bool cameraWalk
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public bool cameraWalk
 ```csharp
 public GameObject face
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public GameObject face
 ```csharp
 public bool facingRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public bool facingRight
 ```csharp
 public Transform groundCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Transform groundCheck
 ```csharp
 private bool grounded
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private bool grounded
 ```csharp
 private float groundRadius
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private float groundRadius
 ```csharp
 public float jumpForce
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public float jumpForce
 ```csharp
 private int k
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private int k
 ```csharp
 public float maxSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public float maxSpeed
 ```csharp
 public float oldPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public float oldPos
 ```csharp
 public Animator playerAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ public Animator playerAnimator
 ```csharp
 public Animator playerBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ public Animator playerBody
 ```csharp
 public Animator playerFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ public Animator playerFace
 ```csharp
 public Animator playerHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ public Animator playerHair
 ```csharp
 public bool playerMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ public bool playerMove
 ```csharp
 public LayerMask whatIsGround
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,24 +231,32 @@ public LayerMask whatIsGround
 ```csharp
 private void Filp()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### LateUpdate()
 
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### OnCollisionEnter2D(Collision2D)
 
 ```csharp
 private void OnCollisionEnter2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,9 +269,14 @@ private void OnCollisionEnter2D(Collision2D col)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

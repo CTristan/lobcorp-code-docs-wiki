@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/StoryCharacter
 ```csharp
 public class StoryCharacter
 ```
+Stores the id, name, and CG name of a story character.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryCharacter
@@ -33,6 +37,8 @@ public StoryCharacter()
 ```csharp
 public string cg
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,9 @@ public string cg
 ```csharp
 public string id
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public string id
 ```csharp
 public string name
 ```
+#INC
+
 
 #### Field Value
 

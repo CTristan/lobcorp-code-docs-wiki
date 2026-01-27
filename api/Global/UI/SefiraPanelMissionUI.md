@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/SefiraPanelMissionUI
 public class SefiraPanelMissionUI : MonoBehaviour
 ```
 
+Displays a mission (or the prerequisites needed) on the [deployment screen](/api/Global/UI/DeployUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraPanelMissionUI
 
@@ -33,6 +36,8 @@ public SefiraPanelMissionUI()
 ```csharp
 public bool hasUniqueDisable
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public bool hasUniqueDisable
 ```csharp
 public Text MissionContext
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Text MissionContext
 ```csharp
 public Text MissionPrefix
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Text MissionPrefix
 ```csharp
 public Text MissionTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Text MissionTitle
 ```csharp
 public Text NoMission
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Text NoMission
 ```csharp
 public bool notDisabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +110,9 @@ public bool notDisabled
 ```csharp
 public void InitProgressMission(Mission mission)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -107,6 +125,8 @@ public void InitProgressMission(Mission mission)
 ```csharp
 public void InitRequireBossStarting(List<string> requireText)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +139,8 @@ public void InitRequireBossStarting(List<string> requireText)
 ```csharp
 public void InitRequireMission(List<string> requireText)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,3 +153,5 @@ public void InitRequireMission(List<string> requireText)
 ```csharp
 public void UniqueDisable()
 ```
+#INC
+

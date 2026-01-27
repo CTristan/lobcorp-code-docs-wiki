@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/SnowWhiteGift
 public class SnowWhiteGift : EquipmentScriptBase
 ```
 
+Script for [Snow White's Apple](/api/Global/Misc/SnowWhite)'s EGO Gift: Green Stem. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SnowWhiteGift
 

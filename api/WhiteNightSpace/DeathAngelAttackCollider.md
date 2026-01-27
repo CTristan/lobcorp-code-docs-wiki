@@ -36,6 +36,8 @@ public DeathAngelAttackCollider()
 ```csharp
 public DeathAngel _deathAngel
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +50,8 @@ public DeathAngel _deathAngel
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -60,6 +64,9 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

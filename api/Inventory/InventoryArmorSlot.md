@@ -12,6 +12,13 @@ canonical_path: /api/Inventory/InventoryArmorSlot
 public class InventoryArmorSlot : InventorySlot
 ```
 
+EGO Suit entry.
+
+See [InventoryItemController](/api/Inventory/InventoryItemController)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [InventorySlot](/api/Inventory/InventorySlot) → InventoryArmorSlot
 
@@ -33,6 +40,8 @@ public InventoryArmorSlot()
 ```csharp
 private ArmorModel _armor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private ArmorModel _armor
 ```csharp
 public Text[] DefenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public Text[] DefenseFactor
 ```csharp
 public Text[] DefenseInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public Text[] DefenseInfo
 ```csharp
 private string oldText
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private string oldText
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +114,16 @@ public ArmorModel Armor { get; }
 ```csharp
 public override void ApplyPortrait()
 ```
+#INC
+
 
 ### CheckTransformRaycast(Transform)
 
 ```csharp
 private void CheckTransformRaycast(Transform t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -115,54 +136,72 @@ private void CheckTransformRaycast(Transform t)
 ```csharp
 public void InitScroll()
 ```
+#INC
+
 
 ### OnCheckOwner()
 
 ```csharp
 public void OnCheckOwner()
 ```
+#INC
+
 
 ### OnClickEquipment()
 
 ```csharp
 public void OnClickEquipment()
 ```
+#INC
+
 
 ### OnClickToolTip()
 
 ```csharp
 public void OnClickToolTip()
 ```
+#INC
+
 
 ### OnDisabledClick()
 
 ```csharp
 public void OnDisabledClick()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnEnterEquip()
 
 ```csharp
 public void OnEnterEquip()
 ```
+#INC
+
 
 ### OnExitEquip()
 
 ```csharp
 public void OnExitEquip()
 ```
+#INC
+
 
 ### SetArmor(ArmorModel)
 
 ```csharp
 public void SetArmor(ArmorModel armor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,15 +214,22 @@ public void SetArmor(ArmorModel armor)
 ```csharp
 public void SetEquipmentText()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateUI()
 
 ```csharp
 public override void UpdateUI()
 ```
+#INC
+#code-generated
+

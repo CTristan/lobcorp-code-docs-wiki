@@ -11,6 +11,9 @@ canonical_path: /api/Manual/ManualTextSlot
 ```csharp
 public class ManualTextSlot : MonoBehaviour
 ```
+Text slot
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ManualTextSlot
@@ -33,6 +36,8 @@ public ManualTextSlot()
 ```csharp
 public Text text
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Text text
 ```csharp
 public TextData textData
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +74,9 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void Init(TextData textData)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/InventoryTapTutorial
 public class InventoryTapTutorial : Tutorial, IObserver
 ```
 
+Ends when an agent is equipped with armor.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → InventoryTapTutorial
 
@@ -36,6 +40,8 @@ public InventoryTapTutorial()
 ```csharp
 public InventoryItemType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,18 +54,24 @@ public InventoryItemType type
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,3 +85,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

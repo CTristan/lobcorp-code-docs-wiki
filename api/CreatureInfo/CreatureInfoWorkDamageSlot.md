@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoWorkDamageSlot
 ```csharp
 public class CreatureInfoWorkDamageSlot : MonoBehaviour
 ```
+Section for work damage
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoWorkDamageSlot
@@ -33,6 +35,8 @@ public CreatureInfoWorkDamageSlot()
 ```csharp
 public Text DamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Text DamageRange
 ```csharp
 public Text Type
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +73,8 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void SetData(DamageInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -79,9 +87,14 @@ public void SetData(DamageInfo info)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

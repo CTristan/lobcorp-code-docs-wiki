@@ -36,6 +36,8 @@ public ToolMapSefiraArea()
 ```csharp
 public string sefiraName
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public string sefiraName
 ```csharp
 public int sub
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +62,8 @@ public int sub
 ```csharp
 public static ToolMapSefiraArea AddSefiraArea(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -74,3 +80,6 @@ public static ToolMapSefiraArea AddSefiraArea(string name)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+

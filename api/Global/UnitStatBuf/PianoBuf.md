@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitStatBuf/PianoBuf
 public class PianoBuf : UnitStatBuf
 ```
 
+Buff applied to agents while an agent is playing [Il Pianto della Luna](/api/Global/Misc/Piano)'s piano.
+
+Adds 5 to justice and temperance.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → PianoBuf
 
@@ -25,6 +30,8 @@ public class PianoBuf : UnitStatBuf
 ```csharp
 public PianoBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public PianoBuf()
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private AgentModel agent
 ```csharp
 private const int JUSTICE_BUF = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const int JUSTICE_BUF = 5
 ```csharp
 private const int TEMPERANCE_BUF = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +78,9 @@ private const int TEMPERANCE_BUF = 5
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,3 +93,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

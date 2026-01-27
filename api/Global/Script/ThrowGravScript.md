@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/ThrowGravScript
 public class ThrowGravScript : MonoBehaviour
 ```
 
+Applies gravity to a ThrowedItem prefab, maybe.
+
+#INC #unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ThrowGravScript
 
@@ -33,6 +38,8 @@ public ThrowGravScript()
 ```csharp
 public ThrowItem Attach
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public ThrowItem Attach
 ```csharp
 private bool clockWise
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool clockWise
 ```csharp
 private bool fix
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool fix
 ```csharp
 public float fixRotMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public float fixRotMax
 ```csharp
 public float fixRotMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public float fixRotMin
 ```csharp
 private Vector2 force
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private Vector2 force
 ```csharp
 public float forceMult
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public float forceMult
 ```csharp
 public float gravitiy
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public float gravitiy
 ```csharp
 public float groundPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public float groundPos
 ```csharp
 public ThrowItem Low
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public ThrowItem Low
 ```csharp
 public ThrowItem Mid
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public ThrowItem Mid
 ```csharp
 private float scale
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private float scale
 ```csharp
 private bool shooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private bool shooted
 ```csharp
 public Vector2 startMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public Vector2 startMax
 ```csharp
 public Vector2 startMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public Vector2 startMin
 ```csharp
 private Vector2 startPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private Vector2 startPos
 ```csharp
 private float startTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private float startTime
 ```csharp
 public ThrowItem Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,18 +268,24 @@ private float factor { get; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### FixRot()
 
 ```csharp
 public void FixRot()
 ```
+#INC
+
 
 ### ForceRot(float)
 
 ```csharp
 private IEnumerator ForceRot(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -255,6 +302,8 @@ private IEnumerator ForceRot(float val)
 ```csharp
 private Vector2 GenForce()
 ```
+#INC
+
 
 #### Returns
 
@@ -265,6 +314,8 @@ private Vector2 GenForce()
 ```csharp
 private bool GroundCheck()
 ```
+#INC
+
 
 #### Returns
 
@@ -275,6 +326,8 @@ private bool GroundCheck()
 ```csharp
 private float Power(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +344,8 @@ private float Power(float val)
 ```csharp
 public void SetSprite(Sprite up, Sprite mid, Sprite attach)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,6 +360,8 @@ public void SetSprite(Sprite up, Sprite mid, Sprite attach)
 ```csharp
 public void Shoot(float ground, float scaleFactor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -318,9 +375,14 @@ public void Shoot(float ground, float scaleFactor)
 ```csharp
 public void ShootRandomly()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

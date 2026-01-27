@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/GameUtil
 ```csharp
 public class GameUtil
 ```
+Holds the method which grabs values from dictionaries (TryGetValue), and some other mostly unused stuff.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GameUtil
@@ -33,6 +37,8 @@ public GameUtil()
 ```csharp
 public static string h
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public static string h
 ```csharp
 public static string h2
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static string h2
 ```csharp
 public static void SetRendererAlpha(SpriteRenderer renderer, float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -68,6 +78,9 @@ public static void SetRendererAlpha(SpriteRenderer renderer, float alpha)
 ```csharp
 public static bool TryGetValue<T>(Dictionary<string, object> dic, string name, ref T field)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

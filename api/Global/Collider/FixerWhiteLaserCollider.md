@@ -12,6 +12,9 @@ canonical_path: /api/Global/Collider/FixerWhiteLaserCollider
 public class FixerWhiteLaserCollider : MonoBehaviour
 ```
 
+Collider for the [White Fixer](/api/Global/Misc/FixerWhite)'s laser attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FixerWhiteLaserCollider
 
@@ -33,6 +36,8 @@ public FixerWhiteLaserCollider()
 ```csharp
 public FixerWhiteLaserScript root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ public FixerWhiteLaserScript root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +65,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,6 +79,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

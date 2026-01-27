@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effecter/TVBrokenGlassEffecter
 public class TVBrokenGlassEffecter : MonoBehaviour
 ```
 
+Wrapper for CamerFilterPack_TV_BrokenGlass.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TVBrokenGlassEffecter
 
@@ -33,6 +38,8 @@ public TVBrokenGlassEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _elapsedTime
 ```csharp
 private float _lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float _lifetime
 ```csharp
 private float _value
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private float _value
 ```csharp
 public CameraFilterPack_TV_BrokenGlass target
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,3 +88,6 @@ public CameraFilterPack_TV_BrokenGlass target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

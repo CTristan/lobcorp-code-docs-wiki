@@ -12,6 +12,12 @@ canonical_path: /api/Global/Object/ScrollableObject
 public class ScrollableObject : MonoBehaviour, IScrollTarget
 ```
 
+Script which allows taking the focus of mouse scrolling.
+
+Used by the SystemLogWindow (the work log in the in-game UI, and a different version in the tutorial) to keep the camera from zooming in and out while the cursor is over the log #verify .
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ScrollableObject
 
@@ -36,6 +42,8 @@ public ScrollableObject()
 ```csharp
 private EventTrigger eventTrigger
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +54,8 @@ private EventTrigger eventTrigger
 ```csharp
 public bool SetCursor
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,21 +68,30 @@ public bool SetCursor
 ```csharp
 public void AddTrigger()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### DeRegist()
 
 ```csharp
 public void DeRegist()
 ```
+#INC
+
 
 ### Regist()
 
 ```csharp
 public void Regist()
 ```
+#INC
+

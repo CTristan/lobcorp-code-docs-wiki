@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/EffectInfo
 ```csharp
 public class EffectInfo
 ```
+Has information about a damage effect and provides static methods to invoke the effect.
+
+Used by [DamageInfo](/api/Global/Info/DamageInfo) and [WeaponModel](/api/Global/Model/WeaponModel)s.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EffectInfo
@@ -33,6 +39,8 @@ public EffectInfo()
 ```csharp
 public const string EffectPrefix = "DamageInfo/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public const string EffectPrefix = "DamageInfo/"
 ```csharp
 public string effectSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public string effectSrc
 ```csharp
 public DamageInfo_EffectType effectType
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public DamageInfo_EffectType effectType
 ```csharp
 public EffectInvokedUnit invokedUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public EffectInvokedUnit invokedUnit
 ```csharp
 public bool invokeOnce
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ public bool invokeOnce
 ```csharp
 public float lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ public float lifetime
 ```csharp
 public Vector3 relativePosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public Vector3 relativePosition
 ```csharp
 public float rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public float rotation
 ```csharp
 public bool unscaled
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +149,9 @@ public bool unscaled
 ```csharp
 public static EffectInvoker MakeEffect(EffectInfo info, MovableObjectNode mov)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -142,6 +169,8 @@ public static EffectInvoker MakeEffect(EffectInfo info, MovableObjectNode mov)
 ```csharp
 public EffectInvoker MakeEffect(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 

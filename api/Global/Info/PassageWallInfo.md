@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/PassageWallInfo
 ```csharp
 public class PassageWallInfo
 ```
+Holds the height of a wall and the sprites on it in some [room](/api/Global/Model/PassageObjectModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PassageWallInfo
@@ -25,6 +29,9 @@ public class PassageWallInfo
 ```csharp
 public PassageWallInfo()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public PassageWallInfo()
 ```csharp
 public List<Sprite> alterSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public List<Sprite> alterSprites
 ```csharp
 public List<Sprite> bloodSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public List<Sprite> bloodSprites
 ```csharp
 public float height
 ```
+#INC
+
 
 #### Field Value
 

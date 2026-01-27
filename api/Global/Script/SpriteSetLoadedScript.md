@@ -93,6 +93,8 @@ public SpriteState state { get; set; }
 ```csharp
 public override void ChangeSefira(SefiraEnum target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,21 +107,30 @@ public override void ChangeSefira(SefiraEnum target)
 ```csharp
 public override void LoadSefiraData()
 ```
+#INC
+
 
 ### LoadSprite()
 
 ```csharp
 public override void LoadSprite()
 ```
+#INC
+#code-generated
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/DangoCreature
 public class DangoCreature : CreatureBase, IObserver
 ```
 
+Mountain of Smiling Bodies.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DangoCreature
 
@@ -36,6 +39,8 @@ public DangoCreature()
 ```csharp
 private DangoCreatureAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private DangoCreatureAnim _animScript
 ```csharp
 private Timer _attackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private Timer _attackDelay
 ```csharp
 private const float _attackDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const float _attackDelayMax = 1
 ```csharp
 private const float _attackDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const float _attackDelayMin = 0.5
 ```csharp
 private int _currentAgentDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ private DangoCreature.Level _dangoLevel
 ```csharp
 private int _eatenCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ private int _eatenCount
 ```csharp
 private List<UnitModel> _eatenUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private List<UnitModel> _eatenUnit
 ```csharp
 private SoundEffectPlayer _escapedSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private SoundEffectPlayer _escapedSound
 ```csharp
 private Timer _escapedSoundFreqTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private Timer _escapedSoundFreqTimer
 ```csharp
 private const float _escapeSoundFreqMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private const float _escapeSoundFreqMax = 30
 ```csharp
 private const float _escapeSoundFreqMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ private const float _escapeSoundFreqMin = 20
 ```csharp
 private readonly int[] _hpMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ private readonly int[] _hpMax
 ```csharp
 private const int _lv3_SkillProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ private const int _lv3_SkillProb = 30
 ```csharp
 private readonly float[] _movementScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ private readonly float[] _movementScale
 ```csharp
 private const int _workerDeadQliphothCount = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ private const int _workerDeadQliphothCount = 10
 ```csharp
 public const int CollapseEatCount = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ public const int CollapseEatCount = 3
 ```csharp
 private List<WorkerModel> deadList
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ private List<WorkerModel> deadList
 ```csharp
 public const string DebugPrefix = "<color=#FFFF33>[DangoCreature]</color> "
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ public const string DebugPrefix = "<color=#FFFF33>[DangoCreature]</color> "
 ```csharp
 private UnitModel destDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ private UnitModel destDead
 ```csharp
 private MapNode destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ private MapNode destNode
 ```csharp
 public const int QCountMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -310,18 +355,24 @@ private float EscapedSoundFreq { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AddedQliphothCounter()
 
 ```csharp
 public override void AddedQliphothCounter()
 ```
+#INC
+
 
 ### AttackDamageInvoke(int)
 
 ```csharp
 public void AttackDamageInvoke(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -334,12 +385,16 @@ public void AttackDamageInvoke(int attackType)
 ```csharp
 private void CheckAttackTarget()
 ```
+#INC
+
 
 ### CheckCollapseTrample(List<UnitModel>)
 
 ```csharp
 private void CheckCollapseTrample(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,12 +407,16 @@ private void CheckCollapseTrample(List<UnitModel> near)
 ```csharp
 private void CheckDeadAvailable()
 ```
+#INC
+
 
 ### CheckEnterState(UseSkill)
 
 ```csharp
 private bool CheckEnterState(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +433,8 @@ private bool CheckEnterState(UseSkill skill)
 ```csharp
 private bool CheckExitState(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,18 +451,24 @@ private bool CheckExitState(UseSkill skill)
 ```csharp
 private void CheckNearestDead()
 ```
+#INC
+
 
 ### CheckQliphothCounter()
 
 ```csharp
 private void CheckQliphothCounter()
 ```
+#INC
+
 
 ### EatenCollapse(UnitModel)
 
 ```csharp
 public void EatenCollapse(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -414,24 +481,32 @@ public void EatenCollapse(UnitModel unit)
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FirstDamage()
 
 ```csharp
 private void FirstDamage()
 ```
+#INC
+
 
 ### GetAllCollapse()
 
 ```csharp
 private List<UnitModel> GetAllCollapse()
 ```
+#INC
+
 
 #### Returns
 
@@ -442,6 +517,8 @@ private List<UnitModel> GetAllCollapse()
 ```csharp
 private List<UnitModel> GetAttackTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -452,6 +529,8 @@ private List<UnitModel> GetAttackTarget()
 ```csharp
 private List<UnitModel> GetCollapse(PassageObjectModel passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -468,6 +547,8 @@ private List<UnitModel> GetCollapse(PassageObjectModel passage)
 ```csharp
 private UnitDirection GetCurrentDirection()
 ```
+#INC
+
 
 #### Returns
 
@@ -478,6 +559,8 @@ private UnitDirection GetCurrentDirection()
 ```csharp
 private UnitDirection GetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -494,6 +577,8 @@ private UnitDirection GetDirection(UnitModel target)
 ```csharp
 private int GetMaxHp(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -526,6 +611,8 @@ private int GetMaxHp(DangoCreature.Level level)
 ```csharp
 private UnitModel GetNearestCollapse()
 ```
+#INC
+
 
 #### Returns
 
@@ -536,6 +623,8 @@ private UnitModel GetNearestCollapse()
 ```csharp
 private List<UnitModel> GetNearUnits()
 ```
+#INC
+
 
 #### Returns
 
@@ -546,6 +635,8 @@ private List<UnitModel> GetNearUnits()
 ```csharp
 public override float GetRadius()
 ```
+#INC
+
 
 #### Returns
 
@@ -556,6 +647,8 @@ public override float GetRadius()
 ```csharp
 public MapNode GetRandomMoveNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -566,6 +659,8 @@ public MapNode GetRandomMoveNode()
 ```csharp
 private List<UnitModel> GetSefiraCollapse(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -582,6 +677,8 @@ private List<UnitModel> GetSefiraCollapse(Sefira sefira)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -598,6 +695,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private float GetViewDist(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -614,6 +713,8 @@ private float GetViewDist(UnitModel unit)
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -624,18 +725,24 @@ private bool IsAttacking()
 ```csharp
 private void MakeEscapeDefaultSound()
 ```
+#INC
+
 
 ### MakeRandomMovement()
 
 ```csharp
 private void MakeRandomMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -665,12 +772,16 @@ private void OnChangeDangoLevel(bool isAscend, DangoCreature.Level level)
 ```csharp
 public override void OnElevatorStuck()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -683,6 +794,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -696,6 +809,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -708,30 +823,41 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -746,6 +872,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -758,6 +886,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -770,30 +900,40 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### ReduceAliveAgent()
 
 ```csharp
 private void ReduceAliveAgent()
 ```
+#INC
+
 
 ### ReducedQliphothCounter()
 
 ```csharp
 public override void ReducedQliphothCounter()
 ```
+#INC
+
 
 ### SecondDamage()
 
 ```csharp
 private void SecondDamage()
 ```
+#INC
+
 
 ### SplashDamage(float, float, DamageInfo)
 
 ```csharp
 private List<WorkerModel> SplashDamage(float range, float space, DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -812,6 +952,8 @@ private List<WorkerModel> SplashDamage(float range, float space, DamageInfo dama
 ```csharp
 private void StartAttack(List<UnitModel> targetAbleList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -824,12 +966,16 @@ private void StartAttack(List<UnitModel> targetAbleList)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### ThirdDamage(int)
 
 ```csharp
 private void ThirdDamage(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -842,3 +988,5 @@ private void ThirdDamage(int type)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

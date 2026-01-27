@@ -12,6 +12,9 @@ canonical_path: /api/Global/StateMachineBehaviour/IdleStayScript
 public class IdleStayScript : StateMachineBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → IdleStayScript
 
@@ -33,6 +36,8 @@ public IdleStayScript()
 ```csharp
 public GameObject controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public GameObject controller
 ```csharp
 public void OnStateEnter()
 ```
+#INC
+#code-generated
+

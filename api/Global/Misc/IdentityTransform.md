@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/IdentityTransform
 public class IdentityTransform : StatTransform
 ```
 
+Returns the input float.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IdentityTransform
 
@@ -39,6 +44,9 @@ public IdentityTransform()
 ```csharp
 public virtual float FloatToFloat(float v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

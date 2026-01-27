@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/PanicReady
 public class PanicReady : PanicAction
 ```
 
+Panic behaviour for an [agent](/api/Global/Worker/AgentModel) getting ready to panic.
+Changes the face, instructs the agent to leave a containment unit if applicable, then brings out their weapon.
+
+Ends by telling the agent to choose a panic behaviour. (AgentModel.PanicReadyComplete())
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicReady
 
@@ -28,6 +34,8 @@ public class PanicReady : PanicAction
 ```csharp
 public PanicReady(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +50,8 @@ public PanicReady(WorkerModel target)
 ```csharp
 protected WorkerModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +62,8 @@ protected WorkerModel actor
 ```csharp
 protected float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +74,8 @@ protected float elapsedTime
 ```csharp
 protected float waitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,21 +88,30 @@ protected float waitTime
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### PanicEnd()
 
 ```csharp
 public override void PanicEnd()
 ```
+#INC
+
 
 ### StartPanicAction()
 
 ```csharp
 public void StartPanicAction()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Standing/CircusTentAnim
 ```csharp
 public class CircusTentAnim : StandingItemAnim, IAnimatorEventCalled
 ```
+animation handler for [CircusTent](/api/Global/Misc/CircusTent)
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → CircusTentAnim
@@ -36,6 +40,8 @@ public CircusTentAnim()
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public static string[] animString
 ```csharp
 public const int boomerMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public const int boomerMax = 3
 ```csharp
 public const int boomerMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public const int boomerMin = 2
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public GameObject center
 ```csharp
 private int rand
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ private int rand
 ```csharp
 public CircusTent script
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ public CircusTent script
 ```csharp
 public const string sound_src = "RandomEvent/BoomerCircus/Tent/Circus_Tent_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +136,8 @@ public const string sound_src = "RandomEvent/BoomerCircus/Tent/Circus_Tent_"
 ```csharp
 public static string[] soundString
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +148,8 @@ public static string[] soundString
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +160,8 @@ public AudioSource src
 ```csharp
 private bool updateAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +172,8 @@ private bool updateAnim
 ```csharp
 private CircusTent.AnimationState updateAnimState
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,30 +186,40 @@ private CircusTent.AnimationState updateAnimState
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### AttachHandler()
 
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,12 +232,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,6 +254,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,6 +269,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### EventHandler(TrackEntry, Event)
 
@@ -244,18 +290,24 @@ public void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,6 +320,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -280,6 +334,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAnimation(CircusTent.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +348,8 @@ public void SetAnimation(CircusTent.AnimationState animState)
 ```csharp
 public void SetAnimation(string state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,6 +362,8 @@ public void SetAnimation(string state)
 ```csharp
 public void SetAnimation(string state, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,6 +377,9 @@ public void SetAnimation(string state, bool loop)
 ```csharp
 public void SetScript(CircusTent script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -329,12 +392,16 @@ public void SetScript(CircusTent script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

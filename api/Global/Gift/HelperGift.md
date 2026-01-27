@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/HelperGift
 public class HelperGift : EquipmentScriptBase
 ```
 
+Script for [All-Around Helper](/api/Global/Misc/Helper)'s EGO Gift: Grinder Mk4.
+
+Adds 3 to success rate for insight work.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → HelperGift
 
@@ -33,6 +39,9 @@ public HelperGift()
 ```csharp
 public override float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+Adds 3 to success rate for insight work.
+#code-generated
+
 
 #### Parameters
 

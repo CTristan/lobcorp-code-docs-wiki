@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/ViscusSnakeWeaponDebuf
 public class ViscusSnakeWeaponDebuf : UnitBuf
 ```
 
+Debuff applied by [Exuviae (weapon)](/api/Global/Weapon/ViscusSnakeWeapon).
+
+Causes the target to take more 50% more red damage for three seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → ViscusSnakeWeaponDebuf
 
@@ -25,6 +30,8 @@ public class ViscusSnakeWeaponDebuf : UnitBuf
 ```csharp
 public ViscusSnakeWeaponDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public ViscusSnakeWeaponDebuf()
 ```csharp
 private const float _debufDmgRatio = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const float _debufDmgRatio = 1.5
 ```csharp
 private const float _remain_time = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float _remain_time = 3
 ```csharp
 private const RwbpType _targetType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +78,9 @@ private const RwbpType _targetType = R
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,6 +93,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 

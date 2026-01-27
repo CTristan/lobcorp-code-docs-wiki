@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/IconManager
 public class IconManager : MonoBehaviour
 ```
 
+Holds various little sprites. #INC 
+
+Part of the UIColorManager game object; see also [UIColorManager](/api/Global/Misc/UIColorManager).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IconManager
 
@@ -33,6 +38,8 @@ public IconManager()
 ```csharp
 private static IconManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private static IconManager _instance
 ```csharp
 public Sprite[] DamageIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Sprite[] DamageIcon
 ```csharp
 public Sprite[] DefenseIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public List<IconManager.Icon> list
 ```csharp
 public Sprite[] OrdealIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +120,17 @@ public static IconManager instance { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetDefenseIcon(Type)
 
 ```csharp
 public Sprite GetDefenseIcon(DefenseInfo.Type type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,6 +179,8 @@ public IconManager.Icon GetIcon(string name)
 ```csharp
 public Sprite GetOrdealIcon(OrdealLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,3 +213,5 @@ public IconManager.WorkIcon GetWorkIcon(int id)
 ```csharp
 public void Start()
 ```
+#INC
+

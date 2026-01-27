@@ -36,6 +36,8 @@ public RabbitSpriteSetter()
 ```csharp
 public SpineChangeData gauge
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public SpineChangeData gauge
 ```csharp
 public SpineChangeData sword
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +94,8 @@ private SkeletonAnimator skeletonAnimator { get; }
 ```csharp
 public void Apply(Sprite swordSprite, Sprite gaugeSprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +109,8 @@ public void Apply(Sprite swordSprite, Sprite gaugeSprite)
 ```csharp
 private void ChangeSpineSprite(Skeleton skeleton, Skin newSkin, SpineChangeData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,9 +125,14 @@ private void ChangeSpineSprite(Skeleton skeleton, Skin newSkin, SpineChangeData 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

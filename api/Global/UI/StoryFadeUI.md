@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StoryFadeUI
 public class StoryFadeUI : MonoBehaviour
 ```
 
+Handles fading between stories? #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryFadeUI
 
@@ -43,6 +46,8 @@ private StoryFadeUI.StoryFadeEnd _callback
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ private float _elapsedTime
 ```csharp
 private bool _fade
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ private bool _fade
 ```csharp
 private string _nextStory
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private string _nextStory
 ```csharp
 public Image fadeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,3 +109,5 @@ public void StartFade(StoryFadeUI.StoryFadeEnd endCallback, string nextStory)
 ```csharp
 private void Update()
 ```
+#INC
+

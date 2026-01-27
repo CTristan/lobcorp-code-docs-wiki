@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusDawn
 public class CircusDawn : CircusOrdealCreature
 ```
 
+[Crimson Dawn](/api/Global/Misc/CircusDawnOrdeal) creature.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [CircusOrdealCreature](/api/Global/Creature/CircusOrdealCreature) → CircusDawn
 
@@ -33,6 +36,8 @@ public CircusDawn()
 ```csharp
 private MapNode _currentTeleportNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private MapNode _currentTeleportNode
 ```csharp
 private CreatureModel _currentTrickCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private CreatureModel _currentTrickCreature
 ```csharp
 private CreatureModel _currentWaitingCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private CreatureModel _currentWaitingCreature
 ```csharp
 private const int _explosionDamageMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const int _explosionDamageMax = 15
 ```csharp
 private const int _explosionDamageMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const int _explosionDamageMin = 10
 ```csharp
 private const float _explosionRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const float _explosionRange = 4
 ```csharp
 private bool _isMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private bool _isMoving
 ```csharp
 private bool _isSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private bool _isSuppressed
 ```csharp
 private bool _isTeleporting
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private bool _isTeleporting
 ```csharp
 private GameObject _peBoxDownEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private GameObject _peBoxDownEffect
 ```csharp
 private const string _peBoxDownEffectSrc = "Effect/Creature/CircusDawn/PEBoxDown"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const string _peBoxDownEffectSrc = "Effect/Creature/CircusDawn/PEBoxDown
 ```csharp
 private const string _peBoxDownSuccessEffectSrc = "Effect/Creature/CircusDawn/PEBoxDownSuccess"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const string _peBoxDownSuccessEffectSrc = "Effect/Creature/CircusDawn/PE
 ```csharp
 private bool _readyForTeleport
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private bool _readyForTeleport
 ```csharp
 private bool _readyToMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private bool _readyToMove
 ```csharp
 private const float _reduceRate = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ private CircusDawn.State _state
 ```csharp
 private const float _teleportDelayMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ private const float _teleportDelayMax = 15
 ```csharp
 private const float _teleportDelayMin = 13
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ private const float _teleportDelayMin = 13
 ```csharp
 private Timer _teleportDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ private Timer _teleportDelayTimer
 ```csharp
 private Timer _trickCastTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ private Timer _trickCastTimer
 ```csharp
 private const float _trickTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ private const float _trickTime = 20
 ```csharp
 private CircusDawnAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +312,8 @@ private float TeleportDelay { get; }
 ```csharp
 private void AddWaitingTarget(CreatureModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +326,8 @@ private void AddWaitingTarget(CreatureModel target)
 ```csharp
 public bool CanReadyForTeleport()
 ```
+#INC
+
 
 #### Returns
 
@@ -289,18 +338,24 @@ public bool CanReadyForTeleport()
 ```csharp
 public void EndTelport()
 ```
+#INC
+
 
 ### Explosion()
 
 ```csharp
 public void Explosion()
 ```
+#INC
+
 
 ### GetTarget(out bool)
 
 ```csharp
 public CreatureModel GetTarget(out bool hasError)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,6 +372,8 @@ public CreatureModel GetTarget(out bool hasError)
 ```csharp
 public MapNode GetTeleportNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -327,18 +384,24 @@ public MapNode GetTeleportNode()
 ```csharp
 private void MakeTrickEffect()
 ```
+#INC
+
 
 ### MakeTrickSuccessEffect()
 
 ```csharp
 private void MakeTrickSuccessEffect()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -349,12 +412,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 private void OnArriveIsolateRoom()
 ```
+#INC
+
 
 ### OnFixedUpdate(CreatureModel)
 
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,12 +434,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -385,21 +457,29 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void ReadyForTeleport()
 ```
+#INC
+
 
 ### RemoveTrickEffect()
 
 ```csharp
 public void RemoveTrickEffect()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 public void Teleport()
 ```
+#INC
+
 
 ### TrickSuccess()
 
 ```csharp
 private void TrickSuccess()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/DeploySefiraList
 ```csharp
 public class DeploySefiraList : MonoBehaviour
 ```
+The collection of departments shown on the deployment screen.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeploySefiraList
@@ -33,6 +37,8 @@ public DeploySefiraList()
 ```csharp
 public ScrollRect scrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +61,8 @@ public List<DeploySefiraList.SefiraPanelData> sefiraPanels
 ```csharp
 public SefiraPanel GetSefiraPanel(string areaName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,15 +79,22 @@ public SefiraPanel GetSefiraPanel(string areaName)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnManageStart()
 
 ```csharp
 public void OnManageStart()
 ```
+#INC
+
 
 ### ResearchInit()
 
 ```csharp
 public void ResearchInit()
 ```
+#INC
+#code-generated
+

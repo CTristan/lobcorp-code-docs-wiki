@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoKitStatRoot
 ```csharp
 public class CreatureInfoKitStatRoot : CreatureInfoController
 ```
+Tool abnormality info gui?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoKitStatRoot
@@ -44,6 +46,8 @@ public Text CodeNo
 ```csharp
 public Text KitType
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +58,8 @@ public Text KitType
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +70,8 @@ public Text Name
 ```csharp
 public CreatureInfoKitOpenArea Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +82,8 @@ public CreatureInfoKitOpenArea Open
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +94,8 @@ public Image Portrait
 ```csharp
 public Text RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,12 +108,17 @@ public Text RiskLevel
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

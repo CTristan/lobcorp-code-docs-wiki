@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/UseSkillTrigger
 ```csharp
 public class UseSkillTrigger : SkillTrigger
 ```
+#Inc??
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SkillTrigger](/api/Global/Misc/SkillTrigger) → UseSkillTrigger
@@ -33,6 +35,8 @@ public UseSkillTrigger()
 ```csharp
 public long skillId
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +49,17 @@ public long skillId
 ```csharp
 public override void Init()
 ```
+#INC
+
 
 ### isActivated(object)
 
 ```csharp
 public override bool isActivated(object checkedTarget)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

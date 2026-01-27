@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SpiderMomAnim
 public class SpiderMomAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Spider Bud](/api/Global/Misc/SpiderMom).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → SpiderMomAnim
 
@@ -36,6 +41,8 @@ public SpiderMomAnim()
 ```csharp
 private bool attached
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool attached
 ```csharp
 public GameObject attachPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject attachPos
 ```csharp
 public SpiderMomCocoonScript cocoonScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public SpiderMomCocoonScript cocoonScript
 ```csharp
 private AgentUnit currentPickAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private AgentUnit currentPickAgent
 ```csharp
 private SpiderMom script
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private SpiderMom script
 ```csharp
 public Animator VerticalTentacle
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,30 +115,40 @@ public Animator VerticalTentacle
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttachAgent()
 
 ```csharp
 public void AttachAgent()
 ```
+#INC
+
 
 ### AttachPosCalc()
 
 ```csharp
 private void AttachPosCalc()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -134,18 +161,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,30 +192,41 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Decouple()
 ```
+#INC
+
 
 ### Kill()
 
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -195,12 +239,16 @@ public void OnCalled(int i)
 ```csharp
 public void OnStageInit()
 ```
+#INC
+
 
 ### PickAgent(AgentUnit)
 
 ```csharp
 public void PickAgent(AgentUnit targetUnit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -213,6 +261,8 @@ public void PickAgent(AgentUnit targetUnit)
 ```csharp
 public void SetScript(SpiderMom script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,12 +275,16 @@ public void SetScript(SpiderMom script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -243,6 +297,8 @@ public void SoundMake(string src)
 ```csharp
 public void SpiderMomMove(bool down)
 ```
+#INC
+
 
 #### Parameters
 
@@ -255,15 +311,21 @@ public void SpiderMomMove(bool down)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Stop()
 
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

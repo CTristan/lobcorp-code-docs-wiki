@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahNearSlowBuf
 ```csharp
 public class BinahNearSlowBuf : UnitBuf
 ```
+Uh... slowdown from being near Binah? (Is that a thing?)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BinahNearSlowBuf
@@ -25,6 +27,8 @@ public class BinahNearSlowBuf : UnitBuf
 ```csharp
 public BinahNearSlowBuf(float speedDownMult, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +44,8 @@ public BinahNearSlowBuf(float speedDownMult, float time)
 ```csharp
 private float defaultMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +56,8 @@ private float defaultMax
 ```csharp
 private float speedDownValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,12 +70,17 @@ private float speedDownValue
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MovementScale()
 
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -78,3 +91,5 @@ public override float MovementScale()
 ```csharp
 public void Reset()
 ```
+#INC
+

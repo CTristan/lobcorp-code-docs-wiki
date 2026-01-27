@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/NothingWorker
 public class NothingWorker : MonoBehaviour, IOverlapOnclick
 ```
 
+The fake 'worker' during [Nothing There](/api/Global/Misc/Nothing)'s special breach.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NothingWorker
 
@@ -36,6 +39,8 @@ public NothingWorker()
 ```csharp
 public AgentUI agentUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AgentUI agentUI
 ```csharp
 public AgentUnitUI agentUnitUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public AgentUnitUI agentUnitUI
 ```csharp
 public AgentContinueUI continueUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public AgentContinueUI continueUI
 ```csharp
 public WorkerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public WorkerModel model
 ```csharp
 public Animator puppetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public Animator puppetNode
 ```csharp
 public WorkerSpriteSetter setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public WorkerSpriteSetter setter
 ```csharp
 private bool visible
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private bool visible
 ```csharp
 public float zValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +137,9 @@ public float zValue
 ```csharp
 public void Init(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -130,33 +152,45 @@ public void Init(WorkerModel worker)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateDirection()
 
 ```csharp
 private void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 private void UpdateViewPosition()
 ```
+#INC
+

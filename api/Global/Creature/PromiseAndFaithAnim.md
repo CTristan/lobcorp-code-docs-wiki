@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/PromiseAndFaithAnim
 public class PromiseAndFaithAnim : CreatureAnimScript
 ```
 
+Animation handler for [Old Faith and Promise](/api/Global/Misc/PromiseAndFaith).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → PromiseAndFaithAnim
 
@@ -33,6 +38,8 @@ public PromiseAndFaithAnim()
 ```csharp
 public PromiseAndFaithAnimEventHandler _animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public PromiseAndFaithAnimEventHandler _animEventHandler
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private SpineOptimizerModule _module
 ```csharp
 private PromiseAndFaith _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private PromiseAndFaith _script
 ```csharp
 private readonly string[] SOUNDS
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,24 +88,33 @@ private readonly string[] SOUNDS
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ExitWork()
 
 ```csharp
 private void ExitWork()
 ```
+#INC
+
 
 ### SetResult()
 
 ```csharp
 private void SetResult()
 ```
+#INC
+
 
 ### SetScript(PromiseAndFaith)
 
 ```csharp
 public void SetScript(PromiseAndFaith s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +127,8 @@ public void SetScript(PromiseAndFaith s)
 ```csharp
 private void Sound(int idx)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,3 +141,5 @@ private void Sound(int idx)
 ```csharp
 private void Update()
 ```
+#INC
+

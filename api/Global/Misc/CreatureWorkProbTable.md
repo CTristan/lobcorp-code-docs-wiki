@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/CreatureWorkProbTable
 ```csharp
 public class CreatureWorkProbTable
 ```
+Stores the probabilities for each work type at each level for an abnormality.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureWorkProbTable
@@ -25,6 +27,8 @@ public class CreatureWorkProbTable
 ```csharp
 public CreatureWorkProbTable()
 ```
+Initializes `_prob` to have five levels for each work type.
+
 
 ## Fields
 
@@ -33,6 +37,8 @@ public CreatureWorkProbTable()
 ```csharp
 private Dictionary<RwbpType, float[]> _prob
 ```
+Stores the probabilities of each work type at each level.
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ private Dictionary<RwbpType, float[]> _prob
 ```csharp
 public float GetWorkProb(RwbpType type, int level)
 ```
+Gets the probability of `type` work at the level `level`.
+
 
 #### Parameters
 
@@ -62,6 +70,8 @@ public float GetWorkProb(RwbpType type, int level)
 ```csharp
 public void SetWorkProb(RwbpType type, int level, float prob)
 ```
+Sets the probability of `type` work at the level `level` to `prob`. Used by [CreatureDataLoader](/api/Global/Loader/CreatureDataLoader).
+
 
 #### Parameters
 

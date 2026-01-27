@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/StoryOptionUI
 public class StoryOptionUI : MonoBehaviour
 ```
 
+UI element which provides access to the sephirah list and story log.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryOptionUI
 
@@ -53,6 +58,8 @@ private StoryOptionUI.DelegateEvent _logWindowOpen
 ```csharp
 private bool _panelOpened
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +110,8 @@ private StoryOptionUI.DelegateEvent _settingWindowOpen
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +122,8 @@ public GameObject ActiveControl
 ```csharp
 private bool isEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +134,8 @@ private bool isEntered
 ```csharp
 private bool[] isOpenedPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +146,8 @@ private bool[] isOpenedPanel
 ```csharp
 public Button LogButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +158,8 @@ public Button LogButton
 ```csharp
 public GameObject LogIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +170,8 @@ public GameObject LogIcon
 ```csharp
 public Button LogoButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +182,8 @@ public Button LogoButton
 ```csharp
 public Image LogoIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +194,8 @@ public Image LogoIcon
 ```csharp
 public Button OptionButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +206,8 @@ public Button OptionButton
 ```csharp
 public GameObject OptionIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +218,8 @@ public GameObject OptionIcon
 ```csharp
 public Animator RootButtonAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +230,8 @@ public Animator RootButtonAnim
 ```csharp
 public GameObject RootIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +242,8 @@ public GameObject RootIcon
 ```csharp
 public Button SefiraButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +254,8 @@ public Button SefiraButton
 ```csharp
 public GameObject SefiraIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +266,8 @@ public GameObject SefiraIcon
 ```csharp
 public RectTransform SefiraPanel
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,90 +292,120 @@ public bool PanelOpened { get; private set; }
 ```csharp
 private void ButtonInit()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnButtonReset()
 
 ```csharp
 public void OnButtonReset()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnClickLog()
 
 ```csharp
 public void OnClickLog()
 ```
+#INC
+
 
 ### OnClickLogReset()
 
 ```csharp
 public void OnClickLogReset()
 ```
+#INC
+
 
 ### OnClickOption()
 
 ```csharp
 public void OnClickOption()
 ```
+#INC
+
 
 ### OnClickOptionReset()
 
 ```csharp
 public void OnClickOptionReset()
 ```
+#INC
+
 
 ### OnClickSefira()
 
 ```csharp
 public void OnClickSefira()
 ```
+#INC
+
 
 ### OnClickSefiraReset()
 
 ```csharp
 public void OnClickSefiraReset()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### OnOpen()
 
 ```csharp
 public void OnOpen()
 ```
+#INC
+
 
 ### OnRootButtonEnter()
 
 ```csharp
 public void OnRootButtonEnter()
 ```
+#INC
+
 
 ### OnRootButtonExit()
 
 ```csharp
 public void OnRootButtonExit()
 ```
+#INC
+
 
 ### OpenWindow()
 
 ```csharp
 public void OpenWindow()
 ```
+#INC
+
 
 ### SetCloseDelegate(EventType, DelegateEvent)
 
@@ -373,6 +438,8 @@ public void SetOpenDelegate(StoryOptionUI.DelegateEvent d, StoryOptionUI.EventTy
 ```csharp
 public void SetPanelState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -385,9 +452,14 @@ public void SetPanelState(bool state)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

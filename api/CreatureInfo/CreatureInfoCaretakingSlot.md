@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoCaretakingSlot
 ```csharp
 public class CreatureInfoCaretakingSlot : CreatureInfoController, IScrollMessageReciever
 ```
+Class for a management tip? #inc
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoCaretakingSlot
@@ -36,6 +38,8 @@ public CreatureInfoCaretakingSlot()
 ```csharp
 private bool _arrowActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private bool _arrowActivated
 ```csharp
 private int _index
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ private int _index
 ```csharp
 public GameObject Arrow_Down
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ public GameObject Arrow_Down
 ```csharp
 public GameObject Arrow_Up
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public GameObject Arrow_Up
 ```csharp
 public GameObject ArrowRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ public GameObject ArrowRoot
 ```csharp
 private const float big = 827
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ private const float big = 827
 ```csharp
 public Text CaretakingSection
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +122,8 @@ public Text CaretakingSection
 ```csharp
 private const int fitterFont = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +134,8 @@ private const int fitterFont = 30
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ public RectTransform listParent
 ```csharp
 public CreatureInfoOpenArea Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +158,8 @@ public CreatureInfoOpenArea Open
 ```csharp
 public CreatureInfoCaretakingSlot PrevSlot
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +170,8 @@ public CreatureInfoCaretakingSlot PrevSlot
 ```csharp
 public ScrollExchanger scrollExchanger
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +182,8 @@ public ScrollExchanger scrollExchanger
 ```csharp
 private const float small = 758
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +194,8 @@ private const float small = 758
 ```csharp
 private const float spacing = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +206,8 @@ private const float spacing = 10
 ```csharp
 public Text Title
 ```
+#INC
+
 
 #### Field Value
 
@@ -240,18 +272,24 @@ public RectTransform TextRect { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Initialize()
 
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -264,6 +302,9 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool IsOpenable()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -274,6 +315,8 @@ public override bool IsOpenable()
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -284,12 +327,16 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### OnScroll(PointerEventData)
 
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -302,6 +349,8 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 public void OnSetText(Text text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -314,6 +363,8 @@ public void OnSetText(Text text)
 ```csharp
 public void SetData(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,15 +377,21 @@ public void SetData(string desc)
 ```csharp
 public void SetTitleText()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

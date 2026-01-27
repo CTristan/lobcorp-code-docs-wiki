@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/DistortionDream2Effecter
 ```csharp
 public class DistortionDream2Effecter : MonoBehaviour
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DistortionDream2Effecter
@@ -33,6 +35,8 @@ public DistortionDream2Effecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float _elapsedTime
 ```csharp
 public CameraFilterPack_Distortion_Dream2 target
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,3 +61,6 @@ public CameraFilterPack_Distortion_Dream2 target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

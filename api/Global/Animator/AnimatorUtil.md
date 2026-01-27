@@ -11,6 +11,10 @@ canonical_path: /api/Global/Animator/AnimatorUtil
 ```csharp
 public class AnimatorUtil
 ```
+Class for helpful utilities. Only one, though.
+
+HasParameter checks if an animator has a certain parameter.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorUtil
@@ -33,6 +37,9 @@ public AnimatorUtil()
 ```csharp
 public static bool HasParameter(Animator animator, string name)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Camera/Effect/CameraEffectMessageSender
 ```csharp
 public class CameraEffectMessageSender : MonoBehaviour
 ```
+I don't... really know.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CameraEffectMessageSender
@@ -55,6 +59,8 @@ private float _TV_FadeValue_private
 ```csharp
 private bool _TV_isEanbeld
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,12 +85,17 @@ public float _TV_FadeValue_public { get; set; }
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Set_80_FilterEnable(int)
 
 ```csharp
 public void Set_80_FilterEnable(int isEnable)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -97,6 +108,8 @@ public void Set_80_FilterEnable(int isEnable)
 ```csharp
 public void Set_80_FilterValue(float value)
 ```
+#INC
+
 
 #### Parameters
 

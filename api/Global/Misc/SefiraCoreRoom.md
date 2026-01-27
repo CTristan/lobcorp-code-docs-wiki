@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SefiraCoreRoom
 public class SefiraCoreRoom : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraCoreRoom
 
@@ -33,6 +36,9 @@ public SefiraCoreRoom()
 ```csharp
 private SefiraObject sefira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

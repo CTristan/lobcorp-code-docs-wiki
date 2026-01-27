@@ -12,6 +12,10 @@ canonical_path: /api/Global/Camera/Platformer/PlatformerCamera
 public class PlatformerCamera : MonoBehaviour
 ```
 
+Probably unused...
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlatformerCamera
 
@@ -33,6 +37,8 @@ public PlatformerCamera()
 ```csharp
 public GameObject escapeButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public GameObject escapeButton
 ```csharp
 public Camera frontCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Camera frontCamera
 ```csharp
 public static bool introWalk
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public static bool introWalk
 ```csharp
 public Camera lightCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Camera lightCamera
 ```csharp
 private bool paused
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private bool paused
 ```csharp
 public GameObject player
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public GameObject player
 ```csharp
 public void cameraZoomIn(float zoomIn)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,6 +125,8 @@ public void cameraZoomIn(float zoomIn)
 ```csharp
 public void cameraZoomOut(float zoomOut)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,15 +139,22 @@ public void cameraZoomOut(float zoomOut)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### introCameraWalk()
 
 ```csharp
 public void introCameraWalk()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

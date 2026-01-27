@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherLastBossBase
 ```csharp
 public class KetherLastBossBase : KetherBossBase
 ```
+Day 50 suppression and all that
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → [KetherBossBase](/api/KetherBoss/KetherBossBase) → KetherLastBossBase
@@ -33,6 +35,8 @@ public KetherLastBossBase()
 ```csharp
 private const float _arriveEarthquake = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private const float _arriveEarthquake = 3
 ```csharp
 private UnscaledTimer _arriveEarthquakeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private UnscaledTimer _arriveEarthquakeTimer
 ```csharp
 private UnscaledTimer _contUpdateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private UnscaledTimer _contUpdateTimer
 ```csharp
 private KetherLastEffectBase[] _effects
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private KetherLastEffectBase[] _effects
 ```csharp
 private static int _energyLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private static int _energyLevel
 ```csharp
 private static float _energyLevelInv
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private static float _energyLevelInv
 ```csharp
 private float _energyMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ private KetherLastBossBase.KetherLastEvent _groundLevelBgTurnOn
 ```csharp
 private bool _lastInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +151,8 @@ private KetherLastBossBase.KetherLastEvent _lightOnEvent
 ```csharp
 private const float _startDelayTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +163,8 @@ private const float _startDelayTime = 2
 ```csharp
 private UnscaledTimer _startDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +175,8 @@ private UnscaledTimer _startDelayTimer
 ```csharp
 private float _startEqSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +187,8 @@ private float _startEqSpeed
 ```csharp
 public KetherBackgroundMover backgroundMover
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +199,8 @@ public KetherBackgroundMover backgroundMover
 ```csharp
 private const string bgm0 = "Sounds/BGM/Boss/Event/50/1_the night sky"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +211,8 @@ private const string bgm0 = "Sounds/BGM/Boss/Event/50/1_the night sky"
 ```csharp
 private const string bgm1 = "Sounds/BGM/Boss/Event/50/2_Dark Fantasy Studio-Sun and moon"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +223,8 @@ private const string bgm1 = "Sounds/BGM/Boss/Event/50/2_Dark Fantasy Studio-Sun 
 ```csharp
 private const string bgm2 = "Sounds/BGM/Boss/Event/50/3_Dark Fantasy Studio-You are a giant"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +235,8 @@ private const string bgm2 = "Sounds/BGM/Boss/Event/50/3_Dark Fantasy Studio-You 
 ```csharp
 private const string bgMoverSrc = "Effect/SefiraBoss/Kether/KetherBackgroundMover"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +247,8 @@ private const string bgMoverSrc = "Effect/SefiraBoss/Kether/KetherBackgroundMove
 ```csharp
 private Dictionary<float, int> convEnergyDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +259,8 @@ private Dictionary<float, int> convEnergyDic
 ```csharp
 private static float[] convEnergyPercent
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +271,8 @@ private static float[] convEnergyPercent
 ```csharp
 private Queue<float> convEnergyQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +283,8 @@ private Queue<float> convEnergyQueue
 ```csharp
 public static string LaserCast
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +295,8 @@ public static string LaserCast
 ```csharp
 public static string LaserLoad
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +307,8 @@ public static string LaserLoad
 ```csharp
 public static string LaserPing
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +319,8 @@ public static string LaserPing
 ```csharp
 private const string parentName = "KetherEnergyConcentrate"
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +331,8 @@ private const string parentName = "KetherEnergyConcentrate"
 ```csharp
 public static string ShakeDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +343,8 @@ public static string ShakeDown
 ```csharp
 public static string ShakeEnd
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +355,8 @@ public static string ShakeEnd
 ```csharp
 public static string ShakeMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +367,8 @@ public static string ShakeMove
 ```csharp
 public static string ShakeStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +379,8 @@ public static string ShakeStart
 ```csharp
 public const string soundFolder = "Sounds/BGM/Boss/Kether/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -345,6 +403,8 @@ private float _currentQueueTop { get; }
 ```csharp
 public int CurrentLevel { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -355,6 +415,8 @@ public int CurrentLevel { get; private set; }
 ```csharp
 public Transform EffectPivot { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -387,6 +449,8 @@ public KetherLastBossBase.KetherLastEvent LightOnEvent { get; }
 ```csharp
 public KetherLastEffectBase AddEffect(KetherLastEffectType type, bool overwrite = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -404,12 +468,16 @@ public KetherLastEffectBase AddEffect(KetherLastEffectType type, bool overwrite 
 ```csharp
 public void DestroyBackgroundMover()
 ```
+#INC
+
 
 ### EnergyLevelChange(int)
 
 ```csharp
 public void EnergyLevelChange(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -422,18 +490,24 @@ public void EnergyLevelChange(int currentLevel)
 ```csharp
 private void EnergyUpdate()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### FixEnergy()
 
 ```csharp
 private void FixEnergy()
 ```
+#INC
+
 
 ### GetDescType(float)
 
@@ -456,6 +530,8 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public KetherLastEffectBase GetEffect(KetherLastEffectType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -472,6 +548,8 @@ public KetherLastEffectBase GetEffect(KetherLastEffectType type)
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -482,6 +560,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
+#INC
+
 
 #### Returns
 
@@ -492,6 +572,9 @@ public override bool IsReadyToClose()
 ```csharp
 public override bool IsStartEmergencyBgm()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -502,6 +585,8 @@ public override bool IsStartEmergencyBgm()
 ```csharp
 public void MakeKetherSound(string sound)
 ```
+#INC
+
 
 #### Parameters
 
@@ -514,18 +599,24 @@ public void MakeKetherSound(string sound)
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### TerminateEffect(KetherLastEffectType)
 
 ```csharp
 public void TerminateEffect(KetherLastEffectType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -538,15 +629,21 @@ public void TerminateEffect(KetherLastEffectType type)
 ```csharp
 public void ToCredit()
 ```
+#INC
+
 
 ### TurnOnArriveEarthquake()
 
 ```csharp
 public void TurnOnArriveEarthquake()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

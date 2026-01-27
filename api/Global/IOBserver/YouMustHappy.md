@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/YouMustHappy
 public class YouMustHappy : CreatureBase, IObserver
 ```
 
+You Must Be Happy. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → YouMustHappy
 
@@ -36,6 +39,8 @@ public YouMustHappy()
 ```csharp
 private const float _AMOUNT_CHANGE_TIME = 0.04
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private const float _AMOUNT_CHANGE_TIME = 0.04
 ```csharp
 private YouMustHappyAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private YouMustHappyAnim _anim
 ```csharp
 private float _changeFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private float _changeFreq
 ```csharp
 private Timer _changeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ private YouMustHappy.UsedAgent _curUsingAgent
 ```csharp
 private const float _DEFAULT_CHANGE_FREQ = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ private const float _DEFAULT_CHANGE_FREQ = 1
 ```csharp
 private float _elapsedUsingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ private float _elapsedUsingTime
 ```csharp
 private List<AgentModel> _extinctAgentList
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private List<AgentModel> _extinctAgentList
 ```csharp
 private const int _LIMIT_SUM_STAT = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private const int _LIMIT_SUM_STAT = 200
 ```csharp
 private const int _LIMIT_USING_COUNT = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private const int _LIMIT_USING_COUNT = 6
 ```csharp
 private const float _LIMIT_USING_TIME = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private const float _LIMIT_USING_TIME = 30
 ```csharp
 private const int _MAX_STAT = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ private const int _MAX_STAT = 100
 ```csharp
 private const int _MIN_STAT = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ private const int _MIN_STAT = 15
 ```csharp
 private const int _MULTIPLIER_BUF = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ private const int _MULTIPLIER_BUF = 6
 ```csharp
 private bool _succeedUsing
 ```
+#INC
+
 
 #### Field Value
 
@@ -210,6 +241,8 @@ private int BufEquation { get; }
 ```csharp
 private int CalculateBufAMount(int stat)
 ```
+#INC
+
 
 #### Parameters
 
@@ -226,6 +259,8 @@ private int CalculateBufAMount(int stat)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,6 +273,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -250,6 +287,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,6 +302,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,18 +316,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

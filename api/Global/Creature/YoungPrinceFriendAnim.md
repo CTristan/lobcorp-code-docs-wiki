@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/YoungPrinceFriendAnim
 public class YoungPrinceFriendAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Little Prince's minion](/api/Global/Misc/YoungPrinceFriend).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → YoungPrinceFriendAnim
 
@@ -36,6 +41,8 @@ public YoungPrinceFriendAnim()
 ```csharp
 public GameObject Center
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject Center
 ```csharp
 public YoungPrinceFriend script
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,18 +67,24 @@ public YoungPrinceFriend script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -80,6 +95,8 @@ public bool IsAttacking()
 ```csharp
 public void OnAttackStart(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,6 +109,9 @@ public void OnAttackStart(int attackType)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -104,18 +124,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### SetScript(YoungPrinceFriend)
 
 ```csharp
 public void SetScript(YoungPrinceFriend script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,3 +154,5 @@ public void SetScript(YoungPrinceFriend script)
 ```csharp
 private void SmashDamageTimeCalled()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/MagicalGirlArmor
 public class MagicalGirlArmor : EquipmentScriptBase
 ```
 
+Script for [The Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s EGO Suit: In the Name of Love and Hate.
+
+Renders a ribbon. #INC  (needs testing)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → MagicalGirlArmor
 
@@ -33,6 +38,8 @@ public MagicalGirlArmor()
 ```csharp
 private WorkerModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private WorkerModel owner
 ```csharp
 private GameObject ribbon
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private GameObject ribbon
 ```csharp
 public const string src = "Sprites/Worker/Accessary/MagicalGirl_Ribbon"
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public const string src = "Sprites/Worker/Accessary/MagicalGirl_Ribbon"
 ```csharp
 private GameObject GenRibbon()
 ```
+#INC
+
 
 #### Returns
 
@@ -75,6 +88,9 @@ private GameObject GenRibbon()
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -87,15 +103,21 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override void OnRelease()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+

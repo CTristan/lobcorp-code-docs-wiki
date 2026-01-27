@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/FixerRedLaser
 public class FixerRedLaser : MonoBehaviour
 ```
 
+Script for the [Red Fixer](/api/Global/Misc/FixerRed)'s laser attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FixerRedLaser
 
@@ -33,6 +36,8 @@ public FixerRedLaser()
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private List<UnitModel> damaged
 ```csharp
 private bool isActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +82,8 @@ public CreatureModel Model { get; }
 ```csharp
 public FixerRed script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -87,12 +96,17 @@ public FixerRed script { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCollision(Collider2D)
 
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +119,8 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +137,8 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +151,8 @@ private void GiveDamage(UnitModel unit)
 ```csharp
 public void SetActive(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 

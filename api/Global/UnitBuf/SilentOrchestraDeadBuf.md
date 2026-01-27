@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/SilentOrchestraDeadBuf
 public class SilentOrchestraDeadBuf : UnitBuf
 ```
 
+Buff for [The Silent Orchestra](/api/Global/Misc/SilentOrchestra)'s kill.
+
+Special death animation.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SilentOrchestraDeadBuf
 
@@ -25,6 +30,8 @@ public class SilentOrchestraDeadBuf : UnitBuf
 ```csharp
 public SilentOrchestraDeadBuf(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public SilentOrchestraDeadBuf(float delay)
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +60,9 @@ private WorkerModel worker
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,6 +75,8 @@ public override void Init(UnitModel model)
 ```csharp
 private void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -75,3 +89,5 @@ private void OnAnimCalled(int i)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

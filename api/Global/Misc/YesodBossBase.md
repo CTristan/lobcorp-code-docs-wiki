@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/YesodBossBase
 public class YesodBossBase : SefiraBossBase
 ```
 
+Yesod's core suppression.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → YesodBossBase
 
@@ -25,6 +30,8 @@ public class YesodBossBase : SefiraBossBase
 ```csharp
 public YesodBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public YesodBossBase()
 ```csharp
 private int _phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private int _phase
 ```csharp
 private Timer _startEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private Timer _startEffectTimer
 ```csharp
 private const string animSrc = "YesodCoreAnim"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const string animSrc = "YesodCoreAnim"
 ```csharp
 private const string bgm1 = "Yesod/1_Tilarids - untitled9877645623413123325"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private const string bgm1 = "Yesod/1_Tilarids - untitled9877645623413123325"
 ```csharp
 private const string bgm2 = "Yesod/2_Tilarids - Faded"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private const string bgm2 = "Yesod/2_Tilarids - Faded"
 ```csharp
 private YesodBossCameraScript cameraScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private YesodBossCameraScript cameraScript
 ```csharp
 private const int changeQliphothLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ private const int changeQliphothLevel = 3
 ```csharp
 private const int clearQliphothLevel = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ private const int clearQliphothLevel = 6
 ```csharp
 private const float descDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ private const float descDelay = 15
 ```csharp
 private CameraFilterPack_FX_Glitch3 glitch3
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ private CameraFilterPack_FX_Glitch3 glitch3
 ```csharp
 private SefiraBossCreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ private SefiraBossCreatureModel model
 ```csharp
 private const float noiseDefaultValue = 0.075
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ private const float noiseDefaultValue = 0.075
 ```csharp
 private CameraFilterPack_Noise_TV noiseTv
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ private CameraFilterPack_Noise_TV noiseTv
 ```csharp
 private const string phaseSound = "SefiraBoss/Boss_Yesod"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ private const string phaseSound = "SefiraBoss/Boss_Yesod"
 ```csharp
 private CameraFilterPack_Pixel_Pixelisation pixelisation
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ private CameraFilterPack_Pixel_Pixelisation pixelisation
 ```csharp
 private float totalEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +232,8 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +244,8 @@ private CameraFilterPack_TV_Vignetting vignetting
 ```csharp
 private const string yesodBase = "YesodCoreScript"
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,12 +270,16 @@ private YesodCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetDescFreq()
 
 ```csharp
 public override float GetDescFreq()
 ```
+#INC
+
 
 #### Returns
 
@@ -243,6 +290,8 @@ public override float GetDescFreq()
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,24 +302,32 @@ public override bool IsCleared()
 ```csharp
 public override void OnChangePhase()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnKetherStart()
 
 ```csharp
 public override void OnKetherStart()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -283,12 +340,17 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### SetCameraScript(YesodBossCameraScript)
 
 ```csharp
 public void SetCameraScript(YesodBossCameraScript cameraScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,3 +363,5 @@ public void SetCameraScript(YesodBossCameraScript cameraScript)
 ```csharp
 public void StartEffect()
 ```
+#INC
+

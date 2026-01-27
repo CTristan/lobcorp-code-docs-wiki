@@ -11,6 +11,8 @@ canonical_path: /api/Global/IOBserver/BackgroundLayer
 ```csharp
 public class BackgroundLayer : MonoBehaviour, IObserver
 ```
+Background.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BackgroundLayer
@@ -36,6 +38,8 @@ public BackgroundLayer()
 ```csharp
 public GameObject _ketherFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ public GameObject _ketherFrame
 ```csharp
 public GameObject KetherFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public GameObject KetherFrame
 ```csharp
 public bool positionUpdateEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +76,8 @@ public bool positionUpdateEnabled
 ```csharp
 public static BackgroundLayer CurrentLayer { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -86,24 +96,33 @@ private void Awake()
 ```csharp
 public void DestroyKetherFrame()
 ```
+#INC
+
 
 ### EnableKetherFrame()
 
 ```csharp
 public void EnableKetherFrame()
 ```
+#INC
+
 
 ### InitializePosition()
 
 ```csharp
 public void InitializePosition()
 ```
+#INC
+#code-generated
+
 
 ### KetherFrameEarthquake(bool)
 
 ```csharp
 public void KetherFrameEarthquake(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,24 +135,32 @@ public void KetherFrameEarthquake(bool state)
 ```csharp
 public void LoadKetherFrame()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,15 +174,21 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/Manual/NodeTextInfo
 ```csharp
 public class NodeTextInfo
 ```
+List of STUFF
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → NodeTextInfo
@@ -33,6 +37,8 @@ public NodeTextInfo()
 ```csharp
 public List<LabelData> labelList
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,9 @@ public List<LabelData> labelList
 ```csharp
 public List<TextData> textList
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

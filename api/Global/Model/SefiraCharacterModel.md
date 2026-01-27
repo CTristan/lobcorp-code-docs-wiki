@@ -11,6 +11,8 @@ canonical_path: /api/Global/Model/SefiraCharacterModel
 ```csharp
 public class SefiraCharacterModel
 ```
+Represents a Sephirah and whether their department is open. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraCharacterModel
@@ -25,6 +27,9 @@ public class SefiraCharacterModel
 ```csharp
 public SefiraCharacterModel(SefiraEnum sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public SefiraCharacterModel(SefiraEnum sefira)
 ```csharp
 public bool bInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ public bool bInit
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ public int level
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +82,8 @@ public SefiraEnum sefira
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,6 +94,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,3 +108,5 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnOpenSefira()
 ```
+#INC
+

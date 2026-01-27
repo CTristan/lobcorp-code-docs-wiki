@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditScript
 ```csharp
 public class CreditScript : MonoBehaviour
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditScript
@@ -33,6 +35,8 @@ public CreditScript()
 ```csharp
 public const string Credit = "Credit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public const string Credit = "Credit"
 ```csharp
 public RectTransform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public RectTransform parent
 ```csharp
 public float posy
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public float posy
 ```csharp
 public GameObject refPrefabs
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public GameObject refPrefabs
 ```csharp
 public float spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,9 +97,14 @@ public float spacing
 ```csharp
 public void Awake()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

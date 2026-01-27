@@ -12,6 +12,11 @@ canonical_path: /api/Global/StateMachineBehaviour/FengYunAnimStateBehavior
 public class FengYunAnimStateBehavior : StateMachineBehaviour
 ```
 
+Probably unused.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → FengYunAnimStateBehavior
 
@@ -33,6 +38,9 @@ public FengYunAnimStateBehavior()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -47,6 +55,8 @@ public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 

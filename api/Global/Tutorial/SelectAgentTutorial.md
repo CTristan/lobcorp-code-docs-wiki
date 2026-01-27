@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SelectAgentTutorial
 public class SelectAgentTutorial : Tutorial
 ```
 
+Ends when an agent is selected.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SelectAgentTutorial
 
@@ -33,9 +38,14 @@ public SelectAgentTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

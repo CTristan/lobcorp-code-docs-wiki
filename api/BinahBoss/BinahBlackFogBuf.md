@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahBlackFogBuf
 ```csharp
 public class BinahBlackFogBuf : UnitBuf
 ```
+Some kind of buff Binah has that reduces justice around her, maybe? #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BinahBlackFogBuf
@@ -25,6 +27,8 @@ public class BinahBlackFogBuf : UnitBuf
 ```csharp
 public BinahBlackFogBuf(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public BinahBlackFogBuf(BinahCoreScript binah)
 ```csharp
 private BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private BinahCoreScript binah
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,3 +69,6 @@ private Timer timer
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+

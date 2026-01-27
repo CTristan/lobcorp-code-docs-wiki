@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/SefiraUIColor
 ```csharp
 public class SefiraUIColor
 ```
+Stores colors associated with each Sephirah, for various use in the scripts.
+
+May have some overlap with [UIColorManager](/api/Global/Misc/UIColorManager).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraUIColor
@@ -33,6 +39,8 @@ public SefiraUIColor()
 ```csharp
 public Color imageColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,9 @@ public Color imageColor
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public SefiraEnum sefira
 ```csharp
 public Color textColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public Color textColor
 ```csharp
 public Color ui_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public Color ui_1
 ```csharp
 public Color ui_2
 ```
+#INC
+
 
 #### Field Value
 

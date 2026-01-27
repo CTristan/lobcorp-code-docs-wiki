@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/FontViewer
 public class FontViewer : MonoBehaviour
 ```
 
+Displays a list of fonts. Probably for debug.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FontViewer
 
@@ -33,15 +38,22 @@ public FontViewer()
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnClickOpen()
 
 ```csharp
 public void OnClickOpen()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/MachineOrdealCreature
 public class MachineOrdealCreature : CreatureBase
 ```
 
+Parent class for creatures spawned by the [Ordeals of Green](/api/Global/Misc/MachineOrdeal).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → MachineOrdealCreature
 
@@ -36,6 +39,8 @@ public MachineOrdealCreature()
 ```csharp
 protected OrdealLevel _level
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected OrdealLevel _level
 ```csharp
 protected string _name
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected string _name
 ```csharp
 protected MachineOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ protected MachineOrdeal _ordealScript
 ```csharp
 protected RiskLevel _risk
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ protected RiskLevel _risk
 ```csharp
 protected const float _spawnByDuskTimeMax = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ protected const float _spawnByDuskTimeMax = 0.5
 ```csharp
 protected const float _spawnByDuskTimeMin = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ protected const float _spawnByDuskTimeMin = 0.4
 ```csharp
 protected const float _spawnedSpeed = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ protected const float _spawnedSpeed = 15
 ```csharp
 protected Timer spawnByDuskTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +159,9 @@ protected static float spawnByDuskTime { get; }
 ```csharp
 public virtual string GetOrdealName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -150,12 +172,16 @@ public virtual string GetOrdealName()
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### SetOrdeal(MachineOrdeal, OrdealLevel, RiskLevel, string)
 
 ```csharp
 public virtual void SetOrdeal(MachineOrdeal ordealScript, OrdealLevel level, RiskLevel risk, string name)
 ```
+#INC
+
 
 #### Parameters
 

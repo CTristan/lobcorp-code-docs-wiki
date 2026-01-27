@@ -36,6 +36,8 @@ public WorkerPortraitAttachment()
 ```csharp
 public EquipmentModel gift
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ public EquipmentModel gift
 ```csharp
 public bool isUnique
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public bool isUnique
 ```csharp
 public EGOgiftAttachRegion region
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public EGOgiftAttachRegion region
 ```csharp
 public string spriteName
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +108,9 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void SetGift(EquipmentModel equipment)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -112,3 +123,5 @@ public void SetGift(EquipmentModel equipment)
 ```csharp
 public void SetMagicalGirlArmor()
 ```
+#INC
+

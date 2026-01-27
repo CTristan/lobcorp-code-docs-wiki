@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/PinkCorps
 public class PinkCorps : CreatureBase, IObserver
 ```
 
+Army in Black.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → PinkCorps
 
@@ -36,6 +41,8 @@ public PinkCorps()
 ```csharp
 private const int _blackCorpGenCount = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +83,8 @@ private PinkCorps.PinkCorpsAction _currentAttackEndAction
 ```csharp
 private AgentModel _currentSkillTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +95,8 @@ private AgentModel _currentSkillTarget
 ```csharp
 private List<WorkerModel> _deadWorkers
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +107,8 @@ private List<WorkerModel> _deadWorkers
 ```csharp
 private const float _followMaxDistance = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +119,8 @@ private const float _followMaxDistance = 1
 ```csharp
 private bool _isMoveAllowed
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +131,8 @@ private bool _isMoveAllowed
 ```csharp
 private MinMax _patrolDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +143,8 @@ private MinMax _patrolDelay
 ```csharp
 private Timer _patrolDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +155,8 @@ private Timer _patrolDelayTimer
 ```csharp
 private const float _protectionBufTime = 120
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +167,8 @@ private const float _protectionBufTime = 120
 ```csharp
 private Timer _protectionBufTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +179,8 @@ private Timer _protectionBufTimer
 ```csharp
 private const float _recoverFreq = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +191,8 @@ private const float _recoverFreq = 10
 ```csharp
 private const float _recoverHpValue = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +203,8 @@ private const float _recoverHpValue = 12
 ```csharp
 private const float _recoverMentalValue = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +215,8 @@ private const float _recoverMentalValue = 12
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +227,8 @@ private Timer _recoverTimer
 ```csharp
 private List<ChildCreatureModel> _removed
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +249,8 @@ private PinkCorps.PinkCorpsState _state
 ```csharp
 private const int _workerDeadCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +261,8 @@ private const int _workerDeadCount = 5
 ```csharp
 private int _workerDeadCounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +273,8 @@ private int _workerDeadCounter
 ```csharp
 private const int loveBufLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -248,6 +287,8 @@ private const int loveBufLevel = 3
 ```csharp
 public PinkCorpsAnim AnimScript { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -270,12 +311,16 @@ public PinkCorps.PinkCorpsState State { get; set; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateSkill(AgentModel)
 
 ```csharp
 private void ActivateSkill(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,6 +333,8 @@ private void ActivateSkill(AgentModel target)
 ```csharp
 private bool AddBuf(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,6 +351,8 @@ private bool AddBuf(AgentModel target)
 ```csharp
 private IEnumerator AddBufRoutine(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -320,24 +369,32 @@ private IEnumerator AddBufRoutine(AgentModel target)
 ```csharp
 private void ClearCorps()
 ```
+#INC
+
 
 ### CloseSkill()
 
 ```csharp
 private void CloseSkill()
 ```
+#INC
+
 
 ### EndSkill()
 
 ```csharp
 public void EndSkill()
 ```
+#INC
+
 
 ### ExecuteRequest(AgentModel)
 
 ```csharp
 public void ExecuteRequest(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -350,6 +407,8 @@ public void ExecuteRequest(AgentModel target)
 ```csharp
 private void FollowUpdate()
 ```
+#INC
+
 
 ### GetBlackCorpsData(long, out BlackCorpsData)
 
@@ -373,6 +432,8 @@ public bool GetBlackCorpsData(long id, out PinkCorps.BlackCorpsData output)
 ```csharp
 private List<WorkerModel> GetHealTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -383,6 +444,8 @@ private List<WorkerModel> GetHealTargets()
 ```csharp
 private PassageObjectModel GetRandomPassage(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -399,6 +462,8 @@ private PassageObjectModel GetRandomPassage(Sefira sefira)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -415,6 +480,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -425,6 +492,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool HasUniqueCommandAction(int workType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -441,6 +510,8 @@ public override bool HasUniqueCommandAction(int workType)
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -451,6 +522,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -461,6 +534,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -471,6 +546,8 @@ public override bool IsSuppressable()
 ```csharp
 public override bool IsSuppressableByRoom()
 ```
+#INC
+
 
 #### Returns
 
@@ -481,6 +558,8 @@ public override bool IsSuppressableByRoom()
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -504,6 +583,8 @@ public static void Log(string log, bool isError = false)
 ```csharp
 public void MakeAppearEffect(MovableObjectNode target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -516,12 +597,16 @@ public void MakeAppearEffect(MovableObjectNode target)
 ```csharp
 public void MakeBlackCorps()
 ```
+#INC
+
 
 ### MakeChildCreature(UnitModel)
 
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -538,6 +623,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public static GameObject MakeHeartEffect(int type, MovableObjectNode pivot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -555,12 +642,16 @@ public static GameObject MakeHeartEffect(int type, MovableObjectNode pivot)
 ```csharp
 private void MakeRecoverHeartEffect()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -577,12 +668,16 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void MakeTeleportEffect()
 ```
+#INC
+
 
 ### OnAttackEnd(int)
 
 ```csharp
 public void OnAttackEnd(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -595,6 +690,8 @@ public void OnAttackEnd(int attackType)
 ```csharp
 public void OnBlackCropsSuppressed(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -607,6 +704,8 @@ public void OnBlackCropsSuppressed(long id)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -619,6 +718,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -632,6 +733,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -644,6 +747,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -654,12 +759,16 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public void OnReadyForTeleport()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSetState(PinkCorpsState)
 
@@ -678,6 +787,8 @@ public void OnSetState(PinkCorps.PinkCorpsState state)
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -690,18 +801,25 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+#code-generated
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -714,6 +832,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -726,36 +846,48 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 private void PatrolUpdate()
 ```
+#INC
+
 
 ### RecoverAnimEnd()
 
 ```csharp
 public void RecoverAnimEnd()
 ```
+#INC
+
 
 ### RecoverGlobal()
 
 ```csharp
 public void RecoverGlobal()
 ```
+#INC
+
 
 ### RecoverUpdate()
 
 ```csharp
 private void RecoverUpdate()
 ```
+#INC
+
 
 ### RequestReturn()
 
 ```csharp
 public void RequestReturn()
 ```
+#INC
+
 
 ### SetObserver(bool)
 
 ```csharp
 private void SetObserver(bool listen)
 ```
+#INC
+
 
 #### Parameters
 
@@ -768,12 +900,16 @@ private void SetObserver(bool listen)
 ```csharp
 private void SubDeadCounter()
 ```
+#INC
+
 
 ### TeleportNear(UnitModel)
 
 ```csharp
 private void TeleportNear(UnitModel targetUnit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -786,9 +922,13 @@ private void TeleportNear(UnitModel targetUnit)
 ```csharp
 private void TeleportReturn()
 ```
+#INC
+
 
 ### TryRequest()
 
 ```csharp
 public void TryRequest()
 ```
+#INC
+

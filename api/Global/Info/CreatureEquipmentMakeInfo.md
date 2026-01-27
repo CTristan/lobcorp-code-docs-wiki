@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/CreatureEquipmentMakeInfo
 ```csharp
 public class CreatureEquipmentMakeInfo
 ```
+Stores purchase information for EGO Suits and Weapons, and EGO gift chance.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureEquipmentMakeInfo
@@ -33,6 +35,8 @@ public CreatureEquipmentMakeInfo()
 ```csharp
 public int cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int cost
 ```csharp
 public EquipmentTypeInfo equipTypeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public EquipmentTypeInfo equipTypeInfo
 ```csharp
 public int level
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public int level
 ```csharp
 public float prob
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +85,9 @@ public float prob
 ```csharp
 public int GetCostAfterUpgrade()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -85,6 +98,8 @@ public int GetCostAfterUpgrade()
 ```csharp
 public float GetProb()
 ```
+#INC
+
 
 #### Returns
 

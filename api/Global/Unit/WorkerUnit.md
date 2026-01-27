@@ -12,6 +12,9 @@ canonical_path: /api/Global/Unit/WorkerUnit
 public class WorkerUnit : MonoBehaviour
 ```
 
+A [worker](/api/Global/Model/WorkerModel), as they appear in-game. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerUnit
 
@@ -36,6 +39,8 @@ public WorkerUnit()
 ```csharp
 protected bool _animChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected bool _animChanged
 ```csharp
 protected bool _animChangeReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ protected bool _animChangeReady
 ```csharp
 protected Timer _animChangeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ protected Timer _animChangeTimer
 ```csharp
 protected UnitAnimatorController _animController
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ protected UnitAnimatorController _animController
 ```csharp
 protected bool _inCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ protected bool _inCamera
 ```csharp
 public WorkerAnimatorChanger animChanger
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public WorkerAnimatorChanger animChanger
 ```csharp
 public AnimatorEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public AnimatorEventHandler animEventHandler
 ```csharp
 public Transform animRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public Transform animRoot
 ```csharp
 public Transform barrierParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public Transform barrierParent
 ```csharp
 public bool blockMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public bool blockMoving
 ```csharp
 public bool blockRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public bool blockRotation
 ```csharp
 public BufStateUI bufUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ public BufStateUI bufUI
 ```csharp
 public GameObject clickArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ public GameObject clickArea
 ```csharp
 protected List<GameObject> effectAttached
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ protected List<GameObject> effectAttached
 ```csharp
 protected Vector3 recoilPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ protected Vector3 recoilPosition
 ```csharp
 public GameObject shadow
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ public GameObject shadow
 ```csharp
 public AgentSpeech showSpeech
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ public AgentSpeech showSpeech
 ```csharp
 public SkeletonRenderer spineRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ public SkeletonRenderer spineRenderer
 ```csharp
 public WorkerSpriteSetter spriteSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ public WorkerSpriteSetter spriteSetter
 ```csharp
 protected bool uiActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ protected bool uiActivated
 ```csharp
 public Canvas uiRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ public Canvas uiRoot
 ```csharp
 public WeaponSetter weaponSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ public WeaponSetter weaponSetter
 ```csharp
 public WorkerModel workerModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ public WorkerModel workerModel
 ```csharp
 public float zValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ public float zValue
 ```csharp
 private float zValueDefault
 ```
+#INC
+
 
 #### Field Value
 
@@ -288,6 +341,8 @@ private float zValueDefault
 ```csharp
 public virtual BufStateUI.BufData AddUnitBuf(UnitBuf buf, BufRenderer bufObject, bool copy = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -306,6 +361,8 @@ public virtual BufStateUI.BufData AddUnitBuf(UnitBuf buf, BufRenderer bufObject,
 ```csharp
 public virtual BufStateUI.BufData AddUnitBuf(UnitBuf buf, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,6 +380,8 @@ public virtual BufStateUI.BufData AddUnitBuf(UnitBuf buf, Sprite sprite)
 ```csharp
 public void AttachUI(GameObject attachItem)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,6 +394,8 @@ public void AttachUI(GameObject attachItem)
 ```csharp
 public void Attack(int attackType, float attackSpeed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -348,12 +409,16 @@ public void Attack(int attackType, float attackSpeed)
 ```csharp
 public void ChangeAnimatorDefault()
 ```
+#INC
+
 
 ### ChangeAnimatorForcely(string, bool, bool)
 
 ```csharp
 public void ChangeAnimatorForcely(string name, bool uniqueFace, bool useSep = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -368,30 +433,40 @@ public void ChangeAnimatorForcely(string name, bool uniqueFace, bool useSep = fa
 ```csharp
 public void DisableShadow()
 ```
+#INC
+
 
 ### DisableUI()
 
 ```csharp
 public void DisableUI()
 ```
+#INC
+
 
 ### EndAttack()
 
 ```csharp
 public void EndAttack()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetBodyTransform()
 
 ```csharp
 public virtual Transform GetBodyTransform()
 ```
+#INC
+
 
 #### Returns
 
@@ -402,6 +477,8 @@ public virtual Transform GetBodyTransform()
 ```csharp
 public virtual Transform GetHairTransform()
 ```
+#INC
+
 
 #### Returns
 
@@ -412,12 +489,16 @@ public virtual Transform GetHairTransform()
 ```csharp
 public virtual void LateUpdate()
 ```
+#INC
+
 
 ### MakeCreatureEffectToHead(long)
 
 ```csharp
 public virtual GameObject MakeCreatureEffectToHead(long creatureId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -434,12 +515,16 @@ public virtual GameObject MakeCreatureEffectToHead(long creatureId)
 ```csharp
 public virtual void RemoveShadow()
 ```
+#INC
+
 
 ### RemoveUnitBuf(UnitBuf)
 
 ```csharp
 public void RemoveUnitBuf(UnitBuf buf)
 ```
+#INC
+
 
 #### Parameters
 
@@ -452,12 +537,16 @@ public void RemoveUnitBuf(UnitBuf buf)
 ```csharp
 public void ResetZValue()
 ```
+#INC
+
 
 ### SetClickArea(bool)
 
 ```csharp
 public void SetClickArea(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -470,6 +559,8 @@ public void SetClickArea(bool state)
 ```csharp
 public void SetDeadType(DeadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -482,6 +573,9 @@ public void SetDeadType(DeadType type)
 ```csharp
 public void SetDefaultZValue(float value)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -494,6 +588,8 @@ public void SetDefaultZValue(float value)
 ```csharp
 public virtual void SetPanic(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -506,6 +602,8 @@ public virtual void SetPanic(bool b)
 ```csharp
 public void SetWorkerFaceType(WorkerFaceType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -518,24 +616,32 @@ public void SetWorkerFaceType(WorkerFaceType type)
 ```csharp
 public virtual void ShutUp()
 ```
+#INC
+
 
 ### UpdateAnimationQuality()
 
 ```csharp
 protected virtual void UpdateAnimationQuality()
 ```
+#INC
+
 
 ### UpdateAnimatorChange()
 
 ```csharp
 protected void UpdateAnimatorChange()
 ```
+#INC
+
 
 ### UpdateCheckInCamera(Vector3)
 
 ```csharp
 private void UpdateCheckInCamera(Vector3 newPosition)
 ```
+#INC
+
 
 #### Parameters
 
@@ -548,9 +654,13 @@ private void UpdateCheckInCamera(Vector3 newPosition)
 ```csharp
 protected void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 protected void UpdateViewPosition()
 ```
+#INC
+

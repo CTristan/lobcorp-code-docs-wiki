@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/PinkCorpsWeapon
 public class PinkCorpsWeapon : EquipmentScriptBase
 ```
 
+Script for [Army in Black](/api/Global/IOBserver/PinkCorps)'s EGO Weapon: Pink.
+
+If the agent has both the corresponding [gift](/api/Global/Gift/PinkCorpsGift) and suit, increase the minimum and maximum damage of this weapon by 15%.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → PinkCorpsWeapon
 
@@ -33,6 +38,9 @@ public PinkCorpsWeapon()
 ```csharp
 public override DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

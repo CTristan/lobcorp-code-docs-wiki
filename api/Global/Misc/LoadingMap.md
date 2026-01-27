@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/LoadingMap
 public class LoadingMap : MonoBehaviour
 ```
 
+Loads the [SefiraMapLayer](/api/Global/IOBserver/SefiraMapLayer). Not sure if this is used or not.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LoadingMap
 
@@ -33,6 +37,8 @@ public LoadingMap()
 ```csharp
 private bool condition
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private bool condition
 ```csharp
 private bool loadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +63,14 @@ private bool loadingScene
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/ViscusSnakeWeapon
 public class ViscusSnakeWeapon : EquipmentScriptBase
 ```
 
+Script for [The Naked Nest](/api/Global/Misc/ViscusSnake)'s EGO Weapon: Exuviae.
+
+Inflicts a [buff](/api/Global/UnitBuf/ViscusSnakeWeaponDebuf) at a 25% chance after damage which causes the target to take more 50% more red damage for three seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ViscusSnakeWeapon
 
@@ -33,6 +38,8 @@ public ViscusSnakeWeapon()
 ```csharp
 private const float _debuf_prob = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private const float _debuf_prob = 0.25
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

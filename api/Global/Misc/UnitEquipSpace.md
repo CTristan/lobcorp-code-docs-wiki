@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/UnitEquipSpace
 ```csharp
 public class UnitEquipSpace
 ```
+Holds and manages the equipment of a [unit](/api/Global/Model/UnitModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UnitEquipSpace
@@ -33,6 +37,8 @@ public UnitEquipSpace()
 ```csharp
 public ArmorModel armor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public ArmorModel armor
 ```csharp
 public UnitEGOgiftSpace gifts
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public UnitEGOgiftSpace gifts
 ```csharp
 public CreatureModel kitCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public CreatureModel kitCreature
 ```csharp
 public WeaponModel weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,9 @@ public WeaponModel weapon
 ```csharp
 public EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -91,6 +106,8 @@ public EGObonusInfo GetBonus(UnitModel actor)
 ```csharp
 public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -108,6 +125,8 @@ public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```csharp
 public bool HasEquipment(int id)
 ```
+#INC
+
 
 #### Parameters
 

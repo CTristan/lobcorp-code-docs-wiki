@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/DontTouchMeAnim
 public class DontTouchMeAnim : CreatureAnimScript
 ```
 
+Animation handler for [Don't Touch Me](/api/Global/Misc/DontTouchMe).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → DontTouchMeAnim
 
@@ -33,6 +36,8 @@ public DontTouchMeAnim()
 ```csharp
 private DontTouchMe creatureScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,18 +50,25 @@ private DontTouchMe creatureScript
 ```csharp
 public void OnClickCreature()
 ```
+#INC
+
 
 ### PlayAnimation()
 
 ```csharp
 public void PlayAnimation()
 ```
+#INC
+
 
 ### SetCreatureScript(DontTouchMe)
 
 ```csharp
 public void SetCreatureScript(DontTouchMe srt)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

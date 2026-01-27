@@ -11,6 +11,10 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateModelr
 ```csharp
 public class CreatureGenerateModelr
 ```
+Empty class. Can only assume this is a typo.
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureGenerateModelr

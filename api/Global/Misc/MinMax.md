@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/MinMax
 ```csharp
 public class MinMax
 ```
+Holds a minimum and maximum, and provides some methods to use them.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MinMax
@@ -25,6 +28,8 @@ public class MinMax
 ```csharp
 public MinMax(float min, float max)
 ```
+Constructs a MinMax with minimum `min` and maximum `max`.
+
 
 #### Parameters
 
@@ -62,6 +67,8 @@ public float min
 ```csharp
 public float GetLerp(float rate)
 ```
+Gets the linear interpolation between `min` and `max` at the value of `rate`.
+
 
 #### Parameters
 
@@ -78,6 +85,8 @@ public float GetLerp(float rate)
 ```csharp
 public float GetMedian()
 ```
+Gets the average of `min` and `max`.
+
 
 #### Returns
 
@@ -88,6 +97,8 @@ public float GetMedian()
 ```csharp
 public float GetRandomFloat()
 ```
+Produces a random float between `min` and `max`.
+
 
 #### Returns
 
@@ -98,6 +109,8 @@ public float GetRandomFloat()
 ```csharp
 public int GetRandomInt()
 ```
+Produces a random integer between `min` and `max`.
+
 
 #### Returns
 

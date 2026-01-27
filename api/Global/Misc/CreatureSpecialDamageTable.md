@@ -11,6 +11,16 @@ canonical_path: /api/Global/Misc/CreatureSpecialDamageTable
 ```csharp
 public class CreatureSpecialDamageTable
 ```
+Holds the damage values of abnormality damage outside of work damage (e.g., breaching attack damages). Only used by some abnormalities:
+- [Big and Will be Bad Wolf](/api/Global/IOBserver/BigBadWolf)
+- [Fragment of the Universe](/api/Global/Misc/Cosmos)
+- [Laetitia's friend](/api/Global/Misc/LittleWitchMonster)
+- [Green Dawn](/api/Global/Machine/MachineDawn)
+- [Little Red Riding Hooded Mercenary](/api/Global/IOBserver/RedHood)
+- [The Silent Orchestra](/api/Global/Misc/SilentOrchestra)
+- [Forsaken Murderer](/api/Global/Misc/StraitJacket)
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSpecialDamageTable
@@ -33,6 +43,8 @@ public CreatureSpecialDamageTable()
 ```csharp
 private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +57,8 @@ private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
 ```csharp
 public List<DamageInfo> GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -55,6 +69,8 @@ public List<DamageInfo> GetList()
 ```csharp
 public DamageInfo GetSpecialDamage(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,6 +87,8 @@ public DamageInfo GetSpecialDamage(string id)
 ```csharp
 public EquipmentTypeInfo GetSpecialWeapon(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +105,8 @@ public EquipmentTypeInfo GetSpecialWeapon(string id)
 ```csharp
 public void Init(Dictionary<string, EquipmentTypeInfo> infos)
 ```
+#INC
+
 
 #### Parameters
 

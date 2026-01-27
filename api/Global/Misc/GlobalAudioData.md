@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/GlobalAudioData
 ```csharp
 public class GlobalAudioData
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GlobalAudioData
@@ -33,6 +35,9 @@ public GlobalAudioData()
 ```csharp
 public AudioClip clip
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

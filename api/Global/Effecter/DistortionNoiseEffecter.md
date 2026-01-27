@@ -11,6 +11,8 @@ canonical_path: /api/Global/Effecter/DistortionNoiseEffecter
 ```csharp
 public class DistortionNoiseEffecter : MonoBehaviour
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DistortionNoiseEffecter
@@ -33,6 +35,8 @@ public DistortionNoiseEffecter()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private float _elapsedTime
 ```csharp
 private float _lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private float _lifetime
 ```csharp
 private float _value
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private float _value
 ```csharp
 public CameraFilterPack_Distortion_Noise target
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,3 +85,6 @@ public CameraFilterPack_Distortion_Noise target
 ```csharp
 private void Update()
 ```
+#INC
+#code-generated
+

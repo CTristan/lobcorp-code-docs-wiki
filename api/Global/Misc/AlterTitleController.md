@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AlterTitleController
 ```csharp
 public class AlterTitleController : MonoBehaviour
 ```
+Main title screen after the true ending.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AlterTitleController
@@ -43,6 +47,8 @@ private Dictionary<AlterTitleController.TitleActionType, AlterTitleController.Ti
 ```csharp
 public SpriteRenderer _backgroundRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public SpriteRenderer _backgroundRenderer
 ```csharp
 private bool _blackFadeOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool _blackFadeOn
 ```csharp
 public RectTransform _buttonRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public RectTransform _buttonRoot
 ```csharp
 public TitleCameraAnim _cameraAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +105,8 @@ private Dictionary<string, AlterTitleController.CreditPanel> _creditPanelsDic
 ```csharp
 public RectTransform _creditRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +117,8 @@ public RectTransform _creditRoot
 ```csharp
 public Sprite _dark
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ public Sprite _dark
 ```csharp
 public GameObject _darkSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +141,8 @@ public GameObject _darkSound
 ```csharp
 private float _fadeProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +153,8 @@ private float _fadeProgress
 ```csharp
 public RectTransform _gadgetRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +165,8 @@ public RectTransform _gadgetRoot
 ```csharp
 private bool _initialInput
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +177,8 @@ private bool _initialInput
 ```csharp
 public RectTransform _languageRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +189,8 @@ public RectTransform _languageRoot
 ```csharp
 public Sprite _light
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +201,8 @@ public Sprite _light
 ```csharp
 public GameObject _lightSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +213,8 @@ public GameObject _lightSound
 ```csharp
 public RectTransform _logoRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ public RectTransform _logoRoot
 ```csharp
 private bool _nextLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +237,8 @@ private bool _nextLoading
 ```csharp
 public RectTransform _resetRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +249,8 @@ public RectTransform _resetRoot
 ```csharp
 public UIController _rootController
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +261,8 @@ public UIController _rootController
 ```csharp
 public RectTransform _tutorialRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -254,6 +294,8 @@ public AlterTitleController.TitleButton[] buttons
 ```csharp
 public Text ChallengeDayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +328,8 @@ public List<AlterTitleController.CreditPanel> creditPanels
 ```csharp
 public Text GameVersionChecker
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +340,8 @@ public Text GameVersionChecker
 ```csharp
 public Text LanguageText
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +352,8 @@ public Text LanguageText
 ```csharp
 public Button ResetButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +364,8 @@ public Button ResetButton
 ```csharp
 public AudioSource TitleBgm
 ```
+#INC
+
 
 #### Field Value
 
@@ -398,6 +448,8 @@ private UIController _tutorialCTRL { get; }
 ```csharp
 public static AlterTitleController Controller { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -420,72 +472,97 @@ private string CurrentLanguage { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CallChallenge()
 
 ```csharp
 private void CallChallenge()
 ```
+#INC
+
 
 ### CallCodex()
 
 ```csharp
 private void CallCodex()
 ```
+#INC
+
 
 ### CallContinue()
 
 ```csharp
 private void CallContinue()
 ```
+#INC
+
 
 ### CallExit()
 
 ```csharp
 private void CallExit()
 ```
+#INC
+
 
 ### CallLanguage()
 
 ```csharp
 private void CallLanguage()
 ```
+#INC
+
 
 ### CallNewgame()
 
 ```csharp
 private void CallNewgame()
 ```
+#INC
+
 
 ### CallOption()
 
 ```csharp
 private void CallOption()
 ```
+#INC
+
 
 ### CallReset()
 
 ```csharp
 private void CallReset()
 ```
+#INC
+
 
 ### CallStoryReview()
 
 ```csharp
 private void CallStoryReview()
 ```
+#INC
+
 
 ### CallTutorial()
 
 ```csharp
 private void CallTutorial()
 ```
+#INC
+
 
 ### CheckBackgroundCondition()
 
 ```csharp
 private bool CheckBackgroundCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -496,6 +573,8 @@ private bool CheckBackgroundCondition()
 ```csharp
 private void CheckSaveState()
 ```
+#INC
+
 
 ### GetButton(TitleActionType)
 
@@ -534,6 +613,8 @@ private AlterTitleController.CreditPanel GetCreditPanel(string ln)
 ```csharp
 public AudioClipPlayer GetPlayer()
 ```
+#INC
+
 
 #### Returns
 
@@ -544,42 +625,56 @@ public AudioClipPlayer GetPlayer()
 ```csharp
 public void InitEffect()
 ```
+#INC
+
 
 ### InitHiddenStoryEffect()
 
 ```csharp
 private void InitHiddenStoryEffect()
 ```
+#INC
+
 
 ### LoadBackgroundImage()
 
 ```csharp
 public void LoadBackgroundImage()
 ```
+#INC
+
 
 ### LoadMainGame()
 
 ```csharp
 private void LoadMainGame()
 ```
+#INC
+
 
 ### LoadStoryMode()
 
 ```csharp
 private void LoadStoryMode()
 ```
+#INC
+
 
 ### LoadUnlimitMode()
 
 ```csharp
 private void LoadUnlimitMode()
 ```
+#INC
+
 
 ### OnClickButton(int)
 
 ```csharp
 public void OnClickButton(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -592,6 +687,8 @@ public void OnClickButton(int id)
 ```csharp
 public void OnClickResetButton(bool reset)
 ```
+#INC
+
 
 #### Parameters
 
@@ -604,6 +701,8 @@ public void OnClickResetButton(bool reset)
 ```csharp
 public void OnClickTutorial(int step)
 ```
+#INC
+
 
 #### Parameters
 
@@ -616,6 +715,8 @@ public void OnClickTutorial(int step)
 ```csharp
 public void OnCreditEnter(string ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -628,6 +729,8 @@ public void OnCreditEnter(string ln)
 ```csharp
 public void OnCreditExit(string ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -640,12 +743,16 @@ public void OnCreditExit(string ln)
 ```csharp
 public void OnOpen()
 ```
+#INC
+
 
 ### OnSetLanguage(string)
 
 ```csharp
 public void OnSetLanguage(string ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -658,6 +765,8 @@ public void OnSetLanguage(string ln)
 ```csharp
 private IEnumerator Reload()
 ```
+#INC
+
 
 #### Returns
 
@@ -668,6 +777,8 @@ private IEnumerator Reload()
 ```csharp
 private IEnumerator ReloadOrigin()
 ```
+#INC
+
 
 #### Returns
 
@@ -678,21 +789,29 @@ private IEnumerator ReloadOrigin()
 ```csharp
 private void ResetData()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateFade()
 
 ```csharp
 private void UpdateFade()
 ```
+#INC
+

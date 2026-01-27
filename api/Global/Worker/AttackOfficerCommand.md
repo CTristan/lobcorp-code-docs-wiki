@@ -11,6 +11,10 @@ canonical_path: /api/Global/Worker/AttackOfficerCommand
 ```csharp
 public class AttackOfficerCommand : WorkerCommand
 ```
+I guess a command to an officer to attack something?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → AttackOfficerCommand
@@ -25,6 +29,8 @@ public class AttackOfficerCommand : WorkerCommand
 ```csharp
 public AttackOfficerCommand(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +45,8 @@ public AttackOfficerCommand(UnitModel target)
 ```csharp
 private float preDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +57,8 @@ private float preDelay
 ```csharp
 private static float preDelayGun
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +69,8 @@ private static float preDelayGun
 ```csharp
 private float randomRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +81,8 @@ private float randomRange
 ```csharp
 private float retreatDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +93,8 @@ private float retreatDelay
 ```csharp
 private float retreatDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +105,8 @@ private float retreatDuration
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -101,12 +119,16 @@ private UnitModel target
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetTarget()
 
 ```csharp
 public UnitModel GetTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -117,24 +139,33 @@ public UnitModel GetTarget()
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### MoveOrAttack()
 
 ```csharp
 private void MoveOrAttack()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -147,9 +178,13 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

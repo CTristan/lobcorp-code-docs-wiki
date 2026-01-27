@@ -12,6 +12,9 @@ canonical_path: /api/Legacy/DeathAngelAnim
 public class DeathAngelAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [WhiteNight](/api/Legacy/DeathAngel).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → DeathAngelAnim
 
@@ -299,6 +302,8 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Stop()
 
@@ -311,3 +316,5 @@ public override void Stop()
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/SoundInfo
 ```csharp
 public class SoundInfo
 ```
+Used to play some sound effects by [weapons](/api/Global/Model/WeaponModel) (including [Paradise Lost](/api/Global/Weapon/DeathAngelWeapon) and [Adoration](/api/Global/Weapon/SlimeGirlWeapon)) and the [Rabbits' rifles](/api/Global/Model/RabbitModel).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SoundInfo
@@ -33,6 +35,8 @@ public SoundInfo()
 ```csharp
 public string soundSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public string soundSrc
 ```csharp
 public DamageInfo_EffectType soundType
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +61,9 @@ public DamageInfo_EffectType soundType
 ```csharp
 public static AudioClip LoadClip(SoundInfo sound)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -71,6 +80,8 @@ public static AudioClip LoadClip(SoundInfo sound)
 ```csharp
 public static SoundEffectPlayer PlaySound(SoundInfo sound, Vector2 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -88,6 +99,8 @@ public static SoundEffectPlayer PlaySound(SoundInfo sound, Vector2 pos)
 ```csharp
 public SoundEffectPlayer PlaySound(Vector2 pos)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Object/BloodMapObject
 ```csharp
 public class BloodMapObject : MonoBehaviour
 ```
+For displaying blood splatters, maybe?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BloodMapObject
@@ -33,6 +36,8 @@ public BloodMapObject()
 ```csharp
 public Sprite[] bloodImgs
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Sprite[] bloodImgs
 ```csharp
 public BloodMapObjectModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public BloodMapObjectModel model
 ```csharp
 private SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +74,14 @@ private SpriteRenderer renderer
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+

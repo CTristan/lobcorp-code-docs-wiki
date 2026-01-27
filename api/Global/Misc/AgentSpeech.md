@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AgentSpeech
 ```csharp
 public class AgentSpeech : MonoBehaviour
 ```
+Represents a yapping text object for an [agent](/api/Global/Worker/AgentUnit).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentSpeech
@@ -33,6 +37,8 @@ public AgentSpeech()
 ```csharp
 private AgentLyrics.CreatureAction _action
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private AgentLyrics.CreatureAction _action
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _activated
 ```csharp
 private AgentLyrics.LyricList_old _current
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private AgentLyrics.LyricList_old _current
 ```csharp
 private LyricTypeNew _currentAgentLyric
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private LyricTypeNew _currentAgentLyric
 ```csharp
 private int _currentPriority
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private int _currentPriority
 ```csharp
 private AgentLyrics.CreatureReaction _reaction
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private AgentLyrics.CreatureReaction _reaction
 ```csharp
 private string actionKey
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private string actionKey
 ```csharp
 private RectTransform bgRectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private RectTransform bgRectTransform
 ```csharp
 public Sprite[] BgSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public Sprite[] BgSprite
 ```csharp
 public Color[] boxColors
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public Color[] boxColors
 ```csharp
 private string copy
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private string copy
 ```csharp
 private Vector2 currentSizedelta
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private Vector2 currentSizedelta
 ```csharp
 private bool dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private bool dead
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ private float elapsed
 ```csharp
 private bool forcely
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ private bool forcely
 ```csharp
 private int initialFontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ private int initialFontSize
 ```csharp
 private bool interrupt
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ private bool interrupt
 ```csharp
 private float interruptElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ private float interruptElapsed
 ```csharp
 private float interruptWait
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ private float interruptWait
 ```csharp
 private bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ private bool isEnabled
 ```csharp
 public float maxX
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +289,8 @@ public float maxX
 ```csharp
 private Sprite renderingTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +301,8 @@ private Sprite renderingTarget
 ```csharp
 private float sizeY
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +313,8 @@ private float sizeY
 ```csharp
 private Vector2 smallSizeDelta
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +325,8 @@ private Vector2 smallSizeDelta
 ```csharp
 public float spacingX
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +337,8 @@ public float spacingX
 ```csharp
 public float spacingY
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +349,8 @@ public float spacingY
 ```csharp
 private TextAnchor standard
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +361,8 @@ private TextAnchor standard
 ```csharp
 private WorkerModel targetModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +373,8 @@ private WorkerModel targetModel
 ```csharp
 public Image textBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +385,8 @@ public Image textBackground
 ```csharp
 public Image textBox
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +397,8 @@ public Image textBox
 ```csharp
 public Color[] textColors
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +409,8 @@ public Color[] textColors
 ```csharp
 public Text textItem
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +421,8 @@ public Text textItem
 ```csharp
 public RectTransform textObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +433,8 @@ public RectTransform textObject
 ```csharp
 private RectTransform textRectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +445,8 @@ private RectTransform textRectTransform
 ```csharp
 private float waitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -427,24 +501,32 @@ public AgentLyrics.CreatureReaction reaction { get; set; }
 ```csharp
 public void DisableText()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### ForcelyShutUp()
 
 ```csharp
 public void ForcelyShutUp()
 ```
+#INC
+
 
 ### Init(WorkerModel)
 
 ```csharp
 public void Init(WorkerModel wm)
 ```
+#INC
+
 
 #### Parameters
 
@@ -457,18 +539,24 @@ public void Init(WorkerModel wm)
 ```csharp
 public void InterruptEnable()
 ```
+#INC
+
 
 ### InterruptStop()
 
 ```csharp
 public void InterruptStop()
 ```
+#INC
+
 
 ### InterruptStop(float)
 
 ```csharp
 public void InterruptStop(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -481,30 +569,40 @@ public void InterruptStop(float time)
 ```csharp
 public void OnSetCreatureAction()
 ```
+#INC
+
 
 ### OnSetCreatureReaction()
 
 ```csharp
 public void OnSetCreatureReaction()
 ```
+#INC
+
 
 ### OnSetText()
 
 ```csharp
 public void OnSetText()
 ```
+#INC
+
 
 ### SetForceley()
 
 ```csharp
 public void SetForceley()
 ```
+#INC
+
 
 ### SetSpeech(string)
 
 ```csharp
 private void SetSpeech(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -517,6 +615,8 @@ private void SetSpeech(string text)
 ```csharp
 public void ShowAgentLyric(LyricTypeNew type, string text, int priority)
 ```
+#INC
+
 
 #### Parameters
 
@@ -531,6 +631,8 @@ public void ShowAgentLyric(LyricTypeNew type, string text, int priority)
 ```csharp
 public void ShowCreatureActionLyric(AgentLyrics.CreatureAction creatureAction, string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -544,6 +646,8 @@ public void ShowCreatureActionLyric(AgentLyrics.CreatureAction creatureAction, s
 ```csharp
 public void ShowCreatureReactionLyric(AgentLyrics.CreatureReaction creatureReaction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -556,6 +660,8 @@ public void ShowCreatureReactionLyric(AgentLyrics.CreatureReaction creatureReact
 ```csharp
 private void showSpeech(string speech)
 ```
+#INC
+
 
 #### Parameters
 
@@ -568,6 +674,8 @@ private void showSpeech(string speech)
 ```csharp
 public void ShowSpeech_old(AgentLyrics.LyricList_old lyric)
 ```
+#INC
+
 
 #### Parameters
 
@@ -580,3 +688,6 @@ public void ShowSpeech_old(AgentLyrics.LyricList_old lyric)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

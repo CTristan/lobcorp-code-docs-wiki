@@ -12,6 +12,13 @@ canonical_path: /api/Global/Worker/UnconPursueWorkerCommand
 public class UnconPursueWorkerCommand : WorkerCommand, WorkerAttackCommand
 ```
 
+Command to make a worker try to suppress a target.
+
+Used by Singing Machine and Red Shoes' uncontrollable actions.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → UnconPursueWorkerCommand
 
@@ -28,6 +35,8 @@ public class UnconPursueWorkerCommand : WorkerCommand, WorkerAttackCommand
 ```csharp
 public UnconPursueWorkerCommand(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +51,8 @@ public UnconPursueWorkerCommand(UnitModel target)
 ```csharp
 public float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +63,8 @@ public float elapsedTime
 ```csharp
 private float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +75,8 @@ private float range
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +87,8 @@ private UnitModel target
 ```csharp
 private WorkerModel workerActor
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +101,8 @@ private WorkerModel workerActor
 ```csharp
 private bool CheckBattleState(ref AgentModel attackingAgent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,30 +119,41 @@ private bool CheckBattleState(ref AgentModel attackingAgent)
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### MoveOrAttack()
 
 ```csharp
 private void MoveOrAttack()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -136,9 +166,13 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 private void OnKillTarget()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/PromiseAndFaith
 public class PromiseAndFaith : CreatureBase
 ```
 
+Old Faith and Promise. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → PromiseAndFaith
 
@@ -33,6 +36,8 @@ public PromiseAndFaith()
 ```csharp
 private PromiseAndFaithAnim _anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private PromiseAndFaithAnim _anim
 ```csharp
 private AgentModel _curAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private AgentModel _curAgent
 ```csharp
 private bool _isFailed
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private bool _isFailed
 ```csharp
 private Dictionary<string, object> _savedData
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private Dictionary<string, object> _savedData
 ```csharp
 private float _workTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +98,8 @@ private float _workTime
 ```csharp
 private float CalculateEnergyCost(int lv)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,18 +116,24 @@ private float CalculateEnergyCost(int lv)
 ```csharp
 public void DetermineReinforcement()
 ```
+#INC
+
 
 ### ExitReinforcementProcess()
 
 ```csharp
 public void ExitReinforcementProcess()
 ```
+#INC
+
 
 ### GetKitCreatureProcessTime()
 
 ```csharp
 public override float GetKitCreatureProcessTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,6 +144,8 @@ public override float GetKitCreatureProcessTime()
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +158,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,18 +172,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

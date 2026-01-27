@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ContinueLoadingScene
 ```csharp
 public class ContinueLoadingScene : LoadingScene
 ```
+Loading scene for hitting continuing a playthrough, I think.
+
+Used by [NewTitleScript](/api/Global/IANimatorEventCalled/NewTitleScript) and [AlterTitleController](/api/Global/Misc/AlterTitleController).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → ContinueLoadingScene
@@ -33,6 +37,8 @@ public ContinueLoadingScene()
 ```csharp
 private const float _alphaAdded_DaatLineMax = 0.08
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private const float _alphaAdded_DaatLineMax = 0.08
 ```csharp
 private const float _alphaAdded_DaatLineMin = 0.05
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private const float _alphaAdded_DaatLineMin = 0.05
 ```csharp
 private const float _alphaAdded_Sefira = 0.065
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private const float _alphaAdded_Sefira = 0.065
 ```csharp
 private const float _alphaAdded_Text = 0.04
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const float _alphaAdded_Text = 0.04
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private int currentIndex
 ```csharp
 private int currentSefiraIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public ContinueLoadingScene.DaatLine[] daatLines
 ```csharp
 private int loadingCountDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private int loadingCountDown
 ```csharp
 private List<int> sefiraIndexer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ private List<int> sefiraIndexer
 ```csharp
 private bool sefiraLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +165,8 @@ public ContinueLoadingScene.SefiraObject[] sefiras
 ```csharp
 private bool textLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,9 +201,14 @@ private static float alphaAdded_DaatLine { get; }
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

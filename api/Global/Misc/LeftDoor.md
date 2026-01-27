@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/LeftDoor
 ```csharp
 public class LeftDoor : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LeftDoor
@@ -33,6 +35,8 @@ public LeftDoor()
 ```csharp
 public bool leftDoorOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +49,8 @@ public bool leftDoorOpen
 ```csharp
 private void OnCollisionEnter2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,9 +63,14 @@ private void OnCollisionEnter2D(Collision2D col)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

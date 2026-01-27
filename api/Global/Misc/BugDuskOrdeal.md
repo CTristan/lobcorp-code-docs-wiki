@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BugDuskOrdeal
 public class BugDuskOrdeal : BugOrdeal
 ```
 
+Dusk of Amber; The Food Chain. Spawns a bunch of [BugDusks](/api/Global/Misc/BugDusk).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [BugOrdeal](/api/Global/Misc/BugOrdeal) → BugDuskOrdeal
 
@@ -25,6 +28,8 @@ public class BugDuskOrdeal : BugOrdeal
 ```csharp
 public BugDuskOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public BugDuskOrdeal()
 ```csharp
 private const float _sideNodeRemoveRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +52,14 @@ private const float _sideNodeRemoveRange = 4
 ```csharp
 private void MakeBugs()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

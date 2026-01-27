@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AutoDisabler
 ```csharp
 public class AutoDisabler : MonoBehaviour
 ```
+Disables an object after a fixed time.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AutoDisabler
@@ -33,6 +35,8 @@ public AutoDisabler()
 ```csharp
 public bool editRun
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public bool editRun
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private float elapsed
 ```csharp
 private bool run
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private bool run
 ```csharp
 public float waitTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,21 +97,30 @@ public bool isEnabled { get; }
 ```csharp
 public void Disable()
 ```
+#INC
+
 
 ### ForcelyDisable()
 
 ```csharp
 public void ForcelyDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

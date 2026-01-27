@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/DummyCreature
 public class DummyCreature : CreatureBase
 ```
 
+Standard Training-Dummy Rabbit. Used in tutorials, but technically an abnormality in its own right...
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DummyCreature
 
@@ -33,6 +38,8 @@ public DummyCreature()
 ```csharp
 private bool _gonnaEscape
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _gonnaEscape
 ```csharp
 private bool _workInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,18 +64,24 @@ private bool _workInit
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### ForcelyFail(UseSkill)
 
 ```csharp
 public override bool ForcelyFail(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -83,6 +98,8 @@ public override bool ForcelyFail(UseSkill skill)
 ```csharp
 public override bool ForcelySuccess(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,18 +116,24 @@ public override bool ForcelySuccess(UseSkill skill)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnArrived()
 
 ```csharp
 private void OnArrived()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,18 +146,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,9 +176,14 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

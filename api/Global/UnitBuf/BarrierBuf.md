@@ -11,6 +11,9 @@ canonical_path: /api/Global/UnitBuf/BarrierBuf
 ```csharp
 public class BarrierBuf : UnitBuf
 ```
+Buff for having a shield applied?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BarrierBuf
@@ -25,6 +28,8 @@ public class BarrierBuf : UnitBuf
 ```csharp
 public BarrierBuf(RwbpType type, float barrierValue, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -41,6 +46,8 @@ public BarrierBuf(RwbpType type, float barrierValue, float time)
 ```csharp
 private float _barrierValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +58,8 @@ private float _barrierValue
 ```csharp
 private float _barrierValueMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ private float _barrierValueMax
 ```csharp
 private RwbpType _rwbpType
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +82,8 @@ private RwbpType _rwbpType
 ```csharp
 private BarrierEffect barrierEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,6 +94,8 @@ private BarrierEffect barrierEffect
 ```csharp
 private float maxTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,12 +120,17 @@ private float Rate { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -123,18 +143,24 @@ public override void Init(UnitModel model)
 ```csharp
 public void OnCrackBarrier()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### UseBarrier(RwbpType, float)
 
 ```csharp
 public float UseBarrier(RwbpType dmgRwbpType, float damage)
 ```
+#INC
+
 
 #### Parameters
 

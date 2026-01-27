@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/DeathAngelBetrayerBuf
 public class DeathAngelBetrayerBuf : UnitBuf
 ```
 
+Effect for the special twelth apostle, The Heretic.
+Gives immunity to all damage and allows a special work type with One Sin.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → DeathAngelBetrayerBuf
 
@@ -25,6 +30,8 @@ public class DeathAngelBetrayerBuf : UnitBuf
 ```csharp
 public DeathAngelBetrayerBuf(DeathAngel angel, ApostleData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +47,8 @@ public DeathAngelBetrayerBuf(DeathAngel angel, ApostleData data)
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +59,8 @@ private AgentModel agent
 ```csharp
 private DeathAngel angel
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +71,8 @@ private DeathAngel angel
 ```csharp
 private ApostleData data
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +83,8 @@ private ApostleData data
 ```csharp
 private CreatureModel oneBadManyGood
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +95,8 @@ private CreatureModel oneBadManyGood
 ```csharp
 private static Vector3 position
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +107,8 @@ private static Vector3 position
 ```csharp
 private static Vector3 rotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +119,8 @@ private static Vector3 rotation
 ```csharp
 private static Vector3 scale
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,24 +133,33 @@ private static Vector3 scale
 ```csharp
 public void Confess()
 ```
+#INC
+
 
 ### Destroy()
 
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -142,18 +172,24 @@ public override void Init(UnitModel model)
 ```csharp
 public void OnDeathAngelSuppressed()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnSuppress()
 
 ```csharp
 public bool OnSuppress()
 ```
+#INC
+
 
 #### Returns
 
@@ -164,6 +200,8 @@ public bool OnSuppress()
 ```csharp
 public bool OnWork()
 ```
+#INC
+
 
 #### Returns
 

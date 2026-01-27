@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/TextAppearEffect
 public class TextAppearEffect : MonoBehaviour
 ```
 
+Used by the Text prefab. Maybe used? not sure. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TextAppearEffect
 
@@ -33,6 +36,8 @@ public TextAppearEffect()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float elapsedTime
 ```csharp
 private Vector2 worldPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ private Vector2 worldPos
 ```csharp
 public static TextAppearEffect Create(Vector2 pos, string text, Color color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,9 +82,14 @@ public static TextAppearEffect Create(Vector2 pos, string text, Color color)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -53,6 +53,8 @@ public string _spriteSrc
 ```csharp
 public bool attachTag
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +65,8 @@ public bool attachTag
 ```csharp
 public const string defaultSrc = "Sprites/UI/_common/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +77,8 @@ public const string defaultSrc = "Sprites/UI/_common/"
 ```csharp
 public SefiraEnum hasSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +89,8 @@ public SefiraEnum hasSefira
 ```csharp
 public bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +101,8 @@ public bool isLoaded
 ```csharp
 public string key
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +113,8 @@ public string key
 ```csharp
 public bool loadedByStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +135,8 @@ private SpriteLoadScript.SefiraLinkedSprite sefiraData
 ```csharp
 public const string sefiraSrc = "Sprites/UI/_sefira/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -168,12 +182,16 @@ public virtual string spriteSrc { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### ChangeSefira(SefiraEnum)
 
 ```csharp
 public virtual void ChangeSefira(SefiraEnum target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,36 +204,48 @@ public virtual void ChangeSefira(SefiraEnum target)
 ```csharp
 public void ForcelyLoad()
 ```
+#INC
+
 
 ### LoadSefiraData()
 
 ```csharp
 public virtual void LoadSefiraData()
 ```
+#INC
+
 
 ### LoadSprite()
 
 ```csharp
 public virtual void LoadSprite()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -229,6 +259,9 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetKey(string k)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -241,9 +274,13 @@ public void SetKey(string k)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

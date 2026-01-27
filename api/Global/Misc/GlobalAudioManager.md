@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/GlobalAudioManager
 public class GlobalAudioManager : MonoBehaviour
 ```
 
+Manages master-volume #inc audio.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalAudioManager
 
@@ -33,6 +38,8 @@ public GlobalAudioManager()
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _activated
 ```csharp
 private const int _generateSourceCount = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _generateSourceCount = 3
 ```csharp
 private static GlobalAudioManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private static GlobalAudioManager _instance
 ```csharp
 private List<AudioSource> _src
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private List<AudioSource> _src
 ```csharp
 public const string AudioPrefab = "Gen/GeneratedAudioSource"
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ public LocalAudioManager CurrentLocalManager
 ```csharp
 public List<AudioClip> globalData
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,18 +135,24 @@ public static GlobalAudioManager instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### EmergencyLoad()
 
 ```csharp
 private static void EmergencyLoad()
 ```
+#INC
+
 
 ### GetIdleSource()
 
 ```csharp
 public AudioSource GetIdleSource()
 ```
+#INC
+
 
 #### Returns
 
@@ -140,6 +163,9 @@ public AudioSource GetIdleSource()
 ```csharp
 public static AudioType GetTypeByIndex(int index)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -156,12 +182,16 @@ public static AudioType GetTypeByIndex(int index)
 ```csharp
 public void OnSceneLoad()
 ```
+#INC
+
 
 ### PlayGlobalClip(AudioType)
 
 ```csharp
 public void PlayGlobalClip(AudioType globalType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,6 +204,8 @@ public void PlayGlobalClip(AudioType globalType)
 ```csharp
 public void PlayGlobalClip(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,6 +218,8 @@ public void PlayGlobalClip(int index)
 ```csharp
 public void PlayLocalClip(AudioClip clip)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,6 +232,8 @@ public void PlayLocalClip(AudioClip clip)
 ```csharp
 public void RegisterLocalManager(LocalAudioManager localManager)
 ```
+#INC
+
 
 #### Parameters
 
@@ -210,3 +246,5 @@ public void RegisterLocalManager(LocalAudioManager localManager)
 ```csharp
 private void Start()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/ButterflyArmor
 public class ButterflyArmor : EquipmentScriptBase
 ```
 
+Script for [The Funeral of the Dead Butterflies](/api/Global/Misc/Butterfly)'s EGO Suit: Solemn Lament. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ButterflyArmor
 
@@ -33,6 +38,8 @@ public ButterflyArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

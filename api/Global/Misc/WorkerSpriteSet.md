@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/WorkerSpriteSet
 ```csharp
 public class WorkerSpriteSet
 ```
+Holds a set of sprites to use for a [worker](/api/Global/Unit/WorkerUnit).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpriteSet
@@ -33,6 +35,8 @@ public WorkerSpriteSet()
 ```csharp
 public Sprite Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Sprite Body
 ```csharp
 public Sprite LeftDownHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Sprite LeftDownHand
 ```csharp
 public Sprite LeftDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Sprite LeftDownLeg
 ```csharp
 public Sprite LeftUpHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Sprite LeftUpHand
 ```csharp
 public Sprite LeftUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Sprite LeftUpLeg
 ```csharp
 public Sprite RightDownHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public Sprite RightDownHand
 ```csharp
 public Sprite RightDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public Sprite RightDownLeg
 ```csharp
 public Sprite RightUpHand
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public Sprite RightUpHand
 ```csharp
 public Sprite RightUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Sprite RightUpLeg
 ```csharp
 public Sprite Symbol
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,9 @@ public Sprite Symbol
 ```csharp
 public int targetSefira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

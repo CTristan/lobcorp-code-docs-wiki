@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/SefiraBossDescUI
 public class SefiraBossDescUI : MonoBehaviour
 ```
 
+UI element which controls displaying the text during core suppressions. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraBossDescUI
 
@@ -33,6 +36,8 @@ public SefiraBossDescUI()
 ```csharp
 private UnscaledTimer _activateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private UnscaledTimer _activateTimer
 ```csharp
 private UnscaledTimer _alphaTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private UnscaledTimer _alphaTimer
 ```csharp
 private UnscaledTimer _disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private UnscaledTimer _disableTimer
 ```csharp
 private UnscaledTimer _enableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private UnscaledTimer _enableTimer
 ```csharp
 public Font _font
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Font _font
 ```csharp
 private UnscaledTimer _randEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private UnscaledTimer _randEffectTimer
 ```csharp
 private SefiraBossUI.PositionRatio _ratio
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private SefiraBossUI.PositionRatio _ratio
 ```csharp
 public float additionalSpaceWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public float additionalSpaceWidth
 ```csharp
 public float alphaTransitionTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public float alphaTransitionTime
 ```csharp
 public SefiraBossBase baseScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public SefiraBossBase baseScript
 ```csharp
 public float big_max
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public float big_max
 ```csharp
 public float big_min
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public float big_min
 ```csharp
 private Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private Canvas canvas
 ```csharp
 private float canvasHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private float canvasHeight
 ```csharp
 private float canvasWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private float canvasWidth
 ```csharp
 private int currentActivateIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private int currentActivateIndex
 ```csharp
 public Text debugStatusText
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ public Text debugStatusText
 ```csharp
 public float disableTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -224,6 +263,8 @@ public float enableTime
 ```csharp
 public float endAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +286,8 @@ public int fontSize
 ```csharp
 public FontType fontType
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +309,8 @@ public bool randomizeEffectEnabled
 ```csharp
 public float randomizeEffectFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +321,8 @@ public float randomizeEffectFreq
 ```csharp
 public Text refText
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +333,8 @@ public Text refText
 ```csharp
 public float root_rot_max
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,6 +356,8 @@ public float root_rot_min
 ```csharp
 public float rot_max
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +379,8 @@ public float rot_min
 ```csharp
 public float small_max
 ```
+#INC
+
 
 #### Field Value
 
@@ -349,6 +402,8 @@ public float small_min
 ```csharp
 private float spaceWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -359,6 +414,8 @@ private float spaceWidth
 ```csharp
 public float spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -369,6 +426,8 @@ public float spacing
 ```csharp
 public const string Src = "Effect/SefiraBoss/SefiraBossTextUI"
 ```
+#INC
+
 
 #### Field Value
 
@@ -390,6 +449,8 @@ public float startAlpha
 ```csharp
 public string text
 ```
+#INC
+
 
 #### Field Value
 
@@ -549,6 +610,9 @@ public static SefiraBossDescUI GenFinishDesc(string text, Color textColor, Color
 ```csharp
 public void GetBattleDesc(int id)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -561,6 +625,8 @@ public void GetBattleDesc(int id)
 ```csharp
 private Quaternion GetRandomRootRotation()
 ```
+#INC
+
 
 #### Returns
 
@@ -571,6 +637,8 @@ private Quaternion GetRandomRootRotation()
 ```csharp
 private Quaternion GetRandomRotation()
 ```
+#INC
+
 
 #### Returns
 
@@ -581,6 +649,8 @@ private Quaternion GetRandomRotation()
 ```csharp
 private float GetRandomScaleFactor(bool prevIsSpace)
 ```
+#INC
+
 
 #### Parameters
 
@@ -597,12 +667,16 @@ private float GetRandomScaleFactor(bool prevIsSpace)
 ```csharp
 public void InitCanvas()
 ```
+#INC
+
 
 ### InitCanvas(Canvas)
 
 ```csharp
 public void InitCanvas(Canvas canvas)
 ```
+#INC
+
 
 #### Parameters
 
@@ -615,18 +689,24 @@ public void InitCanvas(Canvas canvas)
 ```csharp
 public void InitText()
 ```
+#INC
+
 
 ### InitTextOnFinish()
 
 ```csharp
 public void InitTextOnFinish()
 ```
+#INC
+
 
 ### SetActivateTime(float)
 
 ```csharp
 public void SetActivateTime(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -639,12 +719,16 @@ public void SetActivateTime(float time)
 ```csharp
 private void SetAlpha()
 ```
+#INC
+
 
 ### SetEnableTime(float)
 
 ```csharp
 public void SetEnableTime(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -657,27 +741,37 @@ public void SetEnableTime(float time)
 ```csharp
 public void SetFont()
 ```
+#INC
+
 
 ### SetList()
 
 ```csharp
 public void SetList()
 ```
+#INC
+
 
 ### SetPosition()
 
 ```csharp
 public void SetPosition()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

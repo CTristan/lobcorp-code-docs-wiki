@@ -11,6 +11,8 @@ canonical_path: /api/Inventory/InventoryRequireLayout
 ```csharp
 public class InventoryRequireLayout
 ```
+Layout for formatting the [EGO requirement text](/api/Global/Unit/InventoryRequireUnit) in the assignment slot on the [list of EGO Suits and Weapons](/api/Inventory/InventoryItemController).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → InventoryRequireLayout
@@ -33,6 +35,8 @@ public InventoryRequireLayout()
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public GameObject ActiveControl
 ```csharp
 public RectTransform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public RectTransform parent
 ```csharp
 private static string[] statName
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private static string[] statName
 ```csharp
 public GameObject unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +85,9 @@ public GameObject unit
 ```csharp
 public void Init(EquipmentTypeInfo info)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

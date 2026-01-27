@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Piano
 public class Piano : CreatureBase
 ```
 
+Il Pianto della Luna.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Piano
 
@@ -33,6 +38,8 @@ public Piano()
 ```csharp
 private PianoAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private PianoAnim _animScript
 ```csharp
 private const int _improviseDmgMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _improviseDmgMax = 5
 ```csharp
 private const int _improviseDmgMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _improviseDmgMin = 4
 ```csharp
 private const float _improviseDmgTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _improviseDmgTime = 3
 ```csharp
 private const RwbpType _improviseDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const RwbpType _improviseDmgType = B
 ```csharp
 private const float _improviseTime = 95
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _improviseTime = 95
 ```csharp
 private const int BAD_SUB_QLIPHOTH_PROB = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int BAD_SUB_QLIPHOTH_PROB = 100
 ```csharp
 private PianoCreature escaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private PianoCreature escaped
 ```csharp
 private bool escapedWhileWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private bool escapedWhileWork
 ```csharp
 private const float FADE_OUT_TIME = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float FADE_OUT_TIME = 1.5
 ```csharp
 private bool fadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private bool fadeOut
 ```csharp
 private Timer improviseDmgTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private Timer improviseDmgTimer
 ```csharp
 private WorkerModel Improviser
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private WorkerModel Improviser
 ```csharp
 private Timer improviseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private Timer improviseTimer
 ```csharp
 private SoundEffectPlayer loopSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private SoundEffectPlayer loopSound
 ```csharp
 private const int NORMAL_SUB_QLIPHOTH_PROB = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const int NORMAL_SUB_QLIPHOTH_PROB = 30
 ```csharp
 private bool playStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private bool playStarted
 ```csharp
 private const int PRUDENCE_CONDITION = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const int PRUDENCE_CONDITION = 3
 ```csharp
 private const int SPECIAL_WORK_CNT = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private const int SPECIAL_WORK_CNT = 3
 ```csharp
 private const int SPECIAL_WORK_ID = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const int SPECIAL_WORK_ID = 7
 ```csharp
 private int specialWorkCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private int specialWorkCnt
 ```csharp
 private const int TARGET_WORK_ID = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const int TARGET_WORK_ID = 2
 ```csharp
 private bool workEnded
 ```
+#INC
+
 
 #### Field Value
 
@@ -287,12 +338,16 @@ private static DamageInfo IMPROVISE_DMG { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### CanEnterRoom()
 
 ```csharp
 public override bool CanEnterRoom()
 ```
+#INC
+
 
 #### Returns
 
@@ -303,6 +358,8 @@ public override bool CanEnterRoom()
 ```csharp
 private bool CheckIfSpecialWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,18 +376,24 @@ private bool CheckIfSpecialWork(UseSkill skill)
 ```csharp
 private void ClosePiano()
 ```
+#INC
+
 
 ### FinishImprovise()
 
 ```csharp
 private void FinishImprovise()
 ```
+#INC
+
 
 ### ForcelySuccess(UseSkill)
 
 ```csharp
 public override bool ForcelySuccess(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,6 +410,8 @@ public override bool ForcelySuccess(UseSkill skill)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,18 +428,24 @@ public string GetSoundSrc(string key)
 ```csharp
 private void GiveBuf()
 ```
+#INC
+
 
 ### GiveImproviseDmg()
 
 ```csharp
 private void GiveImproviseDmg()
 ```
+#INC
+
 
 ### HasRoomCounter()
 
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -385,6 +456,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override int HasUniqueWorkSelect(int workId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,6 +474,8 @@ public override int HasUniqueWorkSelect(int workId)
 ```csharp
 private bool IsPlaying()
 ```
+#INC
+
 
 #### Returns
 
@@ -411,6 +486,8 @@ private bool IsPlaying()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -427,6 +504,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public void OnAgentAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -439,6 +518,8 @@ public void OnAgentAnimCalled(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -451,12 +532,16 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnEscapeAnimEnd()
 ```
+#INC
+
 
 ### OnFinishWork(UseSkill)
 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -469,6 +554,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -481,6 +568,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -493,12 +582,16 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 private void OnImproviseEnd()
 ```
+#INC
+
 
 ### OnOpenCommandWindow(Button[])
 
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -511,6 +604,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -521,12 +616,16 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public void OnPianoCreatureSuppressed()
 ```
+#INC
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -539,6 +638,8 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -551,30 +652,41 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnStartPlaying()
 
 ```csharp
 public void OnStartPlaying()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -587,42 +699,56 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void OpenPiano()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### RemoveBuf()
 
 ```csharp
 private void RemoveBuf()
 ```
+#INC
+
 
 ### RemoveLoopSound()
 
 ```csharp
 private void RemoveLoopSound()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 private void Reset()
 ```
+#INC
+
 
 ### SetQliphothCounterZero()
 
 ```csharp
 private void SetQliphothCounterZero()
 ```
+#INC
+
 
 ### SetSoundState(bool)
 
 ```csharp
 private void SetSoundState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -688,9 +814,13 @@ public SoundEffectPlayer SoundMakeLoop(string src, Transform t, float vol = 1)
 ```csharp
 private void StartImprovise()
 ```
+#INC
+
 
 ### SubQliphothCounter()
 
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+

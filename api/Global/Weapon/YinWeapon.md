@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/YinWeapon
 public class YinWeapon : EquipmentScriptBase
 ```
 
+Script for [Yin](/api/Global/Misc/Yin)'s EGO Weapon: Discord.
+
+Does a special skill at a 10% chance which does 5 attacks.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → YinWeapon
 
@@ -33,6 +38,8 @@ public YinWeapon()
 ```csharp
 private const int _SKILL_HIT = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const int _SKILL_HIT = 5
 ```csharp
 private const float _SKILL_PROB = 0.1
 ```
+#INC
+
 
 #### Field Value
 

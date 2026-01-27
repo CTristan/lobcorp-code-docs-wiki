@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/DistanceUnitUtil
 ```csharp
 public class DistanceUnitUtil
 ```
+Seems to be a utility for converting between the game's internal units and unity's units.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DistanceUnitUtil
@@ -33,6 +37,8 @@ public DistanceUnitUtil()
 ```csharp
 public const float distanceScale = 1.3333334
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public const float distanceScale = 1.3333334
 ```csharp
 public static float GameToUnity(float v)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,6 +69,8 @@ public static float GameToUnity(float v)
 ```csharp
 public static UnitModel SelectNearestUnit(UnitModel model, List<UnitModel> list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -78,6 +88,9 @@ public static UnitModel SelectNearestUnit(UnitModel model, List<UnitModel> list)
 ```csharp
 public static float UnityToGame(float v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

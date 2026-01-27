@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BigBadWolfWeaponDebuf
 public class BigBadWolfWeaponDebuf : UnitBuf
 ```
 
+'Debuff' for [Cobalt Scar (weapon)](/api/Global/Weapon/BigBadWolfWeapon) which causes it to do more damage and friendly fire at low health. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BigBadWolfWeaponDebuf
 
@@ -25,6 +28,8 @@ public class BigBadWolfWeaponDebuf : UnitBuf
 ```csharp
 public BigBadWolfWeaponDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public BigBadWolfWeaponDebuf()
 ```csharp
 private const int _dmgMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const int _dmgMax = 2
 ```csharp
 private const int _dmgMin = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _dmgMin = 2
 ```csharp
 private const float _remainTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float _remainTime = 5
 ```csharp
 private const float _tickTime = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float _tickTime = 1
 ```csharp
 private const RwbpType dmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const RwbpType dmgType = R
 ```csharp
 private Timer tickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +124,17 @@ private static int dmg { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,13 @@ canonical_path: /api/Global/UI/DeployUI
 public class DeployUI : MonoBehaviour, IScrollMessageReciever
 ```
 
+The deployment UI, including [all departments](/api/Global/List/DeploySefiraList), the hire button and the list of [undeployed agents](/api/Global/List/DeployAgentList), the [research window](/api/Global/IANimatorEventCalled/ResearchWindow) (when research can be obtained), the [memory repository popup](/api/Global/IOBserver/CheckPointUI), a button for the [E.G.O List](/api/Inventory/InventoryUI), a button to access the [manual](/api/Manual), and the Begin Management button.
+
+!
+Diagram of the DeployUI screen. #INC
+## WARNING: THIS DIAGRAM IS WRONG IN SUBTLE AND IMPORTANT WAYS
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeployUI
 
@@ -36,6 +43,8 @@ public DeployUI()
 ```csharp
 private int _currentColorIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +55,8 @@ private int _currentColorIndex
 ```csharp
 private SefiraLevel _currentLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +67,8 @@ private SefiraLevel _currentLevel
 ```csharp
 private static DeployUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +79,8 @@ private static DeployUI _instance
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +91,8 @@ private bool _isEnabled
 ```csharp
 private bool _isGameStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +103,8 @@ private bool _isGameStarted
 ```csharp
 private Timer _moveAreaTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +115,8 @@ private Timer _moveAreaTimer
 ```csharp
 private bool _startAble
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +127,8 @@ private bool _startAble
 ```csharp
 private bool _startButtonOverlayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +139,8 @@ private bool _startButtonOverlayed
 ```csharp
 public const int AgentCustomCost = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +151,8 @@ public const int AgentCustomCost = 1
 ```csharp
 public Sprite[] AgentGradeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +163,8 @@ public Sprite[] AgentGradeImage
 ```csharp
 public const int AgentHireCost = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +175,8 @@ public const int AgentHireCost = 1
 ```csharp
 public Sprite[] AgentLifeStyleImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +187,8 @@ public Sprite[] AgentLifeStyleImage
 ```csharp
 public Color[] AgentLifeStyleThemeColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +199,8 @@ public Color[] AgentLifeStyleThemeColor
 ```csharp
 public DeployAgentList agentList
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +211,8 @@ public DeployAgentList agentList
 ```csharp
 public const int AgentMaxLevel = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +223,8 @@ public const int AgentMaxLevel = 5
 ```csharp
 public Animator AreaMoveAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +235,8 @@ public Animator AreaMoveAnim
 ```csharp
 public Button[] AreaMoveButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +247,8 @@ public Button[] AreaMoveButton
 ```csharp
 public Vector2 CanavsRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +259,8 @@ public Vector2 CanavsRect
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +271,8 @@ public Canvas canvas
 ```csharp
 public const int CheckPointDayCount = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +283,8 @@ public const int CheckPointDayCount = 5
 ```csharp
 public CheckPointUI checkPointUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +306,8 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 private int currentTutorialIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +318,8 @@ private int currentTutorialIndex
 ```csharp
 public static int[] CusomAgentHireCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +330,8 @@ public static int[] CusomAgentHireCost
 ```csharp
 public Image[] DayCircleImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -298,6 +353,8 @@ public Text dayCount
 ```csharp
 public Sprite[] defaultWorkIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -319,6 +376,8 @@ public Color[] DeployColorSet
 ```csharp
 public Sprite Gender_Female
 ```
+#INC
+
 
 #### Field Value
 
@@ -329,6 +388,8 @@ public Sprite Gender_Female
 ```csharp
 public Sprite Gender_Male
 ```
+#INC
+
 
 #### Field Value
 
@@ -339,6 +400,8 @@ public Sprite Gender_Male
 ```csharp
 public Text goal
 ```
+#INC
+
 
 #### Field Value
 
@@ -349,6 +412,8 @@ public Text goal
 ```csharp
 public GameObject[] KetherConnected
 ```
+#INC
+
 
 #### Field Value
 
@@ -381,6 +446,8 @@ public List<GameObject> middleAreaConnected
 ```csharp
 public RectTransform MoveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -391,6 +458,8 @@ public RectTransform MoveControl
 ```csharp
 public Text ordeal
 ```
+#INC
+
 
 #### Field Value
 
@@ -401,6 +470,8 @@ public Text ordeal
 ```csharp
 public Text OrdealText
 ```
+#INC
+
 
 #### Field Value
 
@@ -411,6 +482,8 @@ public Text OrdealText
 ```csharp
 public const string Point = "LOB"
 ```
+#INC
+
 
 #### Field Value
 
@@ -421,6 +494,8 @@ public const string Point = "LOB"
 ```csharp
 public Text pointCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -431,6 +506,8 @@ public Text pointCount
 ```csharp
 private Queue<Sefira> ResearchUpgradeWaitQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -441,6 +518,8 @@ private Queue<Sefira> ResearchUpgradeWaitQueue
 ```csharp
 public ResearchWindow researchWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -451,6 +530,8 @@ public ResearchWindow researchWindow
 ```csharp
 private List<IDeployResetCalled> resetTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -461,6 +542,8 @@ private List<IDeployResetCalled> resetTargets
 ```csharp
 public Color[] RiskLevelColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -471,6 +554,8 @@ public Color[] RiskLevelColor
 ```csharp
 public List<ScrollExchanger> scroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -481,6 +566,8 @@ public List<ScrollExchanger> scroll
 ```csharp
 public RectTransform SefiraBossTutorial_HorizontalText
 ```
+#INC
+
 
 #### Field Value
 
@@ -491,6 +578,8 @@ public RectTransform SefiraBossTutorial_HorizontalText
 ```csharp
 public Button SefiraBossTutorial_Left
 ```
+#INC
+
 
 #### Field Value
 
@@ -501,6 +590,8 @@ public Button SefiraBossTutorial_Left
 ```csharp
 public Button SefiraBossTutorial_Right
 ```
+#INC
+
 
 #### Field Value
 
@@ -511,6 +602,8 @@ public Button SefiraBossTutorial_Right
 ```csharp
 public List<Text> SefiraBossTutorial_Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -521,6 +614,8 @@ public List<Text> SefiraBossTutorial_Text
 ```csharp
 public RectTransform SefiraBossTutorial_VerticalText
 ```
+#INC
+
 
 #### Field Value
 
@@ -531,6 +626,8 @@ public RectTransform SefiraBossTutorial_VerticalText
 ```csharp
 public Image SefiraBossTutorialBlock
 ```
+#INC
+
 
 #### Field Value
 
@@ -541,6 +638,8 @@ public Image SefiraBossTutorialBlock
 ```csharp
 public Text SefiraBossTutorialIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -562,6 +661,8 @@ public GameObject SefiraBossTutorialRoot
 ```csharp
 public GameObject SefiraBossZeroEmpty
 ```
+#INC
+
 
 #### Field Value
 
@@ -572,6 +673,8 @@ public GameObject SefiraBossZeroEmpty
 ```csharp
 public DeploySefiraList sefiraList
 ```
+#INC
+
 
 #### Field Value
 
@@ -582,6 +685,8 @@ public DeploySefiraList sefiraList
 ```csharp
 public Text StartButtonText
 ```
+#INC
+
 
 #### Field Value
 
@@ -592,6 +697,8 @@ public Text StartButtonText
 ```csharp
 public Image StartButtonTexture
 ```
+#INC
+
 
 #### Field Value
 
@@ -602,6 +709,8 @@ public Image StartButtonTexture
 ```csharp
 public Color UIDefaultBlack
 ```
+#INC
+
 
 #### Field Value
 
@@ -612,6 +721,8 @@ public Color UIDefaultBlack
 ```csharp
 public Color UIDefaultFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -622,6 +733,8 @@ public Color UIDefaultFill
 ```csharp
 public Color UIOverlayColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -726,12 +839,16 @@ public bool StartAble { get; private set; }
 ```csharp
 public void AddAgent()
 ```
+#INC
+
 
 ### AddAgent(AgentModel)
 
 ```csharp
 public void AddAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -744,18 +861,25 @@ public void AddAgent(AgentModel agent)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### BuyAgent()
 
 ```csharp
 public void BuyAgent()
 ```
+#INC
+
 
 ### CheckBossClear()
 
 ```csharp
 public bool CheckBossClear()
 ```
+#INC
+
 
 #### Returns
 
@@ -766,6 +890,8 @@ public bool CheckBossClear()
 ```csharp
 private bool CheckPointCheck()
 ```
+#INC
+
 
 #### Returns
 
@@ -776,18 +902,24 @@ private bool CheckPointCheck()
 ```csharp
 public void CheckResearch()
 ```
+#INC
+
 
 ### CheckResearchAvailable()
 
 ```csharp
 private void CheckResearchAvailable()
 ```
+#INC
+
 
 ### CheckResearchRemains(Sefira)
 
 ```csharp
 private bool CheckResearchRemains(Sefira target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -804,12 +936,16 @@ private bool CheckResearchRemains(Sefira target)
 ```csharp
 private void CheckStartState()
 ```
+#INC
+
 
 ### GetAgentGenderImage(string)
 
 ```csharp
 public static Sprite GetAgentGenderImage(string gender)
 ```
+#INC
+
 
 #### Parameters
 
@@ -826,6 +962,8 @@ public static Sprite GetAgentGenderImage(string gender)
 ```csharp
 public static Sprite GetAgentGradeSprite(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -842,6 +980,8 @@ public static Sprite GetAgentGradeSprite(AgentModel agent)
 ```csharp
 public static Sprite[] GetAgentWorkIcon(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -858,6 +998,8 @@ public static Sprite[] GetAgentWorkIcon(AgentModel agent)
 ```csharp
 public Vector2 GetCanvasPosition(RectTransform target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -874,6 +1016,8 @@ public Vector2 GetCanvasPosition(RectTransform target)
 ```csharp
 public static Color GetCreatureRiskLevelColor(RiskLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -890,6 +1034,8 @@ public static Color GetCreatureRiskLevelColor(RiskLevel level)
 ```csharp
 public string GetCustomHireText(bool isEnter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -906,6 +1052,8 @@ public string GetCustomHireText(bool isEnter)
 ```csharp
 public static Sprite GetGradeSprite(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -922,6 +1070,8 @@ public static Sprite GetGradeSprite(int level)
 ```csharp
 public string GetHireText(bool isEnter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -938,36 +1088,48 @@ public string GetHireText(bool isEnter)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitBossSetting()
 
 ```csharp
 public void InitBossSetting()
 ```
+#INC
+
 
 ### InitialResearchProcedure()
 
 ```csharp
 private void InitialResearchProcedure()
 ```
+#INC
+
 
 ### InputCheck()
 
 ```csharp
 private void InputCheck()
 ```
+#INC
+
 
 ### MakeStartSound()
 
 ```csharp
 public void MakeStartSound()
 ```
+#INC
+
 
 ### MoveSefira(MoveDirection)
 
 ```csharp
 private void MoveSefira(MoveDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -980,12 +1142,16 @@ private void MoveSefira(MoveDirection dir)
 ```csharp
 public void OnBossTutorialEnd()
 ```
+#INC
+
 
 ### OnClickMoveArea(int)
 
 ```csharp
 public void OnClickMoveArea(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -998,6 +1164,8 @@ public void OnClickMoveArea(int i)
 ```csharp
 public bool OnClickSefiraBossSession(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1014,18 +1182,24 @@ public bool OnClickSefiraBossSession(SefiraEnum sefira)
 ```csharp
 public void OnClickStartGame()
 ```
+#INC
+
 
 ### OnManagementStart()
 
 ```csharp
 public void OnManagementStart()
 ```
+#INC
+
 
 ### OnScroll(PointerEventData)
 
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1038,6 +1212,8 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 public void OnSetLevel(SefiraLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1050,6 +1226,8 @@ public void OnSetLevel(SefiraLevel level)
 ```csharp
 private void OnSetStartState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1062,36 +1240,48 @@ private void OnSetStartState(bool state)
 ```csharp
 public void OnStartButtonEnter()
 ```
+#INC
+
 
 ### OnStartButtonExit()
 
 ```csharp
 public void OnStartButtonExit()
 ```
+#INC
+
 
 ### OpenCustomizingWindow()
 
 ```csharp
 public void OpenCustomizingWindow()
 ```
+#INC
+
 
 ### OpenInventroyUI()
 
 ```csharp
 public void OpenInventroyUI()
 ```
+#INC
+
 
 ### OpenManual()
 
 ```csharp
 public void OpenManual()
 ```
+#INC
+
 
 ### OrdealTextSetting(bool, string)
 
 ```csharp
 public void OrdealTextSetting(bool hasOrdeal, string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1105,6 +1295,8 @@ public void OrdealTextSetting(bool hasOrdeal, string text)
 ```csharp
 public void RegistDeployReset(IDeployResetCalled called)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1117,36 +1309,48 @@ public void RegistDeployReset(IDeployResetCalled called)
 ```csharp
 public void ResetAll()
 ```
+#INC
+
 
 ### SefiraTutorialDecrease()
 
 ```csharp
 public void SefiraTutorialDecrease()
 ```
+#INC
+
 
 ### SefiraTutorialIncrease()
 
 ```csharp
 public void SefiraTutorialIncrease()
 ```
+#INC
+
 
 ### SetBossTutorial()
 
 ```csharp
 private void SetBossTutorial()
 ```
+#INC
+
 
 ### SetDayIcon()
 
 ```csharp
 private void SetDayIcon()
 ```
+#INC
+
 
 ### SetOrdealText(OrdealLevel)
 
 ```csharp
 public void SetOrdealText(OrdealLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1159,6 +1363,8 @@ public void SetOrdealText(OrdealLevel level)
 ```csharp
 public void SetResearchWaitQueue(params string[] sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1171,21 +1377,29 @@ public void SetResearchWaitQueue(params string[] sefira)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### TextCheckPoint()
 
 ```csharp
 public void TextCheckPoint()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### VolumeSetting()
 
 ```csharp
 public void VolumeSetting()
 ```
+#INC
+

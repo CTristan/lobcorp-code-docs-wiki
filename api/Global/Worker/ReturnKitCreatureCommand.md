@@ -12,6 +12,10 @@ canonical_path: /api/Global/Worker/ReturnKitCreatureCommand
 public class ReturnKitCreatureCommand : WorkerCommand
 ```
 
+Command for an agent to return a tool abnormality.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → ReturnKitCreatureCommand
 
@@ -33,18 +37,25 @@ public ReturnKitCreatureCommand()
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

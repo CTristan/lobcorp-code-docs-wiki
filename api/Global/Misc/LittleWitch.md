@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LittleWitch
 public class LittleWitch : CreatureBase
 ```
 
+Laetitia!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → LittleWitch
 
@@ -33,6 +38,8 @@ public LittleWitch()
 ```csharp
 private LittleWitchAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private LittleWitchAnim _animScript
 ```csharp
 private List<AgentModel> _currentAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private List<AgentModel> _currentAgents
 ```csharp
 private AgentModel _currentEffectTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private AgentModel _currentEffectTarget
 ```csharp
 private SoundEffectPlayer _workSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private SoundEffectPlayer _workSound
 ```csharp
 private const float _workSoundFadeOutTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _workSoundFadeOutTime = 3
 ```csharp
 private Timer _workSoundFadeOutTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private Timer _workSoundFadeOutTimer
 ```csharp
 public const string HeartEffectSrc = "Effect/Creature/LittleWitch/LittleWitch_Heart"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public const string HeartEffectSrc = "Effect/Creature/LittleWitch/LittleWitch_He
 ```csharp
 public const string LogPrefix = "<color=#bd663f>[LittleWitch]</color> "
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +148,8 @@ public LittleWitchAnim AnimScript { get; }
 ```csharp
 private void ActivatedSkill(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,12 +162,16 @@ private void ActivatedSkill(AgentModel target)
 ```csharp
 private void CheckAgent()
 ```
+#INC
+
 
 ### CheckUnitAgent(AgentModel)
 
 ```csharp
 private bool CheckUnitAgent(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,12 +188,16 @@ private bool CheckUnitAgent(AgentModel agent)
 ```csharp
 private void FadeOutWorkSound()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +214,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private bool IsActivatedSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +232,8 @@ private bool IsActivatedSkill(UseSkill skill)
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,6 +250,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public void MakeCreature(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,12 +264,16 @@ public void MakeCreature(AgentModel target)
 ```csharp
 public void MakeHeartEffect()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -249,6 +290,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -261,6 +304,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +318,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnHeartArrived(ProjectileModel proj)
 ```
+#INC
+
 
 #### Parameters
 
@@ -285,6 +332,8 @@ public void OnHeartArrived(ProjectileModel proj)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -297,18 +346,25 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 

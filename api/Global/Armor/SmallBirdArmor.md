@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/SmallBirdArmor
 public class SmallBirdArmor : EquipmentScriptBase
 ```
 
+Script for [Punishing Bird](/api/Global/Misc/SmallBird)'s EGO Suit: Beak. No script, just a debug log.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SmallBirdArmor
 
@@ -33,6 +38,8 @@ public SmallBirdArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

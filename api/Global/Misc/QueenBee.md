@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/QueenBee
 public class QueenBee : CreatureBase
 ```
 
+Queen Bee.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → QueenBee
 
@@ -33,6 +36,8 @@ public QueenBee()
 ```csharp
 private QueenBeeAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private QueenBeeAnim _animScript
 ```csharp
 private float filterTimeCurrent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private float filterTimeCurrent
 ```csharp
 private const float filterTimeMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const float filterTimeMax = 7
 ```csharp
 private const string sound_spore = "spore"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const string sound_spore = "spore"
 ```csharp
 private const string sound_stand = "stand"
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private const string sound_stand = "stand"
 ```csharp
 private Timer standingSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private Timer standingSoundTimer
 ```csharp
 private const float standingTimeMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float standingTimeMax = 20
 ```csharp
 private const float standingTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,24 +146,32 @@ public QueenBeeAnim animScript { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AfterEmit()
 
 ```csharp
 public void AfterEmit()
 ```
+#INC
+
 
 ### EmitSpore()
 
 ```csharp
 public void EmitSpore()
 ```
+#INC
+
 
 ### GetStandingTime()
 
 ```csharp
 private float GetStandingTime()
 ```
+#INC
+
 
 #### Returns
 
@@ -155,6 +182,9 @@ private float GetStandingTime()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -165,6 +195,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +213,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,12 +227,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +249,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -223,9 +263,13 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### SkillFilterRefresh()
 
 ```csharp
 private void SkillFilterRefresh()
 ```
+#INC
+

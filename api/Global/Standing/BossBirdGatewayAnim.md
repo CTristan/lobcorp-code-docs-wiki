@@ -12,6 +12,12 @@ canonical_path: /api/Global/Standing/BossBirdGatewayAnim
 public class BossBirdGatewayAnim : StandingItemAnim
 ```
 
+Animation handler for an [unused version of Entrance to the Black Forest](/api/Global/Misc/BossBirdGateway).
+
+See [BossGateWayAnim](/api/Global/Creature/BossGateWayAnim) for the animation handler of the used version.
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → BossBirdGatewayAnim
 
@@ -33,6 +39,9 @@ public BossBirdGatewayAnim()
 ```csharp
 public void OnEnterBird(BossBirdGateway.GateWayState state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

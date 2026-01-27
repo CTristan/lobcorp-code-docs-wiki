@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/IsolateTutorial
 public class IsolateTutorial : Tutorial
 ```
 
+Loads the [Standard Training-Dummy Rabbit](/api/Global/Creature/DummyCreature) for the tutorial and points at it, then ends when it's clicked. I think. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → IsolateTutorial
 
@@ -33,6 +36,8 @@ public IsolateTutorial()
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private CreatureModel creature
 ```csharp
 private IsolateRoom isolate
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private IsolateRoom isolate
 ```csharp
 public PointerEventData.InputButton targetClick
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,15 +74,22 @@ public PointerEventData.InputButton targetClick
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

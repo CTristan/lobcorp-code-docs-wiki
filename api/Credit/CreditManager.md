@@ -11,6 +11,8 @@ canonical_path: /api/Credit/CreditManager
 ```csharp
 public class CreditManager
 ```
+#INC
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreditManager
@@ -33,6 +35,8 @@ public CreditManager()
 ```csharp
 private static CreditManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static CreditManager _instance
 ```csharp
 private bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private bool isLoaded
 ```csharp
 public string LastText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public string LastText
 ```csharp
 public List<CreditSection> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +107,9 @@ public bool IsLoaded { get; }
 ```csharp
 public void Init(List<CreditSection> c)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

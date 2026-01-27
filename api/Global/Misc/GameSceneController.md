@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/GameSceneController
 public class GameSceneController : MonoBehaviour
 ```
 
+Controls scene flow.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GameSceneController
 
@@ -33,6 +38,8 @@ public GameSceneController()
 ```csharp
 private string _agentAlldeadText
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private string _agentAlldeadText
 ```csharp
 private string _creatureEscapedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private string _creatureEscapedText
 ```csharp
 private bool _isAgentAlldead
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _isAgentAlldead
 ```csharp
 private bool _isCreatureEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private bool _isCreatureEscaped
 ```csharp
 private bool _isGameCleared
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private bool _isGameCleared
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +121,8 @@ public RectTransform Addional
 ```csharp
 public Animator AddionalAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public Animator AddionalAnim
 ```csharp
 public Text AdditionalText
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +145,8 @@ public Text AdditionalText
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +168,8 @@ public RectTransform EmergecnyController
 ```csharp
 public Text EmergenyText
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +180,8 @@ public Text EmergenyText
 ```csharp
 public Button NextDayButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +192,8 @@ public Button NextDayButton
 ```csharp
 public Text NextDayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +204,8 @@ public Text NextDayText
 ```csharp
 public Button RestartButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +216,8 @@ public Button RestartButton
 ```csharp
 public Text RestartText
 ```
+#INC
+
 
 #### Field Value
 
@@ -259,24 +292,32 @@ public bool IsGameCleared { get; set; }
 ```csharp
 public void AdditionalAppear()
 ```
+#INC
+
 
 ### AdditionalDisappear()
 
 ```csharp
 public void AdditionalDisappear()
 ```
+#INC
+
 
 ### Appear()
 
 ```csharp
 public void Appear()
 ```
+#INC
+
 
 ### ButtonSelect(bool)
 
 ```csharp
 public void ButtonSelect(bool isNext)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,57 +330,78 @@ public void ButtonSelect(bool isNext)
 ```csharp
 private void CheckState()
 ```
+#INC
+
 
 ### Disappear()
 
 ```csharp
 public void Disappear()
 ```
+#INC
+
 
 ### OnClickNextDay()
 
 ```csharp
 public void OnClickNextDay()
 ```
+#INC
+
 
 ### OnClickRestart()
 
 ```csharp
 public void OnClickRestart()
 ```
+#INC
+
 
 ### OnEmergencyEnter()
 
 ```csharp
 public void OnEmergencyEnter()
 ```
+#INC
+
 
 ### OnEmergencyRelease()
 
 ```csharp
 public void OnEmergencyRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateAdditionalText()
 
 ```csharp
 public void UpdateAdditionalText()
 ```
+#INC
+

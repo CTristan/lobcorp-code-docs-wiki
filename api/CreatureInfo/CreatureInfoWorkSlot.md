@@ -12,6 +12,9 @@ canonical_path: /api/CreatureInfo/CreatureInfoWorkSlot
 public class CreatureInfoWorkSlot : CreatureInfoController
 ```
 
+Individual work type boxes, with a chance for each level. #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoWorkSlot
 
@@ -33,6 +36,8 @@ public CreatureInfoWorkSlot()
 ```csharp
 private RwbpType _type
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private RwbpType _type
 ```csharp
 public Text[] levelSuccessPercentage
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Text[] levelSuccessPercentage
 ```csharp
 public CreatureInfoOpenArea Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public CreatureInfoOpenArea Open
 ```csharp
 public Image WorkIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Image WorkIcon
 ```csharp
 public Text WorkName
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,18 +98,24 @@ public Text WorkName
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Initialize()
 
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +128,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -119,12 +140,17 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+#code-generated
+
 
 ### SetRWBPType(RwbpType)
 
 ```csharp
 public void SetRWBPType(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -137,12 +163,16 @@ public void SetRWBPType(RwbpType type)
 ```csharp
 private void SetWorkSuccess()
 ```
+#INC
+
 
 ### SetWorkSuccess(CreatureModel)
 
 ```csharp
 private void SetWorkSuccess(CreatureModel creautre)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/GeburahProjectile
 public class GeburahProjectile : MonoBehaviour
 ```
 
+extends 
+
+One of [The Red Mist](/api/Global/Script/GeburahCoreScript)'s projectile attacks.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GeburahProjectile
 
@@ -33,6 +38,8 @@ public GeburahProjectile()
 ```csharp
 private bool _arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _arrived
 ```csharp
 public bool _cancelDamageOnArrive
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public bool _cancelDamageOnArrive
 ```csharp
 private bool _damageActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _damageActivated
 ```csharp
 private AnimationCurve _speedCruve
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private AnimationCurve _speedCruve
 ```csharp
 private const float _speedFix = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _speedFix = 0.1
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Animator animator
 ```csharp
 private GeburahActionMethod arrivedEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private GeburahActionMethod arrivedEvent
 ```csharp
 public BoxCollider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public BoxCollider2D collider
 ```csharp
 private MovementInfo currentInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private MovementInfo currentInfo
 ```csharp
 public DamageInfo damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public DamageInfo damageInfo
 ```csharp
 public Vector3 destination
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public Vector3 destination
 ```csharp
 public Timer destroyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public Timer destroyTimer
 ```csharp
 public GeburahCoreScript geburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ public GeburahCoreScript geburah
 ```csharp
 private float initialSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private float initialSpeed
 ```csharp
 public float lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public float lifeTime
 ```csharp
 private int maxCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private int maxCount
 ```csharp
 private List<MovementInfo> movementList
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private List<MovementInfo> movementList
 ```csharp
 private Queue<MovementInfo> movementQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ public GeburahProjectile.MovementType movementType
 ```csharp
 public Vector3 origin
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ public Vector3 origin
 ```csharp
 public ProjectileType projectileType
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ public ProjectileType projectileType
 ```csharp
 public float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ public float speed
 ```csharp
 public Vector3 velocityInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +326,8 @@ public Vector3 Size { get; set; }
 ```csharp
 public void CollisionCheck(Collider2D collider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,24 +340,33 @@ public void CollisionCheck(Collider2D collider)
 ```csharp
 public void DestroyThis()
 ```
+#INC
+
 
 ### ExecuteNextInfo()
 
 ```csharp
 public void ExecuteNextInfo()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetSpeedByTime(float, float)
 
 ```csharp
 public static float GetSpeedByTime(float width, float time)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -324,6 +384,8 @@ public static float GetSpeedByTime(float width, float time)
 ```csharp
 public void Init(ProjectileType projectileType, Vector3 origin, Vector3 destination, float speed, float lifeTime, DamageInfo damageInfo = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,6 +403,8 @@ public void Init(ProjectileType projectileType, Vector3 origin, Vector3 destinat
 ```csharp
 public void MovementInit(List<MovementInfo> list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,12 +417,16 @@ public void MovementInit(List<MovementInfo> list)
 ```csharp
 public void OnArrived()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -371,6 +439,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 public void SetArrivedAction(GeburahActionMethod action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -383,6 +453,8 @@ public void SetArrivedAction(GeburahActionMethod action)
 ```csharp
 public void SetSpeedCurve(AnimationCurve curve)
 ```
+#INC
+
 
 #### Parameters
 
@@ -395,3 +467,5 @@ public void SetSpeedCurve(AnimationCurve curve)
 ```csharp
 private void Start()
 ```
+#INC
+

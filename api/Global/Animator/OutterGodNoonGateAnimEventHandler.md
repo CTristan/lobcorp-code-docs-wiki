@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/OutterGodNoonGateAnimEventHandler
 public class OutterGodNoonGateAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper for the [Violet Noon](/api/Global/OutterGodMidnight/OutterGodNoonOrdeal) portals' animations.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → OutterGodNoonGateAnimEventHandler
 
@@ -45,6 +50,8 @@ private AnimatorEventHandler.EventDelegate _fallingEvent
 ```csharp
 public void Falling()
 ```
+#INC
+
 
 ### SetFallingEvent(EventDelegate)
 

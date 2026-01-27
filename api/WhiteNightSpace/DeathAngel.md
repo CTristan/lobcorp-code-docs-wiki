@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/DeathAngel
 public class DeathAngel : CreatureBase
 ```
 
+WhiteNight <3
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DeathAngel
 
@@ -33,6 +36,8 @@ public DeathAngel()
 ```csharp
 private DeathAngelAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private DeathAngelAnim _animScript
 ```csharp
 private static DamageInfo _badDamageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private static DamageInfo _badDamageInfo
 ```csharp
 private Timer _bgmFadeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _bgmFadeTime
 ```csharp
 private const string _blockUI = "Effect/Creature/DeathAngel/DeathAngelBlock"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private const string _blockUI = "Effect/Creature/DeathAngel/DeathAngelBlock"
 ```csharp
 private UnscaledTimer _confessDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private UnscaledTimer _confessDead
 ```csharp
 private static DamageInfo _confessDeadDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private static DamageInfo _confessDeadDamage
 ```csharp
 private const float _confessDeadFreq = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private const float _confessDeadFreq = 0.3
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private Sefira _currentSefira
 ```csharp
 private static MinMax _escapeFreqRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private static MinMax _escapeFreqRange
 ```csharp
 private SoundEffectPlayer _escapeLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private CreatureCameraUtil _escapeSense
 ```csharp
 private static DamageInfo _escapeSkillDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ private static DamageInfo _escapeSkillDamage
 ```csharp
 private Timer _escapeSkillTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ private Timer _escapeSkillTimer
 ```csharp
 private const float _goodRecoverFactor = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ private const float _goodRecoverFactor = 1
 ```csharp
 private bool _isPrevEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ private bool _isPrevEscaped
 ```csharp
 private const float _normalQliphothIncreaseProb = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ private const float _normalQliphothIncreaseProb = 0.4
 ```csharp
 private const float _normRecoverFactor = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ private const float _normRecoverFactor = 0.5
 ```csharp
 private static Vector3 _outPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ private static Vector3 _outPos
 ```csharp
 private static Vector3 _outScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ private static Vector3 _outScale
 ```csharp
 private const float _qliphothSubTime = 90
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ private const float _qliphothSubTime = 90
 ```csharp
 private Timer _qliphothSubTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ private Timer _qliphothSubTimer
 ```csharp
 private static Vector3 _roomPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ private static Vector3 _roomPos
 ```csharp
 private static Vector3 _roomScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +310,8 @@ private static Vector3 _roomScale
 ```csharp
 private const int apostleCount = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +322,8 @@ private const int apostleCount = 12
 ```csharp
 private List<ApostleData> apostleData
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +334,8 @@ private List<ApostleData> apostleData
 ```csharp
 private List<DeathAngelApostle> apostles
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +346,8 @@ private List<DeathAngelApostle> apostles
 ```csharp
 private Sprite badState
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +358,8 @@ private Sprite badState
 ```csharp
 private DeathAngelBetrayerBuf betrayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +370,8 @@ private DeathAngelBetrayerBuf betrayer
 ```csharp
 public const string bgm_escape = "creature/deathangel/Lucifer_standbg0"
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ public const string bgm_escape = "creature/deathangel/Lucifer_standbg0"
 ```csharp
 private bool bgmChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private bool bgmChanged
 ```csharp
 private DeathAngelPlaySpeedBlockUI blockUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private DeathAngelPlaySpeedBlockUI blockUI
 ```csharp
 public const string damageSound = "creature/WhiteNight/WhiteNight_Shout"
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ public const string damageSound = "creature/WhiteNight/WhiteNight_Shout"
 ```csharp
 private List<ApostleGenData> genDataSave
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private List<ApostleGenData> genDataSave
 ```csharp
 private Sprite goodState
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private Sprite goodState
 ```csharp
 public const string healSound = "creature/WhiteNight/WhiteNight_Heal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ public const string healSound = "creature/WhiteNight/WhiteNight_Heal"
 ```csharp
 private Sprite normalState
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private Sprite normalState
 ```csharp
 private OneBadManyGood oneBadManyGood
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private OneBadManyGood oneBadManyGood
 ```csharp
 public const string outSound = "creature/WhiteNight/WhiteNight_Atk"
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ public const string outSound = "creature/WhiteNight/WhiteNight_Atk"
 ```csharp
 private const int QliphothMax = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ private const int QliphothMax = 3
 ```csharp
 public const string suppress_confess_0 = "creature/WhiteNight/WhiteNight_Dead1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +514,8 @@ public const string suppress_confess_0 = "creature/WhiteNight/WhiteNight_Dead1"
 ```csharp
 public const string suppress_confess_1 = "creature/WhiteNight/WhiteNight_Dead2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +526,8 @@ public const string suppress_confess_1 = "creature/WhiteNight/WhiteNight_Dead2"
 ```csharp
 public const string suppress_confess_2 = "creature/WhiteNight/WhiteNight_Dead3"
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +538,8 @@ public const string suppress_confess_2 = "creature/WhiteNight/WhiteNight_Dead3"
 ```csharp
 public const string suppressByHit = "creature/deathangel/Lucifer_yaduafinish_poof"
 ```
+#INC
+
 
 #### Field Value
 
@@ -507,12 +594,16 @@ public bool IsPrevEscaped { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActivateWorkSkill(CreatureFeelingState)
 
 ```csharp
 private void ActivateWorkSkill(CreatureFeelingState feelingState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -525,48 +616,64 @@ private void ActivateWorkSkill(CreatureFeelingState feelingState)
 ```csharp
 public override void AddedQliphothCounter()
 ```
+#INC
+
 
 ### ChangeIsolateRoom()
 
 ```csharp
 public void ChangeIsolateRoom()
 ```
+#INC
+
 
 ### CheckStateSprite()
 
 ```csharp
 private void CheckStateSprite()
 ```
+#INC
+
 
 ### ClearEscapeLoop()
 
 ```csharp
 private void ClearEscapeLoop()
 ```
+#INC
+
 
 ### DamageSefira()
 
 ```csharp
 private void DamageSefira()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### EscapeSkill()
 
 ```csharp
 private void EscapeSkill()
 ```
+#INC
+
 
 ### FindAgent(ApostleData, List<AgentModel>)
 
 ```csharp
 public static AgentModel FindAgent(ApostleData data, List<AgentModel> searchPool)
 ```
+#INC
+
 
 #### Parameters
 
@@ -584,6 +691,8 @@ public static AgentModel FindAgent(ApostleData data, List<AgentModel> searchPool
 ```csharp
 public void GenApostle(List<ApostleGenData> genDataList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -596,6 +705,8 @@ public void GenApostle(List<ApostleGenData> genDataList)
 ```csharp
 public static List<ApostleGenData> GetAdeventTargets(List<ApostleData> apostles)
 ```
+#INC
+
 
 #### Parameters
 
@@ -612,6 +723,8 @@ public static List<ApostleGenData> GetAdeventTargets(List<ApostleData> apostles)
 ```csharp
 public List<string> GetApostleNames()
 ```
+#INC
+
 
 #### Returns
 
@@ -622,6 +735,8 @@ public List<string> GetApostleNames()
 ```csharp
 public string GetFunctionDesc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -638,6 +753,8 @@ public string GetFunctionDesc(string key)
 ```csharp
 public void GiveGlobalDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -650,6 +767,8 @@ public void GiveGlobalDamage(UnitModel target)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -660,6 +779,8 @@ public override bool HasRoomCounter()
 ```csharp
 public bool IsKilledByConfess()
 ```
+#INC
+
 
 #### Returns
 
@@ -670,6 +791,8 @@ public bool IsKilledByConfess()
 ```csharp
 public static void Log(string log, bool isError = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -683,6 +806,8 @@ public static void Log(string log, bool isError = false)
 ```csharp
 private void MakeOverload(int overloadCount = 12)
 ```
+#INC
+
 
 #### Parameters
 
@@ -695,6 +820,8 @@ private void MakeOverload(int overloadCount = 12)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -707,6 +834,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -719,18 +848,24 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnGamemanagerInit()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -743,24 +878,32 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnSuppressedByConfess(OneBadManyGood)
 
 ```csharp
 public void OnSuppressedByConfess(OneBadManyGood oneBad)
 ```
+#INC
+
 
 #### Parameters
 
@@ -773,12 +916,16 @@ public void OnSuppressedByConfess(OneBadManyGood oneBad)
 ```csharp
 public void OnSuppressedByDamage()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -793,6 +940,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -805,6 +955,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -817,6 +969,8 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public static bool Prob(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -833,12 +987,16 @@ public static bool Prob(float value)
 ```csharp
 private void RecoverAllFacility()
 ```
+#INC
+
 
 ### RecoverList(List<AgentModel>, float)
 
 ```csharp
 private void RecoverList(List<AgentModel> targets, float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -852,30 +1010,40 @@ private void RecoverList(List<AgentModel> targets, float factor)
 ```csharp
 private void RecoverSefira()
 ```
+#INC
+
 
 ### ReducedQliphothCounter()
 
 ```csharp
 public override void ReducedQliphothCounter()
 ```
+#INC
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SecondAdvent()
 
 ```csharp
 public void SecondAdvent()
 ```
+#INC
+
 
 ### SetApostleData(List<ApostleData>)
 
 ```csharp
 public void SetApostleData(List<ApostleData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -888,6 +1056,8 @@ public void SetApostleData(List<ApostleData> data)
 ```csharp
 public void SetCameraUtil(CreatureCameraUtil_Inspector insp)
 ```
+#INC
+
 
 #### Parameters
 
@@ -900,9 +1070,13 @@ public void SetCameraUtil(CreatureCameraUtil_Inspector insp)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

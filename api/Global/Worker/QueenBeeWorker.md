@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/QueenBeeWorker
 public class QueenBeeWorker : CreatureBase
 ```
 
+One of [Queen Bee](/api/Global/Misc/QueenBee)'s spawns. Spawned when a worker with [her debuff](/api/Global/UnitBuf/QueenBeeBuf) dies.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → QueenBeeWorker
 
@@ -33,6 +38,8 @@ public QueenBeeWorker()
 ```csharp
 private QueenBeeWorkerAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private QueenBeeWorkerAnim _animScript
 ```csharp
 private ChildCreatureUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private ChildCreatureUnit _unit
 ```csharp
 private WorkerModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private WorkerModel currentTarget
 ```csharp
 private const int dmgMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int dmgMax = 10
 ```csharp
 private const int dmgMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int dmgMin = 6
 ```csharp
 private RwbpType dmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private RwbpType dmgType
 ```csharp
 private AutoTimer effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private AutoTimer effectTimer
 ```csharp
 private const float elevatorEscapeTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float elevatorEscapeTime = 20
 ```csharp
 private Timer elevatorEscapeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer elevatorEscapeTimer
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool init
 ```csharp
 private bool isKilling
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private bool isKilling
 ```csharp
 private WorkerModel oldTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private WorkerModel oldTarget
 ```csharp
 private QueenBee queen
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private QueenBee queen
 ```csharp
 public const string sound_attack0 = "attack0"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public const string sound_attack0 = "attack0"
 ```csharp
 public const string sound_attack1 = "attack1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public const string sound_attack1 = "attack1"
 ```csharp
 public const string sound_birth0 = "birth0"
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ public const string sound_birth0 = "birth0"
 ```csharp
 public const string sound_birth1 = "birth1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ public const string sound_birth1 = "birth1"
 ```csharp
 public const string sound_death0 = "death0"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ public const string sound_death0 = "death0"
 ```csharp
 public const string sound_death1 = "death1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ public const string sound_death1 = "death1"
 ```csharp
 public const string sound_kill = "kill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +302,8 @@ private ChildCreatureModel Model { get; }
 ```csharp
 public override bool AttackProcess(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,6 +320,8 @@ public override bool AttackProcess(UnitModel target)
 ```csharp
 public override bool GenPursueCommandAlter(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,6 +338,8 @@ public override bool GenPursueCommandAlter(WorkerModel target)
 ```csharp
 public override bool HasUniqueAttackDealy()
 ```
+#INC
+
 
 #### Returns
 
@@ -299,6 +350,8 @@ public override bool HasUniqueAttackDealy()
 ```csharp
 public override bool hasUniqueDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -309,12 +362,16 @@ public override bool hasUniqueDeadScene()
 ```csharp
 public void MakeChild()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -331,6 +388,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -341,18 +400,25 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAnimInit()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnKillWorker(WorkerModel)
 
 ```csharp
 public override bool OnKillWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -369,12 +435,16 @@ public override bool OnKillWorker(WorkerModel target)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -387,6 +457,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -399,6 +471,8 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SetQueen(QueenBee queen)
 ```
+#INC
+
 
 #### Parameters
 
@@ -411,3 +485,5 @@ public void SetQueen(QueenBee queen)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

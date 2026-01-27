@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SnipingTarget
 public class SnipingTarget : MonoBehaviour
 ```
 
+The target of [Nothing There's sniping event](/api/Global/UI/NothingSnipingUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SnipingTarget
 
@@ -33,6 +36,8 @@ public SnipingTarget()
 ```csharp
 public MonoBehaviour target
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ public MonoBehaviour target
 ```csharp
 public UnitModel GetTarget()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

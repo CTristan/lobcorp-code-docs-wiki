@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/SlimeGirlProjectile
 public class SlimeGirlProjectile : MonoBehaviour
 ```
 
+[Melting Love](/api/Global/Misc/SlimeGirl)'s projectile attack.
+#INC #verify 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SlimeGirlProjectile
 
@@ -33,6 +37,8 @@ public SlimeGirlProjectile()
 ```csharp
 public Transform _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Transform _effect
 ```csharp
 private const float _effectSpeed = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private const float _effectSpeed = 15
 ```csharp
 public float dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public float dir
 ```csharp
 public Vector3 target
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +97,8 @@ private CreatureModel Model { get; }
 ```csharp
 public SlimeGirl script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -97,6 +111,8 @@ public SlimeGirl script { get; set; }
 ```csharp
 private void CheckUnit(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +125,8 @@ private void CheckUnit(UnitModel unit)
 ```csharp
 public void CollisionCheck(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,18 +139,25 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 private void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MakeDamage(UnitModel)
 
 ```csharp
 private void MakeDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 

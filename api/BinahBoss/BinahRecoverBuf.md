@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahRecoverBuf
 ```csharp
 public class BinahRecoverBuf : UnitBuf
 ```
+Binah healing -- presumably between phases?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BinahRecoverBuf
@@ -25,6 +27,8 @@ public class BinahRecoverBuf : UnitBuf
 ```csharp
 public BinahRecoverBuf(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public BinahRecoverBuf(BinahCoreScript binah)
 ```csharp
 private Timer _recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private Timer _recoverTimer
 ```csharp
 private BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private BinahCoreScript binah
 ```csharp
 private const float recoverFreq = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private const float recoverFreq = 1
 ```csharp
 private const float recoverValue = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,9 +93,14 @@ private const float recoverValue = 1
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Recover()
 
 ```csharp
 private void Recover()
 ```
+#INC
+

@@ -11,6 +11,11 @@ canonical_path: /api/Global/Info/CreatureAttackInfo
 ```csharp
 public class CreatureAttackInfo
 ```
+Wrapper for attack information... Maybe.
+Probably unused.
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureAttackInfo
@@ -25,12 +30,17 @@ public class CreatureAttackInfo
 ```csharp
 public CreatureAttackInfo()
 ```
+#INC
+#code-generated
+
 
 ### CreatureAttackInfo(float, float, int, int)
 
 ```csharp
 public CreatureAttackInfo(float physicsProb, float mentalProb, int physicsDmg, int mentalDmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -48,6 +58,8 @@ public CreatureAttackInfo(float physicsProb, float mentalProb, int physicsDmg, i
 ```csharp
 public int mentalDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +70,8 @@ public int mentalDmg
 ```csharp
 public float mentalProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +82,8 @@ public float mentalProb
 ```csharp
 public int physicsDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +94,8 @@ public int physicsDmg
 ```csharp
 public float physicsProb
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,11 @@ canonical_path: /api/KetherBoss/EnergyConcentrateEffect
 public class EnergyConcentrateEffect : KetherLastEffectBase
 ```
 
+uh. maybe a big charging thing? i'd have to rewatch day 50
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → EnergyConcentrateEffect
 
@@ -25,6 +30,9 @@ public class EnergyConcentrateEffect : KetherLastEffectBase
 ```csharp
 public EnergyConcentrateEffect(KetherLastBossBase bossBase)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +47,8 @@ public EnergyConcentrateEffect(KetherLastBossBase bossBase)
 ```csharp
 private MinMax _emit
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +59,8 @@ private MinMax _emit
 ```csharp
 private float _rate
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +71,8 @@ private float _rate
 ```csharp
 private static float _rateDelta
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +83,8 @@ private static float _rateDelta
 ```csharp
 private MinMax _shape
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +95,8 @@ private MinMax _shape
 ```csharp
 private MinMax _speedMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +107,8 @@ private MinMax _speedMax
 ```csharp
 private MinMax _speedMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +119,8 @@ private MinMax _speedMin
 ```csharp
 private Transform parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +131,8 @@ private Transform parent
 ```csharp
 private ParticleSystem particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +143,8 @@ private ParticleSystem particle
 ```csharp
 private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration"
 ```
+#INC
+
 
 #### Field Value
 
@@ -131,12 +157,16 @@ private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration
 ```csharp
 public void LoadParticle()
 ```
+#INC
+
 
 ### SetRate(float)
 
 ```csharp
 public void SetRate(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -149,3 +179,5 @@ public void SetRate(float value)
 ```csharp
 public void TurnOn()
 ```
+#INC
+

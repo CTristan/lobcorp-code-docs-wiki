@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/OrchestraWeapon
 public class OrchestraWeapon : EquipmentScriptBase
 ```
 
+Script for [The Silent Orchestra](/api/Global/Misc/SilentOrchestra)'s EGO Weapon: Da Capo.
+
+Does a special attack at a 40% chance.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OrchestraWeapon
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/HierarchicalData
 ```csharp
 public class HierarchicalData
 ```
+Theoretically, a class for having a list of 'priority' things; the only use case would be for prioritizing certain [uncontrollable actions](/api/Global/Action/UncontrollableAction). This property does not appear to be used, but uncontrollable actions still derive from this class...
+
+#called-unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → HierarchicalData
@@ -36,6 +40,8 @@ public HierarchicalData()
 ```csharp
 protected int _H_index
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +66,8 @@ public int HierachicalIndex { get; }
 ```csharp
 public int Comparer(HierarchicalData compared)
 ```
+#INC
+
 
 #### Parameters
 
@@ -76,6 +84,8 @@ public int Comparer(HierarchicalData compared)
 ```csharp
 public static int Comparer(HierarchicalData a, HierarchicalData b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,6 +103,8 @@ public static int Comparer(HierarchicalData a, HierarchicalData b)
 ```csharp
 public string GetHierachicalName()
 ```
+#INC
+
 
 #### Returns
 
@@ -103,12 +115,17 @@ public string GetHierachicalName()
 ```csharp
 public void InitialSetting()
 ```
+#INC
+#code-generated
+
 
 ### isUpperHierarchy(HierarchicalData)
 
 ```csharp
 public bool isUpperHierarchy(HierarchicalData compared)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +142,8 @@ public bool isUpperHierarchy(HierarchicalData compared)
 ```csharp
 public virtual void SetHierarchicalIndex(int value)
 ```
+#INC
+
 
 #### Parameters
 

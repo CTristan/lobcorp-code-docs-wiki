@@ -12,6 +12,9 @@ canonical_path: /api/Global/IANimatorEventCalled/LongBirdScaffoldScript
 public class LongBirdScaffoldScript : MonoBehaviour, IAnimatorEventCalled
 ```
 
+Script for the hanging death animation when [Judgement Bird](/api/Global/Misc/LongBird) kills a worker.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LongBirdScaffoldScript
 
@@ -36,6 +39,8 @@ public LongBirdScaffoldScript()
 ```csharp
 private GameObject _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private GameObject _effect
 ```csharp
 public AudioClip clip
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public AudioClip clip
 ```csharp
 private float defZ
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private float defZ
 ```csharp
 private Timer haingSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private Timer haingSoundTimer
 ```csharp
 public GameObject hangedPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public GameObject hangedPos
 ```csharp
 public GameObject hangingPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public GameObject hangingPos
 ```csharp
 private bool isHanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private bool isHanged
 ```csharp
 public float scaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public float scaleFactor
 ```csharp
 public float soundVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public float soundVolume
 ```csharp
 public AudioSource source
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public AudioSource source
 ```csharp
 private WorkerModel targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private WorkerModel targetWorker
 ```csharp
 private WorkerUnit targetWorkerUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,18 +185,24 @@ private WorkerUnit targetWorkerUnit
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,12 +215,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,18 +238,25 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Hanging()
 
 ```csharp
 private void Hanging()
 ```
+#INC
+
 
 ### Init(WorkerModel)
 
 ```csharp
 public void Init(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -225,12 +269,16 @@ public void Init(WorkerModel worker)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -243,6 +291,8 @@ public void OnCalled(int i)
 ```csharp
 public void SetEffect(GameObject e)
 ```
+#INC
+
 
 #### Parameters
 
@@ -255,12 +305,16 @@ public void SetEffect(GameObject e)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -273,9 +327,13 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

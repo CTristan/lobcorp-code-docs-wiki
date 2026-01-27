@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/LongBirdAnim
 public class LongBirdAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Judgement Bird](/api/Global/Misc/LongBird).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → LongBirdAnim
 
@@ -36,6 +39,8 @@ public LongBirdAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private float animSpeedSave
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private float animSpeedSave
 ```csharp
 public AnimationClip castingAnimation
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public AnimationClip castingAnimation
 ```csharp
 public Transform effectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public Transform effectPos
 ```csharp
 private LongBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +101,8 @@ private LongBird script
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,18 +115,25 @@ public override void AttackCalled(int i)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public override void OnCalled()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,6 +146,8 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCasting(float timerTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -136,30 +160,40 @@ public void OnCasting(float timerTime)
 ```csharp
 public void OnCastingEffect()
 ```
+#INC
+
 
 ### OnCastingEnd()
 
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnDeadScene()
 
 ```csharp
 public void OnDeadScene()
 ```
+#INC
+
 
 ### OnDeadSceneEnd()
 
 ```csharp
 public void OnDeadSceneEnd()
 ```
+#INC
+
 
 ### SetScript(LongBird)
 
 ```csharp
 public void SetScript(LongBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,6 +206,8 @@ public void SetScript(LongBird script)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,9 +220,13 @@ public override void SoundMake(string src)
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

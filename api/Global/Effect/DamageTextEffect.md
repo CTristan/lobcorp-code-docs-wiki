@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/DamageTextEffect
 public class DamageTextEffect : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DamageTextEffect
 
@@ -53,6 +56,8 @@ public List<DamageTextEffect.LanguageData> list
 ```csharp
 public Color mentalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +68,8 @@ public Color mentalColor
 ```csharp
 private const int MID = 31
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +80,8 @@ private const int MID = 31
 ```csharp
 public Color physicalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +92,8 @@ public Color physicalColor
 ```csharp
 public Vector2 randMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +104,8 @@ public Vector2 randMax
 ```csharp
 public Vector2 randMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +116,8 @@ public Vector2 randMin
 ```csharp
 private bool shooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +128,8 @@ private bool shooted
 ```csharp
 public float speedMult
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +140,8 @@ public float speedMult
 ```csharp
 private const int STRONG = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +152,8 @@ private const int STRONG = 40
 ```csharp
 public Text text
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +164,8 @@ public Text text
 ```csharp
 private const int WEAK = 22
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +200,8 @@ private string currentLanguage { get; }
 ```csharp
 public void DamageEffect(string head, string tail, Color txtColor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +232,8 @@ private DamageTextEffect.LanguageData GetCurrent(string lang)
 ```csharp
 public void ImmuneDamage(string head)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,6 +246,8 @@ public void ImmuneDamage(string head)
 ```csharp
 public void MentalDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -231,6 +260,8 @@ public void MentalDamage(float damage)
 ```csharp
 public void PhysicalDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -243,6 +274,9 @@ public void PhysicalDamage(float damage)
 ```csharp
 public void Shoot(string text)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -255,6 +289,8 @@ public void Shoot(string text)
 ```csharp
 public void Shoot(string text, Color startColor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,3 +304,5 @@ public void Shoot(string text, Color startColor)
 ```csharp
 public void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Unit/UnitMouseEventManager
 public class UnitMouseEventManager : MonoBehaviour
 ```
 
+Probably manages clicking and hovering events...
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitMouseEventManager
 
@@ -33,6 +38,8 @@ public UnitMouseEventManager()
 ```csharp
 private List<UnitMouseEventTarget> _currentInDragTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private List<UnitMouseEventTarget> _currentInDragTargets
 ```csharp
 private bool _defualtClickBlocked
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool _defualtClickBlocked
 ```csharp
 private PointerEventData _dragBeginPointer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private PointerEventData _dragBeginPointer
 ```csharp
 private Vector2 _dragBeginPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Vector2 _dragBeginPosition
 ```csharp
 private Dictionary<UnitMouseEventTarget, bool> _dragEnteredTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Dictionary<UnitMouseEventTarget, bool> _dragEnteredTargets
 ```csharp
 private bool _dragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private bool _dragging
 ```csharp
 private bool _draggingRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private bool _draggingRight
 ```csharp
 private static UnitMouseEventManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private static UnitMouseEventManager _instance
 ```csharp
 private bool _pointerEnter
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private bool _pointerEnter
 ```csharp
 private UnitMouseEventTarget _pointerEnteredRightTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private UnitMouseEventTarget _pointerEnteredRightTarget
 ```csharp
 private UnitMouseEventTarget _pointerEnteredTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private UnitMouseEventTarget _pointerEnteredTarget
 ```csharp
 private List<UnitMouseEventTarget> _selectedTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private List<UnitMouseEventTarget> _selectedTargets
 ```csharp
 private bool _stageStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private bool _stageStarted
 ```csharp
 public AnimationCurve ClickTransitionCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public AnimationCurve ClickTransitionCurve
 ```csharp
 public Image dragImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ public Image dragImage
 ```csharp
 public bool suppressCursor
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,18 +284,25 @@ public List<UnitMouseEventTarget> seletedtargets { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CancelDrag()
 
 ```csharp
 public void CancelDrag()
 ```
+#INC
+
 
 ### GetCurrentPointerTargets()
 
 ```csharp
 public List<UnitMouseEventTarget> GetCurrentPointerTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -269,6 +313,8 @@ public List<UnitMouseEventTarget> GetCurrentPointerTargets()
 ```csharp
 public UnitMouseEventTarget GetPointerEnteredTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -279,6 +325,8 @@ public UnitMouseEventTarget GetPointerEnteredTarget()
 ```csharp
 public List<AgentModel> GetSelectedAgents()
 ```
+#INC
+
 
 #### Returns
 
@@ -289,6 +337,8 @@ public List<AgentModel> GetSelectedAgents()
 ```csharp
 private bool IsRightClickable(UnitMouseEventTarget target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -305,6 +355,8 @@ private bool IsRightClickable(UnitMouseEventTarget target)
 ```csharp
 public void OnBeginDrag(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,6 +369,8 @@ public void OnBeginDrag(BaseEventData eventData)
 ```csharp
 public void OnDrag(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -329,6 +383,8 @@ public void OnDrag(BaseEventData eventData)
 ```csharp
 public void OnEndDrag(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -341,6 +397,8 @@ public void OnEndDrag(BaseEventData eventData)
 ```csharp
 public void OnPointerClick(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,6 +411,8 @@ public void OnPointerClick(BaseEventData eventData)
 ```csharp
 private void OnPointerClick_bullet(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +425,8 @@ private void OnPointerClick_bullet(BaseEventData eventData)
 ```csharp
 private void OnPointerClick_default(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,6 +439,8 @@ private void OnPointerClick_default(BaseEventData eventData)
 ```csharp
 public void OnPointerDown(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,6 +453,8 @@ public void OnPointerDown(BaseEventData eventData)
 ```csharp
 public void OnPointerEnter(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -401,6 +467,8 @@ public void OnPointerEnter(BaseEventData eventData)
 ```csharp
 public void OnPointerExit(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -413,6 +481,8 @@ public void OnPointerExit(BaseEventData eventData)
 ```csharp
 public void OnPointerUp(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -425,12 +495,16 @@ public void OnPointerUp(BaseEventData eventData)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### SelectTarget(UnitMouseEventTarget)
 
 ```csharp
 private void SelectTarget(UnitMouseEventTarget target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +517,8 @@ private void SelectTarget(UnitMouseEventTarget target)
 ```csharp
 private void SelectTargets(List<UnitMouseEventTarget> targets)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,6 +531,8 @@ private void SelectTargets(List<UnitMouseEventTarget> targets)
 ```csharp
 private void SetPointerEnteredRightTarget(UnitMouseEventTarget rightTarget)
 ```
+#INC
+
 
 #### Parameters
 
@@ -467,6 +545,8 @@ private void SetPointerEnteredRightTarget(UnitMouseEventTarget rightTarget)
 ```csharp
 private void SetPointerEnteredTarget(UnitMouseEventTarget target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -479,6 +559,8 @@ private void SetPointerEnteredTarget(UnitMouseEventTarget target)
 ```csharp
 public void Unselect(IMouseCommandTargetModel targetModel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,21 +573,29 @@ public void Unselect(IMouseCommandTargetModel targetModel)
 ```csharp
 public void UnselectAll()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateDrag()
 
 ```csharp
 private void UpdateDrag()
 ```
+#INC
+
 
 ### UpdatePointEntered()
 
 ```csharp
 private void UpdatePointEntered()
 ```
+#INC
+

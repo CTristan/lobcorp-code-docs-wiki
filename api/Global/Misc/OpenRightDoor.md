@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/OpenRightDoor
 public class OpenRightDoor : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OpenRightDoor
 
@@ -33,6 +36,8 @@ public OpenRightDoor()
 ```csharp
 public bool checkOnce
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public bool checkOnce
 ```csharp
 public bool playerThroguh
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public bool playerThroguh
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -67,9 +76,14 @@ private void OnTriggerEnter2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

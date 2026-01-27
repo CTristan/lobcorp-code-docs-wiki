@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/NamelessFetusAnim
 public class NamelessFetusAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Nameless Fetus](/api/Global/Misc/NamelessFetus).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → NamelessFetusAnim
 
@@ -36,6 +41,8 @@ public NamelessFetusAnim()
 ```csharp
 private bool attached
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool attached
 ```csharp
 public GameObject pickPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject pickPoint
 ```csharp
 private NamelessFetus script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private NamelessFetus script
 ```csharp
 private WorkerUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,18 +91,24 @@ private WorkerUnit unit
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,18 +121,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,42 +152,57 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void Disappear()
 ```
+#INC
+
 
 ### Eat()
 
 ```csharp
 private void Eat()
 ```
+#INC
+
 
 ### forcelyStopCrying()
 
 ```csharp
 public void forcelyStopCrying()
 ```
+#INC
+
 
 ### Kill()
 
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,18 +215,24 @@ public void OnCalled(int i)
 ```csharp
 private void Pick()
 ```
+#INC
+
 
 ### PosCalc()
 
 ```csharp
 private void PosCalc()
 ```
+#INC
+
 
 ### SetScript(NamelessFetus)
 
 ```csharp
 public void SetScript(NamelessFetus fetus)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,12 +245,16 @@ public void SetScript(NamelessFetus fetus)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,12 +267,16 @@ public void SoundMake(string src)
 ```csharp
 public void StartCrying()
 ```
+#INC
+
 
 ### StartSacrifice(WorkerUnit)
 
 ```csharp
 public void StartSacrifice(WorkerUnit targetUnit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -235,9 +289,13 @@ public void StartSacrifice(WorkerUnit targetUnit)
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

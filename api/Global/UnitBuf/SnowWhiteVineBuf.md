@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/SnowWhiteVineBuf
 public class SnowWhiteVineBuf : UnitBuf
 ```
 
+Debuff for [Snow White's Apple](/api/Global/Misc/SnowWhite)'s vines.
+
+Slows by 0.4x and sets a special death animation.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SnowWhiteVineBuf
 
@@ -25,6 +30,8 @@ public class SnowWhiteVineBuf : UnitBuf
 ```csharp
 public SnowWhiteVineBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public SnowWhiteVineBuf()
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +54,9 @@ private WorkerModel worker
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +69,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -67,3 +81,5 @@ public override float MovementScale()
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

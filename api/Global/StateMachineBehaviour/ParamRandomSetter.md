@@ -12,6 +12,10 @@ canonical_path: /api/Global/StateMachineBehaviour/ParamRandomSetter
 public class ParamRandomSetter : StateMachineBehaviour
 ```
 
+Randomly sets the target values.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ParamRandomSetter
 
@@ -115,6 +119,9 @@ public List<ParamRandomSetter.IntParamData> onStateMoveInt
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -129,6 +136,8 @@ public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+
 
 #### Parameters
 

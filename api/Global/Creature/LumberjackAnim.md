@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/LumberjackAnim
 public class LumberjackAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Warm-Hearted Woodsman](/api/Global/Misc/Lumberjack).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → LumberjackAnim
 
@@ -36,6 +41,8 @@ public LumberjackAnim()
 ```csharp
 private const string _effect_Heal = "Lumberjack_Heal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _effect_Heal = "Lumberjack_Heal"
 ```csharp
 private const string _effect_HeartAttack = "Lumberjack_HeartAttack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _effect_HeartAttack = "Lumberjack_HeartAttack"
 ```csharp
 private const string _effect_HeartBreak = "Lumberjack_HeartBreak"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _effect_HeartBreak = "Lumberjack_HeartBreak"
 ```csharp
 private const string _effect_Smash = "Lumberjack_Smash"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _effect_Smash = "Lumberjack_Smash"
 ```csharp
 private const string _effectSrc = "Effect/Creature/Lumberjack/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _effectSrc = "Effect/Creature/Lumberjack/"
 ```csharp
 private readonly Vector3 _healFixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private readonly Vector3 _healFixedPosition
 ```csharp
 private readonly Vector3 _heartAttackFixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private readonly Vector3 _heartAttackFixedPosition
 ```csharp
 private readonly Vector3 _heartBreakFixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private readonly Vector3 _heartBreakFixedPosition
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private SpineOptimizerModule _module
 ```csharp
 private readonly Vector3 _smashFixedPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private readonly Vector3 _smashFixedPosition
 ```csharp
 public Animator filterAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public Animator filterAnim
 ```csharp
 private Lumberjack script
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,18 +187,24 @@ private Lumberjack script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### EscapeReady(bool)
 
 ```csharp
 public void EscapeReady(bool start)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,6 +217,9 @@ public void EscapeReady(bool start)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -192,24 +230,32 @@ public override bool HasDeadMotion()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### HeartBreak()
 
 ```csharp
 private void HeartBreak()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -220,6 +266,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsLooting()
 ```
+#INC
+
 
 #### Returns
 
@@ -230,24 +278,32 @@ public bool IsLooting()
 ```csharp
 private void KillAgentInRoom()
 ```
+#INC
+
 
 ### Loot()
 
 ```csharp
 private void Loot()
 ```
+#INC
+
 
 ### LootingEnd()
 
 ```csharp
 private void LootingEnd()
 ```
+#INC
+
 
 ### MakeEffect(string, Vector3)
 
 ```csharp
 private GameObject MakeEffect(string src, Vector3 fixedPosition)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,6 +321,8 @@ private GameObject MakeEffect(string src, Vector3 fixedPosition)
 ```csharp
 public void OnAttackStart(int pattern)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,6 +335,8 @@ public void OnAttackStart(int pattern)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -289,30 +349,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnLootStart()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetFilter(bool)
 
 ```csharp
 public void SetFilter(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,6 +395,8 @@ public void SetFilter(bool active)
 ```csharp
 public void SetScript(Lumberjack script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,15 +409,21 @@ public void SetScript(Lumberjack script)
 ```csharp
 private void SpecialDamageTimeCalled()
 ```
+#INC
+
 
 ### SpecialSmashTimeCalled()
 
 ```csharp
 private void SpecialSmashTimeCalled()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

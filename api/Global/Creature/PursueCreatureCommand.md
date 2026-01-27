@@ -12,6 +12,16 @@ canonical_path: /api/Global/Creature/PursueCreatureCommand
 public class PursueCreatureCommand : CreatureCommand
 ```
 
+Command to an abnormality to pursue a worker.
+
+Targets the closest agent. Attacks if close enough, otherwise moves after that agent.
+
+Seems unused... maybe they all just use [PursueCreatureCommandAlter](/api/Global/Creature/PursueCreatureCommandAlter)?
+
+#unused #maybe_unused 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureCommand](/api/Global/Misc/CreatureCommand) → PursueCreatureCommand
 
@@ -25,6 +35,8 @@ public class PursueCreatureCommand : CreatureCommand
 ```csharp
 public PursueCreatureCommand(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +51,8 @@ public PursueCreatureCommand(WorkerModel target)
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +63,8 @@ private float elapsedTime
 ```csharp
 private WorkerModel targetWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,21 +77,30 @@ private WorkerModel targetWorker
 ```csharp
 private void CheckPursueTarget()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

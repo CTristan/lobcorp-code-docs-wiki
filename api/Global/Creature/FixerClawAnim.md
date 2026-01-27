@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/FixerClawAnim
 public class FixerClawAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Claw](/api/Global/Misc/FixerClaw).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FixerClawAnim
 
@@ -36,6 +41,8 @@ public FixerClawAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject[] claws
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject[] claws
 ```csharp
 private Dictionary<string, SoundEffectPlayer> loopSounds
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private Dictionary<string, SoundEffectPlayer> loopSounds
 ```csharp
 public ParticleSystem[] orangeSparks
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public ParticleSystem[] orangeSparks
 ```csharp
 private FixerClaw script
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private FixerClaw script
 ```csharp
 public ParticleSystem[] strongSparks
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public ParticleSystem[] strongSparks
 ```csharp
 public GameObject[] ultimateTrails
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +127,9 @@ public GameObject[] ultimateTrails
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -120,30 +142,40 @@ public override void AttackCalled(int i)
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### BlueAttackEnd()
 
 ```csharp
 private void BlueAttackEnd()
 ```
+#INC
+
 
 ### BlueAttackStart()
 
 ```csharp
 private void BlueAttackStart()
 ```
+#INC
+
 
 ### GetSkillType()
 
 ```csharp
 public FixerClaw.Capsule GetSkillType()
 ```
+#INC
+
 
 #### Returns
 
@@ -154,6 +186,8 @@ public FixerClaw.Capsule GetSkillType()
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -170,12 +204,16 @@ private string GetSoundSrc(string key)
 ```csharp
 private void GroggyEnd()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -186,6 +224,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -196,6 +236,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -292,18 +334,24 @@ public SoundEffectPlayer MakeSoundLoop(string src, Transform transform, float vo
 ```csharp
 public void OnAttackLast()
 ```
+#INC
+
 
 ### OnAttackNext()
 
 ```csharp
 public void OnAttackNext()
 ```
+#INC
+
 
 ### OnAttackStart(int)
 
 ```csharp
 public void OnAttackStart(int atkType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -316,6 +364,8 @@ public void OnAttackStart(int atkType)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -328,24 +378,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnGroggyStart()
 ```
+#INC
+
 
 ### OnGroggyTimerEnd()
 
 ```csharp
 public void OnGroggyTimerEnd()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart(Capsule)
 
 ```csharp
 public void OnSkillStart(FixerClaw.Capsule capsule)
 ```
+#INC
+
 
 #### Parameters
 
@@ -358,36 +416,48 @@ public void OnSkillStart(FixerClaw.Capsule capsule)
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### OrangeRunEnd()
 
 ```csharp
 private void OrangeRunEnd()
 ```
+#INC
+
 
 ### OrangeRunStart()
 
 ```csharp
 private void OrangeRunStart()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### RemoveLoopSound()
 
 ```csharp
 private void RemoveLoopSound()
 ```
+#INC
+
 
 ### RemoveLoopSound(string)
 
 ```csharp
 private void RemoveLoopSound(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -400,6 +470,8 @@ private void RemoveLoopSound(string key)
 ```csharp
 private void SetOrangeSparks(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -412,6 +484,8 @@ private void SetOrangeSparks(bool isActive)
 ```csharp
 public void SetScript(FixerClaw script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -424,6 +498,8 @@ public void SetScript(FixerClaw script)
 ```csharp
 private void SetStrongEffect(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -436,6 +512,8 @@ private void SetStrongEffect(bool isActive)
 ```csharp
 private void SetUltimateTrail(bool isActive)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,18 +526,24 @@ private void SetUltimateTrail(bool isActive)
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### StartHealing()
 
 ```csharp
 private void StartHealing()
 ```
+#INC
+
 
 ### StrongAttack(bool)
 
 ```csharp
 private void StrongAttack(bool isFirst)
 ```
+#INC
+
 
 #### Parameters
 
@@ -472,21 +556,29 @@ private void StrongAttack(bool isFirst)
 ```csharp
 private void UltimateAttackEnd()
 ```
+#INC
+
 
 ### UltimateAttackStart()
 
 ```csharp
 private void UltimateAttackStart()
 ```
+#INC
+
 
 ### UltimateSkillEnd()
 
 ```csharp
 private void UltimateSkillEnd()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

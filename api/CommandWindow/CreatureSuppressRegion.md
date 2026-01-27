@@ -12,6 +12,11 @@ canonical_path: /api/CommandWindow/CreatureSuppressRegion
 public class CreatureSuppressRegion : CommandWindowRegion
 ```
 
+Displays an [abnormality](/api/Global/Model/CreatureModel), its attack information, and its [defenses](/api/Global/Info/DefenseInfo) in the suppression UI.
+
+See [CommandWindow](/api/CommandWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → CreatureSuppressRegion
 
@@ -33,6 +38,8 @@ public CreatureSuppressRegion()
 ```csharp
 private CreatureModel _currentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel _currentModel
 ```csharp
 public Text CodeNo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Text CodeNo
 ```csharp
 public Text[] DefenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Text[] DefenseFactor
 ```csharp
 public Text[] DefenseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Text[] DefenseType
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text Name
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Image Portrait
 ```csharp
 public Text RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public Text RiskLevel
 ```csharp
 public GameObject[] RWBPAttackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public GameObject[] RWBPAttackType
 ```csharp
 private const string unk = "?"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const string unk = "?"
 ```csharp
 private const string Unknown = "Unknown"
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +172,8 @@ public CreatureModel CurrentModel { get; }
 ```csharp
 private void CalculateMultipleType(List<DefenseInfo> list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,6 +186,9 @@ private void CalculateMultipleType(List<DefenseInfo> list)
 ```csharp
 public override void SetData(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -171,6 +201,8 @@ public override void SetData(UnitModel target)
 ```csharp
 private void SetOrdealData(OrdealCreatureModel ordeal)
 ```
+#INC
+
 
 #### Parameters
 

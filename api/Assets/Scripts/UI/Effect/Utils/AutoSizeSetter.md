@@ -36,6 +36,8 @@ public AutoSizeSetter()
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool _isEnabled
 ```csharp
 public Text fitter
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public Text fitter
 ```csharp
 public bool horiziontal
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public bool horiziontal
 ```csharp
 public bool vertical
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,15 +108,22 @@ public RectTransform RectTransform { get; }
 ```csharp
 public void LateUpdate()
 ```
+#INC
+#code-generated
+
 
 ### SetSize()
 
 ```csharp
 public void SetSize()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public void Start()
 ```
+#INC
+

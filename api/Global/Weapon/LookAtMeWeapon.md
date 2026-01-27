@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/LookAtMeWeapon
 public class LookAtMeWeapon : EquipmentScriptBase
 ```
 
+Script for [Schadenfreude](/api/Global/Misc/LookAtMe)'s EGO Weapon: Gaze.
+
+Rolls its damage 9 times .
+
+Applies a bleeding debuff which does 2 red damage per second for five seconds.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LookAtMeWeapon
 
@@ -50,6 +57,9 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

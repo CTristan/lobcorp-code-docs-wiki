@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/RabbitCommandQueue
 ```csharp
 public class RabbitCommandQueue
 ```
+Holds a list of commands for a [rabbit](/api/Global/Model/RabbitModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitCommandQueue
@@ -25,6 +29,9 @@ public class RabbitCommandQueue
 ```csharp
 public RabbitCommandQueue(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public RabbitCommandQueue(UnitModel actor)
 ```csharp
 private UnitModel _actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private UnitModel _actor
 ```csharp
 private LinkedList<UnitCommand> queue
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ private LinkedList<UnitCommand> queue
 ```csharp
 public void AddFirst(UnitCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +86,8 @@ public void AddFirst(UnitCommand cmd)
 ```csharp
 public void AddLast(UnitCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,12 +100,16 @@ public void AddLast(UnitCommand cmd)
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### Execute(UnitModel)
 
 ```csharp
 public void Execute(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +122,8 @@ public void Execute(UnitModel actor)
 ```csharp
 public UnitCommand GetCurrentCmd()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +134,8 @@ public UnitCommand GetCurrentCmd()
 ```csharp
 public void SetCommand(UnitCommand cmd)
 ```
+#INC
+
 
 #### Parameters
 

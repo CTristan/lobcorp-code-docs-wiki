@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/YesodBossCameraScript
 public class YesodBossCameraScript : MonoBehaviour
 ```
 
+Script for distorting the camera during [Yesod's core suppression](/api/Global/Misc/YesodBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → YesodBossCameraScript
 
@@ -33,6 +36,8 @@ public YesodBossCameraScript()
 ```csharp
 private UnscaledTimer _animControlTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private UnscaledTimer _animControlTimer
 ```csharp
 private bool _init
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _init
 ```csharp
 public float animFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public float animFreq
 ```csharp
 public Camera camera
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Camera camera
 ```csharp
 public CameraFilterPack_Pixel_Pixelisation filter
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public CameraFilterPack_Pixel_Pixelisation filter
 ```csharp
 public RawImage rawImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public RawImage rawImage
 ```csharp
 public RenderTexture renderTexture
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public RenderTexture renderTexture
 ```csharp
 public Camera uiCam
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Camera uiCam
 ```csharp
 public AnimationCurve x_Curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public AnimationCurve x_Curve
 ```csharp
 private int x_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private int x_Start
 ```csharp
 private const int xMax = 640
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const int xMax = 640
 ```csharp
 private const int xMin = 80
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const int xMin = 80
 ```csharp
 public AnimationCurve y_Curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public AnimationCurve y_Curve
 ```csharp
 private int y_Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private int y_Start
 ```csharp
 private const int yMax = 480
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private const int yMax = 480
 ```csharp
 private const int yMin = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +230,8 @@ private const int yMin = 60
 ```csharp
 private RenderTexture GenRenderTexture()
 ```
+#INC
+
 
 #### Returns
 
@@ -205,6 +242,8 @@ private RenderTexture GenRenderTexture()
 ```csharp
 public void Init(Camera uiCam)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,15 +256,22 @@ public void Init(Camera uiCam)
 ```csharp
 public void OnResolutionChanged()
 ```
+#INC
+#code-generated
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

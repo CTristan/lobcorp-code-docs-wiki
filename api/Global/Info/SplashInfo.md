@@ -11,6 +11,8 @@ canonical_path: /api/Global/Info/SplashInfo
 ```csharp
 public class SplashInfo
 ```
+Holds the [type of splash damage](/api/Global/Type/SplashType) and range of a given attack.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SplashInfo
@@ -33,6 +35,8 @@ public SplashInfo()
 ```csharp
 public bool iff
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public bool iff
 ```csharp
 public float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,9 @@ public float range
 ```csharp
 public SplashType type
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/SilentOrchestraAnim
 public class SilentOrchestraAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Silent Orchestra](/api/Global/Misc/SilentOrchestra).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SilentOrchestraAnim
 
@@ -36,6 +39,8 @@ public SilentOrchestraAnim()
 ```csharp
 public Canvas animCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public Canvas animCanvas
 ```csharp
 private AutoTimer autoDisableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private AutoTimer autoDisableTimer
 ```csharp
 public Animator canvasEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public Animator canvasEffect
 ```csharp
 public GameObject Conductor
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public GameObject Conductor
 ```csharp
 private int currentAppearIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private int currentAppearIndex
 ```csharp
 public Animator curtainAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ public SilentOrchestraAnim.Effect effectCanvas
 ```csharp
 private bool isClosing
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ private bool isClosing
 ```csharp
 private Timer randTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private Timer randTimer
 ```csharp
 private SilentOrchestra script
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +167,8 @@ public SilentOrchestraAnim.Singer[] singers
 ```csharp
 public GameObject StageImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +179,8 @@ public GameObject StageImage
 ```csharp
 public GameObject standEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +191,8 @@ public GameObject standEffect
 ```csharp
 private bool started
 ```
+#INC
+
 
 #### Field Value
 
@@ -200,18 +227,24 @@ private Animator conductorAnim { get; }
 ```csharp
 public void ActivateCanvasEffect()
 ```
+#INC
+
 
 ### CloseCanvas()
 
 ```csharp
 public void CloseCanvas()
 ```
+#INC
+
 
 ### CurtainAppear(bool)
 
 ```csharp
 public void CurtainAppear(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -224,6 +257,8 @@ public void CurtainAppear(bool state)
 ```csharp
 public void CurtainOpen(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,12 +271,17 @@ public void CurtainOpen(bool state)
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetCurrentRange()
 
 ```csharp
 public Timer GetCurrentRange()
 ```
+#INC
+
 
 #### Returns
 
@@ -252,42 +292,56 @@ public Timer GetCurrentRange()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InvokeActivate()
 
 ```csharp
 public void InvokeActivate()
 ```
+#INC
+
 
 ### InvokeFinale()
 
 ```csharp
 public void InvokeFinale()
 ```
+#INC
+
 
 ### InvokeStageRise()
 
 ```csharp
 public void InvokeStageRise()
 ```
+#INC
+
 
 ### OnAppearEnd()
 
 ```csharp
 public void OnAppearEnd()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public override void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -300,18 +354,24 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscapeCancel()
 ```
+#INC
+
 
 ### OnEscapeStart()
 
 ```csharp
 public void OnEscapeStart()
 ```
+#INC
+
 
 ### SetAppearAnim(int, float)
 
 ```csharp
 public void SetAppearAnim(int index, float appearTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -325,6 +385,8 @@ public void SetAppearAnim(int index, float appearTime)
 ```csharp
 public void SetScript(SilentOrchestra script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,6 +399,8 @@ public void SetScript(SilentOrchestra script)
 ```csharp
 public void SetUIText(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,12 +413,16 @@ public void SetUIText(int index)
 ```csharp
 public void StartConductor()
 ```
+#INC
+
 
 ### StartEffect(int, float)
 
 ```csharp
 public void StartEffect(int index, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -368,9 +436,13 @@ public void StartEffect(int index, float time)
 ```csharp
 private void TempUIIint()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

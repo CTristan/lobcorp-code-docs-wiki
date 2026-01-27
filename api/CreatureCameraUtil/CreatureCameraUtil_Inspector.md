@@ -36,6 +36,8 @@ public CreatureCameraUtil_Inspector()
 ```csharp
 private float _xVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private float _xVal
 ```csharp
 private float _yVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +104,8 @@ private float Yval { get; }
 ```csharp
 public bool Check(Camera target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +122,8 @@ public bool Check(Camera target)
 ```csharp
 public bool CheckIgnoreOrtho(Camera target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -132,12 +140,17 @@ public bool CheckIgnoreOrtho(Camera target)
 ```csharp
 private void RangeUpdate()
 ```
+#INC
+
 
 ### ReadRange()
 
 ```csharp
 public bool ReadRange()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

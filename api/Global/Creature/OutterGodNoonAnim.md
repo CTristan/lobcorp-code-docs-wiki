@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/OutterGodNoonAnim
 public class OutterGodNoonAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Grant Us Love](/api/Global/OutterGodMidnight/OutterGodNoon).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → OutterGodNoonAnim
 
@@ -36,6 +41,8 @@ public OutterGodNoonAnim()
 ```csharp
 public OutterGodNoonAnimEventHandler _animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public OutterGodNoonAnimEventHandler _animEventHandler
 ```csharp
 public GameObject _CastingParticle
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject _CastingParticle
 ```csharp
 private float _currentHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private float _currentHeight
 ```csharp
 public Animation _FallingAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Animation _FallingAnim
 ```csharp
 private float _fallingDistance
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private float _fallingDistance
 ```csharp
 private readonly float _fallingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private readonly float _fallingTime
 ```csharp
 private Timer _fallingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private Timer _fallingTimer
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private SpineOptimizerModule _module
 ```csharp
 private OutterGodNoon _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private OutterGodNoon _script
 ```csharp
 private readonly string _SOUND_ATTACK
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private readonly string _SOUND_ATTACK
 ```csharp
 private readonly string _SOUND_CASTING
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private readonly string _SOUND_CASTING
 ```csharp
 private readonly string _SOUND_DEAD
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private readonly string _SOUND_DEAD
 ```csharp
 private readonly string _SOUND_DEFAULT
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private readonly string _SOUND_DEFAULT
 ```csharp
 private readonly string _SOUND_DOWN
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private readonly string _SOUND_DOWN
 ```csharp
 private readonly string _SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private readonly string _SOUND_SRC
 ```csharp
 private readonly string _SOUND_SUCCESS_CASTING
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +233,8 @@ private readonly string _SOUND_SUCCESS_CASTING
 ```csharp
 private SoundEffectPlayer _soundCasting
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +245,8 @@ private SoundEffectPlayer _soundCasting
 ```csharp
 private SoundEffectPlayer _soundDefault
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +257,8 @@ private SoundEffectPlayer _soundDefault
 ```csharp
 public GameObject Gate
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +269,8 @@ public GameObject Gate
 ```csharp
 public GameObject GateSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -238,30 +283,40 @@ public GameObject GateSprite
 ```csharp
 protected override void Awake()
 ```
+#INC
+
 
 ### DefaultDamage()
 
 ```csharp
 private void DefaultDamage()
 ```
+#INC
+
 
 ### DownAttack()
 
 ```csharp
 private void DownAttack()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -272,18 +327,25 @@ public override bool HasDeadMotion()
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+#code-generated
+
 
 ### SetFallingAnim()
 
 ```csharp
 public void SetFallingAnim()
 ```
+#INC
+
 
 ### SetGate(float)
 
 ```csharp
 public void SetGate(float height)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +358,8 @@ public void SetGate(float height)
 ```csharp
 public void SetScript(OutterGodNoon script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -308,21 +372,29 @@ public void SetScript(OutterGodNoon script)
 ```csharp
 public void StartCasting()
 ```
+#INC
+
 
 ### SuccessCasting()
 
 ```csharp
 private void SuccessCasting()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdatePosition()
 
 ```csharp
 private void UpdatePosition()
 ```
+#INC
+

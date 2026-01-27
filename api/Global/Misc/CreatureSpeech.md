@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/CreatureSpeech
 ```csharp
 public class CreatureSpeech : MonoBehaviour
 ```
+Manages abnormality yapping. Like... Queen of Hatred.
+
+Probably?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureSpeech
@@ -33,6 +39,8 @@ public CreatureSpeech()
 ```csharp
 private RectTransform bgRectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private RectTransform bgRectTransform
 ```csharp
 private string copy
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private string copy
 ```csharp
 private Sprite currentBg
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private Sprite currentBg
 ```csharp
 private Vector2 currentSizedelta
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ private Vector2 currentSizedelta
 ```csharp
 private TimerCallback currentTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private TimerCallback currentTimer
 ```csharp
 private int initialFontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ private int initialFontSize
 ```csharp
 public float maxX
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public float maxX
 ```csharp
 private Sprite renderingTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ private Sprite renderingTarget
 ```csharp
 private float sizeY
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ private float sizeY
 ```csharp
 private Vector2 smallSizeDelta
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ private Vector2 smallSizeDelta
 ```csharp
 public float spacingX
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +171,8 @@ public float spacingX
 ```csharp
 public float spacingY
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +183,8 @@ public float spacingY
 ```csharp
 private TextAnchor standard
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +195,8 @@ private TextAnchor standard
 ```csharp
 private CreatureModel targetModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +207,8 @@ private CreatureModel targetModel
 ```csharp
 public Image textBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +219,8 @@ public Image textBackground
 ```csharp
 public Text textItem
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +231,8 @@ public Text textItem
 ```csharp
 public RectTransform textObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +243,8 @@ public RectTransform textObject
 ```csharp
 private RectTransform textRectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,12 +257,16 @@ private RectTransform textRectTransform
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### Init(CreatureModel)
 
 ```csharp
 public void Init(CreatureModel wm)
 ```
+#INC
+
 
 #### Parameters
 
@@ -233,6 +279,8 @@ public void Init(CreatureModel wm)
 ```csharp
 private void SetSpeech(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,6 +293,8 @@ private void SetSpeech(string text)
 ```csharp
 public void showSpeech(string speech)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,6 +307,8 @@ public void showSpeech(string speech)
 ```csharp
 public void showSpeech(string speech, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,12 +322,17 @@ public void showSpeech(string speech, float time)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+
 
 ### turnOnDoingSkillIcon(bool)
 
 ```csharp
 public void turnOnDoingSkillIcon(bool turnOn)
 ```
+#INC
+
 
 #### Parameters
 

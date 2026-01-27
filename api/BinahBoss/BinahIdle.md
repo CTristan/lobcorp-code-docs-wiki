@@ -12,6 +12,9 @@ canonical_path: /api/BinahBoss/BinahIdle
 public class BinahIdle : BinahAction
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s idle action.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → BinahIdle
 
@@ -25,6 +28,8 @@ public class BinahIdle : BinahAction
 ```csharp
 public BinahIdle(BinahCoreScript binah, float time, bool groggy = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -41,6 +46,8 @@ public BinahIdle(BinahCoreScript binah, float time, bool groggy = false)
 ```csharp
 private Timer _dutrationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +58,8 @@ private Timer _dutrationTimer
 ```csharp
 private bool isGroggy
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ private bool isGroggy
 ```csharp
 private float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,15 +84,22 @@ private float time
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnExecute()
 
 ```csharp
 public override void OnExecute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

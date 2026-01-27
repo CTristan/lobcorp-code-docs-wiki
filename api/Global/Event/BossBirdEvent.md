@@ -12,6 +12,11 @@ canonical_path: /api/Global/Event/BossBirdEvent
 public class BossBirdEvent : EventBase
 ```
 
+Event for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight. Makes gates and eggs.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EventBase](/api/Global/Event/EventBase) → BossBirdEvent
 
@@ -25,6 +30,9 @@ public class BossBirdEvent : EventBase
 ```csharp
 public BossBirdEvent()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ public BossBirdEvent()
 ```csharp
 private EventCreatureModel bigEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private EventCreatureModel bigEgg
 ```csharp
 private const long bigObjectID = 1000351
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ private const long bigObjectID = 1000351
 ```csharp
 private EventCreatureModel gateWay
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private EventCreatureModel gateWay
 ```csharp
 private const long gateWayID = 1000350
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ private const long gateWayID = 1000350
 ```csharp
 private EventCreatureModel longEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +101,8 @@ private EventCreatureModel longEgg
 ```csharp
 private const long longObjectID = 1000353
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +113,8 @@ private const long longObjectID = 1000353
 ```csharp
 private EventCreatureModel smallEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +125,8 @@ private EventCreatureModel smallEgg
 ```csharp
 private const long smallObjectID = 1000352
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +139,8 @@ private const long smallObjectID = 1000352
 ```csharp
 public EventCreatureModel MakeBigEgg(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +157,8 @@ public EventCreatureModel MakeBigEgg(MapNode node)
 ```csharp
 public EventCreatureModel MakeGate()
 ```
+#INC
+
 
 #### Returns
 
@@ -141,6 +169,8 @@ public EventCreatureModel MakeGate()
 ```csharp
 public EventCreatureModel MakeLongEgg(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,6 +187,8 @@ public EventCreatureModel MakeLongEgg(MapNode node)
 ```csharp
 public EventCreatureModel MakeSmallEgg(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 

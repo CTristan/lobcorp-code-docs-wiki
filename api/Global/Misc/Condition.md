@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/Condition
 ```csharp
 public class Condition
 ```
+Condition for mission completion, probably.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Condition
@@ -25,6 +28,9 @@ public class Condition
 ```csharp
 public Condition()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ public Condition()
 ```csharp
 public int current
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public int current
 ```csharp
 public MissionConditionTypeInfo metaInfo
 ```
+#INC
+
 
 #### Field Value
 

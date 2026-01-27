@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ElevatorNarratior
 ```csharp
 public class ElevatorNarratior : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ElevatorNarratior
@@ -33,6 +35,8 @@ public ElevatorNarratior()
 ```csharp
 public bool checkTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public bool checkTime
 ```csharp
 public AudioSource citySound
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public AudioSource citySound
 ```csharp
 public ElevatorMover elevator
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public ElevatorMover elevator
 ```csharp
 public TextMesh[] narration
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public TextMesh[] narration
 ```csharp
 private float textTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private float textTime
 ```csharp
 public static float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,12 +109,16 @@ public static float time
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +131,8 @@ private void OnTriggerEnter2D(Collider2D coll)
 ```csharp
 private void OnTriggerExit2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,9 +145,14 @@ private void OnTriggerExit2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### stopElevator()
 
 ```csharp
 public void stopElevator()
 ```
+#INC
+

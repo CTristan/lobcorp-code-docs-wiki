@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/PianoCreature
 public class PianoCreature : CreatureBase
 ```
 
+[Il Pianto della Luna](/api/Global/Misc/Piano)'s breaching form. #INC 
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → PianoCreature
 
@@ -33,6 +37,8 @@ public PianoCreature()
 ```csharp
 private PianoCreatureAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private PianoCreatureAnim _animScript
 ```csharp
 private const int _atkDmgMax = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private const int _atkDmgMax = 16
 ```csharp
 private const int _atkDmgMin = 14
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private const int _atkDmgMin = 14
 ```csharp
 private const RwbpType _atkDmgType = R
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const RwbpType _atkDmgType = R
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private const float _motionDelayMin = 0.5
 ```csharp
 private const float _motionInitDelayMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private const float _motionInitDelayMax = 4
 ```csharp
 private const float _motionInitDelayMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private const float _motionInitDelayMin = 4
 ```csharp
 private const float _skillCoolTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private const float _skillCoolTimeMax = 30
 ```csharp
 private const float _skillCoolTimeMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ private const float _skillCoolTimeMin = 20
 ```csharp
 private const int _skillDmgMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private const int _skillDmgMax = 45
 ```csharp
 private const int _skillDmgMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private const int _skillDmgMin = 30
 ```csharp
 private const RwbpType _skillDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private const RwbpType _skillDmgType = B
 ```csharp
 private const float _skillInitCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ private const float _skillInitCoolTimeMax = 15
 ```csharp
 private const float _skillInitCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ private const float _skillInitCoolTimeMin = 10
 ```csharp
 private const float ATK_DMG_RANGE = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ private const float ATK_DMG_RANGE = 3.5
 ```csharp
 private const float ATTACK_RANGE = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ private const float ATTACK_RANGE = 3
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ private Timer motionDelayTimer
 ```csharp
 private const float RECOGNIZE_RANGE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ private const float RECOGNIZE_RANGE = 15
 ```csharp
 private Piano script
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ private Piano script
 ```csharp
 private const float SKILL_DMG_RANGE = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +289,8 @@ private const float SKILL_DMG_RANGE = 5
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +301,8 @@ private Timer skillCoolTimer
 ```csharp
 private Queue<Vector3> soundPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -347,12 +397,16 @@ private static float SkillInitCoolTime { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### GetDistance(UnitModel)
 
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -369,6 +423,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private UnitModel GetNearest(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -386,6 +442,8 @@ private UnitModel GetNearest(float range, bool needDir = true)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -402,6 +460,8 @@ public string GetSoundSrc(string key)
 ```csharp
 private UnitDirection GetTargetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -418,6 +478,8 @@ private UnitDirection GetTargetDirection(UnitModel target)
 ```csharp
 private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -435,6 +497,8 @@ private List<UnitModel> GetTargets(float range, bool needDir = true)
 ```csharp
 private void GiveDamage(UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -448,6 +512,8 @@ private void GiveDamage(UnitModel target, DamageInfo dmg)
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -458,6 +524,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsHostile(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -474,6 +542,8 @@ private bool IsHostile(MovableObjectNode mov)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,6 +561,8 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -501,6 +573,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsInView(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -517,6 +591,8 @@ private bool IsInView(UnitModel target)
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -527,12 +603,16 @@ private bool IsMovable()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeMovement(MovableObjectNode)
 
 ```csharp
 private void MakeMovement(MovableObjectNode mov)
 ```
+#INC
+
 
 #### Parameters
 
@@ -545,6 +625,8 @@ private void MakeMovement(MovableObjectNode mov)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -555,6 +637,8 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAgentAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -567,42 +651,57 @@ public void OnAgentAnimCalled(int i)
 ```csharp
 public void OnAttackDamage()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnImproviseTimerEnd()
 
 ```csharp
 public void OnImproviseTimerEnd()
 ```
+#INC
+
 
 ### OnSkillDamage()
 
 ```csharp
 public void OnSkillDamage()
 ```
+#INC
+
 
 ### OnSkillEnd()
 
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -615,6 +714,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void PrepareAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -627,6 +728,8 @@ private void PrepareAttack(UnitModel target)
 ```csharp
 private void SkillStart()
 ```
+#INC
+
 
 ### SoundMake(string, float)
 
@@ -685,9 +788,13 @@ public SoundEffectPlayer SoundMakeLoop(string src, float vol = 1)
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

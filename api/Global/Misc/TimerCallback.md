@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TimerCallback
 public class TimerCallback : MonoBehaviour
 ```
 
+A timer which calls a function when it runs out. Used by [CreatureSpeech](/api/Global/Misc/CreatureSpeech), maybe.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TimerCallback
 
@@ -33,6 +38,8 @@ public TimerCallback()
 ```csharp
 private Callback callback
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Callback callback
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float elapsedTime
 ```csharp
 private float goalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private float goalTime
 ```csharp
 public static TimerCallback Create(float time, Callback callback)
 ```
+#INC
+
 
 #### Parameters
 
@@ -82,6 +95,8 @@ public static TimerCallback Create(float time, Callback callback)
 ```csharp
 public static TimerCallback Create(float time, GameObject parent, Callback callback)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,6 +115,8 @@ public static TimerCallback Create(float time, GameObject parent, Callback callb
 ```csharp
 public void ExpandTime(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,3 +129,6 @@ public void ExpandTime(float value)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+#code-generated
+

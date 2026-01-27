@@ -12,6 +12,11 @@ canonical_path: /api/Inventory/InventoryRankButton
 public class InventoryRankButton : MonoBehaviour
 ```
 
+Buttons on the left side of the [list of EGO Suits and Weapons](/api/Inventory/InventoryItemController) for filtering to a particular risk level.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryRankButton
 
@@ -33,6 +38,8 @@ public InventoryRankButton()
 ```csharp
 public Color AreaColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Color AreaColor
 ```csharp
 public GameObject Black
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public GameObject Black
 ```csharp
 public InventoryItemController controller
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public InventoryItemController controller
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Image Frame
 ```csharp
 public bool IsSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool IsSelected
 ```csharp
 public Color NormalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Color NormalColor
 ```csharp
 public RiskLevel riskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public RiskLevel riskLevel
 ```csharp
 public Text Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,12 +136,17 @@ public Text Text
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnChangeButton(int)
 
 ```csharp
 public void OnChangeButton(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +159,8 @@ public void OnChangeButton(int index)
 ```csharp
 public void OnPointerClick(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +173,8 @@ public void OnPointerClick(BaseEventData bData)
 ```csharp
 public void OnPointerEnter(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,6 +187,8 @@ public void OnPointerEnter(BaseEventData bData)
 ```csharp
 public void OnPointerExit(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,3 +201,5 @@ public void OnPointerExit(BaseEventData bData)
 ```csharp
 private void SetAreaColor()
 ```
+#INC
+

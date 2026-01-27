@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/BossBirdAnim
 public class BossBirdAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Apocalypse Bird](/api/Global/Misc/BossBird).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BossBirdAnim
 
@@ -36,6 +41,8 @@ public BossBirdAnim()
 ```csharp
 public Canvas bigBirdHiding
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public Canvas bigBirdHiding
 ```csharp
 public GameObject bossBirdAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject bossBirdAnim
 ```csharp
 public AnimationClip castingAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public AnimationClip castingAnim
 ```csharp
 public Transform castingEffectPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Transform castingEffectPos
 ```csharp
 private Timer castingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Timer castingTimer
 ```csharp
 private GameObject currentCastingEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private GameObject currentCastingEffect
 ```csharp
 private List<BossBird.LaserAttackTargetData> data
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private List<BossBird.LaserAttackTargetData> data
 ```csharp
 public BossBirdGutScript gutScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public BossBirdGutScript gutScript
 ```csharp
 public Transform meleeEffectPosFar
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Transform meleeEffectPosFar
 ```csharp
 public Transform meleeEffectPosNear
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ public BossBirdAnim.NarrationUI narration
 ```csharp
 public GameObject portalEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ public BossBirdAnim.RangeAttackController rangeAttackController
 ```csharp
 public BossBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ public BossBird script
 ```csharp
 private bool teleportState
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ private bool teleportState
 ```csharp
 public float TimeFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ public float TimeFactor
 ```csharp
 public Transform ultHandFirst
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ public Transform ultHandFirst
 ```csharp
 public Transform ultHandSecond
 ```
+#INC
+
 
 #### Field Value
 
@@ -230,6 +267,8 @@ public Timer CastingTimer { get; }
 ```csharp
 public IEnumerator AttachGifts(List<AgentModel> giftAttachList)
 ```
+#INC
+
 
 #### Parameters
 
@@ -246,6 +285,8 @@ public IEnumerator AttachGifts(List<AgentModel> giftAttachList)
 ```csharp
 public override void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -258,6 +299,8 @@ public override void AttackCalled(int i)
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### DisplayNarration(NarrationState, float, NarrationEndEvent)
 
@@ -293,18 +336,25 @@ public void DisplayNarration(BossBird.NarrationState state, float time, BossBird
 ```csharp
 private void EndTeleport()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetHidingState()
 
 ```csharp
 public bool GetHidingState()
 ```
+#INC
+
 
 #### Returns
 
@@ -315,24 +365,32 @@ public bool GetHidingState()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### MakeCastingEffect()
 
 ```csharp
 public void MakeCastingEffect()
 ```
+#INC
+
 
 ### OnAllEnable()
 
 ```csharp
 public void OnAllEnable()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -345,42 +403,56 @@ public override void OnCalled(int i)
 ```csharp
 public void OnCancel()
 ```
+#INC
+
 
 ### OnCastingEnd()
 
 ```csharp
 private void OnCastingEnd()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnNormalAttackEnd()
 
 ```csharp
 private void OnNormalAttackEnd()
 ```
+#INC
+
 
 ### OnPatternAttackEnd()
 
 ```csharp
 private void OnPatternAttackEnd()
 ```
+#INC
+
 
 ### ResetRangeAttack()
 
 ```csharp
 public void ResetRangeAttack()
 ```
+#INC
+
 
 ### SetCreatureAnim(bool)
 
 ```csharp
 public void SetCreatureAnim(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -393,6 +465,8 @@ public void SetCreatureAnim(bool state)
 ```csharp
 public void SetHalfEvent(BossBirdGutScript.HalfEvent e)
 ```
+#INC
+
 
 #### Parameters
 
@@ -405,6 +479,8 @@ public void SetHalfEvent(BossBirdGutScript.HalfEvent e)
 ```csharp
 public void SetHidingCanvas(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -417,6 +493,8 @@ public void SetHidingCanvas(bool state)
 ```csharp
 public void SetNarrationNextState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -429,6 +507,8 @@ public void SetNarrationNextState(bool state)
 ```csharp
 public void SetScript(BossBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -441,6 +521,8 @@ public void SetScript(BossBird script)
 ```csharp
 public void ShootGuts(Vector3 destPosGlobal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -453,6 +535,8 @@ public void ShootGuts(Vector3 destPosGlobal)
 ```csharp
 public override void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -465,30 +549,40 @@ public override void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartCasting()
 
 ```csharp
 public void StartCasting()
 ```
+#INC
+
 
 ### StartLaser()
 
 ```csharp
 public void StartLaser()
 ```
+#INC
+
 
 ### StartMeleeAttack()
 
 ```csharp
 public void StartMeleeAttack()
 ```
+#INC
+
 
 ### StartRangeAttack(List<LaserAttackTargetData>)
 
 ```csharp
 public void StartRangeAttack(List<BossBird.LaserAttackTargetData> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -501,6 +595,8 @@ public void StartRangeAttack(List<BossBird.LaserAttackTargetData> data)
 ```csharp
 public void StartRangeAttack(Vector2 targetPos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -513,27 +609,37 @@ public void StartRangeAttack(Vector2 targetPos)
 ```csharp
 public void StartShooting()
 ```
+#INC
+
 
 ### StartTeleport()
 
 ```csharp
 public void StartTeleport()
 ```
+#INC
+
 
 ### StartUltimate()
 
 ```csharp
 public void StartUltimate()
 ```
+#INC
+
 
 ### TeleportActivate()
 
 ```csharp
 private void TeleportActivate()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

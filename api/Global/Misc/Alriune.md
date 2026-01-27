@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Alriune
 public class Alriune : CreatureBase
 ```
 
+Alriune.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Alriune
 
@@ -33,6 +38,8 @@ public Alriune()
 ```csharp
 private AlriuneAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private AlriuneAnim _animScript
 ```csharp
 private SoundEffectPlayer castingSound
 ```
+Plays Alriune's teleporting sound. #verify
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private SoundEffectPlayer castingSound
 ```csharp
 public const string curtainAnim = "Effect/Creature/Alriune/AlriuneCurtain"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public const string curtainAnim = "Effect/Creature/Alriune/AlriuneCurtain"
 ```csharp
 private const int escapeProbBad = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int escapeProbBad = 70
 ```csharp
 private const int escapeProbGood = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int escapeProbGood = 70
 ```csharp
 private const float skillCoolTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float skillCoolTime = 30
 ```csharp
 private Timer skillCoolTimer
 ```
+Timer counting down until the next teleport is available.
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private Timer skillCoolTimer
 ```csharp
 public const float skillDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public const float skillDelay = 15
 ```csharp
 private Timer skillTimer
 ```
+Timer counting down until the attack deals damage.
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer skillTimer
 ```csharp
 private MapNode targetNode
 ```
+The target node for Alriune's teleport.
+
 
 #### Field Value
 
@@ -134,6 +159,8 @@ private MapNode targetNode
 private const float teleportDelay = 5
 ```
 
+
+
 #### Field Value
 
 **Type:** System.Single
@@ -143,6 +170,8 @@ private const float teleportDelay = 5
 ```csharp
 private Timer teleportTimer
 ```
+Timer counting down to the end of the teleport, once it's started.
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private Timer teleportTimer
 ```csharp
 private const float whiteDmgMax = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float whiteDmgMax = 70
 ```csharp
 private const float whiteDmgMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,30 +230,46 @@ private static float whiteDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+Calls base and escapes.
+
 
 ### ActivateSkill()
 
 ```csharp
 private void ActivateSkill()
 ```
+Attacks all workers in the room for between 50-70 white damage, then makes Alriune start teleporting.
+
+Clerks get [AlriuneAuraBufOfficer](/api/Global/UnitBuf/AlriuneAuraBufOfficer), and panicking agents get [AlriuneAuraBuf](/api/Global/UnitBuf/AlriuneAuraBuf). Clerks' buff is removed when they die.
+
+Also creates the damage particle effects and loads a special prefab effect for the attack, stops the casting sound, then tells the animator to reset the petals.
+
 
 ### CastTeleport()
 
 ```csharp
 private void CastTeleport()
 ```
+Decides Alriune's teleport target and starts a 5 second timer to teleport.
+
+Gets the list of teleport targets, then chooses a node near the geometric center of the room to teleport to. Then, plays the escape animation and loads curtain prefabs at its current location and target location.
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+Breaches and teleports.
+
 
 ### GetPassages(Sefira)
 
 ```csharp
 private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,6 +286,8 @@ private List<PassageObjectModel> GetPassages(Sefira sefira)
 ```csharp
 private List<PassageObjectModel> GetTeleportTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -247,6 +298,8 @@ private List<PassageObjectModel> GetTeleportTargets()
 ```csharp
 public SoundEffectPlayer MakeSoundByKey(string key)
 ```
+Plays the given sound at Alriune's location.
+
 
 #### Parameters
 
@@ -263,6 +316,9 @@ public SoundEffectPlayer MakeSoundByKey(string key)
 ```csharp
 public SoundEffectPlayer MakeSoundByKey(string key, Transform attach)
 ```
+Plays the given sound at the provided Transform's position.
+#code-generated
+
 
 #### Parameters
 
@@ -280,6 +336,8 @@ public SoundEffectPlayer MakeSoundByKey(string key, Transform attach)
 ```csharp
 public SoundEffectPlayer MakeSoundByKey(string key, Vector3 t)
 ```
+Plays the given sound at the provided vector's location. (Not used.)
+
 
 #### Parameters
 
@@ -297,30 +355,40 @@ public SoundEffectPlayer MakeSoundByKey(string key, Vector3 t)
 ```csharp
 public override void OnReturn()
 ```
+Calls base and ParamInit, then resets the Qliphoth counter.
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+Calls base.
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+Calls base.
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+Calls base and ParamInit.
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+Calls base and sets the animation script's instance to this one.
+
 
 #### Parameters
 
@@ -333,6 +401,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+When the work cooldown ends, reduces the Qliphoth counter by 1 at a 70% chance if the result was good or bad.
+
 
 #### Parameters
 
@@ -345,15 +415,31 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+Resets the attack timer, cooldown timer, teleproter timer, all petals, the current target, and stops sound if needed.
+
 
 ### Teleport()
 
 ```csharp
 private void Teleport()
 ```
+Teleports Alriune to the target.
+
+Sets the current node, current department, and current department's number, then starts a 30 second cooldown to the next teleport.
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+Breaching behaviour.
+###### more details
+Checks if workers need to take encounter damage.
+
+If the teleport timer has started and finished, teleports.
+
+Otherwise, if not attacking, and waiting for the next teleport, starts a 15 second timer to attack any workers in the room and plays a casting sound. If there are no workers, and the teleport cooldown has ended, teleports.
+
+If already starting to attack, tells the animator to continue casting. If the attack timer finishes, attacks. #verify
+

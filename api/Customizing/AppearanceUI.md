@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/AppearanceUI
 ```csharp
 public class AppearanceUI : MonoBehaviour
 ```
+UI element for customizing agent appearance (hair and expressions).
+
+See [CustomizingWindow](/api/Customizing/CustomizingWindow)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AppearanceUI
@@ -53,6 +57,8 @@ public AppearanceUI.OnCloseAction closeAction
 ```csharp
 public AgentData copied
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +69,8 @@ public AgentData copied
 ```csharp
 public Text currentFaceTypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +81,8 @@ public Text currentFaceTypeText
 ```csharp
 public SpriteSelector eye_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +93,8 @@ public SpriteSelector eye_Battle
 ```csharp
 public SpriteSelector eye_Dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +105,8 @@ public SpriteSelector eye_Dead
 ```csharp
 public SpriteSelector eye_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +117,8 @@ public SpriteSelector eye_Def
 ```csharp
 public SpriteSelector eye_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +129,8 @@ public SpriteSelector eye_Panic
 ```csharp
 public SpriteSelector eyebrow_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +141,8 @@ public SpriteSelector eyebrow_Battle
 ```csharp
 public SpriteSelector eyebrow_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +153,8 @@ public SpriteSelector eyebrow_Def
 ```csharp
 public SpriteSelector eyebrow_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +165,8 @@ public SpriteSelector eyebrow_Panic
 ```csharp
 public ColorSelector eyeColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +177,8 @@ public ColorSelector eyeColor
 ```csharp
 private WorkerFaceType faceType
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +189,8 @@ private WorkerFaceType faceType
 ```csharp
 public SpriteSelector frontHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +201,8 @@ public SpriteSelector frontHair
 ```csharp
 public ColorSelector hairColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +213,8 @@ public ColorSelector hairColor
 ```csharp
 public Text HairTitle
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +225,8 @@ public Text HairTitle
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +237,8 @@ private bool init
 ```csharp
 public CanvasGroup[] inputControlGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +249,8 @@ public CanvasGroup[] inputControlGroup
 ```csharp
 public SpriteSelector mouth_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +261,8 @@ public SpriteSelector mouth_Battle
 ```csharp
 public SpriteSelector mouth_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +273,8 @@ public SpriteSelector mouth_Def
 ```csharp
 public SpriteSelector mouth_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -254,6 +296,8 @@ public InputField NameInput
 ```csharp
 public AgentData original
 ```
+#INC
+
 
 #### Field Value
 
@@ -264,6 +308,8 @@ public AgentData original
 ```csharp
 public ColorPalette palette
 ```
+#INC
+
 
 #### Field Value
 
@@ -274,6 +320,8 @@ public ColorPalette palette
 ```csharp
 public WorkerPortraitSetter portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -284,6 +332,8 @@ public WorkerPortraitSetter portrait
 ```csharp
 public SpriteSelector rearHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -294,6 +344,8 @@ public SpriteSelector rearHair
 ```csharp
 public GameObject rootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -318,12 +370,17 @@ public AppearanceUI.HairRegion CurrentRegion { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeFace(int)
 
 ```csharp
 public void ChangeFace(int val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,12 +393,16 @@ public void ChangeFace(int val)
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### DelegateParamInit(AgentData)
 
 ```csharp
 private void DelegateParamInit(AgentData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,48 +415,64 @@ private void DelegateParamInit(AgentData data)
 ```csharp
 public void GenRandomAppearance()
 ```
+#INC
+
 
 ### GenRandomFace()
 
 ```csharp
 public void GenRandomFace()
 ```
+#INC
+
 
 ### GenRandomHair()
 
 ```csharp
 public void GenRandomHair()
 ```
+#INC
+
 
 ### InitialDataLoad()
 
 ```csharp
 public void InitialDataLoad()
 ```
+#INC
+
 
 ### OnClickHairMove()
 
 ```csharp
 public void OnClickHairMove()
 ```
+#INC
+
 
 ### OnConfirm()
 
 ```csharp
 public void OnConfirm()
 ```
+#INC
+
 
 ### OnRevert()
 
 ```csharp
 public void OnRevert()
 ```
+#INC
+
 
 ### OnSetNametext(string)
 
 ```csharp
 public void OnSetNametext(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,6 +485,8 @@ public void OnSetNametext(string str)
 ```csharp
 public void OnSetSpriteAcion(ref Sprite target, Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -421,6 +500,8 @@ public void OnSetSpriteAcion(ref Sprite target, Sprite sprite)
 ```csharp
 public void OpenWindow(AgentData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -433,6 +514,8 @@ public void OpenWindow(AgentData data)
 ```csharp
 public void SetAppearanceSprite(AgentData data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -445,12 +528,16 @@ public void SetAppearanceSprite(AgentData data)
 ```csharp
 private void SetCopy()
 ```
+#INC
+
 
 ### SetCreditControl(bool)
 
 ```csharp
 public void SetCreditControl(bool isInteractable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -463,27 +550,37 @@ public void SetCreditControl(bool isInteractable)
 ```csharp
 private void SetFaceText()
 ```
+#INC
+
 
 ### SetHairRegion()
 
 ```csharp
 private void SetHairRegion()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UpdateColor()
 
 ```csharp
 public void UpdateColor()
 ```
+#INC
+
 
 ### UpdatePortrait()
 
 ```csharp
 public void UpdatePortrait()
 ```
+#INC
+

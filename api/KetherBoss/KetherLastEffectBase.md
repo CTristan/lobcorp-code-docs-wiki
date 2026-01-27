@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherLastEffectBase
 ```csharp
 public class KetherLastEffectBase
 ```
+Parent class for day 50 effects
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → KetherLastEffectBase
@@ -28,6 +30,9 @@ public class KetherLastEffectBase
 ```csharp
 public KetherLastEffectBase(KetherLastBossBase bossBase)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public KetherLastEffectBase(KetherLastBossBase bossBase)
 ```csharp
 private KetherLastBossBase bossBase
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ private KetherLastBossBase bossBase
 ```csharp
 protected KetherLastEffectType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,27 +85,37 @@ public KetherLastBossBase BossBase { get; }
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public virtual void OnStart()
 ```
+#INC
+
 
 ### Terminate()
 
 ```csharp
 public virtual void Terminate()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public virtual void Update()
 ```
+#INC
+

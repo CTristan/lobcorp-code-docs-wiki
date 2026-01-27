@@ -12,6 +12,10 @@ canonical_path: /api/Global/Armor/FireBirdArmor
 public class FireBirdArmor : EquipmentScriptBase
 ```
 
+Script for [The Firebird](/api/Global/IOBserver/FireBird)'s EGO Suit: Feather of Honor. No script.
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FireBirdArmor
 

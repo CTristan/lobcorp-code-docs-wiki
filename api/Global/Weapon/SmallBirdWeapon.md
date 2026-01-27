@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/SmallBirdWeapon
 public class SmallBirdWeapon : EquipmentScriptBase
 ```
 
+Script for [Punishing Bird](/api/Global/Misc/SmallBird)'s EGO Weapon: Beak. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SmallBirdWeapon
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Script/BoomerCircusScript
 ```csharp
 public class BoomerCircusScript : StandingItemScriptBase
 ```
+tied to [BoomerCircusEvent](/api/Global/Event/BoomerCircusEvent) #INC 
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → BoomerCircusScript
@@ -36,6 +40,8 @@ public BoomerCircusScript()
 ```csharp
 public BoomerCircusEvent randomEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +54,8 @@ public BoomerCircusEvent randomEvent
 ```csharp
 public virtual bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -58,6 +66,8 @@ public virtual bool IsActive()
 ```csharp
 public virtual void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -70,6 +80,9 @@ public virtual void SetActive(bool state)
 ```csharp
 public virtual void SetEvent(BoomerCircusEvent script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

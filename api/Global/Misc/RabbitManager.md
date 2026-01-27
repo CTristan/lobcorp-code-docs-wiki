@@ -11,6 +11,14 @@ canonical_path: /api/Global/Misc/RabbitManager
 ```csharp
 public class RabbitManager
 ```
+Manages the [rabbits](/api/Global/Model/RabbitModel), their [teams](/api/Global/Misc/RabbitTeam), and their [squads](/api/Global/Misc/RabbitSquad).
+
+Tracks if rabbits are still alive, and whether there is anything for them to suppress.
+
+Also tells Myo to yap (see [RabbitCaptaionConversation](/api/Rabbit/RabbitCaptaionConversation)).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitManager
@@ -33,6 +41,8 @@ public RabbitManager()
 ```csharp
 private static RabbitManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ private static RabbitManager _instance
 ```csharp
 private List<RabbitModel> _rabbits
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ private List<RabbitModel> _rabbits
 ```csharp
 private Dictionary<SefiraEnum, RabbitSquad> _rabbitSquads
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ private Dictionary<SefiraEnum, RabbitSquad> _rabbitSquads
 ```csharp
 private List<RabbitTeam> _rabbitTeams
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ private List<RabbitTeam> _rabbitTeams
 ```csharp
 private int almostCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +101,8 @@ private int almostCount
 ```csharp
 private int halfCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +113,8 @@ private int halfCount
 ```csharp
 private long nextInstId
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +125,8 @@ private long nextInstId
 ```csharp
 private int rabbitCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +151,8 @@ public static RabbitManager instance { get; }
 ```csharp
 public bool CheckUnitRabbitExecution(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +169,8 @@ public bool CheckUnitRabbitExecution(UnitModel target)
 ```csharp
 public void ClearSquad(SefiraEnum sefira, bool eliminated = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -156,6 +184,8 @@ public void ClearSquad(SefiraEnum sefira, bool eliminated = false)
 ```csharp
 public void CreateRabbitSquad(SefiraEnum sefira, int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +199,8 @@ public void CreateRabbitSquad(SefiraEnum sefira, int count)
 ```csharp
 private RabbitTeam CreateRabbitTeam(SefiraEnum sefira, RabbitOperationArea area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,6 +218,8 @@ private RabbitTeam CreateRabbitTeam(SefiraEnum sefira, RabbitOperationArea area)
 ```csharp
 public bool ExistsSquad(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +236,8 @@ public bool ExistsSquad(SefiraEnum sefira)
 ```csharp
 public bool IsAnyRabbitEnabled()
 ```
+#INC
+
 
 #### Returns
 
@@ -212,6 +248,8 @@ public bool IsAnyRabbitEnabled()
 ```csharp
 public void OnCleared(bool eliminated)
 ```
+#INC
+
 
 #### Parameters
 
@@ -224,18 +262,25 @@ public void OnCleared(bool eliminated)
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnGameInit()
 
 ```csharp
 public void OnGameInit()
 ```
+#INC
+#code-generated
+
 
 ### OnRabbitDead(RabbitModel)
 
 ```csharp
 public void OnRabbitDead(RabbitModel rabbit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -248,30 +293,40 @@ public void OnRabbitDead(RabbitModel rabbit)
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### OnStartSession()
 
 ```csharp
 public void OnStartSession()
 ```
+#INC
+
 
 ### RegisterRabbit(RabbitModel)
 
 ```csharp
 public void RegisterRabbit(RabbitModel rabbit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,3 +339,5 @@ public void RegisterRabbit(RabbitModel rabbit)
 ```csharp
 public void SendBossClear()
 ```
+#INC
+

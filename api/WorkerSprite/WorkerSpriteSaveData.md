@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/WorkerSpriteSaveData
 ```csharp
 public class WorkerSpriteSaveData
 ```
+Stores worker customization choices, I think?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpriteSaveData
@@ -63,6 +67,9 @@ public WorkerSpriteSaveData.Pair BattleMouth
 ```csharp
 public bool bInit
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

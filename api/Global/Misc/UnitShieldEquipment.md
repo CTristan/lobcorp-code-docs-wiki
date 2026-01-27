@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/UnitShieldEquipment
 ```csharp
 public class UnitShieldEquipment
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UnitShieldEquipment
@@ -33,6 +35,8 @@ public UnitShieldEquipment()
 ```csharp
 public float hp
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public float hp
 ```csharp
 public ShieldTypeInfo metaInfo
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

@@ -11,6 +11,9 @@ canonical_path: /api/Global/Info/CreatureTypeInfo
 ```csharp
 public class CreatureTypeInfo
 ```
+Holds a ton of information about an abnormality.
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureTypeInfo
@@ -36,6 +39,8 @@ public CreatureTypeInfo()
 ```csharp
 public bool _isChildAndHasData
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public bool _isChildAndHasData
 ```csharp
 public string _tempPortrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public string _tempPortrait
 ```csharp
 private bool activateSpecialSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private bool activateSpecialSkill
 ```csharp
 public string animSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public string animSrc
 ```csharp
 public ChildCreatureTypeInfo childTypeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ public ChildCreatureTypeInfo childTypeInfo
 ```csharp
 public Dictionary<int, AgentName> collectionUsedAgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ public Dictionary<int, AgentName> collectionUsedAgentName
 ```csharp
 public CreatureKitType creatureKitType
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public CreatureKitType creatureKitType
 ```csharp
 public CreatureSpecialDamageTable creatureSpecialDamageTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public CreatureSpecialDamageTable creatureSpecialDamageTable
 ```csharp
 public CreatureStaticData creatureStaticData
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ public CreatureStaticData creatureStaticData
 ```csharp
 public CreatureWorkType creatureWorkType
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ public CreatureWorkType creatureWorkType
 ```csharp
 public float cubeSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ public CreatureTypeInfo.CreatureDataTable dataTable
 ```csharp
 public CreatureDefenseTable defenseTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ public CreatureDefenseTable defenseTable
 ```csharp
 public List<string> desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ public List<string> desc
 ```csharp
 public XmlNodeList edgeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ public XmlNodeList edgeInfo
 ```csharp
 public List<CreatureEquipmentMakeInfo> equipMakeInfos
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ public List<CreatureEquipmentMakeInfo> equipMakeInfos
 ```csharp
 public FeelingStateCubeBounds feelingStateCubeBounds
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ public FeelingStateCubeBounds feelingStateCubeBounds
 ```csharp
 public long id
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ public long id
 ```csharp
 public static string[] intData
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ public static string[] intData
 ```csharp
 public bool isEscapeAble
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ public bool isEscapeAble
 ```csharp
 public string kitIconSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ public string kitIconSrc
 ```csharp
 public int maxHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +301,8 @@ public int maxHp
 ```csharp
 public int MaxObserveLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +313,8 @@ public int MaxObserveLevel
 ```csharp
 public CreatureMaxObserve maxObserveModule
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +325,8 @@ public CreatureMaxObserve maxObserveModule
 ```csharp
 public int maxProbReductionCounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +337,8 @@ public int maxProbReductionCounter
 ```csharp
 public int maxWorkCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +349,8 @@ public int maxWorkCount
 ```csharp
 public Dictionary<string, string> narrationTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +361,8 @@ public Dictionary<string, string> narrationTable
 ```csharp
 public const string noDataString = "Unknown"
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +373,8 @@ public const string noDataString = "Unknown"
 ```csharp
 public XmlNodeList nodeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +385,8 @@ public XmlNodeList nodeInfo
 ```csharp
 public string observe
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +397,8 @@ public string observe
 ```csharp
 public CreatureObserveBonusList observeBonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +409,8 @@ public CreatureObserveBonusList observeBonus
 ```csharp
 public List<ObserveInfoData> observeData
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +421,8 @@ public List<ObserveInfoData> observeData
 ```csharp
 public string[] observeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +433,8 @@ public string[] observeList
 ```csharp
 public List<string> observeRecord
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +455,8 @@ public CreatureTypeInfo.ObserveTable observeTable
 ```csharp
 public string openText
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +467,8 @@ public string openText
 ```csharp
 public float probReduction
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +479,8 @@ public float probReduction
 ```csharp
 public int qliphothMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -416,6 +491,8 @@ public int qliphothMax
 ```csharp
 public string roomReturnSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -426,6 +503,8 @@ public string roomReturnSrc
 ```csharp
 public string script
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +515,8 @@ public string script
 ```csharp
 public SkillTriggerCheck skillTriggerCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -446,6 +527,8 @@ public SkillTriggerCheck skillTriggerCheck
 ```csharp
 public Dictionary<string, string> soundTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +539,8 @@ public Dictionary<string, string> soundTable
 ```csharp
 public CreatureSpecialSkillTipTable specialSkillTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -466,6 +551,8 @@ public CreatureSpecialSkillTipTable specialSkillTable
 ```csharp
 public float speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -476,6 +563,8 @@ public float speed
 ```csharp
 public static string[] stringData
 ```
+#INC
+
 
 #### Field Value
 
@@ -486,6 +575,8 @@ public static string[] stringData
 ```csharp
 public Sprite tempPortrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -496,6 +587,8 @@ public Sprite tempPortrait
 ```csharp
 public Dictionary<string, string> typoTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -506,6 +599,8 @@ public Dictionary<string, string> typoTable
 ```csharp
 public string workAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -516,6 +611,8 @@ public string workAnim
 ```csharp
 public string workAnimFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -526,6 +623,8 @@ public string workAnimFace
 ```csharp
 public int workCooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -536,6 +635,8 @@ public int workCooltime
 ```csharp
 public DamageInfo workDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -546,6 +647,8 @@ public DamageInfo workDamage
 ```csharp
 public CreatureWorkProbTable workProbTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -650,12 +753,16 @@ public string specialSkillName { get; }
 ```csharp
 public void ActivatedSpecialSkill()
 ```
+#INC
+
 
 ### AddAgentName(int, AgentName)
 
 ```csharp
 public void AddAgentName(int index, AgentName input)
 ```
+#INC
+
 
 #### Parameters
 
@@ -669,6 +776,8 @@ public void AddAgentName(int index, AgentName input)
 ```csharp
 public bool GetAgentName(int index, out AgentName name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -686,6 +795,8 @@ public bool GetAgentName(int index, out AgentName name)
 ```csharp
 public virtual RiskLevel GetRiskLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -696,6 +807,9 @@ public virtual RiskLevel GetRiskLevel()
 ```csharp
 public static string GetRiskLevelEnumToString(RiskLevel level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -712,6 +826,8 @@ public static string GetRiskLevelEnumToString(RiskLevel level)
 ```csharp
 public static RiskLevel GetRiskLevelStringToEnum(string level)
 ```
+#INC
+
 
 #### Parameters
 

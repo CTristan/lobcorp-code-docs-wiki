@@ -12,6 +12,9 @@ canonical_path: /api/Global/StateMachineBehaviour/MatchGirlAttackState
 public class MatchGirlAttackState : StateMachineBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → MatchGirlAttackState
 
@@ -33,6 +36,9 @@ public MatchGirlAttackState()
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

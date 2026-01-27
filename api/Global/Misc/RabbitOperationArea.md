@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RabbitOperationArea
 ```csharp
 public class RabbitOperationArea
 ```
+Contains a [MapNode](/api/Global/Misc/MapNode) spawnpoint for rabbits, and a list of passages in the operation area. This usually coincides with departments, except in Central.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitOperationArea
@@ -33,6 +35,8 @@ public RabbitOperationArea()
 ```csharp
 public List<PassageObjectModel> passages
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,9 @@ public List<PassageObjectModel> passages
 ```csharp
 public MapNode summonNode
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

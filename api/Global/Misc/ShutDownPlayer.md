@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ShutDownPlayer
 public class ShutDownPlayer : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ShutDownPlayer
 
@@ -33,6 +36,8 @@ public ShutDownPlayer()
 ```csharp
 private MovieTexture mt
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private MovieTexture mt
 ```csharp
 public RawImage shutDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +62,14 @@ public RawImage shutDown
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

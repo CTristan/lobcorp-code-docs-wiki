@@ -12,6 +12,9 @@ canonical_path: /api/Manual/SubCategory
 public class SubCategory : Category
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Category](/api/Manual/Category) → SubCategory
 
@@ -25,6 +28,8 @@ public class SubCategory : Category
 ```csharp
 public SubCategory(string id, int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,8 @@ public SubCategory(string id, int index)
 ```csharp
 private bool _isOnlyOne
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +57,8 @@ private bool _isOnlyOne
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +69,8 @@ public int index
 ```csharp
 public const string localizeTextFormat = "Manual_SubCategory_{0}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +81,8 @@ public const string localizeTextFormat = "Manual_SubCategory_{0}"
 ```csharp
 public List<NodeCategory> nodeCategories
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,3 +107,6 @@ public bool IsOnlyOne { get; set; }
 ```csharp
 public override void LoadText()
 ```
+#INC
+#code-generated
+

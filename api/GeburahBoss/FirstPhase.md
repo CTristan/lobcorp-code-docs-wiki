@@ -12,6 +12,14 @@ canonical_path: /api/GeburahBoss/FirstPhase
 public class FirstPhase : GeburahPhaseExectuion
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s behavior for phase one.
+
+She:
+Creates the [Black Fog](/api/BinahBoss/BlackFogOverload) or [Golden](/api/BinahBoss/GoldenOverload) meltdowns, if she has her meltdowns currently.
+
+If there's someone near her, she randomly chooses to smite them with the [Blade Wave](/api/BinahBoss/BladeWaveThrow) or the [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahPhaseExectuion](/api/GeburahBoss/GeburahPhaseExectuion) → FirstPhase
 
@@ -25,6 +33,8 @@ public class FirstPhase : GeburahPhaseExectuion
 ```csharp
 public FirstPhase(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +49,8 @@ public FirstPhase(GeburahCoreScript geburah)
 ```csharp
 private float attackDist
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +61,8 @@ private float attackDist
 ```csharp
 private static DefaultAttack.AttackProb[] AttackProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +73,8 @@ private static DefaultAttack.AttackProb[] AttackProb
 ```csharp
 private static List<DefaultAttack.AttackProb> attackProbList
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +85,8 @@ private static List<DefaultAttack.AttackProb> attackProbList
 ```csharp
 private PassageObjectModel currentPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +97,8 @@ private PassageObjectModel currentPassage
 ```csharp
 private UnitModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +109,8 @@ private UnitModel currentTarget
 ```csharp
 private int fillCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +121,8 @@ private int fillCount
 ```csharp
 private float MoveProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,12 +135,17 @@ private float MoveProb
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +162,8 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 private int GetRandomTeleportCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -143,15 +174,21 @@ private int GetRandomTeleportCount()
 ```csharp
 public void OnDamageFilled()
 ```
+#INC
+
 
 ### OnPrevSuppressed()
 
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/UniqueWeaponSpriteUnit
 ```csharp
 public class UniqueWeaponSpriteUnit
 ```
+Has a list of unique weapons?? Maybe??
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UniqueWeaponSpriteUnit
@@ -45,6 +49,9 @@ private Sprite _commonSprite
 ```csharp
 public string indexer
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public string indexer
 ```csharp
 public List<UniqueWeaponSprite> sprites
 ```
+#INC
+
 
 #### Field Value
 

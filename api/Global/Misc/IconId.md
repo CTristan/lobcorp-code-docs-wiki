@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/IconId
 ```csharp
 public class IconId
 ```
+List of numerical IDs for different icons.
+
+Seems to only really be used to get work type icons.
+
+See [IconManager](/api/Global/Misc/IconManager).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IconId
@@ -33,6 +39,8 @@ public IconId()
 ```csharp
 public static int Block
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public static int Block
 ```csharp
 public static int Clean1
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public static int Clean1
 ```csharp
 public static int Clean2
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public static int Clean2
 ```csharp
 public static int Communion1
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public static int Communion1
 ```csharp
 public static int Communion2
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ public static int Communion2
 ```csharp
 public static int Gun
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,9 @@ public static int Gun
 ```csharp
 public static int Meal1
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ public static int Meal1
 ```csharp
 public static int Meal2
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ public static int Meal2
 ```csharp
 public static int Murder
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ public static int Murder
 ```csharp
 public static int Optimist
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ public static int Optimist
 ```csharp
 public static int Pacifist
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ public static int Pacifist
 ```csharp
 public static int Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ public static int Panic
 ```csharp
 public static int Play1
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ public static int Play1
 ```csharp
 public static int Play2
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ public static int Play2
 ```csharp
 public static int Principled
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ public static int Principled
 ```csharp
 public static int Rationalist
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +232,8 @@ public static int Rationalist
 ```csharp
 public static int Release
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +244,8 @@ public static int Release
 ```csharp
 public static int Special1
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +256,8 @@ public static int Special1
 ```csharp
 public static int Stick
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +268,8 @@ public static int Stick
 ```csharp
 public static int Suicide
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +280,8 @@ public static int Suicide
 ```csharp
 public static int Violent1
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +292,8 @@ public static int Violent1
 ```csharp
 public static int Violent2
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +304,8 @@ public static int Violent2
 ```csharp
 public static int Wander
 ```
+#INC
+
 
 #### Field Value
 

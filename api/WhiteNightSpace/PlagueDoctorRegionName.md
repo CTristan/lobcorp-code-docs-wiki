@@ -11,6 +11,9 @@ canonical_path: /api/WhiteNightSpace/PlagueDoctorRegionName
 ```csharp
 public static class PlagueDoctorRegionName
 ```
+Static names for [Plague Doctor](/api/Legacy/PlagueDoctor)'s parts
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PlagueDoctorRegionName
@@ -25,6 +28,8 @@ public static class PlagueDoctorRegionName
 ```csharp
 public static string Coat
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +40,8 @@ public static string Coat
 ```csharp
 public static string Hat
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ public static string Hat
 ```csharp
 public static string Head_Beak
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +64,8 @@ public static string Head_Beak
 ```csharp
 public static string LeftDownWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public static string LeftDownWing
 ```csharp
 public static string LeftFrontWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ public static string LeftFrontWing
 ```csharp
 public static string LeftMiddleDownWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +100,8 @@ public static string LeftMiddleDownWing
 ```csharp
 public static string LeftMiddleWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,8 @@ public static string LeftMiddleWing
 ```csharp
 public static string LeftUpWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,9 @@ public static string LeftUpWing
 ```csharp
 public static string RightDownWing
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -115,6 +137,8 @@ public static string RightDownWing
 ```csharp
 public static string RightFrontWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +149,8 @@ public static string RightFrontWing
 ```csharp
 public static string RightMiddleDownWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +161,8 @@ public static string RightMiddleDownWing
 ```csharp
 public static string RightMiddleWing
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +173,8 @@ public static string RightMiddleWing
 ```csharp
 public static string RightUpWing
 ```
+#INC
+
 
 #### Field Value
 

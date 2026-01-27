@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/SpriteSelector
 ```csharp
 public class SpriteSelector : MonoBehaviour
 ```
+UI element for going through hair and expression options.
+
+See [AppearanceUI](/api/Customizing/AppearanceUI)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpriteSelector
@@ -43,6 +47,8 @@ public SpriteSelector.OnSetSpriteAction action
 ```csharp
 public Image Current
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Image Current
 ```csharp
 private AgentData currentData
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ private AgentData currentData
 ```csharp
 public int CurrentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public int CurrentIndex
 ```csharp
 public Text CurrentSpriteName
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Text CurrentSpriteName
 ```csharp
 public List<Image> Next
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public List<Image> Next
 ```csharp
 public List<Image> Prev
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public List<Image> Prev
 ```csharp
 public SpriteSelectRegion region
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public SpriteSelectRegion region
 ```csharp
 public List<Sprite> SpriteList
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +157,8 @@ public int LastIndex { get; }
 ```csharp
 private int GetIndex(int dist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,6 +175,8 @@ private int GetIndex(int dist)
 ```csharp
 public int GetSpriteIndex(Sprite s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +193,8 @@ public int GetSpriteIndex(Sprite s)
 ```csharp
 public void Init(List<Sprite> sprites)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +207,8 @@ public void Init(List<Sprite> sprites)
 ```csharp
 public void OnClickMovement(int movVal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,18 +221,24 @@ public void OnClickMovement(int movVal)
 ```csharp
 public void OnSetIndex()
 ```
+#INC
+
 
 ### OnSetIndexShort()
 
 ```csharp
 public void OnSetIndexShort()
 ```
+#INC
+
 
 ### OnSetSprite()
 
 ```csharp
 public void OnSetSprite()
 ```
+#INC
+
 
 ### OnSetSpriteActionInit(OnSetSpriteAction)
 
@@ -223,6 +257,9 @@ public void OnSetSpriteActionInit(SpriteSelector.OnSetSpriteAction action)
 ```csharp
 public void SetData(AgentData d)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -235,6 +272,8 @@ public void SetData(AgentData d)
 ```csharp
 public void SetInitialIndex(int index)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahPhaseExecution
 ```csharp
 public abstract class BinahPhaseExecution
 ```
+Parent class for [An Arbiter](/api/Global/Script/BinahCoreScript)'s phases during [Binah's core suppression](/api/Global/Misc/BinahBossBase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahPhaseExecution
@@ -28,6 +30,8 @@ public abstract class BinahPhaseExecution
 ```csharp
 public BinahPhaseExecution(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +46,8 @@ public BinahPhaseExecution(BinahCoreScript binah)
 ```csharp
 public BinahCoreScript binah
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +58,8 @@ public BinahCoreScript binah
 ```csharp
 public bool overloadActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +70,8 @@ public bool overloadActivated
 ```csharp
 public Timer overloadTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +82,8 @@ public Timer overloadTimer
 ```csharp
 public List<OverloadType> overloadTypeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,12 +108,16 @@ public bool BinahHasOverload { get; }
 ```csharp
 public abstract void FixedUpdate()
 ```
+#INC
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public abstract BinahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,6 +134,8 @@ public abstract BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public virtual OverloadType GetOverloadType()
 ```
+#INC
+
 
 #### Returns
 
@@ -128,24 +146,32 @@ public virtual OverloadType GetOverloadType()
 ```csharp
 public virtual void HaltOverload()
 ```
+#INC
+
 
 ### OnOverloadEnd()
 
 ```csharp
 public virtual void OnOverloadEnd()
 ```
+#INC
+
 
 ### OnPrevSuppressed()
 
 ```csharp
 public abstract void OnPrevSuppressed()
 ```
+#INC
+
 
 ### StartTimer(float)
 
 ```csharp
 public virtual void StartTimer(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +184,9 @@ public virtual void StartTimer(float time)
 ```csharp
 public override string ToString()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -168,3 +197,5 @@ public override string ToString()
 ```csharp
 public abstract void Update()
 ```
+#INC
+

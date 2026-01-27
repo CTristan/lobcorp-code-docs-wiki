@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/QueenBeeWorkerAnim
 public class QueenBeeWorkerAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Queen Bee's workers](/api/Global/Worker/QueenBeeWorker).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → QueenBeeWorkerAnim
 
@@ -36,6 +39,8 @@ public QueenBeeWorkerAnim()
 ```csharp
 public Transform agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public Transform agent
 ```csharp
 private const float attackSpeed = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const float attackSpeed = 2
 ```csharp
 private WorkerUnit currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private WorkerUnit currentTarget
 ```csharp
 public bool isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public bool isAttacking
 ```csharp
 public QueenBeeWorker script
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,18 +113,24 @@ private bool hasTarget { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### Attach(WorkerUnit)
 
 ```csharp
 public void Attach(WorkerUnit worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,12 +143,16 @@ public void Attach(WorkerUnit worker)
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,18 +165,24 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Attract()
 
 ```csharp
 private void Attract()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,30 +196,41 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Decouple()
 ```
+#INC
+
 
 ### Kill()
 
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,12 +243,16 @@ public void OnCalled(int i)
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### SetScript(QueenBeeWorker)
 
 ```csharp
 public void SetScript(QueenBeeWorker script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,12 +265,16 @@ public void SetScript(QueenBeeWorker script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,9 +287,13 @@ public void SoundMake(string src)
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

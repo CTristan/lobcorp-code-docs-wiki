@@ -11,6 +11,10 @@ canonical_path: /api/BinahBoss/BlackFogOverload
 ```csharp
 public class BlackFogOverload : BinahOverload, IObserver
 ```
+Class for the Meltdown of Dark Fog Qliphoth meltdowns (silver). Success makes [An Arbiter](/api/Global/Script/BinahCoreScript) vulnerable to all damage.
+
+Starts in [Phase 1](/api/BinahBoss/FirstPhase).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahOverload](/api/BinahBoss/BinahOverload) → BlackFogOverload
@@ -28,6 +32,8 @@ public class BlackFogOverload : BinahOverload, IObserver
 ```csharp
 public BlackFogOverload(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +48,8 @@ public BlackFogOverload(BinahCoreScript binah)
 ```csharp
 private BinahBlackFogBuf blackFogBuf
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,15 +62,22 @@ private BinahBlackFogBuf blackFogBuf
 ```csharp
 public override void CastOverload()
 ```
+#INC
+#code-generated
+
 
 ### OnFail()
 
 ```csharp
 public override void OnFail()
 ```
+#INC
+
 
 ### OnSuccess()
 
 ```csharp
 public override void OnSuccess()
 ```
+#INC
+

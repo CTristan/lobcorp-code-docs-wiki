@@ -12,6 +12,10 @@ canonical_path: /api/Global/UnitBuf/ViscusSnakeBuf
 public class ViscusSnakeBuf : UnitBuf
 ```
 
+Buff given to employees infected by [The Naked Nest](/api/Global/Misc/ViscusSnake).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → ViscusSnakeBuf
 
@@ -25,6 +29,8 @@ public class ViscusSnakeBuf : UnitBuf
 ```csharp
 public ViscusSnakeBuf(ViscusSnake script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -49,6 +55,8 @@ private ViscusSnakeBuf.Level _currentLevel
 ```csharp
 private const string _effectSpriteSrc = "Sprites/CreatureSprite/ViscusSnake/Viscusinfested"
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private const string _effectSpriteSrc = "Sprites/CreatureSprite/ViscusSnake/Visc
 ```csharp
 private const float _first_max = 40
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private const float _first_max = 40
 ```csharp
 private const float _first_min = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private const float _first_min = 30
 ```csharp
 private const string _gasEffectSrc = "Effect/Creature/ViscusSnake/ViscusGas"
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private const string _gasEffectSrc = "Effect/Creature/ViscusSnake/ViscusGas"
 ```csharp
 private Timer _increaseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +115,8 @@ private Timer _increaseTimer
 ```csharp
 private const string _infectionEffectSrc = "Effect/Creature/ViscusSnake/ViscusInfectionEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +127,8 @@ private const string _infectionEffectSrc = "Effect/Creature/ViscusSnake/ViscusIn
 ```csharp
 private const float _infestedEffectTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +139,8 @@ private const float _infestedEffectTime = 5
 ```csharp
 private Timer _infestedEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +151,8 @@ private Timer _infestedEffectTimer
 ```csharp
 private const float _movementDebufRate = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +163,8 @@ private const float _movementDebufRate = 0.5
 ```csharp
 private ViscusSnake _snake
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +175,8 @@ private ViscusSnake _snake
 ```csharp
 private const float _zero_max = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +187,8 @@ private const float _zero_max = 10
 ```csharp
 private const float _zero_min = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +209,8 @@ private Dictionary<WorkerModel, ViscusSnakeBuf.InfectionCheckInfo> checkDic
 ```csharp
 private static Vector3 effectPositionFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +221,8 @@ private static Vector3 effectPositionFix
 ```csharp
 private GameObject gasEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -199,6 +233,8 @@ private GameObject gasEffect
 ```csharp
 private const float infectionDist = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -209,6 +245,8 @@ private const float infectionDist = 1
 ```csharp
 private SpriteRenderer renderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,12 +281,16 @@ private ParticleSystem gasSystem { get; }
 ```csharp
 private void CheckGas()
 ```
+#INC
+
 
 ### CheckInfection(WorkerModel)
 
 ```csharp
 public bool CheckInfection(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,12 +307,16 @@ public bool CheckInfection(WorkerModel worker)
 ```csharp
 public void CheckNearWorker()
 ```
+#INC
+
 
 ### EnableEffect(float)
 
 ```csharp
 public void EnableEffect(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -283,18 +329,25 @@ public void EnableEffect(float time)
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### IncreaseLevel()
 
 ```csharp
 private void IncreaseLevel()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -307,6 +360,8 @@ public override void Init(UnitModel model)
 ```csharp
 private void MakeInfectionEffect(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,12 +374,16 @@ private void MakeInfectionEffect(WorkerModel target)
 ```csharp
 private void MakeViscusGasEffect()
 ```
+#INC
+
 
 ### MovementScale()
 
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 
@@ -335,12 +394,16 @@ public override float MovementScale()
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### SetInfestedSpriteAlpha(float)
 
 ```csharp
 public void SetInfestedSpriteAlpha(float a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,3 +416,5 @@ public void SetInfestedSpriteAlpha(float a)
 ```csharp
 private void Transition()
 ```
+#INC
+

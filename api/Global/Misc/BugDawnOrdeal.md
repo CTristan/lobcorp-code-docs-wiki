@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BugDawnOrdeal
 public class BugDawnOrdeal : BugOrdeal
 ```
 
+Dawn of Amber, The Perfect Food ordeal. Spawns [BugDawns](/api/Global/Misc/BugDawn).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [BugOrdeal](/api/Global/Misc/BugOrdeal) → BugDawnOrdeal
 
@@ -25,6 +28,8 @@ public class BugDawnOrdeal : BugOrdeal
 ```csharp
 public BugDawnOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public BugDawnOrdeal()
 ```csharp
 private const int _numOfBugs = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const int _numOfBugs = 5
 ```csharp
 private const float _sideNodeRemoveRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,12 +74,16 @@ private List<BugDawnOrdeal.BugDawnManager> managers
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetPassage()
 
 ```csharp
 private PassageObjectModel GetPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,9 +94,14 @@ private PassageObjectModel GetPassage()
 ```csharp
 private void MakeBugs()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

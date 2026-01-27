@@ -12,6 +12,11 @@ canonical_path: /api/CreatureInfo/EquipSlot
 public class EquipSlot
 ```
 
+Parent class for displaying EGO in the abnormality information screen.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipSlot
 
@@ -36,6 +41,8 @@ public EquipSlot()
 ```csharp
 private EquipmentTypeInfo _info
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private EquipmentTypeInfo _info
 ```csharp
 private EquipmentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private EquipmentModel _model
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject ActiveControl
 ```csharp
 public GameObject BlockControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public GameObject BlockControl
 ```csharp
 public Text BlockText
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Text BlockText
 ```csharp
 public Text ItemName
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public Text ItemName
 ```csharp
 private CreatureEquipmentMakeInfo makeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private CreatureEquipmentMakeInfo makeInfo
 ```csharp
 public Image Outlook
 ```
+#INC
+
 
 #### Field Value
 
@@ -161,6 +182,9 @@ public EquipmentModel Model { get; }
 ```csharp
 public void CheckBlocked(bool state, int level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -174,6 +198,8 @@ public void CheckBlocked(bool state, int level)
 ```csharp
 public virtual bool CheckOpened(out int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +216,8 @@ public virtual bool CheckOpened(out int level)
 ```csharp
 public void NoData(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +230,8 @@ public void NoData(string str)
 ```csharp
 public virtual void SetEquipInfo(CreatureEquipmentMakeInfo i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,6 +244,8 @@ public virtual void SetEquipInfo(CreatureEquipmentMakeInfo i)
 ```csharp
 public virtual void SetModel(EquipmentModel Model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -226,6 +258,8 @@ public virtual void SetModel(EquipmentModel Model)
 ```csharp
 public virtual void SetModel(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 

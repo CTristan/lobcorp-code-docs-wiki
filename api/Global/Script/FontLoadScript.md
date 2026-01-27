@@ -39,6 +39,8 @@ public FontLoadScript()
 ```csharp
 private Font _font
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +51,8 @@ private Font _font
 ```csharp
 private Text _text
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +63,8 @@ private Text _text
 ```csharp
 private bool failOnEnable
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +75,8 @@ private bool failOnEnable
 ```csharp
 private bool ignoreChange
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +87,8 @@ private bool ignoreChange
 ```csharp
 public List<string> IgnoreLanguage
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +99,8 @@ public List<string> IgnoreLanguage
 ```csharp
 public FontType neededType
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,48 +135,65 @@ private Text text { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CheckIgnore()
 
 ```csharp
 public void CheckIgnore()
 ```
+#INC
+
 
 ### LoadFontData()
 
 ```csharp
 private void LoadFontData()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnLanguageChanged()
 
 ```csharp
 public void OnLanguageChanged()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,15 +207,21 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void SetFont()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

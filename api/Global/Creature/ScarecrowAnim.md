@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/ScarecrowAnim
 public class ScarecrowAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Scarecrow Searching for Wisdom](/api/Global/Misc/Scarecrow).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ScarecrowAnim
 
@@ -36,6 +41,8 @@ public ScarecrowAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_atk1 = "atk1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _sound_atk1 = "atk1"
 ```csharp
 private const string _sound_atk2 = "atk2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _sound_atk2 = "atk2"
 ```csharp
 private const string _sound_dead = "dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _sound_dead = "dead"
 ```csharp
 private const string _sound_dScene = "deadScene"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _sound_dScene = "deadScene"
 ```csharp
 private const string _sound_heal = "heal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const string _sound_heal = "heal"
 ```csharp
 private Scarecrow script
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,24 +127,32 @@ private Scarecrow script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### DeadSceneEnd()
 
 ```csharp
 private void DeadSceneEnd()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +169,8 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -152,18 +181,24 @@ public override bool HasDeadMotion()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -174,6 +209,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -184,24 +221,32 @@ public bool IsInDeadScene()
 ```csharp
 private void MakeAttackSound()
 ```
+#INC
+
 
 ### MakeDeadSceneSound()
 
 ```csharp
 private void MakeDeadSceneSound()
 ```
+#INC
+
 
 ### MakeDeadSound()
 
 ```csharp
 private void MakeDeadSound()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,12 +263,17 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -236,42 +286,56 @@ public override void OnCalled(int i)
 ```csharp
 public void OnDeadSceneStart()
 ```
+#INC
+
 
 ### OnEscape()
 
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnFinishDeadScene()
 
 ```csharp
 public void OnFinishDeadScene()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(Scarecrow)
 
 ```csharp
 public void SetScript(Scarecrow script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,3 +348,5 @@ public void SetScript(Scarecrow script)
 ```csharp
 private void Update()
 ```
+#INC
+

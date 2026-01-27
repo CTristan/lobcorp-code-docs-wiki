@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/AnimatorEventHandler
 ```csharp
 public class AnimatorEventHandler : MonoBehaviour
 ```
+Holds a list of methods to call when certain events happen.
+
+These can include: taking damage, ending an attack, playing an animation(?), and suicide.
+
+(Seems to be mainly used as a parent class...)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimatorEventHandler
@@ -78,18 +84,24 @@ private AnimatorEventHandler.EventDelegate _suicideEvent
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### Damage()
 
 ```csharp
 public void Damage()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,3 +162,5 @@ public void SetSuicideEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void Suicide()
 ```
+#INC
+

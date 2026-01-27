@@ -12,6 +12,12 @@ canonical_path: /api/Global/Gift/SpiderMomGift
 public class SpiderMomGift : EquipmentScriptBase
 ```
 
+Script for [Spider Bud](/api/Global/Misc/SpiderMom)'s EGO Gift: Red Eyes. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SpiderMomGift
 

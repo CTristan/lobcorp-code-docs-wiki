@@ -12,6 +12,11 @@ canonical_path: /api/Rabbit/RabbitProtocolWindow
 public class RabbitProtocolWindow : MonoBehaviour, IObserver
 ```
 
+The Rabbit Protocol UI.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RabbitProtocolWindow
 
@@ -36,6 +41,8 @@ public RabbitProtocolWindow()
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool _activated
 ```csharp
 private UnscaledTimer _filterAlphaTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private UnscaledTimer _filterAlphaTimer
 ```csharp
 private UnscaledTimer _uiUpdateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private UnscaledTimer _uiUpdateTimer
 ```csharp
 private static RabbitProtocolWindow _window
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private static RabbitProtocolWindow _window
 ```csharp
 public CheckPointUI activatedAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public CheckPointUI activatedAnim
 ```csharp
 public Button ConfirmButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +124,8 @@ public Text Cost
 ```csharp
 public Text CostText
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +136,8 @@ public Text CostText
 ```csharp
 public Text Count
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +148,8 @@ public Text Count
 ```csharp
 private List<SefiraEnum> currentSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +160,8 @@ private List<SefiraEnum> currentSelected
 ```csharp
 private List<RabbitProtocolSefiraSlot> enabledSefiraList
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,6 +172,8 @@ private List<RabbitProtocolSefiraSlot> enabledSefiraList
 ```csharp
 private Dictionary<string, List<SefiraFilterMgr>> filter
 ```
+#INC
+
 
 #### Field Value
 
@@ -157,6 +184,8 @@ private Dictionary<string, List<SefiraFilterMgr>> filter
 ```csharp
 public AnimationCurve filterAlphaCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +196,8 @@ public AnimationCurve filterAlphaCurve
 ```csharp
 public float filterFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,6 +219,8 @@ public float freq
 ```csharp
 public Color NotAvailableColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -198,6 +231,8 @@ public Color NotAvailableColor
 ```csharp
 private const int openLevelStd = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -208,6 +243,8 @@ private const int openLevelStd = 4
 ```csharp
 private bool protocolActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -229,6 +266,8 @@ public Button ProtocolActivationButton
 ```csharp
 public Sprite RabbitConnerSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -239,6 +278,8 @@ public Sprite RabbitConnerSprite
 ```csharp
 public GameObject root
 ```
+#INC
+
 
 #### Field Value
 
@@ -249,6 +290,8 @@ public GameObject root
 ```csharp
 public bool rootFilterUpdate
 ```
+#INC
+
 
 #### Field Value
 
@@ -270,6 +313,8 @@ public List<RabbitProtocolSefiraSlot> sefiraList
 ```csharp
 private const int selectMax = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -280,6 +325,8 @@ private const int selectMax = 4
 ```csharp
 public UIController windowAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -314,6 +361,8 @@ public static RabbitProtocolWindow Window { get; }
 ```csharp
 public void ApplyFilter(string area, List<SefiraFilterMgr> filterMgr)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,12 +376,17 @@ public void ApplyFilter(string area, List<SefiraFilterMgr> filterMgr)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Calculate()
 
 ```csharp
 private void Calculate()
 ```
+#INC
+
 
 ### CalculateUnits()
 
@@ -349,12 +403,16 @@ private Dictionary<SefiraEnum, RabbitProtocolWindow.SefiraInfo> CalculateUnits()
 ```csharp
 public void ClearFilter()
 ```
+#INC
+
 
 ### ClearFilter(string)
 
 ```csharp
 public void ClearFilter(string area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,18 +425,24 @@ public void ClearFilter(string area)
 ```csharp
 public void CloseProtocolActivatedWindow()
 ```
+#INC
+
 
 ### DestroyNotice()
 
 ```csharp
 private void DestroyNotice()
 ```
+#INC
+
 
 ### GetSlot(SefiraEnum)
 
 ```csharp
 public RabbitProtocolSefiraSlot GetSlot(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -395,24 +459,32 @@ public RabbitProtocolSefiraSlot GetSlot(SefiraEnum sefira)
 ```csharp
 public void OnClickCommand()
 ```
+#INC
+
 
 ### OnClose()
 
 ```csharp
 public void OnClose()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -426,18 +498,24 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnOpen()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### OnTrySelectArea(SefiraEnum, bool)
 
 ```csharp
 public bool OnTrySelectArea(SefiraEnum sefira, bool currentState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,12 +533,16 @@ public bool OnTrySelectArea(SefiraEnum sefira, bool currentState)
 ```csharp
 public void OnWindowClosed()
 ```
+#INC
+
 
 ### SetFilterAlpha(float)
 
 ```csharp
 private void SetFilterAlpha(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -473,15 +555,21 @@ private void SetFilterAlpha(float value)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateText()
 
 ```csharp
 private void UpdateText()
 ```
+#INC
+

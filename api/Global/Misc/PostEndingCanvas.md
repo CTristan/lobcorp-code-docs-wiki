@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/PostEndingCanvas
 public class PostEndingCanvas : MonoBehaviour
 ```
 
+Shows a video clip, then tells the  to load the [new title screen](/api/Global/Misc/AlterTitleController).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PostEndingCanvas
 
@@ -33,6 +36,8 @@ public PostEndingCanvas()
 ```csharp
 private bool _end
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _end
 ```csharp
 private bool _playing
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool _playing
 ```csharp
 public AudioSource audioSource
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public AudioSource audioSource
 ```csharp
 public RawImage img
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public RawImage img
 ```csharp
 private MovieTexture mt1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private MovieTexture mt1
 ```csharp
 public VideoPlayer vp
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,15 +110,22 @@ public VideoPlayer vp
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

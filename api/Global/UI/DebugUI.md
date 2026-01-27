@@ -11,6 +11,9 @@ canonical_path: /api/Global/UI/DebugUI
 ```csharp
 public class DebugUI : MonoBehaviour
 ```
+Presumably for debugging, but not used in the release version. Doesn't do anything interesting.
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DebugUI
@@ -33,6 +36,8 @@ public DebugUI()
 ```csharp
 private static DebugUI _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static DebugUI _instance
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject ActiveControl
 ```csharp
 public GameObject LoadedText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public GameObject LoadedText
 ```csharp
 public RectTransform Parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,15 +98,22 @@ public static DebugUI instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

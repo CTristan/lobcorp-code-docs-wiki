@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/Censored
 public class Censored : CensoredCreatureBase, IRouletteWindowMessage
 ```
 
+CENSORED.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [CensoredCreatureBase](/api/Global/Misc/CensoredCreatureBase) → Censored
 
@@ -36,6 +39,8 @@ public Censored()
 ```csharp
 private CensoredAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private CensoredAnim _animScript
 ```csharp
 private const int _attackDmgMax = 26
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const int _attackDmgMax = 26
 ```csharp
 private const int _attackDmgMin = 23
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const int _attackDmgMin = 23
 ```csharp
 private const float _attackDmgRange = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private const float _attackDmgRange = 4
 ```csharp
 private const float _attackRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private const float _attackRange = 3.5
 ```csharp
 private WorkerModel _childOrigin
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private WorkerModel _childOrigin
 ```csharp
 private WorkerModel _currentVictim
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private WorkerModel _currentVictim
 ```csharp
 private WorkerModel _dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private WorkerModel _dead
 ```csharp
 private const int _deadDmgMax = 17
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private const int _deadDmgMax = 17
 ```csharp
 private const int _deadDmgMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private const int _deadDmgMin = 12
 ```csharp
 private const float _deadSceneRange = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private const float _deadSceneRange = 0
 ```csharp
 private const float _deadWorkerSpeed = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private const float _deadWorkerSpeed = 3
 ```csharp
 private const float _healRatio = 0.05
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private const float _healRatio = 0.05
 ```csharp
 private bool _inSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private bool _inSkill
 ```csharp
 private bool _isKilling
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private bool _isKilling
 ```csharp
 private const float _lootRange = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private const float _lootRange = 0.2
 ```csharp
 private const int _qliphothCounterMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private const int _qliphothCounterMax = 2
 ```csharp
 private const float _recognizeRange = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private const float _recognizeRange = 30
 ```csharp
 private const string _sound_atk = "attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private const string _sound_atk = "attack"
 ```csharp
 private const string _sound_dScene = "deadScene"
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private const string _sound_dScene = "deadScene"
 ```csharp
 private const string _sound_heal = "heal"
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private const string _sound_heal = "heal"
 ```csharp
 private const string _sound_sacri = "sacrifice"
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ private const string _sound_sacri = "sacrifice"
 ```csharp
 private RwbpType attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ private RwbpType attackType
 ```csharp
 private RwbpType deadDmgType
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ private RwbpType deadDmgType
 ```csharp
 private static DamageInfo HealHorrorDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -320,18 +373,24 @@ private static int deadDmg { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 protected override void AttackStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,18 +408,24 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### ExplodeDead()
 
 ```csharp
 public void ExplodeDead()
 ```
+#INC
+
 
 ### GetDeads()
 
 ```csharp
 private List<WorkerModel> GetDeads()
 ```
+#INC
+
 
 #### Returns
 
@@ -371,6 +436,8 @@ private List<WorkerModel> GetDeads()
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -387,6 +454,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public override bool HasUniqueCommandAction(int workType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -403,24 +472,32 @@ public override bool HasUniqueCommandAction(int workType)
 ```csharp
 public void Heal()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### InvokeNearMentalDamage()
 
 ```csharp
 private void InvokeNearMentalDamage()
 ```
+#INC
+
 
 ### IsInDeadScene()
 
 ```csharp
 private bool IsInDeadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -431,6 +508,8 @@ private bool IsInDeadScene()
 ```csharp
 protected override bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -441,12 +520,16 @@ protected override bool IsMovable()
 ```csharp
 public void MakeChild()
 ```
+#INC
+
 
 ### MakeChildCreature(UnitModel)
 
 ```csharp
 public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
+#INC
+
 
 #### Parameters
 
@@ -463,6 +546,8 @@ public override ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public void MakeExplodeEffect(WorkerModel target, float size)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,12 +561,16 @@ public void MakeExplodeEffect(WorkerModel target, float size)
 ```csharp
 protected override void MakeMovement()
 ```
+#INC
+
 
 ### MakeSound(string)
 
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -515,36 +604,48 @@ public override SoundEffectPlayer MakeSound(string src, float volume = 1)
 ```csharp
 public void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCameraMoveEnd()
 
 ```csharp
 public void OnCameraMoveEnd()
 ```
+#INC
+
 
 ### OnDeadSceneEnd()
 
 ```csharp
 public void OnDeadSceneEnd()
 ```
+#INC
+
 
 ### OnDeadSceneStart()
 
 ```csharp
 public void OnDeadSceneStart()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -557,18 +658,24 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public void OnFirstHeal()
 ```
+#INC
+
 
 ### OnGiveDeadSceneDmg()
 
 ```csharp
 public void OnGiveDeadSceneDmg()
 ```
+#INC
+
 
 ### OnOpenCommandWindow(Button[])
 
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -581,6 +688,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -591,6 +700,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -603,48 +714,64 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSacrificeFail()
 
 ```csharp
 public void OnSacrificeFail()
 ```
+#INC
+
 
 ### OnSacrificeSuccess()
 
 ```csharp
 public void OnSacrificeSuccess()
 ```
+#INC
+
 
 ### OnSpecialEnd()
 
 ```csharp
 public void OnSpecialEnd()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnVictimArrived()
 
 ```csharp
 public void OnVictimArrived()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -657,6 +784,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnWorkerAllocated(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -669,42 +798,57 @@ public void OnWorkerAllocated(WorkerModel worker)
 ```csharp
 private void OpenRouletteWindow()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### RouletteCancel()
 
 ```csharp
 public void RouletteCancel()
 ```
+#INC
+
 
 ### RouletteOpen()
 
 ```csharp
 public void RouletteOpen()
 ```
+#INC
+
 
 ### Sacrifice()
 
 ```csharp
 public void Sacrifice()
 ```
+#INC
+
 
 ### SelectVictim()
 
 ```csharp
 public void SelectVictim()
 ```
+#INC
+
 
 ### SetDeadScene(WorkerModel)
 
 ```csharp
 private void SetDeadScene(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -717,6 +861,8 @@ private void SetDeadScene(WorkerModel target)
 ```csharp
 private void SpecialStart(WorkerModel dead)
 ```
+#INC
+
 
 #### Parameters
 
@@ -729,21 +875,29 @@ private void SpecialStart(WorkerModel dead)
 ```csharp
 private void StartSacrifice()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 protected override void StopMovement()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+
 
 ### VictimAllocated()
 
 ```csharp
 private void VictimAllocated()
 ```
+#INC
+

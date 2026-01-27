@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoCodexSlot
 ```csharp
 public class CreatureInfoCodexSlot : MonoBehaviour
 ```
+Class for displaying the creature's codex entry
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureInfoCodexSlot
@@ -33,6 +35,8 @@ public CreatureInfoCodexSlot()
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Image Frame
 ```csharp
 private CreatureObserveInfoModel observeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private CreatureObserveInfoModel observeInfo
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Image Portrait
 ```csharp
 public Text Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Text Text
 ```csharp
 public Image TitleFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public Image TitleFrame
 ```csharp
 private CreatureTypeInfo typeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +109,8 @@ private CreatureTypeInfo typeInfo
 ```csharp
 public void Init(CreatureTypeInfo typeInfo, CreatureObserveInfoModel observeInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -108,27 +124,38 @@ public void Init(CreatureTypeInfo typeInfo, CreatureObserveInfoModel observeInfo
 ```csharp
 public void OnPointerClick()
 ```
+#INC
+
 
 ### OnPointerEnter()
 
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

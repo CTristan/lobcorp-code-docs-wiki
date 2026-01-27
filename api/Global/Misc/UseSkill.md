@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/UseSkill
 ```csharp
 public class UseSkill
 ```
+Represents an active work cycle.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UseSkill
@@ -33,6 +37,8 @@ public UseSkill()
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private float _elapsedTime
 ```csharp
 private bool _faceCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private bool _faceCreature
 ```csharp
 private bool _isOverloadedCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private bool _isOverloadedCreature
 ```csharp
 private bool _readyToFinish
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private bool _readyToFinish
 ```csharp
 public AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public AgentModel agent
 ```csharp
 public AgentUnit agentView
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public AgentUnit agentView
 ```csharp
 public bool animRemoveOnDestroy
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public bool animRemoveOnDestroy
 ```csharp
 private bool closed
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private bool closed
 ```csharp
 private const int CONFESS_ID = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private const int CONFESS_ID = 6
 ```csharp
 public int failCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ public int failCount
 ```csharp
 private bool forceSuccess
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private bool forceSuccess
 ```csharp
 private const int IMPROVISE_ID = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private const int IMPROVISE_ID = 7
 ```csharp
 private const int KIT_WORK_ID = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private const int KIT_WORK_ID = 5
 ```csharp
 public int maxCubeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ public int maxCubeCount
 ```csharp
 public bool narrationPart1
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ public bool narrationPart1
 ```csharp
 public bool narrationPart2
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ public bool narrationPart2
 ```csharp
 public bool narrationPart3
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ public bool narrationPart3
 ```csharp
 public bool narrationPart4
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ public bool narrationPart4
 ```csharp
 public IsolateRoom room
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ public IsolateRoom room
 ```csharp
 public SkillTypeInfo skillTypeInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ public SkillTypeInfo skillTypeInfo
 ```csharp
 public float startAgentHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +289,8 @@ public float startAgentHp
 ```csharp
 public float startAgentMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +301,8 @@ public float startAgentMental
 ```csharp
 public int successCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +313,8 @@ public int successCount
 ```csharp
 public CreatureModel targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +325,8 @@ public CreatureModel targetCreature
 ```csharp
 public CreatureUnit targetCreatureView
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +337,8 @@ public CreatureUnit targetCreatureView
 ```csharp
 public float tickInterval
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +349,8 @@ public float tickInterval
 ```csharp
 public int workCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +361,8 @@ public int workCount
 ```csharp
 private bool workPlaying
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +373,8 @@ private bool workPlaying
 ```csharp
 public float workProgress
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +385,8 @@ public float workProgress
 ```csharp
 public float workSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -367,6 +431,8 @@ public bool IsWorkPlaying { get; }
 ```csharp
 private float CalculateDmgExp(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -383,6 +449,8 @@ private float CalculateDmgExp(float rate)
 ```csharp
 private float CalculateLevelExp(RwbpType rwbpType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -399,18 +467,24 @@ private float CalculateLevelExp(RwbpType rwbpType)
 ```csharp
 public void CancelWork()
 ```
+#INC
+
 
 ### CheckLive()
 
 ```csharp
 public void CheckLive()
 ```
+#INC
+
 
 ### CloseWork(bool)
 
 ```csharp
 private void CloseWork(bool success)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,12 +497,16 @@ private void CloseWork(bool success)
 ```csharp
 private void FinishWorkSuccessfully()
 ```
+#INC
+
 
 ### GetCurrentFeelingState()
 
 ```csharp
 public CreatureFeelingState GetCurrentFeelingState()
 ```
+#INC
+
 
 #### Returns
 
@@ -439,6 +517,8 @@ public CreatureFeelingState GetCurrentFeelingState()
 ```csharp
 public int GetFailCubeCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -449,6 +529,8 @@ public int GetFailCubeCount()
 ```csharp
 public CreatureFeelingState GetFeelingState(int successCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -465,6 +547,8 @@ public CreatureFeelingState GetFeelingState(int successCount)
 ```csharp
 public int GetMaxCubCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -475,6 +559,8 @@ public int GetMaxCubCount()
 ```csharp
 public int GetSuccessCubeCount()
 ```
+#INC
+
 
 #### Returns
 
@@ -485,12 +571,16 @@ public int GetSuccessCubeCount()
 ```csharp
 private void HorrorDamage()
 ```
+#INC
+
 
 ### InitUseSkillAction(SkillTypeInfo, AgentModel, CreatureModel)
 
 ```csharp
 public static UseSkill InitUseSkillAction(SkillTypeInfo skillInfo, AgentModel agent, CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -509,6 +599,8 @@ public static UseSkill InitUseSkillAction(SkillTypeInfo skillInfo, AgentModel ag
 ```csharp
 private void InvokeEffect(UnitModel target, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -522,6 +614,8 @@ private void InvokeEffect(UnitModel target, DamageInfo damageInfo)
 ```csharp
 public bool IsFinished()
 ```
+#INC
+
 
 #### Returns
 
@@ -532,6 +626,8 @@ public bool IsFinished()
 ```csharp
 public bool IsWorking()
 ```
+#INC
+
 
 #### Returns
 
@@ -542,42 +638,57 @@ public bool IsWorking()
 ```csharp
 private void OnEnterRoom()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnWorkEndAnimPlayed()
 
 ```csharp
 public void OnWorkEndAnimPlayed()
 ```
+#INC
+
 
 ### PauseWorking()
 
 ```csharp
 public void PauseWorking()
 ```
+#INC
+
 
 ### ProcessKitCreatureWork()
 
 ```csharp
 private void ProcessKitCreatureWork()
 ```
+#INC
+
 
 ### ProcessWorkNarration()
 
 ```csharp
 private void ProcessWorkNarration()
 ```
+#INC
+
 
 ### ProcessWorkTick(out bool)
 
 ```csharp
 private void ProcessWorkTick(out bool isSuccess)
 ```
+#INC
+
 
 #### Parameters
 
@@ -590,15 +701,21 @@ private void ProcessWorkTick(out bool isSuccess)
 ```csharp
 private void ProgressWork()
 ```
+#INC
+
 
 ### ResumeWorking()
 
 ```csharp
 public void ResumeWorking()
 ```
+#INC
+
 
 ### SetForceSuccess()
 
 ```csharp
 public void SetForceSuccess()
 ```
+#INC
+

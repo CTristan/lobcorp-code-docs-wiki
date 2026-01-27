@@ -12,6 +12,14 @@ canonical_path: /api/GeburahBoss/SecondPhase
 public class SecondPhase : GeburahPhaseExectuion
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s second phase behavior.
+She gets [Black Fog](/api/BinahBoss/BlackFogOverload), [Golden](/api/BinahBoss/GoldenOverload), and [Wave](/api/BinahBoss/WaveOverload) meltdowns.
+
+She starts P2 by using the [Black Fog](/api/BinahBoss/BlackThron) attack, activating the meltdowns, and then moving. If she gets the meltdowns back, she will do this again.
+
+If someone is near her, she will randomly choose to either use her [Blade Wave](/api/BinahBoss/BladeWaveThrow) or [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahPhaseExectuion](/api/GeburahBoss/GeburahPhaseExectuion) → SecondPhase
 
@@ -25,6 +33,8 @@ public class SecondPhase : GeburahPhaseExectuion
 ```csharp
 public SecondPhase(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +49,8 @@ public SecondPhase(GeburahCoreScript geburah)
 ```csharp
 private float attackDist
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +61,8 @@ private float attackDist
 ```csharp
 private static DefaultAttack.AttackProb[] AttackProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +73,8 @@ private static DefaultAttack.AttackProb[] AttackProb
 ```csharp
 private static List<DefaultAttack.AttackProb> attackProbList
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +85,8 @@ private static List<DefaultAttack.AttackProb> attackProbList
 ```csharp
 private UnitModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +97,8 @@ private UnitModel currentTarget
 ```csharp
 private int fillCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +109,8 @@ private int fillCount
 ```csharp
 private float MoveProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +121,8 @@ private float MoveProb
 ```csharp
 private const float spearProb = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,12 +135,17 @@ private const float spearProb = 0.2
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,15 +162,21 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public void OnDamageFilled()
 ```
+#INC
+
 
 ### OnPrevSuppressed()
 
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/LogItemScript
 public class LogItemScript : MonoBehaviour
 ```
 
+A message unit in the [work log](/api/Global/Script/LoggingScript).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LogItemScript
 
@@ -33,6 +38,8 @@ public LogItemScript()
 ```csharp
 private float _h_spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float _h_spacing
 ```csharp
 private int _index
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private int _index
 ```csharp
 private int _size
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private int _size
 ```csharp
 private float _v_spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private float _v_spacing
 ```csharp
 private float defHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private float defHeight
 ```csharp
 public float height
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public float height
 ```csharp
 public RectTransform imgRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public RectTransform imgRect
 ```csharp
 private float maxXsize
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private float maxXsize
 ```csharp
 public GameObject textObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public GameObject textObject
 ```csharp
 public RectTransform textRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public RectTransform textRect
 ```csharp
 public Text textTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public Text textTarget
 ```csharp
 private float width
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,12 +196,17 @@ public int index { get; set; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Reset()
 
 ```csharp
 public float Reset()
 ```
+#INC
+
 
 #### Returns
 
@@ -183,6 +217,8 @@ public float Reset()
 ```csharp
 public void SetText(string context)
 ```
+#INC
+
 
 #### Parameters
 
@@ -195,6 +231,8 @@ public void SetText(string context)
 ```csharp
 public void SetText(string context, float maxXWidth, int size, float h_spacing, float v_spacing)
 ```
+#INC
+
 
 #### Parameters
 

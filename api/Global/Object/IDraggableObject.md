@@ -11,6 +11,18 @@ canonical_path: /api/Global/Object/IDraggableObject
 ```csharp
 public interface IDraggableObject
 ```
+Interface for draggable objects.
+
+Used by [DeployAgentSlot](/api/Global/Misc/DeployAgentSlot), [DeploySefiraAgentSlot](/api/Global/Misc/DeploySefiraAgentSlot), and [ResearchPanel](/api/Global/Misc/ResearchPanel).
+
+#### Methods
+GameObject GenDraggedObject(string name)
+OnEndDrag
+OnCanceled
+OnDragStart
+DraggedObject GetDraggingObject
+OnDropEnd(Drop drop, bool state)
+
 
 ## Methods
 
@@ -19,6 +31,9 @@ public interface IDraggableObject
 ```csharp
 GameObject GenDraggedObject(string name)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -35,6 +50,8 @@ GameObject GenDraggedObject(string name)
 ```csharp
 DraggedObject GetDraggingObject()
 ```
+#INC
+
 
 #### Returns
 
@@ -45,18 +62,24 @@ DraggedObject GetDraggingObject()
 ```csharp
 void OnCanceled()
 ```
+#INC
+
 
 ### OnDragStart()
 
 ```csharp
 void OnDragStart()
 ```
+#INC
+
 
 ### OnDropEnd(Drop, bool)
 
 ```csharp
 void OnDropEnd(Drop drop, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -70,3 +93,5 @@ void OnDropEnd(Drop drop, bool state)
 ```csharp
 void OnEndDrag()
 ```
+#INC
+

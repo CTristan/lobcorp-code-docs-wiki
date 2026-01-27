@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/KnightOfDespairArmor
 public class KnightOfDespairArmor : EquipmentScriptBase
 ```
 
+Script for [Knight of Despair](/api/Global/Misc/KnightOfDespair)'s EGO Suit: The Sword Sharpened with Tears. Has a method to print to log, but nothing else.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → KnightOfDespairArmor
 
@@ -33,6 +38,8 @@ public KnightOfDespairArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

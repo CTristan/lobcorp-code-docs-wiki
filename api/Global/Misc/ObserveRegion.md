@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ObserveRegion
 ```csharp
 public class ObserveRegion
 ```
+A section of the [abnormality information screen](/api/Global/Misc/CreatureInfoWindow) for observation data which can be bought.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObserveRegion
@@ -33,6 +35,9 @@ public ObserveRegion()
 ```csharp
 public ObserveInfoData info
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public ObserveInfoData info
 ```csharp
 public bool isObserved
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/Drop
 public class Drop : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler, IEventSystemHandler
 ```
 
+Represents a thing to be dropped into (a container).
+#inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → Drop
 
@@ -56,6 +60,8 @@ private Drop.OnDropEvent _endDrop
 ```csharp
 private Color _normalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private Color _normalColor
 ```csharp
 public Image containter
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public Image containter
 ```csharp
 public Color highlightColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public Color highlightColor
 ```csharp
 public bool highlightEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +110,8 @@ public bool highlightEffect
 ```csharp
 private DraggedObject GetDraggedScript(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,6 +128,8 @@ private DraggedObject GetDraggedScript(PointerEventData eventData)
 ```csharp
 private bool GetDragScript(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +146,8 @@ private bool GetDragScript(PointerEventData eventData)
 ```csharp
 private Sprite GetDropSprite(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,6 +164,8 @@ private Sprite GetDropSprite(PointerEventData eventData)
 ```csharp
 public void OnDrop(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,12 +178,17 @@ public void OnDrop(PointerEventData eventData)
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnPointerEnter(PointerEventData)
 
 ```csharp
 public void OnPointerEnter(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,6 +201,8 @@ public void OnPointerEnter(PointerEventData eventData)
 ```csharp
 public void OnPointerExit(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,9 +227,13 @@ public void SetDropEvent(Drop.OnDropEvent handler)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

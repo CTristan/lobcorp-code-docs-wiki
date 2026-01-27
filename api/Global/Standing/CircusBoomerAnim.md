@@ -12,6 +12,11 @@ canonical_path: /api/Global/Standing/CircusBoomerAnim
 public class CircusBoomerAnim : StandingItemAnim, IAnimatorEventCalled, IOverlapOnclick
 ```
 
+animation handler for [CircusBoomer](/api/Global/Misc/CircusBoomer), I guess
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [StandingItemAnim](/api/Global/Misc/StandingItemAnim) → CircusBoomerAnim
 
@@ -36,6 +41,8 @@ public CircusBoomerAnim()
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public static string[] animString
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject center
 ```csharp
 public GameObject click
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public GameObject click
 ```csharp
 public GameObject dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public GameObject dead
 ```csharp
 public CircusBoomer script
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public CircusBoomer script
 ```csharp
 public const string sound_src = "RandomEvent/BoomerCircus/Boomer/Circus_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public const string sound_src = "RandomEvent/BoomerCircus/Boomer/Circus_"
 ```csharp
 public static string[] soundString
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public static string[] soundString
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public AudioSource src
 ```csharp
 private bool updateAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private bool updateAnim
 ```csharp
 private CircusBoomer.AnimationState updateAnimState
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private CircusBoomer.AnimationState updateAnimState
 ```csharp
 private float volume
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,30 +187,40 @@ private float volume
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AnimReset()
 
 ```csharp
 public void AnimReset()
 ```
+#INC
+
 
 ### AttachHandler()
 
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,12 +233,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,6 +255,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,6 +270,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### EventHandler(TrackEntry, Event)
 
@@ -244,18 +291,24 @@ public void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,24 +321,32 @@ public void OnCalled(int i)
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -298,6 +359,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetAnimation(CircusBoomer.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -310,6 +373,8 @@ public void SetAnimation(CircusBoomer.AnimationState animState)
 ```csharp
 public void SetAnimation(string state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,6 +387,8 @@ public void SetAnimation(string state)
 ```csharp
 public void SetAnimation(string state, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,6 +402,9 @@ public void SetAnimation(string state, bool loop)
 ```csharp
 public void SetScript(CircusBoomer script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -347,12 +417,16 @@ public void SetScript(CircusBoomer script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

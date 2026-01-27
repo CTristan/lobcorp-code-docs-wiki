@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/SystemLogScript
 public class SystemLogScript : MonoBehaviour, IObserver
 ```
 
+Work log. #verify #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SystemLogScript
 
@@ -46,6 +49,8 @@ private List<SystemLogScript.CreatureSystemLog> creatureList
 ```csharp
 private float currentDest
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +61,8 @@ private float currentDest
 ```csharp
 private float currentStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +73,8 @@ private float currentStart
 ```csharp
 private const float effectTime = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +85,8 @@ private const float effectTime = 0.2
 ```csharp
 private UnscaledTimer effectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +97,8 @@ private UnscaledTimer effectTimer
 ```csharp
 public RectTransform Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +109,8 @@ public RectTransform Frame
 ```csharp
 private bool isOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +121,8 @@ private bool isOpen
 ```csharp
 public RectTransform ScalePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +133,8 @@ public RectTransform ScalePivot
 ```csharp
 public LoggingScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ public LoggingScript script
 ```csharp
 private const string SystemLogStartFormat = "▶  "
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ private const string SystemLogStartFormat = "▶  "
 ```csharp
 public CanvasGroup texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +187,8 @@ public SystemLogScript.CreatureSystemLog CheckContains(long target)
 ```csharp
 private void CreatureLog(CreatureModel cm, string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,18 +202,24 @@ private void CreatureLog(CreatureModel cm, string desc)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,27 +233,38 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnPointerEnter()
 ```
+#INC
+
 
 ### OnPointerExit()
 
 ```csharp
 public void OnPointerExit()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateScale()
 
 ```csharp
 public void UpdateScale()
 ```
+#INC
+

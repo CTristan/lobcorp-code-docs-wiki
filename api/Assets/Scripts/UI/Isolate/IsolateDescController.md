@@ -12,6 +12,11 @@ canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescController
 public class IsolateDescController : MonoBehaviour
 ```
 
+Manages displaying the text which appears on the sides of the containment unit during work. #verify 
+
+See also [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateDescController
 
@@ -33,6 +38,8 @@ public IsolateDescController()
 ```csharp
 private IsolateRoom _room
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private IsolateRoom _room
 ```csharp
 public DescController left
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public DescController left
 ```csharp
 public DescController right
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public DescController right
 ```csharp
 public List<Sprite> texture
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +88,8 @@ public List<Sprite> texture
 ```csharp
 public void Display(string str, int textId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -88,6 +103,9 @@ public void Display(string str, int textId)
 ```csharp
 public IsolateRoom GetRoom()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -98,6 +116,8 @@ public IsolateRoom GetRoom()
 ```csharp
 public void Init(IsolateRoom room)
 ```
+#INC
+
 
 #### Parameters
 
@@ -110,12 +130,16 @@ public void Init(IsolateRoom room)
 ```csharp
 public void OnAnimEnd()
 ```
+#INC
+
 
 ### OnDisableUnit(IsolateDescription)
 
 ```csharp
 public void OnDisableUnit(IsolateDescription d)
 ```
+#INC
+
 
 #### Parameters
 
@@ -128,3 +152,5 @@ public void OnDisableUnit(IsolateDescription d)
 ```csharp
 public void Teriminate()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Model/StandingItemModel
 public class StandingItemModel : UnitModel
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → StandingItemModel
 
@@ -25,6 +28,8 @@ public class StandingItemModel : UnitModel
 ```csharp
 public StandingItemModel(UnitModel owner, MapNode position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,8 @@ public StandingItemModel(UnitModel owner, MapNode position)
 ```csharp
 public bool blockActionUpdate
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +57,8 @@ public bool blockActionUpdate
 ```csharp
 public bool blockPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +69,8 @@ public bool blockPosition
 ```csharp
 public bool blockScaling
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +81,8 @@ public bool blockScaling
 ```csharp
 private StandingCommandQueue commandQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +93,8 @@ private StandingCommandQueue commandQueue
 ```csharp
 protected MapNode currentNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +105,8 @@ protected MapNode currentNode
 ```csharp
 protected Sefira currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +127,8 @@ private StandingItemModel.TakeDamageEvent damageEvent
 ```csharp
 public ItemObjectData data
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +139,8 @@ public ItemObjectData data
 ```csharp
 private const float defaultMovement = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +151,8 @@ private const float defaultMovement = 1
 ```csharp
 public UnitModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +163,8 @@ public UnitModel owner
 ```csharp
 public StandingItemScriptBase script
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +175,8 @@ public StandingItemScriptBase script
 ```csharp
 public float speedMult
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +187,8 @@ public float speedMult
 ```csharp
 public StandingItemUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,6 +199,8 @@ public StandingItemUnit unit
 ```csharp
 public bool useGlobalPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -182,6 +213,8 @@ public bool useGlobalPosition
 ```csharp
 public void BuildScript(string scriptName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -194,6 +227,8 @@ public void BuildScript(string scriptName)
 ```csharp
 public bool CheckRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,18 +246,24 @@ public bool CheckRange(UnitModel target, float range)
 ```csharp
 private void CommonGenerator()
 ```
+#INC
+
 
 ### DestroyUnit()
 
 ```csharp
 public void DestroyUnit()
 ```
+#INC
+
 
 ### GetCurrentCmd()
 
 ```csharp
 public StandingCommand GetCurrentCmd()
 ```
+#INC
+
 
 #### Returns
 
@@ -233,6 +274,8 @@ public StandingCommand GetCurrentCmd()
 ```csharp
 public Sefira GetSefira()
 ```
+#INC
+
 
 #### Returns
 
@@ -243,6 +286,8 @@ public Sefira GetSefira()
 ```csharp
 public StandingItemScriptBase.StandingItemState GetState()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,6 +298,8 @@ public StandingItemScriptBase.StandingItemState GetState()
 ```csharp
 public void GiveDamage(UnitModel target, float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -266,6 +313,9 @@ public void GiveDamage(UnitModel target, float damage)
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -276,6 +326,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public void LoadData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -288,6 +340,8 @@ public void LoadData(long id)
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -300,6 +354,8 @@ public void MoveToMovable(MovableObjectNode targetMovable)
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -313,6 +369,8 @@ public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand)
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand, StandingCommand.OnCommandEnd end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,6 +385,8 @@ public void MoveToMovable(MovableObjectNode targetMovable, bool resetCommand, St
 ```csharp
 public void MoveToMovable(MovableObjectNode targetMovable, StandingCommand.OnCommandEnd end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,6 +400,8 @@ public void MoveToMovable(MovableObjectNode targetMovable, StandingCommand.OnCom
 ```csharp
 public void MoveToNode(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -352,6 +414,8 @@ public void MoveToNode(MapNode targetNode)
 ```csharp
 public void MoveToNode(MapNode targetNode, bool resetCommand)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +429,8 @@ public void MoveToNode(MapNode targetNode, bool resetCommand)
 ```csharp
 public void MoveToNode(MapNode targetNode, bool resetCommand, StandingCommand.OnCommandEnd end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,6 +445,8 @@ public void MoveToNode(MapNode targetNode, bool resetCommand, StandingCommand.On
 ```csharp
 public void MoveToNode(MapNode targetNode, StandingCommand.OnCommandEnd end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -392,18 +460,24 @@ public void MoveToNode(MapNode targetNode, StandingCommand.OnCommandEnd end)
 ```csharp
 public virtual void OnBreakDown()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnTryAttack()
 
 ```csharp
 public virtual bool OnTryAttack()
 ```
+#INC
+
 
 #### Returns
 
@@ -414,12 +488,16 @@ public virtual bool OnTryAttack()
 ```csharp
 public void ProcessAction()
 ```
+#INC
+
 
 ### Reset()
 
 ```csharp
 public virtual void Reset()
 ```
+#INC
+
 
 ### SetDamageEvent(TakeDamageEvent)
 
@@ -438,6 +516,8 @@ public void SetDamageEvent(StandingItemModel.TakeDamageEvent e)
 ```csharp
 public void SetPosition(MapNode node)
 ```
+#INC
+
 
 #### Parameters
 
@@ -450,12 +530,16 @@ public void SetPosition(MapNode node)
 ```csharp
 public void SetSpeedMult()
 ```
+#INC
+
 
 ### SetSpeedMult(float)
 
 ```csharp
 public void SetSpeedMult(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -468,6 +552,8 @@ public void SetSpeedMult(float value)
 ```csharp
 public void SetUnit(StandingItemUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -480,3 +566,5 @@ public void SetUnit(StandingItemUnit unit)
 ```csharp
 public void StopCommand()
 ```
+#INC
+

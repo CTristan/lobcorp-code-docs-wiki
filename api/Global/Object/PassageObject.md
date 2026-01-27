@@ -12,6 +12,11 @@ canonical_path: /api/Global/Object/PassageObject
 public class PassageObject : MonoBehaviour, IObserver, IMouseCommandTarget, IMouseOnPointListener
 ```
 
+A [room](/api/Global/Model/PassageObjectModel), as it appears in-game.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PassageObject
 
@@ -39,6 +44,8 @@ public PassageObject()
 ```csharp
 protected bool _black
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ protected bool _black
 ```csharp
 protected bool _sefiraDisabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ protected bool _sefiraDisabled
 ```csharp
 private List<PassageDoor> doorList
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private List<PassageDoor> doorList
 ```csharp
 private List<ElevatorPassageObject> elevatorList
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private List<ElevatorPassageObject> elevatorList
 ```csharp
 public float Height
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ public float Height
 ```csharp
 public GameObject LightObjects
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ public GameObject LightObjects
 ```csharp
 public PassageObjectModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +128,8 @@ public PassageObjectModel model
 ```csharp
 public GameObject mouseFocus
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +140,8 @@ public GameObject mouseFocus
 ```csharp
 public Image overlayShader
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +152,8 @@ public Image overlayShader
 ```csharp
 public SpriteRenderer sefiraFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +175,8 @@ public SpriteRenderer shader
 ```csharp
 public GameObject shaderObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +187,8 @@ public GameObject shaderObject
 ```csharp
 public SpaceObjectType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +213,8 @@ private UnitMouseEventFocus FocusScript { get; }
 ```csharp
 public void AddBloodMapObject(BloodMapObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,12 +227,17 @@ public void AddBloodMapObject(BloodMapObjectModel model)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GenRabbitFilter()
 
 ```csharp
 public GameObject GenRabbitFilter()
 ```
+#INC
+
 
 #### Returns
 
@@ -212,6 +248,8 @@ public GameObject GenRabbitFilter()
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -222,6 +260,8 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public PassageDoor GetDoorPassage(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,6 +278,8 @@ public PassageDoor GetDoorPassage(string id)
 ```csharp
 public ElevatorPassageObject GetElevatorPassage(string nodeId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -254,6 +296,8 @@ public ElevatorPassageObject GetElevatorPassage(string nodeId)
 ```csharp
 public bool HasPointListener()
 ```
+#INC
+
 
 #### Returns
 
@@ -264,6 +308,8 @@ public bool HasPointListener()
 ```csharp
 public void Init(PassageObjectModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -276,6 +322,8 @@ public void Init(PassageObjectModel model)
 ```csharp
 public bool IsRabbitExecuting()
 ```
+#INC
+
 
 #### Returns
 
@@ -286,6 +334,8 @@ public bool IsRabbitExecuting()
 ```csharp
 public virtual void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -299,30 +349,40 @@ public virtual void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnPointEnter()
 ```
+#INC
+
 
 ### OnPointerClick()
 
 ```csharp
 public void OnPointerClick()
 ```
+#INC
+
 
 ### OnPointExit()
 
 ```csharp
 public void OnPointExit()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public virtual void OnStageStart()
 ```
+#INC
+
 
 ### OverlayShaderActivate(bool)
 
 ```csharp
 public void OverlayShaderActivate(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,6 +395,8 @@ public void OverlayShaderActivate(bool state)
 ```csharp
 public void SetAplphaRecursive(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -347,12 +409,16 @@ public void SetAplphaRecursive(float value)
 ```csharp
 public void SetBlackOut()
 ```
+#INC
+
 
 ### SetOverlayShader(Sprite)
 
 ```csharp
 public void SetOverlayShader(Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -365,6 +431,8 @@ public void SetOverlayShader(Sprite sprite)
 ```csharp
 public void SetOverlayShaderAlpha(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,6 +445,8 @@ public void SetOverlayShaderAlpha(float alpha)
 ```csharp
 public GameObject SetPassageFilter(Texture2D sp, string name, string anim = "Normal", int sortOrder = 2)
 ```
+#INC
+
 
 #### Parameters
 
@@ -396,6 +466,8 @@ public GameObject SetPassageFilter(Texture2D sp, string name, string anim = "Nor
 ```csharp
 public void SetShader(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -408,21 +480,29 @@ public void SetShader(float value)
 ```csharp
 public void SetWhite()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 protected virtual void Update()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 public void UpdateViewPosition()
 ```
+#INC
+

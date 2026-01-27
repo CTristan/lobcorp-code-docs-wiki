@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ResetMirror
 public class ResetMirror : CreatureBase
 ```
 
+Mirror of Adjustment. Tool abnormality.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ResetMirror
 
@@ -33,6 +36,8 @@ public ResetMirror()
 ```csharp
 private List<AgentModel> _alreadyUseAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private List<AgentModel> _alreadyUseAgents
 ```csharp
 private Timer _workPauseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _workPauseTimer
 ```csharp
 public const string statResetEffect = "Effect/Creature/ResetMirror/StatRandomizeEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public const string statResetEffect = "Effect/Creature/ResetMirror/StatRandomize
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +88,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +102,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,3 +116,6 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

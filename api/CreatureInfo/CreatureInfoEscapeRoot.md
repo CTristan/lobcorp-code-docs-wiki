@@ -11,6 +11,8 @@ canonical_path: /api/CreatureInfo/CreatureInfoEscapeRoot
 ```csharp
 public class CreatureInfoEscapeRoot : CreatureInfoController
 ```
+Class for the escape information section
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [CreatureInfoController](/api/Global/Creature/CreatureInfoController) → CreatureInfoEscapeRoot
@@ -33,6 +35,8 @@ public CreatureInfoEscapeRoot()
 ```csharp
 public GameObject BlockActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public GameObject BlockActiveControl
 ```csharp
 public Text[] DefenseFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Text[] DefenseFactor
 ```csharp
 public Text DefenseLabel
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Text DefenseLabel
 ```csharp
 public Text[] DefenseType
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public Text[] DefenseType
 ```csharp
 public RectTransform listParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public RectTransform listParent
 ```csharp
 private const string nonCounter = "-"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private const string nonCounter = "-"
 ```csharp
 public CreatureInfoOpenArea Open
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public CreatureInfoOpenArea Open
 ```csharp
 public Text QliphothCounterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ public Text QliphothCounterText
 ```csharp
 public List<CreatureInfoEscapePatternSlot> slots
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public List<CreatureInfoEscapePatternSlot> slots
 ```csharp
 private const string slotSrc = "UIComponent/CreatureInfo/DamageSlot"
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,12 +157,16 @@ private const string slotSrc = "UIComponent/CreatureInfo/DamageSlot"
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CalculateMultipleType(List<DefenseInfo>)
 
 ```csharp
 private void CalculateMultipleType(List<DefenseInfo> list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,12 +179,17 @@ private void CalculateMultipleType(List<DefenseInfo> list)
 ```csharp
 public override void Initialize()
 ```
+#INC
+
 
 ### Initialize(CreatureModel)
 
 ```csharp
 public override void Initialize(CreatureModel creature)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -171,6 +202,8 @@ public override void Initialize(CreatureModel creature)
 ```csharp
 public override bool IsOpened()
 ```
+#INC
+
 
 #### Returns
 
@@ -181,12 +214,16 @@ public override bool IsOpened()
 ```csharp
 private void ListInit()
 ```
+#INC
+
 
 ### ListInit(CreatureModel)
 
 ```csharp
 private void ListInit(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +236,8 @@ private void ListInit(CreatureModel creature)
 ```csharp
 public override bool OnClick()
 ```
+#INC
+
 
 #### Returns
 
@@ -209,15 +248,21 @@ public override bool OnClick()
 ```csharp
 public override void OnPurchase()
 ```
+#INC
+
 
 ### SetDisabled()
 
 ```csharp
 private void SetDisabled()
 ```
+#INC
+
 
 ### SetEnabled()
 
 ```csharp
 private void SetEnabled()
 ```
+#INC
+

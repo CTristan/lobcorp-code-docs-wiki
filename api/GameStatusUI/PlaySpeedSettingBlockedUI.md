@@ -12,6 +12,16 @@ canonical_path: /api/GameStatusUI/PlaySpeedSettingBlockedUI
 public class PlaySpeedSettingBlockedUI : MonoBehaviour
 ```
 
+extends 
+
+Parent class for things which want to stop you from adjusting the play speed settings, checking the escape menu, or checking the manual.
+
+Extended by:
+- [WhiteNight's pause and speed control blocking](/api/WhiteNightSpace/DeathAngelPlaySpeedBlockUI)
+- [Hokma's pause blocking](/api/GameStatusUI/ChokhmahPlaySpeedBlockUI)
+- [Binah's pause blocking](/api/GameStatusUI/BinahPlaySpeedBlockUI)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlaySpeedSettingBlockedUI
 
@@ -36,6 +46,8 @@ public PlaySpeedSettingBlockedUI()
 ```csharp
 private bool _isDisplaying
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +68,8 @@ public Dictionary<PlaySpeedSettingBlockFunction, PlaySpeedSettingBlockedUI.voidA
 ```csharp
 public PlaySpeedSettingBlockFunction blockFunction
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +90,8 @@ public PlaySpeedSettingBlockedUI.voidAction closeAction
 ```csharp
 public float Duration
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ public PlaySpeedSettingBlockedUI.voidAction timeMultiplyingAction
 ```csharp
 public UnscaledTimer Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,12 +161,16 @@ public virtual void AddAction(PlaySpeedSettingBlockFunction function, PlaySpeedS
 ```csharp
 protected void CloseActionExecute()
 ```
+#INC
+
 
 ### IsFunctionEnabled(PlaySpeedSettingBlockFunction)
 
 ```csharp
 public virtual bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,18 +187,24 @@ public virtual bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```csharp
 public virtual void OnClose()
 ```
+#INC
+
 
 ### OnShow()
 
 ```csharp
 public virtual void OnShow()
 ```
+#INC
+
 
 ### OnTryDisplay(PlaySpeedSettingBlockFunction)
 
 ```csharp
 public virtual bool OnTryDisplay(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +221,8 @@ public virtual bool OnTryDisplay(PlaySpeedSettingBlockFunction function)
 ```csharp
 public virtual void OnTryFunction(PlaySpeedSettingBlockFunction function, bool isOnCheck = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -242,3 +272,5 @@ public virtual void SetTimeStopAction(PlaySpeedSettingBlockedUI.voidAction actio
 ```csharp
 public virtual void Update()
 ```
+#INC
+

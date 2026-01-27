@@ -12,6 +12,12 @@ canonical_path: /api/GameStatusUI/EnergyController
 public class EnergyController : MonoBehaviour
 ```
 
+extends 
+UI for displaying the current energy, as well as potential ordeals (or otherwise the number of upcoming meltdowns).
+
+See [GameStatusUI](/api/GameStatusUI)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EnergyController
 
@@ -33,6 +39,8 @@ public EnergyController()
 ```csharp
 private int _currentEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private int _currentEntered
 ```csharp
 private const float _overloadUITime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private const float _overloadUITime = 5
 ```csharp
 private UnscaledTimer _overloadUITimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private UnscaledTimer _overloadUITimer
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public GameObject ActiveControl
 ```csharp
 private float current
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ private float current
 ```csharp
 public Image EnergyFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ public Image EnergyFill
 ```csharp
 public Text InnerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public Text InnerText
 ```csharp
 public Text LobPoint
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public Text LobPoint
 ```csharp
 public Image LobPointTexture
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ public Image LobPointTexture
 ```csharp
 private float max
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ private float max
 ```csharp
 public Color Orange
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +182,8 @@ public EnergyController.OrdealSlot[] OrdealSlots
 ```csharp
 public AudioClip OverloadClip
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +194,8 @@ public AudioClip OverloadClip
 ```csharp
 public List<MaskableGraphic> OverloadColored
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +206,8 @@ public List<MaskableGraphic> OverloadColored
 ```csharp
 public GameObject OverLoadGaugeLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +218,8 @@ public GameObject OverLoadGaugeLayout
 ```csharp
 public GameObject OverloadGaugeUnitPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +230,8 @@ public GameObject OverloadGaugeUnitPrefab
 ```csharp
 public Image OverloadImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +253,8 @@ public Text OverLoadIsolateNumText
 ```csharp
 public Text OverloadLevelText
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +265,8 @@ public Text OverloadLevelText
 ```csharp
 public Image OverLoadOrdealImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +277,8 @@ public Image OverLoadOrdealImage
 ```csharp
 public Text OverLoadOrdealName
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +289,8 @@ public Text OverLoadOrdealName
 ```csharp
 public GameObject OverLoadOrdealRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,6 +301,8 @@ public GameObject OverLoadOrdealRoot
 ```csharp
 public UIController OverloadUIController
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +313,8 @@ public UIController OverloadUIController
 ```csharp
 public Text OverloadUIText
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +346,8 @@ public EnergyController.RankSlot[] RankSlots
 ```csharp
 public Color Red
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +358,8 @@ public Color Red
 ```csharp
 private StageRewardTypeInfo stageRewardInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -318,12 +372,16 @@ private StageRewardTypeInfo stageRewardInfo
 ```csharp
 public void CheckGameStatus()
 ```
+#INC
+
 
 ### GetOrdealName(OrdealLevel)
 
 ```csharp
 private string GetOrdealName(OrdealLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,6 +398,8 @@ private string GetOrdealName(OrdealLevel level)
 ```csharp
 public float GetRankTime(StageRank rank)
 ```
+#INC
+
 
 #### Parameters
 
@@ -356,6 +416,8 @@ public float GetRankTime(StageRank rank)
 ```csharp
 public void OnRankSlotEnter(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -368,6 +430,8 @@ public void OnRankSlotEnter(int i)
 ```csharp
 public void OnRankSlotExit(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -380,24 +444,32 @@ public void OnRankSlotExit(int i)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### OrdealSlotInit()
 
 ```csharp
 private void OrdealSlotInit()
 ```
+#INC
+
 
 ### OrdealUpdate()
 
 ```csharp
 private void OrdealUpdate()
 ```
+#INC
+
 
 ### SetDawnOrdeal(bool, int)
 
 ```csharp
 public void SetDawnOrdeal(bool activated, int timeSec)
 ```
+#INC
+
 
 #### Parameters
 
@@ -411,6 +483,8 @@ public void SetDawnOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetDawnOrdeal(bool activated, int current, int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -425,6 +499,8 @@ public void SetDawnOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetDawnOrdealVisible(bool visible)
 ```
+#INC
+
 
 #### Parameters
 
@@ -437,6 +513,8 @@ public void SetDawnOrdealVisible(bool visible)
 ```csharp
 public void SetDuskOrdeal(bool activated, int timeSec)
 ```
+#INC
+
 
 #### Parameters
 
@@ -450,6 +528,8 @@ public void SetDuskOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetDuskOrdeal(bool activated, int current, int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,6 +544,8 @@ public void SetDuskOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetDuskOrdealVisible(bool visible)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,6 +558,8 @@ public void SetDuskOrdealVisible(bool visible)
 ```csharp
 public void SetNoonOrdeal(bool activated, int timeSec)
 ```
+#INC
+
 
 #### Parameters
 
@@ -489,6 +573,8 @@ public void SetNoonOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetNoonOrdeal(bool activated, int current, int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -503,6 +589,8 @@ public void SetNoonOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetNoonOrdealVisible(bool visible)
 ```
+#INC
+
 
 #### Parameters
 
@@ -515,6 +603,8 @@ public void SetNoonOrdealVisible(bool visible)
 ```csharp
 public void SetOverloadGauge(int num, int max)
 ```
+#INC
+
 
 #### Parameters
 
@@ -528,6 +618,8 @@ public void SetOverloadGauge(int num, int max)
 ```csharp
 public void SetOverloadIsolateNum(int num)
 ```
+#INC
+
 
 #### Parameters
 
@@ -540,6 +632,8 @@ public void SetOverloadIsolateNum(int num)
 ```csharp
 public void SetOverloadLevel(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -552,6 +646,8 @@ public void SetOverloadLevel(int level)
 ```csharp
 public void SetOverLoadOrdeal(OrdealBase ordeal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -564,6 +660,8 @@ public void SetOverLoadOrdeal(OrdealBase ordeal)
 ```csharp
 public void SetOverLoadUI(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -576,6 +674,8 @@ public void SetOverLoadUI(string text)
 ```csharp
 public void SetStageRank(StageRank rank)
 ```
+#INC
+
 
 #### Parameters
 
@@ -588,9 +688,14 @@ public void SetStageRank(StageRank rank)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+#code-generated
+

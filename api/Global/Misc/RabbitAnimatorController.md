@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/RabbitAnimatorController
 public class RabbitAnimatorController : MonoBehaviour
 ```
 
+Animation handler for [rabbits](/api/Global/Unit/RabbitUnit).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RabbitAnimatorController
 
@@ -33,6 +38,8 @@ public RabbitAnimatorController()
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,36 +52,49 @@ public Animator anim
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### Clear()
 
 ```csharp
 public void Clear()
 ```
+#INC
+
 
 ### Dead()
 
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### DeadByMental()
 
 ```csharp
 public void DeadByMental()
 ```
+#INC
+
 
 ### Fire()
 
 ```csharp
 public void Fire()
 ```
+#INC
+
 
 ### SetMove(bool)
 
 ```csharp
 public void SetMove(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +107,8 @@ public void SetMove(bool b)
 ```csharp
 public void SetMovementAnimSpeed(float speed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,18 +121,24 @@ public void SetMovementAnimSpeed(float speed)
 ```csharp
 public void SetRandomRifleSpeed()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartAttack(int)
 
 ```csharp
 public void StartAttack(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,3 +151,5 @@ public void StartAttack(int index)
 ```csharp
 public void StopFire()
 ```
+#INC
+

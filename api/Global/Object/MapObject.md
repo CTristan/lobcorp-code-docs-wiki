@@ -12,6 +12,10 @@ canonical_path: /api/Global/Object/MapObject
 public class MapObject : MonoBehaviour
 ```
 
+For a prefab in map/MapObject, but it doesn't do anything...
+#INC #unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MapObject
 
@@ -33,6 +37,8 @@ public MapObject()
 ```csharp
 public MapObjectModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +51,14 @@ public MapObjectModel model
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

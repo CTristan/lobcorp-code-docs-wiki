@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/BackGroundMove
 ```csharp
 public class BackGroundMove : MonoBehaviour
 ```
+Moves the background left or right?
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BackGroundMove
@@ -33,6 +36,8 @@ public BackGroundMove()
 ```csharp
 public GameObject player
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public GameObject player
 ```csharp
 public PlayerController playerCon
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +62,14 @@ public PlayerController playerCon
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Animator/FreischutzMagicEventHandler
 public class FreischutzMagicEventHandler : AnimatorEventHandler
 ```
 
+Script for the portal made by [Der Freischütz](/api/Global/Misc/Freischutz) shooting.
+
+The portal is a prefab which appears to be in prefabs/unit/etc/freischutzmagic
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → FreischutzMagicEventHandler
 
@@ -33,6 +40,8 @@ public FreischutzMagicEventHandler()
 ```csharp
 private readonly string _SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +64,16 @@ private AnimatorEventHandler.EventDelegate _successPortalEvent
 ```csharp
 public void CreateSound()
 ```
+#INC
+
 
 ### DestroySelf(int)
 
 ```csharp
 public void DestroySelf(int start)
 ```
+#INC
+
 
 #### Parameters
 
@@ -85,3 +98,5 @@ public void SetSuccessPortalEvent(AnimatorEventHandler.EventDelegate e)
 ```csharp
 public void SuccessPortal()
 ```
+#INC
+

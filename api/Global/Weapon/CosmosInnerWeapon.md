@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/CosmosInnerWeapon
 public class CosmosInnerWeapon : EquipmentScriptBase
 ```
 
+Possibly unused script for [Fragment of the Universe](/api/Global/Misc/Cosmos)'s EGO Weapon: Fragments from Somewhere.
+
+... Maybe.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → CosmosInnerWeapon
 

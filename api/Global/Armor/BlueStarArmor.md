@@ -12,6 +12,9 @@ canonical_path: /api/Global/Armor/BlueStarArmor
 public class BlueStarArmor : EquipmentScriptBase
 ```
 
+Script for [Blue Star](/api/Global/IOBserver/BlueStar)'s EGO Suit: Sound of a Star. Heals SP for workers in the room, occasionally.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BlueStarArmor
 
@@ -33,6 +36,8 @@ public BlueStarArmor()
 ```csharp
 private const float _mpHealFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private const float _mpHealFreq = 5
 ```csharp
 private const float _mpHealValue = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const float _mpHealValue = 5
 ```csharp
 private Timer mpHealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer mpHealTimer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,8 @@ private WorkerModel worker
 ```csharp
 private bool CheckCondition()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,15 +98,22 @@ private bool CheckCondition()
 ```csharp
 private void MpHeal()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+

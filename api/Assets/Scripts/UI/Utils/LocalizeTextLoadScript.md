@@ -60,6 +60,8 @@ private LocalizeTextLoadScript.OnSetText _setText
 ```csharp
 public string id
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +72,8 @@ public string id
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +84,8 @@ private bool init
 ```csharp
 public List<string> postfixList
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +96,8 @@ public List<string> postfixList
 ```csharp
 public List<string> prefixList
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,24 +132,32 @@ public Text Text { get; }
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnLanguageChanged()
 
 ```csharp
 public void OnLanguageChanged()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,12 +171,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetText()
 ```
+#INC
+
 
 ### SetText(string)
 
 ```csharp
 public void SetText(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +205,8 @@ public void SetTextChangedEvent(LocalizeTextLoadScript.OnSetText setText)
 ```csharp
 public void SetTextForcely(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,3 +219,6 @@ public void SetTextForcely(string text)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

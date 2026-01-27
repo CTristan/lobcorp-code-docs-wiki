@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/FreischutzWeaponBullet
 public class FreischutzWeaponBullet : MonoBehaviour
 ```
 
+Script for [Magic Bullet (weapon)](/api/Global/Weapon/FreischutzWeapon)'s bullet.
+
+Seems purely visual.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FreischutzWeaponBullet
 
@@ -33,6 +40,8 @@ public FreischutzWeaponBullet()
 ```csharp
 public Transform _bullet
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Transform _bullet
 ```csharp
 public float _bulletSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public float _bulletSpeed
 ```csharp
 private SoundEffectPlayer _sound
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private SoundEffectPlayer _sound
 ```csharp
 public GameObject _trail
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public GameObject _trail
 ```csharp
 public Transform _wave
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public Transform _wave
 ```csharp
 public float dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public float dir
 ```csharp
 public Vector3 target
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,21 +126,30 @@ public Vector3 target
 ```csharp
 public void Active()
 ```
+#INC
+
 
 ### DestroyBullet()
 
 ```csharp
 private void DestroyBullet()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

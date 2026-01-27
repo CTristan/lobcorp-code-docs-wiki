@@ -12,6 +12,237 @@ canonical_path: /api/Global/Misc/GameManager
 public class GameManager : MonoBehaviour
 ```
 
+Broadly, the main script for the gameplay parts of the game #inc.
+
+#### Start / InitGame -- Continue / New Game #inc
+Starts the game. Plays story mode if needed, then initializes other managers:
+- [CreatureManager](/api/Global/IOBserver/CreatureManager)
+- [OrdealManager](/api/Global/Misc/OrdealManager)
+- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
+- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+- [OverlayManager](/api/Legacy/OverlayManager)
+Also resets the map if starting from day 1.
+
+#### StartStage -- Gameplay Start #inc
+When the game starts (i.e. after continuing or finishing the new game story scene #inc), calls:
+- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
+- [DeployUI](/api/Global/UI/DeployUI)
+- [BgmManager](/api/Global/IOBserver/BgmManager)
+- [EnergyModel](/api/Global/IOBserver/EnergyModel)
+- [UIEffectManager](/api/Global/Misc/UIEffectManager)
+- [GameStatusUI](/api/GameStatusUI)
+- [MissionManager](/api/Global/IOBserver/MissionManager)
+
+#### StartGame -- Management Start
+Starts management phase.
+Loads Keter effects if needed, then:
+- Calls (OnStageStart):
+	- [CameraMover](/api/Global/Camera/Mover/CameraMover)
+	- [SefiraManager](/api/Global/IOBserver/SefiraManager) (OnStageStart_first)
+	- [AgentManager](/api/Global/IOBserver/AgentManager)
+	- [RabbitManager](/api/Global/Misc/RabbitManager)
+	- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
+	- [OrdealManager](/api/Global/Misc/OrdealManager)
+	- [GlobalHistory](/api/Global/IOBserver/GlobalHistory)
+	- [MissionUI](/api/Global/IOBserver/MissionUI)
+- Resets play speed in [GameStatusUI](/api/GameStatusUI)
+- Starts each [Sefira](/api/Global/Misc/Sefira) opened (OnStageStart)
+- Moves all [clerks](/api/Global/Misc/OfficerManager) to their department and starts their default actions
+- Calls (OnStageStart):
+	- [AgentLayer](/api/Global/IOBserver/AgentLayer)
+	- [OfficerLayer](/api/Global/IOBserver/OfficerLayer)
+	- [BgmManager](/api/Global/IOBserver/BgmManager) (OnManagementStart)
+	- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
+	- [CreatureOverloadManager](/api/Global/Creature/CreatureOverloadManager)
+	- [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)
+- Notifies all observers which listen for stage start
+
+#### EndGame -- Management End
+Ends the management phase.
+- Calls (OnStageEnd):
+	- [RabbitManager](/api/Global/Misc/RabbitManager)
+	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
+	- [OfficerManager](/api/Global/Misc/OfficerManager)
+	- [AgentManager](/api/Global/IOBserver/AgentManager)
+	- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+	- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
+	- [CursorManager](/api/Global/Misc/CursorManager)
+- Removes some timers #inc
+
+#### Release -- Gameplay End
+Releases the game (e.g. exiting to title / quitting #inc)
+- Resets the camera to default
+- Calls (OnStageRelease)
+	- [RabbitManager](/api/Global/Misc/RabbitManager)
+	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
+	- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
+	- [OrdealManager](/api/Global/Misc/OrdealManager)
+	- [OfficerManager](/api/Global/Misc/OfficerManager)
+	- [AgentManager](/api/Global/IOBserver/AgentManager)
+	- [PlayerModel](/api/Global/Model/PlayerModel)'s emergency controller
+	- [BgmManager](/api/Global/IOBserver/BgmManager)
+- Saves the overlay state #inc [OverlayManager](/api/Legacy/OverlayManager) (SaveState)
+- Calls [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)'s OnStageRelease
+- Notifies observers of OnReleaseGameManager
+
+
+#### ReturnToIntro
+Returns to the intro before the title screen. Maybe. #INC 
+- Resets time
+- Ends management (EndGame)
+- Releases game, I guess (Release)
+- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s ReleaseGame #INC 
+- Loads the intro
+
+
+#### ReturnToTitle
+Returns to the title screen.
+- Resets time
+- Sets appropriate volume for [BgmManager](/api/Global/IOBserver/BgmManager)
+- Ends management (EndGame)
+- Release game, I guess (Release)
+- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s ReleaseGame #INC 
+- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s LoadGlobalData #INC 
+- Sets the loading screen to default
+- Loads the title screen via [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)
+
+#### ReturnToCheckPoint
+Rewinds to a memory repository day
+- Resets time
+- Ends management (EndGame)
+- Releases game, I guess? (Release)
+- Sets volume
+- Via GlobalGameManager:
+	- Saves persistent data (SaveGlobalData) #INC 
+	- Loads from checkpoint (LoadData)
+- Initializes [CreatureGenerateInfoManager](/api/CreatureGenerate/CreatureGenerateInfoManager)
+- Sets loading screen
+- Loads main game via [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)
+
+
+#### MoveToCredit
+Rolls credits #INC 
+
+
+#### RestartGame
+Restarts the day
+
+
+#### ExitGame
+Quits application
+
+
+### Time
+#### UpdateGameSpeed
+Updates game speed (e.g. for boss events which set it, or after being updated by the play speed UI)
+
+#### SetPlaySpeedForcely
+(For boss events) force sets time speed
+
+#### Pause
+pauses and updates game speed
+
+#### Resume
+resumes and updates game speed
+
+#### SetPlaySpeed
+Sets the play speed and updates time
+
+#### TutorialPause
+pauses
+
+#### TutorialResume
+resumes
+
+
+### section 3
+
+#### FixedUpdate
+Calls FixedUpdateProccess
+If the game is not paused, call fixed updates for:
+- [RabbitManager](/api/Global/Misc/RabbitManager)
+- [CreatureManager](/api/Global/IOBserver/CreatureManager)
+- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
+- [OrdealManager](/api/Global/Misc/OrdealManager)
+- [OfficerManager](/api/Global/Misc/OfficerManager)
+- [AgentManager](/api/Global/IOBserver/AgentManager)
+- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+- [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)
+- Every observer of FixedUpdate
+
+#### FixedUpdateProccess
+- Updates elapsed time for trumpets and ends if needed
+
+#### SuccessStage
+For when the energy quota is met
+
+#### RevertSuccess
+For when the energy quota is no longer met
+
+
+#### ClearStage
+If the energy exceeds the quota, end stage with ClearAction
+
+#### ClearAction
+- Sets play speed to 0
+- Ends management
+- Calls the emergency controller (OnStageEnd)
+- Notifies observers of OnStageEnd
+- Displays the [results screen](/api/Global/IANimatorEventCalled/ResultScreen)
+
+#### ExitStage
+- Resets time
+- Calls next day in [PlayerModel](/api/Global/Model/PlayerModel)
+- Releases with Release
+- Updates [GlobalEtcDataModel](/api/Global/Model/GlobalEtcDataModel)'s day1clearCount #INC 
+- In unlimited mode:
+	- Sets loading screen to DayEndScene
+	- if past day 99 exits to intro
+	- otherwise loads into the next day
+- In story mode:
+	- Sets loading screen to DayEndScreen
+	- Loads the story
+- Sets saveState to "story" #INC 
+
+
+#### GameOverEnding
+Game over for losing on days 47-49 (see )
+
+
+#### Quit
+Quits application
+
+#### PAUSECALL GetCurrentPauseCaller
+Gets whatever paused the game
+
+#### int GetMoneyReward
+Gets the LOB amount for the day, accounting for penalties and Malkuth's bonus
+
+#### int GetPenaltyValueByCreature
+Penalty for breaching abnormalities; equal to the sum of risk levels, except breaching Alephs, who add 1000. [Army in Black](/api/Global/Misc/BlackCorps) is an Aleph when breaching.
+
+#### float GetPenaltyValueByDead
+LOB multiplier for survival rate.
+Survival rate : multiplier
+=    1 : 2.0
+$\geq$ 0.9 : 1.5
+$\geq$ 0.7 : 1.25
+$\geq$ 0.5 : 1.0
+$\geq$ 0.3 : 0.5
+$<$ 0.3 : 0.0
+
+#### GetStageRank
+Gets the stage rank.
+$\geq$    1 : S
+$\geq$ 0.9 : A
+$\geq$ 0.7 : B
+$\geq$ 0.5 : C
+$\geq$ 0.3 : D
+$<$ 0.3 : F
+##### Special Ending (unused)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GameManager
 
@@ -33,6 +264,8 @@ public GameManager()
 ```csharp
 private static GameManager _currentGameManager
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +276,8 @@ private static GameManager _currentGameManager
 ```csharp
 private const int _finalRewardAdditionalLob = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +288,8 @@ private const int _finalRewardAdditionalLob = 20
 ```csharp
 private const int _finalStageRewardDay = 48
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +300,8 @@ private const int _finalStageRewardDay = 48
 ```csharp
 private PAUSECALL currentPauseCaller
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +312,8 @@ private PAUSECALL currentPauseCaller
 ```csharp
 private float currentSpeedValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +324,8 @@ private float currentSpeedValue
 ```csharp
 private CurrentUIState currentUIState
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +336,8 @@ private CurrentUIState currentUIState
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +348,8 @@ private float elapsed
 ```csharp
 public bool emergency
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +360,8 @@ public bool emergency
 ```csharp
 public float emergencyReturn
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +372,8 @@ public float emergencyReturn
 ```csharp
 public int gameSpeedLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +384,8 @@ public int gameSpeedLevel
 ```csharp
 public bool ManageStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +396,8 @@ public bool ManageStarted
 ```csharp
 public static readonly int[] Penalty
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +408,8 @@ public static readonly int[] Penalty
 ```csharp
 private PlayerModel playerModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +420,8 @@ private PlayerModel playerModel
 ```csharp
 private float playTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +432,8 @@ private float playTime
 ```csharp
 private string saveFileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +444,8 @@ private string saveFileName
 ```csharp
 private bool stageEnded
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +456,8 @@ private bool stageEnded
 ```csharp
 public GameState state
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,60 +512,81 @@ public bool StageEnded { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ClearAction()
 
 ```csharp
 public void ClearAction()
 ```
+#INC
+
 
 ### ClearStage()
 
 ```csharp
 public void ClearStage()
 ```
+#INC
+
 
 ### EndGame()
 
 ```csharp
 public void EndGame()
 ```
+#INC
+
 
 ### ExitGame()
 
 ```csharp
 public void ExitGame()
 ```
+#INC
+
 
 ### ExitStage()
 
 ```csharp
 public void ExitStage()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### FixedUpdateProccess()
 
 ```csharp
 public void FixedUpdateProccess()
 ```
+#INC
+
 
 ### GameOverEnding()
 
 ```csharp
 public void GameOverEnding()
 ```
+#INC
+
 
 ### GetCurrentPauseCaller()
 
 ```csharp
 public PAUSECALL GetCurrentPauseCaller()
 ```
+#INC
+
 
 #### Returns
 
@@ -311,6 +597,8 @@ public PAUSECALL GetCurrentPauseCaller()
 ```csharp
 public int GetMoneyReward()
 ```
+#INC
+
 
 #### Returns
 
@@ -321,6 +609,8 @@ public int GetMoneyReward()
 ```csharp
 public int GetPenaltyValueByCreature()
 ```
+#INC
+
 
 #### Returns
 
@@ -331,6 +621,8 @@ public int GetPenaltyValueByCreature()
 ```csharp
 public float GetPenaltyValueByDead()
 ```
+#INC
+
 
 #### Returns
 
@@ -341,6 +633,8 @@ public float GetPenaltyValueByDead()
 ```csharp
 public StageRank GetStageRank(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -357,12 +651,16 @@ public StageRank GetStageRank(float rate)
 ```csharp
 public void InitGame()
 ```
+#INC
+
 
 ### LoadScene()
 
 ```csharp
 private IEnumerator LoadScene()
 ```
+#INC
+
 
 #### Returns
 
@@ -373,18 +671,24 @@ private IEnumerator LoadScene()
 ```csharp
 public void MoveToCredit()
 ```
+#INC
+
 
 ### Pause()
 
 ```csharp
 public void Pause()
 ```
+#INC
+
 
 ### Pause(PAUSECALL)
 
 ```csharp
 public void Pause(PAUSECALL caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -397,18 +701,24 @@ public void Pause(PAUSECALL caller)
 ```csharp
 public void Quit()
 ```
+#INC
+
 
 ### Release()
 
 ```csharp
 private void Release()
 ```
+#INC
+
 
 ### Reload()
 
 ```csharp
 private IEnumerator Reload()
 ```
+#INC
+
 
 #### Returns
 
@@ -419,18 +729,24 @@ private IEnumerator Reload()
 ```csharp
 public void RestartGame()
 ```
+#INC
+
 
 ### Resume()
 
 ```csharp
 public void Resume()
 ```
+#INC
+
 
 ### Resume(PAUSECALL)
 
 ```csharp
 public void Resume(PAUSECALL caller)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,30 +759,40 @@ public void Resume(PAUSECALL caller)
 ```csharp
 public void ReturnToCheckPoint()
 ```
+#INC
+
 
 ### ReturnToIntro()
 
 ```csharp
 public void ReturnToIntro()
 ```
+#INC
+
 
 ### ReturnToTitle()
 
 ```csharp
 public void ReturnToTitle()
 ```
+#INC
+
 
 ### RevertSuccess()
 
 ```csharp
 public void RevertSuccess()
 ```
+#INC
+
 
 ### SetPlaySpeed(int)
 
 ```csharp
 public void SetPlaySpeed(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -479,6 +805,8 @@ public void SetPlaySpeed(int level)
 ```csharp
 public void SetPlaySpeedForcely(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -491,51 +819,69 @@ public void SetPlaySpeedForcely(float value)
 ```csharp
 public void SpecialEnding()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartGame()
 
 ```csharp
 public void StartGame()
 ```
+#INC
+
 
 ### StartStage()
 
 ```csharp
 public void StartStage()
 ```
+#INC
+
 
 ### SuccessStage()
 
 ```csharp
 public void SuccessStage()
 ```
+#INC
+
 
 ### TutorialPause()
 
 ```csharp
 public void TutorialPause()
 ```
+#INC
+
 
 ### TutorialResume()
 
 ```csharp
 public void TutorialResume()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateGameSpeed()
 
 ```csharp
 private void UpdateGameSpeed()
 ```
+#INC
+

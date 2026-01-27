@@ -11,6 +11,11 @@ canonical_path: /api/Global/Creature/CreatureStaticData
 ```csharp
 public class CreatureStaticData
 ```
+Holds strings which can be accessed by a string key or by index.
+
+Used by [Apocalypse Bird](/api/Global/Misc/BossBird)'s narration, [WhiteNight](/api/Legacy/DeathAngel)'s [time control restriction](/api/GameStatusUI/PlaySpeedSettingBlockedUI) narration, and for [Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s speech.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureStaticData

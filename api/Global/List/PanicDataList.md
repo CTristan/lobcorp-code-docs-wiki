@@ -11,6 +11,8 @@ canonical_path: /api/Global/List/PanicDataList
 ```csharp
 public class PanicDataList
 ```
+Loads [PanicData](/api/Global/Misc/PanicData). Should be unused (see [PanicData](/api/Global/Misc/PanicData)'s footnote), but [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) loads it anyway.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PanicDataList
@@ -33,6 +35,8 @@ public PanicDataList()
 ```csharp
 private static PanicDataList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private static PanicDataList _instance
 ```csharp
 private bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private bool isLoaded
 ```csharp
 private List<PanicData> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +95,8 @@ public static PanicDataList instance { get; }
 ```csharp
 public PanicData GetPanicData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +113,8 @@ public PanicData GetPanicData(int id)
 ```csharp
 public PanicData GetPanicData(string lifeStyle)
 ```
+#INC
+
 
 #### Parameters
 
@@ -119,6 +131,8 @@ public PanicData GetPanicData(string lifeStyle)
 ```csharp
 public PanicData GetPanicData(WorkerModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +149,8 @@ public PanicData GetPanicData(WorkerModel model)
 ```csharp
 public PanicData GetRandomPanicData(string lifeStyle)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +167,8 @@ public PanicData GetRandomPanicData(string lifeStyle)
 ```csharp
 public void Init(PanicData[] ary)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,6 +181,9 @@ public void Init(PanicData[] ary)
 ```csharp
 public bool IsLoaded()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

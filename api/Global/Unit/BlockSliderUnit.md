@@ -11,6 +11,8 @@ canonical_path: /api/Global/Unit/BlockSliderUnit
 ```csharp
 public class BlockSliderUnit : MonoBehaviour
 ```
+#unused #INC #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BlockSliderUnit
@@ -33,6 +35,8 @@ public BlockSliderUnit()
 ```csharp
 public Image disable
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Image disable
 ```csharp
 public Image display
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public Image display
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public int index
 ```csharp
 protected BlockSlider slider
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +85,9 @@ protected BlockSlider slider
 ```csharp
 public virtual void Init(BlockSlider slider, Color dis, Color disable, int index)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -90,18 +103,24 @@ public virtual void Init(BlockSlider slider, Color dis, Color disable, int index
 ```csharp
 public virtual void SetDisable()
 ```
+#INC
+
 
 ### SetEnable()
 
 ```csharp
 public virtual void SetEnable()
 ```
+#INC
+
 
 ### SetValue(float)
 
 ```csharp
 public virtual void SetValue(float val)
 ```
+#INC
+
 
 #### Parameters
 

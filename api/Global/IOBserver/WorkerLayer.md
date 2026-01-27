@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/WorkerLayer
 public class WorkerLayer : MonoBehaviour, IObserver
 ```
 
+Game layer that holds the clerks and agents.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerLayer
 
@@ -36,6 +41,8 @@ public WorkerLayer()
 ```csharp
 private List<WorkerUnit> workerList
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private List<WorkerUnit> workerList
 ```csharp
 private int zCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,6 +67,8 @@ private int zCount
 ```csharp
 public static WorkerLayer instance { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -76,18 +87,25 @@ private void Awake()
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/IsolateRoom
 public class IsolateRoom : MonoBehaviour, IObserver
 ```
 
+A containment unit for some abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → IsolateRoom
 
@@ -36,6 +41,8 @@ public IsolateRoom()
 ```csharp
 private bool _checkCumlatvieCubeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private bool _checkCumlatvieCubeCount
 ```csharp
 private bool _counterEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private bool _counterEnabled
 ```csharp
 private bool _counterObserved
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private bool _counterObserved
 ```csharp
 private const float _cubeAnimFreq = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const float _cubeAnimFreq = 0.5
 ```csharp
 private Timer _cubeTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Timer _cubeTimer
 ```csharp
 private int _cumlativeCubeAnimRemain
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private int _cumlativeCubeAnimRemain
 ```csharp
 private AgentModel _currentAllocateWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private AgentModel _currentAllocateWorker
 ```csharp
 private int _currentCumlatvieCubeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ private int _currentCumlatvieCubeCount
 ```csharp
 private List<int> _currentUsedProcessText
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private List<int> _currentUsedProcessText
 ```csharp
 private RwbpType _currentWorkType
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ private RwbpType _currentWorkType
 ```csharp
 private bool _isEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ private bool _isEscaped
 ```csharp
 private bool _isResultDisplaying
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ private bool _isResultDisplaying
 ```csharp
 private bool _isWorkAllocated
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ private bool _isWorkAllocated
 ```csharp
 private bool _isWorking
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ private bool _isWorking
 ```csharp
 private bool _maxWorkcountReached
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +221,8 @@ private bool _maxWorkcountReached
 ```csharp
 private const float _narrationPosyFix = 4.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private IsolateRoom.WorkProgress _progressBar
 ```csharp
 private const float _roomPosxFix = 0.31
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ private const float _roomPosxFix = 0.31
 ```csharp
 private const float _roomPosyFix = 4.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ private const float _roomPosyFix = 4.4
 ```csharp
 private PointerEventData.InputButton _targetClick
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ private PointerEventData.InputButton _targetClick
 ```csharp
 private CreatureUnit _targetUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ private CreatureUnit _targetUnit
 ```csharp
 private Timer _workDescTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +314,8 @@ public List<IsolateFilter> addedFilter
 ```csharp
 public IsolatePos attachmentPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -277,6 +326,8 @@ public IsolatePos attachmentPos
 ```csharp
 public AudioClipPlayer audioClipPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -287,6 +338,8 @@ public AudioClipPlayer audioClipPlayer
 ```csharp
 public BinahOverloadUI binahOverloadUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -297,6 +350,8 @@ public BinahOverloadUI binahOverloadUI
 ```csharp
 public Color CancelColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -307,6 +362,8 @@ public Color CancelColor
 ```csharp
 public Image CancelWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -317,6 +374,8 @@ public Image CancelWork
 ```csharp
 public Canvas ClickIsolateArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -327,6 +386,8 @@ public Canvas ClickIsolateArea
 ```csharp
 public Canvas ClickNameArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -337,6 +398,8 @@ public Canvas ClickNameArea
 ```csharp
 public List<MaskableGraphic> ColorSetted
 ```
+#INC
+
 
 #### Field Value
 
@@ -358,6 +421,8 @@ public GameObject CounterActiveControl
 ```csharp
 public Image CounterColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -368,6 +433,8 @@ public Image CounterColor
 ```csharp
 public Color CounterColor_Black
 ```
+#INC
+
 
 #### Field Value
 
@@ -378,6 +445,8 @@ public Color CounterColor_Black
 ```csharp
 public Color CounterColor_Normal
 ```
+#INC
+
 
 #### Field Value
 
@@ -388,6 +457,8 @@ public Color CounterColor_Normal
 ```csharp
 public Color CounterColor_Red
 ```
+#INC
+
 
 #### Field Value
 
@@ -398,6 +469,8 @@ public Color CounterColor_Red
 ```csharp
 public Color CounterColor_White
 ```
+#INC
+
 
 #### Field Value
 
@@ -408,6 +481,8 @@ public Color CounterColor_White
 ```csharp
 public Sprite CounterImage_None
 ```
+#INC
+
 
 #### Field Value
 
@@ -418,6 +493,8 @@ public Sprite CounterImage_None
 ```csharp
 public Sprite CounterImage_Unknown
 ```
+#INC
+
 
 #### Field Value
 
@@ -428,6 +505,8 @@ public Sprite CounterImage_Unknown
 ```csharp
 public Image CounterInnerImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -438,6 +517,8 @@ public Image CounterInnerImage
 ```csharp
 public GameObject CounterOutline
 ```
+#INC
+
 
 #### Field Value
 
@@ -448,6 +529,8 @@ public GameObject CounterOutline
 ```csharp
 public Text CounterText
 ```
+#INC
+
 
 #### Field Value
 
@@ -458,6 +541,8 @@ public Text CounterText
 ```csharp
 public Text CreatureName
 ```
+#INC
+
 
 #### Field Value
 
@@ -468,6 +553,8 @@ public Text CreatureName
 ```csharp
 public Image CreatureNameImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -478,6 +565,8 @@ public Image CreatureNameImage
 ```csharp
 public GameObject CubeGridRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -488,6 +577,8 @@ public GameObject CubeGridRoot
 ```csharp
 public Image CumlativeCrossImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -498,6 +589,8 @@ public Image CumlativeCrossImage
 ```csharp
 public Text CumlativeCubeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -508,6 +601,8 @@ public Text CumlativeCubeCount
 ```csharp
 public Image CumlativeCubeImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -518,6 +613,8 @@ public Image CumlativeCubeImage
 ```csharp
 public Text CurrentObserveLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -528,6 +625,8 @@ public Text CurrentObserveLevel
 ```csharp
 public Image CurrentObserveLevelFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -538,6 +637,8 @@ public Image CurrentObserveLevelFill
 ```csharp
 public Text CurrentResultCooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -548,6 +649,8 @@ public Text CurrentResultCooltime
 ```csharp
 public Image CurrentResultFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -558,6 +661,8 @@ public Image CurrentResultFilter
 ```csharp
 public Image CurrentResultIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -568,6 +673,8 @@ public Image CurrentResultIcon
 ```csharp
 public Image CurrentWorkCubeFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -578,6 +685,8 @@ public Image CurrentWorkCubeFill
 ```csharp
 public Text CurrentWorkCubeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -588,6 +697,8 @@ public Text CurrentWorkCubeText
 ```csharp
 public Image CurrentWorkIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -598,6 +709,8 @@ public Image CurrentWorkIcon
 ```csharp
 public GameObject CurrentWorkRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -608,6 +721,8 @@ public GameObject CurrentWorkRoot
 ```csharp
 public Image DamageFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -618,6 +733,8 @@ public Image DamageFilter
 ```csharp
 public Image DefaultEscapeFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -628,6 +745,8 @@ public Image DefaultEscapeFilter
 ```csharp
 public IsolateDescController DescController
 ```
+#INC
+
 
 #### Field Value
 
@@ -638,6 +757,8 @@ public IsolateDescController DescController
 ```csharp
 public Sprite EscapeCubeSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -648,6 +769,8 @@ public Sprite EscapeCubeSprite
 ```csharp
 public IsolateFilter EscapeFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -658,6 +781,8 @@ public IsolateFilter EscapeFilter
 ```csharp
 public RectTransform FailCubeGrid
 ```
+#INC
+
 
 #### Field Value
 
@@ -668,6 +793,8 @@ public RectTransform FailCubeGrid
 ```csharp
 public GameObject FailCubeObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -678,6 +805,8 @@ public GameObject FailCubeObject
 ```csharp
 public Image Frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -688,6 +817,8 @@ public Image Frame
 ```csharp
 public List<GameObject> kitCreatureUIs
 ```
+#INC
+
 
 #### Field Value
 
@@ -698,6 +829,8 @@ public List<GameObject> kitCreatureUIs
 ```csharp
 public Color KitDisable
 ```
+#INC
+
 
 #### Field Value
 
@@ -708,6 +841,8 @@ public Color KitDisable
 ```csharp
 public Color KitNormal
 ```
+#INC
+
 
 #### Field Value
 
@@ -718,6 +853,8 @@ public Color KitNormal
 ```csharp
 public Text[] KitObserveLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -739,6 +876,8 @@ public GameObject KitObserveRoot
 ```csharp
 public GameObject MaxWorkCountFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -749,6 +888,8 @@ public GameObject MaxWorkCountFilter
 ```csharp
 public GameObject MaxWorkCountLine
 ```
+#INC
+
 
 #### Field Value
 
@@ -759,6 +900,8 @@ public GameObject MaxWorkCountLine
 ```csharp
 public Text MaxWorkText_Lower
 ```
+#INC
+
 
 #### Field Value
 
@@ -769,6 +912,8 @@ public Text MaxWorkText_Lower
 ```csharp
 public Text MaxWorkText_Upper
 ```
+#INC
+
 
 #### Field Value
 
@@ -779,6 +924,8 @@ public Text MaxWorkText_Upper
 ```csharp
 public Color MovingColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -789,6 +936,8 @@ public Color MovingColor
 ```csharp
 private bool nameEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -799,6 +948,8 @@ private bool nameEntered
 ```csharp
 public Color NameTextColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -809,6 +960,8 @@ public Color NameTextColor
 ```csharp
 public Color NameTextureColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -819,6 +972,8 @@ public Color NameTextureColor
 ```csharp
 public FadeEffecter NarrationFadeEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -829,6 +984,8 @@ public FadeEffecter NarrationFadeEffect
 ```csharp
 public List<GameObject> normalCreatureUIs
 ```
+#INC
+
 
 #### Field Value
 
@@ -839,6 +996,8 @@ public List<GameObject> normalCreatureUIs
 ```csharp
 public Sprite NormalCubeSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -849,6 +1008,8 @@ public Sprite NormalCubeSprite
 ```csharp
 private int oldCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -859,6 +1020,8 @@ private int oldCount
 ```csharp
 private CreatureFeelingState oldState
 ```
+#INC
+
 
 #### Field Value
 
@@ -869,6 +1032,8 @@ private CreatureFeelingState oldState
 ```csharp
 public Color OrderColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -890,6 +1055,8 @@ public Image OverlayImage
 ```csharp
 public Text OverlayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -911,6 +1078,8 @@ public IsolateOverload overloadUI
 ```csharp
 private bool pointerEntered
 ```
+#INC
+
 
 #### Field Value
 
@@ -921,6 +1090,8 @@ private bool pointerEntered
 ```csharp
 public Text probReductionText
 ```
+#INC
+
 
 #### Field Value
 
@@ -931,6 +1102,8 @@ public Text probReductionText
 ```csharp
 public Animator probReductionUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -941,6 +1114,8 @@ public Animator probReductionUI
 ```csharp
 public GameObject RabbitBlock
 ```
+#INC
+
 
 #### Field Value
 
@@ -951,6 +1126,8 @@ public GameObject RabbitBlock
 ```csharp
 public Image RiskLevelImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -961,6 +1138,8 @@ public Image RiskLevelImage
 ```csharp
 public Color RoomColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -971,6 +1150,8 @@ public Color RoomColor
 ```csharp
 public Image RoomFog
 ```
+#INC
+
 
 #### Field Value
 
@@ -981,6 +1162,8 @@ public Image RoomFog
 ```csharp
 public SpriteRenderer RoomSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -991,6 +1174,8 @@ public SpriteRenderer RoomSpriteRenderer
 ```csharp
 public IsolateFilter SkillFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -1001,6 +1186,8 @@ public IsolateFilter SkillFilter
 ```csharp
 public Text SpecialSkillName
 ```
+#INC
+
 
 #### Field Value
 
@@ -1011,6 +1198,8 @@ public Text SpecialSkillName
 ```csharp
 public GameObject SpecialSkillRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -1032,6 +1221,8 @@ public IsolateFilter StateFilter
 ```csharp
 public RectTransform SuccessCubeGrid
 ```
+#INC
+
 
 #### Field Value
 
@@ -1042,6 +1233,8 @@ public RectTransform SuccessCubeGrid
 ```csharp
 public GameObject SuccessCubeObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -1052,6 +1245,8 @@ public GameObject SuccessCubeObject
 ```csharp
 public Color SuppressColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -1062,6 +1257,8 @@ public Color SuppressColor
 ```csharp
 public TooltipMouseOver TooltipAllAgentDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -1072,6 +1269,8 @@ public TooltipMouseOver TooltipAllAgentDead
 ```csharp
 public TooltipMouseOver TooltipCurrentPE
 ```
+#INC
+
 
 #### Field Value
 
@@ -1082,6 +1281,8 @@ public TooltipMouseOver TooltipCurrentPE
 ```csharp
 public TooltipMouseOver TooltipGeneratedPE
 ```
+#INC
+
 
 #### Field Value
 
@@ -1103,6 +1304,8 @@ public TooltipMouseOver TooltipName
 ```csharp
 public TooltipMouseOver TooltipOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -1113,6 +1316,8 @@ public TooltipMouseOver TooltipOverload
 ```csharp
 public TooltipMouseOver TooltipQliphoth
 ```
+#INC
+
 
 #### Field Value
 
@@ -1123,6 +1328,8 @@ public TooltipMouseOver TooltipQliphoth
 ```csharp
 public TooltipMouseOver TooltipReduceProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -1133,6 +1340,8 @@ public TooltipMouseOver TooltipReduceProb
 ```csharp
 public TooltipMouseOver TooltipRiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -1143,6 +1352,8 @@ public TooltipMouseOver TooltipRiskLevel
 ```csharp
 public TooltipMouseOver TooltipUniquePE
 ```
+#INC
+
 
 #### Field Value
 
@@ -1164,6 +1375,8 @@ public RectTransform TouchArea
 ```csharp
 public Text workCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -1174,6 +1387,8 @@ public Text workCount
 ```csharp
 public Color WorkCount_Disabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -1184,6 +1399,8 @@ public Color WorkCount_Disabled
 ```csharp
 public Color WorkCount_Enabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -1205,6 +1422,8 @@ public GameObject WorkCounterActiveControl
 ```csharp
 public List<Image> WorkCounterImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -1215,6 +1434,8 @@ public List<Image> WorkCounterImage
 ```csharp
 public RectTransform WorkCounterRayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -1225,6 +1446,8 @@ public RectTransform WorkCounterRayout
 ```csharp
 public GameObject WorkCounterUnit
 ```
+#INC
+
 
 #### Field Value
 
@@ -1235,6 +1458,8 @@ public GameObject WorkCounterUnit
 ```csharp
 public float WorkDescFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -1245,6 +1470,8 @@ public float WorkDescFreq
 ```csharp
 public Image WorkGear
 ```
+#INC
+
 
 #### Field Value
 
@@ -1255,6 +1482,8 @@ public Image WorkGear
 ```csharp
 public Text WorkNarration
 ```
+#INC
+
 
 #### Field Value
 
@@ -1379,12 +1608,16 @@ private UIController WorkResultUIController { get; }
 ```csharp
 public void ActivatedSkill()
 ```
+#INC
+
 
 ### AddFilter(IsolateFilter)
 
 ```csharp
 public IsolateFilter AddFilter(IsolateFilter baseFilter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1401,24 +1634,32 @@ public IsolateFilter AddFilter(IsolateFilter baseFilter)
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CheckMaxworkCount()
 
 ```csharp
 private void CheckMaxworkCount()
 ```
+#INC
+
 
 ### CheckOverlay()
 
 ```csharp
 private void CheckOverlay()
 ```
+#INC
+
 
 ### CheckOverlayState()
 
 ```csharp
 private bool CheckOverlayState()
 ```
+#INC
+
 
 #### Returns
 
@@ -1429,36 +1670,48 @@ private bool CheckOverlayState()
 ```csharp
 public void CheckQliphothCounter()
 ```
+#INC
+
 
 ### CheckWorkerMoving()
 
 ```csharp
 private void CheckWorkerMoving()
 ```
+#INC
+
 
 ### CheckWorkProcessText()
 
 ```csharp
 public void CheckWorkProcessText()
 ```
+#INC
+
 
 ### DisableWorkIcon()
 
 ```csharp
 public void DisableWorkIcon()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetCurrentWorkSpeed()
 
 ```csharp
 public float GetCurrentWorkSpeed()
 ```
+#INC
+
 
 #### Returns
 
@@ -1469,6 +1722,8 @@ public float GetCurrentWorkSpeed()
 ```csharp
 private string GetDesc(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1485,6 +1740,8 @@ private string GetDesc(string id)
 ```csharp
 public string GetStateText(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1501,12 +1758,16 @@ public string GetStateText(string key)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitProcessText(RwbpType)
 
 ```csharp
 private void InitProcessText(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1519,12 +1780,17 @@ private void InitProcessText(RwbpType type)
 ```csharp
 private void InitWorkCountUI()
 ```
+#INC
+#code-generated
+
 
 ### IsKitReturnning()
 
 ```csharp
 private bool IsKitReturnning()
 ```
+#INC
+
 
 #### Returns
 
@@ -1535,18 +1801,24 @@ private bool IsKitReturnning()
 ```csharp
 public void OnCancelWork()
 ```
+#INC
+
 
 ### OnChangeProbReduction()
 
 ```csharp
 public void OnChangeProbReduction()
 ```
+#INC
+
 
 ### OnClick(BaseEventData)
 
 ```csharp
 public void OnClick(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1559,6 +1831,8 @@ public void OnClick(BaseEventData eventData)
 ```csharp
 public void OnClickCollectionButton(BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1571,24 +1845,32 @@ public void OnClickCollectionButton(BaseEventData eventData)
 ```csharp
 public void OnCubeArrived()
 ```
+#INC
+
 
 ### OnCurrentWorkRootAnimEnd()
 
 ```csharp
 public void OnCurrentWorkRootAnimEnd()
 ```
+#INC
+
 
 ### OnDamageAnimArrived()
 
 ```csharp
 public void OnDamageAnimArrived()
 ```
+#INC
+
 
 ### OnDamageInvoked(DamageInfo)
 
 ```csharp
 public void OnDamageInvoked(DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1601,6 +1883,8 @@ public void OnDamageInvoked(DamageInfo damage)
 ```csharp
 public void OnDescriptionUnitEnded(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1613,12 +1897,16 @@ public void OnDescriptionUnitEnded(int id)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnterRoom(AgentModel, UseSkill)
 
 ```csharp
 public void OnEnterRoom(AgentModel worker, UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1632,24 +1920,32 @@ public void OnEnterRoom(AgentModel worker, UseSkill skill)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnExitRoom()
 
 ```csharp
 public void OnExitRoom()
 ```
+#INC
+
 
 ### OnFeelingStateDisplayEnd()
 
 ```csharp
 public void OnFeelingStateDisplayEnd()
 ```
+#INC
+
 
 ### OnFeelingStateDisplayStart(CreatureFeelingState)
 
 ```csharp
 public void OnFeelingStateDisplayStart(CreatureFeelingState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1662,6 +1958,8 @@ public void OnFeelingStateDisplayStart(CreatureFeelingState state)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1675,12 +1973,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnObservationLevelChanged()
 ```
+#INC
+
 
 ### OnOvelrayEnter(int)
 
 ```csharp
 public void OnOvelrayEnter(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1693,6 +1995,8 @@ public void OnOvelrayEnter(int index)
 ```csharp
 public void OnOverlayExit(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1705,12 +2009,16 @@ public void OnOverlayExit(int index)
 ```csharp
 public void OnReturn()
 ```
+#INC
+
 
 ### OnWorkAllocated(AgentModel)
 
 ```csharp
 public void OnWorkAllocated(AgentModel incomingWorker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1723,12 +2031,16 @@ public void OnWorkAllocated(AgentModel incomingWorker)
 ```csharp
 public void OnWorkEnd()
 ```
+#INC
+
 
 ### ProcessNarration(string)
 
 ```csharp
 public void ProcessNarration(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1741,12 +2053,16 @@ public void ProcessNarration(string desc)
 ```csharp
 public void SetBinahBoss()
 ```
+#INC
+
 
 ### SetCounterEnable(bool)
 
 ```csharp
 public void SetCounterEnable(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1759,6 +2075,8 @@ public void SetCounterEnable(bool state)
 ```csharp
 public void SetCounterText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1771,6 +2089,8 @@ public void SetCounterText(string text)
 ```csharp
 public void SetCounterText(string text, Color color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1784,6 +2104,8 @@ public void SetCounterText(string text, Color color)
 ```csharp
 public void SetCreature(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1796,18 +2118,24 @@ public void SetCreature(CreatureUnit unit)
 ```csharp
 public void SetCumlativeCubeCount()
 ```
+#INC
+
 
 ### SetKitObserveLevel()
 
 ```csharp
 public void SetKitObserveLevel()
 ```
+#INC
+
 
 ### SetOverloadAlarmColor(OverloadType)
 
 ```csharp
 public void SetOverloadAlarmColor(OverloadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1820,6 +2148,8 @@ public void SetOverloadAlarmColor(OverloadType type)
 ```csharp
 private void SetResult(CreatureFeelingState state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1832,12 +2162,16 @@ private void SetResult(CreatureFeelingState state)
 ```csharp
 public void SetRiskLevel()
 ```
+#INC
+
 
 ### SetWorkIcon(Sprite)
 
 ```csharp
 public void SetWorkIcon(Sprite s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1850,45 +2184,61 @@ public void SetWorkIcon(Sprite s)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartCubeAnim()
 
 ```csharp
 private void StartCubeAnim()
 ```
+#INC
+
 
 ### StartWorkDesc()
 
 ```csharp
 public void StartWorkDesc()
 ```
+#INC
+
 
 ### StopWorkDesc()
 
 ```csharp
 public void StopWorkDesc()
 ```
+#INC
+
 
 ### TurnOffRoomLight()
 
 ```csharp
 public void TurnOffRoomLight()
 ```
+#INC
+
 
 ### TurnOnRoomLight()
 
 ```csharp
 public void TurnOnRoomLight()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateStatus()
 
 ```csharp
 public void UpdateStatus()
 ```
+#INC
+

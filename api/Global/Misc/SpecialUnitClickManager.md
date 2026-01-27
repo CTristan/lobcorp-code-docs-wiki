@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SpecialUnitClickManager
 ```csharp
 public class SpecialUnitClickManager
 ```
+OnLateUpdate gets called by [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) but I don't think this is used...
+
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpecialUnitClickManager
@@ -33,6 +37,8 @@ public SpecialUnitClickManager()
 ```csharp
 public static SpecialUnitClickManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public static SpecialUnitClickManager _instance
 ```csharp
 private List<RaycastResult> mouseRaycastResult
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +75,8 @@ public static SpecialUnitClickManager instance { get; }
 ```csharp
 public List<RaycastResult> GetMouseRaycast()
 ```
+#INC
+
 
 #### Returns
 
@@ -77,6 +87,8 @@ public List<RaycastResult> GetMouseRaycast()
 ```csharp
 public List<RaycastResult> GetMouseRaycast(ref Vector3 pos)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,3 +105,6 @@ public List<RaycastResult> GetMouseRaycast(ref Vector3 pos)
 ```csharp
 public void OnLateUpdate()
 ```
+#INC
+#code-generated
+

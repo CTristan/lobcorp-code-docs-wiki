@@ -12,6 +12,9 @@ canonical_path: /api/Global/StateMachineBehaviour/RedShoesAnimBehaviour
 public class RedShoesAnimBehaviour : StateMachineBehaviour
 ```
 
+Used for [Red Shoes](/api/Global/Misc/RedShoes)' creature animator. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → RedShoesAnimBehaviour
 
@@ -33,6 +36,9 @@ public RedShoesAnimBehaviour()
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

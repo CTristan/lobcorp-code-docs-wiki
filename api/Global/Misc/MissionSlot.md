@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/MissionSlot
 public class MissionSlot : MonoBehaviour
 ```
 
+Represents a mission in the [mission list](/api/Global/IOBserver/MissionUI) during management.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MissionSlot
 
@@ -33,6 +36,8 @@ public MissionSlot()
 ```csharp
 public bool AutoResize
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public bool AutoResize
 ```csharp
 public Mission mission
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Mission mission
 ```csharp
 private const string textSrc = "MissionUI"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const string textSrc = "MissionUI"
 ```csharp
 public Text txt
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,12 +98,17 @@ public RectTransform rect { get; }
 ```csharp
 private void AutoResizing()
 ```
+#INC
+
 
 ### Init(Mission)
 
 ```csharp
 public void Init(Mission mission)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -105,3 +121,5 @@ public void Init(Mission mission)
 ```csharp
 public void Refresh()
 ```
+#INC
+

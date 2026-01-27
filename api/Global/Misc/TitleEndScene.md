@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TitleEndScene
 public class TitleEndScene : LoadingScene
 ```
 
+Loading screen for loading in after the title. #verify 
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → TitleEndScene
 
@@ -33,6 +38,8 @@ public TitleEndScene()
 ```csharp
 public Image angela
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Image angela
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,9 +74,14 @@ public TitleEndScene.TextObject[] texts
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/BossBird
 public class BossBird : BirdCreatureBase
 ```
 
+Apocalypse Bird. #INC 
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase) → BossBird
 
@@ -33,6 +38,8 @@ public BossBird()
 ```csharp
 private const int _attackDmgMax = 43
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const int _attackDmgMax = 43
 ```csharp
 private const int _attackDmgMin = 23
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _attackDmgMin = 23
 ```csharp
 private const int _attractMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _attractMax = 5
 ```csharp
 private const int _attractMin = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const int _attractMin = 3
 ```csharp
 private const int _biteDmgMax = 115
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _biteDmgMax = 115
 ```csharp
 private const int _biteDmgMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _biteDmgMin = 50
 ```csharp
 private const int _boss_armor_id = 300038
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int _boss_armor_id = 300038
 ```csharp
 public const int _boss_gift_id = 400038
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public const int _boss_gift_id = 400038
 ```csharp
 private const int _boss_weapon_id = 200038
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private BossBird.Phase _currentPhase
 ```csharp
 private const int _laserDmgMax = 14
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private const int _laserDmgMax = 14
 ```csharp
 private const int _laserDmgMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const int _laserDmgMin = 8
 ```csharp
 private const int _scaleDmgMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ private const int _scaleDmgMax = 15
 ```csharp
 private const int _scaleDmgMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ private const int _scaleDmgMin = 10
 ```csharp
 private ChildCreatureUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ private ChildCreatureUnit _unit
 ```csharp
 private bool activateState
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +228,8 @@ private bool activateState
 ```csharp
 private List<BossEggBase> aliveEggs
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +240,8 @@ private List<BossEggBase> aliveEggs
 ```csharp
 private const float attackDelayMax = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private const float attackDelayMax = 6
 ```csharp
 private const float attackDelayMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private const float attackDelayMin = 4
 ```csharp
 private RwbpType attackType
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private RwbpType attackType
 ```csharp
 private List<WorkerModel> attracted
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private List<WorkerModel> attracted
 ```csharp
 public const string attractEffect = "Effect/Creature/BossBird/Particle/BossBirdAttractEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ public const string attractEffect = "Effect/Creature/BossBird/Particle/BossBirdA
 ```csharp
 private const int attractPatternProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private const int attractPatternProb = 30
 ```csharp
 private BigBird bigBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private BigBird bigBird
 ```csharp
 private BossEggBase bigEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private BossEggBase bigEgg
 ```csharp
 private List<IBirdControl> birdControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private List<IBirdControl> birdControl
 ```csharp
 private const int bitePatternProb = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private const int bitePatternProb = 10
 ```csharp
 private RwbpType biteType
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +382,8 @@ private BossBird.AttackType currentAttackType
 ```csharp
 private BossEggBase currentForcelyTeleportTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private BossEggBase currentForcelyTeleportTarget
 ```csharp
 private MapNode currentTeleportDest
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private MapNode currentTeleportDest
 ```csharp
 private SoundEffectPlayer defaultAmbience
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private SoundEffectPlayer defaultAmbience
 ```csharp
 private List<CreatureBase> escapedCreatures
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private List<CreatureBase> escapedCreatures
 ```csharp
 private BossBirdEvent eventScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private BossBirdEvent eventScript
 ```csharp
 private bool forcelyTeleport
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private bool forcelyTeleport
 ```csharp
 private const float forcelyTeleportDelayMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private const float forcelyTeleportDelayMin = 10
 ```csharp
 private bool forcelyTeleportReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private bool forcelyTeleportReady
 ```csharp
 private Timer forcelyTeleportTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ private Timer forcelyTeleportTimer
 ```csharp
 private const float forcelyTteleportDelayMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ private const float forcelyTteleportDelayMax = 15
 ```csharp
 private BossGateWay gateWay
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +514,8 @@ private BossGateWay gateWay
 ```csharp
 private MapNode gatewayNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +526,8 @@ private MapNode gatewayNode
 ```csharp
 private bool isEscaped
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +538,8 @@ private bool isEscaped
 ```csharp
 private bool isNarration
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +550,8 @@ private bool isNarration
 ```csharp
 private bool isTeleporting
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +562,8 @@ private bool isTeleporting
 ```csharp
 private bool laserArriveSoundPlayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +574,8 @@ private bool laserArriveSoundPlayed
 ```csharp
 public const int LaserCount = 26
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +586,8 @@ public const int LaserCount = 26
 ```csharp
 public const string laserExplode = "Effect/Creature/BossBird/Particle/ExplodeEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +598,8 @@ public const string laserExplode = "Effect/Creature/BossBird/Particle/ExplodeEff
 ```csharp
 private const int laserPatternProb = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +610,8 @@ private const int laserPatternProb = 35
 ```csharp
 private RwbpType laserType
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +622,8 @@ private RwbpType laserType
 ```csharp
 private const float laserUnitExplodeRad = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +634,8 @@ private const float laserUnitExplodeRad = 2
 ```csharp
 private LongBird longBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +646,8 @@ private LongBird longBird
 ```csharp
 private BossEggBase longEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +658,8 @@ private BossEggBase longEgg
 ```csharp
 public const string meleeHit_1_EffectSrc = "Effect/Creature/BossBird/Particle/BossBirdMeleeHit"
 ```
+#INC
+
 
 #### Field Value
 
@@ -563,6 +670,8 @@ public const string meleeHit_1_EffectSrc = "Effect/Creature/BossBird/Particle/Bo
 ```csharp
 public const string meleeHit_2_Claw_LeftEffectSrc = "Effect/Creature/BossBird/Particle/SlashEffectLeft"
 ```
+#INC
+
 
 #### Field Value
 
@@ -573,6 +682,8 @@ public const string meleeHit_2_Claw_LeftEffectSrc = "Effect/Creature/BossBird/Pa
 ```csharp
 public const string meleeHit_2_Claw_RightEffectSrc = "Effect/Creature/BossBird/Particle/SlashEffectRight"
 ```
+#INC
+
 
 #### Field Value
 
@@ -583,6 +694,8 @@ public const string meleeHit_2_Claw_RightEffectSrc = "Effect/Creature/BossBird/P
 ```csharp
 public const string meleeHit_2_Grep_LeftEffectSrc = "Effect/Creature/BossBird/Particle/GrepEffectLeft"
 ```
+#INC
+
 
 #### Field Value
 
@@ -593,6 +706,8 @@ public const string meleeHit_2_Grep_LeftEffectSrc = "Effect/Creature/BossBird/Pa
 ```csharp
 public const string meleeHit_2_Grep_RightEffectSrc = "Effect/Creature/BossBird/Particle/GrepEffectRight"
 ```
+#INC
+
 
 #### Field Value
 
@@ -603,6 +718,8 @@ public const string meleeHit_2_Grep_RightEffectSrc = "Effect/Creature/BossBird/P
 ```csharp
 private bool normalAttackReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -613,6 +730,8 @@ private bool normalAttackReady
 ```csharp
 private Timer normalAttackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -623,6 +742,8 @@ private Timer normalAttackTimer
 ```csharp
 private List<IBirdControl> notArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -633,6 +754,8 @@ private List<IBirdControl> notArrived
 ```csharp
 private const float patternDelay = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -643,6 +766,8 @@ private const float patternDelay = 15
 ```csharp
 private bool patternReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -653,6 +778,8 @@ private bool patternReady
 ```csharp
 public const string scaleEffect = "Effect/Creature/BossBird/Particle/ScaleEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -663,6 +790,8 @@ public const string scaleEffect = "Effect/Creature/BossBird/Particle/ScaleEffect
 ```csharp
 private const int scalePatternProb = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -673,6 +802,8 @@ private const int scalePatternProb = 25
 ```csharp
 private RwbpType scaleType
 ```
+#INC
+
 
 #### Field Value
 
@@ -683,6 +814,8 @@ private RwbpType scaleType
 ```csharp
 private SmallBird smallBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -693,6 +826,8 @@ private SmallBird smallBird
 ```csharp
 private BossEggBase smallEgg
 ```
+#INC
+
 
 #### Field Value
 
@@ -703,6 +838,8 @@ private BossEggBase smallEgg
 ```csharp
 private Timer specialPatternTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -713,6 +850,8 @@ private Timer specialPatternTimer
 ```csharp
 private const float teleportDelayMax = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -723,6 +862,8 @@ private const float teleportDelayMax = 25
 ```csharp
 private const float teleportDelayMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -733,6 +874,8 @@ private const float teleportDelayMin = 15
 ```csharp
 private bool teleportReady
 ```
+#INC
+
 
 #### Field Value
 
@@ -743,6 +886,8 @@ private bool teleportReady
 ```csharp
 private Timer teleportTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -753,6 +898,8 @@ private Timer teleportTimer
 ```csharp
 private const long traitId = 100038
 ```
+#INC
+
 
 #### Field Value
 
@@ -763,6 +910,8 @@ private const long traitId = 100038
 ```csharp
 public const string ultDeadEffecSrc = "Effect/Creature/BossBird/Particle/BossBirdAgentDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -773,6 +922,8 @@ public const string ultDeadEffecSrc = "Effect/Creature/BossBird/Particle/BossBir
 ```csharp
 public const string ultHandLeftSrc = "Effect/Creature/BossBird/Particle/UltShock_Left"
 ```
+#INC
+
 
 #### Field Value
 
@@ -783,6 +934,8 @@ public const string ultHandLeftSrc = "Effect/Creature/BossBird/Particle/UltShock
 ```csharp
 public const string ultHandRightSrc = "Effect/Creature/BossBird/Particle/UltShcok_Right"
 ```
+#INC
+
 
 #### Field Value
 
@@ -793,6 +946,8 @@ public const string ultHandRightSrc = "Effect/Creature/BossBird/Particle/UltShco
 ```csharp
 private bool ultShooted
 ```
+#INC
+
 
 #### Field Value
 
@@ -803,6 +958,8 @@ private bool ultShooted
 ```csharp
 public const string ultShootEffectLeftSrc = "Effect/Creature/BossBird/Particle/GutShootEffectLeft"
 ```
+#INC
+
 
 #### Field Value
 
@@ -813,6 +970,8 @@ public const string ultShootEffectLeftSrc = "Effect/Creature/BossBird/Particle/G
 ```csharp
 public const string ultShootEffectRightSrc = "Effect/Creature/BossBird/Particle/GutShootEffectRight"
 ```
+#INC
+
 
 #### Field Value
 
@@ -823,6 +982,8 @@ public const string ultShootEffectRightSrc = "Effect/Creature/BossBird/Particle/
 ```csharp
 private Timer uniquePattern
 ```
+#INC
+
 
 #### Field Value
 
@@ -833,6 +994,8 @@ private Timer uniquePattern
 ```csharp
 private const float uniquePatternCheckTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -843,6 +1006,8 @@ private const float uniquePatternCheckTime = 5
 ```csharp
 private Queue<IBirdControl> waitQueue
 ```
+#INC
+
 
 #### Field Value
 
@@ -1007,66 +1172,88 @@ private float teleportDelay { get; }
 ```csharp
 private void AddAgentsTrait()
 ```
+Gives all living and controllable agents the Twilight EGO Gift asynchronously #verify , then tries to make the new Twilight EGO Weapon and Suit. #uses-id
+
 
 ### AfterAppearNarration()
 
 ```csharp
 private void AfterAppearNarration()
 ```
+Spawns Apocalypse Bird at Entrance's last location with EscapeInit.
+
 
 ### AfterEggBreakNarration()
 
 ```csharp
 private void AfterEggBreakNarration()
 ```
+#INC
+
 
 ### AttractCastingSuccess()
 
 ```csharp
 private void AttractCastingSuccess()
 ```
+#INC
+
 
 ### AttractPattern()
 
 ```csharp
 public void AttractPattern()
 ```
+#INC
+
 
 ### BiteCastingSuccess()
 
 ```csharp
 private void BiteCastingSuccess()
 ```
+#INC
+
 
 ### BitePattern()
 
 ```csharp
 public void BitePattern()
 ```
+#INC
+
 
 ### CancelNormalAttack()
 
 ```csharp
 public void CancelNormalAttack()
 ```
+Stops its normal attack and teleports.
+
 
 ### CancelPatternAttack()
 
 ```csharp
 public void CancelPatternAttack()
 ```
+Stops its special attack and teleports.
+
 
 ### CheckCreatureUnitState()
 
 ```csharp
 private void CheckCreatureUnitState()
 ```
+Checks to make sure the game object is active (or inactive) to match Apocalypse Bird's active state.
+
 
 ### CheckTwilight()
 
 ```csharp
 private bool CheckTwilight()
 ```
+Returns false if there is an agent wielding the Twilight EGO Weapon or Suit, and true otherwise. #uses-id
+
 
 #### Returns
 
@@ -1077,6 +1264,8 @@ private bool CheckTwilight()
 ```csharp
 public void DeleteSound(SoundEffectPlayer sound)
 ```
+Stops playing the sound and destroys it.
+
 
 #### Parameters
 
@@ -1089,42 +1278,57 @@ public void DeleteSound(SoundEffectPlayer sound)
 ```csharp
 public void EndNormalAttack()
 ```
+Ends the normal attack and starts a cooldown.
+
 
 ### EndPatternAttack()
 
 ```csharp
 public void EndPatternAttack()
 ```
+Ends the special attack and starts a 15 second cooldown.
+
 
 ### EndTeleport()
 
 ```csharp
 public void EndTeleport()
 ```
+Resets teleporting flag and phase.
+
 
 ### EndUltShoot()
 
 ```csharp
 public void EndUltShoot()
 ```
+#INC
+
 
 ### EscapeInit()
 
 ```csharp
 private void EscapeInit()
 ```
+Spawns Apocalypse Bird and its eggs once all birds have arrived at the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
+#INC
+
 
 ### FadeOutSound()
 
 ```csharp
 public void FadeOutSound()
 ```
+Plays a sound called 'appear' which ends in 4.5 seconds #verify .
+
 
 ### GetAttackTarget()
 
 ```csharp
 public List<UnitModel> GetAttackTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -1155,6 +1359,8 @@ public BossBird.AttackType GetCurrentAttackType()
 ```csharp
 public List<UnitModel> GetDirectionTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -1165,6 +1371,8 @@ public List<UnitModel> GetDirectionTarget()
 ```csharp
 public List<UnitModel> GetDirectionTarget(List<UnitModel> targets, float max_dist, float min_dist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1183,6 +1391,9 @@ public List<UnitModel> GetDirectionTarget(List<UnitModel> targets, float max_dis
 ```csharp
 public override string GetName()
 ```
+Returns Apocalypse Bird's name. (Overrides because technically Apocalypse Bird is a ChildCreatureModel with no parent... #verify )
+#code-generated
+
 
 #### Returns
 
@@ -1225,6 +1436,8 @@ public static BossBird.NarrationState GetNarrationState(string state)
 ```csharp
 public CreatureStaticData.ParameterData GetParam(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1241,6 +1454,8 @@ public CreatureStaticData.ParameterData GetParam(string key)
 ```csharp
 public string GetParamData(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1257,6 +1472,8 @@ public string GetParamData(string key)
 ```csharp
 public List<UnitModel> GetRangeTarget(Vector3 pos, float half_Range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1274,54 +1491,72 @@ public List<UnitModel> GetRangeTarget(Vector3 pos, float half_Range)
 ```csharp
 public void GiveMeleeDamage()
 ```
+Does melee damage to all units in range in the direction of the attack #verify #INC .
+
 
 ### InvokeForceTeleport()
 
 ```csharp
 private void InvokeForceTeleport()
 ```
+Teleports Apocalypse Bird to whichever egg called it, and starts a cooldown.
+
 
 ### InvokeNormalAttack()
 
 ```csharp
 private void InvokeNormalAttack()
 ```
+Starts its melee attack.
+
 
 ### InvokePatternAttack()
 
 ```csharp
 private void InvokePatternAttack()
 ```
+Does a special attack depending on the current attack type. Can be normal, Big Bird's attract, Judgment Birds.... #INC , Punishing Bird's mouth attack, or a ranged attack #INC ?
+
 
 ### InvokeTeleport()
 
 ```csharp
 private void InvokeTeleport()
 ```
+Randomly teleports Apocalypse Bird to a main room, and starts a cooldown.
+
 
 ### MakeBirdConcentrationGate()
 
 ```csharp
 public void MakeBirdConcentrationGate()
 ```
+Activates the Apocalypse Bird event and makes the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay). Also, registers the birds with Entrance and tells the birds to navigate to it.
+
 
 ### MakeBirdObjects()
 
 ```csharp
 private void MakeBirdObjects()
 ```
+Makes the eggs for the battle. #INC
+
 
 ### MakeMovementRandom()
 
 ```csharp
 public void MakeMovementRandom()
 ```
+Moves to a random main room #verify #INC .
+
 
 ### MakeMovementToEgg(BossEggBase)
 
 ```csharp
 public void MakeMovementToEgg(BossEggBase script)
 ```
+Moves to the center of the room of the given egg, then plays the teleport animation #verify .
+
 
 #### Parameters
 
@@ -1334,6 +1569,8 @@ public void MakeMovementToEgg(BossEggBase script)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+Plays the sound at the given source (to play once). Attaches itself to the camera #INC .
+
 
 #### Parameters
 
@@ -1350,6 +1587,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
+Plays the sound at the given source (to loop). Attaches itself to the camera #INC .
+
 
 #### Parameters
 
@@ -1366,6 +1605,8 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public void MoveToNode(MapNode node)
 ```
+Moves the model to the given node.
+
 
 #### Parameters
 
@@ -1378,6 +1619,8 @@ public void MoveToNode(MapNode node)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+Stops playing its sounds and tells the animator to play the death animation.
+
 
 #### Returns
 
@@ -1388,12 +1631,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 private void OnAllBirdArrived()
 ```
+Informs each bird that the boss has started and calls AfterAppearNarration...
+
 
 ### OnBirdArrived(IBirdControl)
 
 ```csharp
 public void OnBirdArrived(IBirdControl bird)
 ```
+Plays narration when a bird arrives at the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay), including when all birds have arrived. If all birds have arrived, calls OnAllBirdArrived (which will start the event) and makes the eggs for the event.
+
 
 #### Parameters
 
@@ -1406,18 +1653,28 @@ public void OnBirdArrived(IBirdControl bird)
 ```csharp
 private void OnBirdArrivedEndNarration()
 ```
+Sets a flag indicating narration is not happening.
+
 
 ### OnBirdArrivedStartNarration()
 
 ```csharp
 private void OnBirdArrivedStartNarration()
 ```
+Sets a flag indicating narration is happening.
+
 
 ### OnBirdEscape(LongBird, SmallBird, BigBird)
 
 ```csharp
 public void OnBirdEscape(LongBird longBird, SmallBird small, BigBird big)
 ```
+Listens for birds escaping, and if needed, starts the event.
+###### More details
+If the event is already happening, does nothing. Otherwise, removes any birds which aren't escaping, and adds the newly escaped birds to the list of escaped birds.
+
+If there are at least two birds breaching, and the Twilight EGO is not in the facility, starts the event. This displays starting narration and marks all birds as not yet arrived. When the narration ends, calls MakeBirdConcentrationGate, which spawns the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
+
 
 #### Parameters
 
@@ -1432,6 +1689,8 @@ public void OnBirdEscape(LongBird longBird, SmallBird small, BigBird big)
 ```csharp
 public void OnCannotUsePlaySpeedSetting(int id)
 ```
+Logs a debug message.
+
 
 #### Parameters
 
@@ -1444,12 +1703,16 @@ public void OnCannotUsePlaySpeedSetting(int id)
 ```csharp
 public void OnCastingEnd()
 ```
+#INC
+
 
 ### OnEggBreakDown(BossEggBase)
 
 ```csharp
 public void OnEggBreakDown(BossEggBase eggScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1462,6 +1725,8 @@ public void OnEggBreakDown(BossEggBase eggScript)
 ```csharp
 public void OnEggHalfDamage(BossEggBase eggScript)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1474,6 +1739,16 @@ public void OnEggHalfDamage(BossEggBase eggScript)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+Makes sure the unit corresponds to whether Apocalypse Bird is active, then if not active, stops checking anything.
+
+If active, checks to see if any agents need to take encounter fear damage..
+
+If the force-teleport timer is done, there is an active egg that wants to be teleported to, and Apocalypse Bird is idle, activates the force-teleport.
+Otherwise, if the normal teleport is ready and Apocalypse Bird is idle, teleports normally.
+
+If not teleporting, checks to see which attack or pattern should happen. If doing a bite attack and the attack has fired, applies damage.
+If the cooldown for the normal attack is done, does a normal attack; otherwise, if the cooldown for the 'special pattern' #INC is done, does the special pattern.
+
 
 #### Parameters
 
@@ -1486,6 +1761,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnGateWaySuppressed()
 ```
+Ends the event early and informs all birds that the event is over.
+
 
 ### OnLaserParticleArrived(LaserAttackTargetData)
 
@@ -1517,24 +1794,32 @@ private void OnSetPhase(BossBird.Phase p, bool isDifferentWithPrevious)
 ```csharp
 public override void OnStageEnd()
 ```
+Calls base's OnStageRelease #weird #verify  and sets the instances of the birds to null.
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+Calls base and resets its parameters.
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+Wakes up any workers controlled by Big Bird's effect, tells each bird Apocalypse Bird has been suppressed, sets some animation thing #INC , and gives every living and controllable agent the EGO Gift Twilight.
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+Registers the [CreatureUnit](/api/Global/Unit/CreatureUnit) belonging to Apocalypse Bird #verify , sets the animator and a method to call at half health #inc, and unlocks all of its observation data.
+
 
 #### Parameters
 
@@ -1547,6 +1832,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnWorkerWakeUp(WorkerModel worker)
 ```
+Removes the given worker from the list of workers attracted by Big Bird's ability.
+
 
 #### Parameters
 
@@ -1559,18 +1846,32 @@ public void OnWorkerWakeUp(WorkerModel worker)
 ```csharp
 public void OpenBossBirdCollection()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+Resets most state.
+
+Resets:
+- The list of escaped birds
+- The current attack
+- The current teleport destination
+- The list of living eggs
+- Readiness for force-teleport, normal teleport, normal attack, patternReady #INC
+- Other current state (activateState #INC , teleporting, using a special attack #INC , force-teleport destination)
+
 
 ### PrevTeleport(MapNode)
 
 ```csharp
 public void PrevTeleport(MapNode targetNode)
 ```
+Tells the animation script Apocalypse Bird is teleporting, and sets some internal flags. Also, plays a noise called 'move'.
+
 
 #### Parameters
 
@@ -1583,18 +1884,24 @@ public void PrevTeleport(MapNode targetNode)
 ```csharp
 private void ScaleCastingSuccess()
 ```
+#INC
+
 
 ### ScalePattern()
 
 ```csharp
 public void ScalePattern()
 ```
+#INC
+
 
 ### SetBirds(LongBird, SmallBird, BigBird)
 
 ```csharp
 public void SetBirds(LongBird longBird, SmallBird smallBird, BigBird bigBird)
 ```
+Registers all of the birds with Apocalypse Bird, and Apocalypse Bird with all of the birds.
+
 
 #### Parameters
 
@@ -1609,6 +1916,8 @@ public void SetBirds(LongBird longBird, SmallBird smallBird, BigBird bigBird)
 ```csharp
 public override bool SetCastingSlider(Slider castingSlider)
 ```
+Does some stuff that shouldn't matter. #verify
+
 
 #### Parameters
 
@@ -1625,6 +1934,10 @@ public override bool SetCastingSlider(Slider castingSlider)
 ```csharp
 public void SetCreatureActivateState(bool state)
 ```
+Sets Apocalypse Bird's activeness to the provided state.
+###### More details
+Sets the active state of the game object and its movable node to the provided state. Also, sets Apocalypse Bird's active state and the model's active state to match. Also, sets the current phase to IDLE or NOTACTIVATED when state is true or false, respectively.
+
 
 #### Parameters
 
@@ -1637,6 +1950,8 @@ public void SetCreatureActivateState(bool state)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+Sets the model to the given model.
+
 
 #### Parameters
 
@@ -1649,6 +1964,8 @@ public override void SetModel(CreatureModel model)
 ```csharp
 private void SetPassageAlpha(bool isDark)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1661,6 +1978,8 @@ private void SetPassageAlpha(bool isDark)
 ```csharp
 private void StartBirdMoveToNode(MapNode dest)
 ```
+Tells all birds to navigate to the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
+
 
 #### Parameters
 
@@ -1673,18 +1992,24 @@ private void StartBirdMoveToNode(MapNode dest)
 ```csharp
 public void StartMeleeAttack()
 ```
+Chooses a random target in range, faces towards them, and attacks.
+
 
 ### StartRangeAttack()
 
 ```csharp
 public void StartRangeAttack()
 ```
+#INC
+
 
 ### StartUltShoot(MapNode)
 
 ```csharp
 private void StartUltShoot(MapNode destNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1697,24 +2022,32 @@ private void StartUltShoot(MapNode destNode)
 ```csharp
 public void StopMovement()
 ```
+Stops moving.
+
 
 ### TakeUltDamage()
 
 ```csharp
 public void TakeUltDamage()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 public void Teleport()
 ```
+Teleports to the current destination and clears it. Randomly faces left or right.
+
 
 ### TryMakeEquip(int)
 
 ```csharp
 private void TryMakeEquip(int id)
 ```
+If the given EGO doesn't already exist, makes it.
+
 
 #### Parameters
 
@@ -1727,12 +2060,16 @@ private void TryMakeEquip(int id)
 ```csharp
 private void TryMakeEquipments()
 ```
+Attempts to make the Twilight EGO Weapon and Suit, and unlocks all of Apocalypse Bird's information. #uses-id
+
 
 ### WakeUpWorker(WorkerModel)
 
 ```csharp
 public void WakeUpWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 

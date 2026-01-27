@@ -12,6 +12,12 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateDoor
 public class CreatureGenerateDoor : CreatureGenerateData
 ```
 
+Code for choosing the creature behind each door during abnormality extraction.
+
+Randomly chooses the grade based on the CreatureGenInfo resource, then randomly chooses an abnormality from the list of viable abnormalities of that grade.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureGenerateData](/api/CreatureGenerate/CreatureGenerateData) → CreatureGenerateDoor
 
@@ -25,6 +31,8 @@ public class CreatureGenerateDoor : CreatureGenerateData
 ```csharp
 public CreatureGenerateDoor()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +41,8 @@ public CreatureGenerateDoor()
 ```csharp
 public long Creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +53,8 @@ public long Creature
 ```csharp
 public static bool[] initialState
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +65,8 @@ public static bool[] initialState
 ```csharp
 public const int MAX = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +77,8 @@ public const int MAX = 5
 ```csharp
 public float[] prob
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +89,8 @@ public float[] prob
 ```csharp
 public bool[] probState
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +101,8 @@ public bool[] probState
 ```csharp
 public static readonly float[] zeroAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +127,16 @@ public float TotalProb { get; }
 ```csharp
 public void CheckProb()
 ```
+#INC
+
 
 ### GetList(int)
 
 ```csharp
 public ActivateStateList GetList(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +153,8 @@ public ActivateStateList GetList(int i)
 ```csharp
 public override void OnlyAction(params object[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,6 +167,8 @@ public override void OnlyAction(params object[] ids)
 ```csharp
 public static CreatureGenerateDoor Parse(string parsed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,12 +185,17 @@ public static CreatureGenerateDoor Parse(string parsed)
 ```csharp
 public void Print()
 ```
+#INC
+
 
 ### RemoveAction(params object[])
 
 ```csharp
 public override void RemoveAction(params object[] ids)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -175,3 +208,5 @@ public override void RemoveAction(params object[] ids)
 ```csharp
 public void SetCreature()
 ```
+#INC
+

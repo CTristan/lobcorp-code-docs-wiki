@@ -12,6 +12,11 @@ canonical_path: /api/Global/Collider/YinAndYangDragonCollider
 public class YinAndYangDragonCollider : MonoBehaviour
 ```
 
+Collider script for [Yin and Yang](/api/Global/Misc/YinAndYangBase)'s dragon attack.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → YinAndYangDragonCollider
 
@@ -33,6 +38,9 @@ public YinAndYangDragonCollider()
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/DeadEffect/WorkerPartRenderer
 ```csharp
 public class WorkerPartRenderer : MonoBehaviour
 ```
+Parent class for worker part rendering (for dead bodies)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerPartRenderer
@@ -36,6 +38,8 @@ public WorkerPartRenderer()
 ```csharp
 public bool FixRotation
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,12 +52,17 @@ public bool FixRotation
 ```csharp
 public virtual void SetState()
 ```
+#INC
+
 
 ### SetWorker(WorkerModel, bool)
 
 ```csharp
 public virtual void SetWorker(WorkerModel worker, bool flag = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -67,9 +76,13 @@ public virtual void SetWorker(WorkerModel worker, bool flag = false)
 ```csharp
 public virtual void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public virtual void Update()
 ```
+#INC
+

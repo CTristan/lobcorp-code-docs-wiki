@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BugMidnightAnim
 public class BugMidnightAnim : CreatureAnimScript
 ```
 
+Animation handler for [The Eternal Meal](/api/Global/Misc/BugMidnight).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BugMidnightAnim
 
@@ -33,6 +36,8 @@ public BugMidnightAnim()
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 private static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private static string[] animString
 ```csharp
 public GameObject appearEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public GameObject appearEffect
 ```csharp
 private bool appearPosSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private bool appearPosSet
 ```csharp
 private Timer appearTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private Timer appearTimer
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public GameObject center
 ```csharp
 public GameObject[] crators
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public GameObject[] crators
 ```csharp
 public List<GameObject> createEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +142,8 @@ private List<BugMidnightAnim.AgentControl> currentControls
 ```csharp
 private int currentEffectCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +154,8 @@ private int currentEffectCount
 ```csharp
 private BugMidnight.AnimationState currentState
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +166,8 @@ private BugMidnight.AnimationState currentState
 ```csharp
 private Vector2 defaultPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +178,8 @@ private Vector2 defaultPos
 ```csharp
 private SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,8 @@ private SoundEffectPlayer defaultSound
 ```csharp
 public GameObject disappearEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +202,8 @@ public GameObject disappearEffect
 ```csharp
 private bool disappearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +214,8 @@ private bool disappearEffectMake
 ```csharp
 private const float eatTime = 0.73333335
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +226,8 @@ private const float eatTime = 0.73333335
 ```csharp
 private Timer eatTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +238,8 @@ private Timer eatTimer
 ```csharp
 private const string effect_dust = "BugMidnightDustEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +250,8 @@ private const string effect_dust = "BugMidnightDustEffect"
 ```csharp
 private const string effectSrc = "Effect/Creature/BugMidnight/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +262,8 @@ private const string effectSrc = "Effect/Creature/BugMidnight/"
 ```csharp
 private bool enableControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +274,8 @@ private bool enableControl
 ```csharp
 private BugMidnight script
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +286,8 @@ private BugMidnight script
 ```csharp
 private const string soundPrefix = "RandomEvent/HordeOfBugs/Bug3_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +298,8 @@ private const string soundPrefix = "RandomEvent/HordeOfBugs/Bug3_"
 ```csharp
 private int spawnCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +310,8 @@ private int spawnCount
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +322,8 @@ public AudioSource src
 ```csharp
 private const float y_up = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +334,8 @@ private const float y_up = 0
 ```csharp
 public AnimationCurve yValueCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,18 +348,24 @@ public AnimationCurve yValueCurve
 ```csharp
 public void AppearEffect()
 ```
+#INC
+
 
 ### AttachHandler()
 
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -319,6 +378,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### HandleEvent(TrackEntry, Event)
 
@@ -338,6 +399,9 @@ public void HandleEvent(TrackEntry entry, Event e)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -348,6 +412,8 @@ public override bool HasDeadMotion()
 ```csharp
 private GameObject MakeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -364,36 +430,48 @@ private GameObject MakeEffect(string src)
 ```csharp
 public void OnAppear()
 ```
+#INC
+
 
 ### OnAppearEnd()
 
 ```csharp
 public void OnAppearEnd()
 ```
+#INC
+
 
 ### OnDisappear()
 
 ```csharp
 public void OnDisappear()
 ```
+#INC
+
 
 ### OnSpawn()
 
 ```csharp
 public void OnSpawn()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAnimation(AnimationState)
 
 ```csharp
 public void SetAnimation(BugMidnight.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,6 +484,8 @@ public void SetAnimation(BugMidnight.AnimationState animState)
 ```csharp
 public void SetAnimation(string state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -418,6 +498,8 @@ public void SetAnimation(string state)
 ```csharp
 public void SetAnimation(string state, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,6 +513,8 @@ public void SetAnimation(string state, bool loop)
 ```csharp
 public void SetScript(BugMidnight script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -443,6 +527,8 @@ public void SetScript(BugMidnight script)
 ```csharp
 private void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -467,6 +553,8 @@ public void StartDeadWorkerControl(List<BugMidnightAnim.AgentControl> targets)
 ```csharp
 public void StartEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 

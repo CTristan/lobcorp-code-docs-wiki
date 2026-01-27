@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/StageRewardTypeList
 ```csharp
 public class StageRewardTypeList
 ```
+Stores the LOB point reward for each day as a [StageRewardTypeInfo](/api/Global/Info/StageRewardTypeInfo).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StageRewardTypeList
@@ -25,6 +29,9 @@ public class StageRewardTypeList
 ```csharp
 private StageRewardTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private StageRewardTypeList()
 ```csharp
 private static StageRewardTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static StageRewardTypeList _instance
 ```csharp
 private List<StageRewardTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private List<StageRewardTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public bool loaded { get; }
 ```csharp
 public StageRewardTypeInfo GetData(int day)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +118,8 @@ public StageRewardTypeInfo GetData(int day)
 ```csharp
 public StageRewardTypeInfo[] GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -113,6 +130,8 @@ public StageRewardTypeInfo[] GetList()
 ```csharp
 public void Init(StageRewardTypeInfo[] list)
 ```
+#INC
+
 
 #### Parameters
 

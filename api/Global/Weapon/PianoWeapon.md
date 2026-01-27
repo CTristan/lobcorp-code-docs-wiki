@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/PianoWeapon
 public class PianoWeapon : EquipmentScriptBase
 ```
 
+Script for [Il Pianto della Luna](/api/Global/Misc/Piano)'s EGO Weapon: Moonlight.
+
+At a 15% chance, does a special attack which gives nearby employees a black [shield](/api/Global/UnitBuf/BarrierBuf) if it lands.
+
+The shield has a damage value of 50 (same as bullet shields) and has a lifetime of 7.5 seconds (half that of bullet shields) #verify.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → PianoWeapon
 
@@ -33,6 +40,8 @@ public PianoWeapon()
 ```csharp
 private bool _isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +54,8 @@ private bool _isSpecial
 ```csharp
 private void GiveBarrier()
 ```
+#INC
+
 
 ### OnAttackStart(UnitModel, UnitModel)
 
@@ -68,6 +79,9 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

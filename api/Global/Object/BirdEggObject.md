@@ -12,6 +12,13 @@ canonical_path: /api/Global/Object/BirdEggObject
 public class BirdEggObject : StandingItemScriptBase
 ```
 
+Unused version of the eggs for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
+
+See [BossEggBase](/api/Global/Misc/BossEggBase) for the used version
+
+#unused
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → BirdEggObject
 
@@ -33,6 +40,8 @@ public BirdEggObject()
 ```csharp
 private bool breakDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private bool breakDown
 ```csharp
 private bool halfActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private bool halfActivated
 ```csharp
 private SoundEffectPlayer sep
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,18 +90,24 @@ private BirdEggAnim animScript { get; }
 ```csharp
 public void ActivateAnimHalf()
 ```
+#INC
+
 
 ### ActivateScript()
 
 ```csharp
 public void ActivateScript()
 ```
+#INC
+
 
 ### GetName()
 
 ```csharp
 public override string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -99,6 +118,8 @@ public override string GetName()
 ```csharp
 public override bool HasName()
 ```
+#INC
+
 
 #### Returns
 
@@ -109,6 +130,8 @@ public override bool HasName()
 ```csharp
 public bool IsEnabled()
 ```
+#INC
+
 
 #### Returns
 
@@ -119,12 +142,17 @@ public bool IsEnabled()
 ```csharp
 public override void OnBreakDown()
 ```
+#INC
+
 
 ### OnTakePhyisclaDamage(float)
 
 ```csharp
 public override void OnTakePhyisclaDamage(float damage)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -137,6 +165,8 @@ public override void OnTakePhyisclaDamage(float damage)
 ```csharp
 public void SetSound(SoundEffectPlayer sep)
 ```
+#INC
+
 
 #### Parameters
 

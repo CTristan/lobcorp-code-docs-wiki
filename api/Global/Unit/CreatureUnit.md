@@ -12,6 +12,11 @@ canonical_path: /api/Global/Unit/CreatureUnit
 public class CreatureUnit : MonoBehaviour, IMouseOnSelectListener, IMouseCommandTarget
 ```
 
+An abnormality or ordeal as it appears in-game (in particular, when breaching).
+See also [CreatureModel](/api/Global/Model/CreatureModel) for abnormalities more generally and [CreatureBase](/api/Global/Creature/CreatureBase) for their scripts.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureUnit
 
@@ -39,6 +44,8 @@ public CreatureUnit()
 ```csharp
 public UnitMouseEventTarget _unitMouseEventTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ public UnitMouseEventTarget _unitMouseEventTarget
 ```csharp
 public CreatureAnimScript animTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ public CreatureAnimScript animTarget
 ```csharp
 public Image cameraSensingArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +90,8 @@ public CreatureUnit.SliderColorSet casting
 ```csharp
 public Slider castingSlider
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +102,8 @@ public Slider castingSlider
 ```csharp
 public Canvas currentCreatureCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +135,8 @@ public Text debugText
 ```csharp
 public UnitMouseEventTarget defaultMouseTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -141,6 +158,8 @@ public CreatureUnit.SliderColorSet defHp
 ```csharp
 protected Vector3 directionScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -151,6 +170,8 @@ protected Vector3 directionScaleFactor
 ```csharp
 public Text escapeCreatureName
 ```
+#INC
+
 
 #### Field Value
 
@@ -161,6 +182,8 @@ public Text escapeCreatureName
 ```csharp
 public Text escapeRisk
 ```
+#INC
+
 
 #### Field Value
 
@@ -182,6 +205,8 @@ public GameObject escapeUIRoot
 ```csharp
 public Image hpBg
 ```
+#INC
+
 
 #### Field Value
 
@@ -192,6 +217,8 @@ public Image hpBg
 ```csharp
 public Image hpFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -202,6 +229,8 @@ public Image hpFill
 ```csharp
 public Slider hpSlider
 ```
+#INC
+
 
 #### Field Value
 
@@ -212,6 +241,8 @@ public Slider hpSlider
 ```csharp
 public CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -222,6 +253,8 @@ public CreatureModel model
 ```csharp
 private Vector2 oldScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -232,6 +265,8 @@ private Vector2 oldScale
 ```csharp
 protected CreatureState oldState
 ```
+#INC
+
 
 #### Field Value
 
@@ -242,6 +277,8 @@ protected CreatureState oldState
 ```csharp
 public GameObject returnObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -252,6 +289,8 @@ public GameObject returnObject
 ```csharp
 public SpriteRenderer returnSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -262,6 +301,8 @@ public SpriteRenderer returnSpriteRenderer
 ```csharp
 public IsolateRoom room
 ```
+#INC
+
 
 #### Field Value
 
@@ -272,6 +313,8 @@ public IsolateRoom room
 ```csharp
 protected Vector3 scaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -282,6 +325,8 @@ protected Vector3 scaleFactor
 ```csharp
 public bool scaleSetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -292,6 +337,8 @@ public bool scaleSetting
 ```csharp
 public CreatureSpeech speech
 ```
+#INC
+
 
 #### Field Value
 
@@ -302,6 +349,8 @@ public CreatureSpeech speech
 ```csharp
 protected Vector3 viewPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -312,6 +361,8 @@ protected Vector3 viewPosition
 ```csharp
 protected bool visible
 ```
+#INC
+
 
 #### Field Value
 
@@ -324,18 +375,24 @@ protected bool visible
 ```csharp
 public virtual void Awake()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetCommandTargetModel()
 
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -346,6 +403,8 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public Vector3 GetScaleFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -356,6 +415,8 @@ public Vector3 GetScaleFactor()
 ```csharp
 public bool IsSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -366,18 +427,24 @@ public bool IsSelectable()
 ```csharp
 public virtual void LateUpdate()
 ```
+#INC
+
 
 ### OnChangeState()
 
 ```csharp
 public virtual void OnChangeState()
 ```
+#INC
+
 
 ### OnClickByRoom(PointerEventData)
 
 ```csharp
 public void OnClickByRoom(PointerEventData pData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,36 +457,48 @@ public void OnClickByRoom(PointerEventData pData)
 ```csharp
 public void OnClickCollectionFunc()
 ```
+#INC
+
 
 ### OnClicked()
 
 ```csharp
 public void OnClicked()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnSelect()
 
 ```csharp
 public void OnSelect()
 ```
+#INC
+
 
 ### OnUnselect()
 
 ```csharp
 public void OnUnselect()
 ```
+#INC
+
 
 ### PlaySound(string)
 
 ```csharp
 public SoundEffectPlayer PlaySound(string soundKey)
 ```
+#INC
+
 
 #### Parameters
 
@@ -436,6 +515,8 @@ public SoundEffectPlayer PlaySound(string soundKey)
 ```csharp
 public SoundEffectPlayer PlaySound(string soundKey, AudioRolloffMode mode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -453,6 +534,8 @@ public SoundEffectPlayer PlaySound(string soundKey, AudioRolloffMode mode)
 ```csharp
 public SoundEffectPlayer PlaySound(string soundKey, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -470,6 +553,8 @@ public SoundEffectPlayer PlaySound(string soundKey, float volume)
 ```csharp
 public SoundEffectPlayer PlaySoundLoop(string soundKey)
 ```
+#INC
+
 
 #### Parameters
 
@@ -486,6 +571,8 @@ public SoundEffectPlayer PlaySoundLoop(string soundKey)
 ```csharp
 public SoundEffectPlayer PlaySoundLoop(string soundKey, float volume)
 ```
+#INC
+
 
 #### Parameters
 
@@ -503,6 +590,8 @@ public SoundEffectPlayer PlaySoundLoop(string soundKey, float volume)
 ```csharp
 public SoundEffectPlayer PlaySoundMono(string soundKey)
 ```
+#INC
+
 
 #### Parameters
 
@@ -519,18 +608,24 @@ public SoundEffectPlayer PlaySoundMono(string soundKey)
 ```csharp
 public void ReleaseFog()
 ```
+#INC
+
 
 ### ResetAnimatorTransform()
 
 ```csharp
 public void ResetAnimatorTransform()
 ```
+#INC
+
 
 ### SetRoomFog(float)
 
 ```csharp
 public void SetRoomFog(float alpha)
 ```
+#INC
+
 
 #### Parameters
 
@@ -543,6 +638,8 @@ public void SetRoomFog(float alpha)
 ```csharp
 public void SetRoomFog(float alpha, float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -556,6 +653,8 @@ public void SetRoomFog(float alpha, float time)
 ```csharp
 public void SetScaleFactor(float x, float y, float z)
 ```
+#INC
+
 
 #### Parameters
 
@@ -582,39 +681,53 @@ public void SetSliderColor(CreatureUnit.SliderColorSet set)
 ```csharp
 public void SpecialSkill()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 public virtual void Start()
 ```
+#INC
+
 
 ### TempUpdateViewPos()
 
 ```csharp
 public void TempUpdateViewPos()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public virtual void Update()
 ```
+#INC
+
 
 ### UpdateDirection()
 
 ```csharp
 protected virtual void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateScale()
 
 ```csharp
 protected virtual void UpdateScale()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 protected virtual void UpdateViewPosition()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/DummyCreatureAnim
 public class DummyCreatureAnim : CreatureAnimScript
 ```
 
+Animation handler for [Standard Training-Dummy Rabbit](/api/Global/Creature/DummyCreature).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → DummyCreatureAnim
 
@@ -33,21 +36,30 @@ public DummyCreatureAnim()
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### Kill()
 
 ```csharp
 private void Kill()
 ```
+#INC
+
 
 ### Move()
 
 ```csharp
 public override void Move()
 ```
+#INC
+#code-generated
+
 
 ### Stop()
 
 ```csharp
 public override void Stop()
 ```
+#INC
+

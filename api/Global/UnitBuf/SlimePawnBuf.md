@@ -12,6 +12,17 @@ canonical_path: /api/Global/UnitBuf/SlimePawnBuf
 public class SlimePawnBuf : UnitBuf
 ```
 
+Buff given to [Melting Love](/api/Global/Misc/SlimeGirl)'s infected employees (for her favorite, see [SlimeLoverBuf](/api/Global/UnitBuf/SlimeLoverBuf)).
+
+Applies an effect to the worker's face #verify which changes after 80% of the transform timer (see below).
+
+Recovers 10 SP every 5 seconds #verify .
+
+After some time randomly between 100 and 120 seconds, applies the [SlimeTransformBuf](/api/Global/UnitBuf/SlimeTransformBuf) to this worker.
+
+If another worker is within 1 unit, randomly infects them at a 25% chance with this buff and plays an effect.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlimePawnBuf
 
@@ -25,6 +36,8 @@ public class SlimePawnBuf : UnitBuf
 ```csharp
 public SlimePawnBuf(WorkerModel worker, SlimeGirl script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +53,8 @@ public SlimePawnBuf(WorkerModel worker, SlimeGirl script)
 ```csharp
 private const float _mentalHealMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +65,8 @@ private const float _mentalHealMax = 10
 ```csharp
 private const float _mentalHealMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +77,8 @@ private const float _mentalHealMin = 10
 ```csharp
 private const float _transformTimeMax = 120
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +89,8 @@ private const float _transformTimeMax = 120
 ```csharp
 private const float _transformTimeMin = 100
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +101,8 @@ private const float _transformTimeMin = 100
 ```csharp
 private const float CHANGE_FACE_RATE = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +123,8 @@ private Dictionary<WorkerModel, SlimePawnBuf.InfestCheckInfo> checkDic
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +135,8 @@ private GameObject effect
 ```csharp
 private static Vector3 EFFECT_POS_AGENT
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +147,8 @@ private static Vector3 EFFECT_POS_AGENT
 ```csharp
 private static Vector3 EFFECT_POS_OFFICER
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +159,8 @@ private static Vector3 EFFECT_POS_OFFICER
 ```csharp
 private const string EFFECT_SPRITE_SRC = "Sprites/CreatureSprite/SlimeGirl/SlimePawnBuf"
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +171,8 @@ private const string EFFECT_SPRITE_SRC = "Sprites/CreatureSprite/SlimeGirl/Slime
 ```csharp
 private const string FACE_COLOR = "#CE6767FF"
 ```
+#INC
+
 
 #### Field Value
 
@@ -150,6 +183,8 @@ private const string FACE_COLOR = "#CE6767FF"
 ```csharp
 private bool faceChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +195,8 @@ private bool faceChanged
 ```csharp
 private const float INFEST_DIST = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -170,6 +207,8 @@ private const float INFEST_DIST = 1
 ```csharp
 private const float INFEST_PROB = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,6 +219,8 @@ private const float INFEST_PROB = 0.25
 ```csharp
 private const float MENTAL_HEAL_TIME = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -190,6 +231,8 @@ private const float MENTAL_HEAL_TIME = 5
 ```csharp
 private Timer mentalHealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -200,6 +243,8 @@ private Timer mentalHealTimer
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -210,6 +255,8 @@ private SlimeGirl script
 ```csharp
 private Timer transformTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -220,6 +267,8 @@ private Timer transformTimer
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -254,12 +303,16 @@ private static float TransformTime { get; }
 ```csharp
 private void ChangeFace()
 ```
+#INC
+
 
 ### CheckInfest(WorkerModel)
 
 ```csharp
 private bool CheckInfest(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -276,18 +329,24 @@ private bool CheckInfest(WorkerModel target)
 ```csharp
 public void CheckNearWorker()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Infest(WorkerModel)
 
 ```csharp
 private void Infest(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -300,6 +359,9 @@ private void Infest(WorkerModel target)
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -312,15 +374,21 @@ public override void Init(UnitModel model)
 ```csharp
 private void MentalHeal()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### Transform()
 
 ```csharp
 public void Transform()
 ```
+#INC
+

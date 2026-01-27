@@ -11,6 +11,10 @@ canonical_path: /api/Global/UI/OfficerUnitUI
 ```csharp
 public class OfficerUnitUI
 ```
+Displays the [clerk](/api/Global/Worker/OfficerUnit)'s name above it.
+
+Holds name.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OfficerUnitUI
@@ -33,6 +37,9 @@ public OfficerUnitUI()
 ```csharp
 public Text Name
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

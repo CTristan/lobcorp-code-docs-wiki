@@ -11,6 +11,8 @@ canonical_path: /api/Manual/LabelData
 ```csharp
 public class LabelData
 ```
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LabelData
@@ -33,6 +35,8 @@ public LabelData()
 ```csharp
 public int globalFontSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public int globalFontSize
 ```csharp
 public float globalHeight
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +79,8 @@ public LabelData.PrefixType prefix
 ```csharp
 public Rect rect
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +91,8 @@ public Rect rect
 ```csharp
 public float space
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +147,9 @@ public float y { get; set; }
 ```csharp
 public static LabelData Parse(string idPrefix, XmlNode node)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

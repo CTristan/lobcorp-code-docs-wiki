@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/ResearchUpgradeInfo
 ```csharp
 public class ResearchUpgradeInfo
 ```
+Holds information about the research to upgrade with this.
+
+Loaded by [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader), used by [ResearchDataModel](/api/Global/Model/ResearchDataModel) primarily #verify.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchUpgradeInfo
@@ -33,6 +37,8 @@ public ResearchUpgradeInfo()
 ```csharp
 public ResearchUnitStatUpgrade agentStatBonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public ResearchUnitStatUpgrade agentStatBonus
 ```csharp
 public ResearchBulletAbility bulletAility
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,9 @@ public ResearchBulletAbility bulletAility
 ```csharp
 public int cost
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int cost
 ```csharp
 public ResearchDepartability departAbility
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public ResearchDepartability departAbility
 ```csharp
 public ResearchPromotionEasily promotionEasily
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public ResearchPromotionEasily promotionEasily
 ```csharp
 public ResearchSpecialAbility specialAbility
 ```
+#INC
+
 
 #### Field Value
 

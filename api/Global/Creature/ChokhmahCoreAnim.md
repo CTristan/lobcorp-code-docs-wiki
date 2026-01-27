@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ChokhmahCoreAnim
 public class ChokhmahCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Hokma](/api/Global/Script/ChokhmahCoreScript) in [his core suppression](/api/Global/Misc/ChokhmahBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ChokhmahCoreAnim
 
@@ -36,6 +39,8 @@ public ChokhmahCoreAnim()
 ```csharp
 private ChokhmahCoreScript _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private ChokhmahCoreScript _script
 ```csharp
 public AnimationCurve destroyCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public AnimationCurve destroyCurve
 ```csharp
 public Transform middlePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public Transform middlePivot
 ```csharp
 public float startEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +111,9 @@ public ChokhmahCoreScript Script { get; }
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -110,18 +124,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void OnChangePhase()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAnimSpeed(float)
 
 ```csharp
 public void SetAnimSpeed(float speed)
 ```
+#INC
+
 
 #### Parameters
 
@@ -134,6 +154,8 @@ public void SetAnimSpeed(float speed)
 ```csharp
 public void SetScript(ChokhmahCoreScript script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -146,3 +168,5 @@ public void SetScript(ChokhmahCoreScript script)
 ```csharp
 public void Update()
 ```
+#INC
+

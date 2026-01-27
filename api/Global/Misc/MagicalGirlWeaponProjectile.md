@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/MagicalGirlWeaponProjectile
 public class MagicalGirlWeaponProjectile : MonoBehaviour
 ```
 
+Projectile for [In the Name of Love and Hate (weapon)](/api/Global/Weapon/MagicalGirlWeapon).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MagicalGirlWeaponProjectile
 
@@ -33,6 +37,8 @@ public MagicalGirlWeaponProjectile()
 ```csharp
 private const string _dmgEffectSrc = "Effect/Creature/MagicalGirl/MagicalGirlDamageEffect_Hero"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private const string _dmgEffectSrc = "Effect/Creature/MagicalGirl/MagicalGirlDam
 ```csharp
 public Transform _effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Transform _effect
 ```csharp
 private const float _effectSpeed = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private const float _effectSpeed = 5
 ```csharp
 public float dir
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public float dir
 ```csharp
 private List<UnitModel> done
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private List<UnitModel> done
 ```csharp
 public bool isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public bool isEnabled
 ```csharp
 public Vector3 target
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public Vector3 target
 ```csharp
 public RwbpType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,8 @@ public RwbpType type
 ```csharp
 public MagicalGirlWeapon script { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -127,12 +149,17 @@ public MagicalGirlWeapon script { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckUnit(UnitModel)
 
 ```csharp
 private void CheckUnit(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +172,8 @@ private void CheckUnit(UnitModel unit)
 ```csharp
 public void CollisionCheck(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -157,6 +186,8 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 public void Destroy()
 ```
+#INC
+
 
 ### FixedUpdate()
 

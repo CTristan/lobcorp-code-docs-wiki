@@ -11,6 +11,9 @@ canonical_path: /api/WorkerSpine/WorkerSpineAnimatorManager
 ```csharp
 public class WorkerSpineAnimatorManager
 ```
+For loading and getting spine animations?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpineAnimatorManager
@@ -33,6 +36,8 @@ public WorkerSpineAnimatorManager()
 ```csharp
 private static WorkerSpineAnimatorManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static WorkerSpineAnimatorManager _instance
 ```csharp
 private bool _isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ public static WorkerSpineAnimatorData basicspecial
 ```csharp
 private Dictionary<int, WorkerSpineAnimatorData> idDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ private Dictionary<int, WorkerSpineAnimatorData> idDic
 ```csharp
 private Dictionary<string, WorkerSpineAnimatorData> nameDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -221,6 +232,8 @@ public void GetClipInfo(WorkerSpineAnimatorData workerSpineAnimatorData)
 ```csharp
 public WorkerSpineAnimatorData GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -237,6 +250,8 @@ public WorkerSpineAnimatorData GetData(int id)
 ```csharp
 public WorkerSpineAnimatorData GetData(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,6 +268,8 @@ public WorkerSpineAnimatorData GetData(string name)
 ```csharp
 public bool GetDataWithCheck(int id, out WorkerSpineAnimatorData output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,6 +287,8 @@ public bool GetDataWithCheck(int id, out WorkerSpineAnimatorData output)
 ```csharp
 public bool GetDataWithCheck(string name, out WorkerSpineAnimatorData output)
 ```
+#INC
+
 
 #### Parameters
 
@@ -287,6 +306,9 @@ public bool GetDataWithCheck(string name, out WorkerSpineAnimatorData output)
 ```csharp
 public void Init(List<WorkerSpineAnimatorData> data)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

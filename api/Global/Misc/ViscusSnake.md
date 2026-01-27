@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ViscusSnake
 public class ViscusSnake : CreatureBase
 ```
 
+The Naked Nest.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ViscusSnake
 
@@ -33,6 +38,8 @@ public ViscusSnake()
 ```csharp
 private const string _defaultSound = "creature/ViscusSnake/GutSnake_Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const string _defaultSound = "creature/ViscusSnake/GutSnake_Default"
 ```csharp
 private Timer _defaultSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _defaultSoundTimer
 ```csharp
 private const int _infectionProb = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _infectionProb = 30
 ```csharp
 public const string _infestedSound = "creature/ViscusSnake/Infest_Gas"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public const string _infestedSound = "creature/ViscusSnake/Infest_Gas"
 ```csharp
 private Timer _skillActivateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Timer _skillActivateTimer
 ```csharp
 private const string DebugPrefix = "<color=#AAFFAA>[ViscusSnake]</color> "
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const string DebugPrefix = "<color=#AAFFAA>[ViscusSnake]</color> "
 ```csharp
 public const string InfectSound = "creature/ViscusSnake/Infest_Change"
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public const string InfectSound = "creature/ViscusSnake/Infest_Change"
 ```csharp
 private Vector3 originalScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private Vector3 originalScale
 ```csharp
 private static int[] Result_ProbValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private static int[] Result_ProbValue
 ```csharp
 public const float SkillActivateTime = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +192,8 @@ private IsolateFilter Filter { get; }
 ```csharp
 public bool CheckInfection(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +210,8 @@ public bool CheckInfection(WorkerModel worker)
 ```csharp
 private int GetSkillProb(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +228,8 @@ private int GetSkillProb(UseSkill skill)
 ```csharp
 public void InfestAgent(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +242,8 @@ public void InfestAgent(WorkerModel worker)
 ```csharp
 private bool IsSkillActivated(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,6 +260,8 @@ private bool IsSkillActivated(UseSkill skill)
 ```csharp
 public static void Log(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +274,8 @@ public static void Log(string text)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -255,6 +292,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +306,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +320,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +334,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,12 +348,16 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 private void OnSkillActivateTimerExpired()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,12 +370,17 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -339,15 +393,21 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetFilterAlpha()
 
 ```csharp
 private void SetFilterAlpha()
 ```
+#INC
+
 
 ### SetFilterScale()
 
 ```csharp
 private void SetFilterScale()
 ```
+#INC
+

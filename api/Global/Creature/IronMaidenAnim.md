@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/IronMaidenAnim
 public class IronMaidenAnim : CreatureAnimScript
 ```
 
+Animation handler for [We Can Change Anything](/api/Global/Misc/IronMaiden).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → IronMaidenAnim
 
@@ -33,6 +38,8 @@ public IronMaidenAnim()
 ```csharp
 public IronMaidenAnimEventHandler _animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public IronMaidenAnimEventHandler _animEventHandler
 ```csharp
 private Object _cleanEffectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Object _cleanEffectPrefab
 ```csharp
 private Object _effectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Object _effectPrefab
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private SpineOptimizerModule _module
 ```csharp
 private Object _mystEffectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Object _mystEffectPrefab
 ```csharp
 private const string _SOUNDS_SRC = "creature/IronMaiden/Iron_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const string _SOUNDS_SRC = "creature/IronMaiden/Iron_"
 ```csharp
 private GameObject curAgentObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private GameObject curAgentObj
 ```csharp
 public SkeletonPartsRenderer left
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public SkeletonPartsRenderer left
 ```csharp
 public SkeletonPartsRenderer right
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,48 +148,65 @@ public SkeletonPartsRenderer right
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CompleteGenerating()
 
 ```csharp
 public void CompleteGenerating()
 ```
+#INC
+
 
 ### LockAgent()
 
 ```csharp
 private void LockAgent()
 ```
+#INC
+
 
 ### MakeCleanEffect()
 
 ```csharp
 private void MakeCleanEffect()
 ```
+#INC
+
 
 ### MakeEffect()
 
 ```csharp
 private void MakeEffect()
 ```
+#INC
+
 
 ### MakeMystEffect()
 
 ```csharp
 private void MakeMystEffect()
 ```
+#INC
+
 
 ### PlayGenerateSound()
 
 ```csharp
 public void PlayGenerateSound()
 ```
+#INC
+
 
 ### positionFix()
 
 ```csharp
 private Vector3 positionFix()
 ```
+#INC
+
 
 #### Returns
 
@@ -177,6 +217,8 @@ private Vector3 positionFix()
 ```csharp
 public void SetModel(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +231,8 @@ public void SetModel(UnitModel model)
 ```csharp
 public void StartGeneratingEnergy(AgentUnit a)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,12 +245,16 @@ public void StartGeneratingEnergy(AgentUnit a)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateGeneratingLevel(int)
 
 ```csharp
 public void UpdateGeneratingLevel(int level)
 ```
+#INC
+
 
 #### Parameters
 

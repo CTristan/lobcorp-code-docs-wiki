@@ -11,6 +11,10 @@ canonical_path: /api/Global/Info/ObservePointInfo
 ```csharp
 public class ObservePointInfo
 ```
+Seems to keep track of observation 'success' and 'failure', escape count, etc... But this isn't used.
+
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObservePointInfo
@@ -33,6 +37,8 @@ public ObservePointInfo()
 ```csharp
 public int attackCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public int attackCount
 ```csharp
 public int escapeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public int escapeCount
 ```csharp
 public int failureCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public int failureCount
 ```csharp
 public int observationFailureCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public int observationFailureCount
 ```csharp
 public int specialAttackCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,9 @@ public int specialAttackCount
 ```csharp
 public int successCount
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public int successCount
 ```csharp
 public bool tempObservable
 ```
+#INC
+
 
 #### Field Value
 

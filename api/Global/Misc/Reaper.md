@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/Reaper
 public class Reaper : CreatureBase
 ```
 
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Reaper
 

@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/LumberjackWeapon
 public class LumberjackWeapon : EquipmentScriptBase
 ```
 
+Script for [Warm-Hearted Woodsman](/api/Global/Misc/Lumberjack)'s EGO Weapon: Logging. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LumberjackWeapon
 

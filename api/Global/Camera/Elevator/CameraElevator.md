@@ -11,6 +11,8 @@ canonical_path: /api/Global/Camera/Elevator/CameraElevator
 ```csharp
 public class CameraElevator : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CameraElevator
@@ -33,6 +35,8 @@ public CameraElevator()
 ```csharp
 public PlatformerCamera camera
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public PlatformerCamera camera
 ```csharp
 public static bool cameraZoomIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public static bool cameraZoomIn
 ```csharp
 public static bool cameraZoomOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public static bool cameraZoomOut
 ```csharp
 public static bool firstFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ public static bool firstFlag
 ```csharp
 public PlayerController player
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public PlayerController player
 ```csharp
 public static bool secondFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public static bool secondFlag
 ```csharp
 public float yPlus
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +121,8 @@ public float yPlus
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +135,8 @@ private void OnTriggerEnter2D(Collider2D coll)
 ```csharp
 private void OnTriggerExit2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,9 +149,14 @@ private void OnTriggerExit2D(Collider2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

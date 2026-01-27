@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/AgentLyrics
 ```csharp
 public class AgentLyrics
 ```
+Class for [agent](/api/Global/Worker/AgentUnit) yapping messages (and encounter/reaction text)
+
+See [AgentSpeech](/api/Global/Misc/AgentSpeech)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentLyrics
@@ -33,6 +37,8 @@ public AgentLyrics()
 ```csharp
 private static AgentLyrics _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +79,8 @@ public AgentLyrics.LyricCategory horrorLyrics
 ```csharp
 private bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +203,8 @@ public AgentLyrics.LyricList_old GetLyricByType(LyricType type)
 ```csharp
 public string GetLyricText(LyricTypeNew type, int level, RwbpType rwbp, int uniqueLyricIndex)
 ```
+#INC
+
 
 #### Parameters
 
@@ -244,6 +254,8 @@ public void InitLyrics(AgentLyrics.LyricCategory normal, AgentLyrics.LyricCatego
 ```csharp
 public bool IsLoaded()
 ```
+#INC
+
 
 #### Returns
 

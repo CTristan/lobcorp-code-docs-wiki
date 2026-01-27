@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/StatBonus
 ```csharp
 public class StatBonus
 ```
+Stores bonuses for each stat, presumably for hiring agents with higher stats than default.
+
+See [StatUI](/api/Customizing/StatUI)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StatBonus
@@ -33,6 +37,8 @@ public StatBonus()
 ```csharp
 public int bBonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public int bBonus
 ```csharp
 public int pBonus
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,9 @@ public int pBonus
 ```csharp
 public int rBonus
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public int rBonus
 ```csharp
 public int wBonus
 ```
+#INC
+
 
 #### Field Value
 

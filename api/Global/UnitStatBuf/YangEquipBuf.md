@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitStatBuf/YangEquipBuf
 public class YangEquipBuf : UnitStatBuf
 ```
 
+Buff given by equipping [Yang](/api/Global/Misc/Yang)... But all of its effects are handled by YangKit in Yang's script.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → YangEquipBuf
 
@@ -25,6 +30,8 @@ public class YangEquipBuf : UnitStatBuf
 ```csharp
 public YangEquipBuf()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,3 +40,6 @@ public YangEquipBuf()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerWeaponSprite
 public class WorkerWeaponSprite : WorkerEquipmentSprite
 ```
 
+Has a list of weapons and the associated sprites, and methods for grabbing them
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerEquipmentSprite](/api/WorkerSprite/WorkerEquipmentSprite) → WorkerWeaponSprite
 
@@ -43,6 +46,8 @@ public Dictionary<int, WorkerWeaponSprite.WeaponDatabase> database
 ```csharp
 public Dictionary<int, List<SpriteResourceLoadData>> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +60,8 @@ public Dictionary<int, List<SpriteResourceLoadData>> lib
 ```csharp
 public List<SpriteResourceLoadData> GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,3 +94,6 @@ public WorkerWeaponSprite.WeaponDatabase GetDb(int id)
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+

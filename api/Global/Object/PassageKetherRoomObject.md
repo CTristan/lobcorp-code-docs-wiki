@@ -12,6 +12,9 @@ canonical_path: /api/Global/Object/PassageKetherRoomObject
 public class PassageKetherRoomObject : PassageWayObject, IMouseCommandTarget, IMouseOnPointListener, IObserver
 ```
 
+Script for a room in Architecture. For changing the sprites on different days.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PassageObject](/api/Global/Object/PassageObject) → [PassageWayObject](/api/Global/Object/PassageWayObject) → PassageKetherRoomObject
 
@@ -36,6 +39,8 @@ public PassageKetherRoomObject()
 ```csharp
 private string backImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private string backImage
 ```csharp
 private string frameSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private string frameSrc
 ```csharp
 public SpriteRenderer ketherBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public SpriteRenderer ketherBackground
 ```csharp
 public SpriteRenderer ketherFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +89,8 @@ public SpriteRenderer ketherFrame
 ```csharp
 public void InitKetherImage(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,18 +103,25 @@ public void InitKetherImage(int level)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public override void OnNotice(string notice, params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

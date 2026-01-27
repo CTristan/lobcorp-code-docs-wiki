@@ -12,6 +12,11 @@ canonical_path: /api/Global/UncontrollableAction/PinkCorpsUncontrollable
 public class PinkCorpsUncontrollable : UncontrollableAction
 ```
 
+Uncontrollable action for employees affected by [Army in Black](/api/Global/IOBserver/PinkCorps)'s special work type.
+
+Sets the face to display pink eyes while active and removes control of the agent.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [HierarchicalData](/api/Global/Misc/HierarchicalData) → [UncontrollableAction](/api/Global/Action/UncontrollableAction) → PinkCorpsUncontrollable
 
@@ -25,6 +30,8 @@ public class PinkCorpsUncontrollable : UncontrollableAction
 ```csharp
 public PinkCorpsUncontrollable(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public PinkCorpsUncontrollable(WorkerModel worker)
 ```csharp
 private WorkerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,9 +60,14 @@ private WorkerModel model
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

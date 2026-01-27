@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MoveCreatureCommand
 public class MoveCreatureCommand : CreatureCommand
 ```
 
+Tells a creature to move to a target node.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureCommand](/api/Global/Misc/CreatureCommand) → MoveCreatureCommand
 
@@ -25,6 +30,8 @@ public class MoveCreatureCommand : CreatureCommand
 ```csharp
 public MoveCreatureCommand(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +44,8 @@ public MoveCreatureCommand(MapNode targetNode)
 ```csharp
 public MoveCreatureCommand(MovableObjectNode movableNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +60,8 @@ public MoveCreatureCommand(MovableObjectNode movableNode)
 ```csharp
 public MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ public MovableObjectNode targetMovable
 ```csharp
 public MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,15 +86,22 @@ public MapNode targetNode
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

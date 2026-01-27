@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/ManageCreatureAgentCommand
 public class ManageCreatureAgentCommand : WorkerCommand
 ```
 
+Commands an [agent](/api/Global/Worker/AgentUnit) to attack a target creature.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → ManageCreatureAgentCommand
 
@@ -25,6 +28,8 @@ public class ManageCreatureAgentCommand : WorkerCommand
 ```csharp
 public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel self, SkillTypeInfo skill, Sprite skillSprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,8 @@ public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel self,
 ```csharp
 public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel[] coopAgents, SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -56,6 +63,8 @@ public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel[] coo
 ```csharp
 private AgentModel[] coopAgents
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private AgentModel[] coopAgents
 ```csharp
 private SkillTypeInfo skill
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SkillTypeInfo skill
 ```csharp
 private Sprite skillSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private Sprite skillSprite
 ```csharp
 private CreatureModel targetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private CreatureModel targetCreature
 ```csharp
 private UseSkill useSkill
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private UseSkill useSkill
 ```csharp
 private bool waiting
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,12 +137,16 @@ private bool waiting
 ```csharp
 public void Cancle()
 ```
+#INC
+
 
 ### CheckStarting(AgentModel)
 
 ```csharp
 private void CheckStarting(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -136,18 +159,25 @@ private void CheckStarting(AgentModel agent)
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

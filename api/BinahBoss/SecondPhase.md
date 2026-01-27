@@ -12,6 +12,14 @@ canonical_path: /api/BinahBoss/SecondPhase
 public class SecondPhase : BinahPhaseExecution
 ```
 
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s second phase behavior.
+She gets [Black Fog](/api/BinahBoss/BlackFogOverload), [Golden](/api/BinahBoss/GoldenOverload), and [Wave](/api/BinahBoss/WaveOverload) meltdowns.
+
+She starts P2 by using the [Black Fog](/api/BinahBoss/BlackThron) attack, activating the meltdowns, and then moving. If she gets the meltdowns back, she will do this again.
+
+If someone is near her, she will randomly choose to either use her [Blade Wave](/api/BinahBoss/BladeWaveThrow) or [Column throw](/api/BinahBoss/ColumnThrow) attack. She then moves for a random amount of time determined by her attack delay.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahPhaseExecution](/api/BinahBoss/BinahPhaseExecution) → SecondPhase
 
@@ -25,6 +33,8 @@ public class SecondPhase : BinahPhaseExecution
 ```csharp
 public SecondPhase(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,12 +49,17 @@ public SecondPhase(BinahCoreScript binah)
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override BinahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,9 +76,13 @@ public override BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void OnPrevSuppressed()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

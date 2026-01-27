@@ -11,6 +11,8 @@ canonical_path: /api/GeburahBoss/GeburahStaticInfo
 ```csharp
 public static class GeburahStaticInfo
 ```
+Damage ranges for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s attacks, and some IDs.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahStaticInfo
@@ -25,6 +27,8 @@ public static class GeburahStaticInfo
 ```csharp
 public static MinMax AttackDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +39,8 @@ public static MinMax AttackDelay
 ```csharp
 public static DamageInfo Greedy_Arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ public static DamageInfo Greedy_Arrived
 ```csharp
 public static DamageInfo Greedy_Running
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public static DamageInfo Greedy_Running
 ```csharp
 public static DamageRange GreedyArriveRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +75,8 @@ public static DamageRange GreedyArriveRange
 ```csharp
 public static DamageRange GreedyRunningRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +87,8 @@ public static DamageRange GreedyRunningRange
 ```csharp
 public static int Id_BloodyTree
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public static int Id_BloodyTree
 ```csharp
 public static int[] Id_Dacapo
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +111,8 @@ public static int[] Id_Dacapo
 ```csharp
 public static int Id_DacapoThrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public static int Id_DacapoThrow
 ```csharp
 public static int Id_DangoAppear
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,8 @@ public static int Id_DangoAppear
 ```csharp
 public static int[] Id_DangoAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +147,8 @@ public static int[] Id_DangoAttack
 ```csharp
 public static int Id_Dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -135,6 +159,8 @@ public static int Id_Dead
 ```csharp
 public static int Id_GreedyTeleportStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +171,8 @@ public static int Id_GreedyTeleportStart
 ```csharp
 public static int[] Id_Groggy
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +183,8 @@ public static int[] Id_Groggy
 ```csharp
 public static int[] Id_LongBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +195,8 @@ public static int[] Id_LongBird
 ```csharp
 public static int[] Id_Mimicri
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +207,8 @@ public static int[] Id_Mimicri
 ```csharp
 public static int Id_MimicriArrive
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +219,8 @@ public static int Id_MimicriArrive
 ```csharp
 public static int Id_MimicriRun
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +231,8 @@ public static int Id_MimicriRun
 ```csharp
 public static int Id_OneBad
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +243,8 @@ public static int Id_OneBad
 ```csharp
 public static int Id_OneBad_SpiderMom
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +255,8 @@ public static int Id_OneBad_SpiderMom
 ```csharp
 public static int Id_P2ToP3
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +267,8 @@ public static int Id_P2ToP3
 ```csharp
 public static int Id_P3ToP4
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +279,8 @@ public static int Id_P3ToP4
 ```csharp
 public static int Id_P4ArriveAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +291,8 @@ public static int Id_P4ArriveAttack
 ```csharp
 public static int Id_P4Start
 ```
+#INC
+
 
 #### Field Value
 
@@ -255,6 +303,8 @@ public static int Id_P4Start
 ```csharp
 public static int[] Id_RunningAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +315,8 @@ public static int[] Id_RunningAttack
 ```csharp
 public static int Id_SpiderMom
 ```
+#INC
+
 
 #### Field Value
 
@@ -275,6 +327,8 @@ public static int Id_SpiderMom
 ```csharp
 public static int[] Id_TeleportStart
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +339,8 @@ public static int[] Id_TeleportStart
 ```csharp
 public static DamageInfo MimicriArriveDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -295,6 +351,8 @@ public static DamageInfo MimicriArriveDamage
 ```csharp
 public static DamageRange MimicriArriveRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -305,6 +363,8 @@ public static DamageRange MimicriArriveRange
 ```csharp
 public static DamageInfo MimicriMoveDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -315,6 +375,8 @@ public static DamageInfo MimicriMoveDamage
 ```csharp
 public static DamageRange P1_DefaultAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -325,6 +387,8 @@ public static DamageRange P1_DefaultAttack
 ```csharp
 public static DamageInfo P1_OneBad
 ```
+#INC
+
 
 #### Field Value
 
@@ -335,6 +399,8 @@ public static DamageInfo P1_OneBad
 ```csharp
 public static DamageInfo P1_SpiderMom
 ```
+#INC
+
 
 #### Field Value
 
@@ -345,6 +411,8 @@ public static DamageInfo P1_SpiderMom
 ```csharp
 public static DamageRange P2_DefaultAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -355,6 +423,8 @@ public static DamageRange P2_DefaultAttack
 ```csharp
 public static DamageInfo P2_Nullthing
 ```
+#INC
+
 
 #### Field Value
 
@@ -365,6 +435,8 @@ public static DamageInfo P2_Nullthing
 ```csharp
 public static DamageInfo P2_Orchestra
 ```
+#INC
+
 
 #### Field Value
 
@@ -375,6 +447,8 @@ public static DamageInfo P2_Orchestra
 ```csharp
 public static DamageInfo P2_OrchestraLast
 ```
+#INC
+
 
 #### Field Value
 
@@ -385,6 +459,8 @@ public static DamageInfo P2_OrchestraLast
 ```csharp
 public static DamageInfo P3_Dango
 ```
+#INC
+
 
 #### Field Value
 
@@ -395,6 +471,8 @@ public static DamageInfo P3_Dango
 ```csharp
 public static DamageInfo P3_Dango_Multiple
 ```
+#INC
+
 
 #### Field Value
 
@@ -405,6 +483,8 @@ public static DamageInfo P3_Dango_Multiple
 ```csharp
 public static DamageInfo P3_LongBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -415,6 +495,8 @@ public static DamageInfo P3_LongBird
 ```csharp
 public static DamageRange P3_LongBirdAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -425,6 +507,8 @@ public static DamageRange P3_LongBirdAttack
 ```csharp
 public static DamageInfo P3_To_P4_Multiple
 ```
+#INC
+
 
 #### Field Value
 
@@ -435,6 +519,8 @@ public static DamageInfo P3_To_P4_Multiple
 ```csharp
 public static DamageRange P4_ArriveAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -445,6 +531,8 @@ public static DamageRange P4_ArriveAttack
 ```csharp
 public static DamageInfo P4_RandType_B
 ```
+#INC
+
 
 #### Field Value
 
@@ -455,6 +543,8 @@ public static DamageInfo P4_RandType_B
 ```csharp
 public static DamageInfo P4_RandType_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -465,6 +555,8 @@ public static DamageInfo P4_RandType_P
 ```csharp
 public static DamageInfo P4_RandType_R
 ```
+#INC
+
 
 #### Field Value
 
@@ -475,6 +567,8 @@ public static DamageInfo P4_RandType_R
 ```csharp
 public static DamageInfo P4_RandType_W
 ```
+#INC
+
 
 #### Field Value
 
@@ -485,6 +579,8 @@ public static DamageInfo P4_RandType_W
 ```csharp
 public static DamageRange P4_RunningAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -495,6 +591,8 @@ public static DamageRange P4_RunningAttack
 ```csharp
 public static DamageInfo Projectile_BloodyTree
 ```
+#INC
+
 
 #### Field Value
 
@@ -505,6 +603,8 @@ public static DamageInfo Projectile_BloodyTree
 ```csharp
 public static DamageInfo Projectile_Dacapo_Phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -515,6 +615,8 @@ public static DamageInfo Projectile_Dacapo_Phase
 ```csharp
 public static DamageInfo Projectile_Dacapo_Teleport
 ```
+#INC
+
 
 #### Field Value
 
@@ -525,6 +627,8 @@ public static DamageInfo Projectile_Dacapo_Teleport
 ```csharp
 public static DamageInfo Projectile_Magical
 ```
+#INC
+
 
 #### Field Value
 
@@ -535,6 +639,8 @@ public static DamageInfo Projectile_Magical
 ```csharp
 public static DamageInfo Projectile_Mimicri_Phase
 ```
+#INC
+
 
 #### Field Value
 
@@ -547,6 +653,9 @@ public static DamageInfo Projectile_Mimicri_Phase
 ```csharp
 public static DamageInfo GetP4RandomDamage()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -557,6 +666,8 @@ public static DamageInfo GetP4RandomDamage()
 ```csharp
 public static int SelectRandomID(params int[] ary)
 ```
+#INC
+
 
 #### Parameters
 

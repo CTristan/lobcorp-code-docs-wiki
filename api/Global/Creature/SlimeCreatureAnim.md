@@ -12,6 +12,13 @@ canonical_path: /api/Global/Creature/SlimeCreatureAnim
 public class SlimeCreatureAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Parent class for [Melting Love](/api/Global/Misc/SlimeGirl)'s minions.
+
+Used by:
+- [SlimeLoverAnim](/api/Global/Misc/SlimeLoverAnim)
+- [SlimePawnAnim](/api/Global/Misc/SlimePawnAnim)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SlimeCreatureAnim
 
@@ -39,6 +46,8 @@ public SlimeCreatureAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private SpineOptimizerModule _module
 ```csharp
 protected SlimeCreature _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,18 +72,24 @@ protected SlimeCreature _script
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 protected virtual void AttackEnd()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public virtual bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -83,12 +100,17 @@ public virtual bool IsAttacking()
 ```csharp
 public virtual void OnAttackStart()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -101,24 +123,32 @@ public override void OnCalled(int i)
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public virtual void OnMove()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public virtual void OnStop()
 ```
+#INC
+
 
 ### SetScript(SlimeCreature)
 
 ```csharp
 public void SetScript(SlimeCreature _script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,3 +161,5 @@ public void SetScript(SlimeCreature _script)
 ```csharp
 private void Update()
 ```
+#INC
+

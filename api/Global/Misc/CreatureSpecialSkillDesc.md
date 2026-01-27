@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/CreatureSpecialSkillDesc
 ```csharp
 public class CreatureSpecialSkillDesc
 ```
+Description for [CreatureSpecialSkill](/api/Global/IOBserver/CreatureSpecialSkill)s?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSpecialSkillDesc
@@ -33,6 +37,8 @@ public CreatureSpecialSkillDesc()
 ```csharp
 public int currentTipRevealCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public int currentTipRevealCount
 ```csharp
 public string desc
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public string desc
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public int index
 ```csharp
 public bool isRevealed
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public bool isRevealed
 ```csharp
 public string key
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public string key
 ```csharp
 public int openLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public int openLevel
 ```csharp
 public string original
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,9 @@ public string original
 ```csharp
 public void ActivateDesc(CreatureModel model, params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -118,3 +139,5 @@ public void ActivateDesc(CreatureModel model, params object[] param)
 ```csharp
 public void Reset()
 ```
+#INC
+

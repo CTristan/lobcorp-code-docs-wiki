@@ -12,6 +12,17 @@ canonical_path: /api/Global/UnitBuf/FriendTokenBuf
 public class FriendTokenBuf : UnitBuf
 ```
 
+Buff for [Child of the Galaxy](/api/Global/IOBserver/GalaxyBoy)'s favorite workers.
+
+Heals HP and SP equal to 0.65x Child's Qliphoth counter every 5 seconds #inc. (Heals half as much if in .)
+
+Deals red and white damage equal to 4 times to Child's Qliphoth counter when another abnormality's unit is entered.
+
+When this unit dies, subtracts 4 from Child's Qliphoth counter.
+
+When Child's Qliphoth counter hits 0 this unit will die instantly.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FriendTokenBuf
 
@@ -25,6 +36,8 @@ public class FriendTokenBuf : UnitBuf
 ```csharp
 public FriendTokenBuf(GalaxyBoy creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +52,8 @@ public FriendTokenBuf(GalaxyBoy creature)
 ```csharp
 private const float _damageFactor = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +64,8 @@ private const float _damageFactor = 4
 ```csharp
 private const int _deadCounterReduce = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +76,8 @@ private const int _deadCounterReduce = 4
 ```csharp
 private const float _healthRecoverFactor = 0.65
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +88,8 @@ private const float _healthRecoverFactor = 0.65
 ```csharp
 private Timer _healthRecoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +100,8 @@ private Timer _healthRecoverTimer
 ```csharp
 private const float _instantKillCheckFreq = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +112,8 @@ private const float _instantKillCheckFreq = 20
 ```csharp
 private const float _mentalRecoverFactor = 0.65
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +124,8 @@ private const float _mentalRecoverFactor = 0.65
 ```csharp
 private Timer _mentalRecoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +136,8 @@ private Timer _mentalRecoverTimer
 ```csharp
 private Timer _qlipothActivatedEventTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +148,8 @@ private Timer _qlipothActivatedEventTimer
 ```csharp
 private bool _recoverDebufActviated
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +160,8 @@ private bool _recoverDebufActviated
 ```csharp
 private const float _recoverFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +172,8 @@ private const float _recoverFreq = 5
 ```csharp
 private bool _workEnterCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +184,8 @@ private bool _workEnterCheck
 ```csharp
 private AgentModel agentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +196,8 @@ private AgentModel agentModel
 ```csharp
 private GalaxyBoy baseCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,18 +222,25 @@ private int CurrentQlipoth { get; }
 ```csharp
 private void DamageInvoke()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -207,3 +253,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

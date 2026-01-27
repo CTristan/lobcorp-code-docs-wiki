@@ -12,6 +12,11 @@ canonical_path: /api/Inventory/InventorySefiraController
 public class InventorySefiraController : MonoBehaviour
 ```
 
+The list of departments #inc, and controls for switching between Asiyah, Briah, and Atziluth on the [E.G.O List screen](/api/Inventory/InventoryUI).
+
+#inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventorySefiraController
 
@@ -33,6 +38,8 @@ public InventorySefiraController()
 ```csharp
 private SefiraLevel _currentSefiraLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SefiraLevel _currentSefiraLevel
 ```csharp
 private InventoryAgentSlot _currentSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private InventoryAgentSlot _currentSelected
 ```csharp
 public Button[] AreaMoveButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Button[] AreaMoveButton
 ```csharp
 public Image CurrentAreaFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Image CurrentAreaFill
 ```csharp
 public Text CurrentAreaText
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text CurrentAreaText
 ```csharp
 public Color CurrentColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public Color CurrentColor
 ```csharp
 public Button LowerArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public List<InventorySefiraPanel> panels
 ```csharp
 public Color SelectedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +145,8 @@ public Color SelectedColor
 ```csharp
 public Button UpperArrow
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,18 +181,24 @@ private bool IsMiddleAreaOpened { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnClickMoveArea(int)
 
 ```csharp
 public void OnClickMoveArea(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -182,12 +211,17 @@ public void OnClickMoveArea(int i)
 ```csharp
 public void OnOpenWindow()
 ```
+#INC
+#code-generated
+
 
 ### OnSelectAgent(InventoryAgentSlot)
 
 ```csharp
 public void OnSelectAgent(InventoryAgentSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,6 +234,8 @@ public void OnSelectAgent(InventoryAgentSlot slot)
 ```csharp
 public void SetSefiraPanel(SefiraLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -212,9 +248,13 @@ public void SetSefiraPanel(SefiraLevel level)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

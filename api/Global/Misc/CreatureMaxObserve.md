@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/CreatureMaxObserve
 ```csharp
 public class CreatureMaxObserve
 ```
+I don't... think this is used.
+
+#INC #unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureMaxObserve
@@ -25,6 +29,9 @@ public class CreatureMaxObserve
 ```csharp
 public CreatureMaxObserve()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -63,6 +70,8 @@ public List<CreatureMaxObserve.Desc> descs
 ```csharp
 public bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +82,8 @@ public bool init
 ```csharp
 public bool isHasSelect
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +94,8 @@ public bool isHasSelect
 ```csharp
 public bool isMultipeSelect
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/GeburahTeleport
 public class GeburahTeleport : MonoBehaviour
 ```
 
+extends 
+
+Glorified collider for [The Red Mist](/api/Global/Misc/GeburahBossBase)'s [Da Capo throwing attack](/api/GeburahBoss/DacapoThrow).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GeburahTeleport
 
@@ -33,6 +38,8 @@ public GeburahTeleport()
 ```csharp
 private bool _damageEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private bool _damageEnabled
 ```csharp
 private Timer _lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _lifeTime
 ```csharp
 public BoxCollider2D collider
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public BoxCollider2D collider
 ```csharp
 public Vector3 end
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Vector3 end
 ```csharp
 public GeburahCoreScript geburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public GeburahCoreScript geburah
 ```csharp
 private float lifetime
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private float lifetime
 ```csharp
 public Vector3 start
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ public Vector3 start
 ```csharp
 public void CollisionCheck(Collider2D collider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,12 +138,17 @@ public void CollisionCheck(Collider2D collider)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(GeburahCoreScript, Vector3, Vector3)
 
 ```csharp
 public void Init(GeburahCoreScript geburah, Vector3 start, Vector3 end)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -137,6 +163,8 @@ public void Init(GeburahCoreScript geburah, Vector3 start, Vector3 end)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/AttackCommand
 public class AttackCommand : WorkerCommand
 ```
 
+Represents a command to an employee to suppress something.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → AttackCommand
 
@@ -25,6 +28,8 @@ public class AttackCommand : WorkerCommand
 ```csharp
 public AttackCommand(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public AttackCommand(UnitModel target)
 ```csharp
 private int damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private int damage
 ```csharp
 private float postDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private float postDelay
 ```csharp
 private float preDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private float preDelay
 ```csharp
 private float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private float range
 ```csharp
 private bool retreat
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private bool retreat
 ```csharp
 private float retreatDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ private float retreatDelay
 ```csharp
 private float retreatDuration
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +128,8 @@ private float retreatDuration
 ```csharp
 private UnitModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -121,6 +142,8 @@ private UnitModel target
 ```csharp
 private bool CheckRange()
 ```
+#INC
+
 
 #### Returns
 
@@ -131,24 +154,33 @@ private bool CheckRange()
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -161,3 +193,5 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
+#INC
+

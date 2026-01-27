@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SpineOptimizerModule
 ```csharp
 public class SpineOptimizerModule
 ```
+Keeps track of whether this animated thing is in the camera, and sets the optimization level of the renderer depending on how big this is in the screen.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpineOptimizerModule
@@ -41,6 +45,8 @@ public SpineOptimizerModule(SkeletonRenderer spineRenderer, UnitModel target, fl
 ```csharp
 private bool _inCamera
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +57,8 @@ private bool _inCamera
 ```csharp
 private float _loosenessLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +69,8 @@ private float _loosenessLevel
 ```csharp
 private SkeletonRenderer _spineRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +81,8 @@ private SkeletonRenderer _spineRenderer
 ```csharp
 private UnitModel _targetModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,15 +109,21 @@ public void Init(SkeletonRenderer spineRenderer, UnitModel target, float scale =
 ```csharp
 public void Update()
 ```
+#INC
+
 
 ### UpdateAnimationQuality()
 
 ```csharp
 public void UpdateAnimationQuality()
 ```
+#INC
+
 
 ### UpdateCheckInCamera()
 
 ```csharp
 public void UpdateCheckInCamera()
 ```
+#INC
+

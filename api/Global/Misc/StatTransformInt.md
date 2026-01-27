@@ -11,6 +11,15 @@ canonical_path: /api/Global/Misc/StatTransformInt
 ```csharp
 public interface StatTransformInt
 ```
+Interface with one method, returning a transformed version of an input int.
+
+Implemented by a couple classes, but these are all unused.
+
+#unused 
+
+#### Method
+int IntToInt(int v)
+
 
 ## Methods
 
@@ -19,6 +28,9 @@ public interface StatTransformInt
 ```csharp
 int IntToInt(int v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

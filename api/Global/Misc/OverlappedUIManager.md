@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/OverlappedUIManager
 public class OverlappedUIManager : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OverlappedUIManager
 
@@ -33,6 +36,8 @@ public OverlappedUIManager()
 ```csharp
 private static OverlappedUIManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static OverlappedUIManager _instance
 ```csharp
 private int cnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private int cnt
 ```csharp
 public OverlappedUIElement currentSelected
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public OverlappedUIElement currentSelected
 ```csharp
 public int currentSelectedIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public int currentSelectedIndex
 ```csharp
 public List<OverlappedUIElement> selectedList
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +110,17 @@ public static OverlappedUIManager instance { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnClick(OverlappedUIElement, BaseEventData)
 
 ```csharp
 public void OnClick(OverlappedUIElement selected, BaseEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +134,8 @@ public void OnClick(OverlappedUIElement selected, BaseEventData eventData)
 ```csharp
 public void Register(OverlappedUIElement target)
 ```
+#INC
+
 
 #### Parameters
 

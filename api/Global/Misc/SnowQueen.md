@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/SnowQueen
 public class SnowQueen : CreatureBase
 ```
 
+The Snow Queen.
+
+Note: Entering Snow Queen's room with Firebird's EGO Suit instantly kills the worker.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SnowQueen
 
@@ -33,6 +40,8 @@ public SnowQueen()
 ```csharp
 private List<AgentModel> _agStackList
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private List<AgentModel> _agStackList
 ```csharp
 private AgentModel _bufAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private AgentModel _bufAgent
 ```csharp
 private readonly float _filterTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private readonly float _filterTime
 ```csharp
 private readonly Timer _filterTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private readonly Timer _filterTimer
 ```csharp
 private readonly int _FIRE_BIRD_ARMOR
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private readonly int _FIRE_BIRD_ARMOR
 ```csharp
 private AgentModel _frozenAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private AgentModel _frozenAgent
 ```csharp
 private bool _isBlockWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ private bool _isBlockWork
 ```csharp
 private bool _isDualWin
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ private bool _isDualWin
 ```csharp
 private bool _killedByArmor
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ private bool _killedByArmor
 ```csharp
 private IsolateFilter _kissFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ private IsolateFilter _kissFilter
 ```csharp
 private Sprite _kissSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ private Sprite _kissSprite
 ```csharp
 private AgentModel _rescueAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private Dictionary<string, SnowQueen.SnowQueenSound> _sounds
 ```csharp
 private AutoTimer _soundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private AutoTimer _soundTimer
 ```csharp
 private readonly float _swordSoundTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private readonly float _swordSoundTime
 ```csharp
 private readonly Timer _swordSoundTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private readonly Timer _swordSoundTimer
 ```csharp
 private IsolateFilter[] _winDualFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private IsolateFilter[] _winDualFilter
 ```csharp
 private Sprite[] _winDualSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private Sprite[] _winDualSprite
 ```csharp
 private EGOgiftModel dualWinGift
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private EGOgiftModel dualWinGift
 ```csharp
 private EGOgiftModel icePiece
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private EGOgiftModel icePiece
 ```csharp
 public static bool IsFreezeEnergy
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ public static bool IsFreezeEnergy
 ```csharp
 private readonly string SOUND_SRC
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +316,8 @@ private SnowQueenAnim _animScript { get; }
 ```csharp
 public void AgentAnim(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,12 +330,16 @@ public void AgentAnim(int i)
 ```csharp
 public void BufAgent()
 ```
+#INC
+
 
 ### DecideDualResult(bool)
 
 ```csharp
 private bool DecideDualResult(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,36 +356,48 @@ private bool DecideDualResult(bool state)
 ```csharp
 public void DualResult()
 ```
+#INC
+
 
 ### FadeOutSound()
 
 ```csharp
 private void FadeOutSound()
 ```
+#INC
+
 
 ### FreezingAgent()
 
 ```csharp
 public void FreezingAgent()
 ```
+#INC
+
 
 ### Initialize()
 
 ```csharp
 private void Initialize()
 ```
+#INC
+
 
 ### KillTwoAgents()
 
 ```csharp
 public void KillTwoAgents()
 ```
+#INC
+
 
 ### OnAgentAllocateWork(AgentModel)
 
 ```csharp
 public override void OnAgentAllocateWork(AgentModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -343,6 +410,8 @@ public override void OnAgentAllocateWork(AgentModel actor)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -355,6 +424,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +438,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,12 +452,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -397,24 +475,32 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -427,6 +513,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -439,12 +527,16 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetDualSound(bool)
 
 ```csharp
 public void SetDualSound(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -457,6 +549,8 @@ public void SetDualSound(bool state)
 ```csharp
 private void SetSoundState(bool state)
 ```
+#INC
+
 
 #### Parameters
 

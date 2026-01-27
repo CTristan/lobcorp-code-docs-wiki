@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ResearcherNoteAnim
 public class ResearcherNoteAnim : MonoBehaviour
 ```
 
+Animation handler for [Notes from a Crazed Researcher](/api/Global/Misc/ResearcherNote). No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResearcherNoteAnim
 
@@ -33,9 +38,14 @@ public ResearcherNoteAnim()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

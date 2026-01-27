@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/WraithAnim
 public class WraithAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Dimensional Refraction Variant](/api/Global/Misc/Wraith).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → WraithAnim
 
@@ -36,6 +41,8 @@ public WraithAnim()
 ```csharp
 private Wraith _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +64,8 @@ public List<WorkerPartRenderer> partRenderers
 ```csharp
 private const string WraithDeadEffect = "Agent/Dead/BloodyTree/WraithDeadPrefab"
 ```
+#INC
+
 
 #### Field Value
 
@@ -81,6 +90,8 @@ public Wraith Script { get; }
 ```csharp
 public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,6 +108,8 @@ public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion 
 ```csharp
 public void MakeDeadEffect(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +122,9 @@ public void MakeDeadEffect(WorkerModel target)
 ```csharp
 public void SetScript(Wraith script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

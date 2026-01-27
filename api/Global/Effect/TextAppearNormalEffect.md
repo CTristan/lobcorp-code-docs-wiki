@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/TextAppearNormalEffect
 public class TextAppearNormalEffect : MonoBehaviour
 ```
 
+Used by [Nothing There](/api/Global/Misc/Nothing)'s animator, maybe?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TextAppearNormalEffect
 
@@ -33,6 +38,8 @@ public TextAppearNormalEffect()
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float elapsedTime
 ```csharp
 private float goalTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float goalTime
 ```csharp
 private Vector2 offset
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private Vector2 offset
 ```csharp
 private Callback removeCallback
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Callback removeCallback
 ```csharp
 private GameObject target
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private GameObject target
 ```csharp
 private Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private Text textUI
 ```csharp
 private Vector2 worldPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ private Vector2 worldPos
 ```csharp
 public static TextAppearNormalEffect Create(DestroyHandler handler, Vector2 offset, float goalTime, string text, Color color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +146,8 @@ public static TextAppearNormalEffect Create(DestroyHandler handler, Vector2 offs
 ```csharp
 public static TextAppearNormalEffect Create(Vector2 pos, string text, Color color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,12 +166,16 @@ public static TextAppearNormalEffect Create(Vector2 pos, string text, Color colo
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### IsSpeechOn()
 
 ```csharp
 public bool IsSpeechOn()
 ```
+#INC
+
 
 #### Returns
 
@@ -159,27 +186,38 @@ public bool IsSpeechOn()
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnRemoveTarget()
 
 ```csharp
 public void OnRemoveTarget()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### UpdateState()
 
 ```csharp
 private void UpdateState()
 ```
+#INC
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AngelaMessageLib
 ```csharp
 public class AngelaMessageLib
 ```
+Stores a list of [Angela's messages](/api/Global/Misc/AngelaMessage), to be grabbed by [AngelaConversation](/api/Global/Misc/AngelaConversation).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AngelaMessageLib
@@ -25,6 +27,9 @@ public class AngelaMessageLib
 ```csharp
 public AngelaMessageLib(AngelaMessage[] ary)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public AngelaMessageLib(AngelaMessage[] ary)
 ```csharp
 public List<AngelaMessage> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +58,8 @@ public List<AngelaMessage> list
 ```csharp
 public virtual AngelaMessage GetMessage(AngelaMessageState targetState)
 ```
+#INC
+
 
 #### Parameters
 

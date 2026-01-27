@@ -12,6 +12,11 @@ canonical_path: /api/Global/Effect/ShockwaveEffect
 public class ShockwaveEffect : EffectInvoker
 ```
 
+Shockwave effect used by some [core suppressions](/api/Global/Misc/SefiraBossBase).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [EffectInvoker](/api/Global/Effect/EffectInvoker) → ShockwaveEffect
 
@@ -43,6 +48,8 @@ private ShockwaveEffect.State currentState
 ```csharp
 public AnimationCurve distortionCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public AnimationCurve distortionCurve
 ```csharp
 private const string effectSrc = "ShockwaveEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private const string effectSrc = "ShockwaveEffect"
 ```csharp
 public Transform effectTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Transform effectTransform
 ```csharp
 private bool init
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private bool init
 ```csharp
 private EffectLifetimeType lifetimeType
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +119,8 @@ public Material material
 ```csharp
 public float MaximumShockwaveSize
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +131,8 @@ public float MaximumShockwaveSize
 ```csharp
 public MeshRenderer meshRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +143,8 @@ public MeshRenderer meshRenderer
 ```csharp
 public Material referenceMat
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +155,8 @@ public Material referenceMat
 ```csharp
 public AnimationCurve shockWaveSizeCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +167,8 @@ public AnimationCurve shockWaveSizeCurve
 ```csharp
 private Vector3 startScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +179,8 @@ private Vector3 startScale
 ```csharp
 public Timer updateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,12 +193,16 @@ public Timer updateTimer
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Invoker(Vector3, UnitModel, float, float, EffectLifetimeType)
 
 ```csharp
 public static ShockwaveEffect Invoker(Vector3 position, UnitModel owner, float lifeTime, float maxSize, EffectLifetimeType lifetimeType = EffectLifetimeType.NORMAL)
 ```
+#INC
+
 
 #### Parameters
 
@@ -192,18 +223,25 @@ public static ShockwaveEffect Invoker(Vector3 position, UnitModel owner, float l
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 protected override void Update()
 ```
+#INC
+#code-generated
+
 
 ### UpdateMaterial(float)
 
 ```csharp
 private void UpdateMaterial(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,3 +254,5 @@ private void UpdateMaterial(float rate)
 ```csharp
 private void UpdateTimer()
 ```
+#INC
+

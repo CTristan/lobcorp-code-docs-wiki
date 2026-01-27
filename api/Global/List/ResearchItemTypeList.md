@@ -11,6 +11,10 @@ canonical_path: /api/Global/List/ResearchItemTypeList
 ```csharp
 public class ResearchItemTypeList
 ```
+Loads and holds [types of research](/api/Global/Info/ResearchItemTypeInfo).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchItemTypeList
@@ -25,6 +29,9 @@ public class ResearchItemTypeList
 ```csharp
 private ResearchItemTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ private ResearchItemTypeList()
 ```csharp
 private Dictionary<int, ResearchItemTypeInfo> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private Dictionary<int, ResearchItemTypeInfo> _dic
 ```csharp
 private static ResearchItemTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private static ResearchItemTypeList _instance
 ```csharp
 private List<ResearchItemTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private List<ResearchItemTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +112,8 @@ public bool loaded { get; }
 ```csharp
 public ResearchItemTypeInfo GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +130,8 @@ public ResearchItemTypeInfo GetData(int id)
 ```csharp
 public List<ResearchItemTypeInfo> GetDataBySefira(string sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +148,8 @@ public List<ResearchItemTypeInfo> GetDataBySefira(string sefira)
 ```csharp
 public ReadOnlyCollection<ResearchItemTypeInfo> GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -139,6 +160,8 @@ public ReadOnlyCollection<ResearchItemTypeInfo> GetList()
 ```csharp
 public void Init(ReadOnlyCollection<ResearchItemTypeInfo> list)
 ```
+#INC
+
 
 #### Parameters
 

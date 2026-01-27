@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ResolutionDropdown
 public class ResolutionDropdown : MonoBehaviour
 ```
 
+Dropdown for the resolution in the [options menu](/api/Global/UI/OptionUI).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ResolutionDropdown
 
@@ -33,6 +36,8 @@ public ResolutionDropdown()
 ```csharp
 public const string Displayformat = "{0}x{1}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public const string Displayformat = "{0}x{1}"
 ```csharp
 public Dropdown dropDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Dropdown dropDown
 ```csharp
 private Dictionary<int, Resolution> resolutions
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ private Dictionary<int, Resolution> resolutions
 ```csharp
 private string GetText(Resolution r)
 ```
+#INC
+
 
 #### Parameters
 
@@ -81,12 +92,16 @@ private string GetText(Resolution r)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnSetValue(int)
 
 ```csharp
 public void OnSetValue(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,3 +114,6 @@ public void OnSetValue(int i)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

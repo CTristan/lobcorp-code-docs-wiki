@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StoryViewerSefiraPanel
 public class StoryViewerSefiraPanel : MonoBehaviour
 ```
 
+UI element which shows the stories for a particular Sephirah. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryViewerSefiraPanel
 
@@ -33,6 +36,8 @@ public StoryViewerSefiraPanel()
 ```csharp
 public RectTransform layoutParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public RectTransform layoutParent
 ```csharp
 private List<GameObject> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private List<GameObject> list
 ```csharp
 public SefiraEnum sefiraEnum
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public SefiraEnum sefiraEnum
 ```csharp
 public Text sefiraName
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Text sefiraName
 ```csharp
 private List<string> stories
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,18 +98,24 @@ private List<string> stories
 ```csharp
 private void Clear()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OnClick(string)
 
 ```csharp
 public void OnClick(string s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,9 +128,14 @@ public void OnClick(string s)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

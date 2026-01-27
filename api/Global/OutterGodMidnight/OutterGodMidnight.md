@@ -12,6 +12,15 @@ canonical_path: /api/Global/OutterGodMidnight/OutterGodMidnight
 public class OutterGodMidnight : OutterGodOrdealCreature
 ```
 
+Parent class for the shrines in [Violet Midnight](/api/Global/OutterGodMidnight/OutterGodMidnightOrdeal).
+
+See:
+- 
+- 
+- 
+- 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [OutterGodOrdealCreature](/api/Global/Creature/OutterGodOrdealCreature) → OutterGodMidnight
 
@@ -36,6 +45,8 @@ public OutterGodMidnight()
 ```csharp
 protected const float _angleDif = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +57,8 @@ protected const float _angleDif = 20
 ```csharp
 private OutterGodMidnightAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +69,8 @@ private OutterGodMidnightAnim _animScript
 ```csharp
 private const float _attackCoolTimeMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +81,8 @@ private const float _attackCoolTimeMax = 30
 ```csharp
 private const float _attackCoolTimeMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +93,8 @@ private const float _attackCoolTimeMin = 25
 ```csharp
 private const float _attackInitCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +105,8 @@ private const float _attackInitCoolTimeMax = 15
 ```csharp
 private const float _attackInitCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +117,8 @@ private const float _attackInitCoolTimeMin = 10
 ```csharp
 protected string _attackPrefabSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +129,8 @@ protected string _attackPrefabSrc
 ```csharp
 protected const float _cameraOutRange = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +141,8 @@ protected const float _cameraOutRange = 20
 ```csharp
 protected const float _radius = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +153,8 @@ protected const float _radius = 0.5
 ```csharp
 private const string _sound_dead = "creature/OutterGodMidnight/OutterGod_Midnight_StondDead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +165,8 @@ private const string _sound_dead = "creature/OutterGodMidnight/OutterGod_Midnigh
 ```csharp
 protected Timer attackCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +177,8 @@ protected Timer attackCoolTimer
 ```csharp
 private CameraMover.CameraMoveRange curRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +189,8 @@ private CameraMover.CameraMoveRange curRange
 ```csharp
 protected int damagedCnt
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +201,8 @@ protected int damagedCnt
 ```csharp
 protected float maxX
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +213,8 @@ protected float maxX
 ```csharp
 protected float maxY
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +225,8 @@ protected float maxY
 ```csharp
 protected float minX
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +237,8 @@ protected float minX
 ```csharp
 protected float minY
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +249,8 @@ protected float minY
 ```csharp
 private List<CameraMover.CameraMoveRange> range
 ```
+#INC
+
 
 #### Field Value
 
@@ -260,6 +305,8 @@ protected Vector3 position { get; }
 ```csharp
 public virtual GameObject Attack(Vector3 _position, Vector3 _rotation, Vector3 _scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -278,12 +325,16 @@ public virtual GameObject Attack(Vector3 _position, Vector3 _rotation, Vector3 _
 ```csharp
 public virtual void AttackNear()
 ```
+#INC
+
 
 ### GetRadius()
 
 ```csharp
 public override float GetRadius()
 ```
+#INC
+
 
 #### Returns
 
@@ -294,6 +345,8 @@ public override float GetRadius()
 ```csharp
 public virtual void GiveDamage(UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -307,6 +360,8 @@ public virtual void GiveDamage(UnitModel target, DamageInfo dmg)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -323,6 +378,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -333,12 +390,16 @@ public override bool OnAfterSuppressed()
 ```csharp
 public virtual void OnAttackArrive()
 ```
+#INC
+
 
 ### OnAttackEnd(GameObject)
 
 ```csharp
 public virtual void OnAttackEnd(GameObject attack)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,6 +412,8 @@ public virtual void OnAttackEnd(GameObject attack)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -363,6 +426,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public virtual void OnGiveDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -375,6 +440,8 @@ public virtual void OnGiveDamage(UnitModel target)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -389,6 +456,9 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -401,3 +471,5 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public virtual void RandomAttack()
 ```
+#INC
+

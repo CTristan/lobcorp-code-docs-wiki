@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BlackCorps
 public class BlackCorps : CreatureBase
 ```
 
+[Army in Black](/api/Global/IOBserver/PinkCorps)'s breaching form.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BlackCorps
 
@@ -33,6 +36,8 @@ public BlackCorps()
 ```csharp
 private static MinMax _attackCooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static MinMax _attackCooltime
 ```csharp
 private Timer _attackCooltimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _attackCooltimer
 ```csharp
 private Timer _damageSenseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _damageSenseTimer
 ```csharp
 private MapNode _destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private MapNode _destNode
 ```csharp
 private DamageInfo _explosionDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private DamageInfo _explosionDamage
 ```csharp
 private bool _isArrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private bool _isArrived
 ```csharp
 private bool _isAttacking
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private bool _isAttacking
 ```csharp
 private bool _isInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private bool _isInit
 ```csharp
 private bool _isSuppressed
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private bool _isSuppressed
 ```csharp
 private DamageInfo _normalAttackDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private DamageInfo _normalAttackDamage
 ```csharp
 private DamageInfo _powerAttackDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ private DamageInfo _powerAttackDamage
 ```csharp
 private const float _powerAttackProb = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ private const float _powerAttackProb = 0.2
 ```csharp
 private Sefira sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +224,8 @@ private ChildCreatureModel Model { get; }
 ```csharp
 public PinkCorps PinkCorps { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -217,12 +248,16 @@ private ChildCreatureUnit Unit { get; }
 ```csharp
 private void Arrived()
 ```
+#INC
+
 
 ### CanAttackTarget(UnitModel)
 
 ```csharp
 private bool CanAttackTarget(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -239,6 +274,8 @@ private bool CanAttackTarget(UnitModel target)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -256,18 +293,24 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private void CheckEncounting()
 ```
+#INC
+
 
 ### Explosion()
 
 ```csharp
 public void Explosion()
 ```
+#INC
+
 
 ### GetAttackTargets()
 
 ```csharp
 private List<UnitModel> GetAttackTargets()
 ```
+#INC
+
 
 #### Returns
 
@@ -278,6 +321,8 @@ private List<UnitModel> GetAttackTargets()
 ```csharp
 private UnitDirection GetDirection(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,6 +339,8 @@ private UnitDirection GetDirection(UnitModel target)
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -310,6 +357,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveDamage(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -322,6 +371,8 @@ public void GiveDamage(int attackType)
 ```csharp
 public void GiveDamage(UnitModel target, DamageInfo damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -335,12 +386,16 @@ public void GiveDamage(UnitModel target, DamageInfo damage)
 ```csharp
 private void GiveSefiraDamage()
 ```
+#INC
+
 
 ### IsAttackTargetable()
 
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -351,6 +406,8 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsIndirectSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -361,6 +418,8 @@ public override bool IsIndirectSuppressable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -371,6 +430,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -381,6 +442,8 @@ public override bool IsSuppressable()
 ```csharp
 public void MakeBlackLove(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -393,6 +456,8 @@ public void MakeBlackLove(WorkerModel target)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,6 +474,8 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -419,30 +486,40 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAnimationInit()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnExplosionEnd()
 
 ```csharp
 public void OnExplosionEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStartAttack(UnitModel)
 
 ```csharp
 public void OnStartAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -455,12 +532,16 @@ public void OnStartAttack(UnitModel target)
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -475,6 +556,8 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -487,6 +570,9 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -499,6 +585,8 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SetPinkCorps(PinkCorps pink, SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -512,3 +600,5 @@ public void SetPinkCorps(PinkCorps pink, SefiraEnum sefira)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

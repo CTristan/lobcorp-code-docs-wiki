@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/CreatureDefenseTable
 ```csharp
 public class CreatureDefenseTable
 ```
+Stores an abnormality's defenses.
+
+Loaded by [CreatureDataLoader](/api/Global/Loader/CreatureDataLoader).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureDefenseTable
@@ -33,6 +37,8 @@ public CreatureDefenseTable()
 ```csharp
 private Dictionary<string, DefenseInfo> _defenseTable
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +51,8 @@ private Dictionary<string, DefenseInfo> _defenseTable
 ```csharp
 public DefenseInfo GetDefenseInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -55,6 +63,8 @@ public DefenseInfo GetDefenseInfo()
 ```csharp
 public DefenseInfo GetDefenseInfo(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,6 +81,8 @@ public DefenseInfo GetDefenseInfo(string id)
 ```csharp
 public List<DefenseInfo> GetDefenseInfoList()
 ```
+#INC
+
 
 #### Returns
 
@@ -81,6 +93,9 @@ public List<DefenseInfo> GetDefenseInfoList()
 ```csharp
 public void Init(Dictionary<string, DefenseInfo> dic)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

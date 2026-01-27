@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/CreatureDescTutorial
 public class CreatureDescTutorial : Tutorial
 ```
 
+Presumably the part of the tutorial that asks you to open the [abnormality info screen](/api/Global/Misc/CreatureInfoWindow).
+
+#inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → CreatureDescTutorial
 
@@ -33,3 +38,6 @@ public CreatureDescTutorial()
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

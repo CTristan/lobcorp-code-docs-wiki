@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/OfficerModel
 public class OfficerModel : WorkerModel, IObserver, IMouseCommandTargetModel
 ```
 
+A clerk, abstractly.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → [WorkerModel](/api/Global/Model/WorkerModel) → OfficerModel
 
@@ -28,6 +33,8 @@ public class OfficerModel : WorkerModel, IObserver, IMouseCommandTargetModel
 ```csharp
 public OfficerModel(long id, string area)
 ```
+#INC
+
 
 #### Parameters
 
@@ -43,6 +50,8 @@ public OfficerModel(long id, string area)
 ```csharp
 private Timer _panicImmuneTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Timer _panicImmuneTimer
 ```csharp
 private bool _readyToSuicide
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _readyToSuicide
 ```csharp
 private OfficerAIState _state
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private OfficerAIState _state
 ```csharp
 private OfficerUnit _unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private OfficerUnit _unit
 ```csharp
 private OfficerSpecialAction currentSpecialAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private OfficerSpecialAction currentSpecialAction
 ```csharp
 private bool deadInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private bool deadInit
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private float elapsedTime
 ```csharp
 public bool isDebugger
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public bool isDebugger
 ```csharp
 private bool isMoving
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool isMoving
 ```csharp
 public LOOKINGDIR lookingDir
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ public LOOKINGDIR lookingDir
 ```csharp
 public int mentalReturn
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ public int mentalReturn
 ```csharp
 private float recoverElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private float recoverElapsed
 ```csharp
 public int recoveryRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ public int recoveryRate
 ```csharp
 private float screamElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private float screamElapsed
 ```csharp
 private float screamMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private float screamMax
 ```csharp
 private bool shouldPanic
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private bool shouldPanic
 ```csharp
 public bool startSpecialAction
 ```
+#INC
+
 
 #### Field Value
 
@@ -225,6 +266,8 @@ public override DefenseInfo defense { get; }
 ```csharp
 public int deptNum { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -247,12 +290,16 @@ public OfficerAIState state { get; set; }
 ```csharp
 public override void CancelWeapon()
 ```
+#INC
+
 
 ### CannotControll()
 
 ```csharp
 public override bool CannotControll()
 ```
+#INC
+
 
 #### Returns
 
@@ -263,6 +310,8 @@ public override bool CannotControll()
 ```csharp
 public override void ChangeHairSprite(SpriteInfo spriteInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,6 +324,8 @@ public override void ChangeHairSprite(SpriteInfo spriteInfo)
 ```csharp
 public override WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +342,8 @@ public override WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```csharp
 public override void ChangePuppetAnimToUncon(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -303,18 +356,24 @@ public override void ChangePuppetAnimToUncon(string src)
 ```csharp
 public override void ClearEffect()
 ```
+#INC
+
 
 ### ClearUnconCommand()
 
 ```csharp
 public override void ClearUnconCommand()
 ```
+#INC
+
 
 ### EncounterCreature(UnitModel)
 
 ```csharp
 public override void EncounterCreature(UnitModel encounteredCreature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -327,6 +386,8 @@ public override void EncounterCreature(UnitModel encounteredCreature)
 ```csharp
 public override void EncounterStandingItem(StandingItemModel standing)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,18 +400,24 @@ public override void EncounterStandingItem(StandingItemModel standing)
 ```csharp
 public void EndSpecialAction()
 ```
+#INC
+
 
 ### GetControl()
 
 ```csharp
 public override void GetControl()
 ```
+#INC
+
 
 ### GetCurrentSefira()
 
 ```csharp
 public override Sefira GetCurrentSefira()
 ```
+#INC
+
 
 #### Returns
 
@@ -361,6 +428,8 @@ public override Sefira GetCurrentSefira()
 ```csharp
 public OfficerAIState GetState()
 ```
+#INC
+
 
 #### Returns
 
@@ -371,6 +440,8 @@ public OfficerAIState GetState()
 ```csharp
 public OfficerUnit GetUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -381,6 +452,8 @@ public OfficerUnit GetUnit()
 ```csharp
 public override string GetUnitName()
 ```
+#INC
+
 
 #### Returns
 
@@ -391,6 +464,8 @@ public override string GetUnitName()
 ```csharp
 public override WorkerUnit GetWorkerUnit()
 ```
+#INC
+
 
 #### Returns
 
@@ -401,12 +476,16 @@ public override WorkerUnit GetWorkerUnit()
 ```csharp
 public void HaltSpecialAction()
 ```
+#INC
+
 
 ### InitialEncounteredCreature(RiskLevel)
 
 ```csharp
 public override void InitialEncounteredCreature(RiskLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -419,6 +498,8 @@ public override void InitialEncounteredCreature(RiskLevel level)
 ```csharp
 public override void InitialEncounteredCreature(UnitModel encountered)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,6 +512,8 @@ public override void InitialEncounteredCreature(UnitModel encountered)
 ```csharp
 public override bool IsCrazy()
 ```
+#INC
+
 
 #### Returns
 
@@ -441,6 +524,8 @@ public override bool IsCrazy()
 ```csharp
 public override bool IsPanic()
 ```
+#INC
+
 
 #### Returns
 
@@ -451,12 +536,16 @@ public override bool IsPanic()
 ```csharp
 public override void LoseControl()
 ```
+#INC
+
 
 ### MakeCreatureEffect(long)
 
 ```csharp
 public override GameObject MakeCreatureEffect(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -473,6 +562,8 @@ public override GameObject MakeCreatureEffect(long id)
 ```csharp
 public override GameObject MakeCreatureEffectHead(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -489,6 +580,8 @@ public override GameObject MakeCreatureEffectHead(CreatureModel creature)
 ```csharp
 public override GameObject MakeCreatureEffectHead(CreatureModel model, bool addlist)
 ```
+#INC
+
 
 #### Parameters
 
@@ -506,60 +599,80 @@ public override GameObject MakeCreatureEffectHead(CreatureModel model, bool addl
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public override void OnDie()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnMemoEnd()
 
 ```csharp
 public void OnMemoEnd()
 ```
+#INC
+
 
 ### OnResurrect()
 
 ```csharp
 public override void OnResurrect()
 ```
+#INC
+
 
 ### OnSetWeapon()
 
 ```csharp
 protected override void OnSetWeapon()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### Panic()
 
 ```csharp
 public override void Panic()
 ```
+#INC
+
 
 ### PanicOfficer(bool)
 
 ```csharp
 public void PanicOfficer(bool force)
 ```
+#INC
+
 
 #### Parameters
 
@@ -572,36 +685,48 @@ public void PanicOfficer(bool force)
 ```csharp
 public override void PanicReadyComplete()
 ```
+#INC
+
 
 ### PrepareToSuicide()
 
 ```csharp
 public void PrepareToSuicide()
 ```
+#INC
+
 
 ### PrepareWeapon()
 
 ```csharp
 public override void PrepareWeapon()
 ```
+#INC
+
 
 ### ProcessAction()
 
 ```csharp
 public override void ProcessAction()
 ```
+#INC
+
 
 ### ProcessActionNormalOfficer()
 
 ```csharp
 private void ProcessActionNormalOfficer()
 ```
+#INC
+
 
 ### PursueUnconAgent(UnitModel)
 
 ```csharp
 public override void PursueUnconAgent(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -614,6 +739,8 @@ public override void PursueUnconAgent(UnitModel target)
 ```csharp
 public override void RecoverMental(float amount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -626,30 +753,40 @@ public override void RecoverMental(float amount)
 ```csharp
 public override void ResetAnimator()
 ```
+#INC
+
 
 ### ReturnSpecialAction()
 
 ```csharp
 public void ReturnSpecialAction()
 ```
+#INC
+
 
 ### ReturnToSefira()
 
 ```csharp
 public override void ReturnToSefira()
 ```
+#INC
+
 
 ### ReturnToSefiraFromWork()
 
 ```csharp
 public void ReturnToSefiraFromWork()
 ```
+#INC
+
 
 ### SetUncontrollableAction(UncontrollableAction)
 
 ```csharp
 public override void SetUncontrollableAction(UncontrollableAction uncon)
 ```
+#INC
+
 
 #### Parameters
 
@@ -662,6 +799,8 @@ public override void SetUncontrollableAction(UncontrollableAction uncon)
 ```csharp
 public void SetUnit(OfficerUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -674,6 +813,8 @@ public void SetUnit(OfficerUnit unit)
 ```csharp
 public override void ShowCreatureActionSpeech(long creatureID, string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -687,6 +828,8 @@ public override void ShowCreatureActionSpeech(long creatureID, string key)
 ```csharp
 public void SpecialAction(OfficerSpecialAction action)
 ```
+#INC
+
 
 #### Parameters
 
@@ -699,18 +842,24 @@ public void SpecialAction(OfficerSpecialAction action)
 ```csharp
 public void SpecialActionReturn()
 ```
+#INC
+
 
 ### SpecialActionUpdate()
 
 ```csharp
 public void SpecialActionUpdate()
 ```
+#INC
+
 
 ### StartAction()
 
 ```csharp
 public IEnumerator<WaitForSeconds> StartAction()
 ```
+#INC
+
 
 #### Returns
 
@@ -721,21 +870,29 @@ public IEnumerator<WaitForSeconds> StartAction()
 ```csharp
 public override void StopAction()
 ```
+#INC
+
 
 ### StopPanic()
 
 ```csharp
 public override void StopPanic()
 ```
+#INC
+
 
 ### StopPanicWithoutStun()
 
 ```csharp
 public override void StopPanicWithoutStun()
 ```
+#INC
+
 
 ### Suicide()
 
 ```csharp
 private void Suicide()
 ```
+#INC
+

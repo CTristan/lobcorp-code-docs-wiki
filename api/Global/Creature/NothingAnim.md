@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/NothingAnim
 public class NothingAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Nothing There](/api/Global/Misc/Nothing).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → NothingAnim
 
@@ -36,6 +41,8 @@ public NothingAnim()
 ```csharp
 public Animator changeEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public Animator changeEffect
 ```csharp
 private Nothing.NothingForm currentForm
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private Nothing.NothingForm currentForm
 ```csharp
 public Animator eggNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Animator eggNode
 ```csharp
 public Transform hookLineEndPintTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Transform hookLineEndPintTransform
 ```csharp
 public Transform hookLineStartPointTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Transform hookLineStartPointTransform
 ```csharp
 public Transform hookLineTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public Transform hookLineTransform
 ```csharp
 private float length
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private float length
 ```csharp
 public Transform lv1HandAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public Transform lv1HandAttack
 ```csharp
 public Animator Lv1Node
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Animator Lv1Node
 ```csharp
 public Transform lv2HandAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public Transform lv2HandAttack
 ```csharp
 public Animator Lv2Node
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public Animator Lv2Node
 ```csharp
 public CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public CreatureModel model
 ```csharp
 public GameObject screenEffectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +197,8 @@ public GameObject screenEffectPrefab
 ```csharp
 public GameObject snipingUIPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +209,8 @@ public GameObject snipingUIPrefab
 ```csharp
 public Transform spearTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -188,24 +223,32 @@ public Transform spearTransform
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### Attack()
 
 ```csharp
 private void Attack()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -218,30 +261,41 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackLv2()
 
 ```csharp
 public void AttackLv2()
 ```
+#INC
+
 
 ### AttackLv2Strike()
 
 ```csharp
 public void AttackLv2Strike()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CanMove()
 
 ```csharp
 public bool CanMove()
 ```
+#INC
+
 
 #### Returns
 
@@ -252,12 +306,16 @@ public bool CanMove()
 ```csharp
 public void CastHook()
 ```
+#INC
+
 
 ### ChangeForm(NothingForm)
 
 ```csharp
 public void ChangeForm(Nothing.NothingForm form)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,6 +328,8 @@ public void ChangeForm(Nothing.NothingForm form)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -283,6 +343,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -293,18 +355,24 @@ public override bool HasDeadMotion()
 ```csharp
 public override void Move()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,30 +385,40 @@ public void OnCalled(int i)
 ```csharp
 public void PlayChangeEffectAnimation()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### PlayRevivalMotion()
 
 ```csharp
 public override void PlayRevivalMotion()
 ```
+#INC
+
 
 ### PrepareSpear()
 
 ```csharp
 public void PrepareSpear()
 ```
+#INC
+
 
 ### SetModel(CreatureModel)
 
 ```csharp
 public void SetModel(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -353,6 +431,8 @@ public void SetModel(CreatureModel model)
 ```csharp
 public NothingSnipingUI ShowSnipingUI()
 ```
+#INC
+
 
 #### Returns
 
@@ -363,12 +443,16 @@ public NothingSnipingUI ShowSnipingUI()
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -381,24 +465,32 @@ public void SoundMake(string src)
 ```csharp
 public void StartSnipingEffect()
 ```
+#INC
+
 
 ### Stop()
 
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### StopMoving()
 
 ```csharp
 public override void StopMoving()
 ```
+#INC
+
 
 ### UpdateHookLine(Vector3, Vector3)
 
 ```csharp
 public void UpdateHookLine(Vector3 start, Vector3 end)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/FengYunWeapon
 public class FengYunWeapon : EquipmentScriptBase
 ```
 
+Script for [Clouded Monk](/api/Global/IOBserver/FengYun)'s EGO Weapon: Amrita.
+
+Does damage thrice.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → FengYunWeapon
 

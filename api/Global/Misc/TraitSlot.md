@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TraitSlot
 public class TraitSlot : MonoBehaviour
 ```
 
+Just text. Used for the Trait prefab, which maybe isn't used??
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TraitSlot
 
@@ -33,6 +38,9 @@ public TraitSlot()
 ```csharp
 public Text text
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

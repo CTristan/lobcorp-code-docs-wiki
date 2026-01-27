@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/RabbitSquad
 ```csharp
 public class RabbitSquad
 ```
+A collection of [rabbit teams](/api/Global/Misc/RabbitTeam) representing the rabbits in a given [operation area](/api/Global/Misc/RabbitOperationArea).
+
+Also holds the list of disabled doors and portals created by the Rabbit Protocol in this operation area.
+
+Also, holds a timer for the rabbits to leave if nothing happens for long enough #verify.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitSquad
@@ -33,6 +39,8 @@ public RabbitSquad()
 ```csharp
 public Timer clearCheckTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public Timer clearCheckTimer
 ```csharp
 public string sector
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,9 @@ public string sector
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public SefiraEnum sefira
 ```csharp
 public List<MapNode> shutdownNodes
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public List<MapNode> shutdownNodes
 ```csharp
 public List<RabbitTeam> teams
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public List<RabbitTeam> teams
 ```csharp
 public List<RabbitTeleportData> teleports
 ```
+#INC
+
 
 #### Field Value
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/UI/AgentContinueUI
 ```csharp
 public class AgentContinueUI : MonoBehaviour
 ```
+Seems to handle the special border around the [agent UI](/api/InGameUI/AgentUI) for the department and continued service benefits.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentContinueUI
@@ -33,6 +37,8 @@ public AgentContinueUI()
 ```csharp
 private AgentModel _agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private AgentModel _agent
 ```csharp
 public Image BlackField
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Image BlackField
 ```csharp
 public Image Cont_1
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Image Cont_1
 ```csharp
 public Image Cont_2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Image Cont_2
 ```csharp
 public Image Default
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Image Default
 ```csharp
 public Text SefiraText
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public Text SefiraText
 ```csharp
 public Image Special
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +123,8 @@ public Image Special
 ```csharp
 private static string GetSefiraText(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +141,9 @@ private static string GetSefiraText(Sefira sefira)
 ```csharp
 public void SetAgent(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -133,6 +156,8 @@ public void SetAgent(AgentModel agent)
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,3 +170,5 @@ public void SetColor(Color c)
 ```csharp
 public void SetSefiraColor()
 ```
+#INC
+

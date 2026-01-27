@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AgentModelEventHandler
 ```csharp
 public class AgentModelEventHandler
 ```
+Maintains a list of [agent](/api/Global/Worker/AgentUnit) events (see [AgentEventEnum](/api/Global/Misc/AgentEventEnum)) and listeners to be called when they happen.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentModelEventHandler
@@ -33,6 +35,8 @@ public AgentModelEventHandler()
 ```csharp
 private Dictionary<AgentEventEnum, List<AgentEventListenerDelegate>> listenerList
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +49,9 @@ private Dictionary<AgentEventEnum, List<AgentEventListenerDelegate>> listenerLis
 ```csharp
 public void AddEvent(AgentEventEnum e, AgentEventListenerDelegate func)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -58,6 +65,8 @@ public void AddEvent(AgentEventEnum e, AgentEventListenerDelegate func)
 ```csharp
 public void CallEvent(AgentEventEnum e, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -71,3 +80,5 @@ public void CallEvent(AgentEventEnum e, params object[] param)
 ```csharp
 public void OnStageRelease()
 ```
+#INC
+

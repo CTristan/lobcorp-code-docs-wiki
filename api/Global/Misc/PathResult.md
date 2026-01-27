@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/PathResult
 ```csharp
 public class PathResult
 ```
+A path for something to follow, in terms of node edges to travel between.
+
+Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, travel time) of the path.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathResult
@@ -25,6 +29,9 @@ public class PathResult
 ```csharp
 public PathResult(MapEdge[] pathEdges, EdgeDirection[] edgeDirections, float totalCost)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +48,8 @@ public PathResult(MapEdge[] pathEdges, EdgeDirection[] edgeDirections, float tot
 ```csharp
 public EdgeDirection[] edgeDirections
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +60,8 @@ public EdgeDirection[] edgeDirections
 ```csharp
 public MapEdge[] pathEdges
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +72,8 @@ public MapEdge[] pathEdges
 ```csharp
 public float totalCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +84,8 @@ public float totalCost
 ```csharp
 public float[] zValues
 ```
+#INC
+
 
 #### Field Value
 

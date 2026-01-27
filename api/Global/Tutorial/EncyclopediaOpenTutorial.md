@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/EncyclopediaOpenTutorial
 public class EncyclopediaOpenTutorial : Tutorial
 ```
 
+Tutorial which waits for you to open the [abnormality information window](/api/Global/Misc/CreatureInfoWindow).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → EncyclopediaOpenTutorial
 
@@ -33,6 +36,8 @@ public EncyclopediaOpenTutorial()
 ```csharp
 public CreatureInfoController targetArea
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +50,6 @@ public CreatureInfoController targetArea
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

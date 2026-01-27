@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherMiddleBossBase
 ```csharp
 public class KetherMiddleBossBase : KetherBossBase
 ```
+Day 48 suppression
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → [KetherBossBase](/api/KetherBoss/KetherBossBase) → KetherMiddleBossBase
@@ -25,6 +27,8 @@ public class KetherMiddleBossBase : KetherBossBase
 ```csharp
 public KetherMiddleBossBase()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +37,8 @@ public KetherMiddleBossBase()
 ```csharp
 private float _artefactEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private float _artefactEffectTime
 ```csharp
 private UnscaledTimer _artefactEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private UnscaledTimer _artefactEffectTimer
 ```csharp
 private ChesedBossBase _chesed
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private ChesedBossBase _chesed
 ```csharp
 private float _clearEnergyValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private float _clearEnergyValue
 ```csharp
 private MinMax _fade
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private MinMax _fade
 ```csharp
 private MinMax _fps
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private MinMax _fps
 ```csharp
 private GeburahBossBase _geburah
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private GeburahBossBase _geburah
 ```csharp
 private float _movieEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private float _movieEffectTime
 ```csharp
 private UnscaledTimer _movieEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private UnscaledTimer _movieEffectTimer
 ```csharp
 private TipherethBossBase _tiphereth
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ private TipherethBossBase _tiphereth
 ```csharp
 private CameraFilterPack_TV_Artefact artefact
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private CameraFilterPack_TV_Artefact artefact
 ```csharp
 private const string bgm0 = "Sounds/BGM/Boss/Event/48/1_Dark Fantasy Scene"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private const string bgm0 = "Sounds/BGM/Boss/Event/48/1_Dark Fantasy Scene"
 ```csharp
 private const string bgm1 = "Sounds/BGM/Boss/Event/48/2_Tilarids - Insignia Decay"
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private const string bgm1 = "Sounds/BGM/Boss/Event/48/2_Tilarids - Insignia Deca
 ```csharp
 private const string bgm2 = "Sounds/BGM/Boss/Event/48/3_Battle_-_Urgent_Encounter"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ private const string bgm2 = "Sounds/BGM/Boss/Event/48/3_Battle_-_Urgent_Encounte
 ```csharp
 private const int ClearQliphothLevel = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ private const int ClearQliphothLevel = 10
 ```csharp
 private MinMax fadeEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ private MinMax fadeEffect
 ```csharp
 private MinMax fpsEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ private MinMax fpsEffect
 ```csharp
 private CameraFilterPack_TV_Old_Movie_2 movie
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ private CameraFilterPack_TV_Old_Movie_2 movie
 ```csharp
 private const int tvOldEnableLevel = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ private const int tvOldEnableLevel = 7
 ```csharp
 private const int tvOldEndLevel = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ private const int tvOldEndLevel = 10
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -261,6 +307,8 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public override bool IsCleared()
 ```
+#INC
+
 
 #### Returns
 
@@ -271,6 +319,8 @@ public override bool IsCleared()
 ```csharp
 public override bool IsStartEmergencyBgm()
 ```
+#INC
+
 
 #### Returns
 
@@ -281,6 +331,8 @@ public override bool IsStartEmergencyBgm()
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,9 +345,14 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

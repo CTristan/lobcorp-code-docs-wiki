@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/TastyBug
 public class TastyBug : StandingItemScriptBase
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → TastyBug
 
@@ -63,6 +66,8 @@ private TastyBug.BugType _type
 ```csharp
 public TastyBugAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +78,8 @@ public TastyBugAnim animScript
 ```csharp
 private bool appearEffectMake
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +90,8 @@ private bool appearEffectMake
 ```csharp
 public const int creatureHeal = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +102,8 @@ public const int creatureHeal = 18
 ```csharp
 public const float defaultMoveFreq = 0
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +114,8 @@ public const float defaultMoveFreq = 0
 ```csharp
 public SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +126,8 @@ public SoundEffectPlayer defaultSound
 ```csharp
 public const float eatRange = 0.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +138,8 @@ public const float eatRange = 0.4
 ```csharp
 public Timer enableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +150,8 @@ public Timer enableDelay
 ```csharp
 public const float healRange = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +162,8 @@ public const float healRange = 0.5
 ```csharp
 public const int itemHeal = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +174,8 @@ public const int itemHeal = 18
 ```csharp
 public const int mentalDamage = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +186,8 @@ public const int mentalDamage = 6
 ```csharp
 public Timer moveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +198,8 @@ public Timer moveTimer
 ```csharp
 public List<MapNode> nodeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +210,8 @@ public List<MapNode> nodeList
 ```csharp
 public BugsForFoodEvent randomEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +222,8 @@ public BugsForFoodEvent randomEvent
 ```csharp
 public const string sound_default = "RandomEvent/TastyBugs/TastyBug_Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +234,8 @@ public const string sound_default = "RandomEvent/TastyBugs/TastyBug_Default"
 ```csharp
 public const float speed = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +246,8 @@ public const float speed = 0.2
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +258,8 @@ public Text textUI
 ```csharp
 public const float volume = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +270,8 @@ public const float volume = 0.5
 ```csharp
 public const int workerHeal = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,12 +284,16 @@ public const int workerHeal = 12
 ```csharp
 private void AppearEffect()
 ```
+#INC
+
 
 ### CanRangeInCamera()
 
 ```csharp
 public bool CanRangeInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -261,6 +304,9 @@ public bool CanRangeInCamera()
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -277,6 +323,8 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public float CheckDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -293,6 +341,8 @@ public float CheckDistance(UnitModel target)
 ```csharp
 public bool CheckInRange()
 ```
+#INC
+
 
 #### Returns
 
@@ -303,6 +353,8 @@ public bool CheckInRange()
 ```csharp
 public void DelayedEnable(float delay)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,18 +367,24 @@ public void DelayedEnable(float delay)
 ```csharp
 public void HealInRange()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+
 
 ### IsActive()
 
 ```csharp
 public bool IsActive()
 ```
+#INC
+
 
 #### Returns
 
@@ -337,6 +395,8 @@ public bool IsActive()
 ```csharp
 public override bool IsAttackable()
 ```
+#INC
+
 
 #### Returns
 
@@ -347,24 +407,32 @@ public override bool IsAttackable()
 ```csharp
 public void MoveAround()
 ```
+#INC
+
 
 ### OnBreakDown()
 
 ```csharp
 public override void OnBreakDown()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 public void OnEnable()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -377,12 +445,16 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public void ReadyToMove()
 ```
+#INC
+
 
 ### SetActive(bool)
 
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -395,6 +467,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetEvent(BugsForFoodEvent bff)
 ```
+#INC
+
 
 #### Parameters
 

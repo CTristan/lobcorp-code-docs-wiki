@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/ObserveInfoData
 ```csharp
 public class ObserveInfoData
 ```
+Information about an observation section in the [abnormality information UI](/api/Global/Misc/CreatureInfoWindow).
+
+Holds the name of the section and its cost.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObserveInfoData
@@ -33,6 +37,8 @@ public ObserveInfoData()
 ```csharp
 public int observeCost
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,9 @@ public int observeCost
 ```csharp
 public string regionName
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

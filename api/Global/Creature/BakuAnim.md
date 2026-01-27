@@ -11,6 +11,8 @@ canonical_path: /api/Global/Creature/BakuAnim
 ```csharp
 public class BakuAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
+Animation handler for [Void Dream](/api/Global/Misc/Baku).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BakuAnim
@@ -36,6 +38,8 @@ public BakuAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _sound_cry = "cry"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ private const string _sound_cry = "cry"
 ```csharp
 private const string _sound_def1 = "default1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ private const string _sound_def1 = "default1"
 ```csharp
 private const string _sound_def2 = "default2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ private const string _sound_def2 = "default2"
 ```csharp
 private const string _sound_skill = "skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +98,8 @@ private const string _sound_skill = "skill"
 ```csharp
 private const string _sound_trans = "transform"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +110,8 @@ private const string _sound_trans = "transform"
 ```csharp
 public GameObject body
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +122,8 @@ public GameObject body
 ```csharp
 public GameObject chicken
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +134,8 @@ public GameObject chicken
 ```csharp
 public GameObject mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +146,8 @@ public GameObject mouth
 ```csharp
 private Baku script
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +158,8 @@ private Baku script
 ```csharp
 public GameObject sheep
 ```
+#INC
+
 
 #### Field Value
 
@@ -160,6 +184,8 @@ private Animator animSheep { get; }
 ```csharp
 private bool CheckChicken()
 ```
+#INC
+
 
 #### Returns
 
@@ -170,36 +196,48 @@ private bool CheckChicken()
 ```csharp
 public void ChickenSound()
 ```
+#INC
+
 
 ### CryDamage()
 
 ```csharp
 private void CryDamage()
 ```
+#INC
+
 
 ### CrySound()
 
 ```csharp
 private void CrySound()
 ```
+#INC
+
 
 ### DeadSound()
 
 ```csharp
 private void DeadSound()
 ```
+#INC
+
 
 ### EndCrying()
 
 ```csharp
 public void EndCrying()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,6 +254,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -226,18 +267,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitAnimator()
 
 ```csharp
 private void InitAnimator()
 ```
+#INC
+
 
 ### IsCrying()
 
 ```csharp
 public bool IsCrying()
 ```
+#INC
+
 
 #### Returns
 
@@ -248,6 +295,8 @@ public bool IsCrying()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -276,12 +325,16 @@ public SoundEffectPlayer MakeSound(string src, Vector3 position, float vol = 1)
 ```csharp
 public void OnActivateSkill_Sheep()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,36 +347,48 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnMove()
 
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnStartSkill()
 
 ```csharp
 public void OnStartSkill()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScript(Baku)
 
 ```csharp
 public void SetScript(Baku script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -336,33 +401,45 @@ public void SetScript(Baku script)
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### StartCrying()
 
 ```csharp
 private void StartCrying()
 ```
+#INC
+
 
 ### TransformSound()
 
 ```csharp
 private void TransformSound()
 ```
+#INC
+
 
 ### TransformToChicken()
 
 ```csharp
 public void TransformToChicken()
 ```
+#INC
+
 
 ### TransformToSheep()
 
 ```csharp
 public void TransformToSheep()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

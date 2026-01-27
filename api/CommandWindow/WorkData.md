@@ -11,6 +11,10 @@ canonical_path: /api/CommandWindow/WorkData
 ```csharp
 public class WorkData
 ```
+Stores the information for an employee's work (e.g., work type, speed, success rate).
+
+See also [ManagementSlot](/api/CommandWindow/ManagementSlot)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkData
@@ -33,6 +37,8 @@ public WorkData()
 ```csharp
 private SkillTypeInfo _current
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private SkillTypeInfo _current
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private AgentModel _currentAgent
 ```csharp
 private CreatureModel _currentCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private CreatureModel _currentCreature
 ```csharp
 public Image BLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Image BLevel
 ```csharp
 public Image PLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Image PLevel
 ```csharp
 private static string prefix
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private static string prefix
 ```csharp
 private static string[] region
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +132,8 @@ public Image RLevel
 ```csharp
 public Image WLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +144,8 @@ public Image WLevel
 ```csharp
 public Image WorkIcon
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +156,8 @@ public Image WorkIcon
 ```csharp
 public Text WorkLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +168,8 @@ public Text WorkLevel
 ```csharp
 public Text WorkSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +180,8 @@ public Text WorkSpeed
 ```csharp
 public Text WorkSuccess
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,12 +194,16 @@ public Text WorkSuccess
 ```csharp
 public void CheckCurrentSkill()
 ```
+#INC
+
 
 ### SetCreature(CreatureModel)
 
 ```csharp
 public void SetCreature(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,6 +216,9 @@ public void SetCreature(CreatureModel creature)
 ```csharp
 public void SetCurrentWork(SkillTypeInfo current)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -196,6 +231,8 @@ public void SetCurrentWork(SkillTypeInfo current)
 ```csharp
 public void SetData(AgentModel model)
 ```
+#INC
+
 
 #### Parameters
 

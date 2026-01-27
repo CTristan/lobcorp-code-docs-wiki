@@ -11,6 +11,10 @@ canonical_path: /api/Global/Loader/TutorialDataLoader
 ```csharp
 public class TutorialDataLoader
 ```
+Loads tutorial data from XML for the current language, or english by default.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TutorialDataLoader
@@ -33,6 +37,8 @@ public TutorialDataLoader()
 ```csharp
 private static TutorialDataLoader _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private static TutorialDataLoader _instance
 ```csharp
 private string currentLn
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private string currentLn
 ```csharp
 private string documentSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private string documentSrc
 ```csharp
 private TutorialData tutorialData
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,12 +109,17 @@ public TutorialData TutorialData { get; }
 ```csharp
 public void Load()
 ```
+#INC
+
 
 ### LoadDoc(string)
 
 ```csharp
 private XmlDocument LoadDoc(string currentLn)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

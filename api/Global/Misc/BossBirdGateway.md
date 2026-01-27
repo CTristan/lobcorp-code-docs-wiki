@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/BossBirdGateway
 public class BossBirdGateway : StandingItemScriptBase
 ```
 
+Unused version of Entrance to the Black Forest, as seen in [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
+
+See [BossGateWay](/api/Global/Misc/BossGateWay) for the used version of this.
+#unused
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → BossBirdGateway
 
@@ -43,6 +49,8 @@ private BossBirdGateway.GateWayState __GatewayState
 ```csharp
 private BigBird bigBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private BigBird bigBird
 ```csharp
 private LongBird longBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private LongBird longBird
 ```csharp
 private const float mentalDamage = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const float mentalDamage = 2
 ```csharp
 private const float mentalDamageFreq = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private const float mentalDamageFreq = 1
 ```csharp
 private Timer mentalDamageTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private Timer mentalDamageTimer
 ```csharp
 private SmallBird smallBird
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private SmallBird smallBird
 ```csharp
 private Timer stateChecker
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private Timer stateChecker
 ```csharp
 private const float stateCheckFreq = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,12 +169,16 @@ public BossBirdGateway.GateWayState gateWayState { get; }
 ```csharp
 private void BirdsCheck()
 ```
+#INC
+
 
 ### GetName()
 
 ```csharp
 public override string GetName()
 ```
+#INC
+
 
 #### Returns
 
@@ -163,6 +189,8 @@ public override string GetName()
 ```csharp
 public override bool HasName()
 ```
+#INC
+
 
 #### Returns
 
@@ -173,18 +201,25 @@ public override bool HasName()
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnEnterBird()
 
 ```csharp
 public void OnEnterBird()
 ```
+#INC
+
 
 ### OnFixedUpdate(StandingItemModel)
 
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,12 +232,16 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 private void OnSetState()
 ```
+#INC
+
 
 ### SetBirds(BigBird, SmallBird, LongBird)
 
 ```csharp
 public void SetBirds(BigBird big, SmallBird small, LongBird @long)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,6 +256,8 @@ public void SetBirds(BigBird big, SmallBird small, LongBird @long)
 ```csharp
 public override void SetName(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -229,3 +270,5 @@ public override void SetName(string str)
 ```csharp
 private void TakeNearMentalDamage()
 ```
+#INC
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/RabbitKnifeWeapon
 public class RabbitKnifeWeapon : EquipmentScriptBase
 ```
 
+Script for a [rabbit](/api/Global/Model/RabbitModel)'s melee weapon which does damage 5 times with a random animation.
+
+I don't think this is used...
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RabbitKnifeWeapon
 
@@ -33,6 +40,8 @@ public RabbitKnifeWeapon()
 ```csharp
 private const int _MAX_COUNT_ATTACK_PER_ANIM = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private const int _MAX_COUNT_ATTACK_PER_ANIM = 5
 ```csharp
 private const float knifeSkillProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,15 @@ canonical_path: /api/Global/Armor/LookAtMeArmor
 public class LookAtMeArmor : EquipmentScriptBase
 ```
 
+Script for [Schadenfreude](/api/Global/Misc/LookAtMe)'s EGO Suit: Gaze.
+
+Increases attack speed by 10 while the equipped agent is in the camera.
+
+Also, changes the defenses to 0.8 / 0.5 / 0.8 / 1.5 (hard-coded!) while in the camera.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → LookAtMeArmor
 
@@ -33,6 +42,8 @@ public LookAtMeArmor()
 ```csharp
 private const int _justiceBuf = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ private const int _justiceBuf = 10
 ```csharp
 private GameObject cameraSensor
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private CreatureCameraUtil cameraUtil
 ```csharp
 private WorkerModel owner
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +90,8 @@ private WorkerModel owner
 ```csharp
 public override DefenseInfo GetDefense(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,6 +108,8 @@ public override DefenseInfo GetDefense(UnitModel actor)
 ```csharp
 private bool IsInCamera()
 ```
+#INC
+
 
 #### Returns
 
@@ -101,6 +120,9 @@ private bool IsInCamera()
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -113,27 +135,37 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### RemoveCamera()
 
 ```csharp
 private void RemoveCamera()
 ```
+#INC
+
 
 ### SetCamera()
 
 ```csharp
 private void SetCamera()
 ```
+#INC
+

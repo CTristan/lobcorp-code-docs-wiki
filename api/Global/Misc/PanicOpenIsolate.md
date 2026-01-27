@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/PanicOpenIsolate
 public class PanicOpenIsolate : PanicAction
 ```
 
+Panic behaviour for [agents](/api/Global/Worker/AgentModel) which causes them to try to release abnormalities.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicOpenIsolate
 
@@ -25,6 +30,8 @@ public class PanicOpenIsolate : PanicAction
 ```csharp
 public PanicOpenIsolate(AgentModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public PanicOpenIsolate(AgentModel actor)
 ```csharp
 private CreatureModel _currentOpenTargetCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private CreatureModel _currentOpenTargetCreature
 ```csharp
 private PassageObjectModel _currentTargetPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private PassageObjectModel _currentTargetPassage
 ```csharp
 private const float _openActionCooltime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private const float _openActionCooltime = 5
 ```csharp
 private Timer _openActionTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private Timer _openActionTimer
 ```csharp
 private int _openTryCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +106,8 @@ private int _openTryCount
 ```csharp
 private const int _openTryMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +118,8 @@ private const int _openTryMax = 5
 ```csharp
 private AgentModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,12 +132,16 @@ private AgentModel actor
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GetDefenseMultiplier()
 
 ```csharp
 public override float GetDefenseMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -127,6 +152,8 @@ public override float GetDefenseMultiplier()
 ```csharp
 public override float GetMovementMultiplier()
 ```
+#INC
+
 
 #### Returns
 
@@ -137,6 +164,8 @@ public override float GetMovementMultiplier()
 ```csharp
 public CreatureModel GetTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -147,12 +176,17 @@ public CreatureModel GetTarget()
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnAgentAnimEvent(int)
 
 ```csharp
 public void OnAgentAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,21 +199,29 @@ public void OnAgentAnimEvent(int i)
 ```csharp
 public override void OnDie()
 ```
+#INC
+
 
 ### PanicEnd()
 
 ```csharp
 public override void PanicEnd()
 ```
+#INC
+
 
 ### TryOpen()
 
 ```csharp
 private void TryOpen()
 ```
+#INC
+
 
 ### UpdateNextTarget()
 
 ```csharp
 private void UpdateNextTarget()
 ```
+#INC
+

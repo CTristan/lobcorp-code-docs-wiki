@@ -11,6 +11,8 @@ canonical_path: /api/Global/UnitBuf/SlimeGirlArmorDebuf
 ```csharp
 public class SlimeGirlArmorDebuf : UnitBuf
 ```
+Debuff for [Melting Love's EGO Suit](/api/Global/Armor/SlimeGirlArmor) which slows the user to 30% speed for 3 seconds when the suit's shield activates.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlimeGirlArmorDebuf
@@ -25,6 +27,8 @@ public class SlimeGirlArmorDebuf : UnitBuf
 ```csharp
 public SlimeGirlArmorDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +37,8 @@ public SlimeGirlArmorDebuf()
 ```csharp
 private const float _movement = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private const float _movement = 0.3
 ```csharp
 private const float _remainTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,9 @@ private const float _remainTime = 3
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -67,6 +78,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float MovementScale()
 ```
+#INC
+
 
 #### Returns
 

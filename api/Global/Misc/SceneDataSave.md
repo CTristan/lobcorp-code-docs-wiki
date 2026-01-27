@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/SceneDataSave
 public class SceneDataSave : MonoBehaviour
 ```
 
+#unused #called-unused
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SceneDataSave
 
@@ -33,6 +36,8 @@ public SceneDataSave()
 ```csharp
 public float currentBgmVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public float currentBgmVolume
 ```csharp
 public float currentVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public float currentVolume
 ```csharp
 public List<CreatureMaxObserve.Angela> maxObservedCreauture
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public List<CreatureMaxObserve.Angela> maxObservedCreauture
 ```csharp
 public bool tooltipState
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,9 @@ public bool tooltipState
 ```csharp
 public void AddMaxObservedCreautre(CreatureMaxObserve module)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -87,9 +101,13 @@ public void AddMaxObservedCreautre(CreatureMaxObserve module)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

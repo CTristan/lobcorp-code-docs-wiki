@@ -11,6 +11,8 @@ canonical_path: /api/DeadEffect/BloodyTreeDeadScript
 ```csharp
 public class BloodyTreeDeadScript : MonoBehaviour
 ```
+The Burrowing Heaven's custom dead body script.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BloodyTreeDeadScript
@@ -33,6 +35,8 @@ public BloodyTreeDeadScript()
 ```csharp
 private const string bloodyTreeSound = "creature/BloodyTree/MustSee_Tree"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ private const string bloodyTreeSound = "creature/BloodyTree/MustSee_Tree"
 ```csharp
 private const string effectSrc = "Effect/Creature/BloodyTree/TreeBloodEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private const string effectSrc = "Effect/Creature/BloodyTree/TreeBloodEffect"
 ```csharp
 public Transform[] Pivots
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Transform[] Pivots
 ```csharp
 private const string wraithBloodSrc = "Effect/Creature/BloodyTree/WraithBloodEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private const string wraithBloodSrc = "Effect/Creature/BloodyTree/WraithBloodEff
 ```csharp
 private const string wraithBloodyMyst = "Effect/Creature/BloodyTree/WraithBloodyMyst"
 ```
+#INC
+
 
 #### Field Value
 

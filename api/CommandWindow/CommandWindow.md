@@ -12,6 +12,15 @@ canonical_path: /api/CommandWindow/CommandWindow
 public class CommandWindow : MonoBehaviour, IObserver, IScrollMessageReciever, IScrollTarget
 ```
 
+For assigning [agents](/api/Global/Worker/AgentUnit) places (for work and suppression). Handles the logic for the:
+- Abnormality management UI
+- Suppression UI
+- Tool UI
+
+#TODO add a picture for clarity
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CommandWindow
 
@@ -36,6 +45,8 @@ public CommandWindow()
 ```csharp
 private Sefira _currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +57,8 @@ private Sefira _currentSefira
 ```csharp
 private UnitModel _currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +69,8 @@ private UnitModel _currentTarget
 ```csharp
 private static CommandWindow _currentWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +81,8 @@ private static CommandWindow _currentWindow
 ```csharp
 private CommandType _currentWindowType
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +93,8 @@ private CommandType _currentWindowType
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +105,8 @@ private bool _isEnabled
 ```csharp
 private long _selectedWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +117,8 @@ private long _selectedWork
 ```csharp
 public AudioClipPlayer audioClipPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +129,8 @@ public AudioClipPlayer audioClipPlayer
 ```csharp
 public const int BWork = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +141,8 @@ public const int BWork = 3
 ```csharp
 public Color CancelOrcerColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +153,8 @@ public Color CancelOrcerColor
 ```csharp
 public CreatureSuppressRegion CretureSuppress
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +198,8 @@ public GameObject KitCreature_ActiveControl
 ```csharp
 public KitCreatureRegion kitCreatureRegion
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +210,8 @@ public KitCreatureRegion kitCreatureRegion
 ```csharp
 public float LeftPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -211,6 +244,8 @@ public GameObject ManagementAgentSlotParent
 ```csharp
 public List<ManagementSlot> ManagementSlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -221,6 +256,8 @@ public List<ManagementSlot> ManagementSlots
 ```csharp
 public Color OrderColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -231,6 +268,8 @@ public Color OrderColor
 ```csharp
 public int page
 ```
+#INC
+
 
 #### Field Value
 
@@ -241,6 +280,8 @@ public int page
 ```csharp
 public Color PanicColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -251,6 +292,8 @@ public Color PanicColor
 ```csharp
 public Vector2 Position_Suppress
 ```
+#INC
+
 
 #### Field Value
 
@@ -261,6 +304,8 @@ public Vector2 Position_Suppress
 ```csharp
 public Vector2 Position_Work
 ```
+#INC
+
 
 #### Field Value
 
@@ -271,6 +316,8 @@ public Vector2 Position_Work
 ```csharp
 public RectTransform PositionPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -281,6 +328,8 @@ public RectTransform PositionPivot
 ```csharp
 public const int PWork = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -291,6 +340,8 @@ public const int PWork = 4
 ```csharp
 public float RightPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -301,6 +352,8 @@ public float RightPos
 ```csharp
 public GameObject RootControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -311,6 +364,8 @@ public GameObject RootControl
 ```csharp
 public const int RWork = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -321,6 +376,8 @@ public const int RWork = 1
 ```csharp
 public Color SefiraDisabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -331,6 +388,8 @@ public Color SefiraDisabledColor
 ```csharp
 public RectTransform SefiraMovementPivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +422,8 @@ public GameObject Suppress_ActiveControl
 ```csharp
 public Color SuppressingColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +434,8 @@ public Color SuppressingColor
 ```csharp
 public Vector2 SuppressPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +446,8 @@ public Vector2 SuppressPosition
 ```csharp
 public List<SuppressSlot> SuppressSlots
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +458,8 @@ public List<SuppressSlot> SuppressSlots
 ```csharp
 public Color textColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +470,8 @@ public Color textColor
 ```csharp
 public Color UnconColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +482,8 @@ public Color UnconColor
 ```csharp
 public Sprite Work_B
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +494,8 @@ public Sprite Work_B
 ```csharp
 public Sprite Work_C
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +506,8 @@ public Sprite Work_C
 ```csharp
 public Sprite Work_I
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +518,8 @@ public Sprite Work_I
 ```csharp
 public Sprite Work_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +530,8 @@ public Sprite Work_P
 ```csharp
 public Sprite Work_Protection
 ```
+#INC
+
 
 #### Field Value
 
@@ -474,6 +553,8 @@ public Sprite Work_R
 ```csharp
 public Sprite Work_S
 ```
+#INC
+
 
 #### Field Value
 
@@ -484,6 +565,8 @@ public Sprite Work_S
 ```csharp
 public Sprite Work_V
 ```
+#INC
+
 
 #### Field Value
 
@@ -494,6 +577,8 @@ public Sprite Work_V
 ```csharp
 public Sprite Work_W
 ```
+#INC
+
 
 #### Field Value
 
@@ -504,6 +589,8 @@ public Sprite Work_W
 ```csharp
 public WorkAllocateRegion WorkAllocate
 ```
+#INC
+
 
 #### Field Value
 
@@ -514,6 +601,8 @@ public WorkAllocateRegion WorkAllocate
 ```csharp
 public GameObject WorkAllocate_ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -524,6 +613,8 @@ public GameObject WorkAllocate_ActiveControl
 ```csharp
 public Button[] WorkButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -545,6 +636,8 @@ public Vector2 WorkCommmandPosition
 ```csharp
 public WorkerSuppressRegion WorkerSuppress
 ```
+#INC
+
 
 #### Field Value
 
@@ -555,6 +648,8 @@ public WorkerSuppressRegion WorkerSuppress
 ```csharp
 public Color WorkingColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -565,6 +660,8 @@ public Color WorkingColor
 ```csharp
 public LocalizeTextLoadScript[] workNames
 ```
+#INC
+
 
 #### Field Value
 
@@ -575,6 +672,8 @@ public LocalizeTextLoadScript[] workNames
 ```csharp
 public GameObject WorkScrollDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -585,6 +684,8 @@ public GameObject WorkScrollDown
 ```csharp
 public GameObject WorkScrollUp
 ```
+#INC
+
 
 #### Field Value
 
@@ -595,6 +696,8 @@ public GameObject WorkScrollUp
 ```csharp
 public const int WWork = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -679,24 +782,32 @@ public long SelectedWork { get; set; }
 ```csharp
 public void AddTrigger()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CheckMalkutBoss()
 
 ```csharp
 private void CheckMalkutBoss()
 ```
+#INC
+
 
 ### CheckSefiraMovementEnable()
 
 ```csharp
 public bool CheckSefiraMovementEnable()
 ```
+#INC
+
 
 #### Returns
 
@@ -707,12 +818,17 @@ public bool CheckSefiraMovementEnable()
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### CreateWindow(CommandType, UnitModel)
 
 ```csharp
 public static CommandWindow CreateWindow(CommandType type, UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -730,12 +846,16 @@ public static CommandWindow CreateWindow(CommandType type, UnitModel target)
 ```csharp
 public void DeRegist()
 ```
+#INC
+
 
 ### GetSelectedWorkId(int)
 
 ```csharp
 private int GetSelectedWorkId(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -752,6 +872,8 @@ private int GetSelectedWorkId(int id)
 ```csharp
 public Sprite GetWorkSprite(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -768,6 +890,8 @@ public Sprite GetWorkSprite(RwbpType type)
 ```csharp
 public void OnClick(AgentModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -780,30 +904,40 @@ public void OnClick(AgentModel actor)
 ```csharp
 public void OnClickNextSefira()
 ```
+#INC
+
 
 ### OnClickPrevSefira()
 
 ```csharp
 public void OnClickPrevSefira()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -817,6 +951,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnScroll(BaseEventData bData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -829,6 +965,8 @@ public void OnScroll(BaseEventData bData)
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -841,6 +979,8 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 private void OnScroll_mouseSelected(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -853,6 +993,8 @@ private void OnScroll_mouseSelected(PointerEventData eventData)
 ```csharp
 private void OnScroll_sefira(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -865,6 +1007,8 @@ private void OnScroll_sefira(PointerEventData eventData)
 ```csharp
 public void OnSefiraMove(SefiraEnum target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -877,12 +1021,16 @@ public void OnSefiraMove(SefiraEnum target)
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### OnWorkSelect(int)
 
 ```csharp
 public void OnWorkSelect(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -895,12 +1043,16 @@ public void OnWorkSelect(int id)
 ```csharp
 public void Regist()
 ```
+#INC
+
 
 ### SetAgentList(CommandType, List<AgentModel>)
 
 ```csharp
 public void SetAgentList(CommandType type, List<AgentModel> agents)
 ```
+#INC
+
 
 #### Parameters
 
@@ -914,6 +1066,8 @@ public void SetAgentList(CommandType type, List<AgentModel> agents)
 ```csharp
 public void SetAgentList(CommandType type, Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -927,15 +1081,21 @@ public void SetAgentList(CommandType type, Sefira sefira)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateMouseSelectedList()
 
 ```csharp
 private void UpdateMouseSelectedList()
 ```
+#INC
+

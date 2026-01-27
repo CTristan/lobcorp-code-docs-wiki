@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/RouletteItem
 public class RouletteItem : MonoBehaviour
 ```
 
+Represents a worker in the [roulette window](/api/Global/IANimatorEventCalled/RouletteWindow).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RouletteItem
 
@@ -33,6 +38,8 @@ public RouletteItem()
 ```csharp
 private WorkerModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private WorkerModel model
 ```csharp
 public Text nameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Text nameText
 ```csharp
 public Outline outline
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Outline outline
 ```csharp
 public Color selectedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Color selectedColor
 ```csharp
 public float selectEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public float selectEffectTime
 ```csharp
 public UnscaledTimer selectEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public UnscaledTimer selectEffectTimer
 ```csharp
 public Color startColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,12 +146,16 @@ public RectTransform rect { get; }
 ```csharp
 public void EndRoulette()
 ```
+#INC
+
 
 ### GetModel()
 
 ```csharp
 public WorkerModel GetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -143,6 +166,9 @@ public WorkerModel GetModel()
 ```csharp
 public void Init(WorkerModel worker)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -155,15 +181,21 @@ public void Init(WorkerModel worker)
 ```csharp
 public void OnSelected()
 ```
+#INC
+
 
 ### StartRoulette()
 
 ```csharp
 public void StartRoulette()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

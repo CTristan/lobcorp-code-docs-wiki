@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/WellcheersAnim
 public class WellcheersAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Opened Can of Wellcheers](/api/Global/Misc/Wellcheers).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → WellcheersAnim
 
@@ -36,6 +41,8 @@ public WellcheersAnim()
 ```csharp
 public Animator machine
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public Animator machine
 ```csharp
 public SpriteRenderer machineCanListRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public SpriteRenderer machineCanListRenderer
 ```csharp
 public SpriteRenderer machineCanRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public SpriteRenderer machineCanRenderer
 ```csharp
 public SpriteRenderer machineTitleRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public SpriteRenderer machineTitleRenderer
 ```csharp
 private bool moveFoward
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private bool moveFoward
 ```csharp
 private const float moveTime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const float moveTime = 2
 ```csharp
 private Timer moveTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ public WellcheersAnim.MachineColorImages red
 ```csharp
 public Animator shrimp1
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ public Animator shrimp1
 ```csharp
 private Vector3 shrimp1Pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ private Vector3 shrimp1Pos
 ```csharp
 public Animator shrimp2
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ public Animator shrimp2
 ```csharp
 private Vector3 shrimp2Pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -178,18 +205,24 @@ public WellcheersAnim.MachineColorImages sky
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,12 +235,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,30 +258,41 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void FinishDance()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### MoveShrimp()
 
 ```csharp
 private void MoveShrimp()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,12 +305,16 @@ public void OnCalled(int i)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -275,15 +327,21 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartDance()
 
 ```csharp
 public void StartDance()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

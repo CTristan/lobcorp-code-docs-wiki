@@ -12,6 +12,11 @@ canonical_path: /api/CommandWindow/ManagementSlot
 public class ManagementSlot : AgentSlot
 ```
 
+UI element for displaying an agent in the work assignment window. Includes virtues.
+
+Used by [CommandWindow](/api/CommandWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AgentSlot](/api/CommandWindow/AgentSlot) → ManagementSlot
 
@@ -33,6 +38,8 @@ public ManagementSlot()
 ```csharp
 public GameObject kitWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +72,8 @@ public TooltipMouseOver[] tooltips
 ```csharp
 public WorkData workData
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +86,8 @@ public WorkData workData
 ```csharp
 public void OnSelectWork(SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +100,8 @@ public void OnSelectWork(SkillTypeInfo skill)
 ```csharp
 public void SetCreature(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +114,9 @@ public void SetCreature(CreatureModel creature)
 ```csharp
 public override void SetUI(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -113,9 +129,13 @@ public override void SetUI(AgentModel agent)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateUI()
 
 ```csharp
 public override void UpdateUI()
 ```
+#INC
+

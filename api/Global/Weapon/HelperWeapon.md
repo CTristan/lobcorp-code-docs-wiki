@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/HelperWeapon
 public class HelperWeapon : EquipmentScriptBase
 ```
 
+Script for [All-Around Helper](/api/Global/Misc/Helper)'s EGO Weapon: Grinder Mk4.
+
+Rolls damage 6 times.
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → HelperWeapon
 
@@ -33,6 +39,9 @@ public HelperWeapon()
 ```csharp
 private int _COUNT_ATTACK_PER_ANIM
 ```
+The number of times to roll damage. Set to 6.
+
+
 
 #### Field Value
 
@@ -62,6 +71,9 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+Returns true. (This is the same as the default behaviour... #weird)
+#code-generated
+
 
 #### Parameters
 

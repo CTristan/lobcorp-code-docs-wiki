@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/DraggedObject
 public class DraggedObject : MonoBehaviour, IObserver
 ```
 
+Represents an object being dragged; has a callback for when dragging ends.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DraggedObject
 
@@ -36,6 +41,8 @@ public DraggedObject()
 ```csharp
 public IDraggableObject dragOrigin
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public DraggedObject.OnDropEnd dropEvent
 ```csharp
 public List<object> parameters
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +77,8 @@ public List<object> parameters
 ```csharp
 public object[] GetParam()
 ```
+#INC
+
 
 #### Returns
 
@@ -78,12 +89,16 @@ public object[] GetParam()
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,6 +112,9 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetParams(params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -109,9 +127,13 @@ public void SetParams(params object[] param)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

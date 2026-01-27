@@ -11,6 +11,12 @@ canonical_path: /api/Global/Worker/WorkerManager
 ```csharp
 public class WorkerManager
 ```
+Manages workers.
+
+Holds an [AgentManager](/api/Global/IOBserver/AgentManager) and [OfficerManager](/api/Global/Misc/OfficerManager).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerManager
@@ -25,6 +31,9 @@ public class WorkerManager
 ```csharp
 public WorkerManager()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +42,8 @@ public WorkerManager()
 ```csharp
 private static WorkerManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ private static WorkerManager _instance
 ```csharp
 private AgentManager agentManager
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +66,8 @@ private AgentManager agentManager
 ```csharp
 private long nextInstId
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +78,8 @@ private long nextInstId
 ```csharp
 private OfficerManager officerManager
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +90,8 @@ private OfficerManager officerManager
 ```csharp
 private List<WorkerModel> workerList
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +116,8 @@ public static WorkerManager instance { get; }
 ```csharp
 public void AddWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +130,8 @@ public void AddWorker(WorkerModel worker)
 ```csharp
 public List<WorkerModel> GetWorkerList()
 ```
+#INC
+
 
 #### Returns
 
@@ -119,6 +142,8 @@ public List<WorkerModel> GetWorkerList()
 ```csharp
 public void RemoveWorker(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +156,8 @@ public void RemoveWorker(WorkerModel worker)
 ```csharp
 public void RemoveWorkers(WorkerModel[] workers)
 ```
+#INC
+
 
 #### Parameters
 

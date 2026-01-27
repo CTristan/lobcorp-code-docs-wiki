@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BlueStarAnim
 public class BlueStarAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Blue Star](/api/Global/IOBserver/BlueStar).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BlueStarAnim
 
@@ -36,6 +39,8 @@ public BlueStarAnim()
 ```csharp
 private BlueStarAttackEffect _effectScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private BlueStarAttackEffect _effectScript
 ```csharp
 private const string _effectSrc = "Effect/Creature/BlueStar/BlueStarEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const string _effectSrc = "Effect/Creature/BlueStar/BlueStarEffect"
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private SpineOptimizerModule _module
 ```csharp
 private BlueStar _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private BlueStar _script
 ```csharp
 private Vector3 initialScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,18 +125,25 @@ public BlueStar Script { get; }
 ```csharp
 public override void Attack()
 ```
+#INC
+#code-generated
+
 
 ### Escape()
 
 ```csharp
 public void Escape()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -132,12 +154,16 @@ public override bool HasDeadMotion()
 ```csharp
 private void LoadEffect()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -150,24 +176,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnReturn()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public void OnSuppressed()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetScale(float)
 
 ```csharp
 public void SetScale(float factor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -180,6 +214,8 @@ public void SetScale(float factor)
 ```csharp
 public void SetScript(BlueStar star)
 ```
+#INC
+
 
 #### Parameters
 
@@ -192,3 +228,5 @@ public void SetScript(BlueStar star)
 ```csharp
 private void Update()
 ```
+#INC
+

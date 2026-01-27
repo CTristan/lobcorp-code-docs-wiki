@@ -12,6 +12,11 @@ canonical_path: /api/Global/Unit/RabbitUnit
 public class RabbitUnit : MonoBehaviour, IMouseOnSelectListener, IMouseCommandTarget
 ```
 
+A [rabbit](/api/Global/Model/RabbitModel) as they appear in-game.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RabbitUnit
 
@@ -36,6 +41,8 @@ public RabbitUnit()
 ```csharp
 public const string _Execute_src = "Effect/Bullet/RabbitFallback"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public const string _Execute_src = "Effect/Bullet/RabbitFallback"
 ```csharp
 public AgentUI agentUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public AgentUI agentUI
 ```csharp
 public RabbitAnimatorController animController
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public RabbitAnimatorController animController
 ```csharp
 public AnimatorEventHandler animEventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public AnimatorEventHandler animEventHandler
 ```csharp
 public Transform animRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Transform animRoot
 ```csharp
 private const string appearEffect = "Effect/Rabbit/RabbitAppear"
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private const string appearEffect = "Effect/Rabbit/RabbitAppear"
 ```csharp
 public Transform centerRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public Transform centerRoot
 ```csharp
 public RabbitConversationType currentSpeechType
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public RabbitConversationType currentSpeechType
 ```csharp
 public Transform executionCenter
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public Transform executionCenter
 ```csharp
 public Transform faceFollower
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public Transform faceFollower
 ```csharp
 public SpriteRenderer[] faceSprites
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public SpriteRenderer[] faceSprites
 ```csharp
 public RabbitModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +185,8 @@ public RabbitModel model
 ```csharp
 public List<ParticleSystem> particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +208,8 @@ public RabbitRwbpSet rwbpSet
 ```csharp
 public RwbpType rwbpType
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +220,8 @@ public RwbpType rwbpType
 ```csharp
 public RabbitSpeech speech
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +232,8 @@ public RabbitSpeech speech
 ```csharp
 public RabbitSpriteSetter spriteSetter
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +244,8 @@ public RabbitSpriteSetter spriteSetter
 ```csharp
 public RabbitUnitUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +256,8 @@ public RabbitUnitUI ui
 ```csharp
 public float zValue
 ```
+#INC
+
 
 #### Field Value
 
@@ -241,6 +282,8 @@ private RabbitLayer Layer { get; }
 ```csharp
 public void Attack(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,18 +296,24 @@ public void Attack(int index)
 ```csharp
 public void Fire()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### GetCommandTargetModel()
 
 ```csharp
 public IMouseCommandTargetModel GetCommandTargetModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -275,6 +324,8 @@ public IMouseCommandTargetModel GetCommandTargetModel()
 ```csharp
 public bool IsSelectable()
 ```
+#INC
+
 
 #### Returns
 
@@ -285,42 +336,56 @@ public bool IsSelectable()
 ```csharp
 public void OnClear()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnDieByMental()
 
 ```csharp
 public void OnDieByMental()
 ```
+#INC
+
 
 ### OnSelect()
 
 ```csharp
 public void OnSelect()
 ```
+#INC
+
 
 ### OnSpeechEnd()
 
 ```csharp
 public void OnSpeechEnd()
 ```
+#INC
+
 
 ### OnUnselect()
 
 ```csharp
 public void OnUnselect()
 ```
+#INC
+
 
 ### SetDefaultZValue(float)
 
 ```csharp
 public void SetDefaultZValue(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -333,6 +398,8 @@ public void SetDefaultZValue(float value)
 ```csharp
 public void SetModel(RabbitModel m)
 ```
+#INC
+
 
 #### Parameters
 
@@ -359,27 +426,38 @@ public void Speech(RabbitConversationType type, float speechProb = 0.6, float sp
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### StopFire()
 
 ```csharp
 public void StopFire()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateDirection()
 
 ```csharp
 protected void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 protected void UpdateViewPosition()
 ```
+#INC
+

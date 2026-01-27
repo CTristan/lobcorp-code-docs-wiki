@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/TextureDropdown
 public class TextureDropdown : MonoBehaviour
 ```
 
+Dropdown in the [options menu](/api/Global/UI/OptionUI) for changing the texture quality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → TextureDropdown
 
@@ -33,6 +38,8 @@ public TextureDropdown()
 ```csharp
 public Dropdown dropDown
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Dropdown dropDown
 ```csharp
 public Dictionary<int, string> labelText
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Dictionary<int, string> labelText
 ```csharp
 private static string[] localize
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private static string[] localize
 ```csharp
 public string GetText(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -81,12 +94,17 @@ public string GetText(int index)
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnSetValue(int)
 
 ```csharp
 public void OnSetValue(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,9 +117,13 @@ public void OnSetValue(int i)
 ```csharp
 public void SetInitialWindow()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -36,6 +36,8 @@ public SefiraBossHorizontalText()
 ```csharp
 private bool _init
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool _init
 ```csharp
 public float def_height
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public float def_height
 ```csharp
 public float def_width
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public float def_width
 ```csharp
 public Text Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,15 +98,22 @@ private RectTransform rectTransform { get; }
 ```csharp
 public void LayoutSet()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

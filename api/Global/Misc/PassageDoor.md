@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/PassageDoor
 public class PassageDoor : MonoBehaviour
 ```
 
+Script for animating doors.
+
+(Used by animation controller...)
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PassageDoor
 
@@ -33,6 +40,8 @@ public PassageDoor()
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ public Animator animator
 ```csharp
 private bool closed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private bool closed
 ```csharp
 public DoorObjectModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,18 +78,24 @@ public DoorObjectModel model
 ```csharp
 public void CloseDoor()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(DoorObjectModel, PassageObject)
 
 ```csharp
 public void Init(DoorObjectModel model, PassageObject passage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,21 +109,30 @@ public void Init(DoorObjectModel model, PassageObject passage)
 ```csharp
 public void OpenDoor()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateDoor()
 
 ```csharp
 private void UpdateDoor()
 ```
+#INC
+

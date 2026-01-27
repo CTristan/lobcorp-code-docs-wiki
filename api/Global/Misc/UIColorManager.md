@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/UIColorManager
 public class UIColorManager : MonoBehaviour
 ```
 
+Manages the color of UI elements. #verify 
+
+The colors present in the script are part of the UIColorManager game object.
+
+#INC
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UIColorManager
 
@@ -33,6 +40,8 @@ public UIColorManager()
 ```csharp
 private static UIColorManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private static UIColorManager _instance
 ```csharp
 public Color Allocate_SefiraGray
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ public Color Allocate_SefiraGray
 ```csharp
 public Color Allocate_SefiraGreen
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +87,8 @@ public Color[] DisabledColor
 ```csharp
 public Color EscapedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +99,8 @@ public Color EscapedColor
 ```csharp
 public CreatureLayer.IsolateRoomUI isolateRoomUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +111,8 @@ public CreatureLayer.IsolateRoomUI isolateRoomUI
 ```csharp
 public Color orange
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +123,8 @@ public Color orange
 ```csharp
 public Color[] OverloadColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +135,8 @@ public Color[] OverloadColor
 ```csharp
 public Color[] RiskLevelColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +147,8 @@ public Color[] RiskLevelColor
 ```csharp
 public Color[] RWBPTextColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -134,6 +159,8 @@ public Color[] RWBPTextColor
 ```csharp
 public Color[] RWBPTypeColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +171,8 @@ public Color[] RWBPTypeColor
 ```csharp
 public SefiraUIColor[] sefiraColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +183,8 @@ public SefiraUIColor[] sefiraColor
 ```csharp
 public Color sefiraUnlockedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +195,8 @@ public Color sefiraUnlockedColor
 ```csharp
 public Color UIBlueColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +207,8 @@ public Color UIBlueColor
 ```csharp
 public Color UIDisabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +219,8 @@ public Color UIDisabledColor
 ```csharp
 public Color UINormalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +231,8 @@ public Color UINormalColor
 ```csharp
 public Color UIRedColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +243,8 @@ public Color UIRedColor
 ```csharp
 public Color uiTextDefColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -258,12 +299,17 @@ public static Color UITextDefColor { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetDisabledRoomColor(SefiraEnum)
 
 ```csharp
 public Color GetDisabledRoomColor(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -280,6 +326,8 @@ public Color GetDisabledRoomColor(SefiraEnum sefira)
 ```csharp
 public Color GetOverloadColor(OverloadType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +344,8 @@ public Color GetOverloadColor(OverloadType type)
 ```csharp
 public Color GetRiskColor(RiskLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -312,6 +362,8 @@ public Color GetRiskColor(RiskLevel level)
 ```csharp
 public Color GetRWBPTextColor(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -328,6 +380,8 @@ public Color GetRWBPTextColor(RwbpType type)
 ```csharp
 public Color GetRWBPTypeColor(RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,6 +398,8 @@ public Color GetRWBPTypeColor(RwbpType type)
 ```csharp
 public void GetRWBPTypeColor(RwbpType type, out Color inner, out Color outter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -358,6 +414,8 @@ public void GetRWBPTypeColor(RwbpType type, out Color inner, out Color outter)
 ```csharp
 public SefiraUIColor GetSefiraColor(Sefira sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +432,8 @@ public SefiraUIColor GetSefiraColor(Sefira sefira)
 ```csharp
 public SefiraUIColor GetSefiraColor(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,6 +450,8 @@ public SefiraUIColor GetSefiraColor(SefiraEnum sefira)
 ```csharp
 public SefiraUIColor GetSefiraColor(string sefira)
 ```
+#INC
+
 
 #### Parameters
 

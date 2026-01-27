@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/EffectSoundItem
 ```csharp
 public class EffectSoundItem
 ```
+An individual sound effect to be played, with a [type](/api/Global/Type/EffectSoundType).
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EffectSoundItem
@@ -33,6 +36,9 @@ public EffectSoundItem()
 ```csharp
 public AudioClip clip
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public AudioClip clip
 ```csharp
 public EffectSoundType type
 ```
+#INC
+
 
 #### Field Value
 

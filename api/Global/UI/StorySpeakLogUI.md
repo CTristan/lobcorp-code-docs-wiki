@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySpeakLogUI
 public class StorySpeakLogUI : MonoBehaviour
 ```
 
+UI window showing the story log.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySpeakLogUI
 
@@ -33,6 +36,8 @@ public StorySpeakLogUI()
 ```csharp
 public ScrollRect scrollRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public ScrollRect scrollRect
 ```csharp
 public GameObject speakLogItemPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject speakLogItemPrefab
 ```csharp
 public Transform speakLogLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ public Transform speakLogLayout
 ```csharp
 public void AddLog(StoryUI.SpeakLog log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,12 +88,17 @@ public void AddLog(StoryUI.SpeakLog log)
 ```csharp
 public void Hide()
 ```
+#INC
+
 
 ### SetLogList(IList<SpeakLog>)
 
 ```csharp
 public void SetLogList(IList<StoryUI.SpeakLog> logs)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -95,3 +111,5 @@ public void SetLogList(IList<StoryUI.SpeakLog> logs)
 ```csharp
 public void Show()
 ```
+#INC
+

@@ -36,6 +36,8 @@ public EventColorSetting()
 ```csharp
 private bool buttonState
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool buttonState
 ```csharp
 public Color clickColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +71,8 @@ public bool ClickOverrideWithDefault
 ```csharp
 public Color defaultColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +83,8 @@ public Color defaultColor
 ```csharp
 public Color disabledColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +95,8 @@ public Color disabledColor
 ```csharp
 public bool eventActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +107,8 @@ public bool eventActivated
 ```csharp
 public Color overlayColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +119,8 @@ public Color overlayColor
 ```csharp
 public Button SyncButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,6 +142,8 @@ public bool SyncWithButton
 ```csharp
 public List<MaskableGraphic> targetGraphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,51 +169,70 @@ private void AddEvent(EventTrigger.Entry target, EventColorSetting.EventAdded ad
 ```csharp
 private void OnButtonInteractable()
 ```
+#INC
+
 
 ### OnClickColor()
 
 ```csharp
 private void OnClickColor()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnterColor()
 
 ```csharp
 private void OnEnterColor()
 ```
+#INC
+
 
 ### OnExitColor()
 
 ```csharp
 private void OnExitColor()
 ```
+#INC
+
 
 ### SetDisable()
 
 ```csharp
 public void SetDisable()
 ```
+#INC
+
 
 ### SetTrigger()
 
 ```csharp
 private void SetTrigger()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

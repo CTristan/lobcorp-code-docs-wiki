@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/FixerPale
 public class FixerPale : FixerCreature
 ```
 
+Pale Fixer. Shows up only during White Dusk.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [FixerCreature](/api/Global/Creature/FixerCreature) → FixerPale
 
@@ -33,6 +37,8 @@ public FixerPale()
 ```csharp
 private FixerPaleAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private FixerPaleAnim _animScript
 ```csharp
 private const int _atkFarDmgMax = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private const int _atkFarDmgMax = 9
 ```csharp
 private const int _atkFarDmgMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private const int _atkFarDmgMin = 8
 ```csharp
 private const float _atkFarDmgRange = 16
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const float _atkFarDmgRange = 16
 ```csharp
 private const float _atkFarRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private const float _atkFarRange = 15
 ```csharp
 private const RwbpType _atkFarType = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private const RwbpType _atkFarType = P
 ```csharp
 private const int _atkNearDmgMax_1st = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private const int _atkNearDmgMax_1st = 6
 ```csharp
 private const int _atkNearDmgMax_2nd = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ private const int _atkNearDmgMax_2nd = 4
 ```csharp
 private const int _atkNearDmgMax_3rd = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ private const int _atkNearDmgMax_3rd = 4
 ```csharp
 private const int _atkNearDmgMax_4th = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +157,8 @@ private const int _atkNearDmgMax_4th = 4
 ```csharp
 private const int _atkNearDmgMax_5th = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +169,8 @@ private const int _atkNearDmgMax_5th = 4
 ```csharp
 private const int _atkNearDmgMax_6th = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +181,8 @@ private const int _atkNearDmgMax_6th = 4
 ```csharp
 private const int _atkNearDmgMax_7th = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +193,8 @@ private const int _atkNearDmgMax_7th = 12
 ```csharp
 private const int _atkNearDmgMin_1st = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +205,8 @@ private const int _atkNearDmgMin_1st = 5
 ```csharp
 private const int _atkNearDmgMin_2nd = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +217,8 @@ private const int _atkNearDmgMin_2nd = 2
 ```csharp
 private const int _atkNearDmgMin_3rd = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +229,8 @@ private const int _atkNearDmgMin_3rd = 2
 ```csharp
 private const int _atkNearDmgMin_4th = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +241,8 @@ private const int _atkNearDmgMin_4th = 2
 ```csharp
 private const int _atkNearDmgMin_5th = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +253,8 @@ private const int _atkNearDmgMin_5th = 2
 ```csharp
 private const int _atkNearDmgMin_6th = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +265,8 @@ private const int _atkNearDmgMin_6th = 2
 ```csharp
 private const int _atkNearDmgMin_7th = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +277,8 @@ private const int _atkNearDmgMin_7th = 10
 ```csharp
 private const float _atkNearDmgRange = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +289,8 @@ private const float _atkNearDmgRange = 3.5
 ```csharp
 private const float _atkNearRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +301,8 @@ private const float _atkNearRange = 3
 ```csharp
 private const RwbpType _atkNearType_1st = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +313,8 @@ private const RwbpType _atkNearType_1st = P
 ```csharp
 private const RwbpType _atkNearType_2nd = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +325,8 @@ private const RwbpType _atkNearType_2nd = P
 ```csharp
 private const RwbpType _atkNearType_3rd = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +337,8 @@ private const RwbpType _atkNearType_3rd = P
 ```csharp
 private const RwbpType _atkNearType_4th = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +349,8 @@ private const RwbpType _atkNearType_4th = P
 ```csharp
 private const RwbpType _atkNearType_5th = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +361,8 @@ private const RwbpType _atkNearType_5th = P
 ```csharp
 private const RwbpType _atkNearType_6th = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +373,8 @@ private const RwbpType _atkNearType_6th = P
 ```csharp
 private const RwbpType _atkNearType_7th = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -323,6 +385,8 @@ private const RwbpType _atkNearType_7th = P
 ```csharp
 private const int _dSceneDmgMax = 70
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +397,8 @@ private const int _dSceneDmgMax = 70
 ```csharp
 private const int _dSceneDmgMin = 50
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +409,8 @@ private const int _dSceneDmgMin = 50
 ```csharp
 private const float _dSceneDmgRange = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +421,8 @@ private const float _dSceneDmgRange = 2
 ```csharp
 private const RwbpType _dSceneDmgType = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +433,8 @@ private const RwbpType _dSceneDmgType = P
 ```csharp
 private const float _motionDelayMax = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +445,8 @@ private const float _motionDelayMax = 1
 ```csharp
 private const float _motionDelayMin = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +467,8 @@ private FixerPale.Phase _phase
 ```csharp
 private const float _recognizeRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +479,8 @@ private const float _recognizeRange = 15
 ```csharp
 private const float _skillCoolTimeMax = 19
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +491,8 @@ private const float _skillCoolTimeMax = 19
 ```csharp
 private const float _skillCoolTimeMin = 17
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +503,8 @@ private const float _skillCoolTimeMin = 17
 ```csharp
 private const int _skillDmgMax_1st = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +515,8 @@ private const int _skillDmgMax_1st = 25
 ```csharp
 private const int _skillDmgMax_2nd = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +527,8 @@ private const int _skillDmgMax_2nd = 25
 ```csharp
 private const int _skillDmgMin_1st = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +539,8 @@ private const int _skillDmgMin_1st = 15
 ```csharp
 private const int _skillDmgMin_2nd = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +551,8 @@ private const int _skillDmgMin_2nd = 15
 ```csharp
 private const float _skillDmgRange = 9
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +563,8 @@ private const float _skillDmgRange = 9
 ```csharp
 private const float _skillInitCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +575,8 @@ private const float _skillInitCoolTimeMax = 15
 ```csharp
 private const float _skillInitCoolTimeMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +587,8 @@ private const float _skillInitCoolTimeMin = 12
 ```csharp
 private const RwbpType _skillType_1st = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +599,8 @@ private const RwbpType _skillType_1st = P
 ```csharp
 private const RwbpType _skillType_2nd = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +611,8 @@ private const RwbpType _skillType_2nd = P
 ```csharp
 private const float _teleportCoolTimeMax = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +623,8 @@ private const float _teleportCoolTimeMax = 35
 ```csharp
 private const float _teleportCoolTimeMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +635,8 @@ private const float _teleportCoolTimeMin = 25
 ```csharp
 private const float _teleportDelayMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -543,6 +647,8 @@ private const float _teleportDelayMax = 5
 ```csharp
 private const float _teleportDelayMin = 3.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -553,6 +659,8 @@ private const float _teleportDelayMin = 3.5
 ```csharp
 private static DamageInfo[] dmgs
 ```
+#INC
+
 
 #### Field Value
 
@@ -563,6 +671,8 @@ private static DamageInfo[] dmgs
 ```csharp
 private Timer motionDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -573,6 +683,8 @@ private Timer motionDelayTimer
 ```csharp
 private UnitModel moveTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -583,6 +695,8 @@ private UnitModel moveTarget
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -593,6 +707,8 @@ private Timer skillCoolTimer
 ```csharp
 private Timer teleportCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -603,6 +719,8 @@ private Timer teleportCoolTimer
 ```csharp
 private Timer teleportDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -787,6 +905,8 @@ private static float teleportDelay { get; }
 ```csharp
 private void AttackStart(bool isNear)
 ```
+#INC
+
 
 #### Parameters
 
@@ -799,6 +919,9 @@ private void AttackStart(bool isNear)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -816,6 +939,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckTeleportCondition(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -832,6 +957,8 @@ private bool CheckTeleportCondition(WorkerModel worker)
 ```csharp
 private WorkerModel GetTargetAgent(List<WorkerModel> agents)
 ```
+#INC
+
 
 #### Parameters
 
@@ -848,6 +975,8 @@ private WorkerModel GetTargetAgent(List<WorkerModel> agents)
 ```csharp
 private WorkerModel GetTeleportTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -858,6 +987,8 @@ private WorkerModel GetTeleportTarget()
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -868,6 +999,8 @@ private bool IsAttacking()
 ```csharp
 public override bool IsAutoSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -878,6 +1011,8 @@ public override bool IsAutoSuppressable()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -888,6 +1023,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -898,6 +1035,8 @@ private bool IsMovable()
 ```csharp
 public override bool IsSensoredInPassage()
 ```
+#INC
+
 
 #### Returns
 
@@ -908,6 +1047,8 @@ public override bool IsSensoredInPassage()
 ```csharp
 public override bool IsSuppressable()
 ```
+#INC
+
 
 #### Returns
 
@@ -918,6 +1059,8 @@ public override bool IsSuppressable()
 ```csharp
 private bool IsTeleporting()
 ```
+#INC
+
 
 #### Returns
 
@@ -928,12 +1071,16 @@ private bool IsTeleporting()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -944,18 +1091,24 @@ public override bool OnAfterSuppressed()
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnAttackFarEnd()
 
 ```csharp
 public void OnAttackFarEnd()
 ```
+#INC
+
 
 ### OnDamageCalled(int)
 
 ```csharp
 public void OnDamageCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -968,6 +1121,8 @@ public void OnDamageCalled(int i)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -980,12 +1135,16 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -998,21 +1157,29 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SkillStart()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+#INC
+
 
 ### Teleport()
 
 ```csharp
 public void Teleport()
 ```
+#INC
+
 
 ### TeleportStart()
 
 ```csharp
 private void TeleportStart()
 ```
+#INC
+

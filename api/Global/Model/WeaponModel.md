@@ -12,6 +12,11 @@ canonical_path: /api/Global/Model/WeaponModel
 public class WeaponModel : EquipmentModel
 ```
 
+Represents an EGO Weapon.
+
+#INC worth going through
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentModel](/api/Global/Model/EquipmentModel) → WeaponModel
 
@@ -33,6 +38,8 @@ public WeaponModel()
 ```csharp
 private Queue<DamageInfo> _currentDamageInfos
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Queue<DamageInfo> _currentDamageInfos
 ```csharp
 private bool fireEffectRunned
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool fireEffectRunned
 ```csharp
 public float remainDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ public float remainDelay
 ```csharp
 public DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -81,6 +94,8 @@ public DamageInfo GetDamage(UnitModel actor)
 ```csharp
 public UnitDirection GetDir(UnitModel attacker, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -98,6 +113,8 @@ public UnitDirection GetDir(UnitModel attacker, UnitModel target)
 ```csharp
 public static WeaponModel GetDummyWeapon()
 ```
+#INC
+
 
 #### Returns
 
@@ -108,6 +125,8 @@ public static WeaponModel GetDummyWeapon()
 ```csharp
 public static WeaponModel GetOfficerWeapon()
 ```
+#INC
+
 
 #### Returns
 
@@ -118,6 +137,8 @@ public static WeaponModel GetOfficerWeapon()
 ```csharp
 public bool InRange(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -135,6 +156,8 @@ public bool InRange(UnitModel actor, UnitModel target)
 ```csharp
 public bool InRangeDirectionalAtDamageTime(UnitModel actor, UnitModel target, float addedRange)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,6 +176,8 @@ public bool InRangeDirectionalAtDamageTime(UnitModel actor, UnitModel target, fl
 ```csharp
 public void InvokeEffect(UnitModel unit, DamageInfo damageInfo, UnitDirection dir)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +192,8 @@ public void InvokeEffect(UnitModel unit, DamageInfo damageInfo, UnitDirection di
 ```csharp
 public static WeaponModel MakeWeapon(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,6 +210,8 @@ public static WeaponModel MakeWeapon(EquipmentTypeInfo info)
 ```csharp
 public string OnAttack(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,18 +229,25 @@ public string OnAttack(UnitModel actor, UnitModel target)
 ```csharp
 public void OnEndAttackCycle()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### OnGiveDamage(UnitModel)
 
 ```csharp
 public void OnGiveDamage(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 

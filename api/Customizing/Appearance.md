@@ -11,6 +11,10 @@ canonical_path: /api/Customizing/Appearance
 ```csharp
 public class Appearance
 ```
+Has sprites for all of the agent's customizable features, and a ResourceLib object containing WorkerBasicSprite.ResourceData entries for each of the same. Presumably used in customization.
+
+See [CustomizingWindow](/api/Customizing/CustomizingWindow) and [AgentData](/api/Customizing/AgentData)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Appearance
@@ -33,6 +37,8 @@ public Appearance()
 ```csharp
 public Sprite Eye_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public Sprite Eye_Battle
 ```csharp
 public Sprite Eye_Dead
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Sprite Eye_Dead
 ```csharp
 public Sprite Eye_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Sprite Eye_Def
 ```csharp
 public Sprite Eye_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public Sprite Eye_Panic
 ```csharp
 public Sprite Eyebrow_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Sprite Eyebrow_Battle
 ```csharp
 public Sprite Eyebrow_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public Sprite Eyebrow_Def
 ```csharp
 public Sprite Eyebrow_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public Sprite Eyebrow_Panic
 ```csharp
 public Sprite FrontHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Appearance.ResourceLib lib
 ```csharp
 public Sprite Mouth_Battle
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +155,8 @@ public Sprite Mouth_Battle
 ```csharp
 public Sprite Mouth_Def
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +167,8 @@ public Sprite Mouth_Def
 ```csharp
 public Sprite Mouth_Panic
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +179,8 @@ public Sprite Mouth_Panic
 ```csharp
 public Sprite RearHair
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,3 +225,6 @@ public Color HairColor { get; set; }
 ```csharp
 public void SetResrouceData()
 ```
+#INC
+#code-generated
+

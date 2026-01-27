@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitBuf/KnightOfDespairBuf
 public class KnightOfDespairBuf : UnitBuf
 ```
 
+Buff for [The Knight of Despair](/api/Global/Misc/KnightOfDespair)'s blessed agent.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → KnightOfDespairBuf
 
@@ -25,6 +30,8 @@ public class KnightOfDespairBuf : UnitBuf
 ```csharp
 public KnightOfDespairBuf(KnightOfDespair knight)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public KnightOfDespairBuf(KnightOfDespair knight)
 ```csharp
 public KnightOfDespair knight
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +60,8 @@ public KnightOfDespair knight
 ```csharp
 private bool Check()
 ```
+#INC
+
 
 #### Returns
 
@@ -61,12 +72,17 @@ private bool Check()
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -79,12 +95,16 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,9 +122,13 @@ public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+
 
 ### OnUnitPanic()
 
 ```csharp
 public override void OnUnitPanic()
 ```
+#INC
+

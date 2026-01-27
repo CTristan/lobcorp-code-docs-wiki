@@ -12,6 +12,10 @@ canonical_path: /api/KetherBoss/BackGroundMoveEffect
 public class BackGroundMoveEffect : KetherLastEffectBase
 ```
 
+Moves the background during day 50
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → BackGroundMoveEffect
 
@@ -25,6 +29,8 @@ public class BackGroundMoveEffect : KetherLastEffectBase
 ```csharp
 public BackGroundMoveEffect(KetherLastBossBase bossBase)
 ```
+#INC
+
 
 #### Parameters
 
@@ -49,6 +55,8 @@ public BackGroundMoveEffect.ChangeBackgournd _changeAction
 ```csharp
 private float _initalSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +67,8 @@ private float _initalSpeed
 ```csharp
 private const float _maxY = 50000
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,8 @@ private const float _maxY = 50000
 ```csharp
 private float _speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +91,8 @@ private float _speed
 ```csharp
 private const float _speedFactor = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +103,8 @@ private const float _speedFactor = 5
 ```csharp
 private Transform _transform
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +115,8 @@ private Transform _transform
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +127,8 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 private Vector3 endPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +139,8 @@ private Vector3 endPosition
 ```csharp
 private const float eqLifetime = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +151,8 @@ private const float eqLifetime = 2
 ```csharp
 private Timer speedTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +163,8 @@ private Timer speedTimer
 ```csharp
 private Vector3 startPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +175,8 @@ private Vector3 startPosition
 ```csharp
 private Timer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,12 +213,16 @@ public void ApplyFrameChangeEvent(BackGroundMoveEffect.ChangeBackgournd changeBa
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### StartVertiaclMovement(float, bool)
 
 ```csharp
 public void StartVertiaclMovement(float speed, bool eqEanble = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -204,3 +236,6 @@ public void StartVertiaclMovement(float speed, bool eqEanble = false)
 ```csharp
 public override void Update()
 ```
+#INC
+#code-generated
+

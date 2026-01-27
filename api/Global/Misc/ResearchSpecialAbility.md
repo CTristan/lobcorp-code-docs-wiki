@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/ResearchSpecialAbility
 ```csharp
 public class ResearchSpecialAbility
 ```
+Holds the name of the 'special ability' to unlock.
+
+All researches except [Malkuth's joint department research](/api/Global/Misc/ResearchDepartability), [bullet research](/api/Global/Misc/ResearchBulletAbility),  [Hod's training research](/api/Global/Misc/ResearchPromotionEasily), and [Netzach's HP and SP regeneration buff](/api/Global/Misc/ResearchUnitStatUpgrade) are in this category.
+
+See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchSpecialAbility
@@ -33,6 +39,9 @@ public ResearchSpecialAbility()
 ```csharp
 public string name
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

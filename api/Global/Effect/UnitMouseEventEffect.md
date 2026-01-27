@@ -12,6 +12,9 @@ canonical_path: /api/Global/Effect/UnitMouseEventEffect
 public class UnitMouseEventEffect : MonoBehaviour
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UnitMouseEventEffect
 
@@ -43,6 +46,8 @@ private UnitMouseEventEffect.EffectType _currentEffect
 ```csharp
 private bool _isInitiated
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +68,8 @@ private UnitMouseEventEffect.EffectPosition _position
 ```csharp
 private bool _renderCatched
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +80,8 @@ private bool _renderCatched
 ```csharp
 private SpriteRenderer _spriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +92,8 @@ private SpriteRenderer _spriteRenderer
 ```csharp
 private Vector3 _startPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +104,8 @@ private Vector3 _startPosition
 ```csharp
 private Vector3 _startScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +116,8 @@ private Vector3 _startScale
 ```csharp
 private MaskableGraphic _uiRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +128,8 @@ private MaskableGraphic _uiRenderer
 ```csharp
 private AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +140,8 @@ private AnimationCurve curve
 ```csharp
 public float OverlayEffectFactor_Position
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +152,8 @@ public float OverlayEffectFactor_Position
 ```csharp
 public float OverlayEffectFactor_Scale
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +166,8 @@ public float OverlayEffectFactor_Scale
 ```csharp
 private void ClickUpdate(float max, float elap)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +181,8 @@ private void ClickUpdate(float max, float elap)
 ```csharp
 public void EffectUpdate(float freq, float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,12 +208,16 @@ public void Init(UnitMouseEventEffect.EffectPosition position)
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OverlayUpdate(float, float)
 
 ```csharp
 private void OverlayUpdate(float max, float elap)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +231,8 @@ private void OverlayUpdate(float max, float elap)
 ```csharp
 private void ResetTransform()
 ```
+#INC
+
 
 ### SetEffectType(EffectType)
 
@@ -220,6 +251,8 @@ public void SetEffectType(UnitMouseEventEffect.EffectType type)
 ```csharp
 private void SetRenderAlpha(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,6 +265,8 @@ private void SetRenderAlpha(float value)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartEffect(EffectType)
 

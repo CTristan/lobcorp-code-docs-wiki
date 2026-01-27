@@ -12,6 +12,18 @@ canonical_path: /api/Global/Misc/PlayUiSound
 public class PlayUiSound : MonoBehaviour
 ```
 
+Holds a list of clips and a Unity AudioSource.
+
+Used by the InGameUI object, but doesn't seem to have any audio clips. #unused  #maybe_unused #INC 
+## Methods
+#### public void PlayUi(int i)
+Plays the clip at index i.
+#### public void PlayNormal()
+Plays the clip in the audio source.
+#### public void Change()
+Plays the next clip in the audio source.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PlayUiSound
 
@@ -33,6 +45,8 @@ public PlayUiSound()
 ```csharp
 public List<AudioClip> clips
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +57,8 @@ public List<AudioClip> clips
 ```csharp
 private int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +69,8 @@ private int index
 ```csharp
 public AudioSource uiSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,18 +83,24 @@ public AudioSource uiSound
 ```csharp
 public void Change()
 ```
+#INC
+
 
 ### PlayNormal()
 
 ```csharp
 public void PlayNormal()
 ```
+#INC
+
 
 ### PlayUi(int)
 
 ```csharp
 public void PlayUi(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,9 +113,14 @@ public void PlayUi(int i)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

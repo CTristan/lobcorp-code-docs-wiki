@@ -49,6 +49,8 @@ private MultipleEvent.State _currentState
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +61,8 @@ private bool _isEnabled
 ```csharp
 private bool _isIn
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +83,8 @@ public List<MultipleEvent.EventAction> eventActionCalled
 ```csharp
 public bool onDisableEvent
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +95,8 @@ public bool onDisableEvent
 ```csharp
 public bool onPointerUpRecovery
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,12 +141,16 @@ public bool IsEnabled { get; set; }
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnPointerClick(PointerEventData)
 
 ```csharp
 public void OnPointerClick(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,6 +163,8 @@ public void OnPointerClick(PointerEventData eventData)
 ```csharp
 public void OnPointerDown(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,6 +177,8 @@ public void OnPointerDown(PointerEventData eventData)
 ```csharp
 public void OnPointerEnter(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -175,6 +191,8 @@ public void OnPointerEnter(PointerEventData eventData)
 ```csharp
 public void OnPointerExit(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +205,8 @@ public void OnPointerExit(PointerEventData eventData)
 ```csharp
 public void OnPointerUp(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 

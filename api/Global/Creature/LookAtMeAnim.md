@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/LookAtMeAnim
 public class LookAtMeAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Schadenfreude](/api/Global/Misc/LookAtMe).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → LookAtMeAnim
 
@@ -36,6 +41,8 @@ public LookAtMeAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private SpineOptimizerModule _module
 ```csharp
 public GameObject[] bloods
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public GameObject[] bloods
 ```csharp
 public GameObject[] elecs
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public GameObject[] elecs
 ```csharp
 public CreatureCameraUtil_Inspector escapedUtil
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public CreatureCameraUtil_Inspector escapedUtil
 ```csharp
 public CreatureCameraUtil_Inspector nonEscapedUtil
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public CreatureCameraUtil_Inspector nonEscapedUtil
 ```csharp
 private LookAtMe script
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private LookAtMe script
 ```csharp
 private SoundEffectPlayer skillSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ private SoundEffectPlayer skillSound
 ```csharp
 public GameObject[] sparks
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,42 +139,57 @@ public GameObject[] sparks
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### EndAttack()
 
 ```csharp
 private void EndAttack()
 ```
+#INC
+
 
 ### EndSkill()
 
 ```csharp
 private void EndSkill()
 ```
+#INC
+
 
 ### EndSkillStart()
 
 ```csharp
 public void EndSkillStart()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -164,6 +200,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsCasting()
 ```
+#INC
+
 
 #### Returns
 
@@ -174,6 +212,8 @@ public bool IsCasting()
 ```csharp
 public bool IsTransforming()
 ```
+#INC
+
 
 #### Returns
 
@@ -184,6 +224,8 @@ public bool IsTransforming()
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -196,30 +238,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnDie()
 ```
+#INC
+
 
 ### OnStageEnd()
 
 ```csharp
 public void OnStageEnd()
 ```
+#INC
+
 
 ### OnStartAttack()
 
 ```csharp
 public void OnStartAttack()
 ```
+#INC
+
 
 ### OnStartSkill()
 
 ```csharp
 public void OnStartSkill()
 ```
+#INC
+
 
 ### SetEffect(bool)
 
 ```csharp
 private void SetEffect(bool active)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,6 +284,8 @@ private void SetEffect(bool active)
 ```csharp
 public void SetScript(LookAtMe script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -244,15 +298,21 @@ public void SetScript(LookAtMe script)
 ```csharp
 private void SkillDamage()
 ```
+#INC
+
 
 ### Transform()
 
 ```csharp
 public void Transform()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ScavengerOrdealCreature
 public class ScavengerOrdealCreature : CreatureBase
 ```
 
+Parent class for [Indigo Ordeal](/api/Global/Misc/ScavengerOrdeal) creatures. There is just one: [Sweepers](/api/Global/Misc/ScavengerNoon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ScavengerOrdealCreature
 
@@ -36,6 +39,8 @@ public ScavengerOrdealCreature()
 ```csharp
 protected OrdealLevel _level
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected OrdealLevel _level
 ```csharp
 protected ScavengerOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,12 +65,17 @@ protected ScavengerOrdeal _ordealScript
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### SetOrdeal(ScavengerOrdeal, OrdealLevel)
 
 ```csharp
 public virtual void SetOrdeal(ScavengerOrdeal ordealScript, OrdealLevel level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/SuppressCommandTutorial
 public class SuppressCommandTutorial : Tutorial, IObserver
 ```
 
+Ends when the suppress command is issued.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SuppressCommandTutorial
 
@@ -36,18 +41,24 @@ public SuppressCommandTutorial()
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,3 +72,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

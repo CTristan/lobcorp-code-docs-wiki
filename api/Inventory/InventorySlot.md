@@ -12,6 +12,11 @@ canonical_path: /api/Inventory/InventorySlot
 public class InventorySlot : MonoBehaviour
 ```
 
+Parent class for EGO entries on the [list of EGO Suits and Weapons](/api/Inventory/InventoryItemController).
+
+See [InventoryWeaponSlot](/api/Inventory/InventoryWeaponSlot) and [InventoryArmorSlot](/api/Inventory/InventoryArmorSlot)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventorySlot
 
@@ -36,6 +41,8 @@ public InventorySlot()
 ```csharp
 private EquipmentTypeInfo _info
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private EquipmentTypeInfo _info
 ```csharp
 public List<EquipmentModel> equipments
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +76,8 @@ public Text Grade
 ```csharp
 public Image Icon
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +88,8 @@ public Image Icon
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +100,8 @@ public Text Name
 ```csharp
 public List<AgentModel> owners
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,6 +123,8 @@ public List<InventoryAgentSlot> ownerSlot
 ```csharp
 public InventoryRequireLayout requireLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,6 +135,8 @@ public InventoryRequireLayout requireLayout
 ```csharp
 public Button TooltipButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -152,24 +171,33 @@ public RectTransform RectTransform { get; }
 ```csharp
 public virtual void ApplyPortrait()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckOwner()
 
 ```csharp
 public virtual void CheckOwner()
 ```
+#INC
+
 
 ### CheckOwner(AgentModel)
 
 ```csharp
 public bool CheckOwner(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -186,6 +214,8 @@ public bool CheckOwner(AgentModel target)
 ```csharp
 public bool CheckOwner(AgentModel target, out EquipmentModel owned)
 ```
+#INC
+
 
 #### Parameters
 
@@ -203,6 +233,8 @@ public bool CheckOwner(AgentModel target, out EquipmentModel owned)
 ```csharp
 public bool CheckRequire(EquipmentModel equipment, AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -220,6 +252,8 @@ public bool CheckRequire(EquipmentModel equipment, AgentModel target)
 ```csharp
 public int GetAgentSlotIndex(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,6 +270,8 @@ public int GetAgentSlotIndex(AgentModel agent)
 ```csharp
 public EquipmentModel GetDummyEquipmentModel()
 ```
+#INC
+
 
 #### Returns
 
@@ -246,6 +282,8 @@ public EquipmentModel GetDummyEquipmentModel()
 ```csharp
 public EquipmentModel GetEquipmentModel(InventoryAgentSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -262,6 +300,8 @@ public EquipmentModel GetEquipmentModel(InventoryAgentSlot slot)
 ```csharp
 public EquipmentModel GetOwnedEquipment(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -278,6 +318,8 @@ public EquipmentModel GetOwnedEquipment(AgentModel agent)
 ```csharp
 public bool GetUnownedEquipment(out EquipmentModel equip)
 ```
+#INC
+
 
 #### Parameters
 
@@ -294,12 +336,16 @@ public bool GetUnownedEquipment(out EquipmentModel equip)
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### OnClickAgentSlot(InventoryAgentSlot)
 
 ```csharp
 public virtual void OnClickAgentSlot(InventoryAgentSlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -312,6 +358,8 @@ public virtual void OnClickAgentSlot(InventoryAgentSlot slot)
 ```csharp
 public virtual void RequireInit(EquipmentTypeInfo info = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -324,6 +372,8 @@ public virtual void RequireInit(EquipmentTypeInfo info = null)
 ```csharp
 public void SetModel(EquipmentTypeInfo info, List<EquipmentModel> items)
 ```
+#INC
+
 
 #### Parameters
 
@@ -337,6 +387,8 @@ public void SetModel(EquipmentTypeInfo info, List<EquipmentModel> items)
 ```csharp
 public static int SortCompare(InventorySlot a, InventorySlot b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,6 +406,8 @@ public static int SortCompare(InventorySlot a, InventorySlot b)
 ```csharp
 public void UpdateList(List<EquipmentModel> items)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,3 +420,5 @@ public void UpdateList(List<EquipmentModel> items)
 ```csharp
 public virtual void UpdateUI()
 ```
+#INC
+

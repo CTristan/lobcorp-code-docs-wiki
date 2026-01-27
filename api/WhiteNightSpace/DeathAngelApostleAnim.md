@@ -12,6 +12,11 @@ canonical_path: /api/WhiteNightSpace/DeathAngelApostleAnim
 public class DeathAngelApostleAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Parent class for [apostle](/api/Legacy/DeathAngelApostle) animations
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → DeathAngelApostleAnim
 
@@ -39,6 +44,8 @@ public DeathAngelApostleAnim()
 ```csharp
 private DeathAngelApostle _apostle
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private DeathAngelApostle _apostle
 ```csharp
 protected SoundEffectPlayer _attackLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ protected SoundEffectPlayer _attackLoop
 ```csharp
 protected SoundEffectPlayer _castingLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ protected SoundEffectPlayer _castingLoop
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private GameObject _eyeEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private GameObject _eyeEffect
 ```csharp
 public GameObject AdventLight
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ public GameObject AdventLight
 ```csharp
 private const string effectSrc_Def = "Effect/Creature/DeathAngel/EyeEffect_Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +128,8 @@ private const string effectSrc_Def = "Effect/Creature/DeathAngel/EyeEffect_Defau
 ```csharp
 private const string effectSrc_Gur = "Effect/Creature/DeathAngel/EyeEffect_Guardian"
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +140,8 @@ private const string effectSrc_Gur = "Effect/Creature/DeathAngel/EyeEffect_Guard
 ```csharp
 public Transform EyeTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +152,8 @@ public Transform EyeTransform
 ```csharp
 public SpriteRenderer HairRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +164,8 @@ public SpriteRenderer HairRenderer
 ```csharp
 public Transform MaskTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +190,9 @@ public DeathAngelApostle DeathAngelApostle { get; }
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -173,18 +203,24 @@ public override bool HasDeadMotion()
 ```csharp
 public void OnAdevntEnd()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,24 +233,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnDeathAngelSuppressed()
 ```
+#INC
+
 
 ### OnEscape()
 
 ```csharp
 public void OnEscape()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public virtual void OnGiveDamage()
 ```
+#INC
+
 
 ### OnStartAttack(int)
 
 ```csharp
 public virtual void OnStartAttack(int attackType = 0)
 ```
+#INC
+
 
 #### Parameters
 
@@ -227,24 +271,32 @@ public virtual void OnStartAttack(int attackType = 0)
 ```csharp
 public virtual void OnSuppressed()
 ```
+#INC
+
 
 ### ResetParam()
 
 ```csharp
 public virtual void ResetParam()
 ```
+#INC
+
 
 ### Resurrect()
 
 ```csharp
 public void Resurrect()
 ```
+#INC
+
 
 ### SetScript(DeathAngelApostle)
 
 ```csharp
 public virtual void SetScript(DeathAngelApostle apostle)
 ```
+#INC
+
 
 #### Parameters
 
@@ -257,9 +309,13 @@ public virtual void SetScript(DeathAngelApostle apostle)
 ```csharp
 public override void Stop()
 ```
+#INC
+
 
 ### TurnOnAdventLight()
 
 ```csharp
 public void TurnOnAdventLight()
 ```
+#INC
+

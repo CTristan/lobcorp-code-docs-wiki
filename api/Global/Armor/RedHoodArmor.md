@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/RedHoodArmor
 public class RedHoodArmor : EquipmentScriptBase
 ```
 
+Script for [Little Red](/api/Global/IOBserver/RedHood)'s EGO Suit: Crimson Scar.
+
+When the weapon is held out, increases the user's speed by 30% until their weapon is put away.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RedHoodArmor
 
@@ -33,6 +38,8 @@ public RedHoodArmor()
 ```csharp
 private const float _moveBufRatio = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ private const float _moveBufRatio = 0.3
 ```csharp
 public override void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,6 +66,9 @@ public override void OnCancelWeapon(UnitModel actor)
 ```csharp
 public override void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

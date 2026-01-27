@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/SakuraAnim
 public class SakuraAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Grave of the Cherry Blossoms](/api/Global/Misc/Sakura).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → SakuraAnim
 
@@ -36,6 +41,8 @@ public SakuraAnim()
 ```csharp
 public SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public SpineOptimizerModule _module
 ```csharp
 private const string _sound_cast = "cast"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private const string _sound_cast = "cast"
 ```csharp
 private const string _sound_kill1 = "kill1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _sound_kill1 = "kill1"
 ```csharp
 private const string _sound_kill2 = "kill2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _sound_kill2 = "kill2"
 ```csharp
 private const string _sound_skill = "skill"
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private const string _sound_skill = "skill"
 ```csharp
 private Sakura script
 ```
+#INC
+
 
 #### Field Value
 
@@ -98,6 +115,8 @@ private Sakura script
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,24 +133,32 @@ private string GetSoundSrc(string key)
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### HealEnd()
 
 ```csharp
 private void HealEnd()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsHealing()
 
 ```csharp
 public bool IsHealing()
 ```
+#INC
+
 
 #### Returns
 
@@ -142,6 +169,8 @@ public bool IsHealing()
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,6 +187,9 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -170,24 +202,32 @@ public override void OnCalled(int i)
 ```csharp
 public void OnHealStart()
 ```
+#INC
+
 
 ### OnSacrificeStart()
 
 ```csharp
 public void OnSacrificeStart()
 ```
+#INC
+
 
 ### SacrificeEnd()
 
 ```csharp
 private void SacrificeEnd()
 ```
+#INC
+
 
 ### SetScript(Sakura)
 
 ```csharp
 public void SetScript(Sakura script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,6 +240,8 @@ public void SetScript(Sakura script)
 ```csharp
 public void UpdateAnim(int phase)
 ```
+#INC
+
 
 #### Parameters
 

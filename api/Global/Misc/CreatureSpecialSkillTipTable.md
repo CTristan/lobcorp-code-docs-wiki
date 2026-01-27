@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/CreatureSpecialSkillTipTable
 ```csharp
 public class CreatureSpecialSkillTipTable
 ```
+Stores these [CreatureSpecialSkillDesc](/api/Global/Misc/CreatureSpecialSkillDesc) objects...
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSpecialSkillTipTable
@@ -25,6 +28,9 @@ public class CreatureSpecialSkillTipTable
 ```csharp
 public CreatureSpecialSkillTipTable(long creatureTypeId)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -39,6 +45,8 @@ public CreatureSpecialSkillTipTable(long creatureTypeId)
 ```csharp
 public long creatureTypeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +57,8 @@ public long creatureTypeId
 ```csharp
 public List<CreatureSpecialSkillDesc> descList
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +71,8 @@ public List<CreatureSpecialSkillDesc> descList
 ```csharp
 public void ActivateDesc(CreatureModel model, string key, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -75,6 +87,8 @@ public void ActivateDesc(CreatureModel model, string key, params object[] param)
 ```csharp
 public CreatureSpecialSkillTipTable GetCopy()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,6 +99,8 @@ public CreatureSpecialSkillTipTable GetCopy()
 ```csharp
 public CreatureSpecialSkillDesc GetDesc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +117,8 @@ public CreatureSpecialSkillDesc GetDesc(string key)
 ```csharp
 public Dictionary<string, object> GetSaveGlobalData()
 ```
+#INC
+
 
 #### Returns
 
@@ -111,12 +129,16 @@ public Dictionary<string, object> GetSaveGlobalData()
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### LoadGlobalData(Dictionary<string, object>, int)
 
 ```csharp
 public void LoadGlobalData(Dictionary<string, object> dic, int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +152,8 @@ public void LoadGlobalData(Dictionary<string, object> dic, int count)
 ```csharp
 public void OnCreatureNameRevealed(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 

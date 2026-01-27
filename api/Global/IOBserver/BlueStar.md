@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/BlueStar
 public class BlueStar : CreatureBase, IObserver
 ```
 
+Blue Star.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BlueStar
 
@@ -36,6 +39,8 @@ public BlueStar()
 ```csharp
 private BlueStarAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private BlueStarAnim _animScript
 ```csharp
 private const float _attackDelayMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private const float _attackDelayMax = 5
 ```csharp
 private const float _attackDelayMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private const float _attackDelayMin = 8
 ```csharp
 private Timer _attackTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private Timer _attackTimer
 ```csharp
 private SoundEffectPlayer _backGroundLoop
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private SoundEffectPlayer _backGroundLoop
 ```csharp
 private BlueStarBuf _currentDeadSceneBuf
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private BlueStarBuf _currentDeadSceneBuf
 ```csharp
 private static DamageInfo _damageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ private static DamageInfo _damageInfo
 ```csharp
 private const int _globalDamageMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ private const int _globalDamageMax = 15
 ```csharp
 private const int _globalDamageMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +147,8 @@ private const int _globalDamageMin = 20
 ```csharp
 private const float _officerAbsorbProb = 0.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +159,8 @@ private const float _officerAbsorbProb = 0.2
 ```csharp
 private bool _readyForEscape
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +171,8 @@ private bool _readyForEscape
 ```csharp
 private Timer _workTimeEstimate
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +183,8 @@ private Timer _workTimeEstimate
 ```csharp
 private List<WorkerModel> deadSceneList
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +195,8 @@ private List<WorkerModel> deadSceneList
 ```csharp
 private const int EncounterPrudenceStd = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +207,8 @@ private const int EncounterPrudenceStd = 3
 ```csharp
 private const int EncounterTemperanceStd = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +219,8 @@ private const int EncounterTemperanceStd = 2
 ```csharp
 private const int GlobalDamageIgnorePrudenceLevel = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +231,8 @@ private const int GlobalDamageIgnorePrudenceLevel = 15
 ```csharp
 private const int QliphothMax = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +243,8 @@ private const int QliphothMax = 2
 ```csharp
 public const string SoundKey_Attack = "Attack"
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +255,8 @@ public const string SoundKey_Attack = "Attack"
 ```csharp
 public const string SoundKey_Bgm = "Bgm"
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +267,8 @@ public const string SoundKey_Bgm = "Bgm"
 ```csharp
 public const string SoundKey_Dead = "Dead"
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +279,8 @@ public const string SoundKey_Dead = "Dead"
 ```csharp
 public const string SoundKey_In = "In"
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +291,8 @@ public const string SoundKey_In = "In"
 ```csharp
 public const string SoundKey_Start = "Start"
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +303,8 @@ public const string SoundKey_Start = "Start"
 ```csharp
 private const float WorkLimitTime = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +315,8 @@ private const float WorkLimitTime = 60
 ```csharp
 private const int WorkPrudenceLevel = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +327,8 @@ private const int WorkPrudenceLevel = 4
 ```csharp
 private const int WorkTemperanceLevel = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -310,6 +363,8 @@ private float AttackDelay { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ChangeIsolateRoom()
 
@@ -322,12 +377,16 @@ public void ChangeIsolateRoom()
 ```csharp
 public void CheckNearWorkerEncounting()
 ```
+#INC
+
 
 ### EnterDeadsceneMake(WorkerModel)
 
 ```csharp
 public void EnterDeadsceneMake(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -340,12 +399,16 @@ public void EnterDeadsceneMake(WorkerModel target)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 public string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -362,6 +425,8 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveGlobalDamage(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -374,6 +439,8 @@ public void GiveGlobalDamage(UnitModel target)
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -384,6 +451,8 @@ public override bool HasRoomCounter()
 ```csharp
 public bool IsDeadscenePlaying()
 ```
+#INC
+
 
 #### Returns
 
@@ -394,6 +463,8 @@ public bool IsDeadscenePlaying()
 ```csharp
 public static void Log(string log)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,12 +477,16 @@ public static void Log(string log)
 ```csharp
 public void MakeDeadScene()
 ```
+#INC
+
 
 ### MakeDeadScene(WorkerModel)
 
 ```csharp
 public BlueStarBuf MakeDeadScene(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -428,6 +503,8 @@ public BlueStarBuf MakeDeadScene(WorkerModel worker)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -444,12 +521,16 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnAgentDead()
 ```
+#INC
+
 
 ### OnEnterRoom(UseSkill)
 
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -462,6 +543,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -474,6 +557,8 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -486,6 +571,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -499,36 +586,48 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnReadyForTeleport()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnTargetDestroied(BlueStarBuf)
 
 ```csharp
 public void OnTargetDestroied(BlueStarBuf b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -541,12 +640,16 @@ public void OnTargetDestroied(BlueStarBuf b)
 ```csharp
 public void OnTeleportEnd()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -559,6 +662,8 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkClosed(UseSkill skill, int successCount)
 ```
+#INC
+
 
 #### Parameters
 
@@ -572,9 +677,14 @@ public override void OnWorkClosed(UseSkill skill, int successCount)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

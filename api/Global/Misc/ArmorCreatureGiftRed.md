@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/ArmorCreatureGiftRed
 public class ArmorCreatureGiftRed : EquipmentScriptBase
 ```
 
+EGO Gift Reckless Foolishness (red); obtained by working repression with [Crumbling Armor](/api/Global/IOBserver/ArmorCreature) while having [Reckless Foolishness (orange)](/api/Global/Misc/ArmorCreatureGiftOrange).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ArmorCreatureGiftRed
 
@@ -33,6 +36,8 @@ public ArmorCreatureGiftRed()
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ private GameObject effect
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,3 +65,5 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override void OnRelease()
 ```
+#INC
+

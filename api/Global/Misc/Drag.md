@@ -49,6 +49,8 @@ private Drag.OnDragEvent _beginEvent
 ```csharp
 private GameObject _currentDragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +61,8 @@ private GameObject _currentDragging
 ```csharp
 private IDraggableObject _draggableScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +73,8 @@ private IDraggableObject _draggableScript
 ```csharp
 private Dictionary<int, GameObject> _draggingImages
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +85,8 @@ private Dictionary<int, GameObject> _draggingImages
 ```csharp
 private Dictionary<int, RectTransform> _draggingPlanes
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +107,8 @@ private Drag.OnDragEvent _endEvent
 ```csharp
 public Image _image
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +119,8 @@ public Image _image
 ```csharp
 private bool _isDragging
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +131,8 @@ private bool _isDragging
 ```csharp
 private int _pointerId
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +143,8 @@ private int _pointerId
 ```csharp
 public float delta
 ```
+#INC
+
 
 #### Field Value
 
@@ -139,6 +155,8 @@ public float delta
 ```csharp
 public Vector3 DragPositionFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -149,6 +167,8 @@ public Vector3 DragPositionFix
 ```csharp
 public float DragRotationFix
 ```
+#INC
+
 
 #### Field Value
 
@@ -159,6 +179,8 @@ public float DragRotationFix
 ```csharp
 private bool dragStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -169,6 +191,8 @@ private bool dragStarted
 ```csharp
 public GameObject eventTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -179,6 +203,8 @@ public GameObject eventTarget
 ```csharp
 private bool generated
 ```
+#INC
+
 
 #### Field Value
 
@@ -189,6 +215,8 @@ private bool generated
 ```csharp
 private Vector2 startedPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,12 +251,16 @@ public Image Image { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### FindInParents<T>(GameObject)
 
 ```csharp
 public static T FindInParents<T>(GameObject go) where T : Component
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,6 +277,8 @@ public static T FindInParents<T>(GameObject go) where T : Component
 ```csharp
 public IDraggableObject GetDraggableScript()
 ```
+#INC
+
 
 #### Returns
 
@@ -255,6 +289,8 @@ public IDraggableObject GetDraggableScript()
 ```csharp
 public void OnBeginDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +303,8 @@ public void OnBeginDrag(PointerEventData eventData)
 ```csharp
 public void OnDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +317,8 @@ public void OnDrag(PointerEventData eventData)
 ```csharp
 public void OnEndDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +331,8 @@ public void OnEndDrag(PointerEventData eventData)
 ```csharp
 public void OnManualEnd()
 ```
+#INC
+
 
 ### SetBeginEvent(OnDragEvent)
 
@@ -309,6 +351,8 @@ public void SetBeginEvent(Drag.OnDragEvent begin)
 ```csharp
 private void SetDraggedPosition(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -333,12 +377,16 @@ public void SetEndEvent(Drag.OnDragEvent end)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartDrag(PointerEventData)
 
 ```csharp
 private void StartDrag(PointerEventData eventData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -351,3 +399,5 @@ private void StartDrag(PointerEventData eventData)
 ```csharp
 private void Update()
 ```
+#INC
+

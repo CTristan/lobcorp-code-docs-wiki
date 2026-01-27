@@ -11,6 +11,10 @@ canonical_path: /api/WorkerSprite/WorkerBasicSprite
 ```csharp
 public class WorkerBasicSprite
 ```
+Worker facial sprite...?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerBasicSprite
@@ -33,6 +37,8 @@ public WorkerBasicSprite()
 ```csharp
 private List<Sprite> all
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private List<WorkerBasicSprite.ResourceData> data
 ```csharp
 public List<SpriteResourceLoadData> loadedData
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public List<SpriteResourceLoadData> loadedData
 ```csharp
 public BasicSpriteRegion subRegion
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +85,8 @@ public BasicSpriteRegion subRegion
 ```csharp
 public List<Sprite> GetAllSprites()
 ```
+#INC
+
 
 #### Returns
 
@@ -85,6 +97,8 @@ public List<Sprite> GetAllSprites()
 ```csharp
 public SpriteResourceLoadData GetData(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +115,9 @@ public SpriteResourceLoadData GetData(long id)
 ```csharp
 public int GetLastId()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -111,6 +128,8 @@ public int GetLastId()
 ```csharp
 public SpriteResourceLoadData GetRandomData(bool containCustom = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,6 +146,8 @@ public SpriteResourceLoadData GetRandomData(bool containCustom = false)
 ```csharp
 public SpriteResourceLoadData GetRandomDataWithExclude(List<int> excludeIds, bool containCustom = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +181,8 @@ public WorkerBasicSprite.ResourceData GetResourceData(Sprite sprite)
 ```csharp
 public SpriteResourceLoadData GetUniqueCustomData()
 ```
+#INC
+
 
 #### Returns
 

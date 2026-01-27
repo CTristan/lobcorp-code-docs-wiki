@@ -11,6 +11,10 @@ canonical_path: /api/Global/Story/StoryMemoryManager
 ```csharp
 public class StoryMemoryManager
 ```
+Keeps track of which stories should be unlocked on this save file, for the story viewer.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryMemoryManager
@@ -33,6 +37,8 @@ public StoryMemoryManager()
 ```csharp
 private const string _filename = "saveStory.dat"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private const string _filename = "saveStory.dat"
 ```csharp
 private static StoryMemoryManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private static StoryMemoryManager _instance
 ```csharp
 private const string _saveVer = "story1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private const string _saveVer = "story1"
 ```csharp
 private HashSet<string> _unlockedStorySet
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +109,9 @@ private string saveFileName { get; }
 ```csharp
 public List<string> GetUnlockedDayStoryList()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -107,6 +122,8 @@ public List<string> GetUnlockedDayStoryList()
 ```csharp
 public List<string> GetUnlockedSeedStoryList()
 ```
+#INC
+
 
 #### Returns
 
@@ -117,6 +134,8 @@ public List<string> GetUnlockedSeedStoryList()
 ```csharp
 public List<string> GetUnlockedSefiraStoryList(SefiraEnum sefira)
 ```
+#INC
+
 
 #### Parameters
 

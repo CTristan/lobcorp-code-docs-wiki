@@ -11,6 +11,9 @@ canonical_path: /api/WhiteNightSpace/ApostleGenData
 ```csharp
 public class ApostleGenData
 ```
+Data for making an apostle from an agent, maybe?
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleGenData
@@ -25,6 +28,9 @@ public class ApostleGenData
 ```csharp
 public ApostleGenData(WorkerModel worker, ApostleData data, int index)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -41,6 +47,8 @@ public ApostleGenData(WorkerModel worker, ApostleData data, int index)
 ```csharp
 public ChildCreatureModel AposlteModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +59,8 @@ public ChildCreatureModel AposlteModel
 ```csharp
 public ApostleData data
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +71,8 @@ public ApostleData data
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -71,6 +83,8 @@ public int index
 ```csharp
 public WorkerModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public WorkerModel target
 ```csharp
 public static int Compare(ApostleGenData a, ApostleGenData b)
 ```
+#INC
+
 
 #### Parameters
 

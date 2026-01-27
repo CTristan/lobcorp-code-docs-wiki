@@ -11,6 +11,10 @@ canonical_path: /api/Global/UI/ConversationUI
 ```csharp
 public class ConversationUI : MonoBehaviour, ICanvasRaycastFilter
 ```
+UI for displaying sephirah messages.
+
+See [Conversation](/api/Global/Misc/Conversation)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ConversationUI
@@ -36,6 +40,8 @@ public ConversationUI()
 ```csharp
 private AutoTimer _destroyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private AutoTimer _destroyTimer
 ```csharp
 public Image FrameBG
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ public Image FrameBG
 ```csharp
 public Image FrameInner
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +76,8 @@ public Image FrameInner
 ```csharp
 public Image FrameOutter
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +88,8 @@ public Image FrameOutter
 ```csharp
 public Image FrameSide
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +100,8 @@ public Image FrameSide
 ```csharp
 public Text InnerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +112,8 @@ public Text InnerText
 ```csharp
 public Image Portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +124,8 @@ public Image Portrait
 ```csharp
 public Image PortraitBG
 ```
+#INC
+
 
 #### Field Value
 
@@ -118,18 +138,25 @@ public Image PortraitBG
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FadeOut()
 
 ```csharp
 public void FadeOut()
 ```
+#INC
+
 
 ### InitUI(Sprite, Color, string)
 
 ```csharp
 public void InitUI(Sprite s, Color c, string d)
 ```
+#INC
+
 
 #### Parameters
 
@@ -144,6 +171,8 @@ public void InitUI(Sprite s, Color c, string d)
 ```csharp
 public bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera)
 ```
+#INC
+
 
 #### Parameters
 
@@ -161,3 +190,5 @@ public bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera)
 ```csharp
 private void OnDestroy()
 ```
+#INC
+

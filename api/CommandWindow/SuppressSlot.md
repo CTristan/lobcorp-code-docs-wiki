@@ -12,6 +12,11 @@ canonical_path: /api/CommandWindow/SuppressSlot
 public class SuppressSlot : AgentSlot
 ```
 
+UI for displaying the agents along with their [defense info](/api/Global/Info/DefenseInfo) and equipment in the suppression window.
+
+See [CommandWindow](/api/CommandWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AgentSlot](/api/CommandWindow/AgentSlot) → SuppressSlot
 
@@ -33,6 +38,8 @@ public SuppressSlot()
 ```csharp
 public AgentEquipmentSlot equipment
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public TooltipMouseOver[] tooltips
 ```csharp
 private string GetDefenseTypeText(DefenseInfo def, RwbpType t)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,6 +82,9 @@ private string GetDefenseTypeText(DefenseInfo def, RwbpType t)
 ```csharp
 public override void SetUI(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -85,9 +97,13 @@ public override void SetUI(AgentModel agent)
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateUI()
 
 ```csharp
 public override void UpdateUI()
 ```
+#INC
+

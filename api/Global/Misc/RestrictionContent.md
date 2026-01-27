@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/RestrictionContent
 ```csharp
 public class RestrictionContent
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RestrictionContent
@@ -33,6 +35,8 @@ public RestrictionContent()
 ```csharp
 public static int cnt
 ```
+
+
 
 #### Field Value
 

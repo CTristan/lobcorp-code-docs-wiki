@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ChildCreatureModel
 public class ChildCreatureModel : CreatureModel, ISerializablePlayData, IMouseCommandTargetModel, IObserver
 ```
 
+Parent class for [CreatureModels](/api/Global/Model/CreatureModel) of child creatures.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitModel](/api/Global/Model/UnitModel) → [CreatureModel](/api/Global/Model/CreatureModel) → ChildCreatureModel
 
@@ -28,6 +31,8 @@ public class ChildCreatureModel : CreatureModel, ISerializablePlayData, IMouseCo
 ```csharp
 public ChildCreatureModel(long instanceId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public ChildCreatureModel(long instanceId)
 ```csharp
 private CreatureModel _parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +69,8 @@ private ChildCreatureUnit _unit
 ```csharp
 public bool activateState
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +81,8 @@ public bool activateState
 ```csharp
 public bool animAutoSet
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +93,8 @@ public bool animAutoSet
 ```csharp
 public bool destroied
 ```
+#INC
+
 
 #### Field Value
 
@@ -92,6 +105,8 @@ public bool destroied
 ```csharp
 public string PortraitSrc
 ```
+#INC
+
 
 #### Field Value
 
@@ -102,6 +117,8 @@ public string PortraitSrc
 ```csharp
 public RiskLevel RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,6 +129,8 @@ public RiskLevel RiskLevel
 ```csharp
 private float Speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +185,8 @@ public List<WorkerModel> CheckNearWorkerEncounting()
 ```csharp
 public void ChildInitialEncounter(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,12 +199,16 @@ public void ChildInitialEncounter(WorkerModel worker)
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### GenCreatureUnit(string)
 
 ```csharp
 public ChildCreatureUnit GenCreatureUnit(string prefabSrc = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,6 +225,8 @@ public ChildCreatureUnit GenCreatureUnit(string prefabSrc = null)
 ```csharp
 public CreatureTypeInfo GetBaseMetaInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -210,6 +237,8 @@ public CreatureTypeInfo GetBaseMetaInfo()
 ```csharp
 public override int GetRiskLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -220,6 +249,8 @@ public override int GetRiskLevel()
 ```csharp
 public override string GetUnitName()
 ```
+#INC
+
 
 #### Returns
 
@@ -230,6 +261,8 @@ public override string GetUnitName()
 ```csharp
 public override bool IsAttackTargetable()
 ```
+#INC
+
 
 #### Returns
 
@@ -253,6 +286,8 @@ public void LoadCustom(ChildCreatureUnit component, string Src)
 ```csharp
 private void LoadScript(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,18 +300,24 @@ private void LoadScript(string src)
 ```csharp
 public void OnDeleted()
 ```
+#INC
+
 
 ### OnEscapeUpdate()
 
 ```csharp
 public override void OnEscapeUpdate()
 ```
+#INC
+
 
 ### OnFixedUpdate()
 
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
@@ -296,12 +337,17 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+#code-generated
+
 
 ### PursueWorker(WorkerModel)
 
 ```csharp
 public override void PursueWorker(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -314,12 +360,16 @@ public override void PursueWorker(WorkerModel target)
 ```csharp
 public void SelfDestroy()
 ```
+#INC
+
 
 ### SendAnimMessage(string)
 
 ```csharp
 public override void SendAnimMessage(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -332,6 +382,8 @@ public override void SendAnimMessage(string name)
 ```csharp
 public override void SetMoveAnimState(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -344,6 +396,8 @@ public override void SetMoveAnimState(bool b)
 ```csharp
 public void SetParent(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -356,6 +410,8 @@ public void SetParent(CreatureModel creature)
 ```csharp
 public void SetParent(CreatureModel creature, string childScriptSrc, string childPrefab)
 ```
+#INC
+
 
 #### Parameters
 
@@ -382,3 +438,5 @@ public void SetSpeed(float speed = -1)
 ```csharp
 public override void Suppressed()
 ```
+#INC
+

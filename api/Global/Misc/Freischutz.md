@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Freischutz
 public class Freischutz : CreatureBase
 ```
 
+Der Freischütz.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Freischutz
 
@@ -33,6 +38,8 @@ public Freischutz()
 ```csharp
 private FreischutzAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private FreischutzAnim _animScript
 ```csharp
 private readonly int _CONDITION_JUSTICE_LEVEL
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly int _CONDITION_JUSTICE_LEVEL
 ```csharp
 private readonly int _CONDITION_SHOOT_COUNT
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private readonly int _CONDITION_SHOOT_COUNT
 ```csharp
 private readonly float _COST_REQUEST
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private readonly float _COST_REQUEST
 ```csharp
 private readonly float _COST_REQUEST_MIN
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private readonly float _COST_REQUEST_MIN
 ```csharp
 private readonly int _MAX_QLI
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private readonly int _MAX_QLI
 ```csharp
 private readonly float _RANDOM_SHOOT_FREQ
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private readonly float _RANDOM_SHOOT_FREQ
 ```csharp
 private int _shootCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private int _shootCount
 ```csharp
 public bool isDefaultState
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,12 +160,16 @@ private float RequestCost { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### ActiveShootRequest()
 
 ```csharp
 public bool ActiveShootRequest()
 ```
+#INC
+
 
 #### Returns
 
@@ -153,6 +180,8 @@ public bool ActiveShootRequest()
 ```csharp
 public override bool HasRoomCounter()
 ```
+#INC
+
 
 #### Returns
 
@@ -163,6 +192,8 @@ public override bool HasRoomCounter()
 ```csharp
 public override bool HasUniqueCommandAction(int workType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,6 +210,8 @@ public override bool HasUniqueCommandAction(int workType)
 ```csharp
 public override bool IsWorkable()
 ```
+#INC
+
 
 #### Returns
 
@@ -189,6 +222,8 @@ public override bool IsWorkable()
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -201,6 +236,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnOpenCommandWindow(Button[] buttons)
 ```
+#INC
+
 
 #### Parameters
 
@@ -213,6 +250,8 @@ public override void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public override bool OnOpenWorkWindow()
 ```
+#INC
+
 
 #### Returns
 
@@ -223,6 +262,8 @@ public override bool OnOpenWorkWindow()
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -235,12 +276,17 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -253,3 +299,5 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void ShootBullet()
 ```
+#INC
+

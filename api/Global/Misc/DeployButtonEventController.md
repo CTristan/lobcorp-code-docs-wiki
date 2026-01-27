@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/DeployButtonEventController
 public class DeployButtonEventController : MonoBehaviour
 ```
 
+Part of a game object called AreaMoveButtonPanel on the [DeployUI](/api/Global/UI/DeployUI), which appears to be an old way of switching between department areas.
+
+#called-unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → DeployButtonEventController
 
@@ -33,6 +38,9 @@ public DeployButtonEventController()
 ```csharp
 public void OnEnter(GameObject target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -45,9 +53,13 @@ public void OnEnter(GameObject target)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

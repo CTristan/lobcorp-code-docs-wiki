@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlimeLoverAnim
 public class SlimeLoverAnim : SlimeCreatureAnim, IAnimatorEventCalled
 ```
 
+Animation handler for [Melting Love's big minion](/api/Global/Misc/SlimeLover).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → [SlimeCreatureAnim](/api/Global/Creature/SlimeCreatureAnim) → SlimeLoverAnim
 
@@ -36,6 +41,8 @@ public SlimeLoverAnim()
 ```csharp
 public GameObject heart
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,3 +67,6 @@ private SlimeLover script { get; }
 ```csharp
 public override void OnDie()
 ```
+#INC
+#code-generated
+

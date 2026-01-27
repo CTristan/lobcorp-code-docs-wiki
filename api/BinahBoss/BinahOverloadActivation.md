@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BinahOverloadActivation
 ```csharp
 public class BinahOverloadActivation : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s current list of overloads she wants to do
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → BinahOverloadActivation
@@ -25,6 +27,8 @@ public class BinahOverloadActivation : BinahAction
 ```csharp
 public BinahOverloadActivation(BinahCoreScript binah, params OverloadType[] types)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +44,8 @@ public BinahOverloadActivation(BinahCoreScript binah, params OverloadType[] type
 ```csharp
 private List<BinahOverload> overloads
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,3 +58,6 @@ private List<BinahOverload> overloads
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+

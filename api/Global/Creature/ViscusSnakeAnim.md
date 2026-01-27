@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ViscusSnakeAnim
 public class ViscusSnakeAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Naked Nest](/api/Global/Misc/ViscusSnake).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ViscusSnakeAnim
 
@@ -36,6 +39,8 @@ public ViscusSnakeAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public AnimationCurve alphaCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public AnimationCurve alphaCurve
 ```csharp
 public AnimationCurve scaleCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public AnimationCurve scaleCurve
 ```csharp
 private ViscusSnake script
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,12 +89,16 @@ private ViscusSnake script
 ```csharp
 public void EndWork()
 ```
+#INC
+
 
 ### GetAlpha(float)
 
 ```csharp
 public float GetAlpha(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -100,6 +115,8 @@ public float GetAlpha(float rate)
 ```csharp
 public float GetCurve(float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -116,6 +133,9 @@ public float GetCurve(float rate)
 ```csharp
 public void SetScript(ViscusSnake script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -128,9 +148,13 @@ public void SetScript(ViscusSnake script)
 ```csharp
 public void StartWork()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

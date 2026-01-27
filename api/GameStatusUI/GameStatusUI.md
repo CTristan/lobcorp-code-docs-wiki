@@ -12,6 +12,19 @@ canonical_path: /api/GameStatusUI/GameStatusUI
 public class GameStatusUI : MonoBehaviour, IObserver
 ```
 
+extends , [IObserver](/api/Global/Misc/IObserver)
+The in-game UI containing basically everything during management:
+- [Trumpet UI](/api/GameStatusUI/EmergencyUI)
+- [End-of-day / Restart UI](/api/Global/Misc/GameSceneController)
+- [Energy UI](/api/GameStatusUI/EnergyController)
+- [Play speed and pause UI](/api/Global/UI/PlaySpeedSettingUI)
+- [System log UI](/api/Global/IOBserver/SystemLogScript)
+- [Angela's messages UI](/api/Global/UI/AngelaConversationUI)
+- [Sephirah (and other) messages UI](/api/Global/IOBserver/SefiraConversationController)
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GameStatusUI
 
@@ -36,6 +49,8 @@ public GameStatusUI()
 ```csharp
 private static GameStatusUI _window
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +61,8 @@ private static GameStatusUI _window
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +73,8 @@ public GameObject ActiveControl
 ```csharp
 public AngelaConversationUI conversationController
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +85,8 @@ public AngelaConversationUI conversationController
 ```csharp
 public EmergencyUI emergencyController
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +97,8 @@ public EmergencyUI emergencyController
 ```csharp
 public EnergyController energyContorller
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +109,8 @@ public EnergyController energyContorller
 ```csharp
 public SystemLogScript logController
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +121,8 @@ public SystemLogScript logController
 ```csharp
 public PlaySpeedSettingUI playSpeedSetting
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +133,8 @@ public PlaySpeedSettingUI playSpeedSetting
 ```csharp
 public GameSceneController sceneController
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +145,8 @@ public GameSceneController sceneController
 ```csharp
 public SefiraConversationController sefiraConversationController
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,12 +171,17 @@ public static GameStatusUI Window { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### EmergencyActivate(int)
 
 ```csharp
 public void EmergencyActivate(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -158,18 +194,24 @@ public void EmergencyActivate(int level)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -183,3 +225,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void Update()
 ```
+#INC
+

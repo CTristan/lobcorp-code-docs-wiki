@@ -36,6 +36,8 @@ public ToolMapRoot()
 ```csharp
 private bool oldShowPassagePreb
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool oldShowPassagePreb
 ```csharp
 public bool showPassagePreb
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,15 +62,22 @@ public bool showPassagePreb
 ```csharp
 private void LateUpdate()
 ```
+#INC
+#code-generated
+
 
 ### LoadMap()
 
 ```csharp
 public void LoadMap()
 ```
+#INC
+
 
 ### SaveMap()
 
 ```csharp
 public void SaveMap()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/Uncontorllable_PlagueDoctor
 public class Uncontorllable_PlagueDoctor : UncontrollableAction
 ```
 
+Uncontrollable action for employees which are being drawn to [Plague Doctor](/api/Legacy/PlagueDoctor) when its Qliphoth counter hits 0.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [HierarchicalData](/api/Global/Misc/HierarchicalData) → [UncontrollableAction](/api/Global/Action/UncontrollableAction) → Uncontorllable_PlagueDoctor
 
@@ -25,6 +28,8 @@ public class Uncontorllable_PlagueDoctor : UncontrollableAction
 ```csharp
 public Uncontorllable_PlagueDoctor(AgentModel agent, PlagueDoctor doctor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +45,8 @@ public Uncontorllable_PlagueDoctor(AgentModel agent, PlagueDoctor doctor)
 ```csharp
 private MapNode _currentDest
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +57,8 @@ private MapNode _currentDest
 ```csharp
 private MapNode _destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +69,8 @@ private MapNode _destNode
 ```csharp
 private MapNode _entryNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +81,8 @@ private MapNode _entryNode
 ```csharp
 private AgentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +93,8 @@ private AgentModel _model
 ```csharp
 private PlagueDoctor _plagueDoctor
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +105,8 @@ private PlagueDoctor _plagueDoctor
 ```csharp
 private static float _waitFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +117,8 @@ private static float _waitFreq
 ```csharp
 private float waitTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -112,21 +131,30 @@ private float waitTimer
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnDie()
 
 ```csharp
 public override void OnDie()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Control/SpiderMomChildMovementControl
 public class SpiderMomChildMovementControl : MonoBehaviour
 ```
 
+Script for moving [Spider Bud](/api/Global/Misc/SpiderMom)'s little spiders #verify .
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SpiderMomChildMovementControl
 
@@ -33,6 +36,8 @@ public SpiderMomChildMovementControl()
 ```csharp
 public List<GameObject> childs
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ public List<SpiderMomChildMovementControl.ChildObject> list
 ```csharp
 public Vector2 movementPosMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +70,8 @@ public Vector2 movementPosMax
 ```csharp
 public Vector2 movementPosMin
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,12 +84,16 @@ public Vector2 movementPosMin
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GenWayPoint()
 
 ```csharp
 public Vector2 GenWayPoint()
 ```
+#INC
+
 
 #### Returns
 
@@ -91,3 +104,6 @@ public Vector2 GenWayPoint()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

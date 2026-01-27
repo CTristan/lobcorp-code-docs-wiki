@@ -12,6 +12,11 @@ canonical_path: /api/Global/Worker/OfficerManualMover
 public class OfficerManualMover : WorkerManualMover
 ```
 
+Clerk mover.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerManualMover](/api/Global/Misc/WorkerManualMover) → OfficerManualMover
 
@@ -55,15 +60,22 @@ public OfficerUnit unit { get; }
 ```csharp
 public override void Halt()
 ```
+#INC
+
 
 ### MoveToNode()
 
 ```csharp
 public override void MoveToNode()
 ```
+#INC
+
 
 ### MoveToVector()
 
 ```csharp
 public override void MoveToVector()
 ```
+#INC
+#code-generated
+

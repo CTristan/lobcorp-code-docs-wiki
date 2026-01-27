@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/SharkWeapon
 public class SharkWeapon : EquipmentScriptBase
 ```
 
+Script for [The Dreaming Current](/api/Global/Misc/Shark)'s EGO Weapon: Ecstasy. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → SharkWeapon
 

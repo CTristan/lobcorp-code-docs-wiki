@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/CosmosArmor
 public class CosmosArmor : EquipmentScriptBase
 ```
 
+Script for [Fragment of the Universe](/api/Global/Misc/Cosmos)'s EGO Suit: Fragments from Somewhere. No script.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → CosmosArmor
 
@@ -33,6 +38,8 @@ public CosmosArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

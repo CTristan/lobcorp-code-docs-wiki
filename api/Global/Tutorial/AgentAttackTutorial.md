@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/AgentAttackTutorial
 public class AgentAttackTutorial : Tutorial, IObserver
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → AgentAttackTutorial
 
@@ -36,6 +39,8 @@ public AgentAttackTutorial()
 ```csharp
 public int AttackNum
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public int AttackNum
 ```csharp
 public float blockTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,24 +65,32 @@ public float blockTime
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,3 +104,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Weapon/RedShoesAttractedWeapon
 public class RedShoesAttractedWeapon : EquipmentScriptBase
 ```
 
+Weapon given to the employee attracted by [Red Shoes](/api/Global/Misc/RedShoes).
+
+Multiplies max HP by 4.5, restores all HP, and has a special death scene and kill animation.
+Does a special attack at a 30% chance #verify .
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RedShoesAttractedWeapon
 
@@ -33,6 +40,8 @@ public RedShoesAttractedWeapon()
 ```csharp
 private bool isDead
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private bool isDead
 ```csharp
 private const float maxHpRatio = 4.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private const float maxHpRatio = 4.5
 ```csharp
 private const float pattern2_prob = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +78,8 @@ private const float pattern2_prob = 0.3
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -95,6 +110,9 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -107,6 +125,8 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -125,6 +145,8 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

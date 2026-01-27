@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/EquipmentScriptBase
 ```csharp
 public class EquipmentScriptBase
 ```
+Parent class for all scripts on [EGO](/api/Global/Model/EquipmentModel).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentScriptBase
@@ -36,6 +40,8 @@ public EquipmentScriptBase()
 ```csharp
 private EquipmentModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +52,8 @@ private EquipmentModel _model
 ```csharp
 private int _reinforcementLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +64,8 @@ private int _reinforcementLevel
 ```csharp
 protected const int MAX_REINFORCEMENT_LEVEL = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +100,8 @@ public int reinforcementLevel { get; }
 ```csharp
 public void AddReinforcementLevel(int lv)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,6 +114,8 @@ public void AddReinforcementLevel(int lv)
 ```csharp
 public virtual EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -118,6 +132,8 @@ public virtual EGObonusInfo GetBonus(UnitModel actor)
 ```csharp
 public virtual DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -134,6 +150,8 @@ public virtual DamageInfo GetDamage(UnitModel actor)
 ```csharp
 public virtual float GetDamageFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -144,6 +162,8 @@ public virtual float GetDamageFactor()
 ```csharp
 public virtual DefenseInfo GetDefense(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +180,8 @@ public virtual DefenseInfo GetDefense(UnitModel actor)
 ```csharp
 public float GetReinforcementDmg()
 ```
+#INC
+
 
 #### Returns
 
@@ -170,6 +192,8 @@ public float GetReinforcementDmg()
 ```csharp
 public virtual float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -187,6 +211,8 @@ public virtual float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skil
 ```csharp
 public virtual void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,6 +243,8 @@ public virtual EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel acto
 ```csharp
 public virtual void OnCancelWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -229,6 +257,8 @@ public virtual void OnCancelWeapon(UnitModel actor)
 ```csharp
 public virtual void OnEquip(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,12 +271,16 @@ public virtual void OnEquip(UnitModel actor)
 ```csharp
 public virtual void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)
 
 ```csharp
 public virtual bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,6 +299,8 @@ public virtual bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageIn
 ```csharp
 public virtual void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +315,8 @@ public virtual void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageI
 ```csharp
 public virtual void OnKillMainTarget(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,6 +330,8 @@ public virtual void OnKillMainTarget(UnitModel actor, UnitModel target)
 ```csharp
 public virtual void OnPrepareWeapon(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,24 +344,32 @@ public virtual void OnPrepareWeapon(UnitModel actor)
 ```csharp
 public virtual void OnRelease()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public virtual void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public virtual void OnStageStart()
 ```
+#INC
+
 
 ### OnTakeDamage(UnitModel, ref DamageInfo)
 
 ```csharp
 public virtual bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,6 +387,8 @@ public virtual bool OnTakeDamage(UnitModel actor, ref DamageInfo dmg)
 ```csharp
 public virtual bool OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -369,6 +419,9 @@ public virtual void OwnerHeal(bool isMental, ref float amount)
 ```csharp
 public void SetModel(EquipmentModel m)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

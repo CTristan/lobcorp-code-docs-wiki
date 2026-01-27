@@ -12,6 +12,10 @@ canonical_path: /api/Global/Animator/IronMaidenAnimEventHandler
 public class IronMaidenAnimEventHandler : AnimatorEventHandler
 ```
 
+Handles some events for [We Can Change Anything's animation script](/api/Global/Creature/IronMaidenAnim).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → IronMaidenAnimEventHandler
 
@@ -75,24 +79,32 @@ private AnimatorEventHandler.EventDelegate _makeMystEffectEvent
 ```csharp
 public void CleanEffect()
 ```
+#INC
+
 
 ### Effect()
 
 ```csharp
 public void Effect()
 ```
+#INC
+
 
 ### HideAgent()
 
 ```csharp
 public void HideAgent()
 ```
+#INC
+
 
 ### MystEffect()
 
 ```csharp
 public void MystEffect()
 ```
+#INC
+
 
 ### SetHideAgentEvent(EventDelegate)
 

@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/EnableReporter
 public class EnableReporter : MonoBehaviour
 ```
 
+Logs "Enabled" when enabled.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EnableReporter
 
@@ -33,3 +37,5 @@ public EnableReporter()
 ```csharp
 public void OnEnable()
 ```
+Logs "Enabled".
+

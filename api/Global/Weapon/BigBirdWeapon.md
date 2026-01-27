@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/BigBirdWeapon
 public class BigBirdWeapon : EquipmentScriptBase
 ```
 
+Script for [Big Bird](/api/Global/Misc/BigBird)'s EGO Weapon: Lamp. Gives weakness to black damage at a 25% chance.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → BigBirdWeapon
 
@@ -33,6 +36,8 @@ public BigBirdWeapon()
 ```csharp
 private const float _debuf_prob = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ private const float _debuf_prob = 0.25
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/FengYunAnim
 public class FengYunAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Clouded Monk](/api/Global/IOBserver/FengYun).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FengYunAnim
 
@@ -46,6 +51,8 @@ private FengYunAnim.CURSTATE _curState
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private SpineOptimizerModule _module
 ```csharp
 private FengYun _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ private FengYun _script
 ```csharp
 public Animator ghoulAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public Animator ghoulAnim
 ```csharp
 public Animator monkAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,30 +101,40 @@ public Animator monkAnim
 ```csharp
 private void AttackEndEvent()
 ```
+#INC
+
 
 ### AttackEvent()
 
 ```csharp
 private void AttackEvent()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 protected override void Awake()
 ```
+#INC
+
 
 ### DamageEvent()
 
 ```csharp
 private void DamageEvent()
 ```
+#INC
+
 
 ### EatEndEvent()
 
 ```csharp
 private void EatEndEvent()
 ```
+#INC
+
 
 ### GetCurState()
 
@@ -128,12 +151,17 @@ public FengYunAnim.CURSTATE GetCurState()
 ```csharp
 private void GroggyEndEvent()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -144,18 +172,24 @@ public override bool HasDeadMotion()
 ```csharp
 private void HowlEndEvent()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetCurState(CURSTATE, bool)
 
@@ -179,6 +213,8 @@ public bool SetCurState(FengYunAnim.CURSTATE c, bool forcibility = false)
 ```csharp
 public void SetScript(FengYun s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,15 +227,21 @@ public void SetScript(FengYun s)
 ```csharp
 private void StartCasting()
 ```
+#INC
+
 
 ### TransformEndEvent()
 
 ```csharp
 private void TransformEndEvent()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,22 @@ canonical_path: /api/CreatureInfo/GiftSlot
 public class GiftSlot : EquipSlot
 ```
 
+Class for displaying the EGO gift slot in the abnormality information screen.
+
+**Fields:**
+Image ItemImage: EGO gift image
+Text ItemTrait: presumably the gift description? #inc
+
+**Methods:**
+void SetModel([EquipmentModel](/api/Global/Model/EquipmentModel) Model): populates class from an EquipmentModel #inc
+
+void SetProb(float prob): Creates the drop chance string.
+
+void SetEmpty(): Makes the drop chance string... none? #inc
+
+void SetModel([EquipmentTypeInfo](/api/Global/Info/EquipmentTypeInfo) info): populates class from an EquipmentTypeInfo object #inc
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipSlot](/api/CreatureInfo/EquipSlot) → GiftSlot
 
@@ -33,6 +49,8 @@ public GiftSlot()
 ```csharp
 public Image ItemImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +61,8 @@ public Image ItemImage
 ```csharp
 public Text ItemTrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,12 +87,17 @@ private EGOgiftModel GiftModel { get; }
 ```csharp
 public void SetEmpty()
 ```
+#INC
+
 
 ### SetModel(EquipmentModel)
 
 ```csharp
 public override void SetModel(EquipmentModel Model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -85,6 +110,8 @@ public override void SetModel(EquipmentModel Model)
 ```csharp
 public override void SetModel(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -97,6 +124,8 @@ public override void SetModel(EquipmentTypeInfo info)
 ```csharp
 public void SetProb(float prob)
 ```
+#INC
+
 
 #### Parameters
 

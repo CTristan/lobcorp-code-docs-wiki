@@ -12,6 +12,9 @@ canonical_path: /api/Global/Script/FixerClawUltimateScript
 public class FixerClawUltimateScript : MonoBehaviour
 ```
 
+Collider for [The Claw](/api/Global/Misc/FixerClaw)'s three-serum attack.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FixerClawUltimateScript
 
@@ -33,6 +36,8 @@ public FixerClawUltimateScript()
 ```csharp
 private BoxCollider2D col
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BoxCollider2D col
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private List<UnitModel> damaged
 ```csharp
 private FixerClaw script
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +74,8 @@ private FixerClaw script
 ```csharp
 private void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +88,8 @@ private void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -93,6 +106,8 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +120,9 @@ private void GiveDamage(UnitModel unit)
 ```csharp
 public void Init(FixerClaw script, Vector3 startPos, Vector3 endPos)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -119,6 +137,8 @@ public void Init(FixerClaw script, Vector3 startPos, Vector3 endPos)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -131,6 +151,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,6 +165,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

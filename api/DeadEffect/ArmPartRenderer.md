@@ -12,6 +12,9 @@ canonical_path: /api/DeadEffect/ArmPartRenderer
 public class ArmPartRenderer : WorkerPartRenderer
 ```
 
+Displays parts of agents' arms.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [WorkerPartRenderer](/api/DeadEffect/WorkerPartRenderer) → ArmPartRenderer
 
@@ -33,6 +36,8 @@ public ArmPartRenderer()
 ```csharp
 public SpriteRenderer Hand
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public SpriteRenderer Hand
 ```csharp
 public Sprite LeftHandSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public Sprite LeftHandSprite
 ```csharp
 public SpriteRenderer LowerArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public SpriteRenderer LowerArm
 ```csharp
 public SpriteRenderer UpperArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +86,9 @@ public SpriteRenderer UpperArm
 ```csharp
 public override void SetWorker(WorkerModel worker, bool flag = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

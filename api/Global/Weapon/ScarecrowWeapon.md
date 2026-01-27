@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/ScarecrowWeapon
 public class ScarecrowWeapon : EquipmentScriptBase
 ```
 
+Script for [Scarecrow Searching for Wisdom](/api/Global/Misc/Scarecrow)'s EGO Weapon: Harvest.
+
+Randomly decides at a 50% chance to use the one of two different damages, which are identical except for the sound.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ScarecrowWeapon
 

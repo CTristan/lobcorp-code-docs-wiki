@@ -36,6 +36,8 @@ public PlagueDoctorSkeletonAnim()
 ```csharp
 private SkeletonAnimator _animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private SkeletonAnimator _animator
 ```csharp
 private int _currentState
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private int _currentState
 ```csharp
 public List<ActivateParts> activateParts
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ public List<ActivateParts> activateParts
 ```csharp
 public List<SlotChangeData> changeData
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ public List<SlotChangeData> changeData
 ```csharp
 public Color hat_coatColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ public Color hat_coatColor
 ```csharp
 public Color head_beakColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -141,6 +153,8 @@ private static Color WhiteColor { get; }
 ```csharp
 public void ExecuteData(bool alter)
 ```
+#INC
+
 
 #### Parameters
 
@@ -153,6 +167,8 @@ public void ExecuteData(bool alter)
 ```csharp
 public void ExecuteData(params string[] colorRegionName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +181,8 @@ public void ExecuteData(params string[] colorRegionName)
 ```csharp
 public void ExecuteData(PlagueDocAnimPart part, bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,6 +196,8 @@ public void ExecuteData(PlagueDocAnimPart part, bool state)
 ```csharp
 private void ExecuteData(SlotChangeData d, bool alter = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,6 +211,9 @@ private void ExecuteData(SlotChangeData d, bool alter = true)
 ```csharp
 public Color GetColorByRegion(PlagueDocAnimRegion region)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -207,12 +230,16 @@ public Color GetColorByRegion(PlagueDocAnimRegion region)
 ```csharp
 public void InitData()
 ```
+#INC
+
 
 ### SetState(int)
 
 ```csharp
 public void SetState(int state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -225,9 +252,13 @@ public void SetState(int state)
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

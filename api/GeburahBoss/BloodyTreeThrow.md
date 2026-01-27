@@ -12,6 +12,10 @@ canonical_path: /api/GeburahBoss/BloodyTreeThrow
 public class BloodyTreeThrow : GeburahAction
 ```
 
+Action for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s [Heaven](/api/Global/Weapon/BloodyTreeWeapon) throw attack (WATCH OUT)
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → BloodyTreeThrow
 
@@ -25,6 +29,8 @@ public class BloodyTreeThrow : GeburahAction
 ```csharp
 public BloodyTreeThrow(GeburahCoreScript geburah, bool isPhaseShift = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +46,8 @@ public BloodyTreeThrow(GeburahCoreScript geburah, bool isPhaseShift = false)
 ```csharp
 public static DamageInfo _damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +58,8 @@ public static DamageInfo _damage
 ```csharp
 private bool _isPhaseShift
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +70,8 @@ private bool _isPhaseShift
 ```csharp
 private UnitDirection throwDirection
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +84,8 @@ private UnitDirection throwDirection
 ```csharp
 public override bool CanTakeDamage()
 ```
+#INC
+
 
 #### Returns
 
@@ -82,27 +96,38 @@ public override bool CanTakeDamage()
 ```csharp
 public void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnThrowObject()
 
 ```csharp
 public void OnThrowObject()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/AngleLimitNode
 ```csharp
 public class AngleLimitNode
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AngleLimitNode
@@ -33,6 +35,8 @@ public AngleLimitNode()
 ```csharp
 public float max
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public float max
 ```csharp
 public float min
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,9 @@ public float min
 ```csharp
 public Transform Transform
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 

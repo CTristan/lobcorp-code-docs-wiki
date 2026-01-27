@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySefiraInfoUI
 public class StorySefiraInfoUI : MonoBehaviour
 ```
 
+UI window displaying information about the Sephirahs. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySefiraInfoUI
 
@@ -33,6 +36,8 @@ public StorySefiraInfoUI()
 ```csharp
 private bool _isActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private bool _isActive
 ```csharp
 private List<StorySefiraInfoItemUI> _items
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private List<StorySefiraInfoItemUI> _items
 ```csharp
 public GameObject infoItemPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public GameObject infoItemPrefab
 ```csharp
 public Transform targetLayout
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +108,8 @@ public bool IsActive { get; private set; }
 ```csharp
 public void AddSefiraInfoItem(SefiraCharacterModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,27 +122,38 @@ public void AddSefiraInfoItem(SefiraCharacterModel model)
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CloseWindow()
 
 ```csharp
 public void CloseWindow()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### OpenWindow()
 
 ```csharp
 public void OpenWindow()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+

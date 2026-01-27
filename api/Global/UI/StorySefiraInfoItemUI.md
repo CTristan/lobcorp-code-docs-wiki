@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/StorySefiraInfoItemUI
 public class StorySefiraInfoItemUI : MonoBehaviour
 ```
 
+An info element in the [Sephirah info window](/api/Global/UI/StorySefiraInfoUI) during the story.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StorySefiraInfoItemUI
 
@@ -33,6 +36,8 @@ public StorySefiraInfoItemUI()
 ```csharp
 private SefiraCharacterModel _model
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private SefiraCharacterModel _model
 ```csharp
 public GameObject barPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject barPrefab
 ```csharp
 public Image frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Image frame
 ```csharp
 public Text missionContext
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Text missionContext
 ```csharp
 public Text missionText
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public Text missionText
 ```csharp
 public Image nameFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public Image nameFrame
 ```csharp
 public Text nameText
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public Text nameText
 ```csharp
 public Image portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Image portrait
 ```csharp
 public Text qliphothText
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +146,9 @@ public Text qliphothText
 ```csharp
 public void Init(SefiraCharacterModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

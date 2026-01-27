@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/AgentHistory
 ```csharp
 public class AgentHistory
 ```
+Stores a list of statistics about an [agent](/api/Global/Worker/AgentModel) -- damage taken, works succeeded, deaths and panics witnessed. This is odd, because I'm pretty sure the only one of these that would ever get used are the damages...
+
+There seems to be an unused 'promotionVal' thing which may have served as EXP?
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentHistory
@@ -25,6 +31,9 @@ public class AgentHistory
 ```csharp
 public AgentHistory()
 ```
+#INC
+#code-generated
+
 
 ## Properties
 
@@ -73,6 +82,8 @@ public AgentHistory.History Total { get; }
 ```csharp
 private int workDay { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -95,12 +106,16 @@ public int WorkDay { get; }
 ```csharp
 public void AddPanic()
 ```
+#INC
+
 
 ### AddWorkCubeCount(RwbpType, int)
 
 ```csharp
 public void AddWorkCubeCount(RwbpType type, int val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -114,24 +129,32 @@ public void AddWorkCubeCount(RwbpType type, int val)
 ```csharp
 public void AddWorkDay()
 ```
+#INC
+
 
 ### AddWorkFail()
 
 ```csharp
 public void AddWorkFail()
 ```
+#INC
+
 
 ### AddWorkSuccess()
 
 ```csharp
 public void AddWorkSuccess()
 ```
+#INC
+
 
 ### CreatureAttack(int)
 
 ```csharp
 public void CreatureAttack(int damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -144,18 +167,24 @@ public void CreatureAttack(int damage)
 ```csharp
 public void Disposition()
 ```
+#INC
+
 
 ### EndOneDay()
 
 ```csharp
 public void EndOneDay()
 ```
+#INC
+
 
 ### GetSaveData()
 
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -166,6 +195,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -178,6 +209,8 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void MentalDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -190,6 +223,8 @@ public void MentalDamage(float damage)
 ```csharp
 public void PanicWorkerAttack(int damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,6 +237,8 @@ public void PanicWorkerAttack(int damage)
 ```csharp
 public void PhysicalDamage(float damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -214,18 +251,24 @@ public void PhysicalDamage(float damage)
 ```csharp
 public void SuccessCreatureSuppress()
 ```
+#INC
+
 
 ### SuccessWorkerSuppress()
 
 ```csharp
 public void SuccessWorkerSuppress()
 ```
+#INC
+
 
 ### Suppress(int)
 
 ```csharp
 public void Suppress(int damage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -238,24 +281,32 @@ public void Suppress(int damage)
 ```csharp
 public void WitnessDeathByCreature()
 ```
+#INC
+
 
 ### WitnessDeathByWorker()
 
 ```csharp
 public void WitnessDeathByWorker()
 ```
+#INC
+
 
 ### WitnessPanicByCreature()
 
 ```csharp
 public void WitnessPanicByCreature()
 ```
+#INC
+
 
 ### WorkerAttack(int)
 
 ```csharp
 public void WorkerAttack(int damage)
 ```
+#INC
+
 
 #### Parameters
 

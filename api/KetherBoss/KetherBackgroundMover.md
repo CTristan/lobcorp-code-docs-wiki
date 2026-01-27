@@ -36,6 +36,8 @@ public KetherBackgroundMover()
 ```csharp
 private float _activateTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private float _activateTime
 ```csharp
 private UnscaledTimer _activateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private UnscaledTimer _activateTimer
 ```csharp
 private int _current
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private int _current
 ```csharp
 private UnscaledTimer _earthQuakeDisabler
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private UnscaledTimer _earthQuakeDisabler
 ```csharp
 private int _frequncy
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +96,8 @@ private int _frequncy
 ```csharp
 private float _height
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +108,8 @@ private float _height
 ```csharp
 private bool _init
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +120,8 @@ private bool _init
 ```csharp
 private GameObject[] _rendered
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +132,8 @@ private GameObject[] _rendered
 ```csharp
 public float cameraSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +144,8 @@ public float cameraSpacing
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +156,8 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 public int Frequnet
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +168,8 @@ public int Frequnet
 ```csharp
 private const float half = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +180,8 @@ private const float half = 0.5
 ```csharp
 public float initialPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +192,8 @@ public float initialPosition
 ```csharp
 public Material material
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +204,8 @@ public Material material
 ```csharp
 public Sprite RenderedSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -209,6 +239,8 @@ public Camera Camera { get; private set; }
 ```csharp
 public SpriteRenderer Reference { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -221,36 +253,48 @@ public SpriteRenderer Reference { get; private set; }
 ```csharp
 private void Check()
 ```
+#INC
+
 
 ### Effect()
 
 ```csharp
 public void Effect()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitPoistion()
 
 ```csharp
 public void InitPoistion()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### SetColor(float)
 
 ```csharp
 public void SetColor(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,15 +307,22 @@ public void SetColor(float val)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### TurnOn()
 
 ```csharp
 public void TurnOn()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

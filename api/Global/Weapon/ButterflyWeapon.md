@@ -12,6 +12,9 @@ canonical_path: /api/Global/Weapon/ButterflyWeapon
 public class ButterflyWeapon : EquipmentScriptBase
 ```
 
+Script for [The Funeral of the Dead Butterflies](/api/Global/Misc/Butterfly)'s EGO Weapon: Solemn Lament. Switches between white and black damage between shots.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → ButterflyWeapon
 

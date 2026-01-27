@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/CreditLoadingScene
 ```csharp
 public class CreditLoadingScene : LoadingScene
 ```
+Presumably for loading into the credits scene
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → CreditLoadingScene
@@ -33,6 +37,8 @@ public CreditLoadingScene()
 ```csharp
 private UnscaledTimer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,9 +51,14 @@ private UnscaledTimer _timer
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

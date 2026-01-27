@@ -12,6 +12,9 @@ canonical_path: /api/Global/IOBserver/SefiraOfficerPanicUI
 public class SefiraOfficerPanicUI : MonoBehaviour, IObserver
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraOfficerPanicUI
 
@@ -36,6 +39,8 @@ public SefiraOfficerPanicUI()
 ```csharp
 private bool _activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private bool _activated
 ```csharp
 private Timer _checkTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private Timer _checkTimer
 ```csharp
 public CanvasGroup canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public CanvasGroup canvas
 ```csharp
 public Text Count
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public Text Count
 ```csharp
 private FontLoadScript countFontLoad
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private FontLoadScript countFontLoad
 ```csharp
 private List<FontLoadScript> fontLoadScripts
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private List<FontLoadScript> fontLoadScripts
 ```csharp
 public GameObject rootObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public GameObject rootObject
 ```csharp
 public SefiraEnum sefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +135,8 @@ public SefiraEnum sefira
 ```csharp
 private List<LocalizeTextLoadScript> textLoadScripts
 ```
+#INC
+
 
 #### Field Value
 
@@ -128,6 +149,8 @@ private List<LocalizeTextLoadScript> textLoadScripts
 ```csharp
 public void Activate(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,18 +163,25 @@ public void Activate(bool state)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### OnDestroy()
 
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -165,6 +195,8 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetCount(int countValue)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,9 +209,13 @@ public void SetCount(int countValue)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BloodyTreeAnim
 public class BloodyTreeAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [The Burrowing Heaven](/api/Global/Misc/BloodyTree).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BloodyTreeAnim
 
@@ -36,6 +39,8 @@ public BloodyTreeAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 public const string DeadEffectSrcPrefix = "Agent/Dead/BloodyTree/BloodyTreeDeadEffect_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public const string DeadEffectSrcPrefix = "Agent/Dead/BloodyTree/BloodyTreeDeadE
 ```csharp
 public CreatureCameraUtil_Inspector escapedUtil
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public CreatureCameraUtil_Inspector escapedUtil
 ```csharp
 public CreatureCameraUtil_Inspector nonEscapedUtil
 ```
+#INC
+
 
 #### Field Value
 
@@ -87,6 +98,8 @@ public List<WorkerPartRenderer> partRenderers
 ```csharp
 private BloodyTree script
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,18 +112,24 @@ private BloodyTree script
 ```csharp
 public void Dead()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public void Escape()
 ```
+#INC
+
 
 ### GetPartRenderer(GeneratbleRegion)
 
 ```csharp
 public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion region)
 ```
+#INC
+
 
 #### Parameters
 
@@ -127,6 +146,8 @@ public WorkerPartRenderer GetPartRenderer(BloodyTreeDeadScript.GeneratbleRegion 
 ```csharp
 public void MakeTree(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,12 +160,17 @@ public void MakeTree(WorkerModel target)
 ```csharp
 public void ResetAnim()
 ```
+#INC
+
 
 ### SetScript(BloodyTree)
 
 ```csharp
 public void SetScript(BloodyTree tree)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -157,3 +183,5 @@ public void SetScript(BloodyTree tree)
 ```csharp
 private void Update()
 ```
+#INC
+

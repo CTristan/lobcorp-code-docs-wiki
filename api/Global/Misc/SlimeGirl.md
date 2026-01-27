@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlimeGirl
 public class SlimeGirl : SlimeCreature
 ```
 
+Melting Love.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [SlimeCreature](/api/Global/Creature/SlimeCreature) → SlimeGirl
 
@@ -33,6 +38,8 @@ public SlimeGirl()
 ```csharp
 private SlimeGirlAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SlimeGirlAnim _animScript
 ```csharp
 private const int _atkDmgMax = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 25
 ```csharp
 private const int _atkDmgMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 15
 ```csharp
 private const RwbpType _atkDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const RwbpType _atkDmgType = B
 ```csharp
 private const int _atkEnrageDmgMax = 32
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _atkEnrageDmgMax = 32
 ```csharp
 private const int _atkEnrageDmgMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _atkEnrageDmgMin = 20
 ```csharp
 private const RwbpType _atkEnrageDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const RwbpType _atkEnrageDmgType = B
 ```csharp
 private const float _healCoolInitTimeMax = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _healCoolInitTimeMax = 20
 ```csharp
 private const float _healCoolInitTimeMin = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float _healCoolInitTimeMin = 15
 ```csharp
 private const float _healCoolTimeMax = 18
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float _healCoolTimeMax = 18
 ```csharp
 private const float _healCoolTimeMin = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const float _healCoolTimeMin = 12
 ```csharp
 private const float _healTimeMax = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const float _healTimeMax = 8
 ```csharp
 private const float _healTimeMin = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float _healTimeMin = 7
 ```csharp
 private const float _healValueMax = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const float _healValueMax = 200
 ```csharp
 private const float _healValueMin = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private const float _healValueMin = 200
 ```csharp
 private const float _mentalHealMax = 35
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private const float _mentalHealMax = 35
 ```csharp
 private const float _mentalHealMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +252,8 @@ private SlimeGirl.Phase _phase
 ```csharp
 private SlimePawn _sacrifce
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +264,8 @@ private SlimePawn _sacrifce
 ```csharp
 private const float _skillCoolInitTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +276,8 @@ private const float _skillCoolInitTimeMax = 15
 ```csharp
 private const float _skillCoolInitTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +288,8 @@ private const float _skillCoolInitTimeMin = 10
 ```csharp
 private const float _skillCoolTimeMax = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +300,8 @@ private const float _skillCoolTimeMax = 15
 ```csharp
 private const float _skillCoolTimeMin = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +312,8 @@ private const float _skillCoolTimeMin = 10
 ```csharp
 private const int _skillDmgMax = 45
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +324,8 @@ private const int _skillDmgMax = 45
 ```csharp
 private const int _skillDmgMin = 25
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +336,8 @@ private const int _skillDmgMin = 25
 ```csharp
 private const RwbpType _skillDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +348,8 @@ private const RwbpType _skillDmgType = B
 ```csharp
 private const int _skillEnrageDmgMax = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +360,8 @@ private const int _skillEnrageDmgMax = 60
 ```csharp
 private const int _skillEnrageDmgMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +372,8 @@ private const int _skillEnrageDmgMin = 30
 ```csharp
 private const RwbpType _skillEnrageDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +394,8 @@ private SlimeGirl.State _state
 ```csharp
 private const float ATK_DMG_RANGE = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +406,8 @@ private const float ATK_DMG_RANGE = 2
 ```csharp
 private const float ATTACK_RANGE = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +418,8 @@ private const float ATTACK_RANGE = 1.5
 ```csharp
 private GameObject enrageEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +430,8 @@ private GameObject enrageEffect
 ```csharp
 private const float ESCAPE_CONDITION_PAWN_RATIO = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +442,8 @@ private const float ESCAPE_CONDITION_PAWN_RATIO = 0.5
 ```csharp
 private const float HEAL_DIST = 3.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -383,6 +454,8 @@ private const float HEAL_DIST = 3.1
 ```csharp
 private const string HEAL_EFFECT_SRC = "Effect/RecoverHP"
 ```
+#INC
+
 
 #### Field Value
 
@@ -393,6 +466,8 @@ private const string HEAL_EFFECT_SRC = "Effect/RecoverHP"
 ```csharp
 private const float HEAL_HP_CONDITION = 0.6
 ```
+#INC
+
 
 #### Field Value
 
@@ -403,6 +478,8 @@ private const float HEAL_HP_CONDITION = 0.6
 ```csharp
 private const float HEAL_RECOGNIZE_RANGE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -413,6 +490,8 @@ private const float HEAL_RECOGNIZE_RANGE = 15
 ```csharp
 private Timer healCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -423,6 +502,8 @@ private Timer healCoolTimer
 ```csharp
 private Timer healTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -433,6 +514,8 @@ private Timer healTimer
 ```csharp
 private WorkerModel lover
 ```
+#INC
+
 
 #### Field Value
 
@@ -443,6 +526,8 @@ private WorkerModel lover
 ```csharp
 private const int LOVER_BONUS_WORK_PROB = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -453,6 +538,8 @@ private const int LOVER_BONUS_WORK_PROB = 10
 ```csharp
 private SlimeLover loverCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -463,6 +550,8 @@ private SlimeLover loverCreature
 ```csharp
 private const float MENTAL_HEAL_PROB = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -473,6 +562,8 @@ private const float MENTAL_HEAL_PROB = 1
 ```csharp
 private const int PAUSE_SKILL_ID = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -483,6 +574,8 @@ private const int PAUSE_SKILL_ID = 2
 ```csharp
 private const int PAUSE_SUCCESS_CONDITION = 24
 ```
+#INC
+
 
 #### Field Value
 
@@ -493,6 +586,8 @@ private const int PAUSE_SUCCESS_CONDITION = 24
 ```csharp
 private List<SlimePawn> pawns
 ```
+#INC
+
 
 #### Field Value
 
@@ -503,6 +598,8 @@ private List<SlimePawn> pawns
 ```csharp
 private const float RECOGNIZE_RANGE = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -513,6 +610,8 @@ private const float RECOGNIZE_RANGE = 15
 ```csharp
 private const float SKILL_RANGE = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -523,6 +622,8 @@ private const float SKILL_RANGE = 10
 ```csharp
 private Timer skillCoolTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -533,6 +634,8 @@ private Timer skillCoolTimer
 ```csharp
 private const int UNTARGETABLE_ID = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -717,18 +820,24 @@ public SlimeGirl.State state { get; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CheckIfBeingLover(UseSkill)
 
 ```csharp
 private bool CheckIfBeingLover(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -745,6 +854,8 @@ private bool CheckIfBeingLover(UseSkill skill)
 ```csharp
 public bool CheckIfProjectileHit(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -761,30 +872,40 @@ public bool CheckIfProjectileHit(UnitModel target)
 ```csharp
 private void ClearPawns()
 ```
+#INC
+
 
 ### Enrage()
 
 ```csharp
 private void Enrage()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### FinishHeal()
 
 ```csharp
 private void FinishHeal()
 ```
+#INC
+
 
 ### GetAttackDamageTarget()
 
 ```csharp
 private UnitModel GetAttackDamageTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -795,6 +916,8 @@ private UnitModel GetAttackDamageTarget()
 ```csharp
 private UnitModel GetAttackTarget()
 ```
+#INC
+
 
 #### Returns
 
@@ -805,6 +928,8 @@ private UnitModel GetAttackTarget()
 ```csharp
 private SlimePawn GetNearestPawn()
 ```
+#INC
+
 
 #### Returns
 
@@ -815,6 +940,8 @@ private SlimePawn GetNearestPawn()
 ```csharp
 private WorkerModel[] GetPawnBufWorkers()
 ```
+#INC
+
 
 #### Returns
 
@@ -825,12 +952,16 @@ private WorkerModel[] GetPawnBufWorkers()
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### IsAttacking()
 
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -841,6 +972,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsHealing()
 ```
+#INC
+
 
 #### Returns
 
@@ -851,6 +984,8 @@ private bool IsHealing()
 ```csharp
 private bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -861,6 +996,8 @@ private bool IsInSkill()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -871,6 +1008,8 @@ private bool IsMovable()
 ```csharp
 public ChildCreatureModel MakeChildCreature(UnitModel origin, bool isLover)
 ```
+#INC
+
 
 #### Parameters
 
@@ -888,6 +1027,8 @@ public ChildCreatureModel MakeChildCreature(UnitModel origin, bool isLover)
 ```csharp
 private GameObject MakeEffect(GameObject position, string src, bool setParent = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -906,6 +1047,8 @@ private GameObject MakeEffect(GameObject position, string src, bool setParent = 
 ```csharp
 private GameObject MakeHealEffect()
 ```
+#INC
+
 
 #### Returns
 
@@ -916,6 +1059,8 @@ private GameObject MakeHealEffect()
 ```csharp
 private void MakeLover(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -928,12 +1073,16 @@ private void MakeLover(WorkerModel worker)
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### MakeMovement(MovableObjectNode)
 
 ```csharp
 private void MakeMovement(MovableObjectNode movable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -946,6 +1095,8 @@ private void MakeMovement(MovableObjectNode movable)
 ```csharp
 private void MakeMovement(SlimePawn nearestPawn)
 ```
+#INC
+
 
 #### Parameters
 
@@ -958,6 +1109,8 @@ private void MakeMovement(SlimePawn nearestPawn)
 ```csharp
 private void MentalHeal(WorkerModel worker)
 ```
+#INC
+
 
 #### Parameters
 
@@ -970,18 +1123,24 @@ private void MentalHeal(WorkerModel worker)
 ```csharp
 public override void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnBonusWorkProb()
 
 ```csharp
 public override int OnBonusWorkProb()
 ```
+#INC
+
 
 #### Returns
 
@@ -992,6 +1151,8 @@ public override int OnBonusWorkProb()
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1004,6 +1165,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1016,36 +1179,48 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public void OnHealEnd()
 ```
+#INC
+
 
 ### OnJoin()
 
 ```csharp
 public void OnJoin()
 ```
+#INC
+
 
 ### OnLoverCreatureDie()
 
 ```csharp
 public void OnLoverCreatureDie()
 ```
+#INC
+
 
 ### OnLoverDie()
 
 ```csharp
 public void OnLoverDie()
 ```
+#INC
+
 
 ### OnLoverGen()
 
 ```csharp
 public void OnLoverGen()
 ```
+#INC
+
 
 ### OnProjectileHit(UnitModel)
 
 ```csharp
 public void OnProjectileHit(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1058,6 +1233,8 @@ public void OnProjectileHit(UnitModel target)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1070,18 +1247,24 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnReturn()
 ```
+#INC
+
 
 ### OnSkillEnd()
 
 ```csharp
 public void OnSkillEnd()
 ```
+#INC
+
 
 ### OnSkillGoalComplete(UseSkill)
 
 ```csharp
 public override void OnSkillGoalComplete(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1094,30 +1277,41 @@ public override void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -1130,30 +1324,40 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+
 
 ### RemoveEnrageEffect()
 
 ```csharp
 private void RemoveEnrageEffect()
 ```
+#INC
+
 
 ### RemoveLover()
 
 ```csharp
 public void RemoveLover()
 ```
+#INC
+
 
 ### SkillStart()
 
 ```csharp
 private void SkillStart()
 ```
+#INC
+
 
 ### StartHeal(SlimePawn)
 
 ```csharp
 private void StartHeal(SlimePawn nearestPawn)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1166,24 +1370,32 @@ private void StartHeal(SlimePawn nearestPawn)
 ```csharp
 protected override void StopMovement()
 ```
+#INC
+
 
 ### SubQliphothCounter()
 
 ```csharp
 private void SubQliphothCounter()
 ```
+#INC
+
 
 ### SubQliphothCounterAll()
 
 ```csharp
 private void SubQliphothCounterAll()
 ```
+#INC
+
 
 ### TryHeal(SlimePawn)
 
 ```csharp
 private bool TryHeal(SlimePawn nearestPawn)
 ```
+#INC
+
 
 #### Parameters
 
@@ -1200,3 +1412,5 @@ private bool TryHeal(SlimePawn nearestPawn)
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

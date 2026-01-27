@@ -12,6 +12,11 @@ canonical_path: /api/Global/Collider/YinLaserExplosionCollider
 public class YinLaserExplosionCollider : MonoBehaviour
 ```
 
+Collider for [Yin](/api/Global/Misc/Yin)'s laser explosion attack.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → YinLaserExplosionCollider
 
@@ -33,6 +38,8 @@ public YinLaserExplosionCollider()
 ```csharp
 public ParticleSystem effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ public DamageInfo explosionDmg { get; set; }
 ```csharp
 public CreatureModel model { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -67,6 +76,8 @@ public CreatureModel model { get; set; }
 ```csharp
 private void MakeDamageEffect(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -79,6 +90,9 @@ private void MakeDamageEffect(UnitModel unit)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

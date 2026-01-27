@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/FixerBlackAnim
 public class FixerBlackAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for the [Black Fixer](/api/Global/Misc/FixerBlack).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → FixerBlackAnim
 
@@ -36,6 +41,8 @@ public FixerBlackAnim()
 ```csharp
 private const string _bloodEffectSrc = "Effect/Creature/FixerBlack/FixerBlackBloodEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private const string _bloodEffectSrc = "Effect/Creature/FixerBlack/FixerBlackBlo
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private SpineOptimizerModule _module
 ```csharp
 private const string _smokeEffectSrc = "Effect/Creature/FixerBlack/FixerBlackSmokeEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private const string _smokeEffectSrc = "Effect/Creature/FixerBlack/FixerBlackSmo
 ```csharp
 private const string _weaponEffectSrc = "Effect/Creature/FixerBlack/FixerBlackWeaponEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ private const string _weaponEffectSrc = "Effect/Creature/FixerBlack/FixerBlackWe
 ```csharp
 private Dictionary<string, SoundEffectPlayer> loopSounds
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ private Dictionary<string, SoundEffectPlayer> loopSounds
 ```csharp
 private FixerBlack script
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ private FixerBlack script
 ```csharp
 public GameObject weapon
 ```
+#INC
+
 
 #### Field Value
 
@@ -108,24 +127,32 @@ public GameObject weapon
 ```csharp
 public override void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### DeadSceneEffect()
 
 ```csharp
 private void DeadSceneEffect()
 ```
+#INC
+
 
 ### GetSoundSrc(string)
 
 ```csharp
 private string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,6 +169,9 @@ private string GetSoundSrc(string key)
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -152,6 +182,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -162,6 +194,8 @@ public bool IsAttacking()
 ```csharp
 public bool IsInSkill()
 ```
+#INC
+
 
 #### Returns
 
@@ -172,12 +206,16 @@ public bool IsInSkill()
 ```csharp
 private void MakeBloodEffect()
 ```
+#INC
+
 
 ### MakeSmokeEffect()
 
 ```csharp
 private void MakeSmokeEffect()
 ```
+#INC
+
 
 ### MakeSound(string, float)
 
@@ -254,12 +292,16 @@ public SoundEffectPlayer MakeSoundLoop(string src, Transform transform, float vo
 ```csharp
 private void MakeWeaponEffect()
 ```
+#INC
+
 
 ### OnAttackStart(int)
 
 ```csharp
 public void OnAttackStart(int atkType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -272,6 +314,8 @@ public void OnAttackStart(int atkType)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -284,36 +328,48 @@ public override void OnCalled(int i)
 ```csharp
 public void OnMove()
 ```
+#INC
+
 
 ### OnSkillStart()
 
 ```csharp
 public void OnSkillStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public void OnStop()
 ```
+#INC
+
 
 ### PlayDeadMotion()
 
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### RemoveLoopSound()
 
 ```csharp
 private void RemoveLoopSound()
 ```
+#INC
+
 
 ### RemoveLoopSound(string)
 
 ```csharp
 private void RemoveLoopSound(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -326,6 +382,8 @@ private void RemoveLoopSound(string key)
 ```csharp
 public void SetScript(FixerBlack script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -338,18 +396,24 @@ public void SetScript(FixerBlack script)
 ```csharp
 private void SkillDamage()
 ```
+#INC
+
 
 ### SkillEnd()
 
 ```csharp
 private void SkillEnd()
 ```
+#INC
+
 
 ### SpecialDamageTimeCalled(int)
 
 ```csharp
 private void SpecialDamageTimeCalled(int type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -362,3 +426,5 @@ private void SpecialDamageTimeCalled(int type)
 ```csharp
 private void Update()
 ```
+#INC
+

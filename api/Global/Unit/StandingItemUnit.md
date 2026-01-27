@@ -12,6 +12,9 @@ canonical_path: /api/Global/Unit/StandingItemUnit
 public class StandingItemUnit : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StandingItemUnit
 
@@ -33,6 +36,8 @@ public StandingItemUnit()
 ```csharp
 public StandingItemAnim anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public StandingItemAnim anim
 ```csharp
 public GameObject animTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public GameObject animTarget
 ```csharp
 public Animator animTargetAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public Animator animTargetAnim
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public Canvas canvas
 ```csharp
 protected Vector3 directionScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ protected Vector3 directionScaleFactor
 ```csharp
 protected bool initiated
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ protected bool initiated
 ```csharp
 public StandingItemModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public StandingItemModel model
 ```csharp
 protected Vector3 oldScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ protected Vector3 oldScale
 ```csharp
 public GameObject rootGameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public GameObject rootGameObject
 ```csharp
 protected Vector3 scaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ protected Vector3 scaleFactor
 ```csharp
 protected Vector3 viewPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ protected Vector3 viewPosition
 ```csharp
 protected bool visible
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +182,8 @@ protected bool visible
 ```csharp
 public SoundEffectPlayer AttachSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -171,12 +200,16 @@ public SoundEffectPlayer AttachSound(string src)
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetScaleFactor()
 
 ```csharp
 public Vector3 GetScaleFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -187,6 +220,8 @@ public Vector3 GetScaleFactor()
 ```csharp
 public void Init(StandingItemModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,12 +234,17 @@ public void Init(StandingItemModel model)
 ```csharp
 public virtual void LateUpdate()
 ```
+#INC
+
 
 ### LoadnInit(string)
 
 ```csharp
 public static StandingItemUnit LoadnInit(string src)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -221,24 +261,32 @@ public static StandingItemUnit LoadnInit(string src)
 ```csharp
 public virtual void MannualDestroy()
 ```
+#INC
+
 
 ### OnClick()
 
 ```csharp
 public virtual void OnClick()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### SetAnimParam(string, AnimatorControllerParameterType, object)
 
 ```csharp
 public void SetAnimParam(string paramName, AnimatorControllerParameterType type, object value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,6 +301,8 @@ public void SetAnimParam(string paramName, AnimatorControllerParameterType type,
 ```csharp
 public void SetScaleFactor(float x, float y, float z)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,15 +317,21 @@ public void SetScaleFactor(float x, float y, float z)
 ```csharp
 protected virtual void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateScale()
 
 ```csharp
 protected virtual void UpdateScale()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 protected virtual void UpdateViewPosition()
 ```
+#INC
+

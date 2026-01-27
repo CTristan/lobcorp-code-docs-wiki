@@ -11,6 +11,8 @@ canonical_path: /api/Global/Standing/MoveItemCommand
 ```csharp
 public class MoveItemCommand : StandingCommand
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [StandingCommand](/api/Global/Misc/StandingCommand) → MoveItemCommand
@@ -25,6 +27,8 @@ public class MoveItemCommand : StandingCommand
 ```csharp
 public MoveItemCommand(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +41,8 @@ public MoveItemCommand(MapNode targetNode)
 ```csharp
 public MoveItemCommand(MovableObjectNode targetMovable)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +57,8 @@ public MoveItemCommand(MovableObjectNode targetMovable)
 ```csharp
 public MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +69,8 @@ public MovableObjectNode targetMovable
 ```csharp
 public MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,15 +83,22 @@ public MapNode targetNode
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

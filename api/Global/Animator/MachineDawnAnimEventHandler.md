@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/MachineDawnAnimEventHandler
 public class MachineDawnAnimEventHandler : AnimatorEventHandler
 ```
 
+Helper for [Doubt's animation handler](/api/Global/Creature/MachineDawnAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → MachineDawnAnimEventHandler
 
@@ -55,12 +60,16 @@ private AnimatorEventHandler.EventDelegate _finishEvent
 ```csharp
 public void Blood()
 ```
+#INC
+
 
 ### Finish()
 
 ```csharp
 public void Finish()
 ```
+#INC
+
 
 ### SetBloodEvent(EventDelegate)
 

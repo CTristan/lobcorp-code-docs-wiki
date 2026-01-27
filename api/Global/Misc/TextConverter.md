@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/TextConverter
 ```csharp
 public class TextConverter
 ```
+Provides some methods for working with text.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TextConverter
@@ -151,6 +155,9 @@ private static string[] SelectProcessWord(string random_list)
 ```csharp
 private static string SelectRandomWord(string random_list)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

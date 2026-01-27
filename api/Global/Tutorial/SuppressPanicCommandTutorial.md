@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/SuppressPanicCommandTutorial
 public class SuppressPanicCommandTutorial : Tutorial
 ```
 
+Ends when no agent is panicking. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → SuppressPanicCommandTutorial
 
@@ -33,6 +36,8 @@ public SuppressPanicCommandTutorial()
 ```csharp
 private List<AgentModel> agents
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,15 +50,22 @@ private List<AgentModel> agents
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

@@ -11,6 +11,10 @@ canonical_path: /api/Manual/CategoryTypeInfo
 ```csharp
 public class CategoryTypeInfo
 ```
+Has a bunch of main categories? I don't know
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CategoryTypeInfo
@@ -33,6 +37,8 @@ public CategoryTypeInfo()
 ```csharp
 public List<MainCategory> list
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +51,6 @@ public List<MainCategory> list
 ```csharp
 public void Reload()
 ```
+#INC
+#code-generated
+

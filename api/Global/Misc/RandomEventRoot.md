@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/RandomEventRoot
 public class RandomEventRoot : StandingItemScriptBase
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → RandomEventRoot
 
@@ -33,6 +36,8 @@ public RandomEventRoot()
 ```csharp
 private float bgmSave
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private float bgmSave
 ```csharp
 public RandomEventBase script
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +74,9 @@ public AudioSource AudioSrc { get; }
 ```csharp
 public void PlayBgm(string src)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -79,6 +89,8 @@ public void PlayBgm(string src)
 ```csharp
 public bool ReturnBgm()
 ```
+#INC
+
 
 #### Returns
 

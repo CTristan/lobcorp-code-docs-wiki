@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/MoveWorkerCommand
 public class MoveWorkerCommand : WorkerCommand
 ```
 
+Command for a [worker](/api/Global/Unit/WorkerUnit) to move to a target node.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → MoveWorkerCommand
 
@@ -25,6 +28,8 @@ public class MoveWorkerCommand : WorkerCommand
 ```csharp
 public MoveWorkerCommand(MapNode targetNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -37,6 +42,8 @@ public MoveWorkerCommand(MapNode targetNode)
 ```csharp
 public MoveWorkerCommand(MovableObjectNode movableNode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -51,6 +58,8 @@ public MoveWorkerCommand(MovableObjectNode movableNode)
 ```csharp
 public MovableObjectNode targetMovable
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +70,8 @@ public MovableObjectNode targetMovable
 ```csharp
 public MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,15 +84,22 @@ public MapNode targetNode
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

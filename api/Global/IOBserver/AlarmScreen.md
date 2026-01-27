@@ -11,6 +11,12 @@ canonical_path: /api/Global/IOBserver/AlarmScreen
 ```csharp
 public class AlarmScreen : MonoBehaviour, IObserver
 ```
+An observer for escaped creatures.
+
+Possibly unused? If it can be enabled, it will display an image for 3 seconds before deactivating...
+
+#unused #observer #maybe_unused
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AlarmScreen
@@ -36,6 +42,8 @@ public AlarmScreen()
 ```csharp
 private bool alarmOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +54,8 @@ private bool alarmOn
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +66,8 @@ private float elapsedTime
 ```csharp
 private float finishTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +78,8 @@ private float finishTime
 ```csharp
 public Image targetImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,24 +92,33 @@ public Image targetImage
 ```csharp
 private void Alarm()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,3 +132,5 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 private void Update()
 ```
+#INC
+

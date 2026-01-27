@@ -12,6 +12,17 @@ canonical_path: /api/Global/IANimatorEventCalled/OutterGodMidnightAttack
 public class OutterGodMidnightAttack : MonoBehaviour, IAnimatorEventCalled
 ```
 
+Script for one of four attack prefabs:
+- OutterGodMidnightAttack_R
+- OutterGodMidnightAttack_W
+- OutterGodMidnightAttack_B
+- OutterGodMidnightAttack_P
+
+Corresponding to each of the [shrines](/api/Global/OutterGodMidnight/OutterGodMidnight)' attacks.
+Mostly just calls methods on the shrine, I think. #INC 
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OutterGodMidnightAttack
 
@@ -36,6 +47,8 @@ public OutterGodMidnightAttack()
 ```csharp
 private const float _attackCoolTimeMax = 7
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +59,8 @@ private const float _attackCoolTimeMax = 7
 ```csharp
 private const float _attackCoolTimeMin = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +71,8 @@ private const float _attackCoolTimeMin = 4
 ```csharp
 private const float _attackDelayMax = 11
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +83,8 @@ private const float _attackDelayMax = 11
 ```csharp
 private const float _attackDelayMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +95,8 @@ private const float _attackDelayMin = 8
 ```csharp
 private const float _attackRemainTimeMax = 14
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +107,8 @@ private const float _attackRemainTimeMax = 14
 ```csharp
 private const float _attackRemainTimeMin = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +119,8 @@ private const float _attackRemainTimeMin = 8
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +131,8 @@ private bool _isEnabled
 ```csharp
 private const float _moveScaleMax = 1.2
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +143,8 @@ private const float _moveScaleMax = 1.2
 ```csharp
 private const float _moveScaleMin = 0.8
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +155,8 @@ private const float _moveScaleMin = 0.8
 ```csharp
 private const string _sound_b = "Tentacle_b"
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +167,8 @@ private const string _sound_b = "Tentacle_b"
 ```csharp
 private const string _sound_b2 = "Tentacle_b2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +179,8 @@ private const string _sound_b2 = "Tentacle_b2"
 ```csharp
 private const string _sound_p = "Eye_p"
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +191,8 @@ private const string _sound_p = "Eye_p"
 ```csharp
 private const string _sound_p2 = "Eye_p2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +203,8 @@ private const string _sound_p2 = "Eye_p2"
 ```csharp
 private const string _sound_portal_off = "Portal_Off"
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +215,8 @@ private const string _sound_portal_off = "Portal_Off"
 ```csharp
 private const string _sound_portal_on = "Portal_On"
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +227,8 @@ private const string _sound_portal_on = "Portal_On"
 ```csharp
 private const string _sound_r = "Tentacle_r"
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +239,8 @@ private const string _sound_r = "Tentacle_r"
 ```csharp
 private const string _sound_src = "creature/OutterGodMidnight/OutterGod_Midnight_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +251,8 @@ private const string _sound_src = "creature/OutterGodMidnight/OutterGod_Midnight
 ```csharp
 private const string _sound_w = "Tentacle_W"
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +263,8 @@ private const string _sound_w = "Tentacle_W"
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +275,8 @@ public Animator animator
 ```csharp
 private Timer attackDelayTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +287,8 @@ private Timer attackDelayTimer
 ```csharp
 private Timer attackRemainTimer_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +299,8 @@ private Timer attackRemainTimer_P
 ```csharp
 private List<UnitModel> damaged
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +311,8 @@ private List<UnitModel> damaged
 ```csharp
 private OutterGodMidnight midnight
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +323,8 @@ private OutterGodMidnight midnight
 ```csharp
 private Vector3 targetPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +335,8 @@ private Vector3 targetPos
 ```csharp
 public bool type_P
 ```
+#INC
+
 
 #### Field Value
 
@@ -330,18 +391,24 @@ private static float moveScale { get; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -354,30 +421,41 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### AttackEnd()
 
 ```csharp
 private void AttackEnd()
 ```
+#INC
+
 
 ### AttackStart()
 
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckCollision(Collider2D)
 
 ```csharp
 public void CheckCollision(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -390,6 +468,8 @@ public void CheckCollision(Collider2D collision)
 ```csharp
 private bool CheckDamageTarget(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -406,18 +486,24 @@ private bool CheckDamageTarget(UnitModel unit)
 ```csharp
 private void CheckEnd()
 ```
+#INC
+
 
 ### CheckStart()
 
 ```csharp
 private void CheckStart()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -431,12 +517,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GiveDamage(UnitModel)
 
 ```csharp
 private void GiveDamage(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -449,6 +539,8 @@ private void GiveDamage(UnitModel unit)
 ```csharp
 private SoundEffectPlayer MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -465,6 +557,8 @@ private SoundEffectPlayer MakeSound(string src)
 ```csharp
 private SoundEffectPlayer MakeSound(string src, float vol)
 ```
+#INC
+
 
 #### Parameters
 
@@ -482,6 +576,8 @@ private SoundEffectPlayer MakeSound(string src, float vol)
 ```csharp
 public void MoveTo(Vector3 position)
 ```
+#INC
+
 
 #### Parameters
 
@@ -494,18 +590,24 @@ public void MoveTo(Vector3 position)
 ```csharp
 private void OnArrive()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -518,6 +620,8 @@ public void OnCalled(int i)
 ```csharp
 public void Setmidnight(OutterGodMidnight midnight)
 ```
+#INC
+
 
 #### Parameters
 
@@ -530,12 +634,16 @@ public void Setmidnight(OutterGodMidnight midnight)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

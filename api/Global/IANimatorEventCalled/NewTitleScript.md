@@ -12,6 +12,11 @@ canonical_path: /api/Global/IANimatorEventCalled/NewTitleScript
 public class NewTitleScript : MonoBehaviour, ILanguageLinkedData, IAnimatorEventCalled
 ```
 
+The title screen.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → NewTitleScript
 
@@ -36,6 +41,8 @@ public NewTitleScript()
 ```csharp
 private bool _effectStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private NewTitleScript.OnMoveEndDelegate _end
 ```csharp
 public UIController _gadgets
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public UIController _gadgets
 ```csharp
 private static NewTitleScript _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ private static NewTitleScript _instance
 ```csharp
 private bool _isOpenedOption
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +99,8 @@ private bool _isOpenedOption
 ```csharp
 private bool _pinned
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +111,8 @@ private bool _pinned
 ```csharp
 public float[] AnchorY
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +123,8 @@ public float[] AnchorY
 ```csharp
 public AudioClipPlayer audioClipPlayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +145,8 @@ private GameObject BaseModButton
 ```csharp
 public CanvasGroup ButtonAreaGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +157,8 @@ public CanvasGroup ButtonAreaGroup
 ```csharp
 public Text challengeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +169,8 @@ public Text challengeText
 ```csharp
 private bool chalMenuActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -156,6 +181,8 @@ private bool chalMenuActivated
 ```csharp
 public GameObject cn_trCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -166,6 +193,8 @@ public GameObject cn_trCanvas
 ```csharp
 public GameObject cnCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -176,6 +205,8 @@ public GameObject cnCanvas
 ```csharp
 public GameObject continueGameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -186,6 +217,8 @@ public GameObject continueGameObject
 ```csharp
 public Text continueText
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,6 +229,8 @@ public Text continueText
 ```csharp
 private bool contMenuActivated
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +241,8 @@ private bool contMenuActivated
 ```csharp
 public Text dayCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +253,8 @@ public Text dayCount
 ```csharp
 public GameObject defRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +265,8 @@ public GameObject defRoot
 ```csharp
 public Color Disabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +277,8 @@ public Color Disabled
 ```csharp
 public EventColorSetting eventColorSettingChallenge
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +289,8 @@ public EventColorSetting eventColorSettingChallenge
 ```csharp
 public EventColorSetting eventColorSettingContinue
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +301,8 @@ public EventColorSetting eventColorSettingContinue
 ```csharp
 public Text GameVersionChecker
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +313,8 @@ public Text GameVersionChecker
 ```csharp
 public Image[] hiddenOverlay
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +325,8 @@ public Image[] hiddenOverlay
 ```csharp
 public GameObject hiddenRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +337,8 @@ public GameObject hiddenRoot
 ```csharp
 public bool isAlter
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +349,8 @@ public bool isAlter
 ```csharp
 private bool isNewGame
 ```
+#INC
+
 
 #### Field Value
 
@@ -306,6 +361,8 @@ private bool isNewGame
 ```csharp
 public GameObject jpCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -316,6 +373,8 @@ public GameObject jpCanvas
 ```csharp
 public Animator LogoAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -326,6 +385,8 @@ public Animator LogoAnimator
 ```csharp
 public Animator MenuPanelAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -336,6 +397,8 @@ public Animator MenuPanelAnim
 ```csharp
 public GameObject newGameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -346,6 +409,8 @@ public GameObject newGameObject
 ```csharp
 public GameObject newGameTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -356,6 +421,8 @@ public GameObject newGameTooltip
 ```csharp
 private bool nextLoading
 ```
+#INC
+
 
 #### Field Value
 
@@ -366,6 +433,8 @@ private bool nextLoading
 ```csharp
 public RectTransform OptionWindow
 ```
+#INC
+
 
 #### Field Value
 
@@ -376,6 +445,8 @@ public RectTransform OptionWindow
 ```csharp
 public GameObject overlayTortal
 ```
+#INC
+
 
 #### Field Value
 
@@ -386,6 +457,8 @@ public GameObject overlayTortal
 ```csharp
 public GameObject overlayWithDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -396,6 +469,8 @@ public GameObject overlayWithDay
 ```csharp
 public GameObject overlayWithoutDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -406,6 +481,8 @@ public GameObject overlayWithoutDay
 ```csharp
 public GameObject ruCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -416,6 +493,8 @@ public GameObject ruCanvas
 ```csharp
 public Text StartAndResetText
 ```
+#INC
+
 
 #### Field Value
 
@@ -426,6 +505,8 @@ public Text StartAndResetText
 ```csharp
 private Timer StartEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -436,6 +517,8 @@ private Timer StartEffectTime
 ```csharp
 public float StartEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -446,6 +529,8 @@ public float StartEffectTimer
 ```csharp
 public Animator StartNewSceneControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -456,6 +541,8 @@ public Animator StartNewSceneControl
 ```csharp
 public AudioSource TitleBgm
 ```
+#INC
+
 
 #### Field Value
 
@@ -466,6 +553,8 @@ public AudioSource TitleBgm
 ```csharp
 public Animator TitleEffectAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -497,6 +586,8 @@ public UIController translationCanvas
 ```csharp
 public GameObject vnCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -541,18 +632,24 @@ public bool IsOpenedOption { get; set; }
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -565,42 +662,56 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 private void Awake()
 ```
+#INC
+
 
 ### CheckFont()
 
 ```csharp
 private void CheckFont()
 ```
+#INC
+
 
 ### ClickAfterContinue()
 
 ```csharp
 private void ClickAfterContinue()
 ```
+#INC
+
 
 ### ClickAfterNewGame()
 
 ```csharp
 private void ClickAfterNewGame()
 ```
+#INC
+
 
 ### ClickAfterTutorial()
 
 ```csharp
 public void ClickAfterTutorial()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -614,6 +725,8 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 private void DeleteMaxObserveData()
 ```
+#INC
+
 
 ### GetObject(int)
 
@@ -636,6 +749,8 @@ public NewTitleScript.TitleObject GetObject(int id)
 ```csharp
 public void HiddenButtonEnter(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -648,6 +763,8 @@ public void HiddenButtonEnter(int i)
 ```csharp
 public void HiddenButtonExit(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -660,42 +777,56 @@ public void HiddenButtonExit(int i)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### LoadMainGame()
 
 ```csharp
 public void LoadMainGame()
 ```
+#INC
+
 
 ### LoadStoryMode()
 
 ```csharp
 public void LoadStoryMode()
 ```
+#INC
+
 
 ### LoadTutorial()
 
 ```csharp
 public void LoadTutorial()
 ```
+#INC
+
 
 ### MoveToStoryTester()
 
 ```csharp
 public void MoveToStoryTester()
 ```
+#INC
+
 
 ### OnCalled()
 
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -708,6 +839,8 @@ public void OnCalled(int i)
 ```csharp
 public void OnCickReset(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -720,54 +853,72 @@ public void OnCickReset(int index)
 ```csharp
 public void OnClickCloseTutorial()
 ```
+#INC
+
 
 ### OnClickContinue()
 
 ```csharp
 public void OnClickContinue()
 ```
+#INC
+
 
 ### OnClickCredit()
 
 ```csharp
 public void OnClickCredit()
 ```
+#INC
+
 
 ### OnClickExitGame()
 
 ```csharp
 public void OnClickExitGame()
 ```
+#INC
+
 
 ### OnClickHiddenButton()
 
 ```csharp
 public void OnClickHiddenButton()
 ```
+#INC
+
 
 ### OnClickHiddenNo()
 
 ```csharp
 public void OnClickHiddenNo()
 ```
+#INC
+
 
 ### OnClickHiddenYes()
 
 ```csharp
 public void OnClickHiddenYes()
 ```
+#INC
+
 
 ### OnClickInfinite()
 
 ```csharp
 public void OnClickInfinite()
 ```
+#INC
+
 
 ### OnClickLanguage(int)
 
 ```csharp
 public void OnClickLanguage(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -780,24 +931,32 @@ public void OnClickLanguage(int index)
 ```csharp
 public void OnClickNewGame()
 ```
+#INC
+
 
 ### OnClickOption()
 
 ```csharp
 public void OnClickOption()
 ```
+#INC
+
 
 ### OnClickTutorial()
 
 ```csharp
 public void OnClickTutorial()
 ```
+#INC
+
 
 ### OnClickTutorial(int)
 
 ```csharp
 public void OnClickTutorial(int step)
 ```
+#INC
+
 
 #### Parameters
 
@@ -810,48 +969,64 @@ public void OnClickTutorial(int step)
 ```csharp
 public void OnEffectRun()
 ```
+#INC
+
 
 ### OnEnterCredit()
 
 ```csharp
 public void OnEnterCredit()
 ```
+#INC
+
 
 ### OnExitCredit()
 
 ```csharp
 public void OnExitCredit()
 ```
+#INC
+
 
 ### OnLanguageChanged()
 
 ```csharp
 public void OnLanguageChanged()
 ```
+#INC
+
 
 ### OnMoveEnd()
 
 ```csharp
 public void OnMoveEnd()
 ```
+#INC
+
 
 ### OnNewGameEnter()
 
 ```csharp
 public void OnNewGameEnter()
 ```
+#INC
+
 
 ### OnNewGameExit()
 
 ```csharp
 public void OnNewGameExit()
 ```
+#INC
+
 
 ### OnPointerEnter(int)
 
 ```csharp
 public void OnPointerEnter(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -864,6 +1039,8 @@ public void OnPointerEnter(int id)
 ```csharp
 public void OnPointerExit(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -876,12 +1053,16 @@ public void OnPointerExit(int id)
 ```csharp
 private void OnReset()
 ```
+#INC
+
 
 ### OnSetLanguage(string)
 
 ```csharp
 public void OnSetLanguage(string language)
 ```
+#INC
+
 
 #### Parameters
 
@@ -894,6 +1075,9 @@ public void OnSetLanguage(string language)
 ```csharp
 private void OnSetOption(bool state)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -906,12 +1090,16 @@ private void OnSetOption(bool state)
 ```csharp
 public void OpenCodex()
 ```
+#INC
+
 
 ### Reload()
 
 ```csharp
 private IEnumerator Reload()
 ```
+#INC
+
 
 #### Returns
 
@@ -922,12 +1110,16 @@ private IEnumerator Reload()
 ```csharp
 private void Reset()
 ```
+#INC
+
 
 ### SetCreditLayout(int)
 
 ```csharp
 public void SetCreditLayout(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -946,12 +1138,16 @@ private void ShowBaseMod()
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -964,15 +1160,21 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartLogoEffect()
 
 ```csharp
 public void StartLogoEffect()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

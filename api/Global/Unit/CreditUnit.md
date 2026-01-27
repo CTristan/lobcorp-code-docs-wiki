@@ -12,6 +12,10 @@ canonical_path: /api/Global/Unit/CreditUnit
 public class CreditUnit : MonoBehaviour
 ```
 
+unsure. holds text. obviously for credits though
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreditUnit
 
@@ -33,6 +37,8 @@ public CreditUnit()
 ```csharp
 public CreditSection data
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public CreditSection data
 ```csharp
 public Text InnerDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public Text InnerDesc
 ```csharp
 public Text Section
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public Text Section
 ```csharp
 public float spacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public float spacing
 ```csharp
 private StringBuilder strB
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,9 @@ private StringBuilder strB
 ```csharp
 public float Init()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Animator/YangAnimEventHandler
 public class YangAnimEventHandler : AnimatorEventHandler
 ```
 
+Handles some animation events for [Yang's animation handler](/api/Global/Misc/YangAnim).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimatorEventHandler](/api/Global/Misc/AnimatorEventHandler) → YangAnimEventHandler
 
@@ -45,6 +50,8 @@ private AnimatorEventHandler.EventDelegate _endRevivalEvent
 ```csharp
 public void EndRevival()
 ```
+#INC
+
 
 ### SetEndRevivalEvent(EventDelegate)
 

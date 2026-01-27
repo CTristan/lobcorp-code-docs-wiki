@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BugMidnightOrdeal
 public class BugMidnightOrdeal : BugOrdeal
 ```
 
+Midnight of Amber ordeal; The Eternal Meal. Spawns a few [BugMidnights](/api/Global/Misc/BugMidnight).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [BugOrdeal](/api/Global/Misc/BugOrdeal) → BugMidnightOrdeal
 
@@ -25,6 +28,8 @@ public class BugMidnightOrdeal : BugOrdeal
 ```csharp
 public BugMidnightOrdeal()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public BugMidnightOrdeal()
 ```csharp
 private const int _spawnNum = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,8 @@ private List<BugMidnightOrdeal.BugMidnightManager> managers
 ```csharp
 public MapNode GetTargetNode()
 ```
+#INC
+
 
 #### Returns
 
@@ -65,12 +74,16 @@ public MapNode GetTargetNode()
 ```csharp
 private void MakeBug()
 ```
+#INC
+
 
 ### MakeOrdealCreature(OrdealLevel, MapNode, BugMidnight, params UnitDirection[])
 
 ```csharp
 public override BugOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode node, BugMidnight midnight, params UnitDirection[] direction)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,6 +103,8 @@ public override BugOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode 
 ```csharp
 public override void OnDie(OrdealCreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -102,12 +117,17 @@ public override void OnDie(OrdealCreatureModel model)
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+
 
 ### OnTeleport(MapNode, BugMidnight)
 
 ```csharp
 public void OnTeleport(MapNode node, BugMidnight midnight)
 ```
+#INC
+
 
 #### Parameters
 

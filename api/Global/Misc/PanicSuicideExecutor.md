@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/PanicSuicideExecutor
 public class PanicSuicideExecutor : PanicAction
 ```
 
+Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to commit suicide after a certain amount of time.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicSuicideExecutor
 
@@ -25,6 +28,8 @@ public class PanicSuicideExecutor : PanicAction
 ```csharp
 public PanicSuicideExecutor(AgentModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public PanicSuicideExecutor(AgentModel target)
 ```csharp
 private int _suicideCooltime
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private int _suicideCooltime
 ```csharp
 private bool _suicideExecuted
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private bool _suicideExecuted
 ```csharp
 private Timer _suicideTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private Timer _suicideTimer
 ```csharp
 private AgentModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private AgentModel actor
 ```csharp
 public const int suicideWDmg = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,24 +106,33 @@ public const int suicideWDmg = 20
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### ExecuteSuicide()
 
 ```csharp
 private void ExecuteSuicide()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### OnAgentAnimEvent(int)
 
 ```csharp
 public void OnAgentAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,9 +145,13 @@ public void OnAgentAnimEvent(int i)
 ```csharp
 public override void OnDie()
 ```
+#INC
+
 
 ### PanicEnd()
 
 ```csharp
 public override void PanicEnd()
 ```
+#INC
+

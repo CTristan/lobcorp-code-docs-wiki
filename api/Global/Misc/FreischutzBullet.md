@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/FreischutzBullet
 public class FreischutzBullet : MonoBehaviour
 ```
 
+[Der Freischütz](/api/Global/Misc/Freischutz)'s bullet.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FreischutzBullet
 
@@ -33,6 +36,8 @@ public FreischutzBullet()
 ```csharp
 public Transform _bullet
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public Transform _bullet
 ```csharp
 private DamageInfo _bulletDmg
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private DamageInfo _bulletDmg
 ```csharp
 private Object _bulletDmgEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Object _bulletDmgEffect
 ```csharp
 public float _bulletSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public float _bulletSpeed
 ```csharp
 private AutoTimer _destroyTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private AutoTimer _destroyTimer
 ```csharp
 private SoundEffectPlayer _sound
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private SoundEffectPlayer _sound
 ```csharp
 public Transform _wave
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +122,8 @@ public Transform _wave
 ```csharp
 public CreatureModel Model { get; set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -117,6 +136,9 @@ public CreatureModel Model { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CollisionCheck(Collider2D)
 
@@ -135,18 +157,24 @@ public void CollisionCheck(Collider2D collision)
 ```csharp
 private void DestroyBullet()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### MakeDamageEffect(UnitModel)
 
 ```csharp
 private void MakeDamageEffect(UnitModel unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -159,3 +187,5 @@ private void MakeDamageEffect(UnitModel unit)
 ```csharp
 private void Start()
 ```
+#INC
+

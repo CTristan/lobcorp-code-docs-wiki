@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/RandomEventLayer
 public class RandomEventLayer : MonoBehaviour
 ```
 
+Game layer for ordeal popups and the unused Random Events.
+
+See also 
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RandomEventLayer
 
@@ -33,6 +39,8 @@ public RandomEventLayer()
 ```csharp
 private static RandomEventLayer _currentLayer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public RandomEventLayer.TypoSession currentTimeSession
 ```csharp
 private bool effectEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private bool effectEnabled
 ```csharp
 public AudioSource EffectSoundSource
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ public AudioSource EffectSoundSource
 ```csharp
 public AnimationCurve fadeCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ public AnimationCurve fadeCurve
 ```csharp
 public bool midnightEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +119,8 @@ public bool midnightEnabled
 ```csharp
 private float midnightMax
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +131,8 @@ private float midnightMax
 ```csharp
 public Text midnightText
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +143,8 @@ public Text midnightText
 ```csharp
 public UnscaledTimer midnightTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -144,6 +166,8 @@ public Canvas midnightTimerRoot
 ```csharp
 public Text midnightTimerText
 ```
+#INC
+
 
 #### Field Value
 
@@ -154,6 +178,8 @@ public Text midnightTimerText
 ```csharp
 public Canvas timeCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,6 +190,8 @@ public Canvas timeCanvas
 ```csharp
 public Text timeDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -174,6 +202,8 @@ public Text timeDesc
 ```csharp
 public CanvasGroup timeGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -184,6 +214,8 @@ public CanvasGroup timeGroup
 ```csharp
 public Text timeName
 ```
+#INC
+
 
 #### Field Value
 
@@ -194,6 +226,8 @@ public Text timeName
 ```csharp
 public GameObject timeRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +238,8 @@ public GameObject timeRoot
 ```csharp
 private float timeStamp
 ```
+#INC
+
 
 #### Field Value
 
@@ -235,6 +271,8 @@ private UnscaledTimer timeTimer
 ```csharp
 public Canvas typoCanvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -245,6 +283,8 @@ public Canvas typoCanvas
 ```csharp
 public Text typoDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -265,6 +305,8 @@ private List<RandomEventLayer.TypoEvent> typoEndEvent
 ```csharp
 public CanvasGroup typoGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -275,6 +317,8 @@ public CanvasGroup typoGroup
 ```csharp
 public Text typoName
 ```
+#INC
+
 
 #### Field Value
 
@@ -285,6 +329,8 @@ public Text typoName
 ```csharp
 public GameObject typoRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -305,6 +351,8 @@ public RandomEventLayer.TypoState typoState
 ```csharp
 private UnscaledTimer typoTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -315,6 +363,8 @@ private UnscaledTimer typoTimer
 ```csharp
 public GameObject typoTopRoot
 ```
+#INC
+
 
 #### Field Value
 
@@ -325,6 +375,8 @@ public GameObject typoTopRoot
 ```csharp
 public Text typoTopText
 ```
+#INC
+
 
 #### Field Value
 
@@ -335,6 +387,8 @@ public Text typoTopText
 ```csharp
 public Text typoType
 ```
+#INC
+
 
 #### Field Value
 
@@ -345,6 +399,8 @@ public Text typoType
 ```csharp
 public List<MaskableGraphic> uiColorList
 ```
+#INC
+
 
 #### Field Value
 
@@ -448,30 +504,41 @@ public void AddTypo(RandomEventLayer.TypoSession session, string color, string s
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckMidnight()
 
 ```csharp
 private void CheckMidnight()
 ```
+#INC
+
 
 ### EndTime()
 
 ```csharp
 private void EndTime()
 ```
+#INC
+
 
 ### EndTypo()
 
 ```csharp
 private void EndTypo()
 ```
+#INC
+
 
 ### FadeEffect(CanvasGroup, float)
 
 ```csharp
 public void FadeEffect(CanvasGroup group, float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -485,6 +552,8 @@ public void FadeEffect(CanvasGroup group, float value)
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### MakeDefaultTypoSession(string)
 
@@ -575,12 +644,16 @@ public void MakeTime(RandomEventLayer.TypoSession session)
 ```csharp
 public void MidnightTimerDisable()
 ```
+#INC
+
 
 ### PlayeEffect(string)
 
 ```csharp
 public void PlayeEffect(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -593,6 +666,8 @@ public void PlayeEffect(string src)
 ```csharp
 public void SetColor(Text text, float rate)
 ```
+#INC
+
 
 #### Parameters
 
@@ -606,6 +681,8 @@ public void SetColor(Text text, float rate)
 ```csharp
 public void SetMidnight(bool state, float maxTime)
 ```
+#INC
+
 
 #### Parameters
 
@@ -619,6 +696,8 @@ public void SetMidnight(bool state, float maxTime)
 ```csharp
 private void SetMidnightText(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -631,6 +710,8 @@ private void SetMidnightText(float value)
 ```csharp
 public void SetTypoUIColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -643,6 +724,8 @@ public void SetTypoUIColor(Color c)
 ```csharp
 public void SetTypoUIColor(string color)
 ```
+#INC
+
 
 #### Parameters
 
@@ -655,27 +738,37 @@ public void SetTypoUIColor(string color)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StartMidnightTimer()
 
 ```csharp
 public void StartMidnightTimer()
 ```
+#INC
+
 
 ### StartTime()
 
 ```csharp
 private void StartTime()
 ```
+#INC
+
 
 ### StartTypo()
 
 ```csharp
 private void StartTypo()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Global/UI/RabbitUnitUI
 public class RabbitUnitUI
 ```
 
+Shows grade, HP, SP, and name below the [rabbit](/api/Global/Unit/RabbitUnit).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitUnitUI
 
@@ -33,6 +36,8 @@ public RabbitUnitUI()
 ```csharp
 public bool Activated
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public bool Activated
 ```csharp
 public Text Name
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +62,9 @@ public Text Name
 ```csharp
 public void activateUI(RabbitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -67,3 +77,5 @@ public void activateUI(RabbitModel model)
 ```csharp
 public void DeactivateAllUI()
 ```
+#INC
+

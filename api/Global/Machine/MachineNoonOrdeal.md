@@ -12,6 +12,11 @@ canonical_path: /api/Global/Machine/MachineNoonOrdeal
 public class MachineNoonOrdeal : MachineOrdeal
 ```
 
+Green Noon, The Process of Understanding. Spawns several [MachineNoon](/api/Global/Machine/MachineNoon)s.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [OrdealBase](/api/Global/Misc/OrdealBase) → [MachineOrdeal](/api/Global/Misc/MachineOrdeal) → MachineNoonOrdeal
 
@@ -25,6 +30,8 @@ public class MachineNoonOrdeal : MachineOrdeal
 ```csharp
 public MachineNoonOrdeal()
 ```
+#INC
+
 
 ## Methods
 
@@ -33,9 +40,14 @@ public MachineNoonOrdeal()
 ```csharp
 private void MakeMachineNoon()
 ```
+#INC
+
 
 ### OnOrdealStart()
 
 ```csharp
 public override void OnOrdealStart()
 ```
+#INC
+#code-generated
+

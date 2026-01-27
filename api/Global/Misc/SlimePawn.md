@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlimePawn
 public class SlimePawn : SlimeCreature
 ```
 
+One of [Melting Love](/api/Global/Misc/SlimeGirl)'s small minions.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [SlimeCreature](/api/Global/Creature/SlimeCreature) → SlimePawn
 
@@ -33,6 +38,8 @@ public SlimePawn()
 ```csharp
 private SlimePawnAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private SlimePawnAnim _animScript
 ```csharp
 private const int _atkDmgMax = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _atkDmgMax = 12
 ```csharp
 private const int _atkDmgMin = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const int _atkDmgMin = 6
 ```csharp
 private const RwbpType _atkDmgType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const RwbpType _atkDmgType = B
 ```csharp
 private const int _max_hp_max = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const int _max_hp_max = 200
 ```csharp
 private const int _max_hp_min = 200
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const int _max_hp_min = 200
 ```csharp
 private const float _speed_max = 2.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float _speed_max = 2.1
 ```csharp
 private const float _speed_min = 1.9
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private const float _speed_min = 1.9
 ```csharp
 private const float ATK_DMG_RANGE = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private const float ATK_DMG_RANGE = 1.5
 ```csharp
 private const float ATTACK_RANGE = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float ATTACK_RANGE = 1
 ```csharp
 private const string CODE_ID = "D-01-106-2"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const string CODE_ID = "D-01-106-2"
 ```csharp
 private const string DEFENSE_ID = "1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private const string DEFENSE_ID = "1"
 ```csharp
 private const float RECOGNIZE_RANGE = 8
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private const float RECOGNIZE_RANGE = 8
 ```csharp
 private const string RISK_LEVEL = "HE"
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private const string RISK_LEVEL = "HE"
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,12 +272,17 @@ private static float SPEED { get; }
 ```csharp
 private void AttackStart()
 ```
+#INC
+
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -260,6 +300,8 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private bool CheckIfSacrifice()
 ```
+#INC
+
 
 #### Returns
 
@@ -270,6 +312,8 @@ private bool CheckIfSacrifice()
 ```csharp
 public override string GetRiskLevel()
 ```
+#INC
+
 
 #### Returns
 
@@ -280,6 +324,8 @@ public override string GetRiskLevel()
 ```csharp
 public override string GetSoundSrc(string key)
 ```
+#INC
+
 
 #### Parameters
 
@@ -296,6 +342,8 @@ public override string GetSoundSrc(string key)
 ```csharp
 private bool HaveToMove()
 ```
+#INC
+
 
 #### Returns
 
@@ -306,6 +354,8 @@ private bool HaveToMove()
 ```csharp
 private bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -316,6 +366,8 @@ private bool IsAttacking()
 ```csharp
 private bool IsMovable()
 ```
+#INC
+
 
 #### Returns
 
@@ -326,12 +378,16 @@ private bool IsMovable()
 ```csharp
 private void MakeMovement()
 ```
+#INC
+
 
 ### OnAfterSuppressed()
 
 ```csharp
 public override bool OnAfterSuppressed()
 ```
+#INC
+
 
 #### Returns
 
@@ -342,18 +398,24 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnAttackDamageTimeCalled()
 ```
+#INC
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,21 +428,29 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public void Sacrifice()
 ```
+#INC
+
 
 ### StopMovement()
 
 ```csharp
 protected override void StopMovement()
 ```
+#INC
+
 
 ### Suppressed()
 
 ```csharp
 public void Suppressed()
 ```
+#INC
+
 
 ### UniqueEscape()
 
 ```csharp
 public override void UniqueEscape()
 ```
+#INC
+

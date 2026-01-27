@@ -12,6 +12,11 @@ canonical_path: /api/CommandWindow/KitCreatureRegion
 public class KitCreatureRegion : CommandWindowRegion
 ```
 
+UI element for displaying tool abnormalities and information during assignment (e.g., basic info, times used, cumulative time, observation level...)
+
+See [CommandWindow](/api/CommandWindow)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → KitCreatureRegion
 
@@ -33,6 +38,8 @@ public KitCreatureRegion()
 ```csharp
 private CreatureModel _currentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel _currentModel
 ```csharp
 public Text CodeNo
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Text CodeNo
 ```csharp
 public Text ObserveLevelText
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Text ObserveLevelText
 ```csharp
 public Image ObserveLevelZeroImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public Image ObserveLevelZeroImage
 ```csharp
 public Text RiskLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Text RiskLevel
 ```csharp
 private static string unknown
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private static string unknown
 ```csharp
 private static string unknown_Text
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private static string unknown_Text
 ```csharp
 public Text UseCountText
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public Text UseCountText
 ```csharp
 public Text UseCountTitleText
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,6 +160,9 @@ public CreatureModel CurrentModel { get; }
 ```csharp
 public override void SetData(UnitModel target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

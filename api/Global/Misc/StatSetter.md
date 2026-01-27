@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StatSetter
 public class StatSetter : IdentityTransform, StatTransform
 ```
 
+Returns a fixed value.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [IdentityTransform](/api/Global/Misc/IdentityTransform) → StatSetter
 
@@ -28,6 +33,8 @@ public class StatSetter : IdentityTransform, StatTransform
 ```csharp
 public StatSetter(float s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +49,8 @@ public StatSetter(float s)
 ```csharp
 private float setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +63,9 @@ private float setter
 ```csharp
 public override float FloatToFloat(float v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

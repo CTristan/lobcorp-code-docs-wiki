@@ -11,6 +11,8 @@ canonical_path: /api/Global/Creature/CreatureObserveBonusData
 ```csharp
 public class CreatureObserveBonusData
 ```
+Stores the bonus from higher observation levels.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureObserveBonusData
@@ -43,6 +45,9 @@ public CreatureObserveBonusData.BonusType bonus
 ```csharp
 public int level
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -53,6 +58,8 @@ public int level
 ```csharp
 public int value
 ```
+#INC
+
 
 #### Field Value
 

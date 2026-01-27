@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/UpDownPlatform
 ```csharp
 public class UpDownPlatform : MonoBehaviour
 ```
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UpDownPlatform
@@ -33,6 +35,8 @@ public UpDownPlatform()
 ```csharp
 public bool downPlatform
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public bool downPlatform
 ```csharp
 public bool platformFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public bool platformFlag
 ```csharp
 public Rigidbody2D playerBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +73,8 @@ public Rigidbody2D playerBody
 ```csharp
 private void OnCollisionEnter2D(Collision2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -77,6 +87,8 @@ private void OnCollisionEnter2D(Collision2D coll)
 ```csharp
 private void OnCollisionStay2D(Collision2D coll)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,9 +101,14 @@ private void OnCollisionStay2D(Collision2D coll)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

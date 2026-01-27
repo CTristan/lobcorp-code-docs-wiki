@@ -12,6 +12,12 @@ canonical_path: /api/GameStatusUI/EmergencyUI
 public class EmergencyUI : MonoBehaviour
 ```
 
+extends 
+For displaying the first, second, and third trumpet UI. Contains code for an unused fourth trumpet ('chaos').
+
+See [GameStatusUI](/api/GameStatusUI)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → EmergencyUI
 
@@ -33,6 +39,8 @@ public EmergencyUI()
 ```csharp
 private EmergencyLevel _currengLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private EmergencyLevel _currengLevel
 ```csharp
 private bool _isPlaying
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private bool _isPlaying
 ```csharp
 private EmergencyLevel _waiting
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private EmergencyLevel _waiting
 ```csharp
 public GameObject ActiveControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +87,8 @@ public GameObject ActiveControl
 ```csharp
 public Animator animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +99,8 @@ public Animator animator
 ```csharp
 public CanvasGroup canvasGroup
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +111,8 @@ public CanvasGroup canvasGroup
 ```csharp
 public List<MaskableGraphic> coloredTargets
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +123,8 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 public Text CurrentEmergencyLevelDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +135,8 @@ public Text CurrentEmergencyLevelDesc
 ```csharp
 private const float defaultEffectTime = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +147,8 @@ private const float defaultEffectTime = 20
 ```csharp
 public Color[] EmergencyColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +159,8 @@ public Color[] EmergencyColor
 ```csharp
 public Image[] EmergencyImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +171,8 @@ public Image[] EmergencyImage
 ```csharp
 public Sprite[] ExclamationMarks
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +183,8 @@ public Sprite[] ExclamationMarks
 ```csharp
 private UnscaledTimer timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +209,8 @@ public bool IsPlaying { get; }
 ```csharp
 public void Emergency(EmergencyLevel level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +223,9 @@ public void Emergency(EmergencyLevel level)
 ```csharp
 private void GenerateEmergecny(EmergencyLevel level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -201,6 +238,8 @@ private void GenerateEmergecny(EmergencyLevel level)
 ```csharp
 public string GetTrumpetText(int level)
 ```
+#INC
+
 
 #### Parameters
 
@@ -217,15 +256,21 @@ public string GetTrumpetText(int level)
 ```csharp
 private void OnTimerEnd()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

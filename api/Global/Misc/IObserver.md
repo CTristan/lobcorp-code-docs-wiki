@@ -11,6 +11,18 @@ canonical_path: /api/Global/Misc/IObserver
 ```csharp
 public interface IObserver
 ```
+Interface for all things which listen for events.
+
+Note: *some* events will have additional information, which needs to be grabbed from param.
+
+#### Method
+void OnNotice(string notice, params object[] param)
+
+
+%% An aside: This should probably not be implemented this way. %%
+
+#exclude-from-graph 
+
 
 ## Methods
 
@@ -19,6 +31,9 @@ public interface IObserver
 ```csharp
 void OnNotice(string notice, params object[] param)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,13 @@ canonical_path: /api/Global/Script/MagicalLaserScript
 public class MagicalLaserScript : MonoBehaviour
 ```
 
+[The Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s laser attack(s).
+
+See also  and .
+
+#verify
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MagicalLaserScript
 
@@ -33,6 +40,8 @@ public MagicalLaserScript()
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private bool _isEnabled
 ```csharp
 private bool animChanged
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private bool animChanged
 ```csharp
 private const float animDelay = 1.4
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const float animDelay = 1.4
 ```csharp
 private MagicalGirlAnim animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private MagicalGirlAnim animScript
 ```csharp
 private bool casting
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private bool casting
 ```csharp
 private UnitDirection currentDir
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private UnitDirection currentDir
 ```csharp
 private PassageObjectModel currentPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +124,8 @@ private PassageObjectModel currentPassage
 ```csharp
 private UnitModel currentTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +136,8 @@ private UnitModel currentTarget
 ```csharp
 public int damage
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +148,8 @@ public int damage
 ```csharp
 private float elapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +160,8 @@ private float elapsed
 ```csharp
 private MapNode endNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +172,8 @@ private MapNode endNode
 ```csharp
 private bool endNodeAttacked
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +184,8 @@ private bool endNodeAttacked
 ```csharp
 public GameObject endPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +196,8 @@ public GameObject endPos
 ```csharp
 public SpriteRenderer endSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +208,8 @@ public SpriteRenderer endSprite
 ```csharp
 private bool isAttackedWorker
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +220,8 @@ private bool isAttackedWorker
 ```csharp
 public float laserDispaly
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +232,8 @@ public float laserDispaly
 ```csharp
 private LineRenderer line
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +244,8 @@ private LineRenderer line
 ```csharp
 public GameObject magicalEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +256,8 @@ public GameObject magicalEffect
 ```csharp
 private CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +268,8 @@ private CreatureModel model
 ```csharp
 private float prewarmElapsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +280,8 @@ private float prewarmElapsed
 ```csharp
 private bool prewarmEnded
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +292,8 @@ private bool prewarmEnded
 ```csharp
 public float prewarmTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +304,8 @@ public float prewarmTime
 ```csharp
 private SpriteRenderer referenceSpriteRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +316,8 @@ private SpriteRenderer referenceSpriteRenderer
 ```csharp
 public Animator RuneEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +328,8 @@ public Animator RuneEffect
 ```csharp
 private float sameTargetElapased
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +340,8 @@ private float sameTargetElapased
 ```csharp
 public float sameTargetTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +352,8 @@ public float sameTargetTimer
 ```csharp
 private MagicalGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -303,6 +364,8 @@ private MagicalGirl script
 ```csharp
 private float spriteElased
 ```
+#INC
+
 
 #### Field Value
 
@@ -313,6 +376,8 @@ private float spriteElased
 ```csharp
 private int spriteIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -333,6 +398,8 @@ public MagicalLaserScript.LaserSprite sprites
 ```csharp
 public GameObject startEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -343,6 +410,8 @@ public GameObject startEffect
 ```csharp
 public GameObject startPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -353,6 +422,8 @@ public GameObject startPos
 ```csharp
 public SpriteRenderer startSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -363,6 +434,8 @@ public SpriteRenderer startSprite
 ```csharp
 private List<UnitModel> targetList
 ```
+#INC
+
 
 #### Field Value
 
@@ -373,6 +446,8 @@ private List<UnitModel> targetList
 ```csharp
 private int teleportReadyCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -407,12 +482,17 @@ private MovableObjectNode movable { get; }
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### EnableLaser(PassageObjectModel, List<UnitModel>)
 
 ```csharp
 public void EnableLaser(PassageObjectModel passage, List<UnitModel> targets)
 ```
+#INC
+
 
 #### Parameters
 
@@ -426,6 +506,8 @@ public void EnableLaser(PassageObjectModel passage, List<UnitModel> targets)
 ```csharp
 private UnitModel HitScan(out bool hasInner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -442,6 +524,8 @@ private UnitModel HitScan(out bool hasInner)
 ```csharp
 public void Init(CreatureModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -454,24 +538,32 @@ public void Init(CreatureModel model)
 ```csharp
 public void LaserDisable()
 ```
+#INC
+
 
 ### OnReturn()
 
 ```csharp
 public void OnReturn()
 ```
+#INC
+
 
 ### ReadyLine()
 
 ```csharp
 private void ReadyLine()
 ```
+#INC
+
 
 ### SetCastingSlider(Slider)
 
 ```csharp
 public bool SetCastingSlider(Slider slider)
 ```
+#INC
+
 
 #### Parameters
 
@@ -488,12 +580,16 @@ public bool SetCastingSlider(Slider slider)
 ```csharp
 public void SetLaserSprite()
 ```
+#INC
+
 
 ### SetPos(Vector3)
 
 ```csharp
 public void SetPos(Vector3 end)
 ```
+#INC
+
 
 #### Parameters
 
@@ -506,12 +602,16 @@ public void SetPos(Vector3 end)
 ```csharp
 private void SetSprite()
 ```
+#INC
+
 
 ### Shoot(UnitModel)
 
 ```csharp
 private void Shoot(UnitModel targetUnit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -524,9 +624,13 @@ private void Shoot(UnitModel targetUnit)
 ```csharp
 public void StartLaser()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public void Update()
 ```
+#INC
+

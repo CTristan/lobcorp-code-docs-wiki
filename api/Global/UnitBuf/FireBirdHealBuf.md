@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FireBirdHealBuf
 public class FireBirdHealBuf : UnitBuf
 ```
 
+[The Firebird](/api/Global/IOBserver/FireBird)'s heal buff (for when its Qliphoth Counter is 1, or an agent has <20% of max HP at the end of work).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → FireBirdHealBuf
 
@@ -25,6 +28,8 @@ public class FireBirdHealBuf : UnitBuf
 ```csharp
 public FireBirdHealBuf(FireBird script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public FireBirdHealBuf(FireBird script)
 ```csharp
 private const float _healValueHpMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private const float _healValueHpMax = 5
 ```csharp
 private const float _healValueHpMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +68,8 @@ private const float _healValueHpMin = 5
 ```csharp
 private const float _healValueMpMax = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +80,8 @@ private const float _healValueMpMax = 5
 ```csharp
 private const float _healValueMpMin = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +92,8 @@ private const float _healValueMpMin = 5
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -89,6 +104,8 @@ private AgentModel agent
 ```csharp
 private const float defaultRemain = 60
 ```
+#INC
+
 
 #### Field Value
 
@@ -99,6 +116,8 @@ private const float defaultRemain = 60
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -109,6 +128,8 @@ private GameObject effect
 ```csharp
 private const float healTickTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -119,6 +140,8 @@ private const float healTickTime = 5
 ```csharp
 private Timer healTickTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -129,6 +152,8 @@ private Timer healTickTimer
 ```csharp
 private FireBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,30 +188,41 @@ private static float HealValueMp { get; }
 ```csharp
 public override void Destroy()
 ```
+#INC
+
 
 ### DestroyEffect()
 
 ```csharp
 private void DestroyEffect()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Heal()
 
 ```csharp
 private void Heal()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -199,9 +235,13 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+

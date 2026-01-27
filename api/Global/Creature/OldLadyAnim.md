@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/OldLadyAnim
 public class OldLadyAnim : CreatureAnimScript
 ```
 
+Animation handler for [Old Lady](/api/Global/IOBserver/OldLady).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → OldLadyAnim
 
@@ -33,6 +38,8 @@ public OldLadyAnim()
 ```csharp
 public AudioSource debufSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public AudioSource debufSound
 ```csharp
 public AudioSource effectSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public AudioSource effectSound
 ```csharp
 public Transform mouth
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Transform mouth
 ```csharp
 public OldLady script
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public OldLady script
 ```csharp
 public GameObject[] stackEffect
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public GameObject[] stackEffect
 ```csharp
 public CreatureUnit unit
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,12 +112,16 @@ public CreatureUnit unit
 ```csharp
 public void DisableEffect()
 ```
+#INC
+
 
 ### EffectMake(string)
 
 ```csharp
 public void EffectMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +134,9 @@ public void EffectMake(string src)
 ```csharp
 public void Init(CreatureUnit model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -125,12 +149,16 @@ public void Init(CreatureUnit model)
 ```csharp
 public void SetEffect()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 

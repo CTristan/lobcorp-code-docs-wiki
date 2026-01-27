@@ -12,6 +12,13 @@ canonical_path: /api/Global/UnitBuf/SnowQueenBuf
 public class SnowQueenBuf : UnitBuf
 ```
 
+Old version of [The Snow Queen](/api/Global/Misc/SnowQueen)'s first kiss effect.
+
+Does nothing, but when destroyed sets the agent's maximum HP and SP to what it was when this was originally given. #verify 
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SnowQueenBuf
 
@@ -25,6 +32,8 @@ public class SnowQueenBuf : UnitBuf
 ```csharp
 public SnowQueenBuf(SnowQueen sq)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +48,8 @@ public SnowQueenBuf(SnowQueen sq)
 ```csharp
 private AgentModel _agentModel
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +60,8 @@ private AgentModel _agentModel
 ```csharp
 private SnowQueen _snowQueen
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +72,8 @@ private SnowQueen _snowQueen
 ```csharp
 private readonly int BUF_CONSTANT
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +84,8 @@ private readonly int BUF_CONSTANT
 ```csharp
 private int defaultMaxHp
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +96,8 @@ private int defaultMaxHp
 ```csharp
 private int defaultMaxMental
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,12 +110,17 @@ private int defaultMaxMental
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,3 +133,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

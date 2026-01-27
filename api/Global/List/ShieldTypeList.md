@@ -11,6 +11,8 @@ canonical_path: /api/Global/List/ShieldTypeList
 ```csharp
 public class ShieldTypeList
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ShieldTypeList
@@ -25,6 +27,9 @@ public class ShieldTypeList
 ```csharp
 private ShieldTypeList()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ private ShieldTypeList()
 ```csharp
 private Dictionary<int, ShieldTypeInfo> _dic
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private Dictionary<int, ShieldTypeInfo> _dic
 ```csharp
 private static ShieldTypeList _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private static ShieldTypeList _instance
 ```csharp
 private List<ShieldTypeInfo> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private List<ShieldTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ public bool loaded { get; }
 ```csharp
 public ShieldTypeInfo GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +128,8 @@ public ShieldTypeInfo GetData(int id)
 ```csharp
 public ReadOnlyCollection<ShieldTypeInfo> GetList()
 ```
+#INC
+
 
 #### Returns
 
@@ -123,6 +140,8 @@ public ReadOnlyCollection<ShieldTypeInfo> GetList()
 ```csharp
 public void Init(ReadOnlyCollection<ShieldTypeInfo> list)
 ```
+#INC
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Tutorial/AgentMoveEndTutorial
 public class AgentMoveEndTutorial : Tutorial
 ```
 
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → AgentMoveEndTutorial
 
@@ -33,6 +36,8 @@ public AgentMoveEndTutorial()
 ```csharp
 private List<AgentModel> agents
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private List<AgentModel> agents
 ```csharp
 private bool arrived
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private bool arrived
 ```csharp
 private PassageObjectModel targetPassage
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private PassageObjectModel targetPassage
 ```csharp
 public SefiraEnum TargetSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public SefiraEnum TargetSefira
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,9 +98,14 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

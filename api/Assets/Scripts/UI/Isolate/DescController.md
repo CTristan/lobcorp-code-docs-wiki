@@ -11,6 +11,10 @@ canonical_path: /api/Assets/Scripts/UI/Isolate/DescController
 ```csharp
 public class DescController
 ```
+Controller for one side of the containment unit, for displaying [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription)s.
+
+See also [IsolateDescManager](/api/Global/Misc/IsolateDescManager).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DescController
@@ -33,6 +37,8 @@ public DescController()
 ```csharp
 private IsolateDescController ctrl
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private IsolateDescController ctrl
 ```csharp
 public List<IsolateDescription> descList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public List<IsolateDescription> descList
 ```csharp
 private List<IsolateDescription> disabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private List<IsolateDescription> disabled
 ```csharp
 private List<IsolateDescription> enabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private List<IsolateDescription> enabled
 ```csharp
 public int maxmimumFont
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public int maxmimumFont
 ```csharp
 public int minimumFont
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public int minimumFont
 ```csharp
 public float minimumSpacing
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public float minimumSpacing
 ```csharp
 public RectTransform pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +147,8 @@ public bool IsAvailable { get; }
 ```csharp
 public void Init(IsolateDescController ctrl)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,6 +161,8 @@ public void Init(IsolateDescController ctrl)
 ```csharp
 public void OnDisplay(string str, int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,6 +176,8 @@ public void OnDisplay(string str, int id)
 ```csharp
 public void OnDisplayEnd(IsolateDescription i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,3 +190,6 @@ public void OnDisplayEnd(IsolateDescription i)
 ```csharp
 public void Terminal()
 ```
+#INC
+#code-generated
+

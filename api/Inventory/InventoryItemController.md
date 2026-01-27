@@ -11,6 +11,10 @@ canonical_path: /api/Inventory/InventoryItemController
 ```csharp
 public class InventoryItemController : MonoBehaviour
 ```
+The UI that shows the list of EGO Weapons or Suits on the [E.G.O List screen](/api/Inventory/InventoryUI).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → InventoryItemController
@@ -33,6 +37,8 @@ public InventoryItemController()
 ```csharp
 private const string _armorSlot = "UIComponent/Inventory/EquipmentSlot_Armor"
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private const string _armorSlot = "UIComponent/Inventory/EquipmentSlot_Armor"
 ```csharp
 private int _currentDetail
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private int _currentDetail
 ```csharp
 private InventoryItemType _currentWeaponType
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private InventoryItemType _currentWeaponType
 ```csharp
 private const string _weaponSlot = "UIComponent/Inventory/EquipmentSlot_Weapon"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const string _weaponSlot = "UIComponent/Inventory/EquipmentSlot_Weapon"
 ```csharp
 public Button ArmorButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public Button ArmorButton
 ```csharp
 public RectTransform ArmorControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public RectTransform ArmorControl
 ```csharp
 private Dictionary<long, InventoryArmorSlot> armorDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ private Dictionary<long, InventoryArmorSlot> armorDic
 ```csharp
 public RectTransform ArmorListParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +133,8 @@ public RectTransform ArmorListParent
 ```csharp
 public ScrollRect ArmorScroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +145,8 @@ public ScrollRect ArmorScroll
 ```csharp
 private List<InventorySlot> CurrentDisplayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +179,8 @@ public Color[] gradeColor
 ```csharp
 public GameObject MiddleActive
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +191,8 @@ public GameObject MiddleActive
 ```csharp
 public InventoryRankButton[] rankButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +203,8 @@ public InventoryRankButton[] rankButton
 ```csharp
 private int selectedLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +215,8 @@ private int selectedLevel
 ```csharp
 private Dictionary<int, InventorySlot> slotDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -206,6 +238,8 @@ public Button[] sortButton
 ```csharp
 public Text Tooltip_Middle
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,6 +250,8 @@ public Text Tooltip_Middle
 ```csharp
 public RectTransform ToolTipControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -226,6 +262,8 @@ public RectTransform ToolTipControl
 ```csharp
 public Text TooltipDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -236,6 +274,8 @@ public Text TooltipDesc
 ```csharp
 public RectTransform tooltipRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -246,6 +286,8 @@ public RectTransform tooltipRect
 ```csharp
 public Text TooltipTitle_ItemName
 ```
+#INC
+
 
 #### Field Value
 
@@ -256,6 +298,8 @@ public Text TooltipTitle_ItemName
 ```csharp
 public Button WeaponButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -266,6 +310,8 @@ public Button WeaponButton
 ```csharp
 public RectTransform WeaponControl
 ```
+#INC
+
 
 #### Field Value
 
@@ -276,6 +322,8 @@ public RectTransform WeaponControl
 ```csharp
 private Dictionary<long, InventoryWeaponSlot> weaponDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -286,6 +334,8 @@ private Dictionary<long, InventoryWeaponSlot> weaponDic
 ```csharp
 public RectTransform WeaponListParent
 ```
+#INC
+
 
 #### Field Value
 
@@ -296,6 +346,8 @@ public RectTransform WeaponListParent
 ```csharp
 public ScrollRect WeaponScroll
 ```
+#INC
+
 
 #### Field Value
 
@@ -320,12 +372,17 @@ public Color NormalEquip { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CheckAgentContains(AgentModel, Color)
 
 ```csharp
 public void CheckAgentContains(AgentModel target, Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -339,18 +396,24 @@ public void CheckAgentContains(AgentModel target, Color c)
 ```csharp
 private void ClearButtonRankColor()
 ```
+#INC
+
 
 ### CloseTooltip()
 
 ```csharp
 public void CloseTooltip()
 ```
+#INC
+
 
 ### ForcelyRelaseEquipment(EquipmentModel, AgentModel)
 
 ```csharp
 public void ForcelyRelaseEquipment(EquipmentModel equipment, AgentModel owner)
 ```
+#INC
+
 
 #### Parameters
 
@@ -364,6 +427,8 @@ public void ForcelyRelaseEquipment(EquipmentModel equipment, AgentModel owner)
 ```csharp
 private RiskLevel GetRiskLevel(InventorySlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -380,6 +445,8 @@ private RiskLevel GetRiskLevel(InventorySlot slot)
 ```csharp
 public int GetSelectedIndex()
 ```
+#INC
+
 
 #### Returns
 
@@ -390,6 +457,8 @@ public int GetSelectedIndex()
 ```csharp
 public bool GetSlot(EquipmentModel equipment, out InventorySlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -407,6 +476,8 @@ public bool GetSlot(EquipmentModel equipment, out InventorySlot slot)
 ```csharp
 public bool GetSlot(EquipmentTypeInfo info, out InventorySlot slot)
 ```
+#INC
+
 
 #### Parameters
 
@@ -424,12 +495,16 @@ public bool GetSlot(EquipmentTypeInfo info, out InventorySlot slot)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### IsSelectedRank()
 
 ```csharp
 public bool IsSelectedRank()
 ```
+#INC
+
 
 #### Returns
 
@@ -440,6 +515,8 @@ public bool IsSelectedRank()
 ```csharp
 public void OnClickButton(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -452,6 +529,8 @@ public void OnClickButton(int index)
 ```csharp
 public void OnClickDetailInfo(EquipmentModel equipment)
 ```
+#INC
+
 
 #### Parameters
 
@@ -464,6 +543,8 @@ public void OnClickDetailInfo(EquipmentModel equipment)
 ```csharp
 public void OnClickDetailInfo(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 
@@ -476,6 +557,8 @@ public void OnClickDetailInfo(EquipmentTypeInfo info)
 ```csharp
 public void OnClickSort(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -488,6 +571,8 @@ public void OnClickSort(int i)
 ```csharp
 public void OnClickSort(int i, bool changedType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -501,6 +586,8 @@ public void OnClickSort(int i, bool changedType)
 ```csharp
 public void OnEquipAction(AgentModel agent, EquipmentModel equipment)
 ```
+#INC
+
 
 #### Parameters
 
@@ -514,6 +601,8 @@ public void OnEquipAction(AgentModel agent, EquipmentModel equipment)
 ```csharp
 public void OnEquipAction(EquipmentModel equipment)
 ```
+#INC
+
 
 #### Parameters
 
@@ -526,6 +615,8 @@ public void OnEquipAction(EquipmentModel equipment)
 ```csharp
 public void OnEquipAction(EquipmentModel equipment, AgentModel agent = null)
 ```
+#INC
+
 
 #### Parameters
 
@@ -539,12 +630,16 @@ public void OnEquipAction(EquipmentModel equipment, AgentModel agent = null)
 ```csharp
 private void SetButtonRankColor()
 ```
+#INC
+
 
 ### SetGradeText(int, Text)
 
 ```csharp
 public void SetGradeText(int grade, Text target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -558,6 +653,8 @@ public void SetGradeText(int grade, Text target)
 ```csharp
 public static void SetGradeText(RiskLevel level, Text target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -571,12 +668,16 @@ public static void SetGradeText(RiskLevel level, Text target)
 ```csharp
 public void SetList()
 ```
+#INC
+
 
 ### SortList(List<InventorySlot>)
 
 ```csharp
 private void SortList(List<InventorySlot> sorted)
 ```
+#INC
+
 
 #### Parameters
 
@@ -589,3 +690,5 @@ private void SortList(List<InventorySlot> sorted)
 ```csharp
 public void TooltipPosSet()
 ```
+#INC
+

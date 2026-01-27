@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BugDuskAnim
 public class BugDuskAnim : CreatureAnimScript
 ```
 
+Animation handler for [The Food Chain](/api/Global/Misc/BugDusk).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BugDuskAnim
 
@@ -33,6 +36,8 @@ public BugDuskAnim()
 ```csharp
 private BugDusk.AnimationState _currentState
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BugDusk.AnimationState _currentState
 ```csharp
 private Vector3 _defaultPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Vector3 _defaultPosition
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float _elapsedTime
 ```csharp
 private int _spawnCounter
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private int _spawnCounter
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public static string[] animString
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public GameObject center
 ```csharp
 private SoundEffectPlayer defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private SoundEffectPlayer defaultSound
 ```csharp
 public const string effect_src = "Effect/Creature/BugDusk/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public const string effect_src = "Effect/Creature/BugDusk/"
 ```csharp
 private BugDusk script
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private BugDusk script
 ```csharp
 public const string sound_src = "creature/BugDusk/BugDusk_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public const string sound_src = "creature/BugDusk/BugDusk_"
 ```csharp
 public static string[] soundString
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public static string[] soundString
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public AudioSource src
 ```csharp
 public static float[] volume
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,18 +206,25 @@ public static float[] volume
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -199,6 +237,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public BugDusk.AnimationState CurrentState()
 ```
+#INC
+
 
 #### Returns
 
@@ -222,12 +262,16 @@ public void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -238,6 +282,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsSpawning()
 ```
+#INC
+
 
 #### Returns
 
@@ -261,12 +307,16 @@ public void MakeSound(string src, float volume = 1)
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAnimation(AnimationState)
 
 ```csharp
 public void SetAnimation(BugDusk.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -279,6 +329,8 @@ public void SetAnimation(BugDusk.AnimationState animState)
 ```csharp
 public void SetAnimation(string state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -291,6 +343,8 @@ public void SetAnimation(string state)
 ```csharp
 public void SetAnimation(string state, bool loop)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,6 +358,8 @@ public void SetAnimation(string state, bool loop)
 ```csharp
 public void SetScript(BugDusk script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -316,6 +372,8 @@ public void SetScript(BugDusk script)
 ```csharp
 public void StartEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 

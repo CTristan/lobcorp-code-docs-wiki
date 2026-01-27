@@ -12,6 +12,11 @@ canonical_path: /api/GeburahBoss/FourthPhase
 public class FourthPhase : GeburahPhaseExectuion
 ```
 
+[The Red Mist](/api/Global/Script/GeburahCoreScript)'s fourth phase.
+
+Sets attack probabilities and queues actions for this phase. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahPhaseExectuion](/api/GeburahBoss/GeburahPhaseExectuion) → FourthPhase
 
@@ -25,6 +30,8 @@ public class FourthPhase : GeburahPhaseExectuion
 ```csharp
 public FourthPhase(GeburahCoreScript geburah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +46,8 @@ public FourthPhase(GeburahCoreScript geburah)
 ```csharp
 private float defaultAttackProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +58,8 @@ private float defaultAttackProb
 ```csharp
 private float greedy
 ```
+#INC
+
 
 #### Field Value
 
@@ -59,6 +70,8 @@ private float greedy
 ```csharp
 private float idleChase
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +82,8 @@ private float idleChase
 ```csharp
 private float moveProb
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +94,8 @@ private float moveProb
 ```csharp
 private float p4Speed
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,12 +108,16 @@ private float p4Speed
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### GetNextAction(List<UnitModel>)
 
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,3 +134,6 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void Update()
 ```
+#INC
+#code-generated
+

@@ -51,21 +51,30 @@ public List<TextLanguageExchangeScript.LanguageData> list
 ```csharp
 public void OnLanguageChanged()
 ```
+#INC
+
 
 ### SetText()
 
 ```csharp
 private void SetText()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,9 @@ canonical_path: /api/Legacy/DeathAngelApostle
 public class DeathAngelApostle : ISerializablePlayData
 ```
 
+Parent class for apostles for [WhiteNight](/api/Legacy/DeathAngel)'s advent.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DeathAngelApostle
 

@@ -11,6 +11,10 @@ canonical_path: /api/Global/Model/ResearchItemModel
 ```csharp
 public class ResearchItemModel
 ```
+A research.
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchItemModel
@@ -33,6 +37,8 @@ public ResearchItemModel()
 ```csharp
 public int curLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public int curLevel
 ```csharp
 public ResearchItemTypeInfo info
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,6 +63,8 @@ public ResearchItemTypeInfo info
 ```csharp
 public static int CompareById(ResearchItemModel a, ResearchItemModel b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -72,6 +82,8 @@ public static int CompareById(ResearchItemModel a, ResearchItemModel b)
 ```csharp
 public ResearchUpgradeInfo GetCurrentUpgradeInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -82,6 +94,8 @@ public ResearchUpgradeInfo GetCurrentUpgradeInfo()
 ```csharp
 public ResearchUpgradeInfo GetNextUpgradeInfo()
 ```
+#INC
+
 
 #### Returns
 
@@ -92,6 +106,9 @@ public ResearchUpgradeInfo GetNextUpgradeInfo()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -102,6 +119,8 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 

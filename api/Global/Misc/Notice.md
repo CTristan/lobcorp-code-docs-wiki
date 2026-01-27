@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/Notice
 ```csharp
 public class Notice
 ```
+Class for registering, de-registering, and notifying [observers](/api/Global/Misc/IObserver) of various kinds.
+
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Notice
@@ -25,6 +28,9 @@ public class Notice
 ```csharp
 private Notice()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +39,8 @@ private Notice()
 ```csharp
 private static Notice _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private static Notice _instance
 ```csharp
 private int lastNoticeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private int lastNoticeId
 ```csharp
 private Dictionary<string, List<IObserver>> noticeList
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +89,8 @@ public static Notice instance { get; }
 ```csharp
 public void Observe(string notice, IObserver observer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -90,6 +104,8 @@ public void Observe(string notice, IObserver observer)
 ```csharp
 public int Observe(string notice, NoticeReciever observer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -107,6 +123,8 @@ public int Observe(string notice, NoticeReciever observer)
 ```csharp
 public void Remove(string notice, int noticeId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -120,6 +138,8 @@ public void Remove(string notice, int noticeId)
 ```csharp
 public void Remove(string notice, IObserver observer)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,6 +153,8 @@ public void Remove(string notice, IObserver observer)
 ```csharp
 public void Send(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

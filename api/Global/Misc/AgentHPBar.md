@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/AgentHPBar
 ```csharp
 public class AgentHPBar : MonoBehaviour
 ```
+~~Holds and renders the agent's HP, probably for UI?~~
+
+UNUSED!!!
+
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AgentHPBar
@@ -33,6 +39,8 @@ public AgentHPBar()
 ```csharp
 public Sprite barBackground
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public Sprite barBackground
 ```csharp
 private GameObject[] barList
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private GameObject[] barList
 ```csharp
 public Sprite barSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ public Sprite barSprite
 ```csharp
 private int maxHP
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,6 +89,8 @@ private int maxHP
 ```csharp
 public void SetCurrentHP(int hp)
 ```
+#INC
+
 
 #### Parameters
 
@@ -87,6 +103,8 @@ public void SetCurrentHP(int hp)
 ```csharp
 public void SetMaxHP(int maxHP)
 ```
+#INC
+
 
 #### Parameters
 
@@ -99,3 +117,6 @@ public void SetMaxHP(int maxHP)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

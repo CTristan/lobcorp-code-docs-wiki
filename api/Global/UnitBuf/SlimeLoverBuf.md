@@ -12,6 +12,15 @@ canonical_path: /api/Global/UnitBuf/SlimeLoverBuf
 public class SlimeLoverBuf : UnitBuf
 ```
 
+Buff marking an employee as [Melting Love](/api/Global/Misc/SlimeGirl)'s favorite.
+
+Infects other employees in the same room every 10 seconds at a 25% chance each, unless paused due to successful work with Melting Love. Infecting gives them the [SlimePawnBuf](/api/Global/UnitBuf/SlimePawnBuf).
+
+Restores 30 SP every 15 seconds #verify .
+
+If this employee dies, depletes Melting Love's Qliphoth counter #verify .
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SlimeLoverBuf
 
@@ -25,6 +34,8 @@ public class SlimeLoverBuf : UnitBuf
 ```csharp
 public SlimeLoverBuf(WorkerModel worker, SlimeGirl script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -40,6 +51,8 @@ public SlimeLoverBuf(WorkerModel worker, SlimeGirl script)
 ```csharp
 private const float _mentalHealMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -50,6 +63,8 @@ private const float _mentalHealMax = 30
 ```csharp
 private const float _mentalHealMin = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -60,6 +75,8 @@ private const float _mentalHealMin = 30
 ```csharp
 private const float INFEST_PAUSE_TIME = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +87,8 @@ private const float INFEST_PAUSE_TIME = 30
 ```csharp
 private const float INFEST_PROB = 0.25
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +99,8 @@ private const float INFEST_PROB = 0.25
 ```csharp
 private const float INFEST_TIME = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -90,6 +111,8 @@ private const float INFEST_TIME = 10
 ```csharp
 private Timer infestPauseTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +123,8 @@ private Timer infestPauseTimer
 ```csharp
 private Timer infestTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +135,8 @@ private Timer infestTimer
 ```csharp
 private const float MENTAL_HEAL_TIME = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +147,8 @@ private const float MENTAL_HEAL_TIME = 15
 ```csharp
 private Timer mentalHealTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -130,6 +159,8 @@ private Timer mentalHealTimer
 ```csharp
 private SlimeGirl script
 ```
+#INC
+
 
 #### Field Value
 
@@ -140,6 +171,8 @@ private SlimeGirl script
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -164,18 +197,24 @@ private static float MentalHealValue { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Infest()
 
 ```csharp
 private void Infest()
 ```
+#INC
+
 
 ### Infest(WorkerModel)
 
 ```csharp
 private void Infest(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -188,21 +227,30 @@ private void Infest(WorkerModel target)
 ```csharp
 private void MentalHeal()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+
 
 ### OnSuccessWork()
 
 ```csharp
 public void OnSuccessWork()
 ```
+#INC
+
 
 ### OnUnitDie()
 
 ```csharp
 public override void OnUnitDie()
 ```
+#INC
+#code-generated
+

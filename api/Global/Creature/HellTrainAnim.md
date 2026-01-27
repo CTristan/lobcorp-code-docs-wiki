@@ -12,6 +12,10 @@ canonical_path: /api/Global/Creature/HellTrainAnim
 public class HellTrainAnim : CreatureAnimScript
 ```
 
+Animation handler for [Express Train to Hell](/api/Global/Misc/HellTrain).
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → HellTrainAnim
 
@@ -33,6 +37,8 @@ public HellTrainAnim()
 ```csharp
 private Object _lampEffectPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private Object _lampEffectPrefab
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ private SpineOptimizerModule _module
 ```csharp
 private HellTrain _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ private HellTrain _script
 ```csharp
 private const string _SOUND_SRC = "creature/HellTrain/Train_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ private const string _SOUND_SRC = "creature/HellTrain/Train_"
 ```csharp
 private GameObject _trainObj
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ private GameObject _trainObj
 ```csharp
 private Object _trainPrefab
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ private Object _trainPrefab
 ```csharp
 public HellTrainAnimEventHandler animHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -125,6 +143,8 @@ public string[] lampAttach
 ```csharp
 public SkeletonAnimator skelAnimator
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,18 +157,25 @@ public SkeletonAnimator skelAnimator
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GiveTicket()
 
 ```csharp
 public void GiveTicket()
 ```
+#INC
+
 
 ### IsTrainExisting()
 
 ```csharp
 public bool IsTrainExisting()
 ```
+#INC
+
 
 #### Returns
 
@@ -159,12 +186,16 @@ public bool IsTrainExisting()
 ```csharp
 public void MakeTrain()
 ```
+#INC
+
 
 ### SetScript(HellTrain)
 
 ```csharp
 public void SetScript(HellTrain s)
 ```
+#INC
+
 
 #### Parameters
 
@@ -177,12 +208,16 @@ public void SetScript(HellTrain s)
 ```csharp
 private void TicketEvent()
 ```
+#INC
+
 
 ### TurnOffLamp(int)
 
 ```csharp
 public void TurnOffLamp(int count)
 ```
+#INC
+
 
 #### Parameters
 
@@ -195,6 +230,8 @@ public void TurnOffLamp(int count)
 ```csharp
 public void TurnOnLamp(int idx)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,3 +244,5 @@ public void TurnOnLamp(int idx)
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,10 @@ canonical_path: /api/Manual/NodeCategory
 public class NodeCategory : Category
 ```
 
+uh..
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Category](/api/Manual/Category) → NodeCategory
 
@@ -25,6 +29,8 @@ public class NodeCategory : Category
 ```csharp
 public NodeCategory(string id, int index, string spriteId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +45,8 @@ public NodeCategory(string id, int index, string spriteId)
 ```csharp
 public NodeCategory(string id, string spriteId)
 ```
+#INC
+
 
 #### Parameters
 
@@ -54,6 +62,8 @@ public NodeCategory(string id, string spriteId)
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +74,8 @@ public int index
 ```csharp
 public const string localizeTextFormat = "Manual_Node_{0}"
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +86,8 @@ public const string localizeTextFormat = "Manual_Node_{0}"
 ```csharp
 public string spriteId
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +98,8 @@ public string spriteId
 ```csharp
 public NodeTextInfo textInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,3 +112,6 @@ public NodeTextInfo textInfo
 ```csharp
 public override void LoadText()
 ```
+#INC
+#code-generated
+

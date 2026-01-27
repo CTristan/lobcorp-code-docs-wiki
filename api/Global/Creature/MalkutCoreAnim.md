@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/MalkutCoreAnim
 public class MalkutCoreAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Malkuth during her core suppression](/api/Global/Script/MalkutCoreScript).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → MalkutCoreAnim
 
@@ -36,6 +41,8 @@ public MalkutCoreAnim()
 ```csharp
 public AnimationCurve destroyCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public AnimationCurve destroyCurve
 ```csharp
 public Transform middlePivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public Transform middlePivot
 ```csharp
 private MalkutCoreScript script
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ private MalkutCoreScript script
 ```csharp
 public float startEffectTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public float startEffectTime
 ```csharp
 public AnimationCurve startPsychoCurve
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,18 +115,25 @@ private UnscaledTimer closeTimer { get; }
 ```csharp
 public void OnChange()
 ```
+#INC
+
 
 ### OnClear()
 
 ```csharp
 public void OnClear()
 ```
+#INC
+
 
 ### SetScript(MalkutCoreScript)
 
 ```csharp
 public void SetScript(MalkutCoreScript script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -124,3 +146,5 @@ public void SetScript(MalkutCoreScript script)
 ```csharp
 public void Update()
 ```
+#INC
+

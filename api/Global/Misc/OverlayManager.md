@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/OverlayManager
 public class OverlayManager : MonoBehaviour
 ```
 
+Handles overlays, the places the mouse can hover over and click on.
+
+#verify
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → OverlayManager
 
@@ -44,6 +49,8 @@ public Canvas _canvas
 ```csharp
 public Text _debugText
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +61,8 @@ public Text _debugText
 ```csharp
 private Vector3 _enableInitial
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ private Vector3 _enableInitial
 ```csharp
 private static OverlayManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +85,8 @@ private static OverlayManager _instance
 ```csharp
 private bool _isEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -84,6 +97,8 @@ private bool _isEnabled
 ```csharp
 private bool _sizeUpdate
 ```
+#INC
+
 
 #### Field Value
 
@@ -94,6 +109,8 @@ private bool _sizeUpdate
 ```csharp
 private RectTransform _textRect
 ```
+#INC
+
 
 #### Field Value
 
@@ -104,6 +121,8 @@ private RectTransform _textRect
 ```csharp
 public Vector2 canvasScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -114,6 +133,8 @@ public Vector2 canvasScale
 ```csharp
 public float EnableDelay
 ```
+#INC
+
 
 #### Field Value
 
@@ -124,6 +145,8 @@ public float EnableDelay
 ```csharp
 public float HorizontalSpace
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,6 +168,8 @@ public float MaxWidth
 ```csharp
 public Vector2 MouseRelative
 ```
+#INC
+
 
 #### Field Value
 
@@ -155,6 +180,8 @@ public Vector2 MouseRelative
 ```csharp
 public RectTransform OverlayBox
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,6 +192,8 @@ public RectTransform OverlayBox
 ```csharp
 public Text OverlayText
 ```
+#INC
+
 
 #### Field Value
 
@@ -175,6 +204,8 @@ public Text OverlayText
 ```csharp
 public RectTransform Pivot
 ```
+#INC
+
 
 #### Field Value
 
@@ -185,6 +216,8 @@ public RectTransform Pivot
 ```csharp
 public string prev
 ```
+#INC
+
 
 #### Field Value
 
@@ -195,6 +228,8 @@ public string prev
 ```csharp
 private const float scaleFactor = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -205,6 +240,8 @@ private const float scaleFactor = 2
 ```csharp
 private const float scaleFactorInv = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -215,6 +252,8 @@ private const float scaleFactorInv = 0.5
 ```csharp
 public float VerticalSpace
 ```
+#INC
+
 
 #### Field Value
 
@@ -279,36 +318,49 @@ private int Width { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ClearOverlay()
 
 ```csharp
 public void ClearOverlay()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### ReadState()
 
 ```csharp
 public void ReadState()
 ```
+#INC
+
 
 ### SaveState()
 
 ```csharp
 public void SaveState()
 ```
+#INC
+
 
 ### SetPosition(bool)
 
 ```csharp
 public void SetPosition(bool initial = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,6 +373,8 @@ public void SetPosition(bool initial = false)
 ```csharp
 public void SetPosition(Camera camera, bool initial = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -334,6 +388,8 @@ public void SetPosition(Camera camera, bool initial = false)
 ```csharp
 public void SetText(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -346,15 +402,21 @@ public void SetText(string text)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+
 
 ### UpdateSize()
 
 ```csharp
 public void UpdateSize()
 ```
+#INC
+

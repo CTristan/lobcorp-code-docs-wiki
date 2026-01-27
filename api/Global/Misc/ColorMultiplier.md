@@ -36,6 +36,8 @@ public ColorMultiplier()
 ```csharp
 private Color _origin
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private Color _origin
 ```csharp
 public float ColorFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,6 +74,9 @@ public MaskableGraphic targetGraphic { get; }
 ```csharp
 public void Init(Color origin)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -82,6 +89,8 @@ public void Init(Color origin)
 ```csharp
 public void SetColorFactor(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -94,3 +103,5 @@ public void SetColorFactor(float value)
 ```csharp
 public void Update()
 ```
+#INC
+

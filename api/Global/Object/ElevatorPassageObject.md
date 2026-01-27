@@ -11,6 +11,10 @@ canonical_path: /api/Global/Object/ElevatorPassageObject
 ```csharp
 public class ElevatorPassageObject : MonoBehaviour
 ```
+An elevator room.
+
+See [ElevatorPassageModel](/api/Global/Model/ElevatorPassageModel) for most of the relevant code.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ElevatorPassageObject
@@ -33,6 +37,8 @@ public ElevatorPassageObject()
 ```csharp
 public float bottom
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public float bottom
 ```csharp
 public ElevatorObject elevator
 ```
+#INC
+
 
 #### Field Value
 
@@ -64,6 +72,8 @@ public ElevatorPassageModel model
 ```csharp
 public bool shouldSefiraCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -74,6 +84,8 @@ public bool shouldSefiraCheck
 ```csharp
 public float top
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,12 +98,16 @@ public float top
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### Init(ElevatorPassageModel, PassageObject)
 
 ```csharp
 public void Init(ElevatorPassageModel model, PassageObject passageObj)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,9 +121,14 @@ public void Init(ElevatorPassageModel model, PassageObject passageObj)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

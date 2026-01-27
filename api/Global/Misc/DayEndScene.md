@@ -12,6 +12,12 @@ canonical_path: /api/Global/Misc/DayEndScene
 public class DayEndScene : LoadingScene
 ```
 
+Scene loaded once the day is over and the stage is exited via the [results screen](/api/Global/IANimatorEventCalled/ResultScreen).
+
+Proceeds to Story.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [LoadingScene](/api/Global/Misc/LoadingScene) → DayEndScene
 
@@ -33,6 +39,8 @@ public DayEndScene()
 ```csharp
 private int currentIndex
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ private int currentIndex
 ```csharp
 private int framePerAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ private int framePerAnim
 ```csharp
 private int framePerCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +75,8 @@ private int framePerCount
 ```csharp
 private bool isAnimating
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +99,8 @@ public DayEndScene.TextObject[] texts
 ```csharp
 private IEnumerator Animate()
 ```
+#INC
+
 
 #### Returns
 
@@ -95,9 +111,14 @@ private IEnumerator Animate()
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

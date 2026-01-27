@@ -11,6 +11,8 @@ canonical_path: /api/Manual/Category
 ```csharp
 public class Category
 ```
+Sections on the left of the manual?
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Category
@@ -28,6 +30,9 @@ public class Category
 ```csharp
 public Category(string id)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public Category(string id)
 ```csharp
 public string id
 ```
+#INC
+
 
 #### Field Value
 
@@ -52,6 +59,8 @@ public string id
 ```csharp
 public Category next
 ```
+#INC
+
 
 #### Field Value
 
@@ -62,6 +71,8 @@ public Category next
 ```csharp
 public Category parent
 ```
+#INC
+
 
 #### Field Value
 
@@ -72,6 +83,8 @@ public Category parent
 ```csharp
 public Category prev
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +95,8 @@ public Category prev
 ```csharp
 protected string title
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,9 +121,13 @@ public virtual string Title { get; }
 ```csharp
 public virtual void LoadText()
 ```
+#INC
+
 
 ### Reload()
 
 ```csharp
 public void Reload()
 ```
+#INC
+

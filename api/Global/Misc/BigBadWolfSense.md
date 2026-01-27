@@ -36,6 +36,8 @@ public BigBadWolfSense()
 ```csharp
 private bool _enabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private bool _enabled
 ```csharp
 public List<Collider2D> entered
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ public List<Collider2D> entered
 ```csharp
 public BigBadWolfAnim script
 ```
+#INC
+
 
 #### Field Value
 
@@ -80,6 +86,8 @@ public CircleCollider2D Collider { get; }
 ```csharp
 public UnitModel ExtractUnit(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,6 +120,8 @@ public List<UnitModel> GetEnteredUnit(params BigBadWolfSense.UnitType[] types)
 ```csharp
 public float GetRadius()
 ```
+#INC
+
 
 #### Returns
 
@@ -122,12 +132,16 @@ public float GetRadius()
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnTriggerEnter2D(Collider2D)
 
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -140,6 +154,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 public void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -152,6 +168,8 @@ public void OnTriggerExit2D(Collider2D collision)
 ```csharp
 public void SetActive(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -164,6 +182,8 @@ public void SetActive(bool state)
 ```csharp
 public void SetRadius(float radius)
 ```
+#INC
+
 
 #### Parameters
 
@@ -176,3 +196,6 @@ public void SetRadius(float radius)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+

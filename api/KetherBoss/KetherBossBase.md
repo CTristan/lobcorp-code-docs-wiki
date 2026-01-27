@@ -11,6 +11,8 @@ canonical_path: /api/KetherBoss/KetherBossBase
 ```csharp
 public class KetherBossBase : SefiraBossBase
 ```
+Parent class for day 46-50 suppressions
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [SefiraBossBase](/api/Global/Misc/SefiraBossBase) → KetherBossBase
@@ -36,6 +38,8 @@ public KetherBossBase()
 ```csharp
 protected int _currentQliphothLevel
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +50,8 @@ protected int _currentQliphothLevel
 ```csharp
 public List<SefiraBossBase> bossBaseList
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +62,8 @@ public List<SefiraBossBase> bossBaseList
 ```csharp
 protected StringBuilder builder
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +74,8 @@ protected StringBuilder builder
 ```csharp
 public const float ModelHPFactor = 0.6
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +86,8 @@ public const float ModelHPFactor = 0.6
 ```csharp
 public KetherBossType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,18 +112,24 @@ public override int QliphothOverloadLevel { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### OnCleared()
 
 ```csharp
 public override void OnCleared()
 ```
+#INC
+
 
 ### OnOverloadActivated(int)
 
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -124,12 +142,16 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### StringFormat(string, params object[])
 
 ```csharp
 public string StringFormat(string format, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -147,3 +169,5 @@ public string StringFormat(string format, params object[] param)
 ```csharp
 public override void Update()
 ```
+#INC
+

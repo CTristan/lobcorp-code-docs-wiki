@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/ArmorCreatureAnim
 public class ArmorCreatureAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Presumably, the animations for [Crumbling Armor](/api/Global/IOBserver/ArmorCreature)...
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → ArmorCreatureAnim
 
@@ -36,6 +39,8 @@ public ArmorCreatureAnim()
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private SpineOptimizerModule _module
 ```csharp
 private CreatureModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,12 +65,17 @@ private CreatureModel model
 ```csharp
 public void KillMotion()
 ```
+#INC
+
 
 ### SetModel(CreatureModel)
 
 ```csharp
 public void SetModel(CreatureModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -76,3 +88,5 @@ public void SetModel(CreatureModel model)
 ```csharp
 private void Update()
 ```
+#INC
+

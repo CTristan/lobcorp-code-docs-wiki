@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SlideDoor
 public class SlideDoor : MonoBehaviour
 ```
 
+Script for a slide door.
+
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SlideDoor
 
@@ -33,6 +38,8 @@ public SlideDoor()
 ```csharp
 public ElevatorMover elevatorState
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public ElevatorMover elevatorState
 ```csharp
 public Rigidbody2D leftDoor
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Rigidbody2D leftDoor
 ```csharp
 public static bool leftDoorClose
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public static bool leftDoorClose
 ```csharp
 public bool leftDoorOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ public bool leftDoorOpen
 ```csharp
 public bool onceCheck
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public bool onceCheck
 ```csharp
 public static bool onceCheckGround
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ public static bool onceCheckGround
 ```csharp
 public OpenLeftDoor openLeftFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ public OpenLeftDoor openLeftFlag
 ```csharp
 public OpenRightDoor openRightFlag
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ public OpenRightDoor openRightFlag
 ```csharp
 public PlayerController playerBody
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ public PlayerController playerBody
 ```csharp
 public Rigidbody2D rightDoor
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ public Rigidbody2D rightDoor
 ```csharp
 public bool rightDoorOpen
 ```
+#INC
+
 
 #### Field Value
 
@@ -145,18 +172,25 @@ public bool rightDoorOpen
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### OnCollisionEnter2D(Collision2D)
 
 ```csharp
 private void OnCollisionEnter2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -169,6 +203,8 @@ private void OnCollisionEnter2D(Collision2D col)
 ```csharp
 private void OnCollisionExit2D(Collision2D col)
 ```
+#INC
+
 
 #### Parameters
 
@@ -181,6 +217,8 @@ private void OnCollisionExit2D(Collision2D col)
 ```csharp
 private void OnTriggerEnter2D(Collider2D coll)
 ```
+#INC
+
 
 #### Parameters
 

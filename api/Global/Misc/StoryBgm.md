@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StoryBgm
 public class StoryBgm : MonoBehaviour
 ```
 
+Manages the background music for the story.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryBgm
 
@@ -33,6 +38,8 @@ public StoryBgm()
 ```csharp
 private static StoryBgm _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private static StoryBgm _instance
 ```csharp
 private AudioSource audioSource
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private AudioSource audioSource
 ```csharp
 public const string bgmPath = "Sounds/BGM/"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public const string bgmPath = "Sounds/BGM/"
 ```csharp
 private float bgmVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private float bgmVolume
 ```csharp
 private float currentVolume
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private float currentVolume
 ```csharp
 private Timer fadeInTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,18 +124,25 @@ public static StoryBgm instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### GetVolume()
 
 ```csharp
 public float GetVolume()
 ```
+#INC
+
 
 #### Returns
 
@@ -129,6 +153,8 @@ public float GetVolume()
 ```csharp
 private void OnDestroy()
 ```
+#INC
+
 
 ### PlayClip(AudioClip, float)
 
@@ -148,6 +174,8 @@ public void PlayClip(AudioClip clip, float startTime = 0)
 ```csharp
 public void SetBgmVolume(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +188,8 @@ public void SetBgmVolume(float val)
 ```csharp
 public void SetFadeIn(float time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,6 +202,8 @@ public void SetFadeIn(float time)
 ```csharp
 public void SetMasterVolume(float val)
 ```
+#INC
+
 
 #### Parameters
 
@@ -184,6 +216,8 @@ public void SetMasterVolume(float val)
 ```csharp
 public void SetStoryBgm(string bgm)
 ```
+#INC
+
 
 #### Parameters
 
@@ -208,9 +242,13 @@ public void SetVolume(float value = 1)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### UnloadCurrentAudioClip()
 
 ```csharp
 public void UnloadCurrentAudioClip()
 ```
+#INC
+

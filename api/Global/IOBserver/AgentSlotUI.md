@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/AgentSlotUI
 public class AgentSlotUI : IObserver
 ```
 
+UI element for displaying an agent on the [deployment](/api/Global/UI/DeployUI) screen.
+
+#INC #observer
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentSlotUI
 
@@ -36,6 +41,8 @@ public AgentSlotUI()
 ```csharp
 private AgentModel _currentAgent
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ private AgentModel _currentAgent
 ```csharp
 private Color _normalColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ private Color _normalColor
 ```csharp
 public Text AgentName
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ public Text AgentName
 ```csharp
 public Image Grade
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public Image Grade
 ```csharp
 public Text GradeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public Text GradeText
 ```csharp
 public List<MaskableGraphic> graphics
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public List<MaskableGraphic> graphics
 ```csharp
 public List<MaskableGraphic> inverse
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ public List<MaskableGraphic> inverse
 ```csharp
 public List<MaskableGraphic> normal
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public List<MaskableGraphic> normal
 ```csharp
 private bool observeNotice
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ private bool observeNotice
 ```csharp
 public Outline outline
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ public Outline outline
 ```csharp
 public WorkerPortraitSetter setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ public WorkerPortraitSetter setter
 ```csharp
 public List<MaskableGraphic> standalone
 ```
+#INC
+
 
 #### Field Value
 
@@ -180,12 +209,16 @@ public MaskableGraphic OutLineImage { get; }
 ```csharp
 public void DestroyNotice()
 ```
+#INC
+
 
 ### EquipmentData(AgentModel)
 
 ```csharp
 public void EquipmentData(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 
@@ -198,18 +231,24 @@ public void EquipmentData(AgentModel agent)
 ```csharp
 public void InitNotice()
 ```
+#INC
+
 
 ### InverseColor()
 
 ```csharp
 public void InverseColor()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -223,12 +262,16 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void SetColor()
 ```
+#INC
+
 
 ### SetColor(Color)
 
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -241,6 +284,8 @@ public void SetColor(Color c)
 ```csharp
 public void SetNormalColor(Color normal)
 ```
+#INC
+
 
 #### Parameters
 
@@ -253,6 +298,8 @@ public void SetNormalColor(Color normal)
 ```csharp
 public void SetOutline(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -265,6 +312,8 @@ public void SetOutline(bool state)
 ```csharp
 public void SetPortrait(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -277,6 +326,8 @@ public void SetPortrait(bool state)
 ```csharp
 public void SettingColor(Color normal, Color inverse)
 ```
+#INC
+
 
 #### Parameters
 
@@ -290,6 +341,9 @@ public void SettingColor(Color normal, Color inverse)
 ```csharp
 public void SetUI(AgentModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -302,6 +356,8 @@ public void SetUI(AgentModel agent)
 ```csharp
 public void UpdateData(AgentModel agent)
 ```
+#INC
+
 
 #### Parameters
 

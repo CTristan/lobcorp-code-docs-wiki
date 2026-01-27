@@ -11,6 +11,10 @@ canonical_path: /api/WhiteNightSpace/SlotChangeData
 ```csharp
 public class SlotChangeData
 ```
+Data for changing [Plague Doctor's parts](/api/WhiteNightSpace/ActivateParts) and their [region](/api/WhiteNightSpace/PlagueDocAnimRegion) for coloring
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SlotChangeData
@@ -33,6 +37,8 @@ public SlotChangeData()
 ```csharp
 public Color alterColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +60,9 @@ public Color initialColor
 ```csharp
 public string RegionName
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -64,6 +73,8 @@ public string RegionName
 ```csharp
 public PlagueDocAnimRegion regionType
 ```
+#INC
+
 
 #### Field Value
 

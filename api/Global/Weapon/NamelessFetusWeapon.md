@@ -12,6 +12,15 @@ canonical_path: /api/Global/Weapon/NamelessFetusWeapon
 public class NamelessFetusWeapon : EquipmentScriptBase
 ```
 
+Script for [Nameless Fetus](/api/Global/Misc/NamelessFetus)'s EGO Weapon: Syrinx.
+
+Plays a *GOD-AWFUL* noise when it deals damage. Randomly selects from:
+- Weapons/fetus1
+- Weapons/fetus2
+- Weapons/fetus3
+- Weapons/fetus4
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → NamelessFetusWeapon
 
@@ -33,6 +42,8 @@ public NamelessFetusWeapon()
 ```csharp
 private bool soundInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +54,8 @@ private bool soundInit
 ```csharp
 private const string soundSrc = "Weapons/fetus"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +66,8 @@ private const string soundSrc = "Weapons/fetus"
 ```csharp
 private const int soundSrcCnt = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -82,6 +97,8 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
+#INC
+
 
 #### Parameters
 

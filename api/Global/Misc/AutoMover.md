@@ -11,6 +11,9 @@ canonical_path: /api/Global/Misc/AutoMover
 ```csharp
 public class AutoMover : MonoBehaviour
 ```
+Seems to be used at the start of the game to load the title screen when any button is pressed?
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AutoMover
@@ -33,6 +36,8 @@ public AutoMover()
 ```csharp
 public RectTransform rect
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ public RectTransform rect
 ```csharp
 public float sensi
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,9 +62,14 @@ public float sensi
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

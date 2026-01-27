@@ -12,6 +12,9 @@ canonical_path: /api/Global/Worker/MoveFromNullPassageCommand
 public class MoveFromNullPassageCommand : WorkerCommand
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → MoveFromNullPassageCommand
 
@@ -33,6 +36,8 @@ public MoveFromNullPassageCommand()
 ```csharp
 private MapNode currentTargetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,15 +50,22 @@ private MapNode currentTargetNode
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+#code-generated
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

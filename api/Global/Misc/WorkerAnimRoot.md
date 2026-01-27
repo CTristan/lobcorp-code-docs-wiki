@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/WorkerAnimRoot
 public class WorkerAnimRoot : MonoBehaviour
 ```
 
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerAnimRoot
 
@@ -33,6 +36,8 @@ public WorkerAnimRoot()
 ```csharp
 private List<WorkerAnim> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,8 @@ private List<WorkerAnim> _list
 ```csharp
 public void AddAnim(GameObject animPrefab)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,12 +64,17 @@ public void AddAnim(GameObject animPrefab)
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### SetCurrentAnim(string)
 
 ```csharp
 public void SetCurrentAnim(string animName)
 ```
+#INC
+
 
 #### Parameters
 

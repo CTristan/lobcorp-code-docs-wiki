@@ -11,6 +11,10 @@ canonical_path: /api/Global/Event/EventBase
 ```csharp
 public class EventBase
 ```
+Base for events except there's only [Apocalypse Bird](/api/Global/Misc/BossBird).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EventBase
@@ -46,6 +50,8 @@ protected EventBase.EventType _type
 ```csharp
 public bool isStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -70,18 +76,25 @@ public EventBase.EventType type { get; }
 ```csharp
 public virtual void EventEnd()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### IsStartable()
 
 ```csharp
 public virtual bool IsStartable()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -92,15 +105,21 @@ public virtual bool IsStartable()
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### OnEventStart()
 
 ```csharp
 public virtual void OnEventStart()
 ```
+#INC
+
 
 ### OnGameInit()
 
 ```csharp
 public virtual void OnGameInit()
 ```
+#INC
+

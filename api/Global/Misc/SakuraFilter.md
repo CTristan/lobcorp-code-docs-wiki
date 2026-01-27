@@ -36,6 +36,8 @@ public SakuraFilter()
 ```csharp
 private const string _color = "#FBBBBB00"
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private const string _color = "#FBBBBB00"
 ```csharp
 public Color customColor
 ```
+#INC
+
 
 #### Field Value
 
@@ -100,6 +104,8 @@ public float Intensity
 ```csharp
 private Material SCMaterial
 ```
+#INC
+
 
 #### Field Value
 
@@ -110,6 +116,8 @@ private Material SCMaterial
 ```csharp
 private Vector4 ScreenResolution
 ```
+#INC
+
 
 #### Field Value
 
@@ -120,6 +128,8 @@ private Vector4 ScreenResolution
 ```csharp
 public Shader SCShader
 ```
+#INC
+
 
 #### Field Value
 
@@ -152,6 +162,8 @@ public float Speed
 ```csharp
 private Texture2D Texture2
 ```
+#INC
+
 
 #### Field Value
 
@@ -162,6 +174,8 @@ private Texture2D Texture2
 ```csharp
 private float time
 ```
+#INC
+
 
 #### Field Value
 
@@ -172,6 +186,8 @@ private float time
 ```csharp
 private float TimeX
 ```
+#INC
+
 
 #### Field Value
 
@@ -196,12 +212,16 @@ private Material material { get; }
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnRenderImage(RenderTexture, RenderTexture)
 
 ```csharp
 private void OnRenderImage(RenderTexture sourceTexture, RenderTexture destTexture)
 ```
+#INC
+
 
 #### Parameters
 
@@ -215,9 +235,14 @@ private void OnRenderImage(RenderTexture sourceTexture, RenderTexture destTextur
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

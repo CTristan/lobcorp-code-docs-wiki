@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/ExplodeGutManager
 ```csharp
 public class ExplodeGutManager : MonoBehaviour
 ```
+Manages [ExplodeGutEffect](/api/Global/Effect/ExplodeGutEffect)s.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ExplodeGutManager
@@ -33,6 +35,8 @@ public ExplodeGutManager()
 ```csharp
 private static ExplodeGutManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +57,8 @@ public List<ExplodeGutManager.ExplodeGutData> data
 ```csharp
 public List<ExplodeGutEffect> effects
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,12 +113,17 @@ public static ExplodeGutManager instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### FixedUpdate()
 
 ```csharp
 private void FixedUpdate()
 ```
+#INC
+
 
 ### GetData(int)
 
@@ -145,6 +156,8 @@ public ExplodeGutManager.ExplodeGutData GetRandomData()
 ```csharp
 public bool MakeEffects(Vector3 position, ref ExplodeGutEffect script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -162,6 +175,8 @@ public bool MakeEffects(Vector3 position, ref ExplodeGutEffect script)
 ```csharp
 public void OnClickForDebug(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,9 +189,13 @@ public void OnClickForDebug(int i)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

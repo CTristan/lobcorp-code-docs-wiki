@@ -12,6 +12,10 @@ canonical_path: /api/Global/Tutorial/CameraMoveTutorial
 public class CameraMoveTutorial : Tutorial
 ```
 
+Tutorial check for moving the camera.
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → CameraMoveTutorial
 
@@ -33,6 +37,8 @@ public CameraMoveTutorial()
 ```csharp
 private float _neededMove
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ private float _neededMove
 ```csharp
 private Vector3 defaultPos
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,15 +63,22 @@ private Vector3 defaultPos
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

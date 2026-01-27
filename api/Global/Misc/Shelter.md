@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Shelter
 public class Shelter : CreatureBase
 ```
 
+Shelter from the 27th of March. Tool abnormality.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Shelter
 
@@ -33,6 +38,8 @@ public Shelter()
 ```csharp
 private float hpRecovery
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private float hpRecovery
 ```csharp
 private float mentalRecovery
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private float mentalRecovery
 ```csharp
 private const float qliphothZeroCycleTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const float qliphothZeroCycleTime = 5
 ```csharp
 private const float qliphothZeroStartTime = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float qliphothZeroStartTime = 30
 ```csharp
 private Timer qliphothZeroTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Timer qliphothZeroTimer
 ```csharp
 private float recoverTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private float recoverTime
 ```csharp
 private Timer recoverTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,6 +124,8 @@ private Timer recoverTimer
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +138,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdateInSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +152,8 @@ public override void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -141,9 +166,14 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+

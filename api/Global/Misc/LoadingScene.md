@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/LoadingScene
 public class LoadingScene : MonoBehaviour
 ```
 
+Parent class for loading scenes of various kinds.
+
+See also [LoadingScreen](/api/Global/Misc/LoadingScreen).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LoadingScene
 
@@ -36,6 +41,9 @@ public LoadingScene()
 ```csharp
 public bool isLoading
 ```
+#INC
+#code-generated
+
 
 #### Field Value
 
@@ -46,6 +54,8 @@ public bool isLoading
 ```csharp
 public bool layerInited
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +66,8 @@ public bool layerInited
 ```csharp
 public bool loadingScene
 ```
+#INC
+
 
 #### Field Value
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/PanicAgentMoveTutorial
 public class PanicAgentMoveTutorial : Tutorial
 ```
 
+Ends after a certain amount of time after a panicked worker is restored.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → PanicAgentMoveTutorial
 
@@ -33,6 +38,8 @@ public PanicAgentMoveTutorial()
 ```csharp
 public float RecoilTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public float RecoilTimer
 ```csharp
 private AgentModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private AgentModel target
 ```csharp
 private MapNode targetNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private MapNode targetNode
 ```csharp
 public float Timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,9 +88,14 @@ public float Timer
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

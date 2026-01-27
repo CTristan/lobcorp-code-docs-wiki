@@ -12,6 +12,13 @@ canonical_path: /api/Global/Misc/UIEffectManager
 public class UIEffectManager : MonoBehaviour
 ```
 
+Used to apply some screen effects.
+
+Used by [Don't Touch Me](/api/Global/Misc/DontTouchMe) and [The Lady Facing the Wall](/api/Global/Misc/LadyLookingAtWall). #verify 
+
+#INC
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → UIEffectManager
 
@@ -33,6 +40,8 @@ public UIEffectManager()
 ```csharp
 private Sprite _defSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private Sprite _defSprite
 ```csharp
 private static UIEffectManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private static UIEffectManager _instance
 ```csharp
 public ScreenEffectModule[] currentModuleAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ public ScreenEffectModule[] currentModuleAry
 ```csharp
 public bool[] isUsingAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ public bool[] isUsingAry
 ```csharp
 public List<ScreenEffectModule> modules
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ public List<ScreenEffectModule> modules
 ```csharp
 public List<Image> renderImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ public List<Image> renderImage
 ```csharp
 public GameObject Siren
 ```
+#INC
+
 
 #### Field Value
 
@@ -127,6 +148,8 @@ private Image sirenImage { get; }
 ```csharp
 public void ActivateUIEffect(string targetName, float displayTime, int fps, bool useDefaultImage)
 ```
+#INC
+
 
 #### Parameters
 
@@ -142,12 +165,17 @@ public void ActivateUIEffect(string targetName, float displayTime, int fps, bool
 ```csharp
 public void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChagneSirenSprite(Sprite)
 
 ```csharp
 public void ChagneSirenSprite(Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -160,6 +188,8 @@ public void ChagneSirenSprite(Sprite sprite)
 ```csharp
 public void EndEffect(UIEffectType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -172,18 +202,24 @@ public void EndEffect(UIEffectType type)
 ```csharp
 public void EndSiren()
 ```
+#INC
+
 
 ### FixedUpdate()
 
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### GetAnimParam(UIEffectType)
 
 ```csharp
 public string GetAnimParam(UIEffectType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -200,6 +236,8 @@ public string GetAnimParam(UIEffectType type)
 ```csharp
 public ScreenEffectModule GetModule(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -216,6 +254,8 @@ public ScreenEffectModule GetModule(long id)
 ```csharp
 public ScreenEffectModule GetModule(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -232,24 +272,32 @@ public ScreenEffectModule GetModule(string name)
 ```csharp
 public void OnClickManual()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public void OnStageStart()
 ```
+#INC
+
 
 ### ReturnSirenSprite()
 
 ```csharp
 public void ReturnSirenSprite()
 ```
+#INC
+
 
 ### SettingModule(long)
 
 ```csharp
 private ScreenEffectModule SettingModule(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -266,6 +314,8 @@ private ScreenEffectModule SettingModule(long id)
 ```csharp
 private ScreenEffectModule SettingModule(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -282,12 +332,16 @@ private ScreenEffectModule SettingModule(string name)
 ```csharp
 public void Start()
 ```
+#INC
+
 
 ### StartCustomEffect(Sprite[], int)
 
 ```csharp
 public void StartCustomEffect(Sprite[] spriteSequence, int fps)
 ```
+#INC
+
 
 #### Parameters
 
@@ -301,6 +355,8 @@ public void StartCustomEffect(Sprite[] spriteSequence, int fps)
 ```csharp
 public void StartCustomEffect(Sprite[] spriteSequence, int fps, Callback effectFinishCallback)
 ```
+#INC
+
 
 #### Parameters
 
@@ -315,6 +371,8 @@ public void StartCustomEffect(Sprite[] spriteSequence, int fps, Callback effectF
 ```csharp
 public void StartEffect(object o, params float[] time)
 ```
+#INC
+
 
 #### Parameters
 
@@ -328,3 +386,5 @@ public void StartEffect(object o, params float[] time)
 ```csharp
 public void StartSiren()
 ```
+#INC
+

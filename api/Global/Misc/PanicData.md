@@ -11,6 +11,18 @@ canonical_path: /api/Global/Misc/PanicData
 ```csharp
 public class PanicData
 ```
+Should be unused[^1].
+
+#unused 
+
+
+
+[^1]: UseSkill.CheckLive() will call old panic code:
+	    AgentModel.PanicByCreature(CreatureModel, SkillTypeInfo)
+	if this work is not completed (closed = false) and the agent has 0 or less SP (agent.mental <= 0). This should never happen, but might in some edge case. This causes the agent to panic without ever calling Agent.Panic(). 
+	
+	Note that this doesn't *seem* to affect anything, but may have weird consequences.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PanicData
@@ -33,6 +45,8 @@ public PanicData()
 ```csharp
 public string PanicBuildCode
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +57,8 @@ public string PanicBuildCode
 ```csharp
 public string PanicDesc
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +69,8 @@ public string PanicDesc
 ```csharp
 public int PanicId
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +81,8 @@ public int PanicId
 ```csharp
 public string PanicLifeStyle
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +93,8 @@ public string PanicLifeStyle
 ```csharp
 public string PanicName
 ```
+#INC
+
 
 #### Field Value
 
@@ -85,6 +107,8 @@ public string PanicName
 ```csharp
 public PanicAction BuildDefaultPanicAction(WorkerModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -101,6 +125,9 @@ public PanicAction BuildDefaultPanicAction(WorkerModel actor)
 ```csharp
 public PanicAction BuildPanicAction(WorkerModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

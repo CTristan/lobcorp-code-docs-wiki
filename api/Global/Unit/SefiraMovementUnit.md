@@ -12,6 +12,13 @@ canonical_path: /api/Global/Unit/SefiraMovementUnit
 public class SefiraMovementUnit : MonoBehaviour
 ```
 
+extends 
+
+Holds the current department.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SefiraMovementUnit
 
@@ -33,6 +40,8 @@ public SefiraMovementUnit()
 ```csharp
 public SefiraEnum currentSefira
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,12 +54,17 @@ public SefiraEnum currentSefira
 ```csharp
 public void OnClick()
 ```
+#INC
+
 
 ### SetSefira(SefiraEnum)
 
 ```csharp
 public void SetSefira(SefiraEnum sefira)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StatMultiplier
 public class StatMultiplier : IdentityTransform, StatTransform
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [IdentityTransform](/api/Global/Misc/IdentityTransform) → StatMultiplier
 
@@ -28,6 +31,8 @@ public class StatMultiplier : IdentityTransform, StatTransform
 ```csharp
 public StatMultiplier(float m)
 ```
+#INC
+
 
 #### Parameters
 
@@ -42,6 +47,8 @@ public StatMultiplier(float m)
 ```csharp
 private float multiplier
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +61,9 @@ private float multiplier
 ```csharp
 public override float FloatToFloat(float v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

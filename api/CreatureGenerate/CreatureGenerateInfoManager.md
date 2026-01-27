@@ -11,6 +11,16 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager
 ```csharp
 public class CreatureGenerateInfoManager
 ```
+Main class of this area.
+
+Holds a lot of data and helper functions for abnormality extraction.
+
+- Loads information from the CreatureGenInfo xml file to determine door probabilities based on the day.
+- Stores lists of abnormalities by risk level
+- Updates lists to maintain viable abnormalities
+
+(There seems to be code in here for if you run out of tool abnormalities... Elsewhere, it'll skip the tool extraction if there are none left.)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureGenerateInfoManager
@@ -33,6 +43,8 @@ public CreatureGenerateInfoManager()
 ```csharp
 private int _genDay
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +55,8 @@ private int _genDay
 ```csharp
 private bool _genKit
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +67,8 @@ private bool _genKit
 ```csharp
 private static CreatureGenerateInfoManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +79,8 @@ private static CreatureGenerateInfoManager _instance
 ```csharp
 private bool _isInitiated
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +91,8 @@ private bool _isInitiated
 ```csharp
 private bool _isLoadedDayData
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +103,8 @@ private bool _isLoadedDayData
 ```csharp
 public Dictionary<RiskLevel, ActivateStateList> activateStateDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +115,8 @@ public Dictionary<RiskLevel, ActivateStateList> activateStateDic
 ```csharp
 public Dictionary<RiskLevel, List<long>> CreatureList
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +127,8 @@ public Dictionary<RiskLevel, List<long>> CreatureList
 ```csharp
 public Dictionary<int, CreatureGenerateModel> dayGenInfoDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +139,8 @@ public Dictionary<int, CreatureGenerateModel> dayGenInfoDic
 ```csharp
 private const string DebugPrefix = "<color=#FF2323>[CreatureGenerate]</color> "
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +151,8 @@ private const string DebugPrefix = "<color=#FF2323>[CreatureGenerate]</color> "
 ```csharp
 public List<string> GenerateCommonActionList
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +163,8 @@ public List<string> GenerateCommonActionList
 ```csharp
 public static readonly string[] GenerateCommonActionString
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +175,8 @@ public static readonly string[] GenerateCommonActionString
 ```csharp
 public Dictionary<int, CreatureSelectData> SelectData
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +187,8 @@ public Dictionary<int, CreatureSelectData> SelectData
 ```csharp
 private const string XMLFileSrc = "xml/CreatureGenInfo"
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,18 +253,24 @@ public bool IsloadedDayData { get; }
 ```csharp
 public void CalculateDay()
 ```
+#INC
+
 
 ### CheckCreatureUseState()
 
 ```csharp
 private void CheckCreatureUseState()
 ```
+#INC
+
 
 ### CheckGenerationIgnore(long)
 
 ```csharp
 private bool CheckGenerationIgnore(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -245,6 +287,8 @@ private bool CheckGenerationIgnore(long id)
 ```csharp
 public bool CheckKitCreatureRemains()
 ```
+#INC
+
 
 #### Returns
 
@@ -255,6 +299,8 @@ public bool CheckKitCreatureRemains()
 ```csharp
 public void DebugCheck(int day)
 ```
+#INC
+
 
 #### Parameters
 
@@ -267,6 +313,8 @@ public void DebugCheck(int day)
 ```csharp
 public List<long> GetCreature()
 ```
+#INC
+
 
 #### Returns
 
@@ -277,6 +325,8 @@ public List<long> GetCreature()
 ```csharp
 public List<long> GetCreatureNew()
 ```
+#INC
+
 
 #### Returns
 
@@ -287,6 +337,8 @@ public List<long> GetCreatureNew()
 ```csharp
 public bool GetCreatureState(RiskLevel risk, out ActivateStateList list)
 ```
+#INC
+
 
 #### Parameters
 
@@ -304,6 +356,8 @@ public bool GetCreatureState(RiskLevel risk, out ActivateStateList list)
 ```csharp
 public bool HasUniqueAction(string[] split, out int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -321,18 +375,24 @@ public bool HasUniqueAction(string[] split, out int index)
 ```csharp
 public void Init()
 ```
+#INC
+
 
 ### InitCreatureList()
 
 ```csharp
 public void InitCreatureList()
 ```
+#INC
+
 
 ### IsUsedCreature(long)
 
 ```csharp
 private bool IsUsedCreature(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -349,6 +409,8 @@ private bool IsUsedCreature(long id)
 ```csharp
 private bool LoadDoor(string parsed, out CreatureGenerateDoor door)
 ```
+#INC
+
 
 #### Parameters
 
@@ -366,6 +428,8 @@ private bool LoadDoor(string parsed, out CreatureGenerateDoor door)
 ```csharp
 private bool LoadStaticData()
 ```
+#INC
+
 
 #### Returns
 
@@ -376,6 +440,9 @@ private bool LoadStaticData()
 ```csharp
 public static void Log(string text, bool isError = false)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -389,12 +456,16 @@ public static void Log(string text, bool isError = false)
 ```csharp
 public void OnDayChanged()
 ```
+#INC
+
 
 ### OnUsed(long)
 
 ```csharp
 public void OnUsed(long id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -407,6 +478,8 @@ public void OnUsed(long id)
 ```csharp
 private List<float> ParseDoor(string text)
 ```
+#INC
+
 
 #### Parameters
 
@@ -423,12 +496,16 @@ private List<float> ParseDoor(string text)
 ```csharp
 public void Print()
 ```
+#INC
+
 
 ### RemoveAction(long)
 
 ```csharp
 public void RemoveAction(long id)
 ```
+#INC
+
 
 #### Parameters
 

@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/BinahOverloadAlarm
 ```csharp
 public class BinahOverloadAlarm : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → BinahOverloadAlarm
@@ -33,6 +35,8 @@ public BinahOverloadAlarm()
 ```csharp
 public Image[] imgs
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +49,8 @@ public Image[] imgs
 ```csharp
 public void SetColor(Color c)
 ```
+#INC
+
 
 #### Parameters
 
@@ -57,6 +63,8 @@ public void SetColor(Color c)
 ```csharp
 public void SetColor(string colorCode)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,9 +77,14 @@ public void SetColor(string colorCode)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

@@ -12,6 +12,11 @@ canonical_path: /api/Legacy/TutorialManager
 public class TutorialManager
 ```
 
+Manages the current tutorial and queues the next one maybe probably.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TutorialManager
 
@@ -33,6 +38,8 @@ public TutorialManager()
 ```csharp
 private static TutorialManager _instance
 ```
+#INC
+
 
 #### Field Value
 

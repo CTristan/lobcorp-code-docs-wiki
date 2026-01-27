@@ -12,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/BigBirdWeaponDebuf
 public class BigBirdWeaponDebuf : UnitBuf
 ```
 
+Extra black damage (1.5x) effect given by [Lamp (weapon)](/api/Global/Weapon/BigBirdWeapon).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BigBirdWeaponDebuf
 
@@ -25,6 +28,8 @@ public class BigBirdWeaponDebuf : UnitBuf
 ```csharp
 public BigBirdWeaponDebuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public BigBirdWeaponDebuf()
 ```csharp
 private const float _debufDmgRatio = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _debufDmgRatio = 1.5
 ```csharp
 private const float _remain_time = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const float _remain_time = 3
 ```csharp
 private const RwbpType _targetType = B
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,9 @@ private const RwbpType _targetType = B
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -77,6 +91,8 @@ public override void Init(UnitModel model)
 ```csharp
 public override float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
+#INC
+
 
 #### Parameters
 

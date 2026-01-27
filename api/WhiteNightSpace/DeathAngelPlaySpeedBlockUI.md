@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/DeathAngelPlaySpeedBlockUI
 public class DeathAngelPlaySpeedBlockUI : PlaySpeedSettingBlockedUI
 ```
 
+UI for [WhiteNight](/api/Legacy/DeathAngel) stopping you from pausing and escaping to menu and opening the manual...
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [PlaySpeedSettingBlockedUI](/api/GameStatusUI/PlaySpeedSettingBlockedUI) → DeathAngelPlaySpeedBlockUI
 
@@ -33,6 +36,8 @@ public DeathAngelPlaySpeedBlockUI()
 ```csharp
 private DeathAngel _deathAngel
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private DeathAngel _deathAngel
 ```csharp
 public AudioClip clip
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ public AudioClip clip
 ```csharp
 public AnimationCurve curve
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ public AnimationCurve curve
 ```csharp
 public CanvasGroup group
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public CanvasGroup group
 ```csharp
 private List<string> manualTexts
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private List<string> manualTexts
 ```csharp
 private List<string> multiplyTexts
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private List<string> multiplyTexts
 ```csharp
 private List<string> pauseTexts
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private List<string> pauseTexts
 ```csharp
 public Text textDisplayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +134,9 @@ public Text textDisplayed
 ```csharp
 public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -131,6 +153,8 @@ public override bool IsFunctionEnabled(PlaySpeedSettingBlockFunction function)
 ```csharp
 public void MakeSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -143,36 +167,48 @@ public void MakeSound(string src)
 ```csharp
 public override void OnShow()
 ```
+#INC
+
 
 ### OnTryEscape()
 
 ```csharp
 public void OnTryEscape()
 ```
+#INC
+
 
 ### OnTryOpenManual()
 
 ```csharp
 public void OnTryOpenManual()
 ```
+#INC
+
 
 ### OnTryPause()
 
 ```csharp
 public void OnTryPause()
 ```
+#INC
+
 
 ### OnTryTimeMultiplier()
 
 ```csharp
 public void OnTryTimeMultiplier()
 ```
+#INC
+
 
 ### SetAngel(DeathAngel)
 
 ```csharp
 public void SetAngel(DeathAngel angel)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,9 +221,13 @@ public void SetAngel(DeathAngel angel)
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### Update()
 
 ```csharp
 public override void Update()
 ```
+#INC
+

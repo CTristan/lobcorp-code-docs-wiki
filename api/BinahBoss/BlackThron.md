@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BlackThron
 ```csharp
 public class BlackThron : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s black fog attack
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → BlackThron
@@ -25,6 +27,8 @@ public class BlackThron : BinahAction
 ```csharp
 public BlackThron(BinahCoreScript binah, int maxCount, bool invokeOverload = true)
 ```
+#INC
+
 
 #### Parameters
 
@@ -41,6 +45,8 @@ public BlackThron(BinahCoreScript binah, int maxCount, bool invokeOverload = tru
 ```csharp
 private List<BinahProjectile> blackThorn
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +57,8 @@ private List<BinahProjectile> blackThorn
 ```csharp
 private bool invokeOverload
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +69,8 @@ private bool invokeOverload
 ```csharp
 private int maxCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,12 +83,16 @@ private int maxCount
 ```csharp
 private void GenThorn()
 ```
+#INC
+
 
 ### OnAnimEventCalled(int)
 
 ```csharp
 public override void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,27 +105,38 @@ public override void OnAnimEventCalled(int index)
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public override void OnGiveDamage()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/UnitStatBuf/HodBossBuf
 public class HodBossBuf : UnitStatBuf
 ```
 
+Buff which reduces reduces all stats by a certain amount.
+
+Used by Hod in [her core suppression](/api/Global/Misc/HodBossBase).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → [UnitStatBuf](/api/Global/UnitBuf/UnitStatBuf) → HodBossBuf
 
@@ -25,6 +30,8 @@ public class HodBossBuf : UnitStatBuf
 ```csharp
 public HodBossBuf()
 ```
+#INC
+
 
 ## Fields
 
@@ -33,6 +40,8 @@ public HodBossBuf()
 ```csharp
 private float _reduceVal
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +52,8 @@ private float _reduceVal
 ```csharp
 private AgentModel agent
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +64,8 @@ private AgentModel agent
 ```csharp
 private const float B_min = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +76,8 @@ private const float B_min = 10
 ```csharp
 private bool lateInit
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +88,8 @@ private bool lateInit
 ```csharp
 private const float P_min = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +100,8 @@ private const float P_min = 10
 ```csharp
 private const float R_min = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +112,8 @@ private const float R_min = 10
 ```csharp
 private const float W_min = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -147,12 +168,17 @@ private float W_buf { get; }
 ```csharp
 public override void FixedUpdate()
 ```
+#INC
+
 
 ### Init(UnitModel)
 
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -165,12 +191,16 @@ public override void Init(UnitModel model)
 ```csharp
 private void LateInit()
 ```
+#INC
+
 
 ### SetReduceValue(float)
 
 ```csharp
 public void SetReduceValue(float val)
 ```
+#INC
+
 
 #### Parameters
 

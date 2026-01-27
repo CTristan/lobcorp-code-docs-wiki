@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/PlagueDoctorAnim
 public class PlagueDoctorAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animations for Plague Doctor and the advent clock
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → PlagueDoctorAnim
 
@@ -36,6 +39,8 @@ public PlagueDoctorAnim()
 ```csharp
 private UnscaledTimer _adventEffectTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ private UnscaledTimer _adventEffectTimer
 ```csharp
 private AdventClockUI _adventUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ private AdventClockUI _adventUI
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 public GameObject _eye1
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +87,8 @@ public GameObject _eye1
 ```csharp
 public GameObject _eye2
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ public GameObject _kissEffect
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -107,6 +122,8 @@ private SpineOptimizerModule _module
 ```csharp
 private PlagueDoctor _script
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,6 +134,8 @@ private PlagueDoctor _script
 ```csharp
 public PlagueDoctorSkeletonAnim SkeletonAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -151,6 +170,8 @@ public PlagueDoctor Script { get; }
 ```csharp
 public void InitApostleNames(List<string> names)
 ```
+#INC
+
 
 #### Parameters
 
@@ -163,6 +184,9 @@ public void InitApostleNames(List<string> names)
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -175,30 +199,40 @@ public override void OnCalled(int i)
 ```csharp
 public void OnEndKiss()
 ```
+#INC
+
 
 ### OnSetKiss()
 
 ```csharp
 public void OnSetKiss()
 ```
+#INC
+
 
 ### OnSetKissEnd()
 
 ```csharp
 public void OnSetKissEnd()
 ```
+#INC
+
 
 ### OnStartAdvent()
 
 ```csharp
 public void OnStartAdvent()
 ```
+#INC
+
 
 ### SetAdventDesc(string)
 
 ```csharp
 public void SetAdventDesc(string desc)
 ```
+#INC
+
 
 #### Parameters
 
@@ -211,6 +245,8 @@ public void SetAdventDesc(string desc)
 ```csharp
 public void SetScript(PlagueDoctor plagueDoctor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -223,6 +259,8 @@ public void SetScript(PlagueDoctor plagueDoctor)
 ```csharp
 public void StartAdventNameEffect(int index, string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -236,3 +274,5 @@ public void StartAdventNameEffect(int index, string name)
 ```csharp
 private void Update()
 ```
+#INC
+

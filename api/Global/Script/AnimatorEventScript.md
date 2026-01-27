@@ -11,6 +11,10 @@ canonical_path: /api/Global/Script/AnimatorEventScript
 ```csharp
 public class AnimatorEventScript : MonoBehaviour
 ```
+Calls a script if uh... if uh...
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimatorEventScript
@@ -33,6 +37,8 @@ public AnimatorEventScript()
 ```csharp
 public MonoBehaviour script
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public MonoBehaviour script
 ```csharp
 public IAnimatorEventCalled target
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,12 +63,16 @@ public IAnimatorEventCalled target
 ```csharp
 public void AgentResetCommand()
 ```
+#INC
+
 
 ### AttackAnimCalled(int)
 
 ```csharp
 public void AttackAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,12 +85,16 @@ public void AttackAnimCalled(int i)
 ```csharp
 public void AttackDamageTimeCommand()
 ```
+#INC
+
 
 ### CreatureAnimCommand(int)
 
 ```csharp
 public void CreatureAnimCommand(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,12 +107,16 @@ public void CreatureAnimCommand(int i)
 ```csharp
 public void EventCalled()
 ```
+#INC
+
 
 ### EventCalledInt(int)
 
 ```csharp
 public void EventCalledInt(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +129,8 @@ public void EventCalledInt(int i)
 ```csharp
 public void FlipDirection(bool b)
 ```
+#INC
+
 
 #### Parameters
 
@@ -121,6 +143,8 @@ public void FlipDirection(bool b)
 ```csharp
 public void SetTarget(IAnimatorEventCalled target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -133,12 +157,16 @@ public void SetTarget(IAnimatorEventCalled target)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -151,3 +179,6 @@ public void SoundMake(string src)
 ```csharp
 public void Start()
 ```
+#INC
+#code-generated
+

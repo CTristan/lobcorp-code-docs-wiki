@@ -11,6 +11,8 @@ canonical_path: /api/BinahBoss/BladeWaveThrow
 ```csharp
 public class BladeWaveThrow : BinahAction
 ```
+[An Arbiter](/api/Global/Script/BinahCoreScript)'s melee action (ouch!)
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → BladeWaveThrow
@@ -25,6 +27,8 @@ public class BladeWaveThrow : BinahAction
 ```csharp
 public BladeWaveThrow(BinahCoreScript binah)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +43,8 @@ public BladeWaveThrow(BinahCoreScript binah)
 ```csharp
 private DamageInfo DamageInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +55,8 @@ private DamageInfo DamageInfo
 ```csharp
 private RwbpType type
 ```
+#INC
+
 
 #### Field Value
 
@@ -61,6 +69,8 @@ private RwbpType type
 ```csharp
 public override void OnAnimEventCalled(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -73,27 +83,38 @@ public override void OnAnimEventCalled(int index)
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnEnd()
 
 ```csharp
 public override void OnEnd()
 ```
+#INC
+
 
 ### OnGiveDamage()
 
 ```csharp
 public override void OnGiveDamage()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+

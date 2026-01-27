@@ -12,6 +12,11 @@ canonical_path: /api/WorkerSprite/WorkerClothesSprite
 public class WorkerClothesSprite : WorkerEquipmentSprite
 ```
 
+Map between int and sprite resource data?
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [WorkerEquipmentSprite](/api/WorkerSprite/WorkerEquipmentSprite) → WorkerClothesSprite
 
@@ -33,6 +38,8 @@ public WorkerClothesSprite()
 ```csharp
 public Dictionary<int, SpriteResourceLoadData> lib
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,8 @@ public Dictionary<int, SpriteResourceLoadData> lib
 ```csharp
 public SpriteResourceLoadData GetData(int id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -61,3 +70,6 @@ public SpriteResourceLoadData GetData(int id)
 ```csharp
 public void Init()
 ```
+#INC
+#code-generated
+

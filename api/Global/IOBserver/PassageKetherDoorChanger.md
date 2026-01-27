@@ -12,6 +12,11 @@ canonical_path: /api/Global/IOBserver/PassageKetherDoorChanger
 public class PassageKetherDoorChanger : MonoBehaviour, IObserver
 ```
 
+Animation helper for doors in Architecture.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → PassageKetherDoorChanger
 
@@ -36,6 +41,8 @@ public PassageKetherDoorChanger()
 ```csharp
 public GameObject[] targets
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,6 +55,9 @@ public GameObject[] targets
 ```csharp
 public void InitKetherImage(int level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -60,18 +70,24 @@ public void InitKetherImage(int level)
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 

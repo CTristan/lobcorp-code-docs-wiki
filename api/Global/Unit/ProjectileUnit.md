@@ -12,6 +12,11 @@ canonical_path: /api/Global/Unit/ProjectileUnit
 public class ProjectileUnit : MonoBehaviour
 ```
 
+An object visually representing a [projectile](/api/Global/Model/ProjectileModel).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ProjectileUnit
 
@@ -36,6 +41,8 @@ public ProjectileUnit()
 ```csharp
 public GameObject animTarget
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +53,8 @@ public GameObject animTarget
 ```csharp
 public Animator animTargetAnim
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +65,8 @@ public Animator animTargetAnim
 ```csharp
 protected Vector3 directionScaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +77,8 @@ protected Vector3 directionScaleFactor
 ```csharp
 public float dupFreq
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +89,8 @@ public float dupFreq
 ```csharp
 public bool isDuplicatable
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +101,8 @@ public bool isDuplicatable
 ```csharp
 public ProjectileModel model
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +113,8 @@ public ProjectileModel model
 ```csharp
 protected Vector2 oldScale
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +125,8 @@ protected Vector2 oldScale
 ```csharp
 public float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +137,8 @@ public float range
 ```csharp
 public GameObject rootGameObject
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +149,8 @@ public GameObject rootGameObject
 ```csharp
 protected Vector3 scaleFactor
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +161,8 @@ protected Vector3 scaleFactor
 ```csharp
 protected Vector3 viewPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +173,8 @@ protected Vector3 viewPosition
 ```csharp
 protected bool visible
 ```
+#INC
+
 
 #### Field Value
 
@@ -158,6 +187,8 @@ protected bool visible
 ```csharp
 public SoundEffectPlayer AttachSound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -174,12 +205,16 @@ public SoundEffectPlayer AttachSound(string src)
 ```csharp
 public virtual void FixedUpdate()
 ```
+#INC
+
 
 ### GetScaleFactor()
 
 ```csharp
 public Vector3 GetScaleFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -190,6 +225,8 @@ public Vector3 GetScaleFactor()
 ```csharp
 public void Init(ProjectileModel model)
 ```
+#INC
+
 
 #### Parameters
 
@@ -202,12 +239,17 @@ public void Init(ProjectileModel model)
 ```csharp
 public virtual void LateUpdate()
 ```
+#INC
+
 
 ### LoadnInit(string)
 
 ```csharp
 public void LoadnInit(string src)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -220,18 +262,24 @@ public void LoadnInit(string src)
 ```csharp
 public virtual void MannualDestroy()
 ```
+#INC
+
 
 ### OnDestroy()
 
 ```csharp
 public virtual void OnDestroy()
 ```
+#INC
+
 
 ### SetAnimParam(string, AnimatorControllerParameterType, object)
 
 ```csharp
 public void SetAnimParam(string paramName, AnimatorControllerParameterType type, object value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -246,6 +294,8 @@ public void SetAnimParam(string paramName, AnimatorControllerParameterType type,
 ```csharp
 public void SetScaleFactor(float x, float y, float z)
 ```
+#INC
+
 
 #### Parameters
 
@@ -260,15 +310,21 @@ public void SetScaleFactor(float x, float y, float z)
 ```csharp
 protected virtual void UpdateDirection()
 ```
+#INC
+
 
 ### UpdateScale()
 
 ```csharp
 protected virtual void UpdateScale()
 ```
+#INC
+
 
 ### UpdateViewPosition()
 
 ```csharp
 public virtual void UpdateViewPosition()
 ```
+#INC
+

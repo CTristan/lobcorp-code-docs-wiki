@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/Helper
 public class Helper : CreatureBase
 ```
 
+All-Around Helper.
+
+
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → Helper
 
@@ -33,6 +38,8 @@ public Helper()
 ```csharp
 private HelperAnim _animScript
 ```
+[All-Around Helper's animator](/api/Global/Creature/HelperAnim). If null, sets to the creature unit's animation target.
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private HelperAnim _animScript
 ```csharp
 private bool _isRight
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private bool _isRight
 ```csharp
 private bool _spinAttack
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _spinAttack
 ```csharp
 private Timer attackCoolTime
 ```
+Timer which counts down to the end of Helper's shutdown after attacking.
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private Timer attackCoolTime
 ```csharp
 private const float attackCoolTimeVal = 4
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float attackCoolTimeVal = 4
 ```csharp
 private List<UnitModel> attackedUnits
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private List<UnitModel> attackedUnits
 ```csharp
 private const float attackSpace = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const float attackSpace = 1.5
 ```csharp
 private MapNode currentAttackEnd
 ```
+Location of the node to end up at during the spin attack.
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private MapNode currentAttackEnd
 ```csharp
 private MapNode currentMoveTarget
 ```
+Current movement target. Assigned, but not really used.
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private MapNode currentMoveTarget
 ```csharp
 private const int dmgMax = 30
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const int dmgMax = 30
 ```csharp
 private const int dmgMin = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private const int dmgMin = 20
 ```csharp
 private RwbpType dmgType
 ```
+The damage type Helper deals.
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private RwbpType dmgType
 ```csharp
 private int formerMovementTarget
 ```
+Stores the index of the last targeted room in the current department.
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private int formerMovementTarget
 ```csharp
 private float initialSpeed
 ```
+Stores Helper's current speed.
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private float initialSpeed
 ```csharp
 private bool interrupt
 ```
+Stores whether Helper is 'interrupted', which happens when the spin attack ends until woken up. #verify
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private bool interrupt
 ```csharp
 private bool isAttacking
 ```
+Stores whether Helper is doing a spin attack.
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private bool isAttacking
 ```csharp
 private bool prepareAttack
 ```
+Stores whether Helper is charging up its attack. #verify
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private bool prepareAttack
 ```csharp
 private const float speedMult = 6
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private const float speedMult = 6
 ```csharp
 private SoundEffectPlayer spinMaxSound
 ```
+Plays the sound effect for ending the spin attack or being suppressed. #verify
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private SoundEffectPlayer spinMaxSound
 ```csharp
 private const float spinMaxTime = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private const float spinMaxTime = 3
 ```csharp
 private SoundEffectPlayer spinSound
 ```
+Plays the sound during the spin attack.
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private SoundEffectPlayer spinSound
 ```csharp
 private Timer spinTimer
 ```
+Timer which counts down to the end of Helper's charging-up at the start of its attack.
+
 
 #### Field Value
 
@@ -254,6 +303,9 @@ private Timer spinTimer
 private const string throwItemSrc = "Effect/ThrowedItem"
 ```
 
+
+
+
 #### Field Value
 
 **Type:** System.String
@@ -263,6 +315,8 @@ private const string throwItemSrc = "Effect/ThrowedItem"
 ```csharp
 private bool waking
 ```
+Stores whether Helper is waking up from shutdown.
+
 
 #### Field Value
 
@@ -327,18 +381,24 @@ private bool spinAttack { get; set; }
 ```csharp
 public override void ActivateQliphothCounter()
 ```
+Calls base and breaches.
+
 
 ### AfterDown()
 
 ```csharp
 public void AfterDown()
 ```
+Stops being interrupted and starts a 4 second cooldown before the next attack.
+
 
 ### CheckPassageTarget()
 
 ```csharp
 private bool CheckPassageTarget()
 ```
+Returns true if there is another movable thing in the same room, and false otherwise.
+
 
 #### Returns
 
@@ -349,6 +409,8 @@ private bool CheckPassageTarget()
 ```csharp
 private bool CheckTargetExist()
 ```
+Return true if there are valid attack targets, and false otherwise.
+
 
 #### Returns
 
@@ -359,18 +421,24 @@ private bool CheckTargetExist()
 ```csharp
 private void EndAttack()
 ```
+Stops playing attack sounds, resets speed, plays a shutdown sound effect, and runs the shutdown animation. Sets flags for interrupted and recharging.
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+Plays an escape animation, breaches the abnormality, and sets its current direction to right.
+
 
 ### GetTargetList(MovableObjectNode[])
 
 ```csharp
 public MovableObjectNode[] GetTargetList(MovableObjectNode[] passageTarget)
 ```
+#INC
+
 
 #### Parameters
 
@@ -387,6 +455,9 @@ public MovableObjectNode[] GetTargetList(MovableObjectNode[] passageTarget)
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
+Makes a gut explosion effect on a killed worker, and makes the worker vanish.
+#code-generated
+
 
 #### Parameters
 
@@ -401,48 +472,72 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 private void MakeMovement()
 ```
+Moves All-Around Helper while breaching.
+###### more details
+If there are no living workers in the current department, chooses a random department to target; otherwise, uses the current department.
+
+Then, makes 5 attempts to choose a room different than the previous movement target; on failure, chooses the main rooms in the department instead. Then, chooses a random node within the selected room(s) and begins moving to it.
+
+Note: I'm pretty sure this has a bug which prevents the last room in the list from ever being chosen. #bug
+
 
 ### MakeSparkSound()
 
 ```csharp
 public void MakeSparkSound()
 ```
+Plays a spark sound.
+
 
 ### OnReturn()
 
 ```csharp
 public override void OnReturn()
 ```
+Calls base and resets the Qliphoth counter.
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+Calls ParamInit to reset variables.
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+Sets the animation script (to this), resets Helper's speed, and calls ParamInit to reset variables.
+
 
 ### OnSuppressed()
 
 ```csharp
 public override void OnSuppressed()
 ```
+When suppressed, immediately ends attack, stops any sound playing, calls ParamInit to reset variables, and removes the current behaviour.
+
 
 ### OnWakeUpEnded()
 
 ```csharp
 public void OnWakeUpEnded()
 ```
+Sets flags to indicate it is no longer recharging or attacking.
+
 
 ### OnWorkCoolTimeEnd(CreatureFeelingState)
 
 ```csharp
 public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
+When the work cooldown ends, randomly decreases the Qliphoth counter based on work result. Reduces by 1 at a 70% chance for bad results, and 50% for normal results.
+
+If the Qliphoth counter is above 0, also sets the form back to normal if needed.
+
 
 #### Parameters
 
@@ -455,18 +550,24 @@ public override void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public override void ParamInit()
 ```
+Resetter for attacks, animations, and sound variables.
+
 
 ### PrevEscape()
 
 ```csharp
 private void PrevEscape()
 ```
+Changes the form of the abnormality to its breaching form when breaching.
+
 
 ### SetAttackNode(MovableObjectNode)
 
 ```csharp
 private void SetAttackNode(MovableObjectNode target)
 ```
+Finds the left-most and right-most points in the room, then sets the target node to the direction of the provided attack target. (i.e., if the target is left, spin left, and vice versa.) If at the right-most point, always attacks left.
+
 
 #### Parameters
 
@@ -479,6 +580,8 @@ private void SetAttackNode(MovableObjectNode target)
 ```csharp
 public override bool SetCastingSlider(Slider castingSlider)
 ```
+Updates a slider during the spin attack, called when that slider exists... which I don't think it ever does. #verify
+
 
 #### Parameters
 
@@ -495,6 +598,8 @@ public override bool SetCastingSlider(Slider castingSlider)
 ```csharp
 private void SetSpinMultiplier(float elapsed)
 ```
+Sets the spinning animation speed to 0.3 times the time elapsed, for charging up the spin attack.
+
 
 #### Parameters
 
@@ -507,30 +612,44 @@ private void SetSpinMultiplier(float elapsed)
 ```csharp
 private void Shoot()
 ```
+Plays a sound and moves at 6x speed to one side of the room, for when the spin attack is done charging up.
+
 
 ### SpinAttack()
 
 ```csharp
 private void SpinAttack()
 ```
+All-Around Helper's spinning attack.
+
+For each living unit in the same room within 1.5 units of Helper which hasn't already been hit, deals damage. The first time something takes damage, also plays a hit sound.
+
 
 ### StartAttack()
 
 ```csharp
 private void StartAttack()
 ```
+Sets some flags to start attacking, and tells the animator to do the warm-up for the spin attack.
+
 
 ### StopMovement()
 
 ```csharp
 private void StopMovement()
 ```
+Clears the current command, tells the movable node to stop moving, and tells the animator Helper has stopped moving.
+
 
 ### TakeSpinDamage(UnitModel)
 
 ```csharp
 private void TakeSpinDamage(UnitModel unit)
 ```
+Deals damage to a unit for the spin attack and marks them as already hit.
+###### more details
+Skips dead units (redundantly), as well as invincible workers. Living workers take damage and display a damage particle effect, and explode if killed. If the target is a [creature](/api/Global/Model/CreatureModel), and isn't suppressed or returning, takes damage and displays a damage particle effect.
+
 
 #### Parameters
 
@@ -543,6 +662,8 @@ private void TakeSpinDamage(UnitModel unit)
 ```csharp
 private void TransformState(int val)
 ```
+Changes form.
+
 
 #### Parameters
 
@@ -555,3 +676,15 @@ private void TransformState(int val)
 ```csharp
 public override void UniqueEscape()
 ```
+Handles attacking and moving during breach.
+###### more details
+Does nothing during the transformation or during elevator transitions. If the spin attack is active, calls SpinAttack; otherwise, skips if interrupted.
+
+If not attacking, chooses a random target in the room and attacks them. If there are no targets, Helper isn't doing anything, and Helper is not recharging, then starts moving.
+
+When attacking, if an attack hasn't started, prepares to attack and plays a sound.
+
+Then, either waits while on cool-down, spins around, or if not doing anything else, ends the current attack. Also, checks for agents to give encounter damage.[^1]
+
+[^1]: Shouldn't this be an event, though? When an agent enters a room, check if they need to take fear damage? Why check this every frame?
+

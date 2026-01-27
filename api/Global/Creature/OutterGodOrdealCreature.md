@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/OutterGodOrdealCreature
 public class OutterGodOrdealCreature : CreatureBase
 ```
 
+Parent class for creatures in [violet ordeals](/api/Global/Misc/OutterGodOrdeal).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → OutterGodOrdealCreature
 
@@ -36,6 +39,8 @@ public OutterGodOrdealCreature()
 ```csharp
 protected OrdealLevel _level
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ protected OrdealLevel _level
 ```csharp
 protected OutterGodOrdeal _ordealScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -58,12 +65,17 @@ protected OutterGodOrdeal _ordealScript
 ```csharp
 public virtual void OnDie()
 ```
+#INC
+
 
 ### SetOrdeal(OutterGodOrdeal, OrdealLevel)
 
 ```csharp
 public virtual void SetOrdeal(OutterGodOrdeal ordealScript, OrdealLevel level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

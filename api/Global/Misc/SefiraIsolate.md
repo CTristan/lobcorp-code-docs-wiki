@@ -11,6 +11,10 @@ canonical_path: /api/Global/Misc/SefiraIsolate
 ```csharp
 public class SefiraIsolate
 ```
+Represents a place in the map for a [containment unit](/api/Global/IOBserver/IsolateRoom) in some [department](/api/Global/Misc/Sefira).
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraIsolate
@@ -33,6 +37,8 @@ public SefiraIsolate()
 ```csharp
 public long creatureId
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +49,8 @@ public long creatureId
 ```csharp
 public List<long> exclusiveID
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +61,8 @@ public List<long> exclusiveID
 ```csharp
 public int index
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +73,8 @@ public int index
 ```csharp
 public bool isUsed
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +85,8 @@ public bool isUsed
 ```csharp
 public string nodeId
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +97,8 @@ public string nodeId
 ```csharp
 public IsolatePos pos
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +109,8 @@ public IsolatePos pos
 ```csharp
 public float x
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +121,8 @@ public float x
 ```csharp
 public float y
 ```
+#INC
+
 
 #### Field Value
 
@@ -115,6 +135,9 @@ public float y
 ```csharp
 public bool isExclusive(long target)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

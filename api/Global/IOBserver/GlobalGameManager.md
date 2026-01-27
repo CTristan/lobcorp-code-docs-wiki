@@ -12,6 +12,133 @@ canonical_path: /api/Global/IOBserver/GlobalGameManager
 public class GlobalGameManager : MonoBehaviour, IObserver
 ```
 
+Main game manager.
+
+Primarily handles enabling and initializing the right systems when loading, and managing save files.
+
+Holds:
+- Versioning info
+- File names
+- Current language
+- Flag for enabling backer abnormalities
+- Various global game state
+- Active tutorial status
+- [Game mode](/api/Global/Misc/GameMode)
+- The Unity Canvas
+- The current language font
+
+
+#### Awake
+Runs on game start.
+- Loads saved global data with LoadStateData
+- Sets the  volume
+- [Sets resolution](/api/Global/Model/GameSettingModel)
+- Marks itself not to be deleted on loading scenes
+- Sets save file names
+- [Loads static data](/api/Global/Loader/GameStaticDataLoader)
+- Loads the [map](/api/Global/IOBserver/MapGraph)
+- Registers itself to be notified of auto-saves
+- Initializes the [AgentManager](/api/Global/IOBserver/AgentManager)
+- Sets font
+- Loads save data with LoadGlobalData
+
+#### Update
+Loads the title screen if in the start screen.
+Edits the alpha of some canvas elements if loaded #INC .
+
+#### LoadStateData
+Loads saved global state data.
+(Volumes, tooltips #inc, backer abnormality enabled-ness, language, 'logCount' #inc)
+#### SaveStateData
+Saves global state data.
+(Volumes, tooltips #inc, backer abnormality enabled-ness, language, 'logCount' #inc)
+
+#### LoadGlobalData
+Loads global save file data.
+Loads [observation data](/api/Global/IOBserver/CreatureManager), things stored in [GlobalEtcDataModel](/api/Global/Model/GlobalEtcDataModel), [researches obtained](/api/Global/Model/ResearchDataModel), [EGO owned](/api/Global/Model/InventoryModel), [missions completed](/api/Global/IOBserver/MissionManager), and [meltdowns completed](/api/Global/Misc/SefiraCharacterManager) #verify.
+#### SaveGlobalData
+Saves global save file data.
+#### RemoveGlobalData
+Removes global save file data.
+
+
+#### SaveLogs
+Writes the current log to file.
+
+
+#### InitStoryMode
+Starts a new story mode run.
+- Initializes [MoneyModel](/api/Global/Model/MoneyModel)
+- Clears:
+	- [Departments](/api/Global/IOBserver/SefiraManager)
+	- [Clerks?](/api/Global/Misc/OfficerManager)
+	- [Agents](/api/Global/IOBserver/AgentManager)
+	- [Abnormalities](/api/Global/IOBserver/CreatureManager)
+- Initializes the [PlayerModel](/api/Global/Model/PlayerModel)
+- Loads a day 1 agents from [StageRewardTypeList](/api/Global/List/StageRewardTypeList)
+- Adds starting LOB
+
+#### InitTutorial(int step)
+Starts the tutorial.
+Clears:
+- [Observation data](/api/Global/IOBserver/CreatureManager)
+- [Global data](/api/Global/Model/GlobalEtcDataModel)
+- [Departments](/api/Global/IOBserver/SefiraManager)
+- [Clerks](/api/Global/Misc/OfficerManager)
+- [Agents](/api/Global/IOBserver/AgentManager)
+- [Abnormalities](/api/Global/IOBserver/CreatureManager)
+Initializes:
+- [Research progress](/api/Global/Model/ResearchDataModel)
+- [EGO owned](/api/Global/Model/InventoryModel)
+- [Missions](/api/Global/IOBserver/MissionManager)
+- [SefiraCharacterManager](/api/Global/Misc/SefiraCharacterManager) #INC 
+- [LOB points](/api/Global/Model/MoneyModel)
+- [Player](/api/Global/Model/PlayerModel)
+Then sets the day to 0, [game mode](/api/Global/Misc/GameMode) to TUTORIAL, and starts playing.
+
+#### InitHidden
+Starts the game in the [game mode](/api/Global/Misc/GameMode) HIDDEN. #INC 
+
+
+#### ReleaseGame
+Exits from gameplay.
+- Calls:
+	- [InventoryModel](/api/Global/Model/InventoryModel) (OnReleaseGame)
+	- [MissionManager](/api/Global/IOBserver/MissionManager) (ReleaseGame)
+- Initializes [LOB points](/api/Global/Model/MoneyModel)
+- Clears unit data in [SefiraManager](/api/Global/IOBserver/SefiraManager) #INC 
+- Clears [clerks](/api/Global/Misc/OfficerManager)
+- Clears [agents](/api/Global/IOBserver/AgentManager)
+- Clears [abnormalities](/api/Global/IOBserver/CreatureManager)
+- Initializes [PlayerModel](/api/Global/Model/PlayerModel)
+- Clears [departments](/api/Global/IOBserver/SefiraManager)
+- Reset [map](/api/Global/IOBserver/MapGraph)
+- Calls [AgentNameList](/api/Global/List/AgentNameList) (OnInit)
+- Creates a new [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) and loads containment unit info #INC 
+- Sets some flags
+
+
+
+#### ChangeFont
+Changes the fonts based on the language with GetLanguageFont.
+#### string GetLanguageFont
+Chinese (both), Japanese, Vietnamese, Bulgarian, French, English, and Portuguese (both) use the same font as for English. All others have a custom font. #INC 
+#### SetLanguageFont
+Sets the font.
+#### GetCurrentLanguage
+Gets the language string. (It's public, though...)
+
+
+#### MessageHandler
+Logs a string and stack trace
+
+#### OnApplicationQuit
+Saves logs and global state data.
+(Volumes, tooltips #inc, backer abnormality enabled-ness, language, 'logCount' #inc)
+
+## #INC
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalGameManager
 
@@ -46,6 +173,8 @@ private static GlobalGameManager.LanguageFont _currentLanguageFont
 ```csharp
 private static GlobalGameManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +185,8 @@ private static GlobalGameManager _instance
 ```csharp
 private bool _isPlayingTutorial
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +197,8 @@ private bool _isPlayingTutorial
 ```csharp
 private SystemLanguage _language
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +209,8 @@ private SystemLanguage _language
 ```csharp
 public bool _tutorialPlayed
 ```
+#INC
+
 
 #### Field Value
 
@@ -86,6 +221,8 @@ public bool _tutorialPlayed
 ```csharp
 private bool bPlayingGame
 ```
+#INC
+
 
 #### Field Value
 
@@ -96,6 +233,8 @@ private bool bPlayingGame
 ```csharp
 public string BuildVer
 ```
+#INC
+
 
 #### Field Value
 
@@ -106,6 +245,8 @@ public string BuildVer
 ```csharp
 private bool calcTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -116,6 +257,8 @@ private bool calcTime
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -126,6 +269,8 @@ public Canvas canvas
 ```csharp
 public const int checkPointOffset = 10000
 ```
+#INC
+
 
 #### Field Value
 
@@ -136,6 +281,8 @@ public const int checkPointOffset = 10000
 ```csharp
 public bool dlcCreatureOn
 ```
+#INC
+
 
 #### Field Value
 
@@ -146,6 +293,8 @@ public bool dlcCreatureOn
 ```csharp
 public string etcRemembered
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +316,8 @@ private List<GlobalGameManager.LanguageFont> fontList
 ```csharp
 public GameMode gameMode
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +328,8 @@ public GameMode gameMode
 ```csharp
 public bool isLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -187,6 +340,8 @@ public bool isLoaded
 ```csharp
 public string language
 ```
+#INC
+
 
 #### Field Value
 
@@ -197,6 +352,8 @@ public string language
 ```csharp
 public bool lastLoaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -207,6 +364,8 @@ public bool lastLoaded
 ```csharp
 public string loadingScene
 ```
+#INC
+
 
 #### Field Value
 
@@ -217,6 +376,8 @@ public string loadingScene
 ```csharp
 public LoadingScreen loadingScreen
 ```
+#INC
+
 
 #### Field Value
 
@@ -227,6 +388,8 @@ public LoadingScreen loadingScreen
 ```csharp
 private int logCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -237,6 +400,8 @@ private int logCount
 ```csharp
 private const int logMax = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -247,6 +412,8 @@ private const int logMax = 10
 ```csharp
 private string logOutput
 ```
+#INC
+
 
 #### Field Value
 
@@ -257,6 +424,8 @@ private string logOutput
 ```csharp
 private string logStack
 ```
+#INC
+
 
 #### Field Value
 
@@ -267,6 +436,8 @@ private string logStack
 ```csharp
 public float playTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -288,6 +459,8 @@ public Dictionary<string, object> preLoadedTutorialData
 ```csharp
 private const string SAVE_VER = "ver1"
 ```
+#INC
+
 
 #### Field Value
 
@@ -298,6 +471,8 @@ private const string SAVE_VER = "ver1"
 ```csharp
 private string saveEtcFileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -308,6 +483,8 @@ private string saveEtcFileName
 ```csharp
 private string saveFileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -318,6 +495,8 @@ private string saveFileName
 ```csharp
 private string saveGlobalFileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -328,6 +507,8 @@ private string saveGlobalFileName
 ```csharp
 public string saveState
 ```
+#INC
+
 
 #### Field Value
 
@@ -338,6 +519,8 @@ public string saveState
 ```csharp
 private string saveUnlimitFileName
 ```
+#INC
+
 
 #### Field Value
 
@@ -348,6 +531,8 @@ private string saveUnlimitFileName
 ```csharp
 public const string saveVerName = "170808"
 ```
+#INC
+
 
 #### Field Value
 
@@ -358,6 +543,8 @@ public const string saveVerName = "170808"
 ```csharp
 public SceneDataSave sceneDataSaver
 ```
+#INC
+
 
 #### Field Value
 
@@ -368,6 +555,8 @@ public SceneDataSave sceneDataSaver
 ```csharp
 public int ScreenWidth
 ```
+#INC
+
 
 #### Field Value
 
@@ -378,6 +567,8 @@ public int ScreenWidth
 ```csharp
 public string singledaySave
 ```
+#INC
+
 
 #### Field Value
 
@@ -388,6 +579,8 @@ public string singledaySave
 ```csharp
 public string storySaveDir
 ```
+#INC
+
 
 #### Field Value
 
@@ -398,6 +591,8 @@ public string storySaveDir
 ```csharp
 public int tutorialStep
 ```
+#INC
+
 
 #### Field Value
 
@@ -408,6 +603,8 @@ public int tutorialStep
 ```csharp
 private const string ver = "170808"
 ```
+#INC
+
 
 #### Field Value
 
@@ -418,6 +615,8 @@ private const string ver = "170808"
 ```csharp
 public const string verPathName = "170808"
 ```
+#INC
+
 
 #### Field Value
 
@@ -502,12 +701,17 @@ public bool tutorialPlayed { get; set; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### ChangeFont(string, FontType, string)
 
 ```csharp
 public void ChangeFont(string language, FontType type, string fontName)
 ```
+#INC
+
 
 #### Parameters
 
@@ -522,6 +726,8 @@ public void ChangeFont(string language, FontType type, string fontName)
 ```csharp
 public void ChangeLanguage(SystemLanguage value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -534,6 +740,8 @@ public void ChangeLanguage(SystemLanguage value)
 ```csharp
 public bool ExistEtcData()
 ```
+#INC
+
 
 #### Returns
 
@@ -544,6 +752,8 @@ public bool ExistEtcData()
 ```csharp
 public bool ExistSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -554,6 +764,8 @@ public bool ExistSaveData()
 ```csharp
 public bool ExistUnlimitData()
 ```
+#INC
+
 
 #### Returns
 
@@ -564,6 +776,8 @@ public bool ExistUnlimitData()
 ```csharp
 public string GetCurrentLanguage()
 ```
+#INC
+
 
 #### Returns
 
@@ -574,6 +788,8 @@ public string GetCurrentLanguage()
 ```csharp
 private int GetDayFromSaveData(Dictionary<string, object> dayData)
 ```
+#INC
+
 
 #### Parameters
 
@@ -590,6 +806,8 @@ private int GetDayFromSaveData(Dictionary<string, object> dayData)
 ```csharp
 public SystemLanguage GetLanguage(string str)
 ```
+#INC
+
 
 #### Parameters
 
@@ -606,6 +824,8 @@ public SystemLanguage GetLanguage(string str)
 ```csharp
 public string GetLanguage(SystemLanguage ln)
 ```
+#INC
+
 
 #### Parameters
 
@@ -638,6 +858,8 @@ public GlobalGameManager.LanguageFont GetLanguageFont(string language)
 ```csharp
 private string GetLogSrc()
 ```
+#INC
+
 
 #### Returns
 
@@ -648,6 +870,8 @@ private string GetLogSrc()
 ```csharp
 public Dictionary<string, object> GetSaveDayData()
 ```
+#INC
+
 
 #### Returns
 
@@ -658,18 +882,24 @@ public Dictionary<string, object> GetSaveDayData()
 ```csharp
 public void InitHidden()
 ```
+#INC
+
 
 ### InitStoryMode()
 
 ```csharp
 public void InitStoryMode()
 ```
+#INC
+
 
 ### InitTutorial(int)
 
 ```csharp
 public void InitTutorial(int step)
 ```
+#INC
+
 
 #### Parameters
 
@@ -682,6 +912,8 @@ public void InitTutorial(int step)
 ```csharp
 public bool IsPlaying()
 ```
+#INC
+
 
 #### Returns
 
@@ -692,12 +924,16 @@ public bool IsPlaying()
 ```csharp
 private void LateUpdate()
 ```
+#INC
+
 
 ### LoadCheckPointDay()
 
 ```csharp
 public int LoadCheckPointDay()
 ```
+#INC
+
 
 #### Returns
 
@@ -708,6 +944,8 @@ public int LoadCheckPointDay()
 ```csharp
 public void LoadData(SaveType saveType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -720,12 +958,16 @@ public void LoadData(SaveType saveType)
 ```csharp
 private void LoadData_preprocess()
 ```
+#INC
+
 
 ### LoadDay(Dictionary<string, object>)
 
 ```csharp
 private void LoadDay(Dictionary<string, object> data)
 ```
+#INC
+
 
 #### Parameters
 
@@ -738,6 +980,8 @@ private void LoadDay(Dictionary<string, object> data)
 ```csharp
 public Dictionary<string, object> LoadEtcFile()
 ```
+#INC
+
 
 #### Returns
 
@@ -748,12 +992,16 @@ public Dictionary<string, object> LoadEtcFile()
 ```csharp
 public void LoadGlobalData()
 ```
+#INC
+
 
 ### LoadSaveFile()
 
 ```csharp
 public Dictionary<string, object> LoadSaveFile()
 ```
+#INC
+
 
 #### Returns
 
@@ -764,18 +1012,24 @@ public Dictionary<string, object> LoadSaveFile()
 ```csharp
 public void LoadStateData()
 ```
+#INC
+
 
 ### LoadUnlimitData()
 
 ```csharp
 public void LoadUnlimitData()
 ```
+#INC
+
 
 ### MessageHandler(string, string, LogType)
 
 ```csharp
 private void MessageHandler(string logString, string stackTrace, LogType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -790,30 +1044,40 @@ private void MessageHandler(string logString, string stackTrace, LogType type)
 ```csharp
 private void OnApplicationQuit()
 ```
+#INC
+
 
 ### OnDisable()
 
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+
 
 ### OnLevelWasLoaded()
 
 ```csharp
 private void OnLevelWasLoaded()
 ```
+#INC
+
 
 ### OnNotice(string, params object[])
 
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
+#INC
+
 
 #### Parameters
 
@@ -827,6 +1091,8 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public int PreLoadData()
 ```
+#INC
+
 
 #### Returns
 
@@ -837,36 +1103,48 @@ public int PreLoadData()
 ```csharp
 public void ReleaseGame()
 ```
+#INC
+
 
 ### RemoveEtcData()
 
 ```csharp
 public void RemoveEtcData()
 ```
+#INC
+
 
 ### RemoveGlobalData()
 
 ```csharp
 public void RemoveGlobalData()
 ```
+#INC
+
 
 ### RemoveSaveData()
 
 ```csharp
 public void RemoveSaveData()
 ```
+#INC
+
 
 ### RemoveUnlimitData()
 
 ```csharp
 public void RemoveUnlimitData()
 ```
+#INC
+
 
 ### SaveData(bool)
 
 ```csharp
 public void SaveData(bool saveCheckPoint = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -879,60 +1157,80 @@ public void SaveData(bool saveCheckPoint = false)
 ```csharp
 public void SaveDataWithCheckPoint()
 ```
+#INC
+
 
 ### SaveEtcData()
 
 ```csharp
 public void SaveEtcData()
 ```
+#INC
+
 
 ### SaveGlobalData()
 
 ```csharp
 public void SaveGlobalData()
 ```
+#INC
+
 
 ### SaveLogs()
 
 ```csharp
 private void SaveLogs()
 ```
+#INC
+
 
 ### SaveStateData()
 
 ```csharp
 public void SaveStateData()
 ```
+#INC
+
 
 ### SaveUnlimitData()
 
 ```csharp
 public void SaveUnlimitData()
 ```
+#INC
+
 
 ### SetLanguageFont()
 
 ```csharp
 public void SetLanguageFont()
 ```
+#INC
+
 
 ### Start()
 
 ```csharp
 private void Start()
 ```
+#INC
+
 
 ### StoryReturnTitle()
 
 ```csharp
 public void StoryReturnTitle()
 ```
+#INC
+
 
 ### TryGetGlobalData(out Dictionary<string, object>)
 
 ```csharp
 public bool TryGetGlobalData(out Dictionary<string, object> dictionary)
 ```
+#INC
+
 
 #### Parameters
 
@@ -949,6 +1247,8 @@ public bool TryGetGlobalData(out Dictionary<string, object> dictionary)
 ```csharp
 public bool TrySetGlobalInventoryData(Dictionary<string, object> dictionary)
 ```
+#INC
+
 
 #### Parameters
 
@@ -965,3 +1265,5 @@ public bool TrySetGlobalInventoryData(Dictionary<string, object> dictionary)
 ```csharp
 private void Update()
 ```
+#INC
+

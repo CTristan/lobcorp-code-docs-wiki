@@ -11,6 +11,8 @@ canonical_path: /api/Global/Model/LocalizeTextDataModel
 ```csharp
 public class LocalizeTextDataModel
 ```
+Used for getting text which changes between languages by key. #INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LocalizeTextDataModel
@@ -25,6 +27,9 @@ public class LocalizeTextDataModel
 ```csharp
 public LocalizeTextDataModel()
 ```
+#INC
+#code-generated
+
 
 ## Fields
 
@@ -33,6 +38,8 @@ public LocalizeTextDataModel()
 ```csharp
 private static LocalizeTextDataModel _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private static LocalizeTextDataModel _instance
 ```csharp
 private Dictionary<string, string> _list
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private Dictionary<string, string> _list
 ```csharp
 private bool _loaded
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private bool _loaded
 ```csharp
 public const string Failed = "UNKNOWN"
 ```
+#INC
+
 
 #### Field Value
 
@@ -97,6 +110,8 @@ public bool loaded { get; }
 ```csharp
 public string GetText(string id)
 ```
+#INC
+
 
 #### Parameters
 
@@ -113,6 +128,8 @@ public string GetText(string id)
 ```csharp
 public string GetTextAppend(params string[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,6 +146,8 @@ public string GetTextAppend(params string[] ids)
 ```csharp
 public string GetTextAppendFailEmpty(params string[] ids)
 ```
+#INC
+
 
 #### Parameters
 
@@ -145,6 +164,8 @@ public string GetTextAppendFailEmpty(params string[] ids)
 ```csharp
 public void Init(Dictionary<string, string> data)
 ```
+#INC
+
 
 #### Parameters
 

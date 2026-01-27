@@ -12,6 +12,9 @@ canonical_path: /api/Global/Armor/WellcheersArmor
 public class WellcheersArmor : EquipmentScriptBase
 ```
 
+Script for [Opened Can of Wellcheers](/api/Global/Misc/Wellcheers)' EGO Suit: Soda. No script, just a debug log.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → WellcheersArmor
 
@@ -33,6 +36,8 @@ public WellcheersArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +50,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

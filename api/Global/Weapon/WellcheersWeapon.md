@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/WellcheersWeapon
 public class WellcheersWeapon : EquipmentScriptBase
 ```
 
+Script for [Opened Can of Wellcheers](/api/Global/Misc/Wellcheers)' EGO Weapon: Soda. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → WellcheersWeapon
 

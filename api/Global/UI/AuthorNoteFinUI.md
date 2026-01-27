@@ -11,6 +11,8 @@ canonical_path: /api/Global/UI/AuthorNoteFinUI
 ```csharp
 public class AuthorNoteFinUI : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AuthorNoteFinUI
@@ -33,6 +35,8 @@ public AuthorNoteFinUI()
 ```csharp
 public Canvas canvas
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +47,8 @@ public Canvas canvas
 ```csharp
 private float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ private float elapsedTime
 ```csharp
 public Image filterRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public Image filterRenderer
 ```csharp
 public Image finRenderer
 ```
+#INC
+
 
 #### Field Value
 
@@ -75,9 +85,14 @@ public Image finRenderer
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

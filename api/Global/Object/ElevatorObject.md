@@ -11,6 +11,13 @@ canonical_path: /api/Global/Object/ElevatorObject
 ```csharp
 public class ElevatorObject : MonoBehaviour
 ```
+An elevator.
+...
+Maybe.
+
+"Used" in [ElevatorPassageModel](/api/Global/Model/ElevatorPassageModel)
+#unused #maybe_unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ElevatorObject
@@ -33,9 +40,14 @@ public ElevatorObject()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

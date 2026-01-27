@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/WorkerDeadScript
 public class WorkerDeadScript : MonoBehaviour
 ```
 
+Script that runs to change an employee to a dead employee.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerDeadScript
 
@@ -33,6 +38,8 @@ public WorkerDeadScript()
 ```csharp
 public Animator anim
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Animator anim
 ```csharp
 public SpriteRenderer Body
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public SpriteRenderer Body
 ```csharp
 private Sprite defaultFace
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ public WorkerDeadScript.EventMethod eventMethod
 ```csharp
 public SpriteRenderer Face
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public SpriteRenderer Face
 ```csharp
 public SpriteRenderer Hair
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public SpriteRenderer Hair
 ```csharp
 public SpriteRenderer Head
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public SpriteRenderer Head
 ```csharp
 public Sprite headSprite
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public Sprite headSprite
 ```csharp
 public SpriteRenderer LeftDownArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public SpriteRenderer LeftDownArm
 ```csharp
 public SpriteRenderer LeftDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ public SpriteRenderer LeftDownLeg
 ```csharp
 public SpriteRenderer LeftUpArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public SpriteRenderer LeftUpArm
 ```csharp
 public SpriteRenderer LeftUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public SpriteRenderer LeftUpLeg
 ```csharp
 public SpriteRenderer RightDownArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +192,8 @@ public SpriteRenderer RightDownArm
 ```csharp
 public SpriteRenderer RightDownLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +204,8 @@ public SpriteRenderer RightDownLeg
 ```csharp
 public SpriteRenderer RightUpArm
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +216,8 @@ public SpriteRenderer RightUpArm
 ```csharp
 public SpriteRenderer RightUpLeg
 ```
+#INC
+
 
 #### Field Value
 
@@ -204,6 +239,8 @@ public WorkerSpriteSet spriteSet
 ```csharp
 public SpriteRenderer Symbol
 ```
+#INC
+
 
 #### Field Value
 
@@ -216,12 +253,17 @@ public SpriteRenderer Symbol
 ```csharp
 public void DestroyObject()
 ```
+#INC
+
 
 ### Init(WorkerModel)
 
 ```csharp
 public void Init(WorkerModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -234,6 +276,8 @@ public void Init(WorkerModel model)
 ```csharp
 public void OnEventCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -246,6 +290,8 @@ public void OnEventCalled(int i)
 ```csharp
 public void PlaySound(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -270,6 +316,8 @@ public void SetEventMethod(WorkerDeadScript.EventMethod method)
 ```csharp
 public void SetFaceSprite(Sprite sprite)
 ```
+#INC
+
 
 #### Parameters
 
@@ -282,9 +330,13 @@ public void SetFaceSprite(Sprite sprite)
 ```csharp
 public void SetFaceSpriteDefault()
 ```
+#INC
+
 
 ### SetHeadSprite()
 
 ```csharp
 public void SetHeadSprite()
 ```
+#INC
+

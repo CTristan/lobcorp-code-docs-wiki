@@ -11,6 +11,46 @@ canonical_path: /api/CreatureInfo/WeaponSlot
 ```csharp
 public class WeaponSlot : EquipSlot
 ```
+Class for displaying the EGO weapon in the abnormality information screen.
+
+**Fields:**
+TooltipMouseOver MakeWeaponTooltip: #INC
+
+Image ItemImage: Weapon sprite
+
+Text ItemGrade: Item EGO grade
+
+Text DamageRange: range of damage (e.g., 4-6 red?)
+
+Text AttackSpeed: estimate of attack speed (e.g., very slow)
+
+Text MakeCount: displays how many are made of what max? #INC
+
+Image TypeFill: ? #INC
+
+Text TypeText: Type of weapon (e.g., spear?)
+
+Button BuildButton: Buys and constructs a weapon
+
+int Cost: cost in PE boxes of this weapon
+
+CreatureModel currentCreature: presumably, a pointer to the parent? #INC
+
+
+
+**Methods:**
+void SetModel([EquipmentModel](/api/Global/Model/EquipmentModel) Model): Pseudo-constructor based on a more generic 'EquipmentModel'? #INC
+
+void SetModel([EquipmentTypeInfo](/api/Global/Info/EquipmentTypeInfo) info): Pseudo-constructor from EquipmentTypeInfo? #INC
+
+void CheckMakeCount(): Grabs and updates current count and max count from [InventoryModel](/api/Global/Model/InventoryModel).
+
+void OnEnter(): Changes the text to display buy message
+
+void OnExit(): Changes the text to display the cost
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipSlot](/api/CreatureInfo/EquipSlot) → WeaponSlot
@@ -33,6 +73,8 @@ public WeaponSlot()
 ```csharp
 public Text AttackRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +85,8 @@ public Text AttackRange
 ```csharp
 public Text AttackSpeed
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +97,8 @@ public Text AttackSpeed
 ```csharp
 public Button BuildButton
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +109,8 @@ public Button BuildButton
 ```csharp
 private string cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +121,8 @@ private string cost
 ```csharp
 public int Cost
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +133,8 @@ public int Cost
 ```csharp
 public CreatureModel currentCreature
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +145,8 @@ public CreatureModel currentCreature
 ```csharp
 public Text DamageRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +157,8 @@ public Text DamageRange
 ```csharp
 public Text ItemGrade
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +169,8 @@ public Text ItemGrade
 ```csharp
 public Image ItemImage
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +181,8 @@ public Image ItemImage
 ```csharp
 public Text MakeCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +193,8 @@ public Text MakeCount
 ```csharp
 public TooltipMouseOver MakeWeaponTooltip
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +205,8 @@ public TooltipMouseOver MakeWeaponTooltip
 ```csharp
 public Image TypeFill
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +217,8 @@ public Image TypeFill
 ```csharp
 public Text TypeText
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,24 +243,33 @@ private WeaponModel WeaponModel { get; }
 ```csharp
 public void CheckMakeCount()
 ```
+#INC
+
 
 ### OnEnter()
 
 ```csharp
 public void OnEnter()
 ```
+#INC
+
 
 ### OnExit()
 
 ```csharp
 public void OnExit()
 ```
+#INC
+
 
 ### SetModel(EquipmentModel)
 
 ```csharp
 public override void SetModel(EquipmentModel Model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -207,6 +282,8 @@ public override void SetModel(EquipmentModel Model)
 ```csharp
 public override void SetModel(EquipmentTypeInfo info)
 ```
+#INC
+
 
 #### Parameters
 

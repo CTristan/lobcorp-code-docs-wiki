@@ -12,6 +12,11 @@ canonical_path: /api/Global/UI/StoryLogItemUI
 public class StoryLogItemUI : MonoBehaviour
 ```
 
+An entry in the story log.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StoryLogItemUI
 
@@ -33,6 +38,8 @@ public StoryLogItemUI()
 ```csharp
 public Text charName
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ public Text charName
 ```csharp
 public Image frame
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ public Image frame
 ```csharp
 public Image nameFrame
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ public Image nameFrame
 ```csharp
 private const float padding = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const float padding = 15
 ```csharp
 public Image portrait
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ public Image portrait
 ```csharp
 public Text textUI
 ```
+#INC
+
 
 #### Field Value
 
@@ -95,6 +112,9 @@ public Text textUI
 ```csharp
 public void Init(StoryUI.CharacterVar charVar, string text)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

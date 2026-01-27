@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/PanicOfficer
 public class PanicOfficer : PanicAction
 ```
 
+Clerks' panic behaviour. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicOfficer
 
@@ -25,6 +28,8 @@ public class PanicOfficer : PanicAction
 ```csharp
 public PanicOfficer(WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +44,8 @@ public PanicOfficer(WorkerModel target)
 ```csharp
 private Timer _retryTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -49,6 +56,8 @@ private Timer _retryTimer
 ```csharp
 private Timer _returnPanicTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +78,8 @@ private PanicOfficer.OfficerPanicState _state
 ```csharp
 private WorkerModel actor
 ```
+#INC
+
 
 #### Field Value
 
@@ -79,6 +90,8 @@ private WorkerModel actor
 ```csharp
 private const float suicideProb = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -91,21 +104,30 @@ private const float suicideProb = 0.1
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### Init()
 
 ```csharp
 public override void Init()
 ```
+#INC
+#code-generated
+
 
 ### PanicEnd()
 
 ```csharp
 public override void PanicEnd()
 ```
+#INC
+
 
 ### TrySuicide()
 
 ```csharp
 public void TrySuicide()
 ```
+#INC
+

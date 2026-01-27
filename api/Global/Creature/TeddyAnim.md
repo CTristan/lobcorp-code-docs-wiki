@@ -12,6 +12,11 @@ canonical_path: /api/Global/Creature/TeddyAnim
 public class TeddyAnim : CreatureAnimScript, IAnimatorEventCalled
 ```
 
+Animation handler for [Happy Teddy Bear](/api/Global/Misc/HappyTeddy).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → TeddyAnim
 
@@ -36,6 +41,8 @@ public TeddyAnim()
 ```csharp
 private HappyTeddy script
 ```
+#INC
+
 
 #### Field Value
 
@@ -48,18 +55,24 @@ private HappyTeddy script
 ```csharp
 public void AgentReset()
 ```
+#INC
+
 
 ### AnimatorEventInit()
 
 ```csharp
 public void AnimatorEventInit()
 ```
+#INC
+
 
 ### AttackCalled(int)
 
 ```csharp
 public void AttackCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -72,12 +85,16 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
+#INC
+
 
 ### CreatureAnimCall(int, CreatureBase)
 
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,12 +108,16 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void OnCalled()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public void OnCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -109,6 +130,9 @@ public void OnCalled(int i)
 ```csharp
 public void SetScript(HappyTeddy script)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -121,12 +145,16 @@ public void SetScript(HappyTeddy script)
 ```csharp
 public void SimpleReset()
 ```
+#INC
+
 
 ### SoundMake(string)
 
 ```csharp
 public void SoundMake(string src)
 ```
+#INC
+
 
 #### Parameters
 
@@ -139,12 +167,16 @@ public void SoundMake(string src)
 ```csharp
 private void SpecialAttack()
 ```
+#INC
+
 
 ### TakeDamageAnim(int)
 
 ```csharp
 public void TakeDamageAnim(int isPhysical)
 ```
+#INC
+
 
 #### Parameters
 

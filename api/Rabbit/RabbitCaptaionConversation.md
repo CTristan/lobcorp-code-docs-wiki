@@ -11,6 +11,12 @@ canonical_path: /api/Rabbit/RabbitCaptaionConversation
 ```csharp
 public static class RabbitCaptaionConversation
 ```
+Rabbit protocol progress messages during suppression (played during the day).
+
+Randomly selects text of different types. See [RabbitCaptainConversationType](/api/Rabbit/RabbitCaptainConversationType).
+
+During [Gebura](/api/Global/Misc/GeburahBossBase) and [Binah's core suppressions](/api/Global/Misc/BinahBossBase), has special text instead.
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitCaptaionConversation
@@ -25,6 +31,8 @@ public static class RabbitCaptaionConversation
 ```csharp
 private const string format = "Rabbit_Captain_{0}_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -35,6 +43,8 @@ private const string format = "Rabbit_Captain_{0}_"
 ```csharp
 public static int[] keyCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -69,6 +79,9 @@ public static bool Geburah { get; }
 ```csharp
 public static string GetKey(RabbitCaptainConversationType type)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -85,6 +98,8 @@ public static string GetKey(RabbitCaptainConversationType type)
 ```csharp
 public static string GetText(RabbitCaptainConversationType type)
 ```
+#INC
+
 
 #### Parameters
 

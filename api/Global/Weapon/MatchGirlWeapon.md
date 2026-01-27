@@ -12,6 +12,12 @@ canonical_path: /api/Global/Weapon/MatchGirlWeapon
 public class MatchGirlWeapon : EquipmentScriptBase
 ```
 
+Script for [Scorched Girl](/api/Global/Misc/MatchGirl)'s EGO Weapon: Fourth Match Flame. No script.
+
+#unused 
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → MatchGirlWeapon
 

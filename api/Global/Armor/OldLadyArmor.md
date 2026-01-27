@@ -12,6 +12,13 @@ canonical_path: /api/Global/Armor/OldLadyArmor
 public class OldLadyArmor : EquipmentScriptBase
 ```
 
+Script for [Old Lady](/api/Global/IOBserver/OldLady)'s EGO Suit: Solitude.
+
+Displays a debug log.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → OldLadyArmor
 
@@ -33,6 +40,8 @@ public OldLadyArmor()
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +54,9 @@ private readonly bool _LOG_STATE
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

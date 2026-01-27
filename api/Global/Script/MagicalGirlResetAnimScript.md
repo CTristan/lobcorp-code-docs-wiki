@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/MagicalGirlResetAnimScript
 public class MagicalGirlResetAnimScript : MonoBehaviour
 ```
 
+Presumably the script for [Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s transformation to her normal form...
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MagicalGirlResetAnimScript
 
@@ -33,6 +38,8 @@ public MagicalGirlResetAnimScript()
 ```csharp
 public GameObject Head
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +52,9 @@ public GameObject Head
 ```csharp
 public GameObject GetHead()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 

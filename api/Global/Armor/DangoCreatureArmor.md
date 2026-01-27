@@ -12,6 +12,11 @@ canonical_path: /api/Global/Armor/DangoCreatureArmor
 public class DangoCreatureArmor : EquipmentScriptBase
 ```
 
+Script for [Mountain of Smiling Bodies](/api/Global/IOBserver/DangoCreature)'s EGO Suit: Smile.
+
+Eats bodies if close enough to heal the employee.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → DangoCreatureArmor
 
@@ -33,6 +38,8 @@ public DangoCreatureArmor()
 ```csharp
 private const float _healHpRatio = 0.1
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _healHpRatio = 0.1
 ```csharp
 private readonly bool _LOG_STATE
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private readonly bool _LOG_STATE
 ```csharp
 private const float _lootRange = 1
 ```
+#INC
+
 
 #### Field Value
 
@@ -65,6 +76,8 @@ private const float _lootRange = 1
 ```csharp
 private List<WorkerModel> GetDeads()
 ```
+#INC
+
 
 #### Returns
 
@@ -75,6 +88,8 @@ private List<WorkerModel> GetDeads()
 ```csharp
 private float GetDistance(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -91,6 +106,8 @@ private float GetDistance(UnitModel target)
 ```csharp
 private void Heal(WorkerModel dead)
 ```
+#INC
+
 
 #### Parameters
 
@@ -103,6 +120,8 @@ private void Heal(WorkerModel dead)
 ```csharp
 private bool IsInRange(UnitModel target, float range)
 ```
+#INC
+
 
 #### Parameters
 
@@ -120,12 +139,17 @@ private bool IsInRange(UnitModel target, float range)
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+#code-generated
+
 
 ### PrintLog(string)
 
 ```csharp
 private void PrintLog(string s)
 ```
+#INC
+
 
 #### Parameters
 

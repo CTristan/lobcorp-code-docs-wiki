@@ -36,6 +36,8 @@ public WingFilter()
 ```csharp
 private const float _stdSize = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +48,8 @@ private const float _stdSize = 5
 ```csharp
 private GameObject effect
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +60,8 @@ private GameObject effect
 ```csharp
 private Vector3 localPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +72,8 @@ private Vector3 localPosition
 ```csharp
 private ParticleSystem particle
 ```
+#INC
+
 
 #### Field Value
 
@@ -76,6 +84,8 @@ private ParticleSystem particle
 ```csharp
 private const string PrefabSrc = "Effect/WingEffect"
 ```
+#INC
+
 
 #### Field Value
 
@@ -88,6 +98,8 @@ private const string PrefabSrc = "Effect/WingEffect"
 ```csharp
 private float GetScaleFactor()
 ```
+#INC
+
 
 #### Returns
 
@@ -98,9 +110,14 @@ private float GetScaleFactor()
 ```csharp
 private void OnDisable()
 ```
+#INC
+
 
 ### OnEnable()
 
 ```csharp
 private void OnEnable()
 ```
+#INC
+#code-generated
+

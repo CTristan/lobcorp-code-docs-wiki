@@ -12,6 +12,11 @@ canonical_path: /api/Global/Script/FloatingPortraitScript
 public class FloatingPortraitScript : MonoBehaviour
 ```
 
+Script which transforms the portrait of its parent [AgentSlotUI](/api/Global/IOBserver/AgentSlotUI) for draggable agent slots.
+
+Used by [DeployAgentSlot](/api/Global/Misc/DeployAgentSlot) and [DeploySefiraAgentSlot](/api/Global/Misc/DeploySefiraAgentSlot).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → FloatingPortraitScript
 
@@ -33,6 +38,8 @@ public FloatingPortraitScript()
 ```csharp
 public AgentSlotUI ui
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +64,9 @@ public RectTransform rect { get; }
 ```csharp
 public void Init(AgentModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

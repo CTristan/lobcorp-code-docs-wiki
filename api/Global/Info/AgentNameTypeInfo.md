@@ -11,6 +11,12 @@ canonical_path: /api/Global/Info/AgentNameTypeInfo
 ```csharp
 public class AgentNameTypeInfo
 ```
+Stores an ID, whether an [agent name](/api/Global/Misc/AgentName) is custom, and provides a way to obtain the name...?
+
+Oddly, it seems the difference between backer names and other names is based on the value of the ID -- SetAsCreditName *just* adds 10000 to the id...
+
+#INC 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentNameTypeInfo
@@ -33,6 +39,8 @@ public AgentNameTypeInfo()
 ```csharp
 public bool isCustom
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +51,8 @@ public bool isCustom
 ```csharp
 public Dictionary<string, string> nameDic
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +63,8 @@ public Dictionary<string, string> nameDic
 ```csharp
 public int nameId
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +89,9 @@ public static string CurrentLangage { get; }
 ```csharp
 public string GetName()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -87,6 +102,8 @@ public string GetName()
 ```csharp
 public bool IsCreditName()
 ```
+#INC
+
 
 #### Returns
 
@@ -97,6 +114,8 @@ public bool IsCreditName()
 ```csharp
 public bool IsCustomName()
 ```
+#INC
+
 
 #### Returns
 
@@ -107,9 +126,13 @@ public bool IsCustomName()
 ```csharp
 public void SetAsCreditName()
 ```
+#INC
+
 
 ### SetAsCustomName()
 
 ```csharp
 public void SetAsCustomName()
 ```
+#INC
+

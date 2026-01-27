@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/WorkTutorial
 public class WorkTutorial : Tutorial
 ```
 
+Ends when the correct work type is selected.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → WorkTutorial
 
@@ -33,6 +38,8 @@ public WorkTutorial()
 ```csharp
 public int targetWork
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,3 +52,6 @@ public int targetWork
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+#code-generated
+

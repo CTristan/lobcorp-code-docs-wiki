@@ -11,6 +11,8 @@ canonical_path: /api/Global/Loader/ToolMapGraphLoader
 ```csharp
 public class ToolMapGraphLoader : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ToolMapGraphLoader
@@ -33,9 +35,14 @@ public ToolMapGraphLoader()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

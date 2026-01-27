@@ -11,6 +11,8 @@ canonical_path: /api/Global/Misc/GameScreen
 ```csharp
 public class GameScreen : MonoBehaviour
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GameScreen
@@ -33,6 +35,8 @@ public GameScreen()
 ```csharp
 private static GameScreen _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,3 +61,6 @@ public static GameScreen instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+

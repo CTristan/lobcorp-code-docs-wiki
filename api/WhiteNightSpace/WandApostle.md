@@ -12,6 +12,9 @@ canonical_path: /api/WhiteNightSpace/WandApostle
 public class WandApostle : DeathAngelApostle
 ```
 
+Wand apostle. (Sometimes called Staff.)
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → [DeathAngelApostle](/api/WhiteNightSpace/DeathAngelApostle) → WandApostle
 
@@ -33,6 +36,8 @@ public WandApostle()
 ```csharp
 private Timer _attackCastingTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private Timer _attackCastingTimer
 ```csharp
 private Timer _attackDurationTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Timer _attackDurationTimer
 ```csharp
 private static float _castingTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private static float _castingTime
 ```csharp
 private static float _durationTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private static float _durationTime
 ```csharp
 private static float _senseRange
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private static float _senseRange
 ```csharp
 private static DamageInfo _tickDamage
 ```
+#INC
+
 
 #### Field Value
 
@@ -117,24 +132,32 @@ private WandApostleAnim WandAnim { get; }
 ```csharp
 public override void ClearParams()
 ```
+#INC
+
 
 ### Escape()
 
 ```csharp
 public override void Escape()
 ```
+#INC
+
 
 ### Execution()
 
 ```csharp
 public override void Execution()
 ```
+#INC
+
 
 ### GetRangedTarget(List<UnitModel>, float, out UnitModel, bool)
 
 ```csharp
 public override List<UnitModel> GetRangedTarget(List<UnitModel> list, float range, out UnitModel nearest, bool careDirectoin = false)
 ```
+#INC
+
 
 #### Parameters
 
@@ -154,36 +177,49 @@ public override List<UnitModel> GetRangedTarget(List<UnitModel> list, float rang
 ```csharp
 public override void GiveDamage()
 ```
+#INC
+
 
 ### OnAttackEnd()
 
 ```csharp
 public override void OnAttackEnd()
 ```
+#INC
+
 
 ### OnDeathAngelSuppressed()
 
 ```csharp
 public override void OnDeathAngelSuppressed()
 ```
+#INC
+
 
 ### OnInit()
 
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnPrevSupressed()
 
 ```csharp
 public override void OnPrevSupressed()
 ```
+#INC
+
 
 ### OnStartAttack(UnitModel)
 
 ```csharp
 public void OnStartAttack(UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 

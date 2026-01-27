@@ -12,6 +12,13 @@ canonical_path: /api/Global/Gift/RedshoesGift
 public class RedshoesGift : EquipmentScriptBase
 ```
 
+Script for [Red Shoes](/api/Global/Misc/RedShoes)' EGO Gift: Sanguine Desire.
+
+If the user has the corresponding weapon, reduce work speed by 10 and increase attack speed and success rate by 10.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RedshoesGift
 
@@ -33,6 +40,9 @@ public RedshoesGift()
 ```csharp
 public override EGObonusInfo GetBonus(UnitModel actor)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Tutorial/ClickEscapedCreatureTutorial
 public class ClickEscapedCreatureTutorial : Tutorial
 ```
 
+Tutorial for clicking on an escaped creature.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [Tutorial](/api/Global/Tutorial/Tutorial) → ClickEscapedCreatureTutorial
 
@@ -33,6 +38,8 @@ public ClickEscapedCreatureTutorial()
 ```csharp
 private CreatureModel creature
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureModel creature
 ```csharp
 private IsolateRoom isolate
 ```
+#INC
+
 
 #### Field Value
 
@@ -55,15 +64,22 @@ private IsolateRoom isolate
 ```csharp
 public override void CheckIfHappening()
 ```
+#INC
+
 
 ### CompleteTutorial()
 
 ```csharp
 public override void CompleteTutorial()
 ```
+#INC
+
 
 ### StartTutorial()
 
 ```csharp
 public override void StartTutorial()
 ```
+#INC
+#code-generated
+

@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/StatSetterInt
 public class StatSetterInt : StatTransformInt
 ```
 
+Returns a fixed int.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StatSetterInt
 
@@ -28,6 +33,9 @@ public class StatSetterInt : StatTransformInt
 ```csharp
 public StatSetterInt(int s)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -42,6 +50,8 @@ public StatSetterInt(int s)
 ```csharp
 private int setter
 ```
+#INC
+
 
 #### Field Value
 
@@ -54,6 +64,8 @@ private int setter
 ```csharp
 public int IntToInt(int v)
 ```
+#INC
+
 
 #### Parameters
 

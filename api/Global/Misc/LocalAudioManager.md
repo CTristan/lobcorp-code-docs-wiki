@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/LocalAudioManager
 public class LocalAudioManager : MonoBehaviour
 ```
 
+Plays 'local' audio. Which audio is 'local'? #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → LocalAudioManager
 
@@ -33,6 +36,8 @@ public LocalAudioManager()
 ```csharp
 private static LocalAudioManager _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private static LocalAudioManager _instance
 ```csharp
 public List<LocalAudioData> audioData
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,12 +74,17 @@ public static LocalAudioManager instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+
 
 ### GetAudioClip(int)
 
 ```csharp
 public LocalAudioData GetAudioClip(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -89,6 +101,8 @@ public LocalAudioData GetAudioClip(int index)
 ```csharp
 public LocalAudioData GetAudioClip(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -105,6 +119,8 @@ public LocalAudioData GetAudioClip(string name)
 ```csharp
 public void PlayClip(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -117,6 +133,8 @@ public void PlayClip(int index)
 ```csharp
 public void PlayClip(string name)
 ```
+#INC
+
 
 #### Parameters
 
@@ -129,3 +147,5 @@ public void PlayClip(string name)
 ```csharp
 private void Start()
 ```
+#INC
+

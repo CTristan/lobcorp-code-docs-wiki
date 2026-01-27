@@ -12,6 +12,14 @@ canonical_path: /api/Global/UnitBuf/SmallBirdMadBuf
 public class SmallBirdMadBuf : UnitBuf
 ```
 
+Buff applied to [Punishing Bird](/api/Global/Misc/SmallBird) when attacked.
+
+Lasts for one minute.
+Multiplies max HP by 5 and restores all health, and gives itself [super armor](/api/Global/UnitBuf/SuperArmorBuf) #inc (is super armor used...?).
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → SmallBirdMadBuf
 
@@ -25,6 +33,8 @@ public class SmallBirdMadBuf : UnitBuf
 ```csharp
 public SmallBirdMadBuf(SmallBird bird)
 ```
+#INC
+
 
 #### Parameters
 
@@ -39,6 +49,8 @@ public SmallBirdMadBuf(SmallBird bird)
 ```csharp
 private SmallBird script
 ```
+#INC
+
 
 #### Field Value
 
@@ -51,6 +63,9 @@ private SmallBird script
 ```csharp
 public override void Init(UnitModel model)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -63,3 +78,5 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
+#INC
+

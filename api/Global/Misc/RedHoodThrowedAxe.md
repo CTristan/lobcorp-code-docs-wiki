@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/RedHoodThrowedAxe
 public class RedHoodThrowedAxe : MonoBehaviour
 ```
 
+Animator script for [Little Red](/api/Global/IOBserver/RedHood)'s thrown axe. #INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → RedHoodThrowedAxe
 
@@ -33,6 +36,8 @@ public RedHoodThrowedAxe()
 ```csharp
 private Timer _arrivalTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private Timer _arrivalTimer
 ```csharp
 private Transform _axeRef
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Transform _axeRef
 ```csharp
 private Timer _disableTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private Timer _disableTimer
 ```csharp
 private bool _isDamageEnabled
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private bool _isDamageEnabled
 ```csharp
 private float _lifeTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private float _lifeTime
 ```csharp
 private RedHood _redHood
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private RedHood _redHood
 ```csharp
 public Animator Animator
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public Animator Animator
 ```csharp
 public MapNode destNode
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public MapNode destNode
 ```csharp
 private Vector3 end
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ private Vector3 end
 ```csharp
 private const float standardDist = 20
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private const float standardDist = 20
 ```csharp
 private Vector3 start
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,12 +192,16 @@ public RedHood RedHood { get; }
 ```csharp
 public void FixedUpdate()
 ```
+#INC
+
 
 ### OnThrow(MapNode)
 
 ```csharp
 public void OnThrow(MapNode dest)
 ```
+#INC
+
 
 #### Parameters
 
@@ -185,6 +214,8 @@ public void OnThrow(MapNode dest)
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -197,6 +228,9 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 public void SetScript(RedHood redHood, Transform axeRef)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

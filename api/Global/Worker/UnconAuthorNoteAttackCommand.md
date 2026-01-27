@@ -11,6 +11,8 @@ canonical_path: /api/Global/Worker/UnconAuthorNoteAttackCommand
 ```csharp
 public class UnconAuthorNoteAttackCommand : WorkerCommand, WorkerAttackCommand
 ```
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [WorkerCommand](/api/Global/Misc/WorkerCommand) → UnconAuthorNoteAttackCommand
@@ -28,6 +30,8 @@ public class UnconAuthorNoteAttackCommand : WorkerCommand, WorkerAttackCommand
 ```csharp
 public UnconAuthorNoteAttackCommand(AuthorNote note, WorkerModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -43,6 +47,8 @@ public UnconAuthorNoteAttackCommand(AuthorNote note, WorkerModel target)
 ```csharp
 public float elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +59,8 @@ public float elapsedTime
 ```csharp
 public float missTargetTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +71,8 @@ public float missTargetTime
 ```csharp
 private AuthorNote note
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +83,8 @@ private AuthorNote note
 ```csharp
 private float range
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +95,8 @@ private float range
 ```csharp
 private WorkerModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +107,8 @@ private WorkerModel target
 ```csharp
 private WorkerModel workerActor
 ```
+#INC
+
 
 #### Field Value
 
@@ -105,24 +121,33 @@ private WorkerModel workerActor
 ```csharp
 private void CheckRanage()
 ```
+#INC
+
 
 ### Execute()
 
 ```csharp
 public override void Execute()
 ```
+#INC
+
 
 ### GiveDamage()
 
 ```csharp
 public void GiveDamage()
 ```
+#INC
+
 
 ### OnInit(WorkerModel)
 
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -135,15 +160,21 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 private void OnKillTarget()
 ```
+#INC
+
 
 ### OnStart()
 
 ```csharp
 public override void OnStart()
 ```
+#INC
+
 
 ### OnStop()
 
 ```csharp
 public override void OnStop()
 ```
+#INC
+

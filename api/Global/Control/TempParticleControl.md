@@ -47,6 +47,8 @@ private float defLifeTime
 ```csharp
 public float emitRate
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,6 +59,8 @@ public float emitRate
 ```csharp
 public float xMulti
 ```
+#INC
+
 
 #### Field Value
 
@@ -67,6 +71,8 @@ public float xMulti
 ```csharp
 public float yMulti
 ```
+#INC
+
 
 #### Field Value
 
@@ -77,6 +83,8 @@ public float yMulti
 ```csharp
 public float zMulit
 ```
+#INC
+
 
 #### Field Value
 
@@ -111,6 +119,8 @@ private ParticleSystem.VelocityOverLifetimeModule velModule { get; }
 ```csharp
 public void Set_Y_Rate(float value)
 ```
+#INC
+
 
 #### Parameters
 
@@ -123,9 +133,14 @@ public void Set_Y_Rate(float value)
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

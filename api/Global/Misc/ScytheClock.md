@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/ScytheClock
 public class ScytheClock : CreatureBase
 ```
 
+Price of Silence. Unused.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → ScytheClock
 
@@ -33,6 +38,8 @@ public ScytheClock()
 ```csharp
 private int _agentDeadCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private int _agentDeadCount
 ```csharp
 private List<AgentUnit> _agents
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private List<AgentUnit> _agents
 ```csharp
 private ScytheClockAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private ScytheClockAnim _animScript
 ```csharp
 private IsolateFilter _assassinateFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private IsolateFilter _assassinateFilter
 ```csharp
 private Text _countTxt
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private Text _countTxt
 ```csharp
 private SoundEffectPlayer _defaultSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private SoundEffectPlayer _defaultSound
 ```csharp
 private float _filterAlpha
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private float _filterAlpha
 ```csharp
 private float _filterAlphaChangeConst
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private float _filterAlphaChangeConst
 ```csharp
 private bool _isMultiKill
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private bool _isMultiKill
 ```csharp
 private int _killCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private int _killCount
 ```csharp
 private readonly string[] _killCountTxtAry
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private readonly string[] _killCountTxtAry
 ```csharp
 private int _multiKillingCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +182,8 @@ private int _multiKillingCount
 ```csharp
 private int _officerDeadCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -163,6 +194,8 @@ private int _officerDeadCount
 ```csharp
 private List<OfficerUnit> _officers
 ```
+#INC
+
 
 #### Field Value
 
@@ -173,6 +206,8 @@ private List<OfficerUnit> _officers
 ```csharp
 private PAUSECALL _pauseCommand
 ```
+#INC
+
 
 #### Field Value
 
@@ -183,6 +218,8 @@ private PAUSECALL _pauseCommand
 ```csharp
 private Sprite _skillAssassinate
 ```
+#INC
+
 
 #### Field Value
 
@@ -193,6 +230,8 @@ private Sprite _skillAssassinate
 ```csharp
 private Sprite _skillMultiAssassinate
 ```
+#INC
+
 
 #### Field Value
 
@@ -203,6 +242,8 @@ private Sprite _skillMultiAssassinate
 ```csharp
 private SoundEffectPlayer _stopAllSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -213,6 +254,8 @@ private SoundEffectPlayer _stopAllSound
 ```csharp
 private bool _stopAllSoundFadeOut
 ```
+#INC
+
 
 #### Field Value
 
@@ -223,6 +266,8 @@ private bool _stopAllSoundFadeOut
 ```csharp
 private SoundEffectPlayer _stopSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -233,6 +278,8 @@ private SoundEffectPlayer _stopSound
 ```csharp
 private AutoTimer _timer
 ```
+#INC
+
 
 #### Field Value
 
@@ -243,6 +290,8 @@ private AutoTimer _timer
 ```csharp
 private const string DEFAULT_SOUND_SRC = "creature/ScytheClock/Clock_Default"
 ```
+#INC
+
 
 #### Field Value
 
@@ -253,6 +302,8 @@ private const string DEFAULT_SOUND_SRC = "creature/ScytheClock/Clock_Default"
 ```csharp
 private const float FEELING_UP_AMOUNT = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -263,6 +314,8 @@ private const float FEELING_UP_AMOUNT = 15
 ```csharp
 private const int MAX_KILL_IDX = 12
 ```
+#INC
+
 
 #### Field Value
 
@@ -273,6 +326,8 @@ private const int MAX_KILL_IDX = 12
 ```csharp
 private const float STOP_ALL_INTERVAL = 1.75
 ```
+#INC
+
 
 #### Field Value
 
@@ -283,6 +338,8 @@ private const float STOP_ALL_INTERVAL = 1.75
 ```csharp
 private const string STOP_ALL_SOUND_SRC = "creature/ScytheClock/Clock_ALL"
 ```
+#INC
+
 
 #### Field Value
 
@@ -293,6 +350,8 @@ private const string STOP_ALL_SOUND_SRC = "creature/ScytheClock/Clock_ALL"
 ```csharp
 private const string STOP_SOUND_SRC = "creature/ScytheClock/Clock_Stop"
 ```
+#INC
+
 
 #### Field Value
 
@@ -305,6 +364,8 @@ private const string STOP_SOUND_SRC = "creature/ScytheClock/Clock_Stop"
 ```csharp
 private void Assassination(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -317,12 +378,16 @@ private void Assassination(bool state)
 ```csharp
 private void FadeOutSound()
 ```
+#INC
+
 
 ### GetSaveData()
 
 ```csharp
 public override Dictionary<string, object> GetSaveData()
 ```
+#INC
+
 
 #### Returns
 
@@ -333,12 +398,16 @@ public override Dictionary<string, object> GetSaveData()
 ```csharp
 private void Initialize()
 ```
+#INC
+
 
 ### KillOnce(float)
 
 ```csharp
 private bool KillOnce(float feelup)
 ```
+#INC
+
 
 #### Parameters
 
@@ -355,6 +424,8 @@ private bool KillOnce(float feelup)
 ```csharp
 public override void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 
@@ -367,6 +438,8 @@ public override void LoadData(Dictionary<string, object> dic)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -379,6 +452,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -391,12 +466,17 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
+#INC
+#code-generated
+
 
 ### OnReleaseWork(UseSkill)
 
 ```csharp
 public override void OnReleaseWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -409,24 +489,32 @@ public override void OnReleaseWork(UseSkill skill)
 ```csharp
 public override void OnStageEnd()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -439,12 +527,16 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+
 
 ### SetSoundState(bool)
 
 ```csharp
 private void SetSoundState(bool state)
 ```
+#INC
+
 
 #### Parameters
 
@@ -457,6 +549,8 @@ private void SetSoundState(bool state)
 ```csharp
 private void Warn(bool isWarn)
 ```
+#INC
+
 
 #### Parameters
 

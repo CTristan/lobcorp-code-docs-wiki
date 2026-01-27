@@ -12,6 +12,11 @@ canonical_path: /api/Global/Weapon/RedHoodWeapon
 public class RedHoodWeapon : EquipmentScriptBase
 ```
 
+Script for [Little Red](/api/Global/IOBserver/RedHood)'s EGO Weapon: Crimson Scar.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipmentScriptBase](/api/Global/Misc/EquipmentScriptBase) → RedHoodWeapon
 
@@ -33,6 +38,8 @@ public RedHoodWeapon()
 ```csharp
 private const float _attackBuf = 1.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private const float _attackBuf = 1.5
 ```csharp
 private const int _defaultRange = 3
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private const int _defaultRange = 3
 ```csharp
 private const string _effect_src = "Effect/Agent/RedHoodWeaponAura"
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private const string _effect_src = "Effect/Agent/RedHoodWeaponAura"
 ```csharp
 private const string _gun_fire = "Effect/Agent/RedHoodWeaponGunFire"
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private const string _gun_fire = "Effect/Agent/RedHoodWeaponGunFire"
 ```csharp
 private const float _skillHpRatio = 0.5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float _skillHpRatio = 0.5
 ```csharp
 private const float _specialProb = 0.3
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private const float _specialProb = 0.3
 ```csharp
 private const int _specialRange = 15
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private const int _specialRange = 15
 ```csharp
 private GameObject aura
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private GameObject aura
 ```csharp
 private SplashInfo defaultInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private SplashInfo defaultInfo
 ```csharp
 private bool isSpecial
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private bool isSpecial
 ```csharp
 private SplashInfo specialInfo
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private SplashInfo specialInfo
 ```csharp
 private WorkerModel worker
 ```
+#INC
+
 
 #### Field Value
 
@@ -167,6 +196,8 @@ private bool isRaged { get; }
 ```csharp
 private GameObject AttachEffect()
 ```
+#INC
+
 
 #### Returns
 
@@ -177,6 +208,8 @@ private GameObject AttachEffect()
 ```csharp
 private DamageInfo GetDamage(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -193,6 +226,8 @@ private DamageInfo GetDamage(int index)
 ```csharp
 public override DamageInfo GetDamage(UnitModel actor)
 ```
+#INC
+
 
 #### Parameters
 
@@ -209,18 +244,24 @@ public override DamageInfo GetDamage(UnitModel actor)
 ```csharp
 private void Init()
 ```
+#INC
+
 
 ### MakeGunFire()
 
 ```csharp
 private void MakeGunFire()
 ```
+#INC
+
 
 ### OnAnimCalled(int)
 
 ```csharp
 public void OnAnimCalled(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -233,6 +274,8 @@ public void OnAnimCalled(int i)
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
+#INC
+
 
 #### Parameters
 
@@ -263,18 +306,25 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnFixedUpdate()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+#code-generated
+
 
 ### OnTakeDamage_After(float, RwbpType)
 
 ```csharp
 public override bool OnTakeDamage_After(float value, RwbpType type)
 ```
+#INC
+
 
 #### Parameters
 
@@ -292,9 +342,13 @@ public override bool OnTakeDamage_After(float value, RwbpType type)
 ```csharp
 private void RemoveEffect()
 ```
+#INC
+
 
 ### SetNextAttackType()
 
 ```csharp
 private void SetNextAttackType()
 ```
+#INC
+

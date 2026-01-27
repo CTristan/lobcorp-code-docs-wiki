@@ -12,6 +12,10 @@ canonical_path: /api/Global/Misc/MapTerrain
 public class MapTerrain : MonoBehaviour
 ```
 
+Empty script.
+#unused #maybe_unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → MapTerrain
 
@@ -33,9 +37,14 @@ public MapTerrain()
 ```csharp
 private void Start()
 ```
+#INC
+#code-generated
+
 
 ### Update()
 
 ```csharp
 private void Update()
 ```
+#INC
+

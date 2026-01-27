@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/SpiderMom
 public class SpiderMom : CreatureBase
 ```
 
+Spider Bud.
+
+#INC 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → SpiderMom
 
@@ -33,6 +38,8 @@ public SpiderMom()
 ```csharp
 private CreatureAnimScript _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +50,8 @@ private CreatureAnimScript _animScript
 ```csharp
 private SpiderMomCocoonScript _cocoonScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +62,8 @@ private SpiderMomCocoonScript _cocoonScript
 ```csharp
 private SoundEffectPlayer amb
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +74,8 @@ private SoundEffectPlayer amb
 ```csharp
 private int cocoonCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +86,8 @@ private int cocoonCount
 ```csharp
 private const float cocoonTime = 5
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +98,8 @@ private const float cocoonTime = 5
 ```csharp
 private Timer cocoonTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +110,8 @@ private Timer cocoonTimer
 ```csharp
 private bool eventStarted
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +122,8 @@ private bool eventStarted
 ```csharp
 private bool isKilling
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +134,8 @@ private bool isKilling
 ```csharp
 private Timer skillActivateTimer
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +146,8 @@ private Timer skillActivateTimer
 ```csharp
 private const float skillTime = 10
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +158,8 @@ private const float skillTime = 10
 ```csharp
 private AgentModel target
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +170,8 @@ private AgentModel target
 ```csharp
 private const long targetSkill = 2
 ```
+#INC
+
 
 #### Field Value
 
@@ -177,6 +206,8 @@ public SpiderMomCocoonScript cocoonScript { get; }
 ```csharp
 private void ActivateSkill(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,12 +220,16 @@ private void ActivateSkill(UseSkill skill)
 ```csharp
 private void MakeCocoon()
 ```
+#INC
+
 
 ### OnFinishWork(UseSkill)
 
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -207,6 +242,8 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
+#INC
+
 
 #### Parameters
 
@@ -219,33 +256,46 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### ParamInit()
 
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### PickUpAgent()
 
 ```csharp
 private void PickUpAgent()
 ```
+#INC
+
 
 ### PickUpSound()
 
 ```csharp
 public void PickUpSound()
 ```
+#INC
+
 
 ### StartCocoonDelay()
 
 ```csharp
 public void StartCocoonDelay()
 ```
+#INC
+

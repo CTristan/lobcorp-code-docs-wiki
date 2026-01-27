@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BugDawnAnim
 public class BugDawnAnim : CreatureAnimScript
 ```
 
+Animation handler for [The Perfect Food](/api/Global/Misc/BugDawn).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → BugDawnAnim
 
@@ -33,6 +36,8 @@ public BugDawnAnim()
 ```csharp
 private BugDawn.AnimationState _curState
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BugDawn.AnimationState _curState
 ```csharp
 private Vector3 _defaultPosition
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private Vector3 _defaultPosition
 ```csharp
 private float _elapsedTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private float _elapsedTime
 ```csharp
 private SoundEffectPlayer _moveSound
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private SoundEffectPlayer _moveSound
 ```csharp
 public SkeletonUIEvent anim_skeleton
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ public SkeletonUIEvent anim_skeleton
 ```csharp
 public static string[] animString
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ public static string[] animString
 ```csharp
 public GameObject center
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ public GameObject center
 ```csharp
 public GameObject crater1
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ public GameObject crater1
 ```csharp
 public GameObject crater2
 ```
+#INC
+
 
 #### Field Value
 
@@ -123,6 +144,8 @@ public GameObject crater2
 ```csharp
 private BugDawn script
 ```
+#INC
+
 
 #### Field Value
 
@@ -133,6 +156,8 @@ private BugDawn script
 ```csharp
 public const string sound_src = "RandomEvent/HordeOfBugs/Bug1_"
 ```
+#INC
+
 
 #### Field Value
 
@@ -143,6 +168,8 @@ public const string sound_src = "RandomEvent/HordeOfBugs/Bug1_"
 ```csharp
 public static string[] soundString
 ```
+#INC
+
 
 #### Field Value
 
@@ -153,6 +180,8 @@ public static string[] soundString
 ```csharp
 public AudioSource src
 ```
+#INC
+
 
 #### Field Value
 
@@ -165,18 +194,25 @@ public AudioSource src
 ```csharp
 public void AttachHandler()
 ```
+#INC
+
 
 ### Awake()
 
 ```csharp
 protected override void Awake()
 ```
+#INC
+#code-generated
+
 
 ### CompleteEvent(TrackEntry)
 
 ```csharp
 public void CompleteEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -189,6 +225,8 @@ public void CompleteEvent(TrackEntry entry)
 ```csharp
 public BugDawn.AnimationState CurrentState()
 ```
+#INC
+
 
 #### Returns
 
@@ -199,6 +237,8 @@ public BugDawn.AnimationState CurrentState()
 ```csharp
 public void EndEvent(TrackEntry entry)
 ```
+#INC
+
 
 #### Parameters
 
@@ -224,12 +264,16 @@ public void EventHandler(TrackEntry entry, Event eventData)
 ```csharp
 protected override void FixedUpdate()
 ```
+#INC
+
 
 ### HasDeadMotion()
 
 ```csharp
 public override bool HasDeadMotion()
 ```
+#INC
+
 
 #### Returns
 
@@ -240,6 +284,8 @@ public override bool HasDeadMotion()
 ```csharp
 public bool IsAttacking()
 ```
+#INC
+
 
 #### Returns
 
@@ -250,12 +296,16 @@ public bool IsAttacking()
 ```csharp
 public override void PlayDeadMotion()
 ```
+#INC
+
 
 ### SetAnimation(AnimationState)
 
 ```csharp
 public void SetAnimation(BugDawn.AnimationState animState)
 ```
+#INC
+
 
 #### Parameters
 
@@ -268,6 +318,8 @@ public void SetAnimation(BugDawn.AnimationState animState)
 ```csharp
 public void SetScript(BugDawn script)
 ```
+#INC
+
 
 #### Parameters
 

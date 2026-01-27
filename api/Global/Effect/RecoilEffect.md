@@ -11,6 +11,9 @@ canonical_path: /api/Global/Effect/RecoilEffect
 ```csharp
 public class RecoilEffect
 ```
+Unused recoil effect
+#unused 
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RecoilEffect
@@ -36,6 +39,8 @@ public RecoilEffect()
 ```csharp
 public float maxTime
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public float maxTime
 ```csharp
 public int recoilCount
 ```
+#INC
+
 
 #### Field Value
 
@@ -56,6 +63,8 @@ public int recoilCount
 ```csharp
 public float scale
 ```
+#INC
+
 
 #### Field Value
 
@@ -66,6 +75,8 @@ public float scale
 ```csharp
 public Transform targetTransform
 ```
+#INC
+
 
 #### Field Value
 
@@ -78,6 +89,8 @@ public Transform targetTransform
 ```csharp
 public static RecoilArrow GetArrow(int index)
 ```
+#INC
+
 
 #### Parameters
 
@@ -94,6 +107,8 @@ public static RecoilArrow GetArrow(int index)
 ```csharp
 public static Vector2 GetVector(RecoilArrow arrow, Vector2 initial, float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -112,6 +127,8 @@ public static Vector2 GetVector(RecoilArrow arrow, Vector2 initial, float scale)
 ```csharp
 public static Vector3 GetVector(RecoilArrow arrow, Vector3 initial, float scale)
 ```
+#INC
+
 
 #### Parameters
 
@@ -130,6 +147,9 @@ public static Vector3 GetVector(RecoilArrow arrow, Vector3 initial, float scale)
 ```csharp
 public static List<RecoilArrow> MakeRecoilArrow(int level)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

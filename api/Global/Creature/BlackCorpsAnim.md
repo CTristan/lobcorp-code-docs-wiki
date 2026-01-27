@@ -12,6 +12,9 @@ canonical_path: /api/Global/Creature/BlackCorpsAnim
 public class BlackCorpsAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 ```
 
+Animation handler for [Army in Black's breaching form](/api/Global/Misc/BlackCorps).
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → [CreatureAnimEventCalled](/api/Global/Creature/CreatureAnimEventCalled) → BlackCorpsAnim
 
@@ -36,6 +39,8 @@ public BlackCorpsAnim()
 ```csharp
 public AnimatorEventHandler _eventHandler
 ```
+#INC
+
 
 #### Field Value
 
@@ -46,6 +51,8 @@ public AnimatorEventHandler _eventHandler
 ```csharp
 private SpineOptimizerModule _module
 ```
+#INC
+
 
 #### Field Value
 
@@ -68,6 +75,8 @@ public int CurrentAttackType { get; private set; }
 ```csharp
 public BlackCorps Script { get; private set; }
 ```
+#INC
+
 
 #### Property Value
 
@@ -80,6 +89,8 @@ public BlackCorps Script { get; private set; }
 ```csharp
 public void Attack(int attackType)
 ```
+#INC
+
 
 #### Parameters
 
@@ -92,24 +103,33 @@ public void Attack(int attackType)
 ```csharp
 public void AttackEnd()
 ```
+#INC
+
 
 ### Damage()
 
 ```csharp
 public void Damage()
 ```
+#INC
+
 
 ### Explosion()
 
 ```csharp
 public void Explosion()
 ```
+#INC
+
 
 ### OnCalled(int)
 
 ```csharp
 public override void OnCalled(int i)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -122,6 +142,8 @@ public override void OnCalled(int i)
 ```csharp
 public void SetScript(BlackCorps script)
 ```
+#INC
+
 
 #### Parameters
 
@@ -134,3 +156,5 @@ public void SetScript(BlackCorps script)
 ```csharp
 private void Update()
 ```
+#INC
+

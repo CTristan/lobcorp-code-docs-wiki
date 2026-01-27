@@ -11,6 +11,12 @@ canonical_path: /api/Global/Misc/ISerializablePlayData
 ```csharp
 internal interface ISerializablePlayData
 ```
+Interface for classes which have data that needs to be saved and loaded.
+
+#### Methods
+	Dictionary<string, object> GetSaveData()
+	void LoadData(Dictionary<string, object> dic)
+
 
 ## Methods
 
@@ -19,6 +25,9 @@ internal interface ISerializablePlayData
 ```csharp
 Dictionary<string, object> GetSaveData()
 ```
+#INC
+#code-generated
+
 
 #### Returns
 
@@ -29,6 +38,8 @@ Dictionary<string, object> GetSaveData()
 ```csharp
 void LoadData(Dictionary<string, object> dic)
 ```
+#INC
+
 
 #### Parameters
 

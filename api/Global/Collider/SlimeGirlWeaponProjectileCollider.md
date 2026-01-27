@@ -11,6 +11,8 @@ canonical_path: /api/Global/Collider/SlimeGirlWeaponProjectileCollider
 ```csharp
 public class SlimeGirlWeaponProjectileCollider : MonoBehaviour
 ```
+Collider for [SlimeGirlWeaponProjectile](/api/Global/Misc/SlimeGirlWeaponProjectile).
+
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → SlimeGirlWeaponProjectileCollider
@@ -33,6 +35,8 @@ public SlimeGirlWeaponProjectileCollider()
 ```csharp
 public SlimeGirlWeaponProjectile root
 ```
+#INC
+
 
 #### Field Value
 
@@ -45,6 +49,9 @@ public SlimeGirlWeaponProjectile root
 ```csharp
 private void OnTriggerEnter2D(Collider2D collision)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 
@@ -57,6 +64,8 @@ private void OnTriggerEnter2D(Collider2D collision)
 ```csharp
 private void OnTriggerExit2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 
@@ -69,6 +78,8 @@ private void OnTriggerExit2D(Collider2D collision)
 ```csharp
 private void OnTriggerStay2D(Collider2D collision)
 ```
+#INC
+
 
 #### Parameters
 

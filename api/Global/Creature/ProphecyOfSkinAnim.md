@@ -12,6 +12,12 @@ canonical_path: /api/Global/Creature/ProphecyOfSkinAnim
 public class ProphecyOfSkinAnim : CreatureAnimScript
 ```
 
+Animation handler for [Skin Prophecy](/api/Global/IOBserver/ProphecyOfSkin). No script.
+
+#unused
+#code-generated
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → [AnimScript](/api/Global/Script/AnimScript) → [CreatureAnimScript](/api/Global/Script/CreatureAnimScript) → ProphecyOfSkinAnim
 

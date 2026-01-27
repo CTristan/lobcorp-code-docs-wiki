@@ -12,6 +12,11 @@ canonical_path: /api/Global/Misc/IdentityTransformInt
 public class IdentityTransformInt : StatTransformInt
 ```
 
+Returns the input int.
+
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IdentityTransformInt
 
@@ -36,6 +41,9 @@ public IdentityTransformInt()
 ```csharp
 public virtual int IntToInt(int v)
 ```
+#INC
+#code-generated
+
 
 #### Parameters
 

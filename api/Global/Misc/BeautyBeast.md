@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/BeautyBeast
 public class BeautyBeast : CreatureBase
 ```
 
+Beauty and the Beast.
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → BeautyBeast
 
@@ -33,6 +36,8 @@ public BeautyBeast()
 ```csharp
 private BeautyBeastAnim _animScript
 ```
+#INC
+
 
 #### Field Value
 
@@ -43,6 +48,8 @@ private BeautyBeastAnim _animScript
 ```csharp
 private const string animSrc = "Agent/Dead/BeautyBeastAgent"
 ```
+#INC
+
 
 #### Field Value
 
@@ -53,6 +60,8 @@ private const string animSrc = "Agent/Dead/BeautyBeastAgent"
 ```csharp
 private IsolateFilter flowerFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -63,6 +72,8 @@ private IsolateFilter flowerFilter
 ```csharp
 private bool gonnaDie
 ```
+#INC
+
 
 #### Field Value
 
@@ -73,6 +84,8 @@ private bool gonnaDie
 ```csharp
 private bool isWeaken
 ```
+#INC
+
 
 #### Field Value
 
@@ -83,6 +96,8 @@ private bool isWeaken
 ```csharp
 private const RwbpType targetSkill = P
 ```
+#INC
+
 
 #### Field Value
 
@@ -93,6 +108,8 @@ private const RwbpType targetSkill = P
 ```csharp
 private AgentModel victim
 ```
+#INC
+
 
 #### Field Value
 
@@ -103,6 +120,8 @@ private AgentModel victim
 ```csharp
 private IsolateFilter vineFilter
 ```
+#INC
+
 
 #### Field Value
 
@@ -113,6 +132,8 @@ private IsolateFilter vineFilter
 ```csharp
 private bool weakState
 ```
+#INC
+
 
 #### Field Value
 
@@ -137,12 +158,16 @@ public BeautyBeastAnim animScript { get; }
 ```csharp
 private void ActivateSkill()
 ```
+#INC
+
 
 ### ChangeState(bool)
 
 ```csharp
 private void ChangeState(bool isWeaken)
 ```
+#INC
+
 
 #### Parameters
 
@@ -155,6 +180,8 @@ private void ChangeState(bool isWeaken)
 ```csharp
 public void OnAgentDeadAnimEvent(int i)
 ```
+#INC
+
 
 #### Parameters
 
@@ -167,6 +194,8 @@ public void OnAgentDeadAnimEvent(int i)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -179,6 +208,8 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
+#INC
+
 
 #### Parameters
 
@@ -191,24 +222,32 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public void OnSpecialAnimEnded()
 ```
+#INC
+
 
 ### OnStageRelease()
 
 ```csharp
 public override void OnStageRelease()
 ```
+#INC
+
 
 ### OnStageStart()
 
 ```csharp
 public override void OnStageStart()
 ```
+#INC
+
 
 ### OnViewInit(CreatureUnit)
 
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
+#INC
+
 
 #### Parameters
 
@@ -221,9 +260,14 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void ParamInit()
 ```
+#INC
+#code-generated
+
 
 ### RoomSpriteInit()
 
 ```csharp
 public override void RoomSpriteInit()
 ```
+#INC
+

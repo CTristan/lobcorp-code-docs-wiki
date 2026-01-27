@@ -12,6 +12,9 @@ canonical_path: /api/Global/Misc/StartSceneRoot
 public class StartSceneRoot : MonoBehaviour
 ```
 
+#unused 
+
+
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → StartSceneRoot
 
@@ -33,6 +36,8 @@ public StartSceneRoot()
 ```csharp
 private static StartSceneRoot _instance
 ```
+#INC
+
 
 #### Field Value
 
@@ -57,3 +62,6 @@ public static StartSceneRoot instance { get; }
 ```csharp
 private void Awake()
 ```
+#INC
+#code-generated
+

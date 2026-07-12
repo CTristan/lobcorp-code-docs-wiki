@@ -8,7 +8,7 @@ editor: markdown
 
 # Contributing
 
-This wiki documents Lobotomy Corporation's scripts and systems for mod developers. If you know the codebase and want to contribute, ping lomour on the [Lobotomy Corp MOD Community Discord server](https://discord.gg/M74rB3uPk5), or edit pages directly in Wiki.js.
+This wiki documents Lobotomy Corporation's scripts and systems for mod developers. If you know the codebase and want to contribute, open a pull request or ping lomour on the [Lobotomy Corp MOD Community Discord server](https://discord.gg/M74rB3uPk5) for permissions to edit pages directly in Wiki.js.
 
 ## Licensing
 

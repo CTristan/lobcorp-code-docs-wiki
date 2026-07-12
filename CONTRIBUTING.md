@@ -14,4 +14,4 @@ This wiki documents Lobotomy Corporation's scripts and systems for mod developer
 
 This wiki is licensed under the [MIT License](https://github.com/CTristan/lobcorp-code-docs-wiki/blob/main/LICENSE). By contributing, whether you edit a page in Wiki.js or open a pull request on GitHub, you agree that your contributions are licensed under those same MIT terms.
 
-We ask for this because the prose here gets redistributed. The hand-authored docs are packaged and republished as generated code documentation for mod developers, so every page has to carry a license that permits that. MIT also matches most of the open-lobotomy ecosystem, though forked dependencies like the LGPL-licensed ConfigurationManager fork keep their upstream license instead of following suit.
+We ask for this because the prose here gets redistributed. The hand-authored docs are packaged and republished as generated code documentation for mod developers, so every page must fall under a license that permits that. MIT also matches most of the open-lobotomy ecosystem, though forked dependencies like the LGPL-licensed ConfigurationManager fork keep their upstream license instead of following suit.

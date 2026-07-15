@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-15T18:06:32.237Z
+date: 2026-07-15T18:25:51.539Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -18,3 +18,4 @@ Diagram goes below
     src="/abnormality-extraction/creatureselectui_diagram_2.svg" 
     alt="CreatureSelectUI Diagram">
 </img>
+

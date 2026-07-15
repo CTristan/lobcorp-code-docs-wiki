@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-15T23:26:37.781Z
+date: 2026-07-15T23:30:54.248Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -51,35 +51,35 @@ Each `ActivateStateModel` stores whether an abnormality is:
 Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected).
 
 
-<table border=1
-       style="display: block;
+<table style="display: block;
            margin-left: auto;
            margin-right: auto;
-           width: 80%;">
+           width: 80%;
+           border: 3px solid;">
   <tr>
-    <td colspan=5>
+    <td colspan=5 style="border: 1px solid;">
       <b> <center> activateStateDic (ActivateStateLists) </center> </b>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="border: 1px solid;">
       <b> <center> ZAYIN </center> </b>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <b> <center> TETH </center> </b>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <b> <center> HE </center> </b>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <b> <center> WAW </center> </b>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <b> <center> ALEPH </center> </b>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="border: 1px solid;">
       <table style="width: 100%; margin-left: auto; margin-right: auto;">
         <tr>
           <td colspan=3>
@@ -154,16 +154,16 @@ Each `ActivateStateList` represents all abnormalities of some risk level, and ma
       </table>
       <center> ⋮ </center>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <center> ⋮ </center>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <center> ⋮ </center>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <center> ⋮ </center>
     </td>
-    <td>
+    <td style="border: 1px solid;">
       <center> ⋮ </center>
     </td>
   </tr>

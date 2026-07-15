@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-15T21:22:45.810Z
+date: 2026-07-15T21:32:37.275Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -78,4 +78,8 @@ If there are duplicate abnormalities in the selection (which should not happen n
 ### Other Initialization Effects
 [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) also enables the visual filter, triggers an animation to play on the UI (`UIOpen.anim`) and on each door (`Exit_Normal.anim`), starts the music, and displays the re-extraction button.
 
+## Selecting An Abnormality
+meow
 
+## Re-Extraction
+meow meow

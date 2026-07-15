@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-15T21:32:37.275Z
+date: 2026-07-15T23:26:37.781Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -49,6 +49,125 @@ Each `ActivateStateModel` stores whether an abnormality is:
 - a tool abnormality.
 
 Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected).
+
+
+<table border=1
+       style="display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 80%;">
+  <tr>
+    <td colspan=5>
+      <b> <center> activateStateDic (ActivateStateLists) </center> </b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b> <center> ZAYIN </center> </b>
+    </td>
+    <td>
+      <b> <center> TETH </center> </b>
+    </td>
+    <td>
+      <b> <center> HE </center> </b>
+    </td>
+    <td>
+      <b> <center> WAW </center> </b>
+    </td>
+    <td>
+      <b> <center> ALEPH </center> </b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table style="width: 100%; margin-left: auto; margin-right: auto;">
+        <tr>
+          <td colspan=3>
+            <b>ActivateStateModel</b>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3>
+            One Sin and Hundreds of Good Deeds
+          </td>
+        </tr>
+        <tr>
+          <td>
+            In facility?
+          </td>
+          <td>
+            True
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Removed today?
+          </td>
+          <td>
+            False
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tool abnormality?
+          </td>
+          <td>
+            False
+          </td>
+        </tr>
+      </table>
+      <table style="width: 100%; margin-left: auto; margin-right: auto;">
+        <tr>
+          <td colspan=3>
+            <b>ActivateStateModel</b>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3>
+            Fairy Festival
+          </td>
+        </tr>
+        <tr>
+          <td>
+            In facility?
+          </td>
+          <td>
+            False
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Removed today?
+          </td>
+          <td>
+            False
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tool abnormality?
+          </td>
+          <td>
+            False
+          </td>
+        </tr>
+      </table>
+      <center> ⋮ </center>
+    </td>
+    <td>
+      <center> ⋮ </center>
+    </td>
+    <td>
+      <center> ⋮ </center>
+    </td>
+    <td>
+      <center> ⋮ </center>
+    </td>
+    <td>
+      <center> ⋮ </center>
+    </td>
+  </tr>
+</table>
 
 Finally, if it has not been loaded previously, the file `Assets/Resources/xml/CreatureGenInfo.txt` is loaded into [`CreatureGenerateInfoManager::dayGenInfoDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#dayGenInfoDic). This stores the probabilities for each risk level and exceptions (the `ONLY` and `REMOVE` commands) for each day. The data for each day is stored as a [`CreatureGenerateModel`](/api/CreatureGenerate/CreatureGenerateModel), which contains the day it belongs to and three [`CreatureGenerateDoors`](/api/CreatureGenerate/CreatureGenerateDoor) with their respective probabilities. See [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) for more information.
 

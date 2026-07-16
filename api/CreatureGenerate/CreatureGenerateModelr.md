@@ -2,10 +2,10 @@
 title: CreatureGenerateModelr
 description: 
 published: true
-date: 2026-02-23T19:09:55.382Z
+date: 2026-07-16T21:18:32.158Z
 tags: 
 editor: markdown
-dateCreated: 2026-01-15T02:52:03.870Z
+dateCreated: 2026-07-08T03:37:23.842Z
 ---
 
 # Class CreatureGenerateModelr
@@ -18,8 +18,7 @@ public class CreatureGenerateModelr
 > This class is not used.
 {.is-info}
 
-Empty class. Can only assume this is a typo.
-
+Empty class. Probably a typo.
 
 
 

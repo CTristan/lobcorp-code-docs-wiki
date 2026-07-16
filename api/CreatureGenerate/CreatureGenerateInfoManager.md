@@ -2,7 +2,7 @@
 title: CreatureGenerateInfoManager
 description: 
 published: true
-date: 2026-07-16T17:18:05.355Z
+date: 2026-07-16T21:11:36.157Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:18.860Z
@@ -466,12 +466,12 @@ Does nothing.
 ```csharp
 public void RemoveAction(long id)
 ```
-Unused. See [`CreatureGenerateModel::RemoveAction`](/api/CreatureGenerate/CreatureGenerateModel#removeactionparams-object).
+Called by [`CreatureGenerateModel::RemoveAction`](/api/CreatureGenerate/CreatureGenerateModel#removeactionparams-object). Removes the given abnormality for the day from the [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList) with the same risk level.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `id` | `System.Int64` |  |
+| `id` | `System.Int64` | The ID of the abnormality to remove. |
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)

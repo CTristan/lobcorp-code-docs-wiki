@@ -1,8 +1,8 @@
 ---
-title: Abnormality Selection
+title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T01:06:49.526Z
+date: 2026-07-16T01:19:35.607Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z

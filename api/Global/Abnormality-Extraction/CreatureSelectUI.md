@@ -2,7 +2,7 @@
 title: CreatureSelectUI
 description: 
 published: true
-date: 2026-07-16T02:10:58.356Z
+date: 2026-07-16T17:18:30.612Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:03:29.725Z
@@ -17,6 +17,8 @@ public class CreatureSelectUI : MonoBehaviour, IAnimatorEventCalled
 ```
 
 The abnormality selection UI.
+
+See [Abnormality Extraction](/abnormality-extraction) for a description of the abnormality extraction system.
 
 
 ## Inheritance

@@ -2,7 +2,7 @@
 title: ActivateStateList
 description: 
 published: true
-date: 2026-07-16T20:50:05.158Z
+date: 2026-07-16T20:50:19.716Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:08.931Z
@@ -15,9 +15,6 @@ dateCreated: 2026-07-08T03:37:08.931Z
 ```csharp
 public class ActivateStateList
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
 Contains a list of abnormalities of a given risk level, stored as [`ActivateStateModels`](/api/CreatureGenerate/ActivateStateModel), for the purposes of abnormality extraction. Each `ActivateStateModel` contains the abnormality ID and some flags regarding whether this abnormality can be extracted.
 
 See [Abnormality Extraction](/abnormality-extraction) for an overview of the extraction system.

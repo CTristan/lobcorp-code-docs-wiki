@@ -2,7 +2,7 @@
 title: ActivateStateModel
 description: 
 published: true
-date: 2026-07-16T20:53:33.308Z
+date: 2026-07-16T20:53:48.419Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:11.402Z
@@ -15,8 +15,6 @@ dateCreated: 2026-07-08T03:37:11.402Z
 ```csharp
 public class ActivateStateModel
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
 Stores the state of an abnormality for extraction, including flags indicating whether it is currently in the facility, has been removed for this extraction, and is a tool abnormality.
 

@@ -2,7 +2,7 @@
 title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T02:02:39.755Z
+date: 2026-07-16T02:13:19.834Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -170,7 +170,7 @@ Each `ActivateStateModel` stores whether an abnormality is:
 - removed from the current day's pool, and
 - a tool abnormality.
 
-Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected).
+Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected). An abnormality can be selected if it is not in the facility, has not been removed from the pool, and is not a tool abnormality (unless this is a tool abnormality extraction)
 
 
 

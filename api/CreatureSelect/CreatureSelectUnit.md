@@ -1,7 +1,13 @@
 ---
-uid: CreatureSelect.CreatureSelectUnit
-canonical_path: /api/CreatureSelect/CreatureSelectUnit
+title: CreatureSelectUnit
+description: 
+published: true
+date: 2026-07-16T00:25:58.879Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T03:38:31.291Z
 ---
+
 # Class CreatureSelectUnit
 **Namespace:** [CreatureSelect](/api/CreatureSelect)
 **Assembly:** Assembly-CSharp.dll

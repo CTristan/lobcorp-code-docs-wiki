@@ -2,7 +2,7 @@
 title: CreatureGenerateInfoManager
 description: 
 published: true
-date: 2026-07-16T16:37:26.403Z
+date: 2026-07-16T16:55:58.197Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:18.860Z
@@ -464,7 +464,7 @@ Does nothing.
 ```csharp
 public void RemoveAction(long id)
 ```
-Unused. See [`CreatureGenerateDoor::RemoveAction`](/api/CreatureGenerate/CreatureGenerateDoor#removeactionparams-object).
+Unused. See [`CreatureGenerateModel::RemoveAction`](/api/CreatureGenerate/CreatureGenerateDoor#removeactionparams-object).
 
 #### Parameters
 | Name | Type | Description |

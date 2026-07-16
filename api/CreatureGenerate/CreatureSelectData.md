@@ -2,7 +2,7 @@
 title: CreatureSelectData
 description: 
 published: true
-date: 2026-07-16T21:21:46.413Z
+date: 2026-07-16T21:22:36.875Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:26.043Z
@@ -18,7 +18,7 @@ public class CreatureSelectData
 > This class is not used.
 {.is-info}
 
-Unused class which holds the data for a given day of abnormality selection. This class is loaded by [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) even though it is otherwise unused.
+Unused class which holds the data for a given day of abnormality selection. This class is loaded into [`CreatureGenerateInfoManager::SelectData`](/api/CreatureGenerate/CreatureGenerateInfoManager#selectdata) by [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) even though it is otherwise unused.
 
 See [`CreatureGenerateModel`](/api/CreatureGenerate/CreatureGenerateModel) for the actually used version of this, and [Abnormality Extraction](/abnormality-extraction) for more information about the extraction system.
 

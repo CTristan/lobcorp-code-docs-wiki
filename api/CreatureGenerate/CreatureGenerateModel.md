@@ -2,7 +2,7 @@
 title: CreatureGenerateModel
 description: 
 published: true
-date: 2026-07-16T21:17:51.105Z
+date: 2026-07-16T21:27:11.643Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:21.432Z
@@ -15,10 +15,6 @@ dateCreated: 2026-07-08T03:37:21.432Z
 ```csharp
 public class CreatureGenerateModel : CreatureGenerateData
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
-
 Represents the three doors during an extraction, and the restrictions for the day. `ONLY` restricts to the listed abnormalities, and `REMOVE` removes certain abnormalities for the day.
 
 See [Abnormality Extraction](/abnormality-extraction) for how this system works.

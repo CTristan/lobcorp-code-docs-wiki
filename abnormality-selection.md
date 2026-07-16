@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-15T23:30:54.248Z
+date: 2026-07-16T00:54:32.678Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -41,15 +41,7 @@ On days with no data for probabilities (most notably Day 46-49), three abnormali
 ### Before Extraction
 Before the extraction scene is loaded^[when?]^, [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized.
 
-When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized, it creates a list of all abnormalities by risk level and stores it in [`CreatureGenerateInfoManager::CreatureList`](/api/CreatureGenerate/CreatureGenerateInfoManager#creaturelist). Then, it constructs a new list which matches each risk level to an [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList). Each `ActivateStateList` contains a list of [`ActivateStateModels`](/api/CreatureGenerate/ActivateStateModel), which holds an abnormality ID and some flags relating to how it should be generated.
-
-Each `ActivateStateModel` stores whether an abnormality is:
-- currently in the facility,
-- removed from the current day's pool, and
-- a tool abnormality.
-
-Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected).
-
+When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized, it creates a dictionary of all abnormalities by risk level and stores it in [`CreatureGenerateInfoManager::CreatureList`](/api/CreatureGenerate/CreatureGenerateInfoManager#creaturelist). Then, it constructs a new dictionary, [`CreatureGenerateInfoManager::activateStateDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#activateStateDic), which matches each risk level to an [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList).
 
 <table style="display: block;
            margin-left: auto;
@@ -79,7 +71,7 @@ Each `ActivateStateList` represents all abnormalities of some risk level, and ma
     </td>
   </tr>
   <tr>
-    <td style="border: 1px solid;">
+    <td style="border: 1px solid; margin-left: auto; margin-right: auto;">
       <table style="width: 100%; margin-left: auto; margin-right: auto;">
         <tr>
           <td colspan=3>
@@ -169,7 +161,19 @@ Each `ActivateStateList` represents all abnormalities of some risk level, and ma
   </tr>
 </table>
 
-Finally, if it has not been loaded previously, the file `Assets/Resources/xml/CreatureGenInfo.txt` is loaded into [`CreatureGenerateInfoManager::dayGenInfoDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#dayGenInfoDic). This stores the probabilities for each risk level and exceptions (the `ONLY` and `REMOVE` commands) for each day. The data for each day is stored as a [`CreatureGenerateModel`](/api/CreatureGenerate/CreatureGenerateModel), which contains the day it belongs to and three [`CreatureGenerateDoors`](/api/CreatureGenerate/CreatureGenerateDoor) with their respective probabilities. See [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) for more information.
+Each `ActivateStateList` contains a list of [`ActivateStateModels`](/api/CreatureGenerate/ActivateStateModel), which holds an abnormality ID and some flags relating to how it should be generated.
+
+Each `ActivateStateModel` stores whether an abnormality is:
+- currently in the facility,
+- removed from the current day's pool, and
+- a tool abnormality.
+
+Each `ActivateStateList` represents all abnormalities of some risk level, and maintains a list of the "usable" abnormalities (those which can be selected).
+
+
+
+
+Finally, if it has not been loaded previously, the file `Assets/Resources/xml/CreatureGenInfo.txt` is loaded into [`CreatureGenerateInfoManager::dayGenInfoDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#dayGenInfoDic). This stores the probabilities for each risk level and exceptions (the `ONLY` and `REMOVE` commands) for each day. The data for each day is stored as a [`CreatureGenerateModel`](/api/CreatureGenerate/CreatureGenerateModel), which contains the day it belongs to and three [`CreatureGenerateDoors`](/api/CreatureGenerate/CreatureGenerateDoor) with their respective probabilities. See [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) for more information about how this is parsed, and the [Day Info V3 sheet](https://docs.google.com/spreadsheets/d/1ZCfaw51PIZk93opHr8hkLNVxPvHHU8_xyq7IRV0R2uk/edit?gid=0#gid=0) for the probabilities and restrictions for each day.
 
 Note that there is no data in this table for every fifth day or any day after Day 45, even if an abnormality can be selected on that day. Under normal conditions, if a fifth day has an extraction (e.g. Day 15, Day 30, and Day 40), it will use the data for the next day. Every day after Day 45 instead chooses from all non-tool abnormalities not currently in the facility, and does not use risk level.
 
@@ -180,6 +184,8 @@ When the scene is first loaded, [`CreatureSelectUI::Awake`](/api/Global/Abnormal
 
 Once the class is prepared, [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) does some final important things: it enables or disables the re-extraction button, checks if there should be an extraction today (see [`CreatureSelectUI::CheckUIActivateCondition`](/api/Global/Abnormality-Extraction/CreatureSelectUI#checkuiactivatecondition) for details), and enables the [doors](/api/CreatureSelect/CreatureSelectUnit). It then moves on to actually selecting the abnormalities for the day.
 
+If there is no extraction on this day, it instead jumps to [`CreatureSelectUI::OnUIActionEnd`](/api/Global/Abnormality-Extraction/CreatureSelectUI#onuiactionend), which [saves Etc data](/api/Global/Global-Data/GlobalGameManager#saveetcdata) if it [exists](/api/Global/Global-Data/GlobalGameManager#existetcdata), and [begins the story scene](/api/Global/Story/StorySceneController#initstory).
+
 ### Abnormality Selection
 While [`CreatureSelectUI`](/api/Global/Abnormality-Extraction/CreatureSelectUI) is initializing, it makes a call to [`CreatureSelectUI::GetCreatureList`](/api/Global/Abnormality-Extraction/CreatureSelectUI#getcreaturelist) to select three abnormalities for the day. First, [it calculates what day to use for extraction](/api/CreatureGenerate/CreatureGenerateInfoManager#calculateday), [whether or not there should be a tool abnormality on this extraction](/api/Global/Abnormality-Extraction/CreatureSelectUI#checkkitgeneration), and finally [updates `CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager#ondaychanged) to reflect the current day and facility status. Then, it clears any pre-existing data in the doors and [gets new abnormalities for the day](/api/CreatureGenerate/CreatureGenerateInfoManager#getcreature). If the resulting list is `null` (i.e., there are no valid abnormalities for the day, or no data for today) it instead chooses from all non-tool abnormalities not currently in the facility, and does not use risk level. If there are *still* no available abnormalities, it logs the error `"Could not make Creature"` and stops.
 
@@ -188,7 +194,7 @@ Then, it shuffles the abnormalities and puts the shuffled list into [`CreatureSe
 Finally, it [checks if Yang should be the only option today](/api/Global/Abnormality-Extraction/CreatureSelectUI#checkyinandyang).
 
 ### Presenting Doors
-If there are three abnormalities in the selection, [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) [initializes all of them in a random order](/api/CreatureSelect/CreatureSelectUnit#initlong).
+If there are three abnormalities in the selection, [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) [initializes all of them](/api/CreatureSelect/CreatureSelectUnit#initlong)  in a random order.
 
 If there is only one abnormality in the selection, [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) will disable all doors except the middle one, and initialize that one with that abnormality.
 
@@ -197,8 +203,20 @@ If there are duplicate abnormalities in the selection (which should not happen n
 ### Other Initialization Effects
 [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) also enables the visual filter, triggers an animation to play on the UI (`UIOpen.anim`) and on each door (`Exit_Normal.anim`), starts the music, and displays the re-extraction button.
 
-## Selecting An Abnormality
-meow
+## Choosing An Abnormality
+When a door is clicked ([`CreatureSelectUnit::OnPointerClick`](/api/Global/Abnormality-Extraction/CreatureSelectUnit#onpointerclick)), it immediately sets a flag on the door (`TransSelected`) to prevent further selection. Then the `CreatureSelectUI` [is told which unit was clicked](/api/Global/Abnormality-Extraction/CreatureSelectUI#onclickunitcreatureselectunit). This sets a flag on the UI (`effectRunned`) to prevent further interaction. The appropriate abnormality [is then queued](/api/Global/Global-Data/PlayerModel#addwaitingcreaturelong), [marked as used](/api/CreatureGenerate/CreatureGenerateInfoManager#onusedlong), a closing animation (`UIClose.anim`) is played, and the music [begins to fade out](/api/Global/Abnormality-Extraction/CreatureSelectUI#fadeouteffectfloat).
+
+Once the closing animation plays, it prompts a call to [`CreatureSelectUnit::OnCalled`](/api/Global/Abnormality-Extraction/CreatureSelectUnit#oncalled). This checks whether a second extraction is needed today, and resets the UI if needed. This sets the flag `_tiperethRunned` to indicate the first extraction has finished. Otherwise, it plays the `GlobalClose.anim` animation, [sets the story music to fade in](/api/Global/Audio/StoryBgm#setfadeinfloat), and [begins the story scene](/api/Global/Story/StorySceneController#initstory).
+
+At the end of the `GlobalClose.anim` animation, a final call is made to [`CreatureSelectUnit::OnCalled(int)`](/api/Global/Abnormality-Extraction/CreatureSelectUnit#oncalledint), which ignores the `int` parameter, [saves Etc data](/api/Global/Global-Data/GlobalGameManager#saveetcdata) if it [exists](/api/Global/Global-Data/GlobalGameManager#existetcdata), and *also*^:question:^ [begins the story scene](/api/Global/Story/StorySceneController#initstory).
+
 
 ## Re-Extraction
-meow meow
+The re-extract button game object (`ReExtract`), when clicked, calls [`CreatureSelectUI::OnClickReExtract`](/api/Global/Abnormality-Extraction/CreatureSelectUI#onclickreextract). This immediately sets a flag (`_reExtracted`) to prevent re-extracting again. If re-extraction research has not been completed, nothing else happens.
+
+If the research has been completed, then the method makes a call to [`CreatureSelectUI::GetCreatureList`](/api/Global/Abnormality-Extraction/CreatureSelectUI#getcreaturelistbool)
+with `setEmpty=false`. This gets a new selection of abnormalities like normal, but instead of initializing each door to no abnormality (ID `-1L`), it leaves the current abnormalities in the doors so that the changing animation (`CreatureChange.anim`) can play without changing the names or frames.
+
+Then, each door [changes out its current abnormality for the new one](/api/CreatureSelect/CreatureSelectUnit#onchangecomplete).
+
+The rest proceeds exactly the same way as [`CreatureSelectUI::Init`](/api/Global/Abnormality-Extraction/CreatureSelectUI#init) after getting abnormalities, including re-enabling the re-extraction button if the flag is no longer set to true, but without changing the music.

@@ -2,7 +2,7 @@
 title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T02:13:19.834Z
+date: 2026-07-16T02:14:11.760Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -42,7 +42,7 @@ On days with no data for probabilities (most notably Day 46-49), three abnormali
 ### Before Extraction
 Before the extraction scene is loaded^[when?]^, [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized.
 
-When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized, it creates a dictionary of all abnormalities by risk level and stores it in [`CreatureGenerateInfoManager::CreatureList`](/api/CreatureGenerate/CreatureGenerateInfoManager#creaturelist). Then, it constructs a new dictionary, [`CreatureGenerateInfoManager::activateStateDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#activateStateDic), which matches each risk level to an [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList).
+When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized, it creates a dictionary of all abnormalities by risk level and stores it in [`CreatureGenerateInfoManager::CreatureList`](/api/CreatureGenerate/CreatureGenerateInfoManager#creaturelist). Then, it constructs a new dictionary, [`CreatureGenerateInfoManager::activateStateDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#activateStateDic), which matches each risk level to an [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList). Each `ActivateStateList` contains a list of [`ActivateStateModels`](/api/CreatureGenerate/ActivateStateModel), which holds an abnormality ID and some flags relating to how it should be generated.
 
 <table style="margin-left: auto;
            margin-right: auto;
@@ -162,8 +162,6 @@ When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoM
     </td>
   </tr>
 </table>
-
-Each `ActivateStateList` contains a list of [`ActivateStateModels`](/api/CreatureGenerate/ActivateStateModel), which holds an abnormality ID and some flags relating to how it should be generated.
 
 Each `ActivateStateModel` stores whether an abnormality is:
 - currently in the facility,

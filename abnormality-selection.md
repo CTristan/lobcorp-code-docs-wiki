@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T00:59:28.736Z
+date: 2026-07-16T01:00:15.940Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -206,9 +206,9 @@ If there are duplicate abnormalities in the selection (which should not happen n
 ## Choosing An Abnormality
 When a door is clicked ([`CreatureSelectUnit::OnPointerClick`](/api/CreatureSelect/CreatureSelectUnit#onpointerclick)), it immediately sets a flag on the door (`TransSelected`) to prevent further selection. Then the `CreatureSelectUI` [is told which unit was clicked](/api/Global/Abnormality-Extraction/CreatureSelectUI#onclickunitcreatureselectunit). This sets a flag on the UI (`effectRunned`) to prevent further interaction. The appropriate abnormality [is then queued](/api/Global/Global-Data/PlayerModel#addwaitingcreaturelong), [marked as used](/api/CreatureGenerate/CreatureGenerateInfoManager#onusedlong), a closing animation (`UIClose.anim`) is played, and the music [begins to fade out](/api/Global/Abnormality-Extraction/CreatureSelectUI#fadeouteffectfloat).
 
-Once the closing animation plays, it prompts a call to [`CreatureSelectUI::OnCalled`](/api/Global/Abnormality-Selection/CreatureSelectUI#oncalled). This checks whether a second extraction is needed today, and resets the UI if needed. This sets the flag `_tiperethRunned` to indicate the first extraction has finished. Otherwise, it plays the `GlobalClose.anim` animation, [sets the story music to fade in](/api/Global/Audio/StoryBgm#setfadeinfloat), and [begins the story scene](/api/Global/Story/StorySceneController#initstory).
+Once the closing animation plays, it prompts a call to [`CreatureSelectUI::OnCalled`](/api/Global/Abnormality-Extraction/CreatureSelectUI#oncalled). This checks whether a second extraction is needed today, and resets the UI if needed. This sets the flag `_tiperethRunned` to indicate the first extraction has finished. Otherwise, it plays the `GlobalClose.anim` animation, [sets the story music to fade in](/api/Global/Audio/StoryBgm#setfadeinfloat), and [begins the story scene](/api/Global/Story/StorySceneController#initstory).
 
-At the end of the `GlobalClose.anim` animation, a final call is made to [`CreatureSelectUnit::OnCalled(int)`](/api/Global/CreatureSelect/CreatureSelectUnit#oncalledint), which ignores the `int` parameter, [saves Etc data](/api/Global/Global-Data/GlobalGameManager#saveetcdata) if it [exists](/api/Global/Global-Data/GlobalGameManager#existetcdata), and *also*^:question:^ [begins the story scene](/api/Global/Story/StorySceneController#initstory).
+At the end of the `GlobalClose.anim` animation, a final call is made to [`CreatureSelectUnit::OnCalled(int)`](/api/Global/Abnormality-Extraction/CreatureSelectUI#oncalledint), which ignores the `int` parameter, [saves Etc data](/api/Global/Global-Data/GlobalGameManager#saveetcdata) if it [exists](/api/Global/Global-Data/GlobalGameManager#existetcdata), and *also*^:question:^ [begins the story scene](/api/Global/Story/StorySceneController#initstory).
 
 
 ## Re-Extraction

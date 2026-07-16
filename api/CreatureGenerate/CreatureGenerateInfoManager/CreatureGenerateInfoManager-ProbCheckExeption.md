@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.CreatureGenerateInfoManager.ProbCheckExeption
-canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager/ProbCheckExeption
+title: CreatureGenerateInfoManager-ProbCheckExeption
+description: 
+published: true
+date: 2026-07-16T21:29:12.938Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T03:53:52.893Z
 ---
+
 # Class CreatureGenerateInfoManager.ProbCheckExeption
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -9,6 +15,11 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager/ProbCheckExept
 ```csharp
 public class CreatureGenerateInfoManager.ProbCheckExeption : Exception, ISerializable, _Exception
 ```
+
+> This class is not used.
+{.is-info}
+
+Unused exception. Caught but never thrown in [`CreatureGenerateInfoManager::GetCreature`](/api/CreatureGenerate/CreatureGenerateInfoManager#getcreature).
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Exception](https://learn.microsoft.com/dotnet/api/system.exception) → CreatureGenerateInfoManager.ProbCheckExeption

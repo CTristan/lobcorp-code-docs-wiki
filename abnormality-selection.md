@@ -2,7 +2,7 @@
 title: Abnormality Selection
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T01:00:15.940Z
+date: 2026-07-16T01:04:14.208Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -43,8 +43,7 @@ Before the extraction scene is loaded^[when?]^, [`CreatureGenerateInfoManager`](
 
 When [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized, it creates a dictionary of all abnormalities by risk level and stores it in [`CreatureGenerateInfoManager::CreatureList`](/api/CreatureGenerate/CreatureGenerateInfoManager#creaturelist). Then, it constructs a new dictionary, [`CreatureGenerateInfoManager::activateStateDic`](/api/CreatureGenerate/CreatureGenerateInfoManager#activateStateDic), which matches each risk level to an [`ActivateStateList`](/api/CreatureGenerate/ActivateStateList).
 
-<table style="display: block;
-           margin-left: auto;
+<table style="margin-left: auto;
            margin-right: auto;
            width: 80%;
            border: 3px solid;">

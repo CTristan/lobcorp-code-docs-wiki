@@ -2,7 +2,7 @@
 title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T01:19:35.607Z
+date: 2026-07-16T01:39:21.139Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -37,7 +37,7 @@ The player is never presented with an abnormality already in their facility or t
 On days with no data for probabilities (most notably Day 46-49), three abnormalities are chosen from all non-tool abnormalities (except Yang) not currently in the facility. This does not use risk level. See [`CreatureSelectUI::GetCreatureList(bool)`](/api/Global/Abnormality-Extraction/CreatureSelectUI#getcreaturelistbool) for details.
 
 
-## From Initialization
+## How It All Works (Selection to Presentation)
 
 ### Before Extraction
 Before the extraction scene is loaded^[when?]^, [`CreatureGenerateInfoManager`](/api/CreatureGenerate/CreatureGenerateInfoManager) is initialized.

@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.CreatureSelectData
-canonical_path: /api/CreatureGenerate/CreatureSelectData
+title: CreatureSelectData
+description: 
+published: true
+date: 2026-07-16T21:21:46.413Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T03:37:26.043Z
 ---
+
 # Class CreatureSelectData
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -9,11 +15,12 @@ canonical_path: /api/CreatureGenerate/CreatureSelectData
 ```csharp
 public class CreatureSelectData
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
+> This class is not used.
+{.is-info}
 
-Holds the data for a given day of abnormality selection, including the probabilities of each risk level and the action of to allow/ban abnormalities.
+Unused class which holds the data for a given day of abnormality selection. This class is loaded by [`CreatureGenerateInfoManager::LoadStaticData`](/api/CreatureGenerate/CreatureGenerateInfoManager#loadstaticdata) even though it is otherwise unused.
 
+See [`CreatureGenerateModel`](/api/CreatureGenerate/CreatureGenerateModel) for the actually used version of this, and [Abnormality Extraction](/abnormality-extraction) for more information about the extraction system.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSelectData

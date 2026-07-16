@@ -2,7 +2,7 @@
 title: CreatureGenerateInfoManager
 description: 
 published: true
-date: 2026-07-16T16:36:30.786Z
+date: 2026-07-16T16:37:26.403Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:37:18.860Z
@@ -15,14 +15,12 @@ dateCreated: 2026-07-08T03:37:18.860Z
 ```csharp
 public class CreatureGenerateInfoManager
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
 With [`CreatureSelectUI`](/api/Global/Abnormality-Extraction/CreatureSelectUI), handles abnormality extraction:
 
 - Loads information from `xml/CreatureGenInfo.xml` to determine door probabilities based on the day
 - Stores lists of abnormalities by risk level ([`ActivateStateList`](/api/CreatureGenerate/ActivateStateList))
-- Updates lists to maintain selectable abnormalities
+- Updates lists to maintain selectable abnormalities for the day
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureGenerateInfoManager

@@ -2,7 +2,7 @@
 title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-16T01:39:21.139Z
+date: 2026-07-16T02:02:39.755Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -32,9 +32,9 @@ Some days have instructions for which abnormalities are exclusively allowed (`ON
 
 Every fourth extraction is a tool abnormality. See [`CreatureSelectUI::CheckKitGeneration`](/api/Global/Abnormality-Extraction/CreatureSelectUI#checkkitgeneration) for details on how this is determined. These extractions can only select tool abnormalities (except Yang), but otherwise follow the same selection behaviour as normal abnormalities. On every day except Day 49, if [Yin](/api/Global/Abnormalities/Yin-and-Yang/Yin/Yin) is in the facility but [Yang](/api/Global/Abnormalities/Yin-and-Yang/Yang/Yang) is not yet, the only tool abnormality available is Yang. See [`CreatureSelectUI::CheckYinAndYang`](/api/Global/Abnormality-Extraction/CreatureSelectUI#checkyinandyang) for more details.
 
-The player is never presented with an abnormality already in their facility or two of the same abnormality at the same time. However, due to an error^[where?]^, the player can receive two of the same abnormality in a row on days with two extractions.
+The player is never presented with an abnormality already in their facility or two of the same abnormality at the same time.
 
-On days with no data for probabilities (most notably Day 46-49), three abnormalities are chosen from all non-tool abnormalities (except Yang) not currently in the facility. This does not use risk level. See [`CreatureSelectUI::GetCreatureList(bool)`](/api/Global/Abnormality-Extraction/CreatureSelectUI#getcreaturelistbool) for details.
+On days with no data for probabilities (most notably Day 46-49), three abnormalities are chosen from all non-tool abnormalities (except Yang) not currently in the facility. This does not use risk level, and due to an oversight, allows the player to get duplicate abnormalities if the same abnormality is offered in both selections. See [`CreatureSelectUI::GetCreatureList(bool)`](/api/Global/Abnormality-Extraction/CreatureSelectUI#getcreaturelistbool) for details.
 
 
 ## How It All Works (Selection to Presentation)

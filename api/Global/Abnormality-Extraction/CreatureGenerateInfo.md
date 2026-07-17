@@ -2,10 +2,10 @@
 title: CreatureGenerateInfo
 description: 
 published: true
-date: 2026-02-27T00:01:14.890Z
+date: 2026-07-17T00:43:32.403Z
 tags: 
 editor: markdown
-dateCreated: 2026-01-15T03:49:26.091Z
+dateCreated: 2026-07-08T14:03:26.977Z
 ---
 
 # Class CreatureGenerateInfo
@@ -16,6 +16,8 @@ dateCreated: 2026-01-15T03:49:26.091Z
 public class CreatureGenerateInfo : MonoBehaviour
 ```
 Contains some lists of abnormality IDs and methods for getting them.
+
+The debug arrays `r1`, `r2`,  `r3`, `r4`,  `r5`, and `r6` are mostly unused. The element `r1[0][0]`, which contains the abnormality ID for [Big Bird](/api/Global/Abnormalities/Big-Bird/BigBird), is queued as a fall-back when the day is negative.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureGenerateInfo

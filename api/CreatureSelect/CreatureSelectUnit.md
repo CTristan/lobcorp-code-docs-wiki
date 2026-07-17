@@ -2,7 +2,7 @@
 title: CreatureSelectUnit
 description: 
 published: true
-date: 2026-07-17T00:35:22.855Z
+date: 2026-07-17T00:35:36.531Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:38:31.291Z
@@ -15,10 +15,6 @@ dateCreated: 2026-07-08T03:38:31.291Z
 ```csharp
 public class CreatureSelectUnit : MonoBehaviour, IAnimatorEventCalled
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
-
 The script for a door on the abnormality extraction screen ([`CreatureSelectUI`](/api/Global/Abnormality-Extraction/CreatureSelectUI)).
 
 See [Abnormality Extraction](/abnormality-extraction) for more information about the abnormality extraction system.

@@ -2,7 +2,7 @@
 title: CreatureSelectUnit
 description: 
 published: true
-date: 2026-07-17T00:35:36.531Z
+date: 2026-07-17T19:44:45.436Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:38:31.291Z
@@ -348,7 +348,7 @@ Unimplemented.
 ```csharp
 public void OnChange()
 ```
-Sets the `isChanging` flag to prevent further interaction, then starts the changing animation (`CreatureChange.anim`). This animation calls [`CreatureSelectUnit::onchangecomplete`](/api/CreatureSelect/CreatureSelectUnit#onchangecomplete) when it finishes.
+Sets the `isChanging` flag to prevent further interaction, then starts the changing animation (`CreatureChange.anim`). This animation calls [`CreatureSelectUnit::OnChangeComplete`](/api/CreatureSelect/CreatureSelectUnit#onchangecomplete) when it finishes.
 
 ### OnChangeComplete()
 ```csharp

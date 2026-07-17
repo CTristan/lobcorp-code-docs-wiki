@@ -2,7 +2,7 @@
 title: CreatureSelectUnit
 description: 
 published: true
-date: 2026-07-16T00:25:58.879Z
+date: 2026-07-17T00:06:20.187Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T03:38:31.291Z
@@ -19,10 +19,9 @@ public class CreatureSelectUnit : MonoBehaviour, IAnimatorEventCalled
 {.is-warning}
 
 
-A door, in the abnormality extraction screen.
+The script for a door on the abnormality extraction screen ([`CreatureSelectUI`](/api/Global/Abnormality-Extraction/CreatureSelectUI)).
 
-(Why this lives in its own folder, and not with [CreatureSelectUI](/api/Global/Abnormality-Extraction/CreatureSelectUI), is beyond me.)
-
+See [Abnormality Extraction](/abnormality-extraction) for more information about the abnormality extraction system.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureSelectUnit
@@ -35,13 +34,14 @@ A door, in the abnormality extraction screen.
 ```csharp
 public CreatureSelectUnit()
 ```
+Default constructor.
 
 ## Fields
-### _creatureId
+### \_creatureId
 ```csharp
 private long _creatureId
 ```
-
+The abnormality contained in this door.
 
 #### Field Value
 **Type:** System.Int64
@@ -50,6 +50,7 @@ private long _creatureId
 ```csharp
 public GameObject CreditCreatureFrame
 ```
+The frame for a backer abnormality.
 
 
 #### Field Value
@@ -59,7 +60,7 @@ public GameObject CreditCreatureFrame
 ```csharp
 public Animator DoorAnim
 ```
-
+Animator that plays the `DoorOpen.anim` animation when the UI is opened, probably.
 
 #### Field Value
 **Type:** UnityEngine.Animator
@@ -68,7 +69,7 @@ public Animator DoorAnim
 ```csharp
 public Animator DullAnimCTRL
 ```
-
+Animation controller that controls the doors shaking, probably.
 
 #### Field Value
 **Type:** UnityEngine.Animator
@@ -77,7 +78,7 @@ public Animator DullAnimCTRL
 ```csharp
 private Timer DullTimer
 ```
-
+Timer which tells the animator how often to shake, probably.
 
 #### Field Value
 **Type:** Global.Timer
@@ -86,7 +87,7 @@ private Timer DullTimer
 ```csharp
 public const long EmptyId = -1
 ```
-
+The ID representing no abnormality.
 
 #### Field Value
 **Type:** System.Int64
@@ -95,7 +96,7 @@ public const long EmptyId = -1
 ```csharp
 public Image[] Frame
 ```
-
+A set of images used for switching between the backer and normal frames, depending on the abnormality.
 
 #### Field Value
 **Type:** UnityEngine.UI.Image[]
@@ -104,7 +105,7 @@ public Image[] Frame
 ```csharp
 public Text IdText
 ```
-
+The name or ID number of the abnormality, as displayed on the door.
 
 #### Field Value
 **Type:** UnityEngine.UI.Text
@@ -113,7 +114,7 @@ public Text IdText
 ```csharp
 private bool isChanging
 ```
-
+Flag indicating a re-extraction is happening.
 
 #### Field Value
 **Type:** System.Boolean
@@ -122,7 +123,7 @@ private bool isChanging
 ```csharp
 private CreatureTypeInfo metaInfo
 ```
-
+The information (see [`CreatureTypeInfo`](/api/Global/Abnormalities/CreatureTypeInfo/CreatureTypeInfo)) of the abnormality in this door.
 
 #### Field Value
 **Type:** Global.CreatureTypeInfo
@@ -131,7 +132,7 @@ private CreatureTypeInfo metaInfo
 ```csharp
 public GameObject NormalCreatureFrame
 ```
-
+The frame for a normal (non-backer) abnormality.
 
 #### Field Value
 **Type:** UnityEngine.GameObject
@@ -140,7 +141,7 @@ public GameObject NormalCreatureFrame
 ```csharp
 private bool pointer
 ```
-
+Flag indicating the door is being hovered over (speeds up the shaking).
 
 #### Field Value
 **Type:** System.Boolean
@@ -149,7 +150,7 @@ private bool pointer
 ```csharp
 public RectTransform PositionPivot
 ```
-
+Represents some pivot on this game object...
 
 #### Field Value
 **Type:** UnityEngine.RectTransform
@@ -158,7 +159,7 @@ public RectTransform PositionPivot
 ```csharp
 public GameObject RootObject
 ```
-
+This door.
 
 #### Field Value
 **Type:** UnityEngine.GameObject
@@ -167,7 +168,7 @@ public GameObject RootObject
 ```csharp
 private long savedId
 ```
-
+The ID of an abnormality to switch in after the changing animation plays.
 
 #### Field Value
 **Type:** System.Int64
@@ -176,7 +177,7 @@ private long savedId
 ```csharp
 public Animator TransAnim
 ```
-
+This door, as an animator, and what controls transition animations.
 
 #### Field Value
 **Type:** UnityEngine.Animator
@@ -185,7 +186,7 @@ public Animator TransAnim
 ```csharp
 public float TransitionTime
 ```
-
+Unused?
 
 #### Field Value
 **Type:** System.Single
@@ -194,7 +195,7 @@ public float TransitionTime
 ```csharp
 private Timer TransitionTimer
 ```
-
+Unused?
 
 #### Field Value
 **Type:** Global.Timer
@@ -203,7 +204,7 @@ private Timer TransitionTimer
 ```csharp
 public bool TransSelected
 ```
-
+Flag indicating that this door has been selected and is transitioning to the next screen.
 
 #### Field Value
 **Type:** System.Boolean
@@ -213,6 +214,7 @@ public bool TransSelected
 ```csharp
 public long CreatureID { get; }
 ```
+Get-only property for `_creatureID`.
 
 #### Property Value
 **Type:** System.Int64
@@ -221,6 +223,7 @@ public long CreatureID { get; }
 ```csharp
 private float DullFreq { get; }
 ```
+The frequency of the shaking animation.
 
 #### Property Value
 **Type:** System.Single
@@ -229,6 +232,7 @@ private float DullFreq { get; }
 ```csharp
 private RectTransform RectTransform { get; }
 ```
+Unused?
 
 #### Property Value
 **Type:** UnityEngine.RectTransform
@@ -238,19 +242,19 @@ private RectTransform RectTransform { get; }
 ```csharp
 public void AgentReset()
 ```
-
+Unimplemented.
 
 ### AnimatorEventInit()
 ```csharp
 public void AnimatorEventInit()
 ```
-
+Unimplemented.
 
 ### AttackCalled(int)
 ```csharp
 public void AttackCalled(int i)
 ```
-
+Unimplemented.
 
 #### Parameters
 | Name | Type | Description |
@@ -261,13 +265,13 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
-
+Unimplemented.
 
 ### CreatureAnimCall(int, CreatureBase)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
-
+Unimplemented.
 
 #### Parameters
 | Name | Type | Description |
@@ -279,13 +283,15 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void FixedUpdate()
 ```
-
+Runs the shaking animation timer, and shakes if needed. Probably.
 
 ### GetName()
 ```csharp
 private string GetName()
 ```
+Returns the name (or ID number) of the abnormality in this door.
 
+(Ex: "One Sin and Hundreds of Good Deeds" or "O-03-03".)
 
 #### Returns
 **Type:** System.String
@@ -294,7 +300,9 @@ private string GetName()
 ```csharp
 public string GetText()
 ```
+Returns the preview text of the abnormality in the door.
 
+(Ex: "It feeds on the “evil” that seeps out during conversations between people.")
 
 #### Returns
 **Type:** System.String
@@ -303,12 +311,12 @@ public string GetText()
 ```csharp
 public void Init(long creatureId)
 ```
-
+Initializes this door to hold the abnormality with ID `creatureId`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `creatureId` | `System.Int64` |  |
+| `creatureId` | `System.Int64` | The ID of the abnormality in the door. |
 
 ### LateInit()
 ```csharp

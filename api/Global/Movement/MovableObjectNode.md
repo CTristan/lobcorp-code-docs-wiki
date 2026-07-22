@@ -1,7 +1,13 @@
 ---
-uid: Global.MovableObjectNode
-canonical_path: /api/Global/Misc/MovableObjectNode
+title: MovableObjectNode
+description: 
+published: true
+date: 2026-07-22T02:11:45.518Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:20:18.877Z
 ---
+
 # Class MovableObjectNode
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,93 +31,95 @@ Represents an object which can move, for example:
 ```csharp
 public MovableObjectNode(bool active)
 ```
-
+Ignores `active` and creates a new `MovableObjectNode`. `_isActive` will be false.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `active` | `System.Boolean` |  |
+| `active` | `System.Boolean` | Ignored. |
 
 ### MovableObjectNode(UnitModel)
 ```csharp
 public MovableObjectNode(UnitModel model)
 ```
-
+Creates a new `MovableObjectNode` attached to `model`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `model` | `Global.UnitModel` |  |
+| `model` | `Global.UnitModel` | The model this `MovableObjectNode` belongs to. |
 
 ## Fields
-### _currentEdge
+### \_currentEdge
 ```csharp
 private MapEdge _currentEdge
 ```
-
+The edge this `MovableObjectNode` is currently on. Can be `null`.
 
 #### Field Value
 **Type:** Global.MapEdge
 
-### _currentNode
+### \_currentNode
 ```csharp
 private MapNode _currentNode
 ```
-
+The node this `MovableObjectNode` is currently on. Can be `null`.
 
 #### Field Value
 **Type:** Global.MapNode
 
-### _currentPassage
+### \_currentPassage
 ```csharp
 private PassageObjectModel _currentPassage
 ```
-
+The room (see [`PassageObjectModel`](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel)) this `MovableObjectNode` is currently in. Can be `null`.
 
 #### Field Value
 **Type:** Global.PassageObjectModel
 
-### _elevatorWaitElapsedTime
+### \_elevatorWaitElapsedTime
 ```csharp
 private float _elevatorWaitElapsedTime
 ```
-
+The amount of time this `MovableObjectNode` has spent waiting to transition through an elevator. Set to `0f` when not waiting on an elevator.
 
 #### Field Value
 **Type:** System.Single
 
-### _elevatorWaitTime
+### \_elevatorWaitTime
 ```csharp
 public const float _elevatorWaitTime = 0.5
 ```
-
+The amount of time to wait before transitioning through an elevator.
 
 #### Field Value
 **Type:** System.Single
 
-### _isActive
+### \_isActive
 ```csharp
 private bool _isActive
 ```
-
+Whether this `MovableObjectNode` is active. Defaults to `false` and **is not initialized** by the constructor `MovableObjectNode(bool active)`.
 
 #### Field Value
 **Type:** System.Boolean
 
-### _isNextElevator
+### \_isNextElevator
 ```csharp
 private bool _isNextElevator
 ```
-
+Flag which is `true` if this `MovableObjectNode` is waiting on an elevator.
 
 #### Field Value
 **Type:** System.Boolean
 
-### _teleportable
+### \_teleportable
 ```csharp
 private bool _teleportable
 ```
+Flag which is `true` if this `MovableObjectNode` is allowed to be teleported by the Rabbit Protocol portals.
 
+All units have this flag set to `true` except for [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel), [Gebura](/api/Global/Core-Suppressions/Gebura-Suppression/GeburahBossBase), [projectiles](/api/Global/Projectiles/ProjectileModel), and sometimes [Big and Will Be Bad Wolf](/api/Global/Abnormalities/Big-and-Will-be-Bad-Wolf/BigBadWolf).
 
 #### Field Value
 **Type:** System.Boolean
@@ -120,7 +128,7 @@ private bool _teleportable
 ```csharp
 public float blockedTimer
 ```
-
+Mostly unused. Sometimes set to `1f` and decremented in [`MovableObjectNode::ProcessMoveByDistance`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat), but only ever checked by legacy code. Does not block movement.
 
 #### Field Value
 **Type:** System.Single
@@ -129,7 +137,7 @@ public float blockedTimer
 ```csharp
 private ElevatorPassageModel currentElevator
 ```
-
+Unused.
 
 #### Field Value
 **Type:** Global.ElevatorPassageModel
@@ -138,7 +146,9 @@ private ElevatorPassageModel currentElevator
 ```csharp
 public float currentScale
 ```
+The scale of this `MovableObjectNode`, which impacts display size and speed in a given room. Defaults to `1f`.
 
+Determined by the [`scaleFactor`](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel#scalefactor) of the room this `MovableObjectNode` is in. :question: Set to `0` by [King of Greed](/api/Global/Abnormalities/The-King-of-Greed/MagicalGirl_2)'s kill ([`MagicalGirl_2::UniqueEscape`](/api/Global/Abnormalities/The-King-of-Greed/MagicalGirl_2#uniqueescape)).
 
 #### Field Value
 **Type:** System.Single
@@ -147,7 +157,7 @@ public float currentScale
 ```csharp
 public float currentZValue
 ```
-
+Unused.
 
 #### Field Value
 **Type:** System.Single
@@ -156,7 +166,7 @@ public float currentZValue
 ```csharp
 private MapNode destinationNode
 ```
-
+Unused.
 
 #### Field Value
 **Type:** Global.MapNode
@@ -165,7 +175,7 @@ private MapNode destinationNode
 ```csharp
 private MovableObjectNode destinationNode2
 ```
-
+Unused.
 
 #### Field Value
 **Type:** Global.MovableObjectNode
@@ -174,7 +184,7 @@ private MovableObjectNode destinationNode2
 ```csharp
 public EdgeDirection edgeDirection
 ```
-
+The direction of this `MovableObjectNode` on the current edge (with `node1->node2` considered `FORWARD`, and `node2->node1` considered `BACKWARD`).
 
 #### Field Value
 **Type:** Global.EdgeDirection
@@ -183,7 +193,9 @@ public EdgeDirection edgeDirection
 ```csharp
 public float edgePosRate
 ```
+The position of this `MovableObjectNode` along the current edge, between `0` and `1`.
 
+A value of `0` indicates this `MovableObjectNode` is at the starting node of this edge, and a value of `1` indicates this `MovableObjectNode` is at the ending node of this edge.
 
 #### Field Value
 **Type:** System.Single
@@ -192,7 +204,9 @@ public float edgePosRate
 ```csharp
 private float edgePosRateGoal
 ```
+The target position of this `MovableObjectNode` along the current edge.
 
+Usually `1f`, except when moving to a position partway through the current edge. This happens often on the last edge of the path when the target is another `MovableObjectNode`.
 
 #### Field Value
 **Type:** System.Single
@@ -201,7 +215,7 @@ private float edgePosRateGoal
 ```csharp
 public bool isIgnoreZValue
 ```
-
+Unused.
 
 #### Field Value
 **Type:** System.Boolean
@@ -210,7 +224,7 @@ public bool isIgnoreZValue
 ```csharp
 private MapNode lastNode
 ```
-
+The last non-null, non-temporary node this `MovableObjectNode` has been at. Unused.
 
 #### Field Value
 **Type:** Global.MapNode
@@ -219,7 +233,7 @@ private MapNode lastNode
 ```csharp
 private UnitModel model
 ```
-
+The [`UnitModel`](/api/Global/Units/UnitModel) this `MovableObjectNode` belongs to. Can be `null`.
 
 #### Field Value
 **Type:** Global.UnitModel
@@ -228,7 +242,9 @@ private UnitModel model
 ```csharp
 private float moveDistance
 ```
+The amount of distance already traveled while following a [`PathMoveBy`](/api/Global/Movement/PathMoveBy).
 
+Incorrectly updated in [`ProcessMoveByDistance`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat) and will always over-estimate the distance already traveled.
 
 #### Field Value
 **Type:** System.Single
@@ -237,7 +253,7 @@ private float moveDistance
 ```csharp
 private PassageObjectModel notNullPassage
 ```
-
+The last non-null room this `MovableObjectNode` has been in.
 
 #### Field Value
 **Type:** Global.PassageObjectModel
@@ -246,7 +262,7 @@ private PassageObjectModel notNullPassage
 ```csharp
 private object passageChangedParam
 ```
-
+Unused.
 
 #### Field Value
 **Type:** System.Object
@@ -255,7 +271,7 @@ private object passageChangedParam
 ```csharp
 private int pathIndex
 ```
-
+The index of the current edge in the path this `MovableObjectNode` is currently following.
 
 #### Field Value
 **Type:** System.Int32
@@ -264,7 +280,7 @@ private int pathIndex
 ```csharp
 private PathResult pathInfo
 ```
-
+The path this `MovableObjectNode` is currently following. Used by most units.
 
 #### Field Value
 **Type:** Global.PathResult
@@ -273,7 +289,9 @@ private PathResult pathInfo
 ```csharp
 private PathMoveBy pathMoveBy
 ```
+A direction and distance to travel, for units that want to travel `LEFT` or `RIGHT` for a certain distance (without pathfinding).
 
+Used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn), [Green Dawn](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dawn/MachineDawn) and [Green Noon](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Noon/MachineNoon) when spawned by [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk), and several unused units.
 
 #### Field Value
 **Type:** Global.PathMoveBy
@@ -282,7 +300,7 @@ private PathMoveBy pathMoveBy
 ```csharp
 private MovableState state
 ```
-
+Set to `MovableState.MOVE` when this `MovableObjectNode` is moving, and `MovableState.STOP` when it is not moving.
 
 #### Field Value
 **Type:** Global.MovableState
@@ -291,7 +309,7 @@ private MovableState state
 ```csharp
 private UnitDirection unitDirection
 ```
-
+The direction the unit attached to the `MovableObjectNode` is facing. Usually^[when?]^ set to `LEFT` or `RIGHT`.
 
 #### Field Value
 **Type:** Global.UnitDirection
@@ -300,7 +318,7 @@ private UnitDirection unitDirection
 ```csharp
 private List<PassType> unpassableList
 ```
-
+Unused. Sometimes contains `SHIELDBEARER`, which is unimplemented.
 
 #### Field Value
 **Type:** System.Collections.Generic.List{PassType}
@@ -309,7 +327,9 @@ private List<PassType> unpassableList
 ```csharp
 private Vector3 viewPosition
 ```
+Unused.
 
+If the position of this `MovableObjectNode` is fixed by [`EnablePositionSetter`](/api/Global/Movement/MovableObjectNode#enablepositionsettervector3), the position this `MovableObjectNode` is fixed at. Otherwise, `null`.
 
 #### Field Value
 **Type:** UnityEngine.Vector3
@@ -318,7 +338,9 @@ private Vector3 viewPosition
 ```csharp
 private bool viewPositionSet
 ```
+Unused.
 
+Flag which is true while this `MovableObjectNode` is at a position fixed by [`EnablePositionSetter`](/api/Global/Movement/MovableObjectNode#enablepositionsettervector3).
 
 #### Field Value
 **Type:** System.Boolean
@@ -328,6 +350,7 @@ private bool viewPositionSet
 ```csharp
 public MapEdge currentEdge { get; }
 ```
+Get-only property for `_currentEdge`, this edge this `MovableObjectNode` is currently on. Can return `null`.
 
 #### Property Value
 **Type:** Global.MapEdge
@@ -336,6 +359,7 @@ public MapEdge currentEdge { get; }
 ```csharp
 public MapNode currentNode { get; }
 ```
+Get-only property for `_currentNode`, this node this `MovableObjectNode` is currently on. Can return `null`.
 
 #### Property Value
 **Type:** Global.MapNode
@@ -344,6 +368,9 @@ public MapNode currentNode { get; }
 ```csharp
 public PassageObjectModel currentPassage { get; set; }
 ```
+The current room this `MovableObjectNode` is in.
+
+When set to a non-null value, also updates [`notNullPassage`](/api/Global/Movement/MovableObjectNode#notnullpassage).
 
 #### Property Value
 **Type:** Global.PassageObjectModel
@@ -352,6 +379,7 @@ public PassageObjectModel currentPassage { get; set; }
 ```csharp
 public bool isActive { get; }
 ```
+Get-only property for `isActive`, the flag indicating if this `MovableObjectNode` is active.
 
 #### Property Value
 **Type:** System.Boolean
@@ -360,6 +388,9 @@ public bool isActive { get; }
 ```csharp
 public bool isBlocked { get; }
 ```
+Unused except by legacy classes.
+
+Returns `true` if `blockedTimer` is greater than `0`.
 
 #### Property Value
 **Type:** System.Boolean
@@ -368,6 +399,7 @@ public bool isBlocked { get; }
 ```csharp
 public bool IsNextElevator { get; }
 ```
+Get-only property for `_isNextElevator`. True if this `MovableObjectNode` is waiting to transition through an elevator.
 
 #### Property Value
 **Type:** System.Boolean
@@ -377,34 +409,38 @@ public bool IsNextElevator { get; }
 ```csharp
 public void AddUnpassableType(PassType pass)
 ```
+Called but not used by functional code.
 
+Adds a `PassType` to the list of impassable types.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `pass` | `Global.PassType` |  |
+| `pass` | `Global.PassType` | The `PassType` to add. |
 
 ### Assign(MovableObjectNode)
 ```csharp
 public void Assign(MovableObjectNode src)
 ```
-
+Copies `src` into this `MovableObjectNode`, including pathing instructions, movement state, position, and edge direction.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `src` | `Global.MovableObjectNode` |  |
+| `src` | `Global.MovableObjectNode` | The `MovableObjectNode` to copy. |
 
 ### CanMoveBy(UnitDirection)
 ```csharp
 public bool CanMoveBy(UnitDirection direction)
 ```
+Returns `true` if this unit can move in the given direction.
 
+Always true when this `MovableObjectNode` is on an edge, and always false when this `MovableObjectNode` is not on any edge or node. When on a node, true if [`MoveBy_GetNextEdge`](/api/Global/Movement/MovableObjectNode#moveby_getnextedgemapnode-unitdirection) finds a new edge.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `direction` | `Global.UnitDirection` |  |
+| `direction` | `Global.UnitDirection` | The direction to check. |
 
 #### Returns
 **Type:** System.Boolean
@@ -428,7 +464,7 @@ public static bool CheckConnectedInPassage(MovableObjectNode n1, MovableObjectNo
 ```csharp
 public bool CheckInRange(MovableObjectNode other)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -442,13 +478,13 @@ public bool CheckInRange(MovableObjectNode other)
 ```csharp
 public bool CheckInRange(MovableObjectNode other, float range)
 ```
-
+Returns `true` if there is a path from this `MovableObjectNode` to `other` with a distance less than `range`. Distance is calculated by [`GetDistance(MovableObjectNode, float)`](/api/Global/Movement/MovableObjectNode#getdistancemovableobjectnode-float).
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `other` | `Global.MovableObjectNode` |  |
-| `range` | `System.Single` |  |
+| `other` | `Global.MovableObjectNode` | The `MovableObjectNode` to check. |
+| `range` | `System.Single` | The maximum distance the other node can be. |
 
 #### Returns
 **Type:** System.Boolean
@@ -457,15 +493,17 @@ public bool CheckInRange(MovableObjectNode other, float range)
 ```csharp
 private bool CheckPassable(MapEdge edge, EdgeDirection edgeDir, float oldEdgePosRate, float newEdgePosRate)
 ```
+Always returns true.
 
+Meant to check if any agent is blocking with a shield, but this was never implemented.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `edge` | `Global.MapEdge` |  |
-| `edgeDir` | `Global.EdgeDirection` |  |
-| `oldEdgePosRate` | `System.Single` |  |
-| `newEdgePosRate` | `System.Single` |  |
+| `edge` | `Global.MapEdge` | The edge to check. |
+| `edgeDir` | `Global.EdgeDirection` | The direction to check passability. |
+| `oldEdgePosRate` | `System.Single` | The current position of this node. |
+| `newEdgePosRate` | `System.Single` | The target position of this node. |
 
 #### Returns
 **Type:** System.Boolean
@@ -474,7 +512,9 @@ private bool CheckPassable(MapEdge edge, EdgeDirection edgeDir, float oldEdgePos
 ```csharp
 private bool CheckPassInNode()
 ```
+Unused.
 
+Returns true.
 
 #### Returns
 **Type:** System.Boolean
@@ -483,24 +523,28 @@ private bool CheckPassInNode()
 ```csharp
 public void DisablePositionSetter()
 ```
+Unused.
 
+Disables a fixed position for this `MovableObjectNode`.
 
 ### EnablePositionSetter(Vector3)
 ```csharp
 public void EnablePositionSetter(Vector3 position)
 ```
+Unused.
 
+Enables a fixed position for this `MovableObjectNode`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `position` | `UnityEngine.Vector3` |  |
+| `position` | `UnityEngine.Vector3` | The position to fix this node to. |
 
 ### EnterElevator(MapNode, MapNode)
 ```csharp
 public void EnterElevator(MapNode elevatorNode, MapNode nextNode)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -512,12 +556,21 @@ public void EnterElevator(MapNode elevatorNode, MapNode nextNode)
 ```csharp
 public bool Equal(MovableObjectNode src)
 ```
+Unused.
 
+If the exact position of `src` matches this `MovableObjectNode`'s position, returns true.
+
+###### Details
+If `src` and `MovableObjectNode` are on the same edge, have the same edge position, and have the same edge direction, returns true.
+
+Otherwise, if `src` and `MovableObjectNode` are on the same node, returns true.
+
+Otherwise returns false.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `src` | `Global.MovableObjectNode` |  |
+| `src` | `Global.MovableObjectNode` | The node to check position-equality of. |
 
 #### Returns
 **Type:** System.Boolean
@@ -526,7 +579,7 @@ public bool Equal(MovableObjectNode src)
 ```csharp
 public bool EqualPosition(MapNode node)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -540,7 +593,7 @@ public bool EqualPosition(MapNode node)
 ```csharp
 public void ExitElevator(MapNode node)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -551,7 +604,7 @@ public void ExitElevator(MapNode node)
 ```csharp
 public MapEdge GetCurrentEdge()
 ```
-
+Returns `currentEdge`, the edge this `MovableObjectNode` is on.
 
 #### Returns
 **Type:** Global.MapEdge
@@ -560,7 +613,7 @@ public MapEdge GetCurrentEdge()
 ```csharp
 public MapNode GetCurrentNode()
 ```
-
+Returns `currentNode`, the node this `MovableObjectNode` is on.
 
 #### Returns
 **Type:** Global.MapNode
@@ -569,7 +622,16 @@ public MapNode GetCurrentNode()
 ```csharp
 public Sefira GetCurrentStandingSefira()
 ```
+Returns the [department](/api/Global/Departments/Sefira) this `MovableObjectNode` is currently in.
 
+Used by [`The Claw`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw), the [Rabbit Protocol](/api/Rabbit/RabbitProtocolWindow), [`CreatureUnit::OnClicked`](/api/Global/Abnormalities/CreatureUnit#onclicked), and [`RabbitManager::CheckUnitRabbitExecution`](/api/Global/Rabbits/RabbitManager#checkunitrabbitexecutionunitmodel).
+
+###### Details
+If the current room is not null, returns the department that room belongs to.
+
+If the current room is null, but this node is on an edge, instead returns the department of the room attached to that edge's first node. If that room is null, tries instead with that edge's second node.
+
+If the current room and current edge are null, or the edge is not attached to any non-null rooms, returns `null`. Also returns `null` if any of the prior code throws an exception.
 
 #### Returns
 **Type:** Global.Sefira
@@ -578,7 +640,9 @@ public Sefira GetCurrentStandingSefira()
 ```csharp
 public Vector3 GetCurrentViewPosition()
 ```
+Gets the current position of this node.
 
+Returns the position of the current node (if not null), or else the current position along the current edge (if not null). Otherwise, returns `(0, 0, 0)`.
 
 #### Returns
 **Type:** UnityEngine.Vector3
@@ -587,7 +651,7 @@ public Vector3 GetCurrentViewPosition()
 ```csharp
 public UnitDirection GetDirection()
 ```
-
+Returns `unitDirection`, which is usually^[when?]^ `LEFT` or `RIGHT`.
 
 #### Returns
 **Type:** Global.UnitDirection
@@ -596,13 +660,15 @@ public UnitDirection GetDirection()
 ```csharp
 public float GetDistance(MapNode other, float limit)
 ```
+Returns the distance from this node to `other` if it is less than `limit`, or else `-1`.
 
+Calculates with [`GetDistance(MovableObjectNode, float)`](/api/Global/Movement/MovableObjectNode#getdistancemovableobjectnode-float), which uses [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float) (the length of the shortest path).
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `other` | `Global.MapNode` |  |
-| `limit` | `System.Single` |  |
+| `other` | `Global.MapNode` | The `MapNode` to check the distance to. |
+| `limit` | `System.Single` | The maximum allowed distance (exclusive). |
 
 #### Returns
 **Type:** System.Single
@@ -611,13 +677,15 @@ public float GetDistance(MapNode other, float limit)
 ```csharp
 public float GetDistance(MovableObjectNode other, float limit)
 ```
+Returns the distance from this node to `other` if it is less than `limit`, or else `-1`.
 
+Calculates with [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float) (the length of the shortest path).
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `other` | `Global.MovableObjectNode` |  |
-| `limit` | `System.Single` |  |
+| `other` | `Global.MovableObjectNode` | The `MovableObjectNode` to check the distance to. |
+| `limit` | `System.Single` | The maximum allowed distance (exclusive). |
 
 #### Returns
 **Type:** System.Single
@@ -626,13 +694,15 @@ public float GetDistance(MovableObjectNode other, float limit)
 ```csharp
 public static float GetDistance(MovableObjectNode node1, MovableObjectNode node2)
 ```
+Returns the distance from `node1` to `node2`, or else `100000f` if the nodes are not in the same room. Also returns `100000f` if either node is in `null`.
 
+Note that this distance is scaled by `1.3333334f / node1.currentScale` compared to the values reported by `GetCurrentViewPosition`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node1` | `Global.MovableObjectNode` |  |
-| `node2` | `Global.MovableObjectNode` |  |
+| `node1` | `Global.MovableObjectNode` | The first node. |
+| `node2` | `Global.MovableObjectNode` | The second node. |
 
 #### Returns
 **Type:** System.Single
@@ -641,12 +711,14 @@ public static float GetDistance(MovableObjectNode node1, MovableObjectNode node2
 ```csharp
 public float GetDistanceDouble(MovableObjectNode mov)
 ```
+Returns the squared distance between this `MovableObjectNode` and `mov`.
 
+Note that each distance is multiplied by `1.3333334f` compared to the distance computed from the positions using `GetCurrentViewPosition`. The result is then `1.3333334f` squared times the distance between their view positions.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `mov` | `Global.MovableObjectNode` |  |
+| `mov` | `Global.MovableObjectNode` | The `MovableObjectNode` to compute the distance to. |
 
 #### Returns
 **Type:** System.Single
@@ -655,7 +727,7 @@ public float GetDistanceDouble(MovableObjectNode mov)
 ```csharp
 public EdgeDirection GetEdgeDirection()
 ```
-
+Returns the direction along the current edge, either `FORWARD` or `BACKWARD`.
 
 #### Returns
 **Type:** Global.EdgeDirection
@@ -664,7 +736,7 @@ public EdgeDirection GetEdgeDirection()
 ```csharp
 public PassageObjectModel GetPassage()
 ```
-
+Returns `currentPassage`, the room this `MovableObjectNode` is currently in.
 
 #### Returns
 **Type:** Global.PassageObjectModel
@@ -673,7 +745,9 @@ public PassageObjectModel GetPassage()
 ```csharp
 public PassageObjectModel GetPassageCheckPrev()
 ```
+Gets the last non-null room this `MovableObjectNode` has been in, including its current room.
 
+If no such room exists, logs the error `"Cannot find pasage"` and returns `null`.
 
 #### Returns
 **Type:** Global.PassageObjectModel

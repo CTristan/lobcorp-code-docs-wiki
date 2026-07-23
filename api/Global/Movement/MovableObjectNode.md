@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-23T03:06:46.816Z
+date: 2026-07-23T20:28:23.483Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -760,13 +760,24 @@ If no such room exists, logs the error `"Cannot find pasage"` and returns `null`
 ```csharp
 public MovableObjectNode GetSideMovableNode(UnitDirection direction, float distance)
 ```
+Returns a new `MovableObjectNode` which is `distance` units away in the direction of `direction`. For example, [Snow White's Apple](/api/Global/Abnormalities/Snow-White's-Apple/SnowWhite)'s vines are spawned by making new movable nodes `0.5f` units to the side of the left and rightmost vines.
 
+###### Details
+Uses [`MoveBy_GetNextEdge`](/api/Global/Movement/MovableObjectNode#moveby_getnextedgemapnode-unitdirection) to calculate the edge in the direction given by `direction`.
+
+The method loops until broken. Effectively, it tracks a node and an edge position, of which normally only one should be non-null.
+
+If the node is not null, then it will attempt to get the next edge to travel along, and if it succeeds it will set the node back to `null`.
+
+If instead the edge is not null, it will check if there is enough movement remaining to travel along that edge; if there is, it will set the node to the other side of the edge and set the edge to `null`. It will also subtract the length of that edge from the remaining movement.
+
+It repeats this until out of movement (or until there is no edge in the given direction), then returns a new `MovableObjectNode` with the final node or edge position.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `direction` | `Global.UnitDirection` |  |
-| `distance` | `System.Single` |  |
+| `direction` | `Global.UnitDirection` | The direction of the new node. |
+| `distance` | `System.Single` | The target distance of the new node from this one. |
 
 #### Returns
 **Type:** Global.MovableObjectNode

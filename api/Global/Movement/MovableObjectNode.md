@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-23T20:28:23.483Z
+date: 2026-07-23T22:22:27.163Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -786,7 +786,7 @@ It repeats this until out of movement (or until there is no edge in the given di
 ```csharp
 public MovableState GetState()
 ```
-
+Returns `state`, the current movement state of this `MovableObjectNode`.
 
 #### Returns
 **Type:** Global.MovableState
@@ -795,7 +795,7 @@ public MovableState GetState()
 ```csharp
 public UnitModel GetUnit()
 ```
-
+Returns the `UnitModel` attached to this `MovableObjectNode`. Can be `null`.
 
 #### Returns
 **Type:** Global.UnitModel
@@ -804,14 +804,20 @@ public UnitModel GetUnit()
 ```csharp
 public static Vector3 GetViewPositionInEdge(MapEdge edge, EdgeDirection edgeDirection, float edgePosRate)
 ```
+Returns a position partway along `edge` in the direction specified by `edgeDirection`, with `0` being the initial node and `1` being the final node.
 
+###### Details
+
+A direction of `FORWARD` will interpret `node1` as the initial node and `node2` as the final node, and opposite for `BACKWARD`. The position is linearly interpolated from the position of `node1` and `node2` with Unity's `Mathf.Lerp` function.
+
+Will throw an exception if either node is `null`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `edge` | `Global.MapEdge` |  |
-| `edgeDirection` | `Global.EdgeDirection` |  |
-| `edgePosRate` | `System.Single` |  |
+| `edge` | `Global.MapEdge` | The `MapEdge`. |
+| `edgeDirection` | `Global.EdgeDirection` | The `EdgeDirection`, either `FORWARD` or `BACKWARD`. |
+| `edgePosRate` | `System.Single` | The position along the edge, normalized between `0` and `1`. |
 
 #### Returns
 **Type:** UnityEngine.Vector3
@@ -820,7 +826,7 @@ public static Vector3 GetViewPositionInEdge(MapEdge edge, EdgeDirection edgeDire
 ```csharp
 public bool InElevator()
 ```
-
+Returns `true` if the current room is an elevator (has `PassageType` `VERTICAL`), and false otherwise. A `MovableObjectNode` **should never be in an elevator**, so this should always return `false` (see [`ProcessMoveByDistance(float)`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat)).
 
 #### Returns
 **Type:** System.Boolean
@@ -829,7 +835,7 @@ public bool InElevator()
 ```csharp
 private void InteractWithDoor(DoorObjectModel door)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |

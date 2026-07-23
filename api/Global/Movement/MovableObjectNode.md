@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-22T02:11:45.518Z
+date: 2026-07-23T03:06:46.816Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -300,7 +300,7 @@ Used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/
 ```csharp
 private MovableState state
 ```
-Set to `MovableState.MOVE` when this `MovableObjectNode` is moving, and `MovableState.STOP` when it is not moving.
+Has the value `MovableState.MOVE` when this `MovableObjectNode` is moving, and `MovableState.STOP` when it is not moving.
 
 #### Field Value
 **Type:** Global.MovableState
@@ -449,13 +449,15 @@ Always true when this `MovableObjectNode` is on an edge, and always false when t
 ```csharp
 public static bool CheckConnectedInPassage(MovableObjectNode n1, MovableObjectNode n2)
 ```
+Returns true if there is a path between `MovableObjectNodes` `n1` and `n2`. They **do not need to be in the same room**.
 
+The check copies `n1` into a test node, tries to path from the test node to `n2` (see [`MoveToMovableNode(MovableObjectNode, bool)`](/api/Global/Movement/MovableObjectNode#movetomovablenodemovableobjectnode-bool)) and returns true if the test node is now moving.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `n1` | `Global.MovableObjectNode` |  |
-| `n2` | `Global.MovableObjectNode` |  |
+| `n1` | `Global.MovableObjectNode` | The first node. |
+| `n2` | `Global.MovableObjectNode` | The second node. |
 
 #### Returns
 **Type:** System.Boolean
@@ -465,6 +467,8 @@ public static bool CheckConnectedInPassage(MovableObjectNode n1, MovableObjectNo
 public bool CheckInRange(MovableObjectNode other)
 ```
 Unused.
+
+Checks if this `MovableObjectNode` is within 3 units of `other`.
 
 #### Parameters
 | Name | Type | Description |
@@ -660,7 +664,7 @@ Returns `unitDirection`, which is usually^[when?]^ `LEFT` or `RIGHT`.
 ```csharp
 public float GetDistance(MapNode other, float limit)
 ```
-Returns the distance from this node to `other` if it is less than `limit`, or else `-1`.
+Returns the length of the shortest path from this node to `other` if it is less than `limit`, or else `-1`.
 
 Calculates with [`GetDistance(MovableObjectNode, float)`](/api/Global/Movement/MovableObjectNode#getdistancemovableobjectnode-float), which uses [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float) (the length of the shortest path).
 
@@ -677,7 +681,7 @@ Calculates with [`GetDistance(MovableObjectNode, float)`](/api/Global/Movement/M
 ```csharp
 public float GetDistance(MovableObjectNode other, float limit)
 ```
-Returns the distance from this node to `other` if it is less than `limit`, or else `-1`.
+Returns the length of the shortest path from this node to `other` if it is less than `limit`, or else `-1`.
 
 Calculates with [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float) (the length of the shortest path).
 
@@ -713,7 +717,7 @@ public float GetDistanceDouble(MovableObjectNode mov)
 ```
 Returns the squared distance between this `MovableObjectNode` and `mov`.
 
-Note that each distance is multiplied by `1.3333334f` compared to the distance computed from the positions using `GetCurrentViewPosition`. The result is then `1.3333334f` squared times the distance between their view positions.
+Note that each distance is multiplied by `1.3333334f` compared to the distance computed from the positions using `GetCurrentViewPosition`. The result is `1.3333334f` squared times the squared distance between their view positions.
 
 #### Parameters
 | Name | Type | Description |

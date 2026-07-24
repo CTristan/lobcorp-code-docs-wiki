@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-23T22:22:27.163Z
+date: 2026-07-24T21:32:00.732Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -846,7 +846,7 @@ Unused.
 ```csharp
 public bool IsMoving()
 ```
-
+Returns `true` if state is `MOVE`.
 
 #### Returns
 **Type:** System.Boolean
@@ -855,25 +855,39 @@ public bool IsMoving()
 ```csharp
 public void MoveBy(UnitDirection direction, float value)
 ```
+Instructs this `MovableObjectNode` to move in the direction `direction` for a distance of `value` units.
 
+Used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn)'s attack, and [Green Dawn](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dawn/MachineDawn) and [Green Noon](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Noon/MachineNoon) when initially spawned by [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk).
+
+###### Details
+Creates a [`PathMoveBy`](/api/Global/Movement/PathMoveBy) path to be used by [`ProcessMoveByDistance`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat) with the given `direction` and `value`.
+
+If currently on an edge, sets the current `edgeDirection` and `edgePosRate` based on the given `direction` and the `x` coordinates of the nodes of the current edge.
+
+If currently on a node, and there is no edge in that direction, immediately stops moving.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `direction` | `Global.UnitDirection` |  |
-| `value` | `System.Single` |  |
+| `direction` | `Global.UnitDirection` | The direction (`LEFT` or `RIGHT`) to move in. |
+| `value` | `System.Single` | The target distance to travel. |
 
 ### MoveBy_GetNextEdge(MapNode, UnitDirection)
 ```csharp
 private static MapEdge MoveBy_GetNextEdge(MapNode node, UnitDirection direction)
 ```
+Finds the next edge connected to the given `MapNode` in the direction of `direction` (`LEFT` or `RIGHT`), or `null` otherwise.
 
+###### Details
+Checks each of the nodes connected to `node` and makes a list of all the ones `LEFT` or `RIGHT` of the starting node (lower or greater `x` value, respectively). Then, the first one that is not a door and is sufficiently horizontal is selected.
+
+To decide if an edge is sufficiently horizontal, the vector from `node` to the other node of the edge is normalized. If the magnitude of the normalized `y` component is less than `0.2f`, this edge is sufficiently horizontal. This corresponds to an incline of at most about `11.5` degrees in either direction.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node` | `Global.MapNode` |  |
-| `direction` | `Global.UnitDirection` |  |
+| `node` | `Global.MapNode` | The starting `MapNode`. |
+| `direction` | `Global.UnitDirection` | The direction to search. |
 
 #### Returns
 **Type:** Global.MapEdge
@@ -882,31 +896,82 @@ private static MapEdge MoveBy_GetNextEdge(MapNode node, UnitDirection direction)
 ```csharp
 public void MoveToMovableNode(MovableObjectNode targetNode, bool checkRabbit = false)
 ```
+Moves this `MovableObjectNode` to `targetNode` by making a [`PathResult`](/api/Global/Movement/Pathing/PathResult) to follow.
+
+##### Details
+Stops moving, then depending on the location of this `MovableObjectNode` and the `target` finds a path between them.
+
+###### Target on MapNode
+If the target is on a `MapNode`, moves to that `MapNode` with [`MoveToNode`](/api/Global/Movement/MovableObjectNode#movetonodemapnode-bool).
+
+###### This Unit on MapNode
+Otherwise, if this `MovableObjectNode` is on a node, creates a new temporary `MapNode` at the `targetNode` and connects it to either node on the edge `targetNode` is on (:question: this may have incorrect behavior when `targetNode.currentEdge` is `null`). Then a path (`PathResult`) is calculated between the new node and this `MovableObjectNode` using [`GraphAstar::SearchPath`](/api/Global/Movement/Pathing/GraphAstar#searchpathmapnode-mapnode-bool).
+
+If a path exists (`pathEdges.Length > 0`), replaces the last edge, direction, and position in the path with that of `targetNode`. Then initializes movement by setting the path, state, and `pathIndex`.
+
+Either way, removes the new edges.
+
+###### Neither Unit on MapNode, Edge is Null
+If neither this `MovableObjectNode` or the target are on a node, and this `MovableObjectNode` is not on an edge, returns immediately.
+
+###### Neither Unit on MapNode, Edge is Same
+If both this `MovableObjectNode` and the `targetNode` are on the same edge, sets the direction, `edgePosRate`, and `edgePosRateGoal` to the target's on a new path with only that edge, then starts moving.
+
+###### Neither Unit on MapNode, Edge is Different
+If neither this `MovableObjectNode` or the `targetNode` are on a node, and this unit is on a non-null edge different than the `targetNode`, first creates a new temporary `MapNode` at this unit connected to both nodes on this edge. This unit is copied into a new `MovableObjectNode`, the new one is moved to be on the new temporary node, and is then moved recursively with this function. The new edges are then removed.
+
+There is some code to handle if there is already a path this node is following, but :interrobang: this cannot ever run, since this method sets the `pathInfo` to `null` at the beginning.
+
+Finally, this `MovableObjectNode` is copied from the new `MovableObjectMode` with its new path to `targetNode`. (:question: This includes copying the current location to the temporary node and edge!)
 
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `targetNode` | `Global.MovableObjectNode` |  |
-| `checkRabbit` | `System.Boolean` |  |
+| `targetNode` | `Global.MovableObjectNode` | The target `MovableObjectNode` to path to. |
+| `checkRabbit` | `System.Boolean` | Flag indicating whether to check for the Rabbits' portals (see [`GraphAstar::SearchPath`](/api/Global/Movement/Pathing/GraphAstar#searchpathmapnode-mapnode-bool)). |
 
 ### MoveToNode(MapNode, bool)
 ```csharp
 public void MoveToNode(MapNode targetNode, bool checkRabbit = false)
 ```
+Stops moving, then moves this `MovableObjectNode` to the `targetNode` by making a [`PathResult`](/api/Global/Movement/Pathing/PathResult) to follow.
 
+##### Details
+Calculates the path differently depending on the location of this `MovableObjectNode`.
+
+###### This Unit on MapNode
+If this unit is on a `MapNode`, moves to `targetNode` with [`GraphAstar::SearchPath`](/api/Global/Movement/Pathing/GraphAstar#searchpathmapnode-mapnode-bool). Then, initializes movement to follow the resulting path.
+
+###### This Unit Not on MapNode, Edge is Null
+Returns immediately without creating a path.
+
+###### This Unit Not on MapNode, Edge is Not Null
+Calculates the two paths from each node on this edge to `targetNode` using [`GraphAstar::SearchPath`](/api/Global/Movement/Pathing/GraphAstar#searchpathmapnode-mapnode-bool). If the first one (from `node1`) is not null, calculates the total cost as the cost of that path plus the cost of traveling to `node1` of this edge. Similarly calculates this cost for the path from `node2`.
+
+If the path from `node1` is not null and has a lower or equal cost to the other one, copies that path and inserts a new initial edge and direction to move to `node1`. Then sets the new path as the path to follow.
+
+If otherwise the path from `node2` is better, does exactly the same thing with that path instead.
+
+Either way, initializes movement.
+
+If both paths were `null` (:question: this cannot happen) returns without creating a path.
+
+:question: Even if no valid path was found (both `PathResults` are empty), the unit will still move to the closest `MapNode`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `targetNode` | `Global.MapNode` |  |
-| `checkRabbit` | `System.Boolean` |  |
+| `targetNode` | `Global.MapNode` | The `MapNode` to path to. |
+| `checkRabbit` | `System.Boolean` | Flag indicating whether to check for the Rabbits' portals (see [`GraphAstar::SearchPath`](/api/Global/Movement/Pathing/GraphAstar#searchpathmapnode-mapnode-bool)). |
 
 ### ProcessMoveByDistance(float)
 ```csharp
 private void ProcessMoveByDistance(float distance)
 ```
+Processes movement for this `MovableObjectNode`, following a path if one exists. Moves `distance` units along the path (see also [`ProcessMoveNode`](/api/Global/Movement/MovableObjectNode#processmovenodefloat)).
 
+##### Details
 
 #### Parameters
 | Name | Type | Description |

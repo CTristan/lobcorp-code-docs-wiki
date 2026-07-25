@@ -2,7 +2,7 @@
 title: GraphAstar
 description: 
 published: true
-date: 2026-07-25T21:35:37.920Z
+date: 2026-07-25T21:42:10.373Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:11.313Z
@@ -19,7 +19,6 @@ public class GraphAstar
 Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph).
 
 Even though the class is named after the A* algorithm, it actually uses [Dijkstra's algorithm](https://wikipedia.org/wiki/Dijkstra's_algorithm) due to an error in the implementation.
-
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphAstar

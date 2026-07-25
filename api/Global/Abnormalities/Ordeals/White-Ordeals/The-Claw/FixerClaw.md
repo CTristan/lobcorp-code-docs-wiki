@@ -1,7 +1,13 @@
 ---
-uid: Global.FixerClaw
-canonical_path: /api/Global/Misc/FixerClaw
+title: FixerClaw
+description: 
+published: true
+date: 2026-07-25T20:02:50.441Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T15:20:47.970Z
 ---
+
 # Class FixerClaw
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -1329,7 +1335,7 @@ private void PrepareAttack(UnitModel target)
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
 
-### ReadPassage(PassageObjectModel, ref List<PassageObjectModel>)
+### ReadPassage(PassageObjectModel, ref List\<PassageObjectModel>)
 ```csharp
 private void ReadPassage(PassageObjectModel passage, ref List<PassageObjectModel> targets)
 ```
@@ -1402,12 +1408,14 @@ private void TeleportToTarget(UnitModel target, FixerClaw.Capsule capsule)
 ```csharp
 public override bool TryRabbitTeleport(MapNode node)
 ```
+Indicates if The Claw can be teleported by the Rabbit Protocol portals.
 
+If currently using the orange skill (Serum R), terminates its movement here and returns false. True otherwise.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node` | `Global.MapNode` |  |
+| `node` | `Global.MapNode` | The node of the Rabbit Protocol portal. |
 
 #### Returns
 **Type:** System.Boolean

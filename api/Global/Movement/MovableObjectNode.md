@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-24T21:32:00.732Z
+date: 2026-07-25T17:25:51.437Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -973,10 +973,11 @@ Processes movement for this `MovableObjectNode`, following a path if one exists.
 
 ##### Details
 
+
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `distance` | `System.Single` |  |
+| `distance` | `System.Single` | The amount of distance to move this `MovableObjectNode` by. |
 
 ### ProcessMoveNode(float)
 ```csharp

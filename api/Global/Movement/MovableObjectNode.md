@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-25T17:25:51.437Z
+date: 2026-07-25T19:51:34.916Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -15,13 +15,10 @@ dateCreated: 2026-07-08T04:20:18.877Z
 ```csharp
 public class MovableObjectNode
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
-Represents an object which can move, for example:
-- [Units](/api/Global/Units/UnitModel) (abnormalities, workers, rabbits, projectiles, sephirah bosses, ordeal creatures...)
-- Possibly other things, too
+Represents a movable object, usually a [`UnitModel`](/api/Global/Units/UnitModel).
 
+Contains most of the movement code.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MovableObjectNode
@@ -120,6 +117,8 @@ private bool _teleportable
 Flag which is `true` if this `MovableObjectNode` is allowed to be teleported by the Rabbit Protocol portals.
 
 All units have this flag set to `true` except for [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel), [Gebura](/api/Global/Core-Suppressions/Gebura-Suppression/GeburahBossBase), [projectiles](/api/Global/Projectiles/ProjectileModel), and sometimes [Big and Will Be Bad Wolf](/api/Global/Abnormalities/Big-and-Will-be-Bad-Wolf/BigBadWolf).
+
+Note that [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) also prevents teleporting by portal, though it does not use this flag.
 
 #### Field Value
 **Type:** System.Boolean
@@ -972,7 +971,73 @@ private void ProcessMoveByDistance(float distance)
 Processes movement for this `MovableObjectNode`, following a path if one exists. Moves `distance` units along the path (see also [`ProcessMoveNode`](/api/Global/Movement/MovableObjectNode#processmovenodefloat)).
 
 ##### Details
+Starts by decrementing the `blockedTimer`, which is not used. **This does not block movement.**
 
+Then, enters an infinite loop that terminates once movement has finished calculating.
+
+If the flag for waiting on an elevator (`_isNextElevator`) is set, increases `_elevatorWaitElapsedTime`, the amount of time already waited. Otherwise, resets this time to `0f`.
+
+If the current node (or else current edge) is not null, checks for a door on the node (or nodes of the edge) and tells them something is passing that door (see [`DoorObjectModel::OnObjectPassed`](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel#onobjectpassed)).
+
+If this `MovableObjectNode` is not moving (`state != MovableState.MOVE`), immediately breaks. Otherwise, the code that runs depends on what type of path this node is following. `PathMoveBy` movement takes priority over `PathResult` movement. If neither are present, exits the loop without stopping (this should not happen).
+
+###### PathMoveBy Movement
+A [`PathMoveBy`](/api/Global/Movement/PathMoveBy) contains a direction and an amount of distance to travel. A `MovableObjectNode` following this will go along edges in that direction until it either it runs out of movement for this process or has traveled the distance specified by the path. This path type is used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn)'s attack, and [Green Dawn](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dawn/MachineDawn) and [Green Noon](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Noon/MachineNoon) when initially spawned by [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk) (see [`MoveBy(UnitDirection, float)`](/api/Global/Movement/MovableObjectNode#unitdirection-float)).
+
+This movement does not account for elevators or rabbit portals, but due to the few actual uses in the code, this can never happen. No actual uses^[verify]^ ever change the room this `MovableObjectNode` is in.
+
+If the distance already traveled (`moveDistance`) is at least the distance specified by the `PathMoveBy`, immediately exits the loop without stopping (this should not happen).
+
+If this `MovableObjectNode` is currently on a node, gets the next edge in the specified direction (see [`MoveBy_GetNextEdge`](/api/Global/Movement/MovableObjectNode#moveby_getnextedgemapnode-unitdirection)) and changes position to that edge with the appropriate edge direction, then continues from the start of the loop. :question: This incorrectly increments the elevator wait time and calls the door code again. If no such edge is found, instead immediately stop moving and exit the loop.
+
+Otherwise, if this `MovableObjectNode` is on an edge, gets the cost of the current edge and calculates the position this unit could reach on that edge with the remaining movement. This is calculated as `(remaining movement) / cost`, so a value of `1f` means this unit can exactly reach the end of the edge, a value greater than `1f` means this unit will go further than the end, and a value less than `1f` means this unit will not reach the end of the edge.
+
+There is a check for an unimplemented `SHIELDBEARER` condition here.
+
+The distance remaining is added to the distance traveled (:question: this should be `min(edgeCost, distance)`) and the `edgePosRate`, the position along the current edge, is increased by `(remaining movement) / cost`. If the new position is at or past the end of the current edge (at least `1f`), moves this `MovableObjectNode` to the other node and decreases the position by `1f` (effectively calculating the "overshoot"). If the distance traveled is greater than the `PathMoveBy` distance, stops moving and exits the loop. Otherwise, if the overshoot is positive (there is movement remaining), sets the remaining distance to `overshoot * (edge cost)` (equal to `(remaining distance) - (edge cost)`) and continues from the start of the loop.
+
+If both the current node and current edge are null, logs the message `"invalid"` and exits the loop without stopping.
+
+###### PathResult Movement
+The vast majority of movement uses this. A [`PathResult`](/api/Global/Movement/Pathing/PathResult) contains a path to follow as a list of edges and directions. The position along the final edge to stop at (`edgePosRateGoal`) should also be set. The code that runs depends on whether this `MovableObjectNode` is on a node or on an edge. If both are null, then exits without stopping (this should not happen).
+
+###### On a Node
+If the current node is not `null`, tries to get the next edge to follow.
+
+If the end of the path has been reached, immediately stops moving and exits the loop.
+
+Then, gets the current edge, edge direction, and next target node from the path. If this `MovableObjectNode` is on a node which is not on that edge, logs the error `"Invalid Movable State.. Please report this."`, immediately stops moving, and exits the loop (this should not happen).
+
+If the next target node is closed (meaning it has a door and that door is currently closed), tries to open the door. If the target node has no door (which should not happen), immediately stops moving and exits the loop. If it has a door and the [`UnitModel`](/api/Global/Units/UnitModel) attached to this `MovableObjectNode` can open doors, tries to open the door with [`DoorObjectModel::TryOpen`](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel#tryopen). Otherwise, :question: exits the loop without stopping.
+
+If the next target node has an elevator, sets the flag to wait for the elevator (`_isNextElevator`). If there is an edge after the elevator, and the time waited is at least `0.5f`, moves to the other side of the elevator and exits the loop. Note that the elevator node **is never entered**, and instead is skipped over. An elevator should never be the final node in a path; if it is, logs `"Elevator.. ....."`, stops moving, and throws a `MovableElevatorStuckException`.
+
+If the next target node has an elevator and also has teleport nodes (as in the Rabbit protocol portals), instead of waiting for the elevator, attempts to teleport this unit to one of the teleport destinations and exits the loop without stopping. See [`SetTeleportable`](/api/Global/Movement/MovableObjectNode#setteleportablebool) and [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) for exceptions.
+
+Finally, if the edge is normal, sets the current edge and edge direction to the next edge and edge direction, resets position to 0 along that edge, and :interrobang: recursively calls `ProcessMoveByDistance` with the remaining distance (this should `continue` instead!).
+
+###### On an Edge
+Gets the cost of the current edge and the position along it that could be reached with the remaining movement (`(remaining movement) / cost`).
+
+If the resulting position is negative, something has gone horribly wrong; logs `"1"`, but :question: continues processing as normal.
+
+There is a check for an unimplemented `SHIELDBEARER` condition here.
+
+The current position along the edge is increased by `(remaining movement) / cost`.
+
+The facing direction of this `MovableObjectNode` is then updated based on the edge direction and `x` position of the nodes on the edge.
+
+If this edge is the last edge on the path, and we have not reached the target position on the edge (`edgePosRateGoal`), exits without stopping (indicating the `MovableObjectNode` has run out of movement). Otherwise, sets the current position to that position. If the target is the end of an edge (`edgePosRateGoal=1`), sets current position to the node on that end. If no teleport destinations are set on that node, stops moving. If the final node does have teleport destinations (as in the Rabbits' portals), tries to teleport to one of those (see [`SetTeleportable`](/api/Global/Movement/MovableObjectNode#setteleportablebool) and [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) for exceptions). Otherwise, stops moving. Either way, exits the loop.
+
+If this edge is not the last edge on the path, and after using the remaining distance we cannot reach the end of this edge (`edgePosRate < 1f`), exits the loop (indicating the `MovableObjectNode` has run out of movement).
+
+Otherwise, updates position to the other node on this loop. If this node has teleport destinations (as in the Rabbits' portals), tries to teleport to one of those (see [`SetTeleportable`](/api/Global/Movement/MovableObjectNode#setteleportablebool) and [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) for exceptions).
+
+If there are no teleport destinations, instead resets position along the edge and increments the current edge to the next one in the path. It also calculates the overshoot (`(remaining movement) / (edge cost) - 1`) and :interrobang: recursively calls `ProcessMoveByDistance` with `(edge cost) * overshoot` remaining movement (this should `continue` instead!). This is equal to `(remaining distance) - (cost of edge)`.
+
+Finally, if the loop has not been exited already, exits here.
+
+If the current position along the edge is `NaN` (which should not happen), logs the error `"aaa"`.
 
 #### Parameters
 | Name | Type | Description |
@@ -983,18 +1048,20 @@ Processes movement for this `MovableObjectNode`, following a path if one exists.
 ```csharp
 public void ProcessMoveNode(float movement)
 ```
+Moves this `MovableObjectNode` with the speed `movement`.
 
+Calls [`ProcessMoveByDistance`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat) with `Time.deltaTime * distanceScale * movement * currentScale`, where `deltaTime` is the time since the last frame, `distanceScale` is `1.3333334` (converting from Unity to game units), and `currentScale` is the scale of the current room.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `movement` | `System.Single` |  |
+| `movement` | `System.Single` | The speed of this `MovableObjectNode`. |
 
 ### RemoveUnpassableType(PassType)
 ```csharp
 public void RemoveUnpassableType(PassType pass)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -1005,70 +1072,77 @@ public void RemoveUnpassableType(PassType pass)
 ```csharp
 public void ReportUnitName()
 ```
+Unused.
 
+Logs the name of the unit if it is a [worker](/api/Global/Agents-and-Clerks/WorkerModel) or an [abnormality](/api/Global/Abnormalities/CreatureModel).
 
 ### SetActive(bool)
 ```csharp
 public void SetActive(bool active)
 ```
+Sets whether this `MovableObjectNode` is active. This **does not block movement** and only affects how the room and department of this `MovableObjectNode` are updated.
 
+###### Details
+If the `MovableObjectNode` was previously active, :interrobang: exits the current room and the department of the last non-null room (even if we are setting active to `true` again!). Sets `_isActive` to `active`.
+
+If the `MovableObjectNode` was not previously active, :interrobang: enters the current room and the department of the last non-null room (even if we are setting active to `false` again!). Sets `_isActive` to `active`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `active` | `System.Boolean` |  |
+| `active` | `System.Boolean` | True if this `MovableObjectNode` should be active. |
 
 ### SetCurrentEdge(MapEdge, float, EdgeDirection)
 ```csharp
 public void SetCurrentEdge(MapEdge srcEdge, float srcEdgePosRate, EdgeDirection srcDirection)
 ```
-
+Sets this `MovableObjectNode`'s position to the specified edge, edge position, and direction, and stops following any previous path. Does not stop [`MoveBy`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float) movement.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `srcEdge` | `Global.MapEdge` |  |
-| `srcEdgePosRate` | `System.Single` |  |
-| `srcDirection` | `Global.EdgeDirection` |  |
+| `srcEdge` | `Global.MapEdge` | The edge to move to. |
+| `srcEdgePosRate` | `System.Single` | The position along the edge to move to. |
+| `srcDirection` | `Global.EdgeDirection` | The edge direction of the edge (`FORWARD` if `node1` is at position `0f` and `BACKWARD` if `node2` is at `0f`). |
 
 ### SetCurrentEdge(MovableObjectNode)
 ```csharp
 public void SetCurrentEdge(MovableObjectNode mov)
 ```
-
+If `mov` is on an edge, moves this `MovableObjectNode` to that node's current position.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `mov` | `Global.MovableObjectNode` |  |
+| `mov` | `Global.MovableObjectNode` | The `MovableObjectNode` to try to move to. |
 
 ### SetCurrentNode(MapNode)
 ```csharp
 public void SetCurrentNode(MapNode node)
 ```
-
+Sets this `MovableObjectNode`'s position to the specified node and stops following any previous path. Does not stop [`MoveBy`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float) movement.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node` | `Global.MapNode` |  |
+| `node` | `Global.MapNode` | The `MapNode` to move to. |
 
 ### SetDirection(UnitDirection)
 ```csharp
 public void SetDirection(UnitDirection direction)
 ```
-
+Sets the current facing direction of this `MovableObjectNode`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `direction` | `Global.UnitDirection` |  |
+| `direction` | `Global.UnitDirection` | The direction to face. |
 
 ### SetPassageChangedParam(object)
 ```csharp
 public void SetPassageChangedParam(object target)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -1079,53 +1153,68 @@ public void SetPassageChangedParam(object target)
 ```csharp
 public void SetTeleportable(bool b)
 ```
+Sets whether this `MovableObjectNode` can be teleported (only for the Rabbit protocol portals).
 
+All units are teleportable except for [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel), [Gebura](/api/Global/Core-Suppressions/Gebura-Suppression/GeburahBossBase), [projectiles](/api/Global/Projectiles/ProjectileModel), and sometimes [Big and Will Be Bad Wolf](/api/Global/Abnormalities/Big-and-Will-be-Bad-Wolf/BigBadWolf).
+
+Note that [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) also prevents teleporting by portal, though it does not use this method.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `b` | `System.Boolean` |  |
+| `b` | `System.Boolean` | True if this `MovableObjectNode` should be able to be teleported. |
 
 ### StopMoving()
 ```csharp
 public void StopMoving()
 ```
-
+Stops this `MovableObjectNode`. Removes any existing path information and sets state to `STOP`.
 
 ### TrySetCurrentNode(MapNode)
 ```csharp
 private void TrySetCurrentNode(MapNode node)
 ```
+Sets the position of this `MovableObjectNode` to `node` unless it is an abnormality which cannot be teleported by the Rabbit Protocol portals. Only [`FixerClaw::TryRabbitTeleport`](/api/Global/Abnormalities/Ordeals/White-Ordeals/The-Claw/FixerClaw#tryrabbitteleportmapnode) ever prevents teleporting by portal this way.
 
+See also [`SetTeleportable`](/api/Global/Movement/MovableObjectNode#setteleportablebool).
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node` | `Global.MapNode` |  |
+| `node` | `Global.MapNode` | The node to try to move to. |
 
 ### UpdateCurrentPassage()
 ```csharp
 private void UpdateCurrentPassage()
 ```
+Gets the room that this `MovableObjectNode` is currently in, and if it has changed, updates the room it entered and exited. If the last non-null room this `MovableObjectNode` has changed, also :interrobang: exits the department of the previous room and enters the department of the new room (even if they are in the same department!). Also updates the `scaleFactor` to that of the current room.
 
+If this `MovableObjectNode` is not on a node or an edge, logs (not as an error) `"ERROR : invalid node state"`, but continues as normal.
 
 ### UpdateNodeEdge(MapNode, MapEdge)
 ```csharp
 private void UpdateNodeEdge(MapNode node, MapEdge edge)
 ```
+Sets the position of this `MovableObjectNode` to the given node and edge, then updates the current room (see [`UpdateCurrentPassage`](/api/Global/Movement/MovableObjectNode#updatecurrentpassage)).
 
+###### Details
+If the new node is not `null` and is not temporary, sets `lastNode` to the new node. This value isn't used.
+
+This does not set the position along the edge or the edge direction, and is intended for internal use by other movement methods.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `node` | `Global.MapNode` |  |
-| `edge` | `Global.MapEdge` |  |
+| `node` | `Global.MapNode` | The node to move to. |
+| `edge` | `Global.MapEdge` | The edge to move to. |
 
 ### Wait()
 ```csharp
 public void Wait()
 ```
+Unused.
 
+Sets state to `WAIT`.
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)

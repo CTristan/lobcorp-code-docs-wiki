@@ -2,7 +2,7 @@
 title: GraphAstar
 description: 
 published: true
-date: 2026-07-25T20:32:53.002Z
+date: 2026-07-25T21:35:37.920Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:11.313Z
@@ -15,8 +15,6 @@ dateCreated: 2026-07-08T04:40:11.313Z
 ```csharp
 public class GraphAstar
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
 Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph).
 

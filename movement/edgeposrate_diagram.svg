@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg1" version="1.1" viewBox="0 0 219.11638 114.97073" height="114.97073mm" width="219.11638mm">
+  
+  <defs id="defs1"></defs>
+  <g transform="translate(-2.4475186,-17.676365)" id="layer1">
+    <path id="path2" d="M 37.089611,99.970012 184.21992,99.724385" style="fill:none;stroke:#04ff00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"></path>
+    <circle r="10.942105" cy="98.826317" cx="26.226316" id="path1" style="fill:none;stroke:#ff0000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"></circle>
+    <circle r="10.942105" cy="100.21049" cx="195.31805" id="path1-8" style="fill:none;stroke:#ff0000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"></circle>
+    <path id="path3" d="M 26.052631,99.868422 V 63.221052" style="fill:none;stroke:#000000;stroke-width:1.30975;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"></path>
+    <path id="path3-1" d="M 195.43991,100.59211 V 63.25" style="fill:none;stroke:#000000;stroke-width:1.32211;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"></path>
+    <path id="path3-1-2" d="M 110.22431,99.377859 V 62.904167" style="fill:none;stroke:#000000;stroke-width:1.30665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"></path>
+    <path id="path3-1-23" d="M 152.74121,99.01919 V 62.719188" style="fill:none;stroke:#000000;stroke-width:1.30353;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"></path>
+    <text id="text3" y="59.226315" x="22.578947" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="59.226315" x="22.578947" style="stroke-width:0.264583" id="tspan3">0</tspan></text>
+    <text id="text4" y="58.705261" x="101.60526" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="58.705261" x="101.60526" style="stroke-width:0.264583" id="tspan4">0.5</tspan></text>
+    <text id="text4-8" y="58.581429" x="139.49368" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="58.581429" x="139.49368" style="stroke-width:0.264583" id="tspan4-5">0.75</tspan></text>
+    <text id="text5" y="58.531574" x="186.71053" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="58.531574" x="186.71053" style="stroke-width:0.264583" id="tspan5">1.0</tspan></text>
+    <text id="text6" y="40.528385" x="73.687973" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="40.528385" x="73.687973" style="stroke-width:0.264583" id="tspan6">edgePosRate</tspan></text>
+    <text id="text7" y="121.09389" x="9.0881834" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="121.09389" x="9.0881834" style="stroke-width:0.264583" id="tspan7">Node1</tspan></text>
+    <text id="text8" y="121.33952" x="177.34238" style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583" xml:space="preserve"><tspan y="121.33952" x="177.34238" style="stroke-width:0.264583" id="tspan8">Node2</tspan></text>
+    <rect ry="3.6843984" rx="2.3631606" y="18.176365" x="2.9475186" height="113.97073" width="218.11638" id="rect8" style="fill:none;stroke:#98ff96;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"></rect>
+  </g>
+</svg>

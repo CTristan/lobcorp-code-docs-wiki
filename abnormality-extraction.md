@@ -2,7 +2,7 @@
 title: Abnormality Extraction
 description: How abnormalities are chosen and presented before each day
 published: true
-date: 2026-07-27T20:05:48.736Z
+date: 2026-07-27T20:27:58.403Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-14T21:52:51.447Z
@@ -17,7 +17,8 @@ The abnormality extraction screen ([`CreatureSelectUI`](/api/Global/Abnormality-
     style="display: block;
            margin-left: auto;
            margin-right: auto;
-           padding: 2px;
+           margin-bottom: 0px;
+           padding: 0px;
            width: 80%;"
     src="/abnormality-extraction/creatureselectui_diagram_1.svg" 
     alt="CreatureSelectUI Diagram 2">
@@ -26,7 +27,8 @@ The abnormality extraction screen ([`CreatureSelectUI`](/api/Global/Abnormality-
     style="display: block;
            margin-left: auto;
            margin-right: auto;
-           padding: 2px;
+           margin-top: 0px;
+           padding: 0px;
            width: 80%;"
     src="/abnormality-extraction/creatureselectui_diagram_2.svg" 
     alt="CreatureSelectUI Diagram 2">

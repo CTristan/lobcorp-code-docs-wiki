@@ -1,7 +1,13 @@
 ---
-uid: Global.GraphPosition
-canonical_path: /api/Global/Misc/GraphPosition
+title: GraphPosition
+description: 
+published: true
+date: 2026-07-28T19:20:25.092Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:40:14.012Z
 ---
+
 # Class GraphPosition
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,15 +15,12 @@ canonical_path: /api/Global/Misc/GraphPosition
 ```csharp
 public class GraphPosition
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
 > This class is not used.
 {.is-info}
 
-Represents a position and edge on the [map](/api/Global/Map/MapGraph).
+Unused. Represents a position and edge on the [map](/api/Global/Map/MapGraph).
 
-
+See [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphPosition

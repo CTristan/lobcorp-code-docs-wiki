@@ -1,7 +1,13 @@
 ---
-uid: Global.MapEdge
-canonical_path: /api/Global/Misc/MapEdge
+title: MapEdge
+description: 
+published: true
+date: 2026-07-28T19:29:59.522Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:19:37.352Z
 ---
+
 # Class MapEdge
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,12 +18,9 @@ public class MapEdge
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-A connection between [MapNode](/api/Global/Map/MapNode)s on the map.
+A connection between [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph), representing a path between them.
 
-Represents a connection between rooms.
-
-
-
+See also [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapEdge

@@ -2,7 +2,7 @@
 title: MovableState
 description: 
 published: true
-date: 2026-07-22T00:19:41.990Z
+date: 2026-07-28T19:19:11.870Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:21.934Z
@@ -15,6 +15,9 @@ dateCreated: 2026-07-08T04:20:21.934Z
 ```csharp
 public enum MovableState
 ```
+Represents the current movement state of a unit.
+
+See [Movement](/Movement) for an overview of the movement systems.
 
 | Name | Value | Description |
 | --- | --- | --- |

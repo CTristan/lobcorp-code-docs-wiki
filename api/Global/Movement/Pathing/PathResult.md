@@ -2,7 +2,7 @@
 title: PathResult
 description: 
 published: true
-date: 2026-07-28T17:27:56.130Z
+date: 2026-07-28T17:28:54.132Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:16.482Z
@@ -15,10 +15,8 @@ dateCreated: 2026-07-08T04:40:16.482Z
 ```csharp
 public class PathResult
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
-A path for something to follow, in terms of node edges to travel between.
+A path for something to follow, in terms of node edges to travel between. This is the most common type of path for a unit to follow. (See also [`PathMoveBy`](/api/Global/Movement/PathMoveBy) for the rare exceptions).
 
 Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, total distance) of the path.
 

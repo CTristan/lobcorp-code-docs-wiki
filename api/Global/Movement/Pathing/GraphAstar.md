@@ -2,7 +2,7 @@
 title: GraphAstar
 description: 
 published: true
-date: 2026-07-28T17:23:26.527Z
+date: 2026-07-28T19:19:57.008Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:11.313Z
@@ -17,6 +17,8 @@ public class GraphAstar
 ```
 
 Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph) using the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm).
+
+See also [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphAstar

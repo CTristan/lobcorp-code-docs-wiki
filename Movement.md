@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T18:40:56.662Z
+date: 2026-07-28T19:03:04.619Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -20,7 +20,7 @@ Most of Lobotomy Corporation's moving entities are [`UnitModels`](/api/Global/Un
 
 ### Nodes, Edges, and Paths
 
-The Lobotomy Corporation [map](/api/Global/Map/MapGraph) is stored as a series of nodes connected by edges. Essentially, a **node** represents a position on the map, and an **edge** represents a connection between nodes. Units can move from one node to another when they are connected by an edge. The distance from one end of an edge to the other is called its **cost**[^2].
+The Lobotomy Corporation [map](/api/Global/Map/MapGraph) is stored as a series of nodes connected by edges. Essentially, a **node** ([`MapNode`](/api/Global/Map/MapNode)) represents a position on the map, and an **edge** ([`MapEdge`](/api/Global/Map/MapEdge)) represents a connection between nodes. Units can move from one node to another when they are connected by an edge. The distance from one end of an edge to the other is called its **cost**[^2].
 
 <img 
     style="display: block;
@@ -32,6 +32,8 @@ The Lobotomy Corporation [map](/api/Global/Map/MapGraph) is stored as a series o
     src="/map/example_graph.svg" 
     alt="Example Graph (nodes and edges)">
 </img>
+
+In addition to storing its position, each node on the map has a string ID accessible by [`MapNode::GetId()`](/api/Global/Map/MapNode#getid).
 
 When units are on an edge between nodes, their position is interpolated between the two nodes. A position along an edge is stored as a value called `edgePosRate`, which normally ranges from `0f` to `1f`.
 
@@ -48,9 +50,21 @@ When units are on an edge between nodes, their position is interpolated between 
 
 Sometimes, it is desired to have `edgePosRate` go the other way, so that `0f` is at `node2` and `1f` is at `node1`. To accommodate this, the `edgePosRate` usually also has an associated `EdgeDirection`, which is either `FORWARD` (node1→node2) or `BACKWARD` (node2→node1).
 
-When most units move, they follow a **path** made from a series of edges. The process of finding a path from one position to another is called **pathfinding**. The total distance from the start of the path to the end is also called its cost.
+When most units move, they follow a **path** made from a series of edges. For example, the dotted line in the following image[^path-note] may be a path taken from the bottom of the Information Department to the center of the main room.
 
-In addition to storing its position, each node on the map has a string ID accessible by [`MapNode::GetId()`](/api/Global/Map/MapNode#getid).
+<img 
+    style="display: block;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 0px;
+           padding: 0px;
+           width: 90%;"
+    src="/movement/example_path.webp" 
+    alt="Example of a path in Information Department from lower room to center."
+/>
+[^path-note]: In the image, filled circles represent nodes, and empty circles represent multiple nodes in the same position.
+
+The process of finding a path from one position to another is called **pathfinding**. The total distance from the start of the path to the end is also called its cost.
 
 ### Rooms, PassageObjectModels, and Elevators
 The rooms that appear in the game are stored as [`PassageObjectModels`](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel). Rooms contain multiple nodes; for example, most have at least two for the left and right doors. Hallways also have a node for each containment unit attached to them.

@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T21:52:50.188Z
+date: 2026-07-28T22:29:26.971Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -14,13 +14,19 @@ This page describes Lobotomy Corporation's movement system and provides an overv
 
 ## Basics
 ### MovableObjectNodes and UnitModels
-A [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) represents an entity that can move[^1]. This class handles the position and movement of entities across the map.
+A [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) represents an entity that can move[^non-movableobjectnode]. This class handles the position and movement of entities across the map.
+
+[^non-movableobjectnode]: Not all entities that move have a [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) attached to them. For example, the [dragon that spawns as part of Yin and Yang's union](/api/Global/Abnormalities/Yin-and-Yang/YinAndYangUnion) controls its position directly through its Unity Transform. However, these are a rare exception.
 
 Most of Lobotomy Corporation's moving entities are [`UnitModels`](/api/Global/Units/UnitModel). This includes [Agents](/api/Global/Agents-and-Clerks/Agents/AgentModel), [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerModel), [Abnormalities](/api/Global/Abnormalities/CreatureModel) and their [Spawns](/api/Global/Abnormalities/ChildCreature/ChildCreatureModel), [Projectiles](/api/Global/Projectiles/ProjectileModel), and [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel). Within each `UnitModel` unit, there is a `MovableObjectNode`, which handles all of that unit's movement.
 
 ### Nodes, Edges, and Paths
 
-The Lobotomy Corporation [map](/api/Global/Map/MapGraph) is stored as a series of nodes connected by edges. Essentially, a **node** ([`MapNode`](/api/Global/Map/MapNode)) represents a position on the map, and an **edge** ([`MapEdge`](/api/Global/Map/MapEdge)) represents a connection between nodes. Units can move from one node to another when they are connected by an edge. The distance from one end of an edge to the other is called its **cost**[^2].
+The Lobotomy Corporation [map](/api/Global/Map/MapGraph)[^isolateroom] is stored as a series of nodes connected by edges. Essentially, a **node** ([`MapNode`](/api/Global/Map/MapNode)) represents a position on the map, and an **edge** ([`MapEdge`](/api/Global/Map/MapEdge)) represents a connection between nodes. Units can move from one node to another when they are connected by an edge. The distance from one end of an edge to the other is called its **cost**[^cost].
+
+[^isolateroom]: Containment units ([`IsolateRoom`](/api/Global/Departments/Containment-Units/IsolateRoom)) are connected to the map, and can be pathed to like normal, but are not actually part of the [`MapGraph`](/api/Global/Map/MapGraph). See also [`CreatureManager::BuildCreatureModel`](/api/Global/Abnormalities/CreatureManager#buildcreaturemodelcreaturemodel-long-sefiraisolate-string).
+
+[^cost]: The cost of an edge is *usually* the distance between the nodes, but has a minimum value of `0.01f`. It can also, technically, be specified in the [`MapGraph`](/api/Global/Map/MapGraph) XML file, though the one used in the game (`MapGraph_final2.txt`) does not ever use this.
 
 <img 
     style="display: block;
@@ -82,7 +88,9 @@ A room also has a `scaleFactor`, a float which indicates how "large" the room is
 
 See also: [A full color-coded map of nodes in the facility](/map/facility_mapnodes.webp), and [the same map with containment units and edges](/map/facility_mapnodes_with_abnos.webp) (warning: very large images).
 
-For the purposes of movement, rooms of all types behave the same, except for elevators. Note that elevators are *not* the small rooms on the map between departments; those are hub rooms (with type `HORIZONTAL`), and behave like normal rooms. Elevators (rooms with type `VERTICAL`) are nodes between certain rooms[^3] which **are never entered**. Instead, units teleport to the other side of these nodes after waiting for a certain amount of time.
+For the purposes of movement, rooms of all types behave the same, except for elevators. Note that elevators are *not* the small rooms on the map between departments; those are hub rooms (with type `HORIZONTAL`), and behave like normal rooms. Elevators (rooms with type `VERTICAL`) are nodes between certain rooms[^extraelevators] which **are never entered**. Instead, units teleport to the other side of these nodes after waiting for a certain amount of time.
+
+[^extraelevators]:  For some reason, when elevators are loaded into the map, five additional elevator nodes are added in the same area but never connected to anything.
 
 <img 
     style="display: block;
@@ -96,7 +104,9 @@ For the purposes of movement, rooms of all types behave the same, except for ele
 </img>
 
 ## Pathfinding and Motion
-Pathfinding between [`MapNodes`](/api/Global/Map/MapNode) is done through the class [`GraphAstar`](/api/Global/Movement/Pathing/GraphAstar) using a modified[^4] version of the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm).
+Pathfinding between [`MapNodes`](/api/Global/Map/MapNode) is done through the class [`GraphAstar`](/api/Global/Movement/Pathing/GraphAstar) using a modified[^astar-modifications] version of the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm).
+
+[^astar-modifications]: The algorithm is modified to block passages with Rabbit Protocol portals when relevant. The function that calculates path distance, [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float), is modified to only track the *cost* of the shortest path, up to a provided maximum distance.
 
 [`MovableObjectNodes`](/api/Global/Movement/MovableObjectNode) are usually moved by one of the following methods.
 
@@ -112,7 +122,9 @@ These methods directly set the location of the `MovableObjectNode` unit.
 [`Assign(MovableObjectNode)`](/api/Global/Movement/MovableObjectNode#assignmovableobjectnode) does a deep copy of another `MovableObjectNode`, and essentially clones the position, pathing, and movement state of the original `MovableObjectNode`. For example, when an Agent transforms by [Laetitia](/api/Global/Abnormalities/Laetitia/LittleWitch)'s effect, the Agent's `MovableObjectNode` is copied into the spawned [Little Witch's Friend](/api/Global/Abnormalities/Laetitia/LittleWitchMonster)'s `MovableObjectNode`.
 
 ### MoveToNode, MoveToMovableNode, and ProcessMoveNode
-These methods create a [`PathResult`](/api/Global/Movement/Pathing/PathResult) path for the unit to follow. This is a list of edges and edge directions from the current position to the target position[^5].
+These methods create a [`PathResult`](/api/Global/Movement/Pathing/PathResult) path for the unit to follow. This is a list of edges and edge directions from the current position to the target position[^edgeposrategoal].
+
+[^edgeposrategoal]: If the target position is partially along an edge, the value for `edgePosRateGoal` will be set to the target position on the final edge.
 
 [`MoveToNode`](/api/Global/Movement/MovableObjectNode#movetonodemapnode-bool) finds a path from the current location of the `MovableObjectNode` to the given `MapNode` and starts following it.
 
@@ -139,13 +151,8 @@ The code in this method is very complex. A full description can be found at its 
 - It handles teleporting units by Rabbit Protocol portals.
 
 ### MoveBy
-Rarely[^6], certain units use [`MoveBy(UnitDirection, float)`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float) to move. This has separate code from `PathResult` paths and does not do all of the same checks. The existing uses in the game do not cause errors due to their specific circumstances, but **it is not advisable to use this method**.
+Rarely[^movebyusers], certain units use [`MoveBy(UnitDirection, float)`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float) to move. This has separate code from `PathResult` paths and does not do all of the same checks. The existing uses in the game do not cause errors due to their specific circumstances, but **it is not advisable to use this method**.
 
 [`MoveBy(UnitDirection, float)`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float) finds a path for the unit in the given direction (`LEFT` or `RIGHT`) that travels a certain distance (`value`).
 
-[^1]: Not all entities that move have a [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) attached to them. For example, the [dragon that spawns as part of Yin and Yang's union](/api/Global/Abnormalities/Yin-and-Yang/YinAndYangUnion) controls its position directly through its Unity Transform. However, these are a rare exception.
-[^2]: The cost of an edge is *usually* the distance between the nodes, but has a minimum value of `0.01f`. It can also, technically, be specified in the [`MapGraph`](/api/Global/Map/MapGraph) XML file, though the one used in the game (`MapGraph_final2.txt`) does not ever use this.
-[^3]:  For some reason, when elevators are loaded into the map, five additional elevator nodes are added in the same area but never connected to anything.
-[^4]: The algorithm is modified to block passages with Rabbit Protocol portals when relevant. The function that calculates path distance, [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float), is modified to only track the *cost* of the shortest path, up to a provided maximum distance.
-[^5]: If the target position is partially along an edge, the value for `edgePosRateGoal` will be set to the target position on the final edge.
-[^6]: The only examples in the code that actually run are [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn)'s attack and [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk)'s spawns.
+[^movebyusers]: The only examples in the code that actually run are [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn)'s attack and [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk)'s spawns.

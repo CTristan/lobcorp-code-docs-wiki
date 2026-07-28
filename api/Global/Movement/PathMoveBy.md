@@ -1,7 +1,13 @@
 ---
-uid: Global.PathMoveBy
-canonical_path: /api/Global/Misc/PathMoveBy
+title: PathMoveBy
+description: 
+published: true
+date: 2026-07-28T19:16:35.417Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:20:26.885Z
 ---
+
 # Class PathMoveBy
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,13 +15,10 @@ canonical_path: /api/Global/Misc/PathMoveBy
 ```csharp
 public class PathMoveBy
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
-A direction and amount, for movement.
+A rarely used path type containing a direction and target distance to travel. Do not use this.
 
-
-
+See also [`MovableObjectNode::MoveBy`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float).
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathMoveBy
@@ -25,13 +28,13 @@ A direction and amount, for movement.
 ```csharp
 public PathMoveBy()
 ```
-
+Default constructor.
 ## Fields
 ### direction
 ```csharp
 public UnitDirection direction
 ```
-
+The direction (`LEFT` or `RIGHT`) to travel in.
 
 #### Field Value
 **Type:** Global.UnitDirection
@@ -40,7 +43,7 @@ public UnitDirection direction
 ```csharp
 public float value
 ```
-
+The target distance to travel.
 
 #### Field Value
 **Type:** System.Single

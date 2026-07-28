@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T19:03:20.684Z
+date: 2026-07-28T19:07:23.783Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -62,7 +62,7 @@ When most units move, they follow a **path** made from a series of edges. For ex
     src="/movement/example_path.webp" 
     alt="Example of a path in Information Department from lower room to center."
 />
-[^path-note]: In the image, filled circles represent nodes, and empty circles represent multiple nodes in the same position.
+[^path-note]: In the image, filled circles represent nodes, and empty circles represent edges between multiple nodes in the same position. Note that the precise position of the nodes and edges may not be completely accurate in this image.
 
 The process of finding a path from one position to another is called **pathfinding**. The total distance from the start of the path to the end is also called its cost.
 

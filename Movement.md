@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T03:50:11.852Z
+date: 2026-07-28T17:19:42.632Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -44,7 +44,7 @@ When units are on an edge between nodes, their position is interpolated between 
     alt="edgePosRate changing on an edge from Node1 to Node2">
 </img>
 
-When most units move, they follow a **path** made from a series of edges. The process of finding a path from one position to another is called **pathfinding**.
+When most units move, they follow a **path** made from a series of edges. The process of finding a path from one position to another is called **pathfinding**. The total distance from the start of the path to the end is also called its cost.
 
 ### Rooms, PassageObjectModels, and Elevators
 The rooms that appear in the game are stored as [`PassageObjectModels`](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel). Each node on the map belongs to some room.
@@ -74,9 +74,11 @@ For the purposes of movement, these behave the same, except for elevators. Note 
 </img>
 
 ## Pathfinding
-TODO
+Pathfinding is done through the [`GraphAstar`](/api/Global/Movement/Pathing/GraphAstar) class using a modified[^4] version of the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm).
+
 
 
 [^1]: Not all entities that move have a [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) attached to them. For example, the [dragon that spawns as part of Yin and Yang's union](/api/Global/Abnormalities/Yin-and-Yang/YinAndYangUnion) controls its position directly through its Unity Transform. However, these are a rare exception.
 [^2]: The cost of an edge is *usually* the distance between the nodes, but has a minimum value of `0.01f`. It can also, technically, be specified in the [`MapGraph`](/api/Global/Map/MapGraph) XML file, though the one used in the game (`MapGraph_final2.txt`) does not ever use this.
 [^3]:  For some reason, when elevators are loaded into the map, five additional elevator nodes are added in the same area but never connected to anything.
+[^4]: The algorithm is modified to block passages with Rabbit Protocol portals when relevant. The function that calculates path distance, [`GraphAstar::Distance`](/api/Global/Movement/Pathing/GraphAstar#distancemapnode-mapnode-float), is modified to only track the *cost* of the shortest path, up to a provided maximum distance.

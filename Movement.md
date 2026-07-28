@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T19:07:23.783Z
+date: 2026-07-28T19:09:14.815Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -16,7 +16,7 @@ This page describes Lobotomy Corporation's movement system and provides an overv
 ### MovableObjectNodes and UnitModels
 A [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) represents an entity that can move[^1]. This class handles the position and movement of entities across the map.
 
-Most of Lobotomy Corporation's moving entities are [`UnitModels`](/api/Global/Units/UnitModel). This includes [Agents](/api/Global/Agents-and-Clerks/Agents/AgentModel), [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerModel), [Abnormalities and Minions](/api/Global/Abnormalities/CreatureModel), [Projectiles](/api/Global/Projectiles/ProjectileModel), and [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel). Within each `UnitModel` unit, there is a `MovableObjectNode`, which handles all of that unit's movement.
+Most of Lobotomy Corporation's moving entities are [`UnitModels`](/api/Global/Units/UnitModel). This includes [Agents](/api/Global/Agents-and-Clerks/Agents/AgentModel), [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerModel), [Abnormalities](/api/Global/Abnormalities/CreatureModel) and their [Spawns](/api/Global/Abnormalities/ChildCreature/ChildCreatureModel), [Projectiles](/api/Global/Projectiles/ProjectileModel), and [Rabbits](/api/Global/Rabbits/Rabbit-Units/RabbitModel). Within each `UnitModel` unit, there is a `MovableObjectNode`, which handles all of that unit's movement.
 
 ### Nodes, Edges, and Paths
 

@@ -2,7 +2,7 @@
 title: MapGraph
 description: 
 published: true
-date: 2026-07-28T19:27:45.480Z
+date: 2026-07-28T22:21:08.679Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:19:39.872Z
@@ -22,6 +22,8 @@ public class MapGraph : IObserver
 The map, stored as a series of [`MapNodes`](/api/Global/Map/MapNode) and the [`MapEdges`](/api/Global/Map/MapEdge) between them.
 
 See here for [a full color-coded map of nodes in the facility](/map/facility_mapnodes.webp) (warning: very large image).
+
+Note that [containment units](/api/Global/Departments/Containment-Units/IsolateRoom) are *not* part of this map, but are *connected* to the map by [`CreatureManager::BuildCreatureModel`](/api/Global/Abnormalities/CreatureManager#buildcreaturemodelcreaturemodel-long-sefiraisolate-string).
 
 See also [Movement](/Movement) for an overview of the movement systems.
 

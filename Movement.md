@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T19:09:14.815Z
+date: 2026-07-28T19:10:04.136Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -124,7 +124,7 @@ The resulting path is processed by [`ProcessMoveNode`](/api/Global/Movement/Mova
 - $deltaTime$ is the time since the last frame;
 - $distanceFactor$ is a conversion from Unity units to in-game units, equal to `1.3333334`;
 - $movement$ is the speed of the unit;
-- $currentScale$ is the scale of the current room.
+- $currentScale$ is the `scaleFactor` of the current room.
 
 Then, the unit is moved that distance along the current path by [`ProcessMoveByDistance`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat).
 

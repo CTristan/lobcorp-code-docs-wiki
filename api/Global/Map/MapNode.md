@@ -1,7 +1,13 @@
 ---
-uid: Global.MapNode
-canonical_path: /api/Global/Misc/MapNode
+title: MapNode
+description: 
+published: true
+date: 2026-07-28T19:29:07.269Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:19:45.224Z
 ---
+
 # Class MapNode
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,11 +18,9 @@ public class MapNode
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-A place in a [room](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel).
+A node on the [map](/api/Global/Map/MapGraph), representing a location. `MapNodes` with [`MapEdges`](/api/Global/Map/MapEdge) between them are connected.
 
-May also represent an [elevator](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel).
-
-
+See also [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapNode

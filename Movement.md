@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T02:42:08.681Z
+date: 2026-07-28T02:42:15.541Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -54,7 +54,7 @@ Each room has a type ([`PassageType`](/api/Global/Map/Rooms-and-Hallways/Passage
 -  SEFIRA: A main room.
 - DEPARTMENT: A department room, a large, but not main room. Ex: upper floors of Welfare and Disciplinary.
 - VERTICAL: An elevator.
-- HORIZONTAL: A hallway or hub room.
+- HORIZONTAL: A hallway or elevator hub room.
 - ISOLATEROOM: A containment unit.
 - NONE: Anything else.
 

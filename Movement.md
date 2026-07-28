@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-27T23:20:59.203Z
+date: 2026-07-28T02:42:08.681Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -54,13 +54,24 @@ Each room has a type ([`PassageType`](/api/Global/Map/Rooms-and-Hallways/Passage
 -  SEFIRA: A main room.
 - DEPARTMENT: A department room, a large, but not main room. Ex: upper floors of Welfare and Disciplinary.
 - VERTICAL: An elevator.
-- HORIZONTAL: A hallway.
+- HORIZONTAL: A hallway or hub room.
 - ISOLATEROOM: A containment unit.
 - NONE: Anything else.
 
-See also: [A full color-coded map of all nodes in the facility](/map/facility_mapnodes.webp).
+See also: [A full color-coded map of nodes in the facility](/map/facility_mapnodes.webp) (warning: large image).
 
-For the purposes of movement, these behave the same, except for elevators. Note that elevators are *not* the small rooms on the map between departments; those are hub rooms (with type `HORIZONTAL`), and behave like normal rooms. Elevators are invisible nodes between certain rooms which **are never entered**. Instead, units teleport to the other side of elevator nodes after waiting for a certain amount of time.
+For the purposes of movement, these behave the same, except for elevators. Note that elevators are *not* the small rooms on the map between departments; those are hub rooms (with type `HORIZONTAL`), and behave like normal rooms. Elevators (rooms with type `VERTICAL`) are invisible nodes between certain rooms[^3] which **are never entered**. Instead, units teleport to the other side of these nodes after waiting for a certain amount of time.
+
+<img 
+    style="display: block;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 0px;
+           padding: 0px;
+           width: 50%;"
+    src="/movement/hubroom_diagram.svg" 
+    alt="Diagram showing the difference between hub rooms and elevator nodes.">
+</img>
 
 ### Pathfinding
 
@@ -68,3 +79,4 @@ For the purposes of movement, these behave the same, except for elevators. Note 
 
 [^1]: Not all entities that move have a [`MovableObjectNode`](/api/Global/Movement/MovableObjectNode) attached to them. For example, the [dragon that spawns as part of Yin and Yang's union](/api/Global/Abnormalities/Yin-and-Yang/YinAndYangUnion) controls its position directly through its Unity Transform. However, these are a rare exception.
 [^2]: The cost of an edge is *usually* the distance between the nodes, but has a minimum value of `0.01f`. It can also, technically, be specified in the [`MapGraph`](/api/Global/Map/MapGraph) XML file, though the one used in the game (`MapGraph_final2.txt`) does not ever use this.
+[^3]:  For some reason, when elevators are loaded into the map, five additional elevator nodes are added in the same location but never connected to anything.

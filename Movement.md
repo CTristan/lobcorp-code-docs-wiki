@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T18:40:47.604Z
+date: 2026-07-28T18:40:56.662Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -10,7 +10,7 @@ dateCreated: 2026-07-27T21:28:26.739Z
 
 # Movement
 
-This page goes over Lobotomy Corporation's movement system and provides an overview for the classes and methods involved.
+This page describes Lobotomy Corporation's movement system and provides an overview for the classes and methods involved.
 
 ## Basics
 ### MovableObjectNodes and UnitModels

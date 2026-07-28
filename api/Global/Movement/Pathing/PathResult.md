@@ -2,7 +2,7 @@
 title: PathResult
 description: 
 published: true
-date: 2026-07-28T17:28:54.132Z
+date: 2026-07-28T19:20:52.803Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:16.482Z
@@ -21,6 +21,8 @@ A path for something to follow, in terms of node edges to travel between. This i
 Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, total distance) of the path.
 
 Note that [`GraphAstar`](/api/Global/Movement/Pathing/GraphAstar) never returns a null `PathResult`, so an empty `PathResult` (with no edges or edge directions) represents "no path found".
+
+See also [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathResult

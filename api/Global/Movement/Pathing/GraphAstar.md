@@ -2,7 +2,7 @@
 title: GraphAstar
 description: 
 published: true
-date: 2026-07-25T21:42:10.373Z
+date: 2026-07-28T17:22:20.834Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:11.313Z
@@ -16,9 +16,7 @@ dateCreated: 2026-07-08T04:40:11.313Z
 public class GraphAstar
 ```
 
-Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph).
-
-Even though the class is named after the A* algorithm, it actually uses [Dijkstra's algorithm](https://wikipedia.org/wiki/Dijkstra's_algorithm) due to an error in the implementation.
+Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph) using the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm).
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphAstar
@@ -45,9 +43,9 @@ Calculates the distance between `a` and `b`.
 ```csharp
 public static float Distance(MapNode startPoint, MapNode endPoint, float limit)
 ```
-Uses a modified version of [Dijkstra's algorithm](https://wikipedia.org/wiki/Dijkstra's_algorithm) to calculate the distance between `startPoint` and `endPoint` if it is less than `limit`. Returns `-1f` if no path with a cost less than `limit` exists.
+Uses a modified version of the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm) to calculate the distance between `startPoint` and `endPoint` if it is less than `limit`. Returns `-1f` if no path with a cost less than `limit` exists.
 
-Note that although a heuristic for A* is computed, it is never used, hence why this actually implements Dijkstra's algorithm.
+Note that the heuristic is implicitly used by the priority queue, since `PathScores` implement `IComparable`.
 
 #### Parameters
 | Name | Type | Description |
@@ -63,9 +61,9 @@ Note that although a heuristic for A* is computed, it is never used, hence why t
 ```csharp
 public static PathResult SearchPath(MapNode startPoint, MapNode endPoint, bool isRabbit = false)
 ```
-Uses a modified version of [Dijkstra's algorithm](https://wikipedia.org/wiki/Dijkstra's_algorithm) to calculate a path between `startPoint` and `endPoint`. Returns an empty (but not `null`) [`PathResult`](/api/Global/Movement/Pathing/PathResult) if no path exists. `isRabbit` controls whether Rabbit Protocol portals should block movement.
+Uses a modified version of the [A* algorithm](https://wikipedia.org/wiki/A*_search_algorithm) to calculate a path between `startPoint` and `endPoint`. Returns an empty (but not `null`) [`PathResult`](/api/Global/Movement/Pathing/PathResult) if no path exists. `isRabbit` controls whether Rabbit Protocol portals should block movement.
 
-Note that although a heuristic for A* is computed, it is never used, hence why this actually implements Dijkstra's algorithm.
+Note that the heuristic is implicitly used by the priority queue, since `PathScores` implement `IComparable`.
 
 #### Parameters
 | Name | Type | Description |

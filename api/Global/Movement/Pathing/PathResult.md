@@ -1,7 +1,13 @@
 ---
-uid: Global.PathResult
-canonical_path: /api/Global/Misc/PathResult
+title: PathResult
+description: 
+published: true
+date: 2026-07-28T17:27:56.130Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:40:16.482Z
 ---
+
 # Class PathResult
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,8 +20,9 @@ public class PathResult
 
 A path for something to follow, in terms of node edges to travel between.
 
-Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, travel time) of the path.
+Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, total distance) of the path.
 
+Note that [`GraphAstar`](/api/Global/Movement/Pathing/GraphAstar) never returns a null `PathResult`, so an empty `PathResult` (with no edges or edge directions) represents "no path found".
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathResult
@@ -25,21 +32,21 @@ Stores the edges and which directions to go in for each leg of the path, as well
 ```csharp
 public PathResult(MapEdge[] pathEdges, EdgeDirection[] edgeDirections, float totalCost)
 ```
-
+Constructs a new `PathResult` with the given edges, directions, and total cost.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `pathEdges` | `Global.MapEdge[]` |  |
-| `edgeDirections` | `Global.EdgeDirection[]` |  |
-| `totalCost` | `System.Single` |  |
+| `pathEdges` | `Global.MapEdge[]` | The edges of this path. |
+| `edgeDirections` | `Global.EdgeDirection[]` | The direction to travel along each edge of the path. |
+| `totalCost` | `System.Single` | The total distance to travel along the whole path. |
 
 ## Fields
 ### edgeDirections
 ```csharp
 public EdgeDirection[] edgeDirections
 ```
-
+The direction of each edge, either `FORWARD` or `BACKWARD`, depending on whether the path goes from `node1` to `node2` of the edge or the opposite, respectively.
 
 #### Field Value
 **Type:** Global.EdgeDirection[]
@@ -48,7 +55,7 @@ public EdgeDirection[] edgeDirections
 ```csharp
 public MapEdge[] pathEdges
 ```
-
+An array of [`MapEdges`](/api/Global/Map/MapEdge) in this path.
 
 #### Field Value
 **Type:** Global.MapEdge[]
@@ -57,7 +64,7 @@ public MapEdge[] pathEdges
 ```csharp
 public float totalCost
 ```
-
+The total distance across the entire path, generally the sum of the cost of its edges.
 
 #### Field Value
 **Type:** System.Single
@@ -66,7 +73,7 @@ public float totalCost
 ```csharp
 public float[] zValues
 ```
-
+Unused.
 
 #### Field Value
 **Type:** System.Single[]

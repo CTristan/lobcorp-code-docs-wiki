@@ -2,7 +2,7 @@
 title: PathMoveBy
 description: 
 published: true
-date: 2026-07-28T19:16:35.417Z
+date: 2026-07-28T19:19:36.633Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:26.885Z
@@ -18,7 +18,7 @@ public class PathMoveBy
 
 A rarely used path type containing a direction and target distance to travel. Do not use this.
 
-See also [`MovableObjectNode::MoveBy`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float).
+See also [`MovableObjectNode::MoveBy`](/api/Global/Movement/MovableObjectNode#movebyunitdirection-float), and see [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathMoveBy

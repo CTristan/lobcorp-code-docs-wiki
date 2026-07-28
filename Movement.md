@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T19:03:04.619Z
+date: 2026-07-28T19:03:20.684Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -50,7 +50,7 @@ When units are on an edge between nodes, their position is interpolated between 
 
 Sometimes, it is desired to have `edgePosRate` go the other way, so that `0f` is at `node2` and `1f` is at `node1`. To accommodate this, the `edgePosRate` usually also has an associated `EdgeDirection`, which is either `FORWARD` (node1→node2) or `BACKWARD` (node2→node1).
 
-When most units move, they follow a **path** made from a series of edges. For example, the dotted line in the following image[^path-note] may be a path taken from the bottom of the Information Department to the center of the main room.
+When most units move, they follow a **path** made from a series of edges. For example, the dotted line in the following image[^path-note] may be a path taken by the agent in the bottom of the Information Department to the center of the main room.
 
 <img 
     style="display: block;

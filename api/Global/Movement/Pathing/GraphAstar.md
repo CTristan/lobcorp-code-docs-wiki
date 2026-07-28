@@ -2,7 +2,7 @@
 title: GraphAstar
 description: 
 published: true
-date: 2026-07-28T17:22:20.834Z
+date: 2026-07-28T17:23:26.527Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:40:11.313Z
@@ -26,9 +26,7 @@ Used to find the shortest paths between two [`MapNodes`](/api/Global/Map/MapNode
 ```csharp
 public static float ComputeHeuristic(Vector2 a, Vector2 b)
 ```
-Computed but unused.
-
-Calculates the distance between `a` and `b`.
+Calculates the distance between `a` and `b`, an estimate of the cost from `a` to `b`.
 
 #### Parameters
 | Name | Type | Description |

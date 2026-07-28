@@ -1,7 +1,13 @@
 ---
-uid: Global.ElevatorPassageModel
-canonical_path: /api/Global/Model/ElevatorPassageModel
+title: ElevatorPassageModel
+description: 
+published: true
+date: 2026-07-28T23:11:58.963Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:39:52.074Z
 ---
+
 # Class ElevatorPassageModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,14 +18,9 @@ public class ElevatorPassageModel
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Represents an elevator passage, which holds information about how it connects to other [rooms](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel) in the facility.
+An invisible elevator connected to a [room](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel) in the facility.
 
-Also, holds the GameObject that actually is the elevator room, which is one of two Prefabs:
-- Map/Passage/Elevator/ElevatorShort
-- Map/Passage/Elevator/ElevatorLong
-
-
-
+Note that this class tries to load a non-existent Prefab. The actually visible Prefab with the elevator is in the room ([`PassageObjectModel`](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel)) that this elevator belongs to.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ElevatorPassageModel

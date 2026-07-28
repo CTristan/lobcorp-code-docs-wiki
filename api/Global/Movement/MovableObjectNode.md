@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-25T19:51:34.916Z
+date: 2026-07-28T19:18:14.610Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -854,7 +854,7 @@ Returns `true` if state is `MOVE`.
 ```csharp
 public void MoveBy(UnitDirection direction, float value)
 ```
-Instructs this `MovableObjectNode` to move in the direction `direction` for a distance of `value` units.
+Instructs this `MovableObjectNode` to move in the direction `direction` for a distance of `value` units. **May cause errors. Do not use this unless you know what you're doing.**
 
 Used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn)'s attack, and [Green Dawn](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dawn/MachineDawn) and [Green Noon](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Noon/MachineNoon) when initially spawned by [Green Dusk](/api/Global/Abnormalities/Ordeals/Green-Ordeals/Green-Dusk/MachineDusk).
 

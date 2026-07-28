@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-28T19:18:14.610Z
+date: 2026-07-28T19:18:47.186Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -19,6 +19,8 @@ public class MovableObjectNode
 Represents a movable object, usually a [`UnitModel`](/api/Global/Units/UnitModel).
 
 Contains most of the movement code.
+
+See [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MovableObjectNode

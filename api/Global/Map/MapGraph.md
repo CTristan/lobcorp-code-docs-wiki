@@ -1,7 +1,13 @@
 ---
-uid: Global.MapGraph
-canonical_path: /api/Global/IOBserver/MapGraph
+title: MapGraph
+description: 
+published: true
+date: 2026-07-28T19:27:45.480Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:19:39.872Z
 ---
+
 # Class MapGraph
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -13,89 +19,11 @@ public class MapGraph : IObserver
 {.is-warning}
 
 
-The map.
+The map, stored as a series of [`MapNodes`](/api/Global/Map/MapNode) and the [`MapEdges`](/api/Global/Map/MapEdge) between them.
 
-Stores information about the locations of:
-- Main rooms
-- 
+See here for [a full color-coded map of nodes in the facility](/map/facility_mapnodes.webp) (warning: very large image).
 
-
-
-## Methods
-### #INC 
-### Loading
-#### void LoadMap()
-Reads the map information from Assets/Resources/xml/MapGraph_final2.xml.
-Uses LoadMap(XmlNode, XmlNode).
-
-#### void LoadMap(XmlNode nodeRoot, XmlNode edgeRoot)
-Reads in the xml file with all the map data.
-These are the attributes of that file. Nodes belong to passages, passages belong to areas.
-
-node_list
-	Children:
-		areas (see below)
-
-area (department)
-- Attributes:
-	- name -- department number
-	- sub -- unused
-- Children:
-	- passage (below)
-	- (child with name \#comment is ignored)
-		- (otherwise prints debug with the name)
-
-passage (rooms)
-- Attributes:
-	- src -- prefab location
-	- x, y -- position
-	- passageGroup -- passage group
-	- rabbitTeamGroup -- department, as used by Rabbits
-	- scale -- amount to scale things in the room by
-	- passageType:
-		- sefira -- main room
-		- horizontal -- hallway
-		- vertical -- elevator
-		- dept -- room
-		- isolateroom -- containment unit
-- Children:
-	- connected -- if this connects to another department? 	- ground -- see [PassageGroundInfo](/api/Global/Map/Rooms-and-Hallways/PassageGroundInfo)
-		- height -- how high the ground is
-	- wall -- see [PassageWallInfo](/api/Global/Map/Rooms-and-Hallways/PassageWallInfo)
-		- height -- how high the wall is
-	- height -- how tall this room is (except 0 becomes 2.5)
-	- node (below)
-
-node (place in a room)
-- Attributes:
-	- id -- this node's name
-	- x, y -- position
-	- rabbitUnpassable -- unused
-	- type -- 
-	- elevator -- prefab path for this elevator (see [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel))
-		- NOTE: makes 5 more nodes in weird places! 
-	- pos:
-		- center -- marks a node as the center of its room
-			- (this is otherwise automatically calculated by [PassageObjectModel](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel))
-- Children:
-	- option -- unused
-	- door -- a [door](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel)
-
-
-
-edge_list
-- Children:
-	- edge (see below)
-
-edge
-- Attributes:
-	- node1 -- the starting node
-	- node2 -- the ending node
-	- cost -- manual distance for this edge
-	- type:
-		- door -- elevator connection
-		- road -- normal connection
-
+See also [Movement](/Movement) for an overview of the movement systems.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapGraph
@@ -541,13 +469,82 @@ public MapNode GetSepiraNodeByRandom(string area)
 ```csharp
 public void LoadMap()
 ```
+Reads the map information from `Assets/Resources/xml/MapGraph_final2.txt`.
 
+Uses [`LoadMap(XmlNode, XmlNode)`](/api/Global/Map/MapGraph#loadmapxmlnode-xmlnode).
 
 ### LoadMap(XmlNode, XmlNode)
 ```csharp
 public void LoadMap(XmlNode nodeRoot, XmlNode edgeRoot)
 ```
+> This section is incomplete.
+{.is-warning}
 
+Reads in [`MapNode`](/api/Global/Map/MapNode) information from `nodeRoot` and [`MapEdge`](/api/Global/Map/MapEdge) information from `edgeRoot`.
+
+node_list
+	Children:
+		areas (see below)
+
+area (department)
+- Attributes:
+	- name -- department number
+	- sub -- unused
+- Children:
+	- passage (below)
+	- (child with name \#comment is ignored)
+		- (otherwise prints debug with the name)
+
+passage (rooms)
+- Attributes:
+	- src -- prefab location
+	- x, y -- position
+	- passageGroup -- passage group
+	- rabbitTeamGroup -- department, as used by Rabbits
+	- scale -- amount to scale things in the room by
+	- passageType:
+		- sefira -- main room
+		- horizontal -- hallway
+		- vertical -- elevator
+		- dept -- room
+		- isolateroom -- containment unit
+- Children:
+	- connected -- if this connects to another department? 	- ground -- see [PassageGroundInfo](/api/Global/Map/Rooms-and-Hallways/PassageGroundInfo)
+		- height -- how high the ground is
+	- wall -- see [PassageWallInfo](/api/Global/Map/Rooms-and-Hallways/PassageWallInfo)
+		- height -- how high the wall is
+	- height -- how tall this room is (except 0 becomes 2.5)
+	- node (below)
+
+node (place in a room)
+- Attributes:
+	- id -- this node's name
+	- x, y -- position
+	- rabbitUnpassable -- unused
+	- type -- 
+	- elevator -- prefab path for this elevator (see [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel))
+		- NOTE: makes 5 more nodes in weird places! 
+	- pos:
+		- center -- marks a node as the center of its room
+			- (this is otherwise automatically calculated by [PassageObjectModel](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel))
+- Children:
+	- option -- unused
+	- door -- a [door](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel)
+
+
+
+edge_list
+- Children:
+	- edge (see below)
+
+edge
+- Attributes:
+	- node1 -- the starting node
+	- node2 -- the ending node
+	- cost -- manual distance for this edge
+	- type:
+		- door -- elevator connection
+		- road -- normal connection
 
 #### Parameters
 | Name | Type | Description |

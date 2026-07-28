@@ -2,7 +2,7 @@
 title: PassageType
 description: 
 published: true
-date: 2026-07-28T02:41:47.830Z
+date: 2026-07-28T02:41:56.825Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:56:30.324Z
@@ -22,7 +22,7 @@ public enum PassageType
 | SEFIRA | 0 | A main room. |
 | DEPARTMENT | 1 | A large, non-main room. |
 | VERTICAL | 2 | An elevator. |
-| HORIZONTAL | 3 | A hallway or hub. |
+| HORIZONTAL | 3 | A hallway or hub room. |
 | ISOLATEROOM | 4 | A containment unit. |
 | NONE | 5 | Anything else. |
   

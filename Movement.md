@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T18:38:40.617Z
+date: 2026-07-28T18:39:49.256Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -115,7 +115,7 @@ Then, the unit is moved that distance along the current path by [`ProcessMoveByD
 #### ProcessMoveByDistance
 [`ProcessMoveByDistance(float)`](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat) moves the unit the given distance along its current path.
 
-The code in this method is very complex. A full description can be found at its documentation, but here are some things of note:
+The code in this method is very complex. A full description can be found at its [documentation page](/api/Global/Movement/MovableObjectNode#processmovebydistancefloat), but here are some things of note:
 - It processes both `PathResult` paths (see above) and `PathMoveBy` paths (see below), with priority for `PathMoveBy` paths.
 - It sometimes uses loops and sometimes uses recursion, which can cause weird side-effects when patched.
 - It handles elevator logic. Units will stop at elevators, wait for 0.5 seconds at minimum, then teleport to the other side of the elevator node without ever entering the elevator room (with passage type `VERTICAL`).

@@ -2,7 +2,7 @@
 title: Movement
 description: How units calculate paths and motion
 published: true
-date: 2026-07-28T19:10:04.136Z
+date: 2026-07-28T21:52:50.188Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-27T21:28:26.739Z
@@ -80,7 +80,7 @@ Each room has one of the following types ([`PassageType`](/api/Global/Map/Rooms-
 
 A room also has a `scaleFactor`, a float which indicates how "large" the room is inside. For example, this affects how large agents appear, and is why units in Control Department's main room appear much larger than units in Control Department's hallways.
 
-See also: [A full color-coded map of nodes in the facility](/map/facility_mapnodes.webp) (warning: large image).
+See also: [A full color-coded map of nodes in the facility](/map/facility_mapnodes.webp), and [the same map with containment units and edges](/map/facility_mapnodes_with_abnos.webp) (warning: very large images).
 
 For the purposes of movement, rooms of all types behave the same, except for elevators. Note that elevators are *not* the small rooms on the map between departments; those are hub rooms (with type `HORIZONTAL`), and behave like normal rooms. Elevators (rooms with type `VERTICAL`) are nodes between certain rooms[^3] which **are never entered**. Instead, units teleport to the other side of these nodes after waiting for a certain amount of time.
 

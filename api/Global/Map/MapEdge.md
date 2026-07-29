@@ -2,7 +2,7 @@
 title: MapEdge
 description: 
 published: true
-date: 2026-07-29T01:09:03.252Z
+date: 2026-07-29T01:09:25.249Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:19:37.352Z
@@ -15,9 +15,6 @@ dateCreated: 2026-07-08T04:19:37.352Z
 ```csharp
 public class MapEdge
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
 A connection between [`MapNodes`](/api/Global/Map/MapNode) on the [map](/api/Global/Map/MapGraph), representing a path between them.
 
 See also [Movement](/Movement) for an overview of the movement systems.

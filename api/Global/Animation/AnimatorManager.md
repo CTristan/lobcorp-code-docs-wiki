@@ -1,7 +1,13 @@
 ---
-uid: Global.AnimatorManager
-canonical_path: /api/Global/Animator/AnimatorManager
+title: AnimatorManager
+description: 
+published: true
+date: 2026-07-29T16:24:01.711Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:01:55.834Z
 ---
+
 # Class AnimatorManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,8 +18,9 @@ public class AnimatorManager : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Loads and stores animations
+Unused.
 
+Meant to switch animation controllers.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → AnimatorManager

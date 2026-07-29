@@ -1,7 +1,13 @@
 ---
-uid: Global.ElevatorPassageObject
-canonical_path: /api/Global/Object/ElevatorPassageObject
+title: ElevatorPassageObject
+description: 
+published: true
+date: 2026-07-29T02:13:54.214Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:39:54.863Z
 ---
+
 # Class ElevatorPassageObject
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,9 +18,11 @@ public class ElevatorPassageObject : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-An elevator room.
+Script for an elevator passage (one of the Prefabs in `prefabs/map/passage/elevator`). 
 
-See [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel) for most of the relevant code.
+Does very little other than parenting the transform.
+
+See also [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel),
 
 
 ## Inheritance
@@ -25,13 +33,13 @@ See [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel) for m
 ```csharp
 public ElevatorPassageObject()
 ```
-
+Default constructor.
 ## Fields
 ### bottom
 ```csharp
 public float bottom
 ```
-
+Unused.
 
 #### Field Value
 **Type:** System.Single

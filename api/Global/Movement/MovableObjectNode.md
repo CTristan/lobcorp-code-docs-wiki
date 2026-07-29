@@ -2,7 +2,7 @@
 title: MovableObjectNode
 description: 
 published: true
-date: 2026-07-28T19:18:47.186Z
+date: 2026-07-29T00:53:14.450Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:20:18.877Z
@@ -877,10 +877,10 @@ If currently on a node, and there is no edge in that direction, immediately stop
 ```csharp
 private static MapEdge MoveBy_GetNextEdge(MapNode node, UnitDirection direction)
 ```
-Finds the next edge connected to the given `MapNode` in the direction of `direction` (`LEFT` or `RIGHT`), or `null` otherwise.
+Finds the next edge connected to the given `MapNode` in the direction of `direction` (`LEFT` or `RIGHT`), in the same room, or `null` otherwise.
 
 ###### Details
-Checks each of the nodes connected to `node` and makes a list of all the ones `LEFT` or `RIGHT` of the starting node (lower or greater `x` value, respectively). Then, the first one that is not a door and is sufficiently horizontal is selected.
+Checks each of the nodes connected to `node` and makes a list of all the ones `LEFT` or `RIGHT` of the starting node (lower or greater `x` value, respectively). Then, the first one that is not of type `"door"` (i.e., the first edge that is in the same room) and is sufficiently horizontal is selected.
 
 To decide if an edge is sufficiently horizontal, the vector from `node` to the other node of the edge is normalized. If the magnitude of the normalized `y` component is less than `0.2f`, this edge is sufficiently horizontal. This corresponds to an incline of at most about `11.5` degrees in either direction.
 

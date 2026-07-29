@@ -2,7 +2,7 @@
 title: MapNode
 description: 
 published: true
-date: 2026-07-29T00:27:33.227Z
+date: 2026-07-29T00:29:33.481Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:19:45.224Z
@@ -15,8 +15,6 @@ dateCreated: 2026-07-08T04:19:45.224Z
 ```csharp
 public class MapNode
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
 A node, usually on the [map](/api/Global/Map/MapGraph), representing a location. `MapNodes` with [`MapEdges`](/api/Global/Map/MapEdge) between them are connected.
 

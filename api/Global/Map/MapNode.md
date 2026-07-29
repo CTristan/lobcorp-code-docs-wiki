@@ -2,7 +2,7 @@
 title: MapNode
 description: 
 published: true
-date: 2026-07-29T00:24:28.923Z
+date: 2026-07-29T00:27:33.227Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:19:45.224Z
@@ -438,7 +438,7 @@ Unused.
 ```csharp
 public void SetTeleport(List<MapNode> teleportTo, UnitDirection dir)
 ```
-Sets the teleport destinations for the Rabbit Protocol portal at this `MapNode` when a unit is facing the direction `dir` (`LEFT`, `RIGHT`, `OTHER`, or `ELEVATOR`).
+Sets the teleport destinations for the Rabbit Protocol portal at this `MapNode` when a unit is facing the direction `dir` (`LEFT`, `RIGHT`, `ELEVATOR`, or `OTHER`).
 
 See also [RabbitManager::CreateRabbitSquad](/api/Global/Rabbits/RabbitManager#createrabbitsquadsefiraenum-int).
 
@@ -446,7 +446,7 @@ See also [RabbitManager::CreateRabbitSquad](/api/Global/Rabbits/RabbitManager#cr
 | Name | Type | Description |
 | --- | --- | --- |
 | `teleportTo` | `System.Collections.Generic.List{MapNode}` | The list of teleport desinations (`MapNodes`). |
-| `dir` | `Global.UnitDirection` | The facing direction required for the Rabbit Protocol portal (`LEFT`, `RIGHT`, `OTHER`, or `ELEVATOR`). |
+| `dir` | `Global.UnitDirection` | The facing direction required for the Rabbit Protocol portal (`LEFT`, `RIGHT`, `ELEVATOR`, or `OTHER`). |
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)

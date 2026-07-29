@@ -2,7 +2,7 @@
 title: AnimatorManager
 description: 
 published: true
-date: 2026-07-29T16:24:01.711Z
+date: 2026-07-29T16:24:24.632Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:01:55.834Z
@@ -17,6 +17,9 @@ public class AnimatorManager : MonoBehaviour
 ```
 > This section may have incomplete or incorrect information.
 {.is-warning}
+
+> This class is not used.
+{.is-info}
 
 Unused.
 

@@ -1,7 +1,13 @@
 ---
-uid: Global.ColorLimiter
-canonical_path: /api/Global/Misc/ColorLimiter
+title: ColorLimiter
+description: 
+published: true
+date: 2026-07-30T20:58:06.817Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:26:18.096Z
 ---
+
 # Class ColorLimiter
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -15,6 +21,7 @@ public class ColorLimiter : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
+Limits the channels of a color to be within certain limits.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → ColorLimiter

@@ -2,7 +2,7 @@
 title: LayerSetter
 description: 
 published: true
-date: 2026-07-30T22:43:55.490Z
+date: 2026-07-30T22:44:06.098Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:27:36.131Z
@@ -21,7 +21,7 @@ public class LayerSetter : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Appears to set the `sortingOrder` and `sortingLayerID` of everything bleonging to this GameObject.
+Appears to set the `sortingOrder` and `sortingLayerID` of everything belonging to this GameObject.
 
 
 ## Inheritance

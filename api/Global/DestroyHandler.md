@@ -1,7 +1,13 @@
 ---
-uid: Global.DestroyHandler
-canonical_path: /api/Global/Misc/DestroyHandler
+title: DestroyHandler
+description: 
+published: true
+date: 2026-07-30T03:34:51.653Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:26:46.756Z
 ---
+
 # Class DestroyHandler
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,10 +18,7 @@ public class DestroyHandler : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-> This class is not used.
-{.is-info}
-
-Does some weird stuff with Callbacks, but I think this is unused...
+Does some weird stuff with Callbacks, but I'm not sure what...
 
 
 

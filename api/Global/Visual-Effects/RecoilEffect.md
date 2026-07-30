@@ -2,7 +2,7 @@
 title: RecoilEffect
 description: 
 published: true
-date: 2026-07-30T03:35:54.548Z
+date: 2026-07-30T03:37:00.888Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:43:45.577Z
@@ -18,7 +18,7 @@ public class RecoilEffect
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Possibly related to camera shake? Unsure. Used, though.
+Possibly related to camera shake. Used for one of [Apocalypse Bird](/api/Global/Abnormalities/Apocalypse-Bird/BossBird)'s animations.
 
 
 

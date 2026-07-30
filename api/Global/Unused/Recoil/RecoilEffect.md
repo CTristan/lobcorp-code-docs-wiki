@@ -1,7 +1,13 @@
 ---
-uid: Global.RecoilEffect
-canonical_path: /api/Global/Effect/RecoilEffect
+title: RecoilEffect
+description: 
+published: true
+date: 2026-07-30T03:35:25.898Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:43:45.577Z
 ---
+
 # Class RecoilEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,10 +18,7 @@ public class RecoilEffect
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-> This class is not used.
-{.is-info}
-
-Unused recoil effect
+Possibly related to camera shake? Unsure. Used, though.
 
 
 

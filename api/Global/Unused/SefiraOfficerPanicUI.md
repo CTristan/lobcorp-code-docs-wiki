@@ -1,7 +1,13 @@
 ---
-uid: Global.SefiraOfficerPanicUI
-canonical_path: /api/Global/IOBserver/SefiraOfficerPanicUI
+title: SefiraOfficerPanicUI
+description: 
+published: true
+date: 2026-07-30T03:32:57.566Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:29:01.599Z
 ---
+
 # Class SefiraOfficerPanicUI
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,10 +18,7 @@ public class SefiraOfficerPanicUI : MonoBehaviour, IObserver
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-> This class is not used.
-{.is-info}
-
-
+The indicator that all clerks and agents have died, maybe...
 
 
 

@@ -1,7 +1,13 @@
 ---
-uid: Global.SkeletonUIEvent
-canonical_path: /api/Global/Event/SkeletonUIEvent
+title: SkeletonUIEvent
+description: 
+published: true
+date: 2026-07-31T22:12:51.285Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:02:11.531Z
 ---
+
 # Class SkeletonUIEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -16,6 +22,10 @@ public class SkeletonUIEvent : MonoBehaviour
 ```
 > This section may have incomplete or incorrect information.
 {.is-warning}
+
+Script for a SkeletonGraphic.
+
+Seems to be used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn), [Amber Dusk](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dusk/BugDusk), [Amber Midnight](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Midnight/BugMidnight), and [Meat Lantern](/api/Global/Abnormalities/Meat-Lantern/Bunny).
 
 
 ## Inheritance

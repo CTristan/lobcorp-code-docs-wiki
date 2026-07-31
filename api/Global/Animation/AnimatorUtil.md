@@ -2,7 +2,7 @@
 title: AnimatorUtil
 description: 
 published: true
-date: 2026-07-31T19:19:10.943Z
+date: 2026-07-31T19:19:20.220Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:01:58.510Z
@@ -15,9 +15,6 @@ dateCreated: 2026-07-08T04:01:58.510Z
 ```csharp
 public class AnimatorUtil
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
 Class for Animator utilities. Only has one.
 
 HasParameter checks if an animator has a certain parameter.

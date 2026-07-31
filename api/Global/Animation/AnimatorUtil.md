@@ -1,7 +1,13 @@
 ---
-uid: Global.AnimatorUtil
-canonical_path: /api/Global/Animator/AnimatorUtil
+title: AnimatorUtil
+description: 
+published: true
+date: 2026-07-31T19:19:10.943Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:01:58.510Z
 ---
+
 # Class AnimatorUtil
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,7 +18,7 @@ public class AnimatorUtil
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Class for helpful utilities. Only one, though.
+Class for Animator utilities. Only has one.
 
 HasParameter checks if an animator has a certain parameter.
 
@@ -20,24 +26,18 @@ HasParameter checks if an animator has a certain parameter.
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorUtil
 
-## Constructors
-### AnimatorUtil()
-```csharp
-public AnimatorUtil()
-```
-
 ## Methods
 ### HasParameter(Animator, string)
 ```csharp
 public static bool HasParameter(Animator animator, string name)
 ```
-
+Returns `true` if the given animator has a parameter with the name `name`.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `animator` | `UnityEngine.Animator` |  |
-| `name` | `System.String` |  |
+| `animator` | `UnityEngine.Animator` | The `Animator` to check. |
+| `name` | `System.String` | The name of the parameter to check for. |
 
 #### Returns
 **Type:** System.Boolean

@@ -1,7 +1,13 @@
 ---
-uid: Global.AnimScript
-canonical_path: /api/Global/Script/AnimScript
+title: AnimScript
+description: 
+published: true
+date: 2026-07-31T18:15:51.187Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:01:47.978Z
 ---
+
 # Class AnimScript
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,11 +15,8 @@ canonical_path: /api/Global/Script/AnimScript
 ```csharp
 public class AnimScript : MonoBehaviour
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
-Parent class for most (maybe all) animations. Holds an animator, can set speed, and progresses the animation on update. Probably.
-
+Parent class for some [abnormality animation scripts](/api/Global/Abnormalities/CreatureAnimScript). Has a default implementation for `FixedUpdate`.
 
 
 ## Inheritance
@@ -27,13 +30,13 @@ Parent class for most (maybe all) animations. Holds an animator, can set speed, 
 ```csharp
 public AnimScript()
 ```
-
+Default constructor.
 ## Fields
 ### animator
 ```csharp
 public Animator animator
 ```
-
+The animator this script belongs to.
 
 #### Field Value
 **Type:** UnityEngine.Animator
@@ -42,7 +45,7 @@ public Animator animator
 ```csharp
 protected float defaultSpeed
 ```
-
+The speed of the animator.
 
 #### Field Value
 **Type:** System.Single
@@ -51,7 +54,7 @@ protected float defaultSpeed
 ```csharp
 protected float motionDelay
 ```
-
+The amount of time to wait before assigning the Animator's speed.
 
 #### Field Value
 **Type:** System.Single
@@ -61,13 +64,13 @@ protected float motionDelay
 ```csharp
 protected virtual void FixedUpdate()
 ```
-
+Waits for `motionDelay` seconds, then sets the Animator's speed to `defaultSpeed`.
 
 ### SetSpeed(float)
 ```csharp
 public void SetSpeed(float speed)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |

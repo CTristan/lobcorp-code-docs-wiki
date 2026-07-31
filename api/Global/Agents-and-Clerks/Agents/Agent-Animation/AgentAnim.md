@@ -1,7 +1,13 @@
 ---
-uid: Global.AgentAnim
-canonical_path: /api/Global/Misc/AgentAnim
+title: AgentAnim
+description: 
+published: true
+date: 2026-07-31T18:05:19.572Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T15:11:24.035Z
 ---
+
 # Class AgentAnim
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -13,7 +19,7 @@ public class AgentAnim : AnimScript, IAnimatorEventCalled
 {.is-warning}
 
 
-Animates [agents](/api/Global/Agents-and-Clerks/Agents/AgentUnit) <3
+Does not animate agents </3
 
 
 

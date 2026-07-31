@@ -2,7 +2,7 @@
 title: AgentAnim
 description: 
 published: true
-date: 2026-07-31T18:05:19.572Z
+date: 2026-07-31T18:05:33.387Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T15:11:24.035Z
@@ -15,8 +15,8 @@ dateCreated: 2026-07-08T15:11:24.035Z
 ```csharp
 public class AgentAnim : AnimScript, IAnimatorEventCalled
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
+> This class is unused.
+{.is-info}
 
 
 Does not animate agents </3

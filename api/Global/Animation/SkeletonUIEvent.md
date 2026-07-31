@@ -2,7 +2,7 @@
 title: SkeletonUIEvent
 description: 
 published: true
-date: 2026-07-31T22:12:51.285Z
+date: 2026-07-31T22:48:03.477Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:02:11.531Z
@@ -23,7 +23,7 @@ public class SkeletonUIEvent : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Script for a SkeletonGraphic.
+Script for a Spine SkeletonGraphic.
 
 Seems to be used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn), [Amber Dusk](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dusk/BugDusk), [Amber Midnight](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Midnight/BugMidnight), and [Meat Lantern](/api/Global/Abnormalities/Meat-Lantern/Bunny).
 
@@ -51,7 +51,10 @@ public string anim
 ```csharp
 public string currentAnimation
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
+The current animation being played.
 
 #### Field Value
 **Type:** System.String
@@ -60,7 +63,7 @@ public string currentAnimation
 ```csharp
 public bool loop
 ```
-
+Flag indicating whether the current animation should loop.
 
 #### Field Value
 **Type:** System.Boolean
@@ -70,6 +73,7 @@ public bool loop
 ```csharp
 public SkeletonGraphic graphic { get; }
 ```
+The Spine SkeletonGraphic this script belongs to.
 
 #### Property Value
 **Type:** Spine.Unity.SkeletonGraphic
@@ -78,6 +82,7 @@ public SkeletonGraphic graphic { get; }
 ```csharp
 public SkeletonDataAsset skeletonDataAsset { get; }
 ```
+The Spine SkeletonDataAsset of the SkeletonGraphic this script belongs to.
 
 #### Property Value
 **Type:** Spine.Unity.SkeletonDataAsset
@@ -86,6 +91,7 @@ public SkeletonDataAsset skeletonDataAsset { get; }
 ```csharp
 public SkeletonDataAsset SkeletonDataAsset { get; }
 ```
+The Spine SkeletonDataAsset of the SkeletonGraphic this script belongs to.
 
 #### Property Value
 **Type:** Spine.Unity.SkeletonDataAsset
@@ -95,25 +101,25 @@ public SkeletonDataAsset SkeletonDataAsset { get; }
 ```csharp
 public void SetUpPos()
 ```
-
+Unused.
 
 ### Start()
 ```csharp
 private void Start()
 ```
-
+Empty.
 
 ### Update()
 ```csharp
 private void Update()
 ```
-
+Empty.
 
 ### UpdateAnimation(string)
 ```csharp
 public void UpdateAnimation(string animation)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |
@@ -124,19 +130,21 @@ public void UpdateAnimation(string animation)
 ```csharp
 public void UpdateAnimation(string animation, bool loop)
 ```
+Sets the current animation to `animation` and loops it if `loop` is true.
 
+Uses `Spine.AnimationState::SetAnimation(int, string, bool)` on the `SkeletonGraphic`'s animation state.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `animation` | `System.String` |  |
-| `loop` | `System.Boolean` |  |
+| `animation` | `System.String` | The name of the animation to play. |
+| `loop` | `System.Boolean` | Flag indicating if the animation should loop. |
 
 ### UpdateAnimationOnce(string)
 ```csharp
 public void UpdateAnimationOnce(string animation)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |

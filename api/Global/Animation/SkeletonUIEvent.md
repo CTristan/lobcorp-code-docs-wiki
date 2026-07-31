@@ -2,7 +2,7 @@
 title: SkeletonUIEvent
 description: 
 published: true
-date: 2026-07-31T22:48:03.477Z
+date: 2026-07-31T22:52:38.558Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:02:11.531Z
@@ -20,12 +20,10 @@ dateCreated: 2026-07-08T04:02:11.531Z
 [RequireComponent(typeof(SkeletonGraphic))]
 public class SkeletonUIEvent : MonoBehaviour
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
 
 Script for a Spine SkeletonGraphic.
 
-Seems to be used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn), [Amber Dusk](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dusk/BugDusk), [Amber Midnight](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Midnight/BugMidnight), and [Meat Lantern](/api/Global/Abnormalities/Meat-Lantern/Bunny).
+Only used by [Amber Dawn](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dawn/BugDawn), [Amber Dusk](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Dusk/BugDusk), [Amber Midnight](/api/Global/Abnormalities/Ordeals/Amber-Ordeals/Amber-Midnight/BugMidnight), and [Meat Lantern](/api/Global/Abnormalities/Meat-Lantern/Bunny).
 
 
 ## Inheritance

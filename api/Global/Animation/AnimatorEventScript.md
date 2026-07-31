@@ -1,7 +1,13 @@
 ---
-uid: Global.AnimatorEventScript
-canonical_path: /api/Global/Script/AnimatorEventScript
+title: AnimatorEventScript
+description: 
+published: true
+date: 2026-07-31T19:15:46.895Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T04:01:53.198Z
 ---
+
 # Class AnimatorEventScript
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -12,7 +18,9 @@ public class AnimatorEventScript : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Calls a script if uh... if uh...
+Script which is attached to a game object and contains a [`IAnimatorEventCalled`](/api/Global/Animation/IAnimatorEventCalled) target.
+
+When the object associated with the target plays a `.anim` animation which contains an event, this script receives the event and calls the appropriate method on the target with any necessary parameters.
 
 
 
@@ -25,13 +33,13 @@ Calls a script if uh... if uh...
 ```csharp
 public AnimatorEventScript()
 ```
-
+Default constructor.
 ## Fields
 ### script
 ```csharp
 public MonoBehaviour script
 ```
-
+A reference to the target script, or the target script's parent.
 
 #### Field Value
 **Type:** UnityEngine.MonoBehaviour
@@ -40,7 +48,7 @@ public MonoBehaviour script
 ```csharp
 public IAnimatorEventCalled target
 ```
-
+The target script.
 
 #### Field Value
 **Type:** Global.IAnimatorEventCalled
@@ -50,7 +58,11 @@ public IAnimatorEventCalled target
 ```csharp
 public void AgentResetCommand()
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
+<!-- To investigate: Is this really unused? It's called by the animation "EM_teddy_work_Baked.anim", which is used by the animation controller Teddy_AgentCTRL, which is referenced in Animator.txt. Is this file ever read?-->
+Unused.
 
 ### AttackAnimCalled(int)
 ```csharp

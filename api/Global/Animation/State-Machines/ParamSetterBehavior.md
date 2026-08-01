@@ -2,7 +2,7 @@
 title: ParamSetterBehavior
 description: 
 published: true
-date: 2026-08-01T01:51:42.426Z
+date: 2026-08-01T20:21:00.338Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:52:07.513Z
@@ -17,7 +17,7 @@ public class ParamSetterBehavior : StateMachineBehaviour
 ```
 Custom state machine behaviour which sets a list of parameters upon entry and exit, specified by the Animator using this state.
 
-For example, the clerk animator (`Resources/animators/workeranimators/OfficerAnimator.controller`) resets the `PanicStart` parameter to `false` after entering the `PanicReady` state.
+For example, [Happy Teddy Bear](/api/Global/Abnormalities/Happy-Teddy-Bear/HappyTeddy)'s Animator (`Resources/animators/creatureanimators/teddy/TeddyCTRL.controller`) resets the `AttackType` integer parameter to `0` when entering its kill state (`Teddy_Special_Baked`). 
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ParamSetterBehavior

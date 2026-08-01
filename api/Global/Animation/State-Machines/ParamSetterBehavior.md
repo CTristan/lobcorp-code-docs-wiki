@@ -1,7 +1,13 @@
 ---
-uid: Global.ParamSetterBehavior
-canonical_path: /api/Global/StateMachineBehaviour/ParamSetterBehavior
+title: ParamSetterBehavior
+description: 
+published: true
+date: 2026-08-01T01:51:42.426Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T14:52:07.513Z
 ---
+
 # Class ParamSetterBehavior
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,29 +15,19 @@ canonical_path: /api/Global/StateMachineBehaviour/ParamSetterBehavior
 ```csharp
 public class ParamSetterBehavior : StateMachineBehaviour
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
+Custom state machine behaviour which sets a list of parameters upon entry and exit, specified by the Animator using this state.
 
-
-Sets the target values on entry and exit.
-
-
-
+For example, the clerk animator (`Resources/animators/workeranimators/OfficerAnimator.controller`) resets the `PanicStart` parameter to `false` after entering the `PanicReady` state.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ParamSetterBehavior
-
-## Constructors
-### ParamSetterBehavior()
-```csharp
-public ParamSetterBehavior()
-```
 
 ## Fields
 ### onStateEnter
 ```csharp
 public List<ParamSetterBehavior.ParamData> onStateEnter
 ```
+The list of integer parameters to modify when the state is entered, as `ParamData` (name and integer value).
 
 #### Field Value
 **Type:** System.Collections.Generic.List{ParamSetterBehavior.ParamData}
@@ -40,6 +36,7 @@ public List<ParamSetterBehavior.ParamData> onStateEnter
 ```csharp
 public List<ParamSetterBehavior.BoolParamData> onStateEnterBool
 ```
+The list of boolean parameters to modify when the state is entered, as `BoolParamData` (name and bool value).
 
 #### Field Value
 **Type:** System.Collections.Generic.List{ParamSetterBehavior.BoolParamData}
@@ -48,6 +45,7 @@ public List<ParamSetterBehavior.BoolParamData> onStateEnterBool
 ```csharp
 public List<ParamSetterBehavior.ParamData> onStateExit
 ```
+The list of integer parameters to modify when the state is exited, as `ParamData` (name and integer value).
 
 #### Field Value
 **Type:** System.Collections.Generic.List{ParamSetterBehavior.ParamData}
@@ -56,6 +54,7 @@ public List<ParamSetterBehavior.ParamData> onStateExit
 ```csharp
 public List<ParamSetterBehavior.BoolParamData> onStateExitBool
 ```
+The list of boolean parameters to modify when the state is exited, as `BoolParamData` (name and bool value).
 
 #### Field Value
 **Type:** System.Collections.Generic.List{ParamSetterBehavior.BoolParamData}
@@ -64,6 +63,7 @@ public List<ParamSetterBehavior.BoolParamData> onStateExitBool
 ```csharp
 public List<ParamSetterBehavior.ParamData> onStateMove
 ```
+Unused.
 
 #### Field Value
 **Type:** System.Collections.Generic.List{ParamSetterBehavior.ParamData}
@@ -73,33 +73,33 @@ public List<ParamSetterBehavior.ParamData> onStateMove
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
-
+For each integer parameter `ParamData` in `onStateEnter` and each boolean parameter `BoolParamData` in `onStateEnterBool`, sets that parameter to the stored value.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `animator` | `UnityEngine.Animator` |  |
-| `stateInfo` | `UnityEngine.AnimatorStateInfo` |  |
-| `layerIndex` | `System.Int32` |  |
+| `animator` | `UnityEngine.Animator` | The animator to set the parameters of. |
+| `stateInfo` | `UnityEngine.AnimatorStateInfo` | Unused. |
+| `layerIndex` | `System.Int32` | Unused. |
 
 ### OnStateExit(Animator, AnimatorStateInfo, int)
 ```csharp
 public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
-
+For each integer parameter `ParamData` in `onStateExit` and each boolean parameter `BoolParamData` in `onStateExitBool`, sets that parameter to the stored value.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `animator` | `UnityEngine.Animator` |  |
-| `stateInfo` | `UnityEngine.AnimatorStateInfo` |  |
-| `layerIndex` | `System.Int32` |  |
+| `animator` | `UnityEngine.Animator` | The animator to set the parameters of. |
+| `stateInfo` | `UnityEngine.AnimatorStateInfo` | Unused. |
+| `layerIndex` | `System.Int32` | Unused. |
 
 ### OnStateUpdate(Animator, AnimatorStateInfo, int)
 ```csharp
 public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
-
+Unused.
 
 #### Parameters
 | Name | Type | Description |

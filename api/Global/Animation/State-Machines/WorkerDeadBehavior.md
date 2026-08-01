@@ -2,7 +2,7 @@
 title: WorkerDeadBehavior
 description: 
 published: true
-date: 2026-08-01T01:27:27.522Z
+date: 2026-08-01T01:27:51.899Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:52:18.768Z
@@ -15,7 +15,7 @@ dateCreated: 2026-07-08T14:52:18.768Z
 ```csharp
 public class WorkerDeadBehavior : StateMachineBehaviour
 ```
-Custom animation state which sets `DeadType` to a random integer from 1 to 4 (inclusive).
+Custom animation state which sets the animation parameter `DeadType` to a random integer from 1 to 4 (inclusive).
 
 
 ## Inheritance
@@ -26,7 +26,7 @@ Custom animation state which sets `DeadType` to a random integer from 1 to 4 (in
 ```csharp
 public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 ```
-Sets the `DeadType` parameter to a random integer from 1 to 4 (inclusive).
+Sets the `DeadType` parameter on `animator` to a random integer from 1 to 4 (inclusive).
 
 #### Parameters
 | Name | Type | Description |

@@ -1,7 +1,13 @@
 ---
-uid: Global.ManageAnimScirpt
-canonical_path: /api/Global/StateMachineBehaviour/ManageAnimScirpt
+title: ManageAnimScirpt
+description: 
+published: true
+date: 2026-08-01T03:25:47.974Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T14:52:01.696Z
 ---
+
 # Class ManageAnimScirpt
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -13,9 +19,9 @@ public class ManageAnimScirpt : StateMachineBehaviour
 {.is-warning}
 
 
-Resets a bunch of animator variables to 0 or false when this state is entered.
+Custom animation state behaviour that sets a bunch of internal variables to `0` and immediately exits.
 
-
+Used by `OfficerAnimator` and possibly a few others.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [ScriptableObject](#) → [StateMachineBehaviour](#) → ManageAnimScirpt

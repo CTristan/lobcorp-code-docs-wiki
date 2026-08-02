@@ -2,21 +2,21 @@
 title: List of Worker Animation Controllers
 description: List of animation controllers used by agents and clerks
 published: true
-date: 2026-08-02T19:54:59.093Z
+date: 2026-08-02T22:14:41.790Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-01T23:02:45.762Z
 ---
 
-# List of Worker Animation Controllers
+# List of Worker Animator Controllers
 
-Agents and clerks, by default, use the `skeleton_Controller1.controller` animation controller (at `Assets/AnimatorController/skeleton_Controller1.controller`). However, in a number of different circumstances, this animator will be changed from the default. This page hosts a complete list of alternative animator controllers, organized by the method used to change it.
+Agents and clerks, by default, use the `skeleton_Controller1.controller` Animator Controller (at `Assets/AnimatorController/skeleton_Controller1.controller`). However, in a number of different circumstances, this Animator Controller will be changed from the default. This page hosts a complete list of alternative Animator Controllers, organized by the method used to change it.
 
-Each animation controller has a key associated with a skeleton controller file and a skeleton data file (the pairings can be found in the original file at `Resources/xml/worker/WorkerUniqueAnim.txt`). In addition to their key, they have an id, which appears unused but is included here for completeness.
+Each Animator Controller has a key associated with a skeleton controller file and a skeleton data file (the pairings can be found in the original file at `Resources/xml/worker/WorkerUniqueAnim.txt`). In addition to their key, they have an id, which appears unused but is included here for completeness.
 
 
 ## Default Animator
-The methods `WorkerUnit::ChangeAnimatorDefault()` and  `WorkerAnimatorChanger::ChangeAnimator()` reset the worker to use their default animator controller. When a worker has a `SPECIAL` type weapon,  `WorkerUnit::UpdateAnimatorChange` can also do this.
+The methods `WorkerUnit::ChangeAnimatorDefault()` and  `WorkerAnimatorChanger::ChangeAnimator()` reset the worker to use their default Animator Controller. When a worker has a `SPECIAL` type weapon,  `WorkerUnit::UpdateAnimatorChange` can also do this.
 
 ## Special Weapon Animators
 When a worker has a `SPECIAL` type weapon, `WorkerUnit::UpdateAnimatorChange` can change the animator to use the special weapon animator specified in `xml/Equipment/Equipment`.
@@ -57,7 +57,7 @@ For special weapons before `CensoredWeapon` (ID `12`) the skeleton controller is
 | 29| PianoWeapon | SpineData/SpineUniqueWeapon/PianoWeaponAnim/skeleton_Controller | SpineData/SpineUniqueWeapon/PianoWeaponAnim/skeleton_SkeletonData
 
 ## Tool Abnormality Use
-The method `WorkerUnit::ChangeAnimatorForcely(string, bool, bool)` is used only by abnormalities which specify the `workAnim` animation controller in their data (`Resources/xml/creaturestats/{abno}_stat.txt`). The only abnormalities that have these present are the tool abnormalities.
+The method `WorkerUnit::ChangeAnimatorForcely(string, bool, bool)` is used only by abnormalities which specify the `workAnim` Animator Controller in their data (`Resources/xml/creaturestats/{abno}_stat.txt`). The only abnormalities that have these present are the tool abnormalities.
 #### List
 |Id | Key | Skeleton Controller | Skeleton Data | uniqueFace | Used By |
 | --- | --- | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ The method `WorkerUnit::ChangeAnimatorForcely(string, bool, bool)` is used only 
 | 300007 | ReverseClockUse | SpineData/SpineWorkAnim/ReverseClockUse/agnet_Controller^[sic]^ | SpineData/SpineWorkAnim/ReverseClockUse/agnet_SkeletonData^[sic]^ | "unique" | ReverseClock |
 
 ## AgentModel::OnDie and OfficerModel::OnDie (deadSceneName)
-The methods `AgentModel::OnDie` and `OfficerModel::OnDie` use the animator controller specified by `deadSceneName` when a worker dies.
+The methods `AgentModel::OnDie` and `OfficerModel::OnDie` use the Animator Controller specified by `deadSceneName` when a worker dies.
 
 This value can be changed by the following methods.
 ### SetSpecialDeadScene(string)
@@ -99,7 +99,7 @@ See also `WorkerModel::TakeDamageWithoutEffect` and `WorkerModel::TakeDamage` fo
 | 10015 | BlueStarAgentDead | SpineData/SpineDeadScene/blueStarAgentDead/blueStarAgentDead_Controller | SpineData/SpineDeadScene/blueStarAgentDead/blueStarAgentDead_SkeletonData | BlueStar |
 
 ## WorkerAnimatorChanger::ChangeAnimator(string)
-The method `WorkerAnimatorChanger::ChangeAnimator(string)` changes the animator to the animation controller with the given name.
+The method `WorkerAnimatorChanger::ChangeAnimator(string)` changes the animator to the Animator Controller with the given name.
 #### List
 |Id | Key | Skeleton Controller | Skeleton Data | Used By |
 | --- | --- | --- | --- | --- |
@@ -112,7 +112,7 @@ The method `WorkerAnimatorChanger::ChangeAnimator(string)` changes the animator 
 Also used by `WorkerUnit::ChangeAnimatorForcely(string, bool, bool)` from `UseSkill::InitUseSkillAction`, see Tool Abnormality Use above.
 
 ## WorkerAnimatorChanger::ChangeAnimator(string, bool)
-The method `WorkerAnimatorChanger::ChangeAnimator(string, bool)` changes the animator to the animation controller with the given name, and with separator disabled^[What does this do?].
+The method `WorkerAnimatorChanger::ChangeAnimator(string, bool)` changes the animator to the Animator Controller with the given name, and with separator disabled^[What does this do?].
 #### List
 |Id | Key | Skeleton Controller | Skeleton Data | Used By |
 | --- | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ The method `WorkerAnimatorChanger::ChangeAnimator(string, bool)` changes the ani
 Also used with the value of `deadSceneName` (see `AgentModel::OnDie` and `OfficerModel::OnDie` (deadSceneName) above) and `specialWeaponAnim` (see `Special Weapon Animators` above).
 
 ## WorkerAnimatorChanger::ChangeAnimatorWithUniqueFace(string, bool)
-The method `WorkerAnimatorChanger::ChangeAnimator(string, bool)` changes the animator to the animation controller with the given name, and with separator disabled^[What does this do?]. It also sets the face to a unique face.
+The method `WorkerAnimatorChanger::ChangeAnimator(string, bool)` changes the animator to the Animator Controller with the given name, and with separator disabled^[What does this do?]. It also sets the face to a unique face.
 #### List
 |Id | Key | Skeleton Controller | Skeleton Data | Used By |
 | --- | --- | --- | --- | --- |

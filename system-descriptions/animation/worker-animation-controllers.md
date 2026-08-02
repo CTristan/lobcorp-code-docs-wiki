@@ -2,7 +2,7 @@
 title: Worker Animation Controllers
 description: List of animation controllers used by agents and clerks
 published: true
-date: 2026-08-02T19:47:13.283Z
+date: 2026-08-02T19:47:37.932Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-01T23:02:45.762Z
@@ -10,7 +10,7 @@ dateCreated: 2026-08-01T23:02:45.762Z
 
 # Worker Animation Controllers
 
-Agents and clerks, by default, use the `skeleton_Controller1.controller` animation controller (at `Assets/AnimatorController/skeleton_Controller1.controller`). However, in a number of different circumstances, this animator will be changed from the default. This page hosts a complete list of alternative animator controllers by the method used to change it.
+Agents and clerks, by default, use the `skeleton_Controller1.controller` animation controller (at `Assets/AnimatorController/skeleton_Controller1.controller`). However, in a number of different circumstances, this animator will be changed from the default. This page hosts a complete list of alternative animator controllers, organized by the method used to change it.
 
 Each animation controller has a key associated with a skeleton controller file and a skeleton data file (the pairings can be found in the original file at `Resources/xml/worker/WorkerUniqueAnim.txt`). In addition to their key, they have an id, which appears unused but is included here for completeness.
 

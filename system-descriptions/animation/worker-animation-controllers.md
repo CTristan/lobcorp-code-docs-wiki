@@ -2,7 +2,7 @@
 title: List of Worker Animation Controllers
 description: List of animation controllers used by agents and clerks
 published: true
-date: 2026-08-02T19:52:48.521Z
+date: 2026-08-02T19:54:59.093Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-01T23:02:45.762Z
@@ -21,7 +21,7 @@ The methods `WorkerUnit::ChangeAnimatorDefault()` and  `WorkerAnimatorChanger::C
 ## Special Weapon Animators
 When a worker has a `SPECIAL` type weapon, `WorkerUnit::UpdateAnimatorChange` can change the animator to use the special weapon animator specified in `xml/Equipment/Equipment`.
 
-Until `CensoredWeapon` (ID `12`) the skeleton controller is `SpineData/SpineUniqueWeapon/{key}Anim/{key}_Controller` and the skeleton data is `SpineData/SpineUniqueWeapon/{key}Anim/{key}_SkeletonData`. Starting with `CensoredWeapon`, the skeleton controller is `SpineData/SpineUniqueWeapon/{key}Anim/skeleton_Controller` and the skeleton data is `SpineData/SpineUniqueWeapon/{key}Anim/skeleton_SkeletonData` starting at `CensoredWeapon` (ID `12`).
+For special weapons before `CensoredWeapon` (ID `12`) the skeleton controller is `SpineData/SpineUniqueWeapon/{key}Anim/{key}_Controller` and the skeleton data is `SpineData/SpineUniqueWeapon/{key}Anim/{key}_SkeletonData`. Starting with `CensoredWeapon`, the skeleton controller is `SpineData/SpineUniqueWeapon/{key}Anim/skeleton_Controller` and the skeleton data is `SpineData/SpineUniqueWeapon/{key}Anim/skeleton_SkeletonData`.
 #### List
 |Id | Key | Skeleton Controller | Skeleton Data |
 | --- | --- | --- | --- |

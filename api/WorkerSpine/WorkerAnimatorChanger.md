@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.WorkerAnimatorChanger
-canonical_path: /api/WorkerSpine/WorkerAnimatorChanger
+title: WorkerAnimatorChanger
+description: 
+published: true
+date: 2026-08-03T17:28:07.346Z
+tags: 
+editor: markdown
+dateCreated: 2026-07-08T03:51:50.871Z
 ---
+
 # Class WorkerAnimatorChanger
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll
@@ -15,40 +21,39 @@ public class WorkerAnimatorChanger : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
+Changes the animation controller of an [agent](/api/Global/Agents-and-Clerks/Agents/AgentModel) or [clerk](/api/Global/Agents-and-Clerks/Clerks/OfficerModel).
+
+Present on every agent (`AgentUnit`) and clerk (`officer`), as well as [Nothing There's agent form](/api/Global/Abnormalities/Nothing-There/NothingWorker).
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → WorkerAnimatorChanger
 
-## Constructors
-### WorkerAnimatorChanger()
-```csharp
-public WorkerAnimatorChanger()
-```
-
 ## Fields
-### _animator
+### \_animator
 ```csharp
 private Animator _animator
 ```
-
+The `Animator` to modify.
 
 #### Field Value
 **Type:** UnityEngine.Animator
 
-### _setter
+### \_setter
 ```csharp
 private WorkerSpriteSetter _setter
 ```
-
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
 #### Field Value
 **Type:** WorkerSprite.WorkerSpriteSetter
 
-### _skeletonAnimator
+### \_skeletonAnimator
 ```csharp
 private SkeletonAnimator _skeletonAnimator
 ```
-
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
 #### Field Value
 **Type:** Spine.Unity.SkeletonAnimator

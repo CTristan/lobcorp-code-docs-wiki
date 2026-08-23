@@ -2,7 +2,7 @@
 title: Sound
 description: How sound works in LobCorp
 published: true
-date: 2026-08-23T22:18:58.459Z
+date: 2026-08-23T22:20:01.686Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-23T22:18:58.459Z
@@ -58,7 +58,7 @@ All SoundEffectPlayers are initially[^zpos-exceptions] created at the same `z` c
 Sounds played at the position of the camera (for example, when moved by [`SoundEffectPlayer::AttachToCamera`](/api/Global/Audio/SoundEffectPlayer#attachtocamera)) are heard at full volume regardless of where the camera currently is. For example, the bullet sounds when the player fires bullets are played at the camera. Scripts will also sometimes set the parent transform of the SoundEffectPlayer to the camera's transform or directly set the position to the current location of the camera.
 
 ## Music and Trumpets
-Music and emergency sounds are managed by the [`BgmManager`](/api/Global/Audio/BgmManager) game object. It has a single AudioSource which continously loops the current song, and uses `AudioSource::PlayOneShot` to play the emergency sounds. During Core Suppressions, the default behaviour is overridden to never play the default music or silence the current music (e.g., by [`BlueStar::Escape`](/api/Global/Abnormalities/Blue-Star/BlueStar#escape) fading out the music).
+Music and emergency sounds are managed by the [`BgmManager`](/api/Global/Audio/BgmManager) game object. It has a single AudioSource which continuously loops the current song, and uses `AudioSource::PlayOneShot` to play the emergency sounds. During Core Suppressions, the default behaviour is overridden to never play the default music or silence the current music (e.g., [`BlueStar::Escape`](/api/Global/Abnormalities/Blue-Star/BlueStar#escape) will not fade out the music).
 
 ## UI and AudioClipPlayer
 UI elements have an [`AudioClipPlayer`](/api/Global/Audio/AudioClipPlayer) game object, which plays sounds when buttons are hovered over or clicked. These are either "local" (meaning from this UI element) or "global" (shared between all UI elements). Regardless of the origin, the [`GlobalAudioManager`](/api/Global/Audio/GlobalAudioManager) provides an AudioSource not currently in use and PlayOneShot is used to play the AudioClip.

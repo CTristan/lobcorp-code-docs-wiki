@@ -2,7 +2,7 @@
 title: Sound
 description: How sound works in LobCorp
 published: true
-date: 2026-08-23T22:20:01.686Z
+date: 2026-08-23T22:21:56.540Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-23T22:18:58.459Z
@@ -36,7 +36,7 @@ A single AudioSource can play multiple AudioClips at once using `AudioSource::Pl
 For a more complete list of properties and methods, see the [Unity 2017.4 documentation for AudioSource](https://docs.unity3d.com/2017.4/Documentation/ScriptReference/AudioSource.html).
 
 ### AudioClip
-AudioClips contain the audio data to be played through AudioSources. They usually represent sound files loaded from the game's data, and cannot be altered. All changes to the sound (pitch, volume, speed, start time, etc.) are done through the AudioSource component.
+AudioClips contain the audio data to be played through AudioSources. They usually represent sound files loaded from the game's data, and cannot be altered during runtime. All changes to the sound (pitch, volume, speed, start time, etc.) are done through the AudioSource component.
 
 More information can be found at the [Unity 2017.4 documentation for AudioClip](https://docs.unity3d.com/2017.4/Documentation/ScriptReference/AudioClip.html).
 

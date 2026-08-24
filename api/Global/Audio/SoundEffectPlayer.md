@@ -2,7 +2,7 @@
 title: SoundEffectPlayer
 description: 
 published: true
-date: 2026-08-24T18:29:06.624Z
+date: 2026-08-24T18:29:17.943Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:02:44.134Z
@@ -15,9 +15,6 @@ dateCreated: 2026-07-08T04:02:44.134Z
 ```csharp
 public class SoundEffectPlayer : MonoBehaviour
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
 
 A `SoundEffectPlayer` is a game object used to play a sound.
 

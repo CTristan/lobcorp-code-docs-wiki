@@ -2,7 +2,7 @@
 title: SoundEffectPlayer
 description: 
 published: true
-date: 2026-08-24T18:29:17.943Z
+date: 2026-08-24T18:29:57.448Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T04:02:44.134Z
@@ -16,7 +16,7 @@ dateCreated: 2026-07-08T04:02:44.134Z
 public class SoundEffectPlayer : MonoBehaviour
 ```
 
-A `SoundEffectPlayer` is a game object used to play a sound.
+A `SoundEffectPlayer` is a game object used to play a sound. Most sounds are played this way, excluding UI sounds, the background music, and a few miscellaneous exceptions.
 
 See also [Sound](/system-descriptions/sound/Sound) for an overview of how sound works in Lobotomy Corporation.
 

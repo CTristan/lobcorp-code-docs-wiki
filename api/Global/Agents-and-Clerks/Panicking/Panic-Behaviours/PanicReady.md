@@ -2,7 +2,7 @@
 title: PanicReady
 description: 
 published: true
-date: 2026-09-08T19:02:30.719Z
+date: 2026-09-08T19:02:36.131Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T15:12:29.389Z
@@ -15,10 +15,6 @@ dateCreated: 2026-07-08T15:12:29.389Z
 ```csharp
 public class PanicReady : PanicAction
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
-
 Panic behaviour for an [`WorkerModel`](/api/Global/Agents-and-Clerks/WorkerModel) worker getting ready to panic.
 
 Ends by calling [`PanicReadyComplete`](/api/Global/Agents-and-Clerks/WorkerModel#panicreadycomplete), which decides the actual [`PanicAction`](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction) to perform.

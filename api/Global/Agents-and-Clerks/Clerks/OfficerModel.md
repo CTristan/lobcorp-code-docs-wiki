@@ -2,7 +2,7 @@
 title: OfficerModel
 description: 
 published: true
-date: 2026-09-08T18:36:40.478Z
+date: 2026-09-08T18:46:01.645Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:51:21.304Z
@@ -530,13 +530,26 @@ public override void OnStageRelease()
 ```csharp
 public override void Panic()
 ```
-
+Runs [`PanicOfficer(bool)`](/api/Global/Agents-and-Clerks/Clerks/OfficerModel#panicofficer(bool)) with `force` false.
 
 ### PanicOfficer(bool)
 ```csharp
 public void PanicOfficer(bool force)
 ```
+Causes the clerk to panic.
 
+###### Details
+If dead, already panicking and the `shouldPanic` flag is false, uncontrollable (state is `CANNOT_CONTROLL`), or invincible, returns immediately.
+
+If the clerk is doing a special action (unused), halts it.
+
+If the `returnPanic` flag is true (indicating this unit is returning from panic) also returns immediately.
+
+If `mentalReturn` (unused) is 0, sets it to `maxMental*0.8f` floored.
+
+Sets the clerk's AI state to `PANIC`, sets the `shouldPanic` flag to false (indicating this clerk should not panic again, though this is redundant), resets the clerk's animation, and sets its current panic action to [`PanicReady`](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicReady).
+
+Then observers of `OnOfficerPanic` are notified, all [`UnitBufs`](/api/Global/Buffs/UnitBuf) have their [`UnitBuf::OnUnitPanic`](/api/Global/Buffs/UnitBuf#onunitpanic) called, and the faction is changed to [`PanicWorker`](/api/Global/Factions/FactionTypeList-StandardFaction)
 
 #### Parameters
 | Name | Type | Description |

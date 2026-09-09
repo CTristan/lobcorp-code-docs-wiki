@@ -2,7 +2,7 @@
 title: OfficerModel
 description: 
 published: true
-date: 2026-09-08T18:46:01.645Z
+date: 2026-09-09T03:28:59.159Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-08T14:51:21.304Z
@@ -549,18 +549,18 @@ If `mentalReturn` (unused) is 0, sets it to `maxMental*0.8f` floored.
 
 Sets the clerk's AI state to `PANIC`, sets the `shouldPanic` flag to false (indicating this clerk should not panic again, though this is redundant), resets the clerk's animation, and sets its current panic action to [`PanicReady`](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicReady).
 
-Then observers of `OnOfficerPanic` are notified, all [`UnitBufs`](/api/Global/Buffs/UnitBuf) have their [`UnitBuf::OnUnitPanic`](/api/Global/Buffs/UnitBuf#onunitpanic) called, and the faction is changed to [`PanicWorker`](/api/Global/Factions/FactionTypeList-StandardFaction)
+Then observers of `OnOfficerPanic` are notified, all [`UnitBufs`](/api/Global/Buffs/UnitBuf) have their [`UnitBuf::OnUnitPanic`](/api/Global/Buffs/UnitBuf#onunitpanic) called, and the faction is changed to [`PanicWorker`](/api/Global/Factions/FactionTypeList).
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `force` | `System.Boolean` |  |
+| `force` | `System.Boolean` | Ignored. |
 
 ### PanicReadyComplete()
 ```csharp
 public override void PanicReadyComplete()
 ```
-
+If not panicking, or panicking with the panic action [`PanicReady`](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicReady), sets the current panic action to [`PanicOfficer`](/api/Global/Agents-and-Clerks/Panicking/PanicOfficer).
 
 ### PrepareToSuicide()
 ```csharp
